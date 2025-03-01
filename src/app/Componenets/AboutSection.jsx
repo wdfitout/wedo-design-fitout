@@ -13,7 +13,7 @@ const AboutSection = () => {
         <h3 className="text-white mb-2 text-md lg:text-3xl font-bold 
         flex justify-left">WHY CHOOSE WeDo INTERIOR?</h3>
         <h4 className="text-white mb-2 text-md lg:text-3xl font-bold 
-        flex justify-left">DESIGNING DREAMS CREATING REALITIES</h4>
+        flex justify-left">DESIGNING DREAMS CREATING REALITY</h4>
             <p className="text-white text-sm lg:text-lg mb-4">
             As one of the top interior design companies in Dubai, we are seasoned and professional enough cater to residential and commercial interior designs with a commitment to excellence and durability. Our team of professional interior designers in Dubai bring 10+ years of expertise to craft premium interiors that redefine luxury aesthetics and functionality in true means.
             </p>
