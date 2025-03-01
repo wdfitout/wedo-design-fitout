@@ -6,50 +6,29 @@ const AboutSection = () => {
             <div className="about-us px-2 mt-4">
             
             <h1 className="text-white mb-4 mt-0 text-lg lg:text-6xl lg:mt-10 lg:mb-10 font-bold flex 
-            justify-center">INTERIOR DESIGN DUBAI</h1>
+            justify-center">INTERIOR DESIGN DUBAI – CRAFTING LUXURY SPACES IN DUBAI</h1>
         <p className="text-white text-sm lg:text-lg mb-4">
-            Are you looking for the No.1 best 
-            interior design company in the UAE? 
-            We Do interiors is the best interior 
-            design company in Dubai, infact in whole UAE for our
-            professionalism in interior design in Dubai. </p>
+        Are you looking for the best interior design Dubai company? At WeDo Interior, we are specialized in crafting luxury interior designs in Dubai, delivering unmatched creativity, functionality and precision. Renowned across the Dubai, UAE, our expertise ensures every space embark with luxury lifestyle and elegant workspace. </p>
 
         <h3 className="text-white mb-2 text-md lg:text-3xl font-bold 
-        flex justify-left">WHY CHOOSE US?</h3>
+        flex justify-left">WHY CHOOSE WeDo INTERIOR?</h3>
             <p className="text-white text-sm lg:text-lg mb-4">
-            We are among the best interior design
-            companies in dubai, UAE. We are specialized in providing
-            services for Home interior Design, commercial, residential 
-            and other interior designs. As a best interior designer Dubai,
-            we have a team of highly professional interior designers which
-            work to provide best interior design Dubai. 
-            The work of our professionals speaks for itself.
+            As one of the top interior design companies in Dubai, we are seasoned and professional enough cater to residential and commercial interior designs with a commitment to excellence and durability. Our team of professional interior designers in Dubai bring 10+ years of expertise to craft premium interiors that redefine luxury aesthetics and functionality in true means.
             </p>
           
           <h3 className="text-white mb-2 text-md lg:text-3xl font-bold 
-        flex justify-left">OUR FEATURES:</h3>
+        flex justify-left">OUR EXPERTISE & INTERIOR DESIGN FEATURES:</h3>
             <p className="text-white text-sm lg:text-lg 
-            mb-0"><b>Expertise in industry:</b>  
-            We have a team of skilled designers,  having their skills on
-             a wide range of interior design Dubai projects. We stay in touch
-              with the latest trends and techniques, ensuring your space reflects 
-              not just timeless design
+            mb-0"><b>Industry-Leading Expertise:</b>  
+            <br></br>Our skilled interior designers in Dubai specialize in luxury villa interior design, corporate office spaces, premium retail outlets, and prime fit-outs. We stay ahead with the latest interior design trends in Dubai, ensuring modern elegance with timeless appeal.
              principles but also modern functionality.<br></br>
-            <b>Talent:</b>  We don't just follow trends, we set them.
-             Our designers are overflowing with creativity and talent.
-              We have design the spaces by focusing on each element of 
-              the project like ensuring modern house design, bedroom 
-              ceiling design, modern gate design , joinery works and 
-              bold bespoke design.<br></br>
-            <b>Client Satisfaction:</b>  Your happiness is our priority. 
-             We focus to understand your needs and lifestyle to create an interior design 
-             that perfectly suits you and reflects your personality. With our skills,
-              talents and abilities we are able to meet clients requirements and prove our 
-            self as the best interior designing company Dubai.<br></br>
-            <b>Complete Services:</b> From Design to handover, We Do 
-            Interior Design offers a complete package of Interior 
-            Design and fitout services customized to meet your 
-            special needs.
+            <b>Creative & Innovative Design:</b>
+            <br></br>We don’t just follow interior design trends—we set them. Whether it's modern apartment design, luxury villa interiors, bedroom ceiling design, joinery works, or statement pieces, our attention to detail transforms every space into a masterpiece. We blends shades with creativity to next level.<br></br>
+            <b>Client-Centric Approach:</b>
+            <br></br>Your vision is our priority. We are always ready to listen you and take the time to understand your lifestyle and preferences, curating custom interior design solutions that reflect your personality while enhancing functionality. Its all about to bring life to your vision.
+            <b>Complete Interior Design & Fit-Out Solutions:</b>
+           <br></br> <b>Turn Key Solutions:</b>
+            <br></br>From initial concept to final execution of design, we provide end-to-end interior design and fit-out services in Dubai. Whether you need a complete villa transformation or a high-end commercial interior, we handle everything with precision.
             </p>
             </div>
         </section>

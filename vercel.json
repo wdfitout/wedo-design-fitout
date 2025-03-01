@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "http://wedointerior.ae/:path*",
+        "destination": "https://www.wedointerior.ae/:path*",
+        "permanent": true
+      },
+      {
+        "source": "https://wedointerior.ae/:path*",
+        "destination": "https://www.wedointerior.ae/:path*",
+        "permanent": true
+      }
+    ]
+  }
+  
