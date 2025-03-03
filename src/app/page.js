@@ -1,5 +1,5 @@
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";  
+import Head from "next/head";
+import CanonicalTag from "./Componenets/CanonicalTag";
 import Navbar from "./Componenets/Navbar";
 import CallButton from "./Componenets/CallButton";
 import WhatsAppButton from "./Componenets/WhatsAppButton";
@@ -20,8 +20,11 @@ import Footer from "./Componenets/Footer";
 export default function Home() {
   return (
     <>
-      
-      
+      <Head>
+        <title>Interior Design Services | Luxury Fit-Out Solutions in Dubai</title>
+        <meta name="description" content="Explore our interior design and fit-out services in Dubai. From luxury residential interiors to commercial fit-outs, we create stunning spaces tailored to your needs." />
+      </Head>
+      <CanonicalTag />
       <main className="relative flex flex-col min-h-screen bg-[#121212]">
         <Navbar className="absolute top-0 z-10 w-screen" />
         <EmblaCarousel />
@@ -49,10 +52,6 @@ export default function Home() {
         <EmblaCarousel3 />
         <ContactUs />
         <Footer />
-
-        {/* Analytics & SpeedInsights Properly Wrapped */}
-        <Analytics />
-        <SpeedInsights />
       </main>
     </>
   );
