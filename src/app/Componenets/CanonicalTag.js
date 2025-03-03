@@ -5,7 +5,9 @@ import Head from "next/head";
 
 export default function CanonicalTag() {
   const pathname = usePathname();
-  const canonicalUrl = `https://www.wedointerior.ae${pathname}`;
+  
+  // ✅ Remove trailing slash (if exists) to prevent duplicate canonical URLs
+  const canonicalUrl = `https://www.wedointerior.ae${pathname}`.replace(/\/$/, "");
 
   return (
     <Head>

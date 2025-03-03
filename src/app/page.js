@@ -20,9 +20,16 @@ import Footer from "./Componenets/Footer";
 export default function Home() {
   return (
     <>
-      <Head>
+          <Head>
         <title>Interior Design Services | Luxury Fit-Out Solutions in Dubai</title>
         <meta name="description" content="Explore our interior design and fit-out services in Dubai. From luxury residential interiors to commercial fit-outs, we create stunning spaces tailored to your needs." />
+        
+        {/* ✅ Open Graph Tags for Social Media */}
+        <meta property="og:title" content="Interior Design Services | Luxury Fit-Out Solutions in Dubai" />
+        <meta property="og:description" content="Explore our interior design and fit-out services in Dubai. From luxury residential interiors to commercial fit-outs, we create stunning spaces tailored to your needs." />
+        <meta property="og:image" content="https://www.wedointerior.ae/images/seo-thumbnail.jpg" />
+        <meta property="og:url" content="https://www.wedointerior.ae/" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <CanonicalTag />
       <main className="relative flex flex-col min-h-screen bg-[#121212]">

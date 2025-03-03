@@ -1,5 +1,6 @@
 import "./globals.css";
 import Script from "next/script";
+import Head from "next/head";
 
 // ✅ JSON-LD Structured Data
 const jsonLd = JSON.stringify({
@@ -39,11 +40,25 @@ const jsonLd = JSON.stringify({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {/* ✅ JSON-LD Structured Data */}
+      <Head>
+        {/* ✅ Meta Tags for Global Settings */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="/favicon.ico" />
+
+        {/* ✅ JSON-LD Structured Data (Moved to <head>) */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
-        {/* ✅ Google Tag Manager - Body */}
+        {/* ✅ Google Tag Manager Script */}
+        <Script
+          id="gtm-script"
+          strategy="lazyOnload"
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-PZSS6ZMR"
+        />
+      </Head>
+
+      <body>
+        {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PZSS6ZMR"
@@ -53,18 +68,8 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        {/* ✅ Google Tag Manager - Script */}
-        <Script 
-          id="gtm-script" 
-          strategy="lazyOnload" 
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-PZSS6ZMR"
-        />
-
         {/* ✅ Google Analytics */}
-        <Script 
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
-        />
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409" />
         <Script
           id="google-ads-tracking"
           strategy="afterInteractive"
