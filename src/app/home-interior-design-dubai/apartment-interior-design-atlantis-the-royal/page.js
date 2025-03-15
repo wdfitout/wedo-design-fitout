@@ -1,5 +1,5 @@
 import React from "react";
-import CanonicalTag from "../Componenets/CanonicalTag";
+import CanonicalTag from "@/app/Componenets/CanonicalTag";
 import Navbar from "@/app/Componenets/Navbar";
 import Hero from "./Components/Hero";
 import WhatsAppButton from "@/app/Componenets/WhatsAppButton";
