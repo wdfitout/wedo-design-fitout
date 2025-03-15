@@ -3,9 +3,7 @@ import '../../globals.css';
 export const metadata = {
   title: "Classy YM Retail Shop Interior Design Dubai - We Do Interiors",
   description: "Create a stunning retail space with We Do Interiors. Experience the elegance of Classy YM retail shop with our expert interior design services in Dubai.",
-alternates: {
-    canonical: "https://www.wedointerior.ae/retail-interior-design-dubai/clothing-store-premium-interior-design-in-al-wasl-dubai",
-  },
+
 };
 
 export default function RootLayout({ children }) {

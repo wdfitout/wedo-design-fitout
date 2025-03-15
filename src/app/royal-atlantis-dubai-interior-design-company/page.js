@@ -1,24 +1,26 @@
 import React from "react";
-import Navbar from "@/app/Componenets/Navbar";
+import CanonicalTag from "../Componenets/CanonicalTag"; // Ensure correct import path
+import Navbar from "../Componenets/Navbar";
 import Hero from "./Components/Hero";
-import WhatsAppButton from "@/app/Componenets/WhatsAppButton";
-import CallButton from "@/app/Componenets/CallButton";
+import WhatsAppButton from "../Componenets/WhatsAppButton";
+import CallButton from "../Componenets/CallButton";
 import AtrId from "./Components/AtrId";
 import AtrdM from "./Components/AtridM";
-import Footer from "@/app/Componenets/Footer";
+import Footer from "../Componenets/Footer";
 
-
-export default function home() {
+export default function Home() {
   return (
-    <div className="relative flex flex-col min-h-screen bg-[#121212]">
-      <Navbar />
-      <Hero />
-      <WhatsAppButton />
-      <CallButton />
-      <AtrId />
-      <AtrdM />
-      <Footer />
-
-    </div>
+    <>
+      <CanonicalTag />
+      <main className="relative flex flex-col min-h-screen bg-[#121212]">
+        <Navbar />
+        <Hero />
+        <WhatsAppButton />
+        <CallButton />
+        <AtrId />
+        <AtrdM />
+        <Footer />
+      </main>
+    </>
   );
-};
+}

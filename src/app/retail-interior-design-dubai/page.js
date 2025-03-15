@@ -1,20 +1,26 @@
 import React from "react";
+import CanonicalTag from "../Componenets/CanonicalTag"; // Ensure correct import path
 import Navbar from "../Componenets/Navbar";
-import CallButton from "../Componenets/CallButton";
-import WhatsAppButton from "../Componenets/WhatsAppButton";
 import Hero from "./Components/Hero";
+import WhatsAppButton from "../Componenets/WhatsAppButton";
+import CallButton from "../Componenets/CallButton";
 import RetailProjects from "./Components/RetailProjects";
 import Footer from "../Componenets/Footer";
 
-export default function home() {
+export default function Home() {
   return (
-    <div className="relative flex flex-col min-h-screen bg-[#121212]">
-      <Navbar />
-      <CallButton />
-      <WhatsAppButton />
-      <Hero />
-      <RetailProjects />
-      <Footer />
-    </div>
+    <>
+      
+        <CanonicalTag />
+      
+      <main className="relative flex flex-col min-h-screen bg-[#121212]">
+        <Navbar />
+        <Hero />
+        <WhatsAppButton />
+        <CallButton />
+        <RetailProjects />
+        <Footer />
+      </main>
+    </>
   );
-};
+}

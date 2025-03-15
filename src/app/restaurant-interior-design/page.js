@@ -1,20 +1,22 @@
 import React from "react";
-import Navbar from "@/app/Componenets/Navbar";
+import CanonicalTag from "../Componenets/CanonicalTag";
+import Navbar from "../Componenets/Navbar";
 import Hero from "./Components/Hero";
-import WhatsAppButton from "@/app/Componenets/WhatsAppButton";
-import CallButton from "@/app/Componenets/CallButton";
-import BusinessBay from "./Components/RiDd";
-import Footer from "@/app/Componenets/Footer";
+import WhatsAppButton from "../Componenets/WhatsAppButton";
+import CallButton from "../Componenets/CallButton";
+import RiDd from "./Components/RiDd";
+import Footer from "../Componenets/Footer";
 
 
 export default function home() {
   return (
     <div className="relative flex flex-col min-h-screen bg-[#121212]">
+       <CanonicalTag />
       <Navbar />
       <Hero />
       <WhatsAppButton />
       <CallButton />
-      <BusinessBay />
+      <RiDd />
       <Footer />
 
     </div>

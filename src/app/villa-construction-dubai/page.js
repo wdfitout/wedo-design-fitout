@@ -1,5 +1,5 @@
 import React from "react";
-
+import CanonicalTag from "../Componenets/CanonicalTag";
 import Navbar from "../Componenets/Navbar";
 import Hero from "./Components/Hero";
 import Article from "./Components/Article";
@@ -12,7 +12,7 @@ export default function home() {
   return (
     <div className="relative flex flex-col min-h-screen bg-[#121212]">
       
-       
+      <CanonicalTag />
       
       <div>
         <Navbar />

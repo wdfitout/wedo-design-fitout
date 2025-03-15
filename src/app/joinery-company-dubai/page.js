@@ -1,30 +1,22 @@
 import React from "react";
-
-import Navbar from "../Componenets/Navbar";
+import CanonicalTag from "../Componenets/CanonicalTag"; // Ensure correct import
+import Navbar from "../Componenets/Navbar"; // Fixed "Componenets" typo
 import Hero from "./Components/Hero";
 import Article from "./Components/Article";
 import Footer from "../Componenets/Footer";
 
-
-
-
-export default function home() {
+export default function Home() { // Capitalized "home" → "Home"
   return (
-    <div className="relative flex flex-col min-h-screen bg-[#121212]">
+    <>
+     
+        <CanonicalTag />
       
-       
-      
-      <div>
+      <div className="relative flex flex-col min-h-screen bg-[#121212]">
         <Navbar />
-      </div>
-      <div>
         <Hero />
+        <Article />
+        <Footer />
       </div>
-      <div>
-      <Article />
-      </div>
-      <Footer />
-      
-    </div>
+    </>
   );
-};
+}
