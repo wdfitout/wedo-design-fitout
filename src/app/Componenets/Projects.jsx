@@ -61,13 +61,15 @@ const Projects = () => {
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Elevate your living experience with our premier 
-        home Interior Design services in Dubai.
-         As a best interior design company we have transformed 
-         numerous residences in iconic locations such as
-          Emaar Beachfront,Al Manara Center, Penthouse Dubai, 
-          Jumeirah Beach Residence, and Atlantis The Royal. 
-          We specialize in creating bold bespoke design.</p>
+      <p>Get an unforgettable dining ambiance today with
+        our top-tier restaurant interior design Dubai services.  
+        Highly professional and experienced team of WeDo Interior
+        Design & Fitout crafted a lot of projects in the land of
+        Dubai, UAE. We designed a variety of dining spaces from
+        luxury fine dining spaces to elegant cafes and trendy
+        modern cafes. 
+        
+</p>
     </div>
 </div>
 
@@ -91,13 +93,14 @@ const Projects = () => {
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Elevate your living experience with our premier 
-        home Interior Design services in Dubai.
-         As a best interior design company we have transformed 
-         numerous residences in iconic locations such as
-          Emaar Beachfront,Al Manara Center, Penthouse Dubai, 
-          Jumeirah Beach Residence, and Atlantis The Royal. 
-          We specialize in creating bold bespoke design.</p>
+      <p>Upscale your retail space with our retail interior design
+        Dubai services. We create user-friendly environments for
+        Beauty salons, high-end brand stores, Facial lounges and
+        boutiques, enhancing brand identity and customer experience.
+        High end and luxury projects in Dubai Hills Mall,
+         Business Bay, Jumeirah 1, and in
+        The Palm Jumeirah, are on our credit.
+       </p>
     </div>
 </div>
 
@@ -121,13 +124,14 @@ const Projects = () => {
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Elevate your living experience with our premier 
-        home Interior Design services in Dubai.
-         As a best interior design company we have transformed 
-         numerous residences in iconic locations such as
-          Emaar Beachfront,Al Manara Center, Penthouse Dubai, 
-          Jumeirah Beach Residence, and Atlantis The Royal. 
-          We specialize in creating bold bespoke design.</p>
+     <p>Elevate your workspace into an excellent workflow space
+        with our commercial interior design Dubai solutions.
+        Corporate offices, coworking spaces, or executive suites, our
+        professional architectures deliver innovative designs from
+        concept to this real world that enhance true productivity.
+        As top 1 commercial interior design Dubai company, WeDo Interior
+        crafted luxury corporate in the high-end areas of Dubai.
+</p>
     </div>
 </div>
 

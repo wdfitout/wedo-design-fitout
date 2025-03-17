@@ -2,6 +2,11 @@ import "./globals.css";
 import Script from "next/script";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Luxury Interior Design & Fit-Out in Dubai | We Do Interior Dubai",
+  description: "We Do Interior offering unparalleled interior design services in Dubai. With attention to detail and creativity, we transform your vision into reality.",
+};
+
 // ✅ JSON-LD Structured Data
 const jsonLd = JSON.stringify({
   "@context": "https://schema.org",
