@@ -36,7 +36,7 @@ const Footer = () => {
     </div>
     <div className="flex items-center mb-2">
       <IoIosMail className="h-4 w-4 mr-2 text-[#c38d90]" /> 
-      <p>INFO@WDFITOUT.COM</p>
+      <p>INFO@WEDOINTERIOR.AE</p>
     </div>
     <div className="flex items-start mb-2">
   <IoLocationSharp className="h-4 w-4 mr-2 text-[#c38d90]" />
