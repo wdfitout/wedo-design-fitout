@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <section id="contact-us" className="container mx-auto mt-20 px-4">
     <div className="contact-us">
-    <h2 className="text-white mb-8 text-lg lg:text-6xl font-bold text-center">
+    <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
           CONTACT US
         </h2>  
     </div>

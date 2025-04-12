@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <section id="features">
   <div className="areas w-full mt-10">
-    <h2 className="text-white mb-8 text-lg lg:text-6xl font-bold text-center">
+    <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
     INTERIOR DESIGN FEATURES WE PROVIDE IN DUBAI
     </h2>
         <div className="flex flex-wrap justify-center">

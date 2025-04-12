@@ -20,7 +20,7 @@ export function EmblaCarousel() {
       
     <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/luxury-interior-design-home-design-dubai.webp"
+          src="/images/xaima (13).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -31,7 +31,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-interior-design-companies-apartment-sitting-area.webp"
+          src="/images/luxury-apartment-design-dubai-marina.jpg"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -42,7 +42,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-restaurant-interior-design-best-company.webp"
+          src="/images/vogue (7).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -53,7 +53,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/luxury-apartment-dinning-experience.webp"
+          src="/images/pjapt (1).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -64,7 +64,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/office-reception-interior-design-dubai.webp"
+          src="/images/dmapt (31).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -75,7 +75,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-atlantis-the-royal-luxury-apartment.webp"
+          src="/images/carnistore (6).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -86,7 +86,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/retaurant-interior-design-dubai.webp"
+          src="/images/ATRD (26).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -97,7 +97,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-interior-design-companies-luxury-villa.webp"
+          src="/images/nestfinder (12).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -108,7 +108,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/best-retaurant-interior-design-dubai.webp"
+          src="/images/code8 (19).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -119,7 +119,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/palm-jumeirah-luxury-apartment-living-room-interior-design-dubai.webp"
+          src="/images/alwasl (8).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -130,7 +130,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-luxury-home-interior-design-company.webp"
+          src="/images/jumeirahvilla (9).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -141,7 +141,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/dubai-interior-design-company-luxury-villa-sitting-room.webp"
+          src="/images/majanvilla (2).webp"
           alt="interior design"
           layout="responsive"
           width={1600}
@@ -152,7 +152,7 @@ export function EmblaCarousel() {
 
       <div className="embla__slide flex items-center justify-center">
         <Image
-          src="/images/no-1-house-interior-design-dubai.webp"
+          src="/images/manalajaj (12).webp"
           alt="interior design"
           layout="responsive"
           width={1600}

@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id="services">
       <div className="services px-2">
-      <h2 className="text-white mb-2 mt- text-lg lg:text-6xl font-bold text-center">
+      <h2 className="text-white mb-2 mt- text-lg lg:text-4xl font-bold text-center">
           SERVICES WE PROVIDE
         </h2><div className="flex flex-wrap justify-center">
           

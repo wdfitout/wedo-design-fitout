@@ -3,8 +3,8 @@ import Script from "next/script";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Luxury Interior Design & Fit-Out in Dubai | We Do Interior Dubai",
-  description: "We Do Interior offering unparalleled interior design services in Dubai. With attention to detail and creativity, we transform your vision into reality.",
+  title: "Interior Design Dubai | Luxury Fit-Out Services in UAE - WE DO Interior",
+  description: "WE DO Interior Design Dubai offers luxury interior design & fit-out services for residential, commercial, and retail projects across the UAE. Contact us!",
 };
 
 // ✅ JSON-LD Structured Data

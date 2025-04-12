@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects">
   <div className="areas w-full mt-10">
-    <h2 className="text-white mb-8 text-lg lg:text-6xl font-bold text-center">
+    <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
       INTERIOR DESIGN DUBAI PROJECTS
     </h2>
         <div className="flex flex-wrap justify-center">
@@ -26,7 +26,7 @@ const Projects = () => {
  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
   <div className="flex-grow mb-20 px-2">
     <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      HOME INTERIOR DESIGN
+      RESIDENTIAL INTERIOR DESIGN
     </h3>
   </div>
 </div>
@@ -55,26 +55,26 @@ const Projects = () => {
   <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
   <div className="flex-grow mb-20 px-2">
     <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      RESTAURANT INTERIOR DESIGN
+      COMMERCIAL INTERIOR DESIGN
     </h3>
   </div>
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Get an unforgettable dining ambiance today with
-        our top-tier restaurant interior design Dubai services.  
-        Highly professional and experienced team of WeDo Interior
-        Design & Fitout crafted a lot of projects in the land of
-        Dubai, UAE. We designed a variety of dining spaces from
-        luxury fine dining spaces to elegant cafes and trendy
-        modern cafes. 
-        
-</p>
+      <p>
+        Elevate your workspace into an excellent workflow space
+        with our commercial interior design Dubai solutions.
+        Corporate offices, coworking spaces, or executive suites, our
+        professional architectures deliver innovative designs from
+        concept to this real world that enhance true productivity.
+        As top commercial interior design Dubai company, WeDo Interior
+        crafted luxury corporate in the high-end areas of Dubai.
+        </p>
     </div>
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/retail-interior-design-dubai"}>
+  <Link href={"/design-build-services-in-dubai"}>
     <Image
         src="/images/beauty-salon-spa-retail-interior-design.webp"
         alt="Retail Beauty Salon -Design by One of the leading Interior Design Companies in Dubai "
@@ -87,25 +87,22 @@ const Projects = () => {
   <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
   <div className="flex-grow mb-20 px-2">
     <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      RETAIL DESIGN
+      DESIGN & BUILD
     </h3>
   </div>
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Upscale your retail space with our retail interior design
-        Dubai services. We create user-friendly environments for
-        Beauty salons, high-end brand stores, Facial lounges and
-        boutiques, enhancing brand identity and customer experience.
-        High end and luxury projects in Dubai Hills Mall,
-         Business Bay, Jumeirah 1, and in
-        The Palm Jumeirah, are on our credit.
+      <p>We are one of the premier building construction companies providing professional Design and Build Services in Dubai.
+         From idea to completion, we provide high quality projects designed specifically to your specifications. 
+         Our end-to-end solution guarantees smooth implementation, on-time delivery, and unparalleled craftsmanship in every aspect.
+
        </p>
     </div>
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/commercial-interior-design-dubai"}>
+  <Link href={"/fitout-company-dubai"}>
     <Image
       src="/images/x.learning (3).webp"
       alt="Corporate office reception interior design in Dubai"
@@ -118,19 +115,16 @@ const Projects = () => {
   <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
   <div className="flex-grow mb-20 px-2">
     <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      COMMERCIAL INTERIOR DESIGN
+      FIT-OUT SERVICES
     </h3>
   </div>
 </div>
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-     <p>Elevate your workspace into an excellent workflow space
-        with our commercial interior design Dubai solutions.
-        Corporate offices, coworking spaces, or executive suites, our
-        professional architectures deliver innovative designs from
-        concept to this real world that enhance true productivity.
-        As top 1 commercial interior design Dubai company, WeDo Interior
-        crafted luxury corporate in the high-end areas of Dubai.
+     <p>
+        Being a top building construction company, we offer premium Fit Out Services in Dubai, UAE. 
+        Being a reliable Interior Fitout Company in Dubai, our professional Fit Out Contractors 
+        offer premium Interior Fit-out & MEP Services as per your imagination—smooth execution from idea to delivery.
 </p>
     </div>
 </div>

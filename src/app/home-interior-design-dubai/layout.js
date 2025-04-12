@@ -1,8 +1,8 @@
 import "../globals.css";
 
 export const metadata = {
-  title: "Luxury Home Interior Design Dubai | Elegant & Functional Spaces",
-  description: "Discover luxury home interior designs in Dubai by WeDo Interior. We create luxury, elegant and functional spaces for villas and apartments. Contact us today!",
+  title: "Home Interior Design | interior designer dubai | We Do Interior",
+  description: "Elevate your home interior design with one of the best interior companies in Dubai. Browse our website and Book FREE consultation now with we do interior!",
 
 };
 

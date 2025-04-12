@@ -18,14 +18,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { 
-    icon: <FaTiktok />, 
-    href: "https://www.tiktok.com/@wedo_interior", 
-    hoverColor: "hover:text-teal-500"
-  },
+  
   { 
     icon: <FaInstagram />, 
-    href: "https://www.instagram.com/wedo_interior/", 
+    href: "https://www.instagram.com/we.do.uae/", 
     hoverColor: "hover:text-pink-500" 
   },
   { 
@@ -42,6 +38,11 @@ const socialLinks = [
     icon: <FaFacebook />, 
     href: "https://www.facebook.com/wedofitout", 
     hoverColor: "hover:text-blue-500" 
+  },
+  { 
+    icon: <FaTiktok />, 
+    href: "https://www.tiktok.com/@wedo_interior", 
+    hoverColor: "hover:text-teal-500"
   },
 ];
 

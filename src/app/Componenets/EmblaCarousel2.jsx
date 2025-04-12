@@ -14,7 +14,7 @@ export function EmblaCarousel2({ slideCount = 6 }) {
   const [emblaRef] = useEmblaCarousel(options, [Autoplay({ delay: 4000 })]);
 
   return (
-    <div className="embla w-screen overflow-hidden h-96" ref={emblaRef}>
+    <div className="embla w-screen overflow-hidden h-64" ref={emblaRef}>
       <div className="embla__container flex px-0"> {/* Removed gap classes */}
         {[...Array(slideCount)].map((_, index) => (
           <div
@@ -26,7 +26,7 @@ export function EmblaCarousel2({ slideCount = 6 }) {
               alt={`Slide ${index + 1}`}
               loading="lazy"
               sizes="(max-width: 640px) 90vw, (max-width: 768px) 50vw, (min-width: 1024px) 25vw"
-              width={300}
+              width={200}
               height={200}
               placeholder="blur"
               blurDataURL="/images/placeholder.webp"

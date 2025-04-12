@@ -6,8 +6,8 @@ const Areas = () => {
   return (
     <section id="areas">
     <div className="areas w-full mt-10">
-        <h2 className="text-white mb-8 text-lg lg:text-6xl font-bold text-center">
-            SOME OF ICONIC INTERIORS IN <br></br>DUBAI's HIGH-END AREAS</h2>
+        <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
+            SOME OF ICONIC INTERIORS IN DUBAI's HIGH-END AREAS</h2>
         </div>
         <div className="flex flex-wrap justify-center">
 
