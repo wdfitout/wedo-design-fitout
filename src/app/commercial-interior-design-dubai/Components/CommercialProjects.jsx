@@ -1,142 +1,106 @@
+
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
+const projects = [
+    {
+    img: "/images/commercial-office-reception-interior-design-dubai.webp",
+    alt: "Home Interior Design",
+    title: "DUBAI KNOWLEDGE PARK OFFICE FIT OUT",
+    href: "/dubai-knowledge-park-office-fit-out",
+  },
+  {
+    img: "/images/commercial (2).webp",
+    alt: "Apartment Interior Design",
+    title: "DUBAI OFFICE INTERIOR",
+    href: "/dubai-office-interior",
+  },
+  {
+    img: "/images/commercial (3).webp",
+    alt: "Apartment Interior Design",
+    title: "AL WASL CLOTHING STORE",
+    href: "/al-wasl-clothing-store",
+  },
+    {
+    img: "/images/commercial (4).webp",
+    alt: "Home Interior Design",
+    title: "AL SAFA REAL ESTATE OFFICE",
+    href: "/al-safa-real-estate-office",
+  },
+  {
+    img: "/images/commercial (5).webp",
+    alt: "Restaurant Interior Design",
+    title: "BUSINESS BAY TRAVEL AGENCY",
+    href: "/business-bay-travel-agency",
+  },
+];
 
 const CommercialProjects = () => {
-
   return (
-    <section id="#projects">
-    <div className="areas w-full mt-10">
-    <div className="flex flex-wrap justify-center">
-
-      <div className="w-full px-2 sm:w-1/2 mb-4 relative">
-  <Link href="commercial-interior-design-dubai/modern-office-interior-fit-out-near-dubai-knowledge-park">
-    <Image
-       src="/images/commercial-office-reception-interior-design-dubai.webp"
-      alt="Residential Project"
-      width={700}
-      height={300}
-      className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-              style={{ borderTopLeftRadius: '2rem' }}
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      XPERT LEARNING
-    </h2>
-  </div>
-</div>
-
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-    <p>WE DO Interior Design And Fitout designed a smart and functional office for Star Tech Company in Dubai. The space is perfect for today's tech teams, with everything they need to work efficiently. WE DO helps Dubai businesses create offices that work as hard as they do. Contact us to discuss your project! 
-      </p>
-  </div>
-</div>
-        
-      <div className="w-full px-2 sm:w-1/2 mb-4 relative">
-  <Link href="commercial-interior-design-dubai/innovative-office-interior-fit-out-dubai">
-    <Image
-       src="/images/commercial (2).webp"
-      alt="Residential Project"
-      width={700}
-      height={300}
-      className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tr-5xl lg:rounded-tl-none lg:rounded-none lg:rounded-r-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-              style={{ borderTopRightRadius: '2rem' }}
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      STAR TECH COMPANY
-    </h2>
-  </div>
-</div>
-
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-    <p>WE DO Interior Design And Fitout designed a smart and functional office for Star Tech Company in Dubai. The space is perfect for today's tech teams, with everything they need to work efficiently. WE DO helps Dubai businesses create offices that work as hard as they do. Contact us to discuss your project! 
-      </p>
-  </div>
-</div>
-
-<div className="w-full px-2 sm:w-1/2 mb-4 relative">
-<Link href="commercial-interior-design-dubai/office-interior-fit-out-dubai">
-    <Image
-       src="/images/commercial (3).webp"
-      alt="Residential Project"
-      width={700}
-      height={300}
-      className="w-full hover:transform hover:-translate-y-2 transition-transform duration-500"
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      SAUDI NETWORK SERVICES
-    </h2>
-  </div>
-</div>
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-    <p>As an Interior Design and Fitout comapny, we  designed a professional and modern workspace for Saudi Network Services in Dubai. The clean design keeps things organized and efficient, perfect for their team's needs. WE DO, Dubai's interior design experts, create offices that inspire productivity. Want a workspace that works for you? Contact WE DO Interior Design & Fitout today!</p>
-  </div>
-</div>
-
-<div className="w-full px-2 sm:w-1/2 mb-4 relative">
-<Link href="commercial-interior-design-dubai/stylish-real-estate-office-interior-fit-out-in-al-safa-dubai">
-    <Image
-       src="/images/commercial (4).webp"
-      alt="Residential Project"
-      width={700}
-      height={300}
-      className="w-full hover:transform hover:-translate-y-2 transition-transform duration-500"
-/>
-<div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      NEST FINDER
-    </h2>
-  </div>
-</div>
-
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-    <p>Turn your Dubai house into a dream home with WE DO Interior Design And Fitout! For Nest Finder, we created a cozy and beautiful living space that feels just right. WE DO, Dubai's interior design experts, can help you find your perfect interior style, whether it's modern, traditional, or something in between. Let's create your ideal nest together!</p>
-  </div>
-</div>
-
-<div className="w-full px-2 sm:w-1/2 mb-4 relative">
-<Link href="commercial-interior-design-dubai/travel-agency-office-interior-fit-out-in-business-bay-dubai
-">
-    <Image
-       src="/images/commercial (5).webp"
-      alt="Residential Project"
-      width={700}
-      height={300}
-      className="w-full rounded-b-3xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-      
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      MEBY TOURISM
-    </h2>
-  </div>
-</div>
-
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-    <p>Picture yourself planning your dream vacation at Meby Tourism's Dubai office! WE DO Interior Design And Fitout created a space that feels inspiring and inviting. The design reflects the excitement of travel, making you want to explore the world. WE DO, Dubai's interior design experts, helps businesses like Meby Tourism create a welcoming atmosphere for their clients. Let's design your dream workspace!
-
-    </p>
-  </div>
-</div>
-
+    <section
+      id="projects"
+      className="bg-[url('/images/p-bg.webp')] bg-cover bg-center bg-no-repeat text-white"
+    >
+      {/* Arrow image */}
+      <div className="mt-10 sm:mt-16 flex justify-center">
+        <Image
+          src="/images/sec-dvd.webp"
+          alt="Scroll down arrow"
+          width={320}
+          height={80}
+          className="h-auto w-48 sm:w-64"
+          loading="lazy"
+        />
       </div>
-    </div>
-  </section>
-);
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
+        {/* Section Title */}
+        <div className="relative mb-6 sm:mb-12">
+          <h2 className="text-lg sm:text-xl font-semibold tracking-wider text-center">
+            OUR COMMERCIAL PROJECTS IN DUBAI
+          </h2>
+        </div>
+
+        {/* Project Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {projects.map((card, index) => (
+            <Link key={index} href={card.href}>
+              <div className="relative aspect-[4/3] overflow-hidden group cursor-pointer w-full">
+                <Image
+                  src={card.img}
+                  alt={card.alt}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
+                  <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
+                  <div className="p-2">
+                    <h3 className="text-white text-sm text-center">{card.title}</h3>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* CTA Button */}
+        <div className="mt-12 flex justify-center">
+          <a
+            href="mailto:info@wedointerior.ae"
+            className="uppercase font-semibold tracking-wide px-20 py-3.5 text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
+            style={{
+              borderImage: "linear-gradient(to right, #caa193, #a0624d)",
+              borderImageSlice: 1,
+            }}
+          >
+            SEND YOUR ENQUIRY NOW
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 };
-
-
 
 export default CommercialProjects;

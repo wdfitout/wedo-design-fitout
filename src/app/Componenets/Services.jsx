@@ -1,131 +1,86 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+const services = [
+  {
+    href: "/design-build-services-in-dubai",
+    icon: "/images/ico1.svg",
+    title: "DESIGN & BUILD",
+    desc:
+      "Elevating spaces to artistry as a top Design and Build service provider in Dubai. We turn your vision into an inspiring reality through architectural excellence and interior finesse.",
+  },
+  {
+    href: "/villa-construction-dubai",
+    icon: "/images/ico2.svg",
+    title: "VILLA CONSTRUCTION",
+    desc:
+      "We are among the best villa construction companies in Dubai—building bespoke residences with quality materials, expert engineering, and elegant finishing.",
+  },
+  {
+    href: "/fit-out-company-dubai",
+    icon: "/images/ico3.svg",
+    title: "FITOUT",
+    desc:
+      "One of the most trusted fit-out companies in Dubai, we offer turnkey interior fitout solutions—combining design, MEP, and precision execution for luxurious environments.",
+  },
+  {
+    href: "/joinery-company-dubai",
+    icon: "/images/ico4.svg",
+    title: "JOINERY & MANUFACTURING",
+    desc:
+      "Custom-made joinery and woodwork crafted by expert artisans. From luxury wardrobes to reception counters, we manufacture premium fittings for every space.",
+  },
+];
+
 const Services = () => {
   return (
-    <section id="services">
-      <div className="services px-2">
-      <h2 className="text-white mb-2 mt- text-lg lg:text-4xl font-bold text-center">
+    <section id="services" className="bg-black text-white py-10">
+      <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[80%] mx-auto mb-10">
+        {/* Arrow image */}
+        <div className="mt-10 flex justify-center">
+          <Image
+            src="/images/sec-dvd.webp"
+            alt="Scroll down indicator"
+            width={320}
+            height={80}
+            className="h-auto w-48 sm:w-64"
+          />
+        </div>
+
+        {/* Section Heading */}
+        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           SERVICES WE PROVIDE
-        </h2><div className="flex flex-wrap justify-center">
-          
-          <div className="relative w-full sm:w-1/4 px-2 mb-4">
-          <Link href={"/design-build-services-in-dubai"}>
-              <div className="group">
-                {/* Background image */}
-                <div className="absolute  mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">
-                  <Image
-                    src="/images/design-build-interior-design-company-dubai.webp"
-                    alt="Project 1"
-                    title=""
-                    width={250}
-                    height={250}
-                    className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl transition-transform duration-500 transform group-hover:-translate-y-2 brightness-50"
-                  />
-                </div>
-                {/* Content */}
-                <div className="flex flex-col items-center justify-center py-16 px-2 relative z-10">
-                  <Image src="/images/Icon-4.webp" alt="We Do Fitout" width={70} height={60} className="icon h-17 mt-1 mb-4" />
-                  <h2 className="text-white text-md font-bold mb-2">DESIGN & BUILD</h2>
-                  <p className="text-white text-sm text-center">
-                  Elevating spaces to artistry as a best Design and Build service provider 
-                  in Dubai,UAE.Our interior design team
-                   turns your vision into an inspiring reality and
-                   prove themselves as the top interior design company Dubai.										
-                  </p>
-                </div>
-              </div>
-          </Link>
-          </div>
+        </h2>
 
-          <div className="relative w-full sm:w-1/4 px-2 mb-4">
-          <Link href={"/villa-construction-dubai"}>
-              <div className="group">
-                {/* Background image */}
-                <div className="absolute mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">
-                  <Image
-                    src="/images/villa-construction-by-luxury-interior-design-company-dubai.webp"
-                    alt="Project 1"
-                    title=""
-                    width={250}
-                    height={250}
-                    className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl transition-transform duration-500 transform group-hover:-translate-y-2 brightness-50"
-                  />
-                </div>
-                {/* Content */}
-                <div className="flex flex-col items-center justify-center py-16 px-2 relative z-10">
-                  <Image src="/images/Icon-2.webp" alt="We Do Fitout" width={100} height={10} className="icon h-17 mt-1 mb-4" />
-                  <h2 className="text-white text-md font-bold mb-2">VILLA CONSTRUCTION</h2>
-                  <p className="text-white text-sm text-center">
-                  We are among the best construction companies in dubai .
-                   We Do interiors is Building dreams one brick at a time. 
-                  Your trusted partner in crafting elegant and splendour villas. 
-                  Our interior Design team works hard to transform spaces.										
-                  </p>
-                </div>
-              </div>
-          </Link>
-          </div>
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {services.map((service, index) => (
+            <Link href={service.href} key={index}>
+              <div className="group p-4 h-full flex flex-col items-center text-center hover:bg-[#1a1a1a] transition duration-300 rounded-xl cursor-pointer shadow-lg">
+                {/* Icon */}
+                <Image
+                  src={service.icon}
+                  alt={`${service.title} icon`}
+                  width={60}
+                  height={60}
+                  className="mb-6"
+                />
 
-          <div className="relative w-full sm:w-1/4 px-2 mb-4">
-        <Link href={"/fitout-company-dubai"}>
-              <div className="group">
-                {/* Background image */}
-                <div className="absolute mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">
-                  <Image
-                    src="/images/interior-design-fitout-dubai.webp"
-                    alt="Project 1"
-                    title=""
-                    width={200}
-                    height={250}
-                    className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl transition-transform duration-500 transform group-hover:-translate-y-2 brightness-50"
-                  />
-                </div>
-                {/* Content */}
-                <div className="flex flex-col items-center justify-center py-16 px-2 relative z-10">
-                  <Image src="/images/Icon-1.webp" alt="We Do Fitout" width={50} height={10} className="icon h-25 mt-1 mb-4" />
-                  <h2 className="text-white text-md font-bold mb-2">FITOUT</h2>
-                  <p className="text-white text-sm text-center">
-                  We are proud to offer interior fit out contractor services  as 
-                   one of the best fit out companies in dubai. A fitout is the design,
-                   construction and installation of interior elements. 
-                  Our experienced team of designers. We create beautiful & functional spaces.										
-                  </p>
-                  
-                </div>
-              </div>
-          </Link>
-          </div>
+                {/* Title */}
+                <h3 className="text-xs font-conthrax uppercase mb-3 text-white tracking-wide">
+                  <span className="text-[#daa796]">{service.title}</span>
+                </h3>
 
-          <div className="relative w-full sm:w-1/4 px-2">
-          <Link href={"/joinery-company-dubai"}>
-              <div className="group">
-                {/* Background image */}
-                <div className="absolute mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">
-                  <Image
-                    src="/images/joinery-manufacturing-in-interior-design.webp"
-                    alt="Project 1"
-                    title=""
-                    width={250}
-                    height={250}
-                    className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl transition-transform duration-500 transform group-hover:-translate-y-2 brightness-50"
-                  />
-                </div>
-                {/* Content */}
-                <div className="flex flex-col items-center justify-center py-16 px-2 relative z-10">
-                  <Image src="/images/Icon-3.webp" alt="We Do Fitout" width={120} height={60} className="icon h-17 mt-1 mb-4" />
-                  <h2 className="text-white text-md font-bold mb-2">JOINERY & MANUFACTURING</h2>
-                  <p className="text-white text-sm text-center">
-                  We Do Interiors provide professional joinery works services in Dubai. 
-                  Elevate your spaces with our masterful joinery works, 
-                  carpentry and fittings with the help of professional Carpenters.
-                   our expert carpenters deliver quality solutions. 										 
-                  </p>
-                </div>
+                {/* Description */}
+                <p className="text-sm text-gray-400 leading-relaxed font-play">
+                  {service.desc}
+                </p>
               </div>
-          </Link>
-          </div> 
+            </Link>
+          ))}
         </div>
       </div>
     </section>

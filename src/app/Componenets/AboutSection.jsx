@@ -1,47 +1,96 @@
+"use client";
+
+import Image from "next/image";
 import React from "react";
 
-const AboutSection = () => {
-    return (
-        <section id="about-us">
-            <div className="about-us px-2 mt-4">
-            
-            <h1 className="text-white mt-0 text-lg lg:text-4xl lg:mt-5 lg:mb-5 font-bold flex 
-            justify-center">DESIGNING DREAMS, CRAFTING REALITY – INTERIOR DESIGN DUBAI, UAE
-            </h1>
-            
-        <p className="text-white text-sm lg:text-lg mb-4 ">
-        Are you looking for the best interior design company in Dubai, UAE? At <b>Interior Design Company Dubai - Wedo Design & Fitout </b>, we specialize in designing high-end interior designs in Dubai, providing <a href="https://wedointerior.ae/fitout-company-dubai" target="_blank"> <b>fit-out services</b></a> that merge creativity, functionality, and accuracy. We are Renowned for transforming both residential and commercial spaces, ensuring each project reflects a luxury lifestyle and refined workspace.</p>
+const features = [
+  {
+    title: "INDUSTRY-LEADING EXPERTISE",
+    description:
+      "Our skilled interior designers in Dubai specialize in luxury villa interior design, corporate office spaces, premium retail outlets, and prime fit-outs. We stay ahead with the latest interior design trends in Dubai, ensuring modern elegance with timeless appeal.",
+  },
+  {
+    title: "CREATIVE & INNOVATIVE DESIGN",
+    description:
+      "We don’t just follow interior design trends—we set them. Whether it’s modern apartment design, luxury villa interiors, bedroom ceiling design, joinery works, or statement pieces, our attention to details transforms every space into a masterpiece.",
+  },
+  {
+    title: "CLIENT-CENTRIC APPROACH",
+    description:
+      "Your vision is our priority. We are always ready to listen to you and take the time to understand your lifestyle and preferences. Creating custom interior design solutions that reflect your personality and enhance functionality—it’s all about bringing your vision to life.",
+  },
+  {
+    title: "TURN KEY SOLUTIONS",
+    description:
+      "From initial concept to final execution of design, we provide end-to-end interior design and fit-out services in Dubai. Whether you need a complete villa transformation or a high-end commercial interior, we handle everything with precision.",
+  },
+];
 
-        <h2 className="text-white mb-2 text-md lg:text-2xl font-bold 
-        flex justify-left">Expert Solutions for Dubai Residential and Commercial interiors
-        </h2>
-            <p className="text-white text-sm lg:text-lg mb-4">
-            Being one of the  top interior fit out companies in Dubai, we offer comprehensive interior design and fit-out services for residential, office, restaurant, and commercial spaces. We offer everything from residential interior design, such as <a href="https://wedointerior.ae/villa-interior-design-dubai" target="_blank"> <b>luxury villa interior design</b></a>
-            , to restaurant interior design and corporate office space. We also offer premium retail outlets and turnkey solutions across Dubai and the UAE.
-            </p>
-          
-          <h2 className="text-white mb-2 text-md lg:text-2xl font-bold 
-        flex justify-left">Designing for You – A Philosophy of Style, Function, and Purpose
-        </h2>
-            <p className="text-white text-sm lg:text-lg 
-            mb-4 ">With more than <b>10+ years of experience</b> under our belts, our expert team of interior designers in Dubai sets trends instead of chasing them. We make sure that each space we create embodies contemporary sophistication while providing practical solutions. It could be <a href="https://wedointerior.ae/restaurant-interior-design" target="_blank"> <b>restaurant interior design Dubai</b></a>
-, commercial interior design dubai, or a full villa makeover – we adopt a customer-oriented approach, focusing on your vision and maximizing functionality in each project.
-            </p>
-        <h2 className="text-white mb-2 text-md lg:text-2xl font-bold 
-        flex justify-left">Why Choose WE DO Interior – Excellence in Every Detail
-        </h2>
-            <p className="text-white text-sm lg:text-lg 
-            mb-4 ">A leader among the best fit out companies in Dubai, we take pride in providing innovative and creative design that adds value both aesthetically and functionally. We cover a wide range of areas including modern apartment design and modern apartment design through to high-end commercial interior and fit out solutions throughout Dubai. We take a keen interest in ensuring every project, both commercial and residential, is undertaken with excellence and a focus on detail.
-            </p>
-            <h2 className="text-white mb-2 text-md lg:text-2xl font-bold 
-        flex justify-left">Making Your Dream Design a Reality
-        </h2>
-            <p className="text-white text-sm lg:text-lg 
-            mb-0 ">If you are in search of trustworthy fit out companies in the UAE, expert interior design consultants in Dubai, or <a href="https://wedointerior.ae/design-build-services-in-dubai" target="_blank"> <b>Design and Build Solutions</b></a>, WE DO Interior is here to assist you. Reach out to us today to make your dream come true with luxury interior design and high-end fit-out services.
-</p>
- 
+const AboutSection = () => {
+  return (
+    <section id="about-us" className="bg-[url('/images/bg-sec-3.webp')] bg-cover bg-center bg-no-repeat text-white overflow-hidden">
+      {/* Top Intro Text */}
+      <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-12 text-start text-sm sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
+        <h1 className="text-white text-lg lg:text-4xl font-bold text-center mb-6">
+          DESIGNING DREAMS, CRAFTING REALITY – INTERIOR DESIGN DUBAI, UAE
+        </h1>
+        <p>
+          Are you looking for the best interior design company in Dubai, UAE? At <b>Interior Design Company Dubai - WeDo Design & Fitout</b>, we specialize in high-end interiors and <a href="https://wedointerior.ae/fitout-company-dubai" target="_blank"><b>fit-out services</b></a> that fuse creativity, precision, and style. From residential villas to commercial spaces, we craft designs that reflect luxury lifestyles and refined workplaces.
+        </p>
+      </div>
+
+      {/* Image Section */}
+      <div className="w-full mt-5 px-4 sm:px-6 md:px-8">
+        <div className="w-full max-w-[1200px] mx-auto">
+          <Image
+            src="/images/sec2-img1.webp"
+            alt="Interior design Dubai"
+            width={800}
+            height={600}
+            className="w-full h-auto"
+          />
+        </div>
+      </div>
+
+      {/* Wireframe and Content Section */}
+      <div className="relative px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-12 bg-no-repeat bg-cover bg-[url('/images/mobile-wire.svg')] lg:bg-[url('/images/desktop-wire.svg')]">
+
+        {/* Arrow */}
+        <div className="flex py-4 justify-center">
+          <Image
+            src="/images/sec-dvd.webp"
+            alt="Scroll down arrow"
+            width={320}
+            height={80}
+            className="h-auto w-48 sm:w-64"
+          />
+        </div>
+
+        {/* Why Choose WEDO */}
+        <div className="text-center mb-8">
+          <h2 className="text-sm sm:text-xl text-white tracking-widest font-conthrax py-5">
+            WHY CHOOSE WEDO INTERIOR?
+          </h2>
+          <p className="max-w-6xl mx-auto mt-4 text-sm sm:text-base text-gray-300 py-6 font-play">
+            As one of the top interior design companies in Dubai, our team offers more than 10 years of expertise in residential and commercial interior design. We focus on elegance, functionality, and personalized client service to turn your dream space into reality.
+          </p>
+        </div>
+
+        {/* Features */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
+          {features.map((feature, index) => (
+            <div key={index} className="space-y-3 px-2 text-start">
+              <h3 className="text-[#caa193] font-conthrax uppercase tracking-wide text-center">
+                {feature.title}
+              </h3>
+              <p className="text-gray-300 leading-relaxed font-play">
+                {feature.description}
+              </p>
             </div>
-        </section>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

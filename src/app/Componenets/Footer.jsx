@@ -1,52 +1,117 @@
+"use client";
+
 import React from "react";
-import { FaMobileScreen } from "react-icons/fa6";
-import { FaPhone } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { IoLocationSharp } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
+import {
+  FaTiktok,
+  FaInstagram,
+  FaLinkedin,
+  FaPinterest,
+  FaFacebook,
+  FaPhoneAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
+
+const socialLinks = [
+  { icon: <FaTiktok />, href: "https://www.tiktok.com/@wedo_interior" },
+  { icon: <FaInstagram />, href: "https://www.instagram.com/wedo_interior/" },
+  { icon: <FaLinkedin />, href: "https://www.linkedin.com/company/wedointeriors/" },
+  { icon: <FaPinterest />, href: "https://www.pinterest.com/wedo_interior/" },
+  { icon: <FaFacebook />, href: "https://www.facebook.com/wedofitout" },
+];
+
+const navLinks = [
+  "Home",
+  "About Us",
+  "Projects",
+  "Features",
+  "Areas",
+  "Services",
+  "Blogs",
+  "Testimonials",
+  "Contact Us",
+];
 
 const Footer = () => {
   return (
-    <footer className="bg-[#121212]-800 text-white py-4 px-2 ">
-      <div className="container mx-auto flex flex-col md:flex-row md:justify-between md:items-center">
-        <div className="flex flex-col items-center md:flex-row md:items-center mb-5">
-        <Link href={"/"} className="flex items-center"><Image src="/images/logo.webp" alt="Logo" className="h-18 mb-4 md:mb-0" width={190} height={5} />
-        </Link>
-          <nav className="flex flex-wrap md:flex-nowrap md:ml-4 space-x-3">
-            
-            <a href="/" className="hover:text-[#c38d90]">Home</a>
-            <a href="/#about-us" className="hover:text-[#c38d90]">About Us</a>
-            <a href="/#projects" className="hover:text-[#c38d90]">Projects</a>
-            <a href="/#features" className="hover:text-[#c38d90]">Features</a>
-            <a href="/#areas" className="hover:text-[#c38d90]">Areas</a>
-            <a href="/#services" className="hover:text-[#c38d90]">Services</a>
-            <a href="/#contact" className="hover:text-[#c38d90]">Contact Us</a>
-          </nav>
-        </div>
-        <div className="flex flex-col md:flex-row items-center md:items-end">
-          <div className="mr-8 mb-4 md:mb-0">
-          <div className="flex items-center mb-2">
-      <FaMobileScreen className="h-4 w-4 mr-2 text-[#c38d90]" /> 
-      <p>+971 58 807 5603</p>
-    </div>
-    <div className="flex items-center mb-2">
-      <FaPhone className="h-4 w-4 mr-2 text-[#c38d90]" /> 
-      <p>+971 42 762 520</p>
-    </div>
-    <div className="flex items-center mb-2">
-      <IoIosMail className="h-4 w-4 mr-2 text-[#c38d90]" /> 
-      <p>INFO@WEDOINTERIOR.AE</p>
-    </div>
-    <div className="flex items-start mb-2">
-  <IoLocationSharp className="h-4 w-4 mr-2 text-[#c38d90]" />
-  <p className="inline-block">OFFICE - WH-05 A | JABEL ALI INDUSTRIAL 1 | DUBAI, UAE</p>
-</div>
+    <footer className="bg-gradient-to-br from-[#a0624d] to-[#caa193] text-white text-xs">
+      {/* Top Decorative Line */}
+      <div className="h-[2px] bg-gradient-to-r from-[#caa193] via-[#a0624d] to-[#caa193]" />
+
+      {/* Black Strip Section */}
+      <div className="bg-black px-4 sm:px-8 lg:px-20 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* Social Links and Contacts */}
+        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-4 text-sm">
+          <div className="flex justify-center md:justify-start gap-3 text-lg">
+            {socialLinks.map((item, idx) => (
+              <a
+                key={idx}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#C49B74] transition"
+              >
+                {item.icon}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-2 text-xs md:ml-6">
+            <span className="flex items-center gap-1">
+              <FaPhoneAlt /> +971 42 762 520
+            </span>
+            <span className="flex items-center gap-1">
+              <FaWhatsapp /> +971 58 807 5603
+            </span>
           </div>
         </div>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex gap-3 font-light uppercase">
+          {navLinks.map((link, idx) => (
+            <Link key={idx} href={`/#${link.toLowerCase().replace(/ /g, "-")}`}>
+              <span className="hover:text-[#C49B74] transition">{link}</span>
+            </Link>
+          ))}
+        </div>
       </div>
-      <div className="container mx-auto mt-4 text-center">
-        <p>We Do &copy; {new Date().getFullYear()} All rights reserved.</p>
+
+      {/* Mobile Navigation */}
+      <div className="md:hidden flex flex-wrap justify-center gap-3 py-3 px-4 font-light uppercase">
+        {navLinks.map((link, idx) => (
+          <Link key={idx} href={`/#${link.toLowerCase().replace(/ /g, "-")}`}>
+            <span className="hover:text-[#C49B74] transition">{link}</span>
+          </Link>
+        ))}
+      </div>
+
+      {/* Info Section */}
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-10 lg:px-20 py-6 gap-4 text-sm text-white">
+        <div className="space-y-2 text-center md:text-left">
+          <p className="flex items-center gap-2">
+            <IoIosMail className="text-[#c38d90]" /> INFO@WEDOINTERIOR.AE
+          </p>
+          <p className="flex items-center gap-2">
+            <IoLocationSharp className="text-[#c38d90]" />
+            OFFICE - WH-05 A, JABEL ALI INDUSTRIAL 1, DUBAI, UAE
+          </p>
+        </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.svg"
+            alt="WE DO Logo"
+            width={250}
+            height={50}
+            className="w-24 md:w-44 lg:w-52"
+          />
+        </Link>
+      </div>
+
+      {/* Footer Bottom Bar */}
+      <div className="text-center text-xs pb-4">
+        © WEDO {new Date().getFullYear()} ALL RIGHTS RESERVED
       </div>
     </footer>
   );

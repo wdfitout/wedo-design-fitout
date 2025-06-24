@@ -490,7 +490,4 @@ const RestaurantProjects = () => {
 );
 };
 
-
-
-
 export default RestaurantProjects;

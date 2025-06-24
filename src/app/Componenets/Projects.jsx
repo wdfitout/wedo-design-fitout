@@ -1,142 +1,137 @@
+"use client";
+
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
+const projects = [
+  {
+    img: "/images/manara villa (33).webp",
+    alt: "Home Interior Design",
+    title: "VILLA PROJECTS",
+    desc: "Elevate your living experience with our premier home interior design services in Dubai. As a top interior design company, we transform residences into luxurious spaces across Emaar Beachfront, Jumeirah, and Atlantis The Royal.",
+    slug: "home-interior-design-dubai",
+  },
+  {
+    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    alt: "Modern Apartment Interior Design",
+    title: "APARTMENT PROJECTS",
+    desc: "Our apartment interior designs blend comfort and sophistication. Whether it's Downtown Dubai or Palm Jumeirah, we turn your apartment into a personalized haven.",
+    slug: "home-interior-design-dubai",
+  },
+  {
+    img: "/images/dubai-interior-design-company-restaurant-counter.webp",
+    alt: "Restaurant Interior Design",
+    title: "RESTAURANT PROJECTS",
+    desc: "Create unforgettable dining ambience with our luxury restaurant interior design services. From fine dining spaces to cafés, our designs evoke lasting impressions.",
+    slug: "restaurant-interior-design-dubai",
+  },
+  {
+    img: "/images/x.learning (3).webp",
+    alt: "Office Interior Design",
+    title: "OFFICE PROJECTS",
+    desc: "Transform your workspace into a high-performing environment. Our commercial interiors promote productivity through modern, aesthetic design tailored for Dubai businesses.",
+    slug: "commercial-interior-design-dubai",
+  },
+  {
+    img: "/images/beauty-salon-spa-retail-interior-design.webp",
+    alt: "Retail Interior Design",
+    title: "RETAIL PROJECTS",
+    desc: "Enhance your boutique, salon, or spa with immersive retail interiors. We bring elegance and purpose to retail design in Dubai’s most vibrant shopping districts.",
+    slug: "retail-interior-design-dubai",
+  },
+  {
+    img: "/images/manara villa (66).webp",
+    alt: "Villa Construction",
+    title: "VILLA CONSTRUCTION",
+    desc: "From foundation to finishing, our villa construction services in Dubai deliver excellence. We combine architecture, interiors, and fit-outs for seamless execution.",
+    slug: "villa-construction-dubai",
+  },
+];
 
 const Projects = () => {
   return (
-    <section id="projects">
-  <div className="areas w-full mt-10">
-    <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
-      INTERIOR DESIGN DUBAI PROJECTS
-    </h2>
-        <div className="flex flex-wrap justify-center">
+    <section
+      id="projects"
+      className="bg-[url('/images/bg-sec-2.webp')] bg-cover bg-center bg-no-repeat text-white"
+    >
+      {/* Arrow icon */}
+      <div className="mt-16 flex justify-center">
+        <Image
+          src="/images/sec-dvd.webp"
+          alt="Scroll down arrow"
+          width={320}
+          height={80}
+          className="h-auto w-48 sm:w-64"
+        />
+      </div>
 
-            
-        <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/home-interior-design-dubai"}>
-    <Image
-     src="/images/modern-apartment-interior-design-in-dubai.webp"
-     alt="Dubai Interior Design - Luxurious Living Room Design "
-     title="Luxurious Living Room Designed by Top Interior Design Dubai Company"
-     width={600}
-     height={400}
-     className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-             style={{ borderTopLeftRadius: '2rem' }}
-    />
- <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      RESIDENTIAL INTERIOR DESIGN
-    </h3>
-  </div>
-</div>
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>Elevate your living experience with our premier 
-        home Interior Design services in Dubai.
-         As a best interior design company we have transformed 
-         numerous residences in iconic locations such as
-          Emaar Beachfront,Al Manara Center, Penthouse Dubai, 
-          Jumeirah Beach Residence, and Atlantis The Royal. 
-          We specialize in creating bold bespoke design.</p>
-    </div>
-</div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
+        {/* Section Title + Button */}
+        <div className="relative mb-12">
+          <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
+            OUR PROJECTS IN DUBAI
+          </h2>
+          <div className="mt-4 md:mt-0 md:absolute right-0 top-1/2 transform md:-translate-y-1/2 flex justify-center md:justify-end">
+            <Link
+              href="/projects"
+              className="uppercase font-conthrax tracking-wide px-6 py-1 text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
+              style={{
+                borderImage: "linear-gradient(to right, #caa193, #a0624d)",
+                borderImageSlice: 1,
+              }}
+            >
+              VIEW ALL
+            </Link>
+          </div>
+        </div>
 
-<div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/restaurant-interior-design-dubai"}>
-    <Image
-        src="/images/dubai-interior-design-company-restaurant-counter.webp"
-        alt="Dubai Interior Design - Modern Restaurant Counter Design "
-        title="Modern Restaurant Design by Top Interior Designers in Dubai"
-        width={600}
-        height={400}
-        className="w-full lg:rounded-tr-3xl md:rounded-tr-3xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      COMMERCIAL INTERIOR DESIGN
-    </h3>
-  </div>
-</div>
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>
-        Elevate your workspace into an excellent workflow space
-        with our commercial interior design Dubai solutions.
-        Corporate offices, coworking spaces, or executive suites, our
-        professional architectures deliver innovative designs from
-        concept to this real world that enhance true productivity.
-        As top commercial interior design Dubai company, WeDo Interior
-        crafted luxury corporate in the high-end areas of Dubai.
-        </p>
-    </div>
-</div>
+        {/* Projects Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {projects.map((project, index) => (
+            <Link
+              href={`/${project.slug}`}
+              key={index}
+              className="relative overflow-hidden group block h-full"
+            >
+              <Image
+                src={project.img}
+                alt={project.alt}
+                width={800}
+                height={600}
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
+                <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
+                <div className="p-1">
+                  <h3 className="text-white font-conthrax text-lg text-start tracking-wider">
+                    {project.title}
+                  </h3>
+                  <p className="text-sm leading-relaxed font-play text-white">
+                    {project.desc}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
 
-<div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/design-build-services-in-dubai"}>
-    <Image
-        src="/images/beauty-salon-spa-retail-interior-design.webp"
-        alt="Retail Beauty Salon -Design by One of the leading Interior Design Companies in Dubai "
-        title="Top Beauty Salon and Spa Design by Interior Design company Dubai"
-        width={600}
-        height={400}
-        className="w-full lg:rounded-bl-3xl md:rounded-bl-3xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-        
-    />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      DESIGN & BUILD
-    </h3>
-  </div>
-</div>
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-      <p>We are one of the premier building construction companies providing professional Design and Build Services in Dubai.
-         From idea to completion, we provide high quality projects designed specifically to your specifications. 
-         Our end-to-end solution guarantees smooth implementation, on-time delivery, and unparalleled craftsmanship in every aspect.
+        {/* CTA Button */}
+        <div className="mt-12 flex justify-center">
+          <a
+            href="mailto:info@wedointerior.ae"
+            className="block font-conthrax tracking-wide px-6 py-2 text-xs md:px-16 md:py-3.5 md:text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
+            style={{
+              borderImage: "linear-gradient(to right, #caa193, #a0624d)",
+              borderImageSlice: 1,
+            }}
+          >
+            SEND YOUR ENQUIRY NOW
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-       </p>
-    </div>
-</div>
-
-<div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/fitout-company-dubai"}>
-    <Image
-      src="/images/x.learning (3).webp"
-      alt="Corporate office reception interior design in Dubai"
-      title="Luxury Office Interior Design with Premium Aesthetic in Dubai by We Do Design & Fitout"
-      width={600}
-      height={400}
-      className="w-full rounded-b-3xl md:rounded-lg lg:rounded-br-5xl lg:rounded-bl-none lg:rounded-none lg:rounded-l-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
-      style={{ borderBottomRightRadius: '2rem' }}
-      />
-  <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
-  <div className="flex-grow mb-20 px-2">
-    <h3 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
-      FIT-OUT SERVICES
-    </h3>
-  </div>
-</div>
-  </Link>
-  <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
-     <p>
-        Being a top building construction company, we offer premium Fit Out Services in Dubai, UAE. 
-        Being a reliable Interior Fitout Company in Dubai, our professional Fit Out Contractors 
-        offer premium Interior Fit-out & MEP Services as per your imagination—smooth execution from idea to delivery.
-</p>
-    </div>
-</div>
-
-           </div>
-            </div>
-        </section>
-  )
-}
 export default Projects;
-
-
-
-
-
