@@ -18,14 +18,14 @@ import Image from "next/image";
 
 const navLinks = [
   { title: "Home", path: "/" },
-  { title: "About Us", path: "/#about-us" },
-  { title: "Projects", path: "/projects" },
+  { title: "About Us", path: "/about-us" },
+  { title: "Gallery", path: "/projects" },
   { title: "Features", path: "/#features" },
-  { title: "Areas", path: "/#areas" },
+  { title: "Design", path: "/#designs" },
   { title: "Services", path: "/#services" },
   { title: "Blogs", path: "/#blogs" },
   { title: "Testimonials", path: "/#testimonials" },
-  { title: "Contact Us", path: "/#contact-us" },
+  { title: "Contact Us", path: "/contact-us" },
 ];
 
 const socialLinks = [

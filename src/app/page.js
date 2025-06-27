@@ -11,7 +11,7 @@ import Blogs from "./Componenets/Blogs";
 import Testimonials from "./Componenets/Testimonials";
 import OurAuthorities from "./Componenets/OurAuthorities";
 import OurClients from "./Componenets/OurClients";
-import ContactUs from "./Componenets/ContactUs";
+import ContactForm from "./Componenets/ContactForm";
 import LocationMap from "./Componenets/LocationMap";
 import Footer from "./Componenets/Footer";
 
@@ -35,21 +35,14 @@ export default function Home() {
          <div className="bg-[#f5ede5]">
           <OurAuthorities />
           <OurClients />
-          <ContactUs />
+          <ContactForm />
           <LocationMap />
           <Footer />
 
-
-
          </div>
-        
 
-    
-    
-    
-    
-    
     </main>
+
     </>
   );
 }

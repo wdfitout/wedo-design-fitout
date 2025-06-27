@@ -65,12 +65,14 @@ const ContactUs = () => {
           CONTACT US
         </h2>
       </div>
-
+    
       {/* Contact Form */}
       <form
         onSubmit={handleSubmit}
         className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6"
       >
+       
+       
         {/* Left Column */}
         <div className="space-y-6">
           <div>
@@ -121,6 +123,9 @@ const ContactUs = () => {
           </div>
         </div>
 
+       
+       
+       
         {/* Right Column */}
         <div className="flex flex-col justify-between">
           <div>

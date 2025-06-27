@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Areas = () => {
   return (
-    <section id="areas">
-    <div className="areas w-full mt-10">
+    <section id="areas" className="areas w-full mt-10">
+    <div >
         <h2 className="text-white mb-8 text-lg lg:text-4xl font-bold text-center">
             SOME OF ICONIC INTERIORS IN DUBAI's HIGH-END AREAS</h2>
         </div>

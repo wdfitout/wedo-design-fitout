@@ -1,9 +1,7 @@
 "use client";
 import { useState } from "react";
-import { RiUserFill, RiMailFill } from 'react-icons/ri';
-import { FaPhoneVolume } from "react-icons/fa6";
-import { FaInfoCircle } from "react-icons/fa";
-import { RiSendPlaneFill } from 'react-icons/ri';
+import { RiSendPlaneFill } from "react-icons/ri";
+import Image from "next/image";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -13,6 +11,8 @@ const ContactForm = () => {
     subject: "",
     message: "",
   });
+
+  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,8 +35,6 @@ const ContactForm = () => {
       });
 
       if (response.ok) {
-        console.log("Form submitted successfully");
-        // Clear the form after successful submission
         setFormData({
           name: "",
           email: "",
@@ -44,92 +42,124 @@ const ContactForm = () => {
           subject: "",
           message: "",
         });
-        // Show success message
-        alert("Message submitted successfully");
+        setStatus("Message submitted successfully.");
       } else {
         throw new Error("Failed to submit form");
       }
     } catch (error) {
       console.error("Form submission error:", error);
-      // Handle error (e.g., display error message to user)
+      setStatus("An error occurred. Please try again later.");
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-wrap">
-      <h2 className="w-full text-white text-xl font-semibold mb-2 mt-6">Send your message here</h2>
-      <div className="w-full md:w-1/2 md:pr-2 mb-6 md:mb-10 flex items-center relative">
-        <RiUserFill className="text-[#c38d90] absolute left-2" />
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-          className="w-full text-white bg-[#121212] outline-none pl-10 border-b border-white"
-          placeholder="Name"
+    <section
+      id="contact-us"
+      className="bg-[#f5ede5] py-12 px-4 sm:px-8 lg:px-16 text-black max-w-6xl mx-auto"
+    >
+      {/* Section Title */}
+      <div className="flex flex-col items-center mb-10">
+        <Image
+          src="/images/sec-dvd.webp"
+          alt="Divider"
+          width={320}
+          height={80}
+          className="h-auto w-48 sm:w-64"
         />
+        <h2 className="mt-10 mb-6 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+          CONTACT US
+        </h2>
       </div>
-      <div className="w-full md:w-1/2 md:pl-2 mb-6 md:mb-10 flex items-center relative">
-        <RiMailFill className="text-[#c38d90] absolute left-2" />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          className="w-full text-white bg-[#121212] outline-none pl-10 border-b border-white"
-          placeholder="Email"
-        />
-      </div>
-      <div className="w-full md:w-1/2 md:pr-2 mb-6 md:mb-10 flex items-center relative">
-        <FaPhoneVolume className="text-[#c38d90] absolute left-2" />
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          value={formData.phone}
-          onChange={handleChange}
-          required
-          className="w-full text-white bg-[#121212] outline-none pl-10 border-b border-white"
-          placeholder="Phone"
-        />
-      </div>
-      <div className="w-full md:w-1/2 md:pl-2 mb-6 md:mb-10 flex items-center relative">
-        <FaInfoCircle className="text-[#c38d90] absolute left-2" />
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          required
-          className="w-full text-white bg-[#121212] outline-none pl-10 border-b border-white"
-          placeholder="Subject"
-        />
-      </div>
-      <div className="w-full mb-4">
-        
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-          rows="4"
-          className="w-full text-white bg-[#121212] outline-none pl-10 border-b border-white"
-          placeholder="Message: How Can We Help You ? Feel Free To Get In Touch!"
-          ></textarea>
-      </div>
-      <button
-        type="submit"
-        className="rounded-2xl flex items-center justify-center bg-[#c38d90] text-white px-4 py-2 hover:bg-white hover:text-[#c38d90]"
+
+      <form
+        onSubmit={handleSubmit}
+        className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 gap-x-8"
       >
-        <RiSendPlaneFill className="mr-2" /> Submit
-      </button>
-    </form>
+        {/* Left Column */}
+        <div className="flex flex-col space-y-6 px-4">
+          <div>
+            <label className="block mb-1 text-sm">Your Name (required)</label>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="w-full border border-[#a16848] px-4 py-2 bg-transparent focus:outline-none"
+              placeholder="John Smith"
+            />
+          </div>
+          <div>
+            <label className="block mb-1 text-sm">Your Email (required)</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="w-full border border-[#a16848] px-4 py-2 bg-transparent focus:outline-none"
+              placeholder="john@example.com"
+            />
+          </div>
+          <div>
+            <label className="block mb-1 text-sm">Mobile Number</label>
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              required
+              className="w-full border border-[#a16848] px-4 py-2 bg-transparent focus:outline-none"
+              placeholder="05X-XXXXXXX"
+            />
+          </div>
+          <div>
+            <label className="block mb-1 text-sm">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              value={formData.subject}
+              onChange={handleChange}
+              required
+              className="w-full border border-[#a16848] px-4 py-2 bg-transparent focus:outline-none"
+              placeholder="Interior Design Inquiry"
+            />
+          </div>
+        </div>
+
+        {/* Right Column */}
+        <div className="flex flex-col h-full justify-between space-y-4 px-4">
+          <div>
+            <label className="block mb-1 text-sm">Your Message</label>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+              rows="10"
+              className="w-full border border-[#a16848] px-4 py-2 bg-transparent resize-none focus:outline-none"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+          <div className="flex justify-start mt-4">
+            <button
+              type="submit"
+              className="flex items-center gap-2 px-6 py-2 border border-[#a16848] text-[#a16848] hover:bg-[#a16848] hover:text-white transition"
+            >
+              <RiSendPlaneFill />
+              SEND EMAIL
+            </button>
+          </div>
+        </div>
+      </form>
+
+      {/* Feedback Message */}
+      {status && (
+        <div className="text-center mt-6 text-sm text-[#a16848]">
+          {status}
+        </div>
+      )}
+    </section>
   );
 };
 

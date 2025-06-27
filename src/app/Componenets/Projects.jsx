@@ -9,42 +9,42 @@ const projects = [
     img: "/images/manara villa (33).webp",
     alt: "Home Interior Design",
     title: "VILLA PROJECTS",
-    desc: "Elevate your living experience with our premier home interior design services in Dubai. As a top interior design company, we transform residences into luxurious spaces across Emaar Beachfront, Jumeirah, and Atlantis The Royal.",
+    desc: "Elevate your living experience with our premier home interior design services in Dubai. As a top interior design company, we transform residences into.",
     slug: "home-interior-design-dubai",
   },
   {
     img: "/images/modern-apartment-interior-design-in-dubai.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
-    desc: "Our apartment interior designs blend comfort and sophistication. Whether it's Downtown Dubai or Palm Jumeirah, we turn your apartment into a personalized haven.",
+    desc: "Our apartment interior designs blend comfort and sophistication. Whether it's Downtown Dubai or Palm Jumeirah, we turn your apartment into haven.",
     slug: "home-interior-design-dubai",
   },
   {
     img: "/images/dubai-interior-design-company-restaurant-counter.webp",
     alt: "Restaurant Interior Design",
     title: "RESTAURANT PROJECTS",
-    desc: "Create unforgettable dining ambience with our luxury restaurant interior design services. From fine dining spaces to cafés, our designs evoke lasting impressions.",
+    desc: "Create unforgettable dining ambience with our luxury restaurant interior design services. From fine dining spaces to cafés, our designs evoke.",
     slug: "restaurant-interior-design-dubai",
   },
   {
     img: "/images/x.learning (3).webp",
     alt: "Office Interior Design",
     title: "OFFICE PROJECTS",
-    desc: "Transform your workspace into a high-performing environment. Our commercial interiors promote productivity through modern, aesthetic design tailored for Dubai businesses.",
+    desc: "Transform your workspace into a high-performing environment. Our commercial interiors promote productivity through modern, aesthetic design.",
     slug: "commercial-interior-design-dubai",
   },
   {
     img: "/images/beauty-salon-spa-retail-interior-design.webp",
     alt: "Retail Interior Design",
     title: "RETAIL PROJECTS",
-    desc: "Enhance your boutique, salon, or spa with immersive retail interiors. We bring elegance and purpose to retail design in Dubai’s most vibrant shopping districts.",
+    desc: "Enhance your boutique, salon, or spa with immersive retail interiors. We bring elegance and purpose to retail design in Dubai’s most vibrant shopping.",
     slug: "retail-interior-design-dubai",
   },
   {
-    img: "/images/manara villa (66).webp",
+    img: "/images/villa-construction-dubai.webp",
     alt: "Villa Construction",
     title: "VILLA CONSTRUCTION",
-    desc: "From foundation to finishing, our villa construction services in Dubai deliver excellence. We combine architecture, interiors, and fit-outs for seamless execution.",
+    desc: "From foundation to finishing, our villa construction services in Dubai deliver excellence. We combine architecture, interiors, and fit-outs.",
     slug: "villa-construction-dubai",
   },
 ];
@@ -81,7 +81,7 @@ const Projects = () => {
                 borderImageSlice: 1,
               }}
             >
-              VIEW ALL
+              GALLERY
             </Link>
           </div>
         </div>

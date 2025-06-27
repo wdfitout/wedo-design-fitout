@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const cardData = [
   {
-       title: "VILLA INTERIOR DESIGN",
+    title: "VILLA INTERIOR DESIGN",
     img: "/images/serv1.webp",
     desc: "Luxury interior design tailored for villa architecture and grandeur aesthetics in Dubai.",
     link: "/villa-interior-design-dubai",
@@ -17,7 +17,7 @@ const cardData = [
     desc: "Smart, elegant and space-optimized apartment interiors crafted for modern city life.",
     link: "/apartment-interior-design-dubai",
   },
-   {
+  {
     title: "LANDSCAPE DESIGN",
     img: "/images/serv3.webp",
     desc: "Create unforgettable dining spaces with ambiance that enhances the culinary experience.",
@@ -69,46 +69,46 @@ const cardData = [
 
 const Features = () => {
   return (
-    <section className="bg-black text-white py-16">
+    <section id="features" className="bg-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Arrow image */}
+        <div className="mt-0 sm:mt-10 flex justify-center">
+          <Image
+            src="/images/sec-dvd.webp"
+            alt="Scroll down arrow"
+            width={320}
+            height={80}
+            className="h-auto w-48 sm:w-64"
+          />
+        </div>
 
-           {/* Arrow image */}
-                <div className="mt-0 sm:mt-10 flex justify-center">
-                  <Image
-                    src="/images/sec-dvd.webp"
-                    alt="Scroll down arrow"
-                    width={320}
-                    height={80}
-                    className="h-auto w-48 sm:w-64"
-                  />
-                </div>
-        
-                {/* Section Heading */}
-                <h2 className="text-white mt-10 mb-10 text- sm:text-xl tracking-widest font-conthrax text-center">
-                  INTERIOR DESIGN FEATURES
-                </h2>
+        {/* Section Heading */}
+        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+          INTERIOR DESIGN FEATURES
+        </h2>
+
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {cardData.map((card, index) => (
             <Link href={card.link} key={index}>
-              <div className="text-left">
+              <div className="text-left group cursor-pointer">
                 {/* Title */}
                 <h3 className="text-white text-sm font-conthrax uppercase tracking-wide mb-2">
                   {card.title}
                 </h3>
 
-                {/* Gradient line - now left-aligned */}
+                {/* Gradient line */}
                 <div className="w-72 h-[2px] bg-gradient-to-r from-[#caa193] to-[#a0624d] mb-4" />
 
-                {/* Image */}
-                <div className="overflow-hidden mb-4">
+                {/* Image with hover effect */}
+                <div className="overflow-hidden mb-4 rounded-lg">
                   <Image
                     src={card.img}
-                    alt={card.alt}
+                    alt={card.title}
                     title={card.title}
                     width={500}
                     height={300}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
 

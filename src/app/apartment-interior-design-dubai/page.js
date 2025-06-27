@@ -4,6 +4,8 @@ import Hero from "./Components/Hero";
 import WhatsAppButton from "../Componenets/WhatsAppButton";
 import CallButton from "../Componenets/CallButton";
 import ApId from "./Components/ApId";
+import DesignV from "./Components/DesignV";
+import DProjects from "./DProjects";
 import Footer from "../Componenets/Footer";
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
         <WhatsAppButton />
         <CallButton />
         <ApId />
+        <DesignV />
+        <DProjects />
         <Footer />
       </div>
     </>
