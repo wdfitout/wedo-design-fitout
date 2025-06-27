@@ -1,16 +1,16 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Interior Design Dubai | Modern Interior Designs in Dubai',
+  title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
   description:
     'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
-    title: 'Interior Blog | Modern Interior Design in Dubai',
+    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
       'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
     url: 'https://wedointerior.ae/',
-    siteName: 'we do interior design & fit out',
+    siteName: 'we do interior design',
     images: [
       {
         url: '/og-image.jpg',
@@ -23,7 +23,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interior Blog | Modern Interior Design in Dubai',
+    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
       'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
     images: ['/og-image.jpg'],
@@ -35,9 +35,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-    >
+    <html lang="en">
       <head>
         {/* Organization Schema */}
         <script
@@ -48,7 +46,7 @@ export default function RootLayout({ children }) {
               '@type': 'Organization',
               name: 'we do interior design & fit out',
               url: 'https://wedointerior.ae/',
-              logo: 'https://wedointerior.ae/logo.png',
+              logo: 'https://wedointerior.ae/images/logo.png',
               sameAs: [
                 'https://www.instagram.com/yourprofile',
                 'https://www.facebook.com/yourprofile',
@@ -85,19 +83,103 @@ export default function RootLayout({ children }) {
               url: 'https://wedointerior.ae/',
               author: {
                 '@type': 'Organization',
-                name: 'we do interior design & fit out',
+                name: 'we do interior design',
               },
               publisher: {
                 '@type': 'Organization',
-                name: 'we do interior design & fit out',
+                name: 'we do interior design',
                 logo: {
                   '@type': 'ImageObject',
-                  url: 'https://wedointerior.ae/logo.png',
+                  url: 'https://wedointerior.ae/images/logo.png',
                 },
               },
               mainEntityOfPage: 'https://wedointerior.ae/',
               image: 'https://wedointerior.ae/og-image.jpg',
               datePublished: '2025-06-22',
+            }),
+          }}
+        />
+
+        {/* Site Navigation Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 1,
+                  "name": "About Us",
+                  "url": "https://wedointerior.ae/about-us"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 2,
+                  "name": "Apartment Interior Design Dubai",
+                  "url": "https://wedointerior.ae/apartment-interior-design-dubai"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 3,
+                  "name": "Villa Interior Design Dubai",
+                  "url": "https://wedointerior.ae/villa-interior-design-dubai"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 4,
+                  "name": "Gallery",
+                  "url": "https://wedointerior.ae/projects"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 5,
+                  "name": "Contact Us",
+                  "url": "https://wedointerior.ae/contact-us"
+                }
+              ]
+            }),
+          }}
+        />
+
+        {/* BreadcrumbList Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://wedointerior.ae/"
+                }
+              ]
+            }),
+          }}
+        />
+
+        {/* Service Schema (for homepage) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Interior Design and Fit Out",
+              "provider": {
+                "@type": "Organization",
+                "name": "we do interior design",
+                "url": "https://wedointerior.ae"
+              },
+              "areaServed": {
+                "@type": "Place",
+                "name": "Dubai, UAE"
+              },
+              "url": "https://wedointerior.ae/"
             }),
           }}
         />
