@@ -13,7 +13,7 @@ export const metadata = {
     siteName: 'we do interior design',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.svg',
         width: 1200,
         height: 630,
         alt: 'Interior Blog Banner',
@@ -26,7 +26,7 @@ export const metadata = {
     title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
       'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.svg'],
   },
   alternates: {
     canonical: '/',
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
               '@type': 'Organization',
               name: 'we do interior design & fit out',
               url: 'https://wedointerior.ae/',
-              logo: 'https://wedointerior.ae/images/logo.png',
+              logo: 'https://wedointerior.ae/images/logo.svg',
               sameAs: [
                 'https://www.instagram.com/yourprofile',
                 'https://www.facebook.com/yourprofile',
@@ -90,11 +90,11 @@ export default function RootLayout({ children }) {
                 name: 'we do interior design',
                 logo: {
                   '@type': 'ImageObject',
-                  url: 'https://wedointerior.ae/images/logo.png',
+                  url: 'https://wedointerior.ae/images/logo.svg',
                 },
               },
               mainEntityOfPage: 'https://wedointerior.ae/',
-              image: 'https://wedointerior.ae/og-image.jpg',
+              image: 'https://wedointerior.ae/images/logo.svg',
               datePublished: '2025-06-22',
             }),
           }}
