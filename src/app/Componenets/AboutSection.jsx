@@ -31,9 +31,9 @@ const AboutSection = () => {
     <section id="about-us" className="bg-[url('/images/bg-sec-3.webp')] bg-cover bg-center bg-no-repeat text-white overflow-hidden">
       {/* Top Intro Text */}
       <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-12 text-start text-sm sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
-        <h1 className="text-white text-lg lg:text-4xl font-bold text-center mb-6">
+        <h2 className="text-white text-lg lg:text-4xl font-bold text-center mb-6">
           DESIGNING DREAMS, CRAFTING REALITY – INTERIOR DESIGN DUBAI, UAE
-        </h1>
+        </h2>
         <p>
           Are you looking for the best interior design company in Dubai, UAE? At <b>Interior Design Company Dubai - WeDo Design & Fitout</b>, we specialize in high-end interiors and <a href="https://wedointerior.ae/fitout-company-dubai" target="_blank"><b>fit-out services</b></a> that fuse creativity, precision, and style. From residential villas to commercial spaces, we craft designs that reflect luxury lifestyles and refined workplaces.
         </p>
