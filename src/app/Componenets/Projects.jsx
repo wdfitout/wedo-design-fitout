@@ -74,7 +74,7 @@ const Projects = () => {
           </h2>
           <div className="mt-4 md:mt-0 md:absolute right-0 top-1/2 transform md:-translate-y-1/2 flex justify-center md:justify-end">
             <Link
-              href="/projects"
+              href="/gallery"
               className="uppercase font-conthrax tracking-wide px-6 py-1 text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
               style={{
                 borderImage: "linear-gradient(to right, #caa193, #a0624d)",
