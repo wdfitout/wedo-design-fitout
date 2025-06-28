@@ -1,11 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://wedointerior.ae',
-  generateRobotsTxt: true, // Generate robots.txt
+  generateRobotsTxt: true,
   generateIndexSitemap: true,
   sitemapSize: 5000,
   changefreq: 'weekly',
-  priority: 0.7,
   robotsTxtOptions: {
     policies: [
       {
@@ -15,6 +14,16 @@ module.exports = {
     ],
   },
   additionalPaths: async (config) => [
-    await config.transform(config, '/'), // <-- This line explicitly adds the homepage
+    await config.transform(config, '/'), // Ensure homepage is included
   ],
+  transform: async (config, path) => {
+    const priority = path === '/' ? 1.0 : 0.9;
+
+    return {
+      loc: `${config.siteUrl}${path}`,
+      changefreq: 'weekly',
+      priority,
+      lastmod: new Date().toISOString(),
+    };
+  },
 };
