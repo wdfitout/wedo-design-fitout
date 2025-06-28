@@ -14,4 +14,7 @@ module.exports = {
       },
     ],
   },
+  additionalPaths: async (config) => [
+    await config.transform(config, '/'), // <-- This line explicitly adds the homepage
+  ],
 };
