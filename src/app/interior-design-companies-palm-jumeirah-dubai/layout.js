@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Luxury Interior Design Companies Palm Jumeirah Dubai | WeDo",
-  description: "Experience luxury interior design in Palm Jumeirah Dubai with WeDo Interior. We create elegant spaces tailored to your exclusive lifestyle. Contact us today!",
-
+  title: "Interior Design Companies, Palm Jumeirah Dubai | We Do Interior Design & Fit Out",
+  description:
+    "Interior design companies palm jumeirah Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/interior-design-companies-palm-jumeirah-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

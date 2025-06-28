@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Exclusive Design & Build Services Dubai | Luxury Solutions",
-  description: "Explore exclusive design and build services in Dubai. WeDo Interior deliver luxury solutions for elegant spaces. Contact us now to start your visionary project!",
-
+  title: "Design build services in Dubai",
+  description:
+    "Design build services in Dubai by Dubai's top-tier interior design company",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/design-build-services-in-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -13,4 +17,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

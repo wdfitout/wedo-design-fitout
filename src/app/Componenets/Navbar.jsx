@@ -19,7 +19,7 @@ import Image from "next/image";
 const navLinks = [
   { title: "Home", path: "/" },
   { title: "About Us", path: "/about-us" },
-  { title: "Gallery", path: "/projects" },
+  { title: "Gallery", path: "/gallery" },
   { title: "Features", path: "/#features" },
   { title: "Design", path: "/#designs" },
   { title: "Services", path: "/#services" },

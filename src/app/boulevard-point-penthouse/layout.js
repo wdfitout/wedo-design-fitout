@@ -1,18 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Dubai - Luxury Interior Designers in UAE",
-  description: "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
+  title: "Boulevard Point Penthouse Interior Design Dubai | We Do Interior",
+  description:
+    "Boulevard point penthouse interior design Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/boulevard-point-penthouse',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <>
- 
-      <html lang="en">
-        <body>{children}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

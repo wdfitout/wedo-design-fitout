@@ -1,18 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Dubai - Luxury Interior Designers in UAE",
-  description: "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
+  title: "Address Beach Resort, Dubai, Apartment Interior Design | We Do Interior",
+  description:
+    "Acacia, Dubai hills, 3 bedroom apartment interior design",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/address-beach-resort-apartment',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <>
- 
-      <html lang="en">
-        <body>{children}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

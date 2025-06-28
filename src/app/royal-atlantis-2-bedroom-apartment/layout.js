@@ -1,18 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Dubai - Luxury Interior Designers in UAE",
-  description: "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
+  title: "Royal Atlantis 2 Bedroom Apartment | We Do Interior Design & Fit Out",
+  description:
+    "Royal atlantis 2 bedroom apartment interior design in Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/royal-atlantis-2-bedroom-apartment',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <>
- 
-      <html lang="en">
-        <body>{children}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

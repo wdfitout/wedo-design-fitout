@@ -1,8 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Beauty Salon Interior Design Dubai | Tailored Elegance",
-  description: "Elevate your beauty salon with tailored interior design solutions in Dubai. We craft elegant and inviting spaces that leave a lasting impression on clients.",
+  title: "Beauty Salon Interior Design Dubai | We Do Interior",
+  description:
+    "beauty salon interior design Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/beauty-salon-interior-design-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

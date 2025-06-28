@@ -1,18 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Dubai - Luxury Interior Designers in UAE",
-  description: "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
+  title: "Business bay office fit out Dubai | We Do Interior",
+  description:
+    "Business bay office fit out Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/business-bay-office-fit-out',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <>
- 
-      <html lang="en">
-        <body>{children}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

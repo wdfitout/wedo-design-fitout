@@ -38,8 +38,8 @@ const projects = [
   {
     img: "/images/ATRD (14.1).webp",
     alt: "ROYAL ATLANTIS DUPLEX APARTMENT",
-    title: "ROYAL ATLANTIS DUPLEX APARTMENT",
-    href: "/royal-atlantis-duplex-apartment",
+    title: "ROYAL ATLANTIS 2 BEDROOM APARTMENT",
+    href: "/royal-atlantis-2-bedroom-apartment",
   },
     {
     img: "/images/dtrest (2).webp",
@@ -236,8 +236,8 @@ const projects = [
   {
     img: "/images/cnpkapt (1).PNG",
     alt: "Restaurant Interior Design",
-    title: "CENTRAL PARK 2 BEDROOM APARTMENT",
-    href: "/central-park-2-bedroom-apartment",
+    title: "CENTRAL PARK TOWERS 2 BEDROOM APARTMENT",
+    href: "/central-park-towers-2-bedroom-apartment",
   },
     {
     img: "/images/Residential (7).webp",

@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Elegant Hotel Interior Design Dubai | Bespoke & Iconic Spaces",
-  description: "Transform your hotel with elegant interior design in Dubai WeDo Interior. We create iconic spaces tailored for luxury and guest satisfaction. Contact us today!",
-  
+  title: "Hotel Interior Design Dubai | We Do Interior",
+  description:
+    "Elevate your dining space design & experience with one of the best interior companies in Dubai. We do interior design & fit out!",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/hotel-interior-design-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

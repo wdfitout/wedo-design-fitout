@@ -1,8 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Exceptional Restaurant Interior Design Dubai | Stylish Spaces",
-  description: "Exceptional restaurant, cafe, and coffee shop interior designs in Dubai by WeDo Interior. Our team is highly skilled and professional. Contact us today!",
+  title: "Restaurant Interior Design Dubai | We Do Interior Design & Fit Out",
+  description:
+    "Restaurant interior design Dubai, Best food and beverage interior design company in Dubai, UAE",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/restaurant-interior-design-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Arabella 2 Bedroom Townhouse | We Do Interior",
+  title: "Central Park Towers, 2 Bedroom Apartment | We Do Interior",
   description:
-    "Arabella 2 bedroom townhouse",
+    "Central park towers, 2 bedroom apartment interior design Dubai",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/arabella-2-bedroom-townhouse',
+    canonical: '/central-park-towers-2-bedroom-apartment',
   },
 };
 

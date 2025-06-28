@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Top Fit-Out Company in Business Bay Dubai | Turnkey Solutions",
-  description: "Partner with the top fit-out company in Business Bay Dubai. WeDo Interior offers premium turnkey solutions to create elegant and functional spaces. Contact us!",
-
+  title: "Fit Out Company In Business Bay Dubai | We Do Interior",
+  description:
+    "Fit out company in business bay Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/fit-out-company-in-business-bay-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

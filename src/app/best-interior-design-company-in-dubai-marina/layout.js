@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Dubai Marina | Luxury Spaces",
-  description: "Get connected with the best interior design company in Dubai Marina. WeDo Interior specializes in creating luxury spaces crafted to your vision. Contact us today!",
-
+  title: "Best Interior Design Company in Dubai Marina | We Do Interior",
+  description:
+    "Best interior design company in Dubai marina",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/best-interior-design-company-in-dubai-marina',
+  },
 };
 
 export default function RootLayout({ children }) {

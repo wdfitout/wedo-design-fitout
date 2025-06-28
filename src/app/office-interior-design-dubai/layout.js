@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Luxury Office Interior Design Dubai | Modern & Functional Spaces",
-  description: "Elevate your workspace with luxury office interior design Company in Dubai, WeDo Interior. We create modern, functional spaces tailored to your needs.",
-
+  title: "Office Interior Design Dubai | We Do Interior Design & Fit Out",
+  description:
+    "Office interior design Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/office-interior-design-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

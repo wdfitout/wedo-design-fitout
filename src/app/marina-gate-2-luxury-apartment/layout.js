@@ -1,18 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Dubai - Luxury Interior Designers in UAE",
-  description: "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
+  title: "Marina Gate 2 Luxury Apartment | We Do Interior Design & Fit Out",
+  description:
+    "Marina gate 2 luxury apartment interior design Dubai",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/marina-gate-2-luxury-apartment',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <>
- 
-      <html lang="en">
-        <body>{children}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

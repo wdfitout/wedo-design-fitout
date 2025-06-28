@@ -1,8 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "Royal Atlantis Dubai Interior Design Company | Tailored Spaces",
-  description: "Discover premium interior design services at Royal Atlantis Dubai with WeDo Interior. We craft elegant spaces that redefine luxury living. Contact us today!",
+  title: "Royal atlantis Dubai interior design company | We Do Interior Design & Fit Out",
+  description:
+    "Royal atlantis Dubai interior design company",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/royal-atlantis-dubai-interior-design-company',
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -12,4 +17,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

@@ -1,9 +1,13 @@
-import "../globals.css";
+import '../globals.css';
 
 export const metadata = {
-  title: "High-End Retail Interior Design Dubai | Elegant & Luxury Spaces",
-  description: "Discover high-end retail, beauty salon, and facial lounge interior design projects in Dubai by WeDo Interior. We craft elegant, luxury spaces. Contact us today!",
-
+  title: "Retail Interior Design Dubai | We Do Interior Design & Fit Out",
+  description:
+    "Retail interior design Dubai, Luxury retail interior design company in Dubai, UAE",
+  metadataBase: new URL('https://wedointerior.ae/'),
+  alternates: {
+    canonical: '/retail-interior-design-dubai',
+  },
 };
 
 export default function RootLayout({ children }) {

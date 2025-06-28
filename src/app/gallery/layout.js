@@ -1,7 +1,7 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Projects Dubai | We Do Interior Design & Fit-Out",
+  title: "Our Gallery | We Do Interior Design & Fit-Out",
   description:
     "Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.",
   keywords: [
@@ -36,7 +36,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/projects',
+    canonical: '/gallery',
   },
 };
 
