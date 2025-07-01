@@ -66,7 +66,14 @@ const Testimonials = () => {
   );
 
   return (
-    <section id="testimonials" className="bg-black text-white py-20">
+    <section id="testimonials" className="bg-black py-20
+     bg-[url('/images/testi-bg-m.webp')] 
+    sm:bg-[url('/images/')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden">
       <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
         {/* Section Heading */}
         <div className="flex flex-col items-center mb-10">
@@ -93,7 +100,7 @@ const Testimonials = () => {
               return (
                 <div
                   key={idx}
-                  className="flex flex-col justify-between flex-shrink-0 basis-full sm:basis-1/2 lg:basis-1/3 bg-black text-sm text-gray-300 p-4"
+                  className="flex flex-col justify-between flex-shrink-0 basis-full sm:basis-1/2 lg:basis-1/3 text-sm text-gray-300 p-4"
                 >
                   {/* Quote Box */}
                   <div className="relative p-4 flex flex-col flex-grow">

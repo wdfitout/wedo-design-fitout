@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import {
-  FaBars,
   FaTiktok,
   FaInstagram,
   FaPinterest,
@@ -11,6 +10,7 @@ import {
   FaWhatsapp,
   FaPhoneAlt,
 } from "react-icons/fa";
+import { HiBars3 } from "react-icons/hi2";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import MenuOverlay from "./MenuOverlay";
 import NavLink from "./NavLink";
@@ -52,47 +52,82 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || navbarOpen ? "bg-[#121212] bg-opacity-90 shadow-md" : "bg-transparent"}`}>
       {/* Top Pink Strip */}
       <div className="bg-gradient-to-r from-[#caa193] to-[#a0624d] h-1 w-full"></div>
+{/* Black Strip with logo + contact + icons */}
+<div className="relative h-[50px] px-4 md:px-1 text-white">
+  {/* Centered Logo */}
+  <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <Link href="/" className="flex items-center">
+      <Image
+        src="/images/logo.svg"
+        alt="WE DO Logo"
+        width={250}
+        height={40}
+        className="w-28 md:w-44 lg:w-52"
+      />
+    </Link>
+  </div>
 
-      {/* Black Strip with contact & icons */}
-      <div className="text-white text-xs md:text-sm px-4 py-2 flex justify-end items-center space-x-6 sm:mr-0 lg:mr-14">
-        <span className="flex items-center space-x-1 hover:text-[#a0624d]">
-          <FaPhoneAlt /> <a href="tel:+971502758210">+971 50 275 8210</a>
-        </span>
-        <span className="flex items-center space-x-1 hover:text-[#97c38d]">
-          <FaWhatsapp />
-          <a href="https://wa.me/971508079604" target="_blank" rel="noopener noreferrer">
-            +971 50 807 9604
+  {/* Contact Info + bars.svg (Right Block) */}
+  <div className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 flex flex-col items-end">
+    {/* Contact and Socials */}
+    <div className="flex items-center space-x-1 text-[11px] md:text-sm lg:text-base">
+      <span className="flex items-center space-x-1 hover:text-[#a0624d]">
+        <FaPhoneAlt className="text-[6px] md:text-xs" />
+        <a href="tel:+971588075603" className="text-[6px] md:text-xs">+971 58 807 5603</a>
+      </span>
+      <span className="flex items-center space-x-1 hover:text-[#97c38d]">
+        <FaWhatsapp className="text-[6px] md:text-xs" />
+        <a
+          href="https://wa.me/971588075603"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[6px] md:text-xs"
+        >
+          +971 58 807 5603
+        </a>
+      </span>
+      <div className="hidden md:flex space-x-2">
+        {socialLinks.map((social, index) => (
+          <a
+            key={index}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${social.hoverColor} transition-colors`}
+          >
+            {social.icon}
           </a>
-        </span>
-        <div className="hidden md:flex space-x-3 text-white">
-          {socialLinks.map((social, index) => (
-            <a
-              key={index}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${social.hoverColor} transition-colors`}
-            >
-              {social.icon}
-            </a>
-          ))}
-        </div>
+        ))}
       </div>
+    </div>
+
+    {/* bars.svg below contact block */}
+           {/* Mobile Hamburger */}
+        <div className="md:hidden">
+          <button
+            onClick={() => setNavbarOpen(!navbarOpen)}
+            className="text-white"
+          >
+            {!navbarOpen ? (
+               <Image
+      src="/images/bars.svg"
+      alt="Decorative Bars"
+      width={80}
+      height={10}
+      className="w-8 h-6"
+    />
+            ) : (
+              <IoMdCloseCircleOutline className="text-4xl" />
+            )}
+          </button>
+        </div>
+ 
+  </div>
+</div>
 
       {/* Main Navbar */}
-      <div className="relative flex items-center justify-between px-8 mb-2">
-        {/* Logo: center on mobile, left-aligned on desktop */}
-        <div className="flex justify-center md:justify-start md:pl-10 w-full md:w-auto">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/images/logo.svg"
-              alt="WE DO Logo"
-              width={250}
-              height={50}
-              className="w-24 md:w-44 lg:w-34 xl:w-52"
-            />
-          </Link>
-        </div>
+      <div className="relative flex items-center justify-between">
+   
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex items-center ml-auto">
@@ -104,19 +139,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Hamburger */}
-        <div className="md:hidden ml-auto">
-          <button
-            onClick={() => setNavbarOpen(!navbarOpen)}
-            className="text-white"
-          >
-            {!navbarOpen ? (
-              <FaBars className="text-4xl" />
-            ) : (
-              <IoMdCloseCircleOutline className="text-4xl" />
-            )}
-          </button>
-        </div>
       </div>
 
       {/* Mobile Menu Overlay */}
@@ -129,7 +151,7 @@ const Navbar = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`${social.hoverColor} transition-colors text-xl`}
+                className={`${social.hoverColor} transition-colors text-sm`}
               >
                 {social.icon}
               </a>

@@ -37,14 +37,14 @@ const navLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#a0624d] to-[#caa193] text-white text-xs">
+    <footer className="bg-gradient-to-br from-[#a0624d] to-[#caa193] text-white text-[6px] md:text-sm">
       {/* Top Decorative Line */}
       <div className="h-[2px] bg-gradient-to-r from-[#caa193] via-[#a0624d] to-[#caa193]" />
 
       {/* Black Strip Section */}
-      <div className="bg-black px-4 sm:px-8 lg:px-20 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="bg-black md:px-4 sm:px-8 lg:px-20 py-2 md:py-4 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Social Links and Contacts */}
-        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-4 text-sm">
+        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-2 md:gap-4 text-sm">
           <div className="flex justify-center md:justify-start gap-3 text-lg">
             {socialLinks.map((item, idx) => (
               <a
@@ -88,8 +88,8 @@ const Footer = () => {
       </div>
 
       {/* Info Section */}
-      <div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-10 lg:px-20 py-6 gap-4 text-sm text-white">
-        <div className="space-y-2 text-center md:text-left">
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-10 lg:px-20 py-2 md:py-6 gap-4 text-[9px] md:text-sm text-white">
+        <div className="md:space-y-2 text-center md:text-left">
           <p className="flex items-center gap-2">
             <IoIosMail className="text-[#c38d90]" /> INFO@WEDOINTERIOR.AE
           </p>
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo-s-Black.png"
             alt="WE DO Logo"
             width={250}
             height={50}
@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom Bar */}
-      <div className="text-center text-xs pb-4">
+      <div className="text-center text-[10px] md:text-xs pb-4">
         © WEDO {new Date().getFullYear()} ALL RIGHTS RESERVED
       </div>
     </footer>

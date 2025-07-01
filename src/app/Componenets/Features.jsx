@@ -8,25 +8,25 @@ const cardData = [
   {
     title: "VILLA INTERIOR DESIGN",
     img: "/images/serv1.webp",
-    desc: "Luxury interior design tailored for villa architecture and grandeur aesthetics in Dubai.",
+    desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai tailored to your lifestyle and vision.",
     link: "/villa-interior-design-dubai",
   },
   {
     title: "APARTMENT INTERIOR DESIGN",
     img: "/images/serv2.webp",
-    desc: "Smart, elegant and space-optimized apartment interiors crafted for modern city life.",
+    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted apartment interior company in Dubai for stylish living.",
     link: "/apartment-interior-design-dubai",
   },
   {
     title: "LANDSCAPE DESIGN",
     img: "/images/serv3.webp",
-    desc: "Create unforgettable dining spaces with ambiance that enhances the culinary experience.",
+    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants across the UAE.",
     link: "/landscape-design-dubai",
   },
   {
     title: "RESTAURANT INTERIOR DESIGN",
     img: "/images/serv3.webp",
-    desc: "Create unforgettable dining spaces with ambiance that enhances the culinary experience.",
+    desc: "Best office interior design fit out company in Dubai, offering tailored Office Design & Commercial Fit-Out in Dubai.",
     link: "/restaurant-interior-design",
   },
   {
@@ -69,7 +69,14 @@ const cardData = [
 
 const Features = () => {
   return (
-    <section id="features" className="bg-black text-white py-16">
+    <section id="features" className="bg-black py-0 md:py-16
+     bg-[url('/images/bg-f-m.webp')] 
+    sm:bg-[url('/images/bg-f-d.webp')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Arrow image */}
         <div className="mt-0 sm:mt-10 flex justify-center">
@@ -78,12 +85,12 @@ const Features = () => {
             alt="Scroll down arrow"
             width={320}
             height={80}
-            className="h-auto w-48 sm:w-64"
+            className="h-auto w-32 sm:w-64"
           />
         </div>
 
         {/* Section Heading */}
-        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+        <h2 className="text-white mt-6 md:mt-10 mb-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
           INTERIOR DESIGN FEATURES
         </h2>
 
@@ -93,7 +100,7 @@ const Features = () => {
             <Link href={card.link} key={index}>
               <div className="text-left group cursor-pointer">
                 {/* Title */}
-                <h3 className="text-white text-sm font-conthrax uppercase tracking-wide mb-2">
+                <h3 className="text-white text-[12px] md:text-sm font-conthrax uppercase tracking-wide mb-2">
                   {card.title}
                 </h3>
 
@@ -113,7 +120,7 @@ const Features = () => {
                 </div>
 
                 {/* Paragraph */}
-                <p className="text-gray-300 text-sm font-play leading-relaxed">
+                <p className="text-gray-300 text-[12px] md:text-sm font-play leading-relaxed">
                   {card.desc}
                 </p>
               </div>

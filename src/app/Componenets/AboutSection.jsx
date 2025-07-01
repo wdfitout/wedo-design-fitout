@@ -7,36 +7,42 @@ const features = [
   {
     title: "INDUSTRY-LEADING EXPERTISE",
     description:
-      "Our skilled interior designers in Dubai specialize in luxury villa interior design, corporate office spaces, premium retail outlets, and prime fit-outs. We stay ahead with the latest interior design trends in Dubai, ensuring modern elegance with timeless appeal.",
+      "Our team of expert engineers and interior designers in Dubai has delivered large-scale commercial fit-out and residential interiors across major districts like DIFC, Business Bay, and Palm Jumeirah. From smart office interior design Dubai to luxury villa renovations in Emirates Hills, we ensure compliance, speed, and style. Known as one of the top interior fit out companies in Dubai, our methodical project execution is trusted by both multinational firms and private homeowners.",
   },
   {
     title: "CREATIVE & INNOVATIVE DESIGN",
     description:
-      "We don’t just follow interior design trends—we set them. Whether it’s modern apartment design, luxury villa interiors, bedroom ceiling design, joinery works, or statement pieces, our attention to details transforms every space into a masterpiece.",
+      "WE DO doesn’t follow trends—we lead them. From bold retail interior design Dubai in Downtown to visionary corporate fitouts in DIFC, we deliver environments that are beautiful, brand-aligned, and adaptive. Our design philosophy combines sustainability, technology, and custom craftsmanship—delivering interiors that inspire today and adapt tomorrow. Whether it’s restaurant interior design Dubai or F&B fitout in DFC, we transform spaces into unforgettable experiences",
   },
   {
     title: "CLIENT-CENTRIC APPROACH",
     description:
-      "Your vision is our priority. We are always ready to listen to you and take the time to understand your lifestyle and preferences. Creating custom interior design solutions that reflect your personality and enhance functionality—it’s all about bringing your vision to life.",
+      "Each project begins by attentively and deeply understanding your brand, goals, and lifestyle. Whether we are designing a residential interior in Palm Jumeirah, implementing a restaurant fitout in Business Bay, or developing a bespoke corporate interior fit-out in Downtown Dubai, we ensure clarity, innovation, and full control over the project. It is this customized attention that makes WE DO one of the top interior design companies in Dubai according to business owners and property developers.",
   },
   {
-    title: "TURN KEY SOLUTIONS",
+    title: "TURNKEY SOLUTIONS WITH PRECISION",
     description:
-      "From initial concept to final execution of design, we provide end-to-end interior design and fit-out services in Dubai. Whether you need a complete villa transformation or a high-end commercial interior, we handle everything with precision.",
+      "Each project begins by attentively and deeply understanding your brand, goals, and lifestyle. Whether we are designing a residential interior in Palm Jumeirah, implementing a restaurant fitout in Business Bay, or developing a bespoke corporate interior fit-out in Downtown Dubai, we ensure clarity, innovation, and full control over the project. It is this customized attention that makes WE DO one of the top interior design companies in Dubai according to business owners and property developers.",
   },
 ];
 
 const AboutSection = () => {
   return (
-    <section id="about-us" className="bg-[url('/images/bg-sec-3.webp')] bg-cover bg-center bg-no-repeat text-white overflow-hidden">
+    <section
+  id="about-us"
+  className="
+    bg-[url('/images/bg-sec-3-mobile.webp')] 
+    sm:bg-[url('/images/bg-sec-3.webp')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden"
+>
       {/* Top Intro Text */}
-      <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-12 text-start text-sm sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
-        <h2 className="text-white text-lg lg:text-4xl font-bold text-center mb-6">
-          DESIGNING DREAMS, CRAFTING REALITY – INTERIOR DESIGN DUBAI, UAE
-        </h2>
+      <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-2 text-center text-[12px] sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
         <p>
-          Are you looking for the best interior design company in Dubai, UAE? At <b>Interior Design Company Dubai - WeDo Design & Fitout</b>, we specialize in high-end interiors and <a href="https://wedointerior.ae/fitout-company-dubai" target="_blank"><b>fit-out services</b></a> that fuse creativity, precision, and style. From residential villas to commercial spaces, we craft designs that reflect luxury lifestyles and refined workplaces.
-        </p>
+        At WE DO Interior Design & Fit-Out, we deliver award-winning interior design Dubai services that redefine how commercial and residential spaces should feel and function. Popular among the best interior design companies in Dubai, we bring creativity, engineering precision, and site-tested execution to every project—whether it's a luxury villa interior design in Emirates Hills, a smart apartment interior design in Downtown Dubai, or a high-end office fitout in DIFC. With over 15 years of experience in industry, WEDO interior is among the leading interior companies in Dubai, shaping environments that reflect Dubai’s fast-paced, visionary culture.</p>
       </div>
 
       {/* Image Section */}
@@ -53,7 +59,7 @@ const AboutSection = () => {
       </div>
 
       {/* Wireframe and Content Section */}
-      <div className="relative px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-12 bg-no-repeat bg-cover bg-[url('/images/mobile-wire.svg')] lg:bg-[url('/images/desktop-wire.svg')]">
+      <div className="relative px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-4 md:py-12 bg-no-repeat bg-cover bg-[url('/images/mobile-wire.svg')] lg:bg-[url('/images/desktop-wire.svg')]">
 
         {/* Arrow */}
         <div className="flex py-4 justify-center">
@@ -62,28 +68,28 @@ const AboutSection = () => {
             alt="Scroll down arrow"
             width={320}
             height={80}
-            className="h-auto w-48 sm:w-64"
+            className="h-auto w-32 sm:w-64"
           />
         </div>
 
         {/* Why Choose WEDO */}
-        <div className="text-center mb-8">
-          <h2 className="text-sm sm:text-xl text-white tracking-widest font-conthrax py-5">
+        <div className="text-center mb-0 md:mb-8">
+          <h2 className="text-[12px] sm:text-xl text-white tracking-widest font-conthrax py-0 md:py-5">
             WHY CHOOSE WEDO INTERIOR?
           </h2>
-          <p className="max-w-6xl mx-auto mt-4 text-sm sm:text-base text-gray-300 py-6 font-play">
-            As one of the top interior design companies in Dubai, our team offers more than 10 years of expertise in residential and commercial interior design. We focus on elegance, functionality, and personalized client service to turn your dream space into reality.
+          <p className="max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-gray-300 py-2 md:py-6 font-play">
+          In a landscape filled with fit out companies in Dubai, WE DO Interior Design & Fit-Out stands apart through consistency, design excellence, and reliability. Whether it's a corporate HQ in Business Bay, a boutique in Palm Jumeirah, or a flagship venue in Dubai Festival City (DFC), we treat every space as an opportunity to innovate. Ranked among the top 10 interior design companies in Dubai, we combine global sensibility with local insight to execute projects that are both refined and future-ready.
           </p>
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
           {features.map((feature, index) => (
             <div key={index} className="space-y-3 px-2 text-start">
-              <h3 className="text-[#caa193] font-conthrax uppercase tracking-wide text-center">
+              <h3 className="text-[#caa193] text-[12px] font-conthrax uppercase tracking-wide text-center">
                 {feature.title}
               </h3>
-              <p className="text-gray-300 leading-relaxed font-play">
+              <p className="text-white text-[10px] leading-relaxed font-play">
                 {feature.description}
               </p>
             </div>

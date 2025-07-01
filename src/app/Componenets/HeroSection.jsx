@@ -52,16 +52,18 @@ const HeroSection = () => {
         </div>
       ))}
 
+      {/* Black transparent gradient overlay (bottom to mid) */}
+      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent z-10" />
+
       {/* Overlay Text Content */}
-      <div className="absolute inset-x-0 bottom-10 text-center px-4 text-white z-10">
-        <h1 className="text-xl sm:text-xl md:text-4xl lg:text-5xl font-penrise">
+      <div className="absolute inset-x-0 bottom-4 md:bottom-10 text-center px-4 text-white z-20">
+        <h1 className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-penrise -tracking-normal">
           VISION AT WORK
         </h1>
-        <p className="text-xs sm:text-base md:text-sm mt-2 font-conthrax tracking-wider">
+        <p className="text-[10px] sm:text-lg md:text-2xl md:mt-2 font-play tracking-wider">
           DESIGN & CRAFTING LUXURY SPACES IN DUBAI
         </p>
       </div>
-      
     </div>
   );
 };

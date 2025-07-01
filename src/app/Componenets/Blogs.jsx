@@ -74,8 +74,16 @@ const Blogs = () => {
   };
 
   return (
-    <section id="blogs" className="bg-black text-white py-20">
-      <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
+    <section id="blogs" 
+    className="bg-black py-20
+    bg-[url('/images/ftrs-bg-m.webp')] 
+    sm:bg-[url('/images/bg-dt-d.webp')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden">
+      <div className="w-[80%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
         {/* Arrow image */}
         <div className="flex justify-center">
           <Image

@@ -9,42 +9,42 @@ const projects = [
     img: "/images/manara villa (33).webp",
     alt: "Home Interior Design",
     title: "VILLA PROJECTS",
-    desc: "Elevate your living experience with our premier home interior design services in Dubai. As a top interior design company, we transform residences into.",
-    slug: "home-interior-design-dubai",
+    desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai tailored to your lifestyle and vision.",
+    slug: "villa-projects",
   },
   {
     img: "/images/modern-apartment-interior-design-in-dubai.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
-    desc: "Our apartment interior designs blend comfort and sophistication. Whether it's Downtown Dubai or Palm Jumeirah, we turn your apartment into haven.",
-    slug: "home-interior-design-dubai",
+    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted apartment interior company in Dubai for stylish living.",
+    slug: "apartment-projects",
   },
   {
     img: "/images/dubai-interior-design-company-restaurant-counter.webp",
     alt: "Restaurant Interior Design",
     title: "RESTAURANT PROJECTS",
-    desc: "Create unforgettable dining ambience with our luxury restaurant interior design services. From fine dining spaces to cafés, our designs evoke.",
-    slug: "restaurant-interior-design-dubai",
+    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants across the UAE.",
+    slug: "restaurant-projects",
   },
   {
     img: "/images/x.learning (3).webp",
     alt: "Office Interior Design",
     title: "OFFICE PROJECTS",
-    desc: "Transform your workspace into a high-performing environment. Our commercial interiors promote productivity through modern, aesthetic design.",
-    slug: "commercial-interior-design-dubai",
+    desc: "Best office interior design fit out company in Dubai, offering tailored Office Design & Commercial Fit-Out in Dubai.",
+    slug: "office-projects",
   },
   {
     img: "/images/beauty-salon-spa-retail-interior-design.webp",
     alt: "Retail Interior Design",
     title: "RETAIL PROJECTS",
-    desc: "Enhance your boutique, salon, or spa with immersive retail interiors. We bring elegance and purpose to retail design in Dubai’s most vibrant shopping.",
-    slug: "retail-interior-design-dubai",
+    desc: "Top retail interior design company in Dubai, trusted among the best interior fit out companies in Dubai for crafting engaging, customer-focused spaces.",
+    slug: "retail-projects",
   },
   {
     img: "/images/villa-construction-dubai.webp",
     alt: "Villa Construction",
     title: "VILLA CONSTRUCTION",
-    desc: "From foundation to finishing, our villa construction services in Dubai deliver excellence. We combine architecture, interiors, and fit-outs.",
+    desc: "Trusted villa construction company Dubai with expert villa contractors in Dubai. A full-service design and build construction company for bespoke luxury homes.",
     slug: "villa-construction-dubai",
   },
 ];
@@ -53,8 +53,15 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-[url('/images/bg-sec-2.webp')] bg-cover bg-center bg-no-repeat text-white"
-    >
+        className="
+    bg-[url('/images/bg-sec-4-mobile.webp')] 
+    sm:bg-[url('/images/bg-sec-2.webp')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden"
+>
       {/* Arrow icon */}
       <div className="mt-16 flex justify-center">
         <Image
@@ -62,20 +69,20 @@ const Projects = () => {
           alt="Scroll down arrow"
           width={320}
           height={80}
-          className="h-auto w-48 sm:w-64"
+          className="h-auto w-32 sm:w-64"
         />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
         {/* Section Title + Button */}
         <div className="relative mb-12">
-          <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
+          <h2 className="text-[12px] sm:text-xl font-conthrax tracking-wider text-center">
             OUR PROJECTS IN DUBAI
           </h2>
           <div className="mt-4 md:mt-0 md:absolute right-0 top-1/2 transform md:-translate-y-1/2 flex justify-center md:justify-end">
             <Link
               href="/gallery"
-              className="uppercase font-conthrax tracking-wide px-6 py-1 text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
+              className="uppercase font-conthrax tracking-wide px-4 md:px-6 py-1 text-[10px] md:text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
               style={{
                 borderImage: "linear-gradient(to right, #caa193, #a0624d)",
                 borderImageSlice: 1,
@@ -104,10 +111,10 @@ const Projects = () => {
               <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
                 <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
                 <div className="p-1">
-                  <h3 className="text-white font-conthrax text-lg text-start tracking-wider">
+                  <h3 className="text-white font-conthrax text-[12px] md:text-lg text-start tracking-wider px-1 md:px-2">
                     {project.title}
                   </h3>
-                  <p className="text-sm leading-relaxed font-play text-white">
+                  <p className="text-sm leading-relaxed text-[12px] font-play text-white px-1 md:px-2">
                     {project.desc}
                   </p>
                 </div>
@@ -120,7 +127,7 @@ const Projects = () => {
         <div className="mt-12 flex justify-center">
           <a
             href="mailto:info@wedointerior.ae"
-            className="block font-conthrax tracking-wide px-6 py-2 text-xs md:px-16 md:py-3.5 md:text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
+            className="block font-conthrax tracking-wide px-4 py-1 text-[10px] md:px-16 md:py-3.5 md:text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
             style={{
               borderImage: "linear-gradient(to right, #caa193, #a0624d)",
               borderImageSlice: 1,

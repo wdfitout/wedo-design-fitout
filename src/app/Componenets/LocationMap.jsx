@@ -28,16 +28,16 @@ const LocationMap = () => {
           {/* Text Content */}
           <div className="flex-1 z-10">
             <div>
-              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-5xl font- tracking-wide text-black mb-4 font-penrise">
-                Vision At Work
+              <h2 className="text-center md:text-start font-bold text-lg sm:text-xl md:text-2xl lg:text-5xl font- tracking-wide text-black mb-4 font-penrise">
+                Vision <br></br>At Work
               </h2>
             </div>
-            <p className="text-sm sm:text-base leading-relaxed text-black mb-4 font-conthrax">
+            <p className="text-center md:text-start text-sm sm:text-base leading-relaxed text-black mb-4 font-conthrax">
               Ready to take your Dubai interiors to the next level with the best <br />interior
               designing company Dubai? <br />
               <span>Transform your space now.</span>
             </p>
-            <p className="text-sm sm:text-base font-play leading-relaxed text-black">
+            <p className="text-center md:text-start text-sm sm:text-base font-play leading-relaxed text-black">
               Contact Us Today! <br />
               The first step is your vision—and explore how we can transform your space into a<br />
               masterpiece.
@@ -46,14 +46,10 @@ const LocationMap = () => {
         </div>
 
         {/* Right Positioned Blueprint Image */}
-        <div className="absolute inset-y-0 right-0 w-[50%] hidden lg:block">
-          <Image
-            src="/images/blueprint-bg.webp"
-            alt="Blueprint Background"
-            fill
-            className="object-contain object-right"
-          />
-        </div>
+      <div className="absolute inset-y-0 right-0 w-[50%]">
+  <div className="h-full w-full bg-cover bg-center bg-no-repeat bg-[url('/images/loc-bg-m.webp')] lg:bg-[url('/images/blueprint-bg.webp')]" />
+</div>
+
       </section>
     </>
   );

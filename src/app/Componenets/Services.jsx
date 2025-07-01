@@ -37,21 +37,28 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="bg-black text-white py-10">
+    <section id="services" className="bg-black py-4 md:py-10
+        bg-[url('/images/bg-svc-m.webp')] 
+    sm:bg-[url('/images/bg-svc-d.webp')] 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-white 
+    overflow-hidden">
       <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[80%] mx-auto mb-10">
         {/* Arrow image */}
-        <div className="mt-10 flex justify-center">
+        <div className="mt-20 md:mt-10 flex justify-center">
           <Image
             src="/images/sec-dvd.webp"
             alt="Scroll down indicator"
             width={320}
             height={80}
-            className="h-auto w-48 sm:w-64"
+            className="h-auto w-32 sm:w-64"
           />
         </div>
 
         {/* Section Heading */}
-        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+        <h2 className="text-white mt-10 mb-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
           SERVICES WE PROVIDE
         </h2>
 
@@ -75,7 +82,7 @@ const Services = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-sm text-gray-400 leading-relaxed font-play">
+                <p className="text-sm text-white leading-relaxed font-play">
                   {service.desc}
                 </p>
               </div>
