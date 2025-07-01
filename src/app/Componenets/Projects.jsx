@@ -16,14 +16,14 @@ const projects = [
     img: "/images/modern-apartment-interior-design-in-dubai.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
-    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted apartment interior designers.",
+    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted interior designers.",
     slug: "apartment-projects",
   },
   {
     img: "/images/dubai-interior-design-company-restaurant-counter.webp",
     alt: "Restaurant Interior Design",
     title: "RESTAURANT PROJECTS",
-    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants across the UAE.",
+    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants.",
     slug: "restaurant-projects",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     img: "/images/villa-construction-dubai.webp",
     alt: "Villa Construction",
     title: "VILLA CONSTRUCTION",
-    desc: "Trusted villa construction company Dubai with expert villa contractors in Dubai. A full-service design and build construction company.",
+    desc: "Trusted villa construction company Dubai with expert villa contractors. A full-service design and build company.",
     slug: "villa-construction-dubai",
   },
 ];
