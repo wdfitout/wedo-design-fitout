@@ -114,7 +114,7 @@ const Projects = () => {
                   <h3 className="text-white font-conthrax text-[12px] md:text-lg text-start tracking-wider px-1 md:px-2">
                     {project.title}
                   </h3>
-                  <p className="text-sm leading-relaxed text-[12px] font-play text-white px-1 md:px-2">
+                  <p className="md:text-sm text-[12px] font-play text-white px-1 md:px-2">
                     {project.desc}
                   </p>
                 </div>

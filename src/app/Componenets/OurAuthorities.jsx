@@ -7,26 +7,13 @@ import Image from "next/image";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 
 const logos = [
-  "/images/slider2 (1).png",
-  "/images/slider2 (2).png",
-  "/images/slider2 (3).png",
-  "/images/slider2 (4).png",
-  "/images/slider2 (5).png",
-  "/images/slider2 (6).png",
-  "/images/slider2 (7).png",
-  "/images/slider2 (8).png",
-  "/images/slider2 (9).png",
-  "/images/slider2 (10).png",
-  "/images/slider2 (11).png",
-  "/images/slider2 (12).png",
-  "/images/slider2 (13).png",
-  "/images/slider2 (14).png",
-  "/images/slider2 (15).png",
-  "/images/slider2 (16).png",
-  "/images/slider2 (17).png",
-  "/images/slider2 (18).png",
-  "/images/slider2 (19).png",
-  "/images/slider2 (20).png",
+    "/images/slider-(1)-1.png",
+    "/images/slider-(1)-2.png",
+    "/images/slider-(1)-3.png",
+    "/images/slider-(1)-4.png",
+    "/images/slider-(1)-5.png",
+    "/images/slider-(1)-6.png",
+
 ];
 
 const OurAuthorities = () => {

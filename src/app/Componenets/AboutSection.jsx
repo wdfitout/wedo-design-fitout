@@ -83,7 +83,7 @@ const AboutSection = () => {
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
           {features.map((feature, index) => (
             <div key={index} className="space-y-3 px-2 text-start">
               <h3 className="text-[#caa193] text-[12px] font-conthrax uppercase tracking-wide text-center">
