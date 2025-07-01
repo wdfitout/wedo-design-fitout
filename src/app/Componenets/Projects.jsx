@@ -9,14 +9,14 @@ const projects = [
     img: "/images/manara villa (33).webp",
     alt: "Home Interior Design",
     title: "VILLA PROJECTS",
-    desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai tailored to your lifestyle and vision.",
+    desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai.",
     slug: "villa-projects",
   },
   {
     img: "/images/modern-apartment-interior-design-in-dubai.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
-    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted apartment interior company in Dubai for stylish living.",
+    desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted apartment interior designers.",
     slug: "apartment-projects",
   },
   {
@@ -37,14 +37,14 @@ const projects = [
     img: "/images/beauty-salon-spa-retail-interior-design.webp",
     alt: "Retail Interior Design",
     title: "RETAIL PROJECTS",
-    desc: "Top retail interior design company in Dubai, trusted among the best interior fit out companies in Dubai for crafting engaging, customer-focused spaces.",
+    desc: "Top retail interior design company in Dubai, trusted among the best interior fit out companies in Dubai.",
     slug: "retail-projects",
   },
   {
     img: "/images/villa-construction-dubai.webp",
     alt: "Villa Construction",
     title: "VILLA CONSTRUCTION",
-    desc: "Trusted villa construction company Dubai with expert villa contractors in Dubai. A full-service design and build construction company for bespoke luxury homes.",
+    desc: "Trusted villa construction company Dubai with expert villa contractors in Dubai. A full-service design and build construction company.",
     slug: "villa-construction-dubai",
   },
 ];
