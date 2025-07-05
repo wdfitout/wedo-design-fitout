@@ -87,8 +87,6 @@ const DesignProjects = () => {
               </div>
             </div>
           
-
-
           {/* Vertical Line */}
           <div className="hidden md:block absolute top-0 left-1/3 w-[2px] h-full bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
         </div>

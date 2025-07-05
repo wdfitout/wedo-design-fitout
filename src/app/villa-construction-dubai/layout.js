@@ -6,7 +6,7 @@ export const metadata = {
     "Villa construction Dubai",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/villa-construction-dubai',
+    canonical: '/villa-construction-dubai/',
   },
 };
 

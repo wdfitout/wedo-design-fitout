@@ -13,15 +13,6 @@ const projects = [
     href: "/al-manara-luxury-villa",
   },
 
-  {
-    img: "/images/dubai-interior-design-company-restaurant-counter.webp",
-    alt: "Restaurant Interior Design",
-    title: "JUMEIRAH BEACH RESIDENCE VILLA",
-    href: "/jumeirah-beach-residence-villa",
-  },
-
-
-
     {
     img: "/images/d1villa (1).webp",
     alt: "Home Interior Design",
@@ -68,7 +59,7 @@ const PProjects = () => {
            {/* Section Title + Button */}
         <div className="relative mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
-            OUR PROJECTS IN DUBAI
+            VILLA PROJECTS IN DUBAI
           </h2>
           <div className="mt-4 md:mt-0 md:absolute right-0 top-1/2 transform md:-translate-y-1/2 flex justify-center md:justify-end">
             <Link

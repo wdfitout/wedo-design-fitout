@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Our Gallery | We Do Interior Design & Fit-Out",
+  title: "Restaurant Projects Dubai | We Do Interior Design & Fit-Out",
   description:
-    "Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.",
+    "Explore luxury restaurant fit-out projects in Dubai by We Do Interior. Discover ourcommercial and hospitality portfolio.",
   keywords: [
     'Interior Design Projects Dubai',
     'Fit-Out Portfolio Dubai',
@@ -16,7 +16,7 @@ export const metadata = {
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
       'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/projects',
+    url: 'https://wedointerior.ae/restaurant-projects/',
     siteName: 'we do interior design & fit out',
     images: [
       {

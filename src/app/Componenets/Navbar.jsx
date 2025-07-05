@@ -55,22 +55,22 @@ const Navbar = () => {
 {/* Black Strip with logo + contact + icons */}
 <div className="relative h-[50px] px-4 md:px-1 text-white">
   {/* Centered Logo */}
-  <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-    <Link href="/" className="flex items-center">
-      <Image
-        src="/images/logo.svg"
-        alt="WE DO Logo"
-        width={250}
-        height={40}
-        className="w-28 md:w-44 lg:w-52"
-      />
-    </Link>
-  </div>
+<div className="absolute inset-x-0 top-4 md:top-6 flex justify-center md:justify-start px-20 z-10">
+  <Link href="/" className="flex items-center">
+    <Image
+      src="/images/logo.svg"
+      alt="WE DO Logo"
+      width={250}
+      height={40}
+      className="w-28 md:w-44 lg:w-44"
+    />
+  </Link>
+</div>
 
   {/* Contact Info + bars.svg (Right Block) */}
   <div className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 flex flex-col items-end">
     {/* Contact and Socials */}
-    <div className="flex items-center space-x-1 text-[11px] md:text-sm lg:text-base">
+    <div className="flex items-center space-x-1 text-[11px] md:text-sm lg:text-base px-4">
       <span className="flex items-center space-x-1 hover:text-[#a0624d]">
         <FaPhoneAlt className="text-[6px] md:text-xs" />
         <a href="tel:+971588075603" className="text-[6px] md:text-xs">+971 58 807 5603</a>

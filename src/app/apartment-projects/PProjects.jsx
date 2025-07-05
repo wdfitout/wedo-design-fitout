@@ -193,7 +193,7 @@ const PProjects = () => {
         {/* Section Title */}
         <div className="relative mb-6 sm:mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
-            OUR PROJECTS IN DUBAI
+            APRTMENT PROJECTS IN DUBAI
           </h2>
         </div>
 
