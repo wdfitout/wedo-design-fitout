@@ -89,7 +89,7 @@ const AboutSection = () => {
               <h3 className="text-[#caa193] text-[12px] font-conthrax uppercase tracking-wide text-center">
                 {feature.title}
               </h3>
-              <p className="text-white text-[10px] leading-relaxed font-play">
+              <p className="text-white text-[10px] sm:text-sm leading-relaxed font-play">
                 {feature.description}
               </p>
             </div>

@@ -41,19 +41,18 @@ const DesignProjects = () => {
               alt="Residential Interior Design"
               width={1400}
               height={600}
-              className="object-cover w-full h-[200px]"
+              className="object-cover w-full h-[200px] sm:h-[320px]"
               />
               {/* Overlay */}
-              <div className="absolute inset-y-0 left-0 text-start w-1/2 md:w-1/3 bg-black/70 p-3 sm:p-10 flex flex-col justify-center">
-                <h3 className="text-[10px] sm:text-base tracking-widest font-conthrax uppercase">
+              <div className="absolute inset-y-0 left-0 text-start w-1/2 md:w-1/3 bg-black/70 p-2 sm:p-10 flex flex-col justify-center">
+                <h3 className="text-[10px] sm:text-lg tracking-widest font-conthrax uppercase">
                   RESIDENTIAL
                 </h3>
-                <h2 className="text-[10px] sm:text-2xl text-[#c38d90] font-conthrax mb-4 uppercase">
+                <h2 className="text-[10px] sm:text-lg text-[#c38d90] font-conthrax uppercase">
                   INTERIOR DESIGN
                 </h2>
-                <p className="text-[8px] sm:text-sm leading-relaxed text-gray-300 font-play overflow-hidden max-h-24 md:max-h-none transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                <p className="text-[8px] sm:text-[12px] leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all duration-300 ease-in-out">
+                  WE DO Interior Design & Fit-Out specializes in residential interior design Dubai. As a trusted interior design company in Dubai, our expert residential interior designers deliver bespoke solutions for villa designs, modern apartments, and penthouse interiors. Whether you're renovating or building from scratch, WE DO transform your vision into elegant, functional spaces.
                 </p>
               </div>
             </div>
@@ -72,19 +71,18 @@ const DesignProjects = () => {
               alt="Residential Interior Design"
               width={1400}
               height={600}
-              className="object-cover w-full h-[200px]"
+              className="object-cover w-full h-[200px] sm:h-[330px]"
               />
               {/* Overlay */}
-              <div className="absolute inset-y-0 text-start right-0 w-1/2 md:w-1/3 bg-black/70 p-6 sm:p-10 flex flex-col justify-center">
-                <h3 className="text-[10px] sm:text-base tracking-widest font-conthrax uppercase">
+              <div className="absolute inset-y-0 text-start right-0 w-1/2 md:w-1/3 bg-black/70 p-2 sm:p-10 flex flex-col justify-center">
+                <h3 className="text-[10px] sm:text-lg tracking-widest font-conthrax uppercase">
                   COMMERCIAL
                 </h3>
-                <h2 className="text-[10px] sm:text-2xl text-[#c38d90] font-conthrax mb-4 uppercase">
+                <h2 className="text-[10px] sm:text-lg text-[#c38d90] font-conthrax uppercase">
                   INTERIOR DESIGN
                 </h2>
-                <p className="text-[8px] sm:text-sm leading-relaxed text-gray-300 font-play overflow-hidden max-h-24 md:max-h-none transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                <p className="text-[8px] sm:text-[12px] leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all duration-300 ease-in-out">
+                 WE DO Interior Design & Fit-Out is a leading commercial interior design company in Dubai, delivering tailored solutions for offices, retail stores, showrooms, cafes, and restaurants. Our commercial interior design services in Dubai blend functionality with aesthetics—ensuring each space supports business growth while reflecting your brand. From concept to execution, WE DO transforms commercial spaces into impactful, professional environments.
                 </p>
               </div>
             </div>
