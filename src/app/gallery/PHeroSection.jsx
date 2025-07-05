@@ -17,11 +17,11 @@ const PHeroSection = () => {
 
       {/* Overlay Text Content */}
       <div className="absolute inset-x-0 bottom-10 text-center px-4 text-white z-10">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+        <h1 className="text-2xl sm:text-3xl font-penrise md:text-4xl lg:text-5xl font-bold">
           WORK AT VISION
         </h1>
-        <p className="text-sm sm:text-base md:text-lg mt-2">
-          some lines are great
+        <p className="text-sm font-conthrax sm:text-base md:text-lg mt-2">
+          SOME DESIGNS ARE GREAT
         </p>
       </div>
     </div>

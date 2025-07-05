@@ -24,7 +24,7 @@ const projects = [
     href: "/acacia-dubai-hills-2-bedroom-apartment",
   },
     {
-    img: "/images/premium-apartment-interior-design-palm-jumeirah-dubai.jpg",
+    img: "/images/pjapt (5).webp",
     alt: "Home Interior Design",
     title: "PALM JUMEIRAH APARTMENT",
     href: "/palm-jumeirah-apartment",
@@ -84,7 +84,7 @@ const projects = [
     href: "/al-barsha-lounge",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/magapt (10).png",
     alt: "Apartment Interior Design",
     title: "MARINA GATE PENTHOUSE",
     href: "/marina-gate-penthouse",
@@ -102,7 +102,7 @@ const projects = [
     href: "/palm-jumeirah-2-bedroom-penthouse",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/mjapt (9).png",
     alt: "Apartment Interior Design",
     title: "MADINAT JUMEIRAH LIVING ASAYEL APARTMENT",
     href: "/madinat-jumeirah-living-asayel-apartment",
@@ -120,7 +120,7 @@ const projects = [
     href: "/dubai-knowledge-park-office-fit-out",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/prph (10).png",
     alt: "Apartment Interior Design",
     title: "ii PRIMO PENTHOUSE",
     href: "/ii-primo-penthouse",
@@ -142,12 +142,6 @@ const projects = [
     alt: "Apartment Interior Design",
     title: "FOUNTAIN VIEWS APARTMENT",
     href: "/fountain-views-apartment",
-  },
-  {
-    img: "/images/dubai-interior-design-company-restaurant-counter.webp",
-    alt: "Restaurant Interior Design",
-    title: "JUMEIRAH BEACH RESIDENCE VILLA",
-    href: "/jumeirah-beach-residence-villa",
   },
     {
     img: "/images/tess-avenue-beauty-salon-elegant-interior-design-jumeirah-1-dubai.webp",
@@ -270,7 +264,7 @@ const projects = [
     href: "/bluewaters-cafe-interior",
   },
   {
-    img: "/images/dubai-interior-design-company-restaurant-counter.webp",
+    img: "/images/blpph (1).png",
     alt: "Restaurant Interior Design",
     title: "BOULEVARD POINT PENTHOUSE",
     href: "/boulevard-point-penthouse",
@@ -300,7 +294,7 @@ const projects = [
     href: "/umm-suqeim-boutique",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/adskv (3).png",
     alt: "Apartment Interior Design",
     title: "ADDRESS SKYVIEW 3 BEDROOM APARTMENT",
     href: "/address-skyview-3-bedroom-apartment",
@@ -318,7 +312,7 @@ const projects = [
     href: "/dubai-restaurant-interior-fit-out",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/adbr (1).png",
     alt: "Apartment Interior Design",
     title: "ADDRESS BEACH RESORT APARTMENT",
     href: "/address-beach-resort-apartment",

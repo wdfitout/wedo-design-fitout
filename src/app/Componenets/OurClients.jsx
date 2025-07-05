@@ -77,7 +77,7 @@ const OurClients = () => {
                   alt={`Client logo ${index + 1}`}
                   width={120}
                   height={80}
-                  className="object-contain w-full h-auto grayscale hover:grayscale-0 transition duration-300"
+                  className="object-contain w-full h-auto"
                 />
               </div>
             ))}

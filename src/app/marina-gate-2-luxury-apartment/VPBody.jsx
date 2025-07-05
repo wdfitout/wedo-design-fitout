@@ -6,59 +6,96 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/vpb1.webp",
+    src: "/images/mgapt-2 (1).jpg",
     alt: "Elegant villa living room with ambient lighting",
     title: "Villa Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/vpb2.webp",
+    src: "/images/mgapt-2 (2).jpg",
     alt: "Modern kitchen design with marble countertops",
     title: "Villa Interior Gallery Image 2",
     description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
-    src: "/images/vpb3.webp",
+    src: "/images/mgapt-2 (3).jpg",
     alt: "Luxury bathroom with golden fixtures",
     title: "Villa Interior Gallery Image 3",
     description: "Stylish bathroom with gold fixtures and large mirrors"
   },
-  {
-    src: "/images/vpb4.webp",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    {
+    src: "/images/mgapt-2 (4).jpg",
+    alt: "Elegant villa living room with ambient lighting",
+    title: "Villa Interior Gallery Image 1",
+    description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/vpb5.webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/mgapt-2 (5).jpg",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
-    src: "/images/vpb6.webp",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
+    src: "/images/mgapt-2 (6).jpg",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
   },
     {
-    src: "/images/vpb7.webp",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/mgapt-2 (7).jpg",
+    alt: "Elegant villa living room with ambient lighting",
+    title: "Villa Interior Gallery Image 1",
+    description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/vpb8.webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/mgapt-2 (8).jpg",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
-    src: "/images/vpb9.webp",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
-  }
+    src: "/images/mgapt-2 (9).jpg",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
+  },
+    {
+    src: "/images/mgapt-2 (10).jpg",
+    alt: "Elegant villa living room with ambient lighting",
+    title: "Villa Interior Gallery Image 1",
+    description: "Spacious living area with beige tones and gold accents"
+  },
+  {
+    src: "/images/mgapt-2 (11).jpg",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+  },
+  {
+    src: "/images/mgapt-2 (12).jpg",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
+  },
+    {
+    src: "/images/mgapt-2 (13).jpg",
+    alt: "Elegant villa living room with ambient lighting",
+    title: "Villa Interior Gallery Image 1",
+    description: "Spacious living area with beige tones and gold accents"
+  },
+  {
+    src: "/images/mgapt-2 (14).jpg",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+  },
+  {
+    src: "/images/mgapt-2 (15).jpg",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
+  },
+ 
 ];
 
 const VPBody = () => {
@@ -107,7 +144,7 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; FEATURES &gt; VILLA INTERIOR DESIGN
+        HOME &gt; PROJECTS &gt; MARINA GATE 2 LUXURY APARTMENT
       </p>
 
       {/* Heading + Paragraph + Image */}
@@ -129,7 +166,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            VILLA INTERIOR DESIGN SERVICES
+            MARINA GATE 2 LUXURY APARTMENT
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -161,7 +198,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/vpbody.webp"
+              src="/images/mgapt-2 (4).jpg"
               alt="Luxury villa interior with white marble flooring and gold accents"
               title="Modern Villa Interior Design in Dubai"
               width={800}
@@ -191,7 +228,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          MARINA GATE 2 LUXURY APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

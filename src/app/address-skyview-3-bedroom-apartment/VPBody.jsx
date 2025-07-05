@@ -53,12 +53,6 @@ const galleryImages = [
     title: "Villa Interior Gallery Image 5",
     description: "Architectural staircase design with high ceiling chandelier"
   },
-  {
-    src: "/images/vpb9.webp",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
-  }
 ];
 
 const VPBody = () => {

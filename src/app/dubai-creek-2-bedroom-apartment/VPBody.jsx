@@ -107,7 +107,7 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; PROJECTS &gt; DUBAI CREEK 3 BEDROOM APARTMENT
+        HOME &gt; PROJECTS &gt; DUBAI CREEK 2 BEDROOM APARTMENT
       </p>
 
       {/* Heading + Paragraph + Image */}
@@ -129,7 +129,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            DUBAI CREEK 3 BEDROOM APARTMENT
+            DUBAI CREEK 2 BEDROOM APARTMENT
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -191,7 +191,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          DUBAI CREEK 2 BEDROOM APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
