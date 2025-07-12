@@ -10,9 +10,10 @@ const VHeroSection = () => {
       <Image
         src="/images/mgapt-2 (5).jpg"
         alt="interior design"
-        fill
-        priority
-        className="object-cover"
+       width={1920}
+    height={1080}
+    priority
+    className="object-cover w-full h-full"
       />
 
    

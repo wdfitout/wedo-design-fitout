@@ -181,17 +181,17 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
               <p>
-                Are you looking forward to lifting your villa interior design in Dubai? There are many interior design companies in Dubai that offer designs for villas across the United Arab Emirates, but WE DO Interior Design & Fitout are among the best interior design companies in Dubai.
+              Marina Gate 2 Luxury Apartment represents the ultimate combination of comfort and style, portraying luxury and sophistication in every aspect. Situated in the heart of Dubai Marina, this area represents a sophisticated modern apartment interior design, with intelligent layouts, pale colors, and high-quality finishes.
               </p>
+              
               <p>
-                We offer our Dubai villa design services in various places so that every project we get can have a unique vision put into it. Our expert team designs beautifully designed splendour villas that make customers feel unmatched charm, comfort, and luxury.
-              </p>
+               WE DO Interior Design & Fitout is an expert in luxurious apartment design in Dubai Marina, and this project is a true example. From the kitchen to the bedrooms, each and every area is carefully planned with warmth and functionality coming together. Among the finest Marina Gate apartments in Dubai, this apartment raises the standard for Dubai Marina modern apartments fit-out.
+               </p>
+              
               <p>
-                WE DO Interior Design and Fitout is one of the best villa interior design companies in Dubai, transforming private villas into personalized havens. As a luxury villa interior design company and bespoke high-end designer, we specialize in the design of modern luxury villas embodying both elegance and innovation.
+              From custom storage to sharp furnishing to snuggly textures, we pay attention to every detail. Our method for Dubai Marina modern apartment fit-out, furnishing, and luxury interior design transforms mundane homes into sophisticated spaces designed for refined living.
               </p>
-              <p>
-                Our commitment to exceptional interior design Dubai ensures that every project is tailored to the unique vision and needs of our clients, making us the go-to villa interior design company in Dubai. Whether it’s turnkey interior design for villas or villa fit-outs, we bring your dream space to life with unmatched quality and precision.
-              </p>
+
             </div>
           </div>
 

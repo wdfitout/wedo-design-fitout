@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 const PHeroSection = () => {
@@ -14,15 +15,32 @@ const PHeroSection = () => {
         priority
         className="object-cover"
       />
+      {/* Gradient Overlay Behind Text */}
+  <div className="absolute inset-x-0 bottom-0 h-3/4 bg-gradient-to-t from-black/90 to-transparent z-0" />
+    {/* Overlay Content Box */}
+      <div className="absolute bottom-6 z-10 p-4 rounded-lg text-white left-1/2 -translate-x-1/2">
 
-      {/* Overlay Text Content */}
-      <div className="absolute inset-x-0 bottom-10 text-center px-4 text-white z-10">
-        <h1 className="text-2xl sm:text-3xl font-penrise md:text-4xl lg:text-5xl font-bold">
-          WORK AT VISION
-        </h1>
-        <p className="text-sm font-conthrax sm:text-base md:text-lg mt-2">
-          SOME DESIGNS ARE GREAT
-        </p>
+        <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
+          Apartment Interior Design Dubai </h1>
+          <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
+            Modern Interior Designing 2025</h2>
+        
+
+        <div className="flex gap-4 flex-wrap">
+          <Link
+            href="/contact-us"
+            className="bg-[#caa193] text-black px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition-all duration-200"
+          >
+            Send an Inquiry
+          </Link>
+
+          <Link
+            href="/projects"
+            className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
+          >
+            Our Projects
+          </Link>
+        </div>
       </div>
     </div>
   );

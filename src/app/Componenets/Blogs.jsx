@@ -8,12 +8,12 @@ import Link from "next/link";
 // Blog data with links to separate pages for each blog
 const blogPosts = [
   {
-    title: "THE MAGIC OF BLACK & COPPER",
+    title: "Modern Apartment Interior Design",
     date: "Published: 25.05.2025",
     excerpt:
       "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
     image: "/images/blog1.webp",
-    link: "/blog1",
+    link: "/modern-apartment-interior-design",
   },
   {
     title: "WEDO’S SECRET DESIGN RECIPE",

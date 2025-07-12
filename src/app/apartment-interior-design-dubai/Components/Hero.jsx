@@ -11,7 +11,8 @@ const Hero = () => {
       <Image
         src="/images/acdh (8).png"
         alt="interior design"
-        fill
+        width={1920}
+        height={1080}
         priority
         className="object-cover"
       />

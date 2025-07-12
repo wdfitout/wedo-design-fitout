@@ -10,32 +10,21 @@ const ApId = () => {
 
   return (
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <div className="lg:max-w-[75%] mx-auto">
+      <div className="lg:max-w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Apartment Design Dubai – Great value for your space interior design
+              Apartment Interior Design Dubai Crafted by Experts Who Know the City, Spaces, and Style
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              <strong>Apartment Design Dubai</strong> always affects every apartment’s mood.
-              That is why it is given so much focus. Many people themselves try to design
-              interior design, but the result is usually not acceptable, so the final way to
-              solve this issue is to turn to any company’s specialists.
+             <strong>Apartment interior design Dubai</strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
+           </p>
+           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
+            We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to luxurious penthouses in Palm Jumeirah. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              Even in Dubai, it is not easy to get a credible design professional. But there’s no
-              question that you will provide outstanding services as soon as possible if you turn
-              to the company for support which is reliable. The experts at Muse Design will do
-              their utmost to build an apartment or house design that meets all of your needs.
-            </p>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              Muse design designing of <strong>Apartment design Dubai</strong> is building an
-              ideal environment of luxury accentuation. In this vibrant metropolis, we create a
-              cozy oasis, where every day, the warmth of home comfort will delight. We create a
-              unique and beautiful floor and ceiling architecture with modern technology. The
-              interior of the apartment reflects your high quality, respectfulness, and
-              excellent taste.
+            Whether you're upgrading for personal comfort or increasing rental value, our end-to-end service ensures your apartment becomes a reflection of elegance, efficiency, and Dubai’s modern lifestyle.
             </p>
 
             {/* Highlight Box */}
@@ -58,11 +47,12 @@ const ApId = () => {
                 className="relative w-full aspect-video bg-black cursor-pointer group overflow-hidden rounded-lg border-4 border-[#caa193]"
                 onClick={() => setVideoLoaded(true)}
               >
-                <Image
-                  src="/images/atlantis (2).webp"
-                  alt="Watch our company video"
-                  fill
-                  className="object-cover"
+             <Image
+              src="/images/atlantis (2).webp"
+              alt="Watch our company video"
+              width={1280}
+              height={720}
+              className="object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/30 flex items-center justify-center backdrop-blur-sm transition group-hover:scale-110">

@@ -8,12 +8,12 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 // Blog Data
 const blogPosts = [
   {
-    title: "THE MAGIC OF BLACK & COPPER, DESIGN MAGIC BEGINS HERE",
+    title: "Modern Apartment Interior Design",
     date: "Published: 25.05.2025",
     excerpt:
       "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
     image: "/images/blog1.webp",
-    link: "/blog1",
+    link: "/modern-apartment-interior-design",
   },
   {
     title: "WEDO’S SECRET DESIGN RECIPE DUBAI DESIGN 2025",

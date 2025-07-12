@@ -29,14 +29,20 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Design Related Services
+        We Do Apartment Design Related Services
       </h2>
 
       {/* Desktop Grid */}
       <div className="hidden lg:grid grid-cols-3 gap-6 mb-10">
         {images.map((src, index) => (
           <div key={index} className="relative aspect-square overflow-hidden">
-            <Image src={src} alt={`service ${index + 1}`} fill className="object-cover" />
+            <Image
+              src={src}
+              alt={`service ${index + 1}`}
+              width={600}
+              height={600}
+              className="object-cover w-full h-full"
+            />
           </div>
         ))}
       </div>
@@ -51,7 +57,13 @@ const DesignV = () => {
                   className="min-w-full relative aspect-[4/3] overflow-hidden"
                   key={index}
                 >
-                  <Image src={src} alt={`slide ${index + 1}`} fill className="object-cover" />
+                  <Image
+                    src={src}
+                    alt={`slide ${index + 1}`}
+                    width={800}
+                    height={600}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
               ))}
             </div>
@@ -75,7 +87,7 @@ const DesignV = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
           <a
-            href="https://wa.me/971XXXXXXXXX"
+            href="https://wa.me/971588075603"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-green-500 text-white font-play text-sm rounded w-full sm:w-auto text-center"

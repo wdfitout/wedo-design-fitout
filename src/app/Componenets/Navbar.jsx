@@ -23,7 +23,7 @@ const navLinks = [
   { title: "Features", path: "/#features" },
   { title: "Design", path: "/#designs" },
   { title: "Services", path: "/#services" },
-  { title: "Blogs", path: "/#blogs" },
+  { title: "Blogs", path: "/blogs" },
   { title: "Testimonials", path: "/#testimonials" },
   { title: "Contact Us", path: "/contact-us" },
 ];

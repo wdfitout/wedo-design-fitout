@@ -126,16 +126,19 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
               <p>
-                Are you looking forward to lifting your villa interior design in Dubai? There are many interior design companies in Dubai that offer designs for villas across the United Arab Emirates, but WE DO Interior Design & Fitout are among the best interior design companies in Dubai.
+                BUSINESS BAY APARTMENT DESIGN by WE DO Interior Design & Fitout represents modern apartment design in dubai. Imagine a business bay apartment balcony with Burj Khalifa view merging into open‑plan living, cozy textures and intelligent storage.
               </p>
               <p>
-                We offer our Dubai villa design services in various places so that every project we get can have a unique vision put into it. Our expert team designs beautifully designed splendour villas that make customers feel unmatched charm, comfort, and luxury.
+                We offer our Dubai villa design services in various places so that every 
+                project we get can have a unique vision put into it. Our expert team designs 
+                beautifully designed splendour villas that make customers feel unmatched charm, 
+                comfort, and luxury.
               </p>
               <p>
-                WE DO Interior Design and Fitout is one of the best villa interior design companies in Dubai, transforming private villas into personalized havens. As a luxury villa interior design company and bespoke high-end designer, we specialize in the design of modern luxury villas embodying both elegance and innovation.
+               Our apartments interior designers blend apartment interior concepts with current Interior Design Trends in Business Bay to create beautiful interiors in Business Bay, Dubai for studios, 1BHK apartment design and 2BHK apartment interior design. 
               </p>
               <p>
-                Our commitment to exceptional interior design Dubai ensures that every project is tailored to the unique vision and needs of our clients, making us the go-to villa interior design company in Dubai. Whether it’s turnkey interior design for villas or villa fit-outs, we bring your dream space to life with unmatched quality and precision.
+                As the Best Interior Design Company in Business Bay and a reliable Fit‑Out Company in Business Bay Dubai, we provide turn‑key apartment interior design, apartment fit‑out in Dubai and Residential Interior Fit Out Designs in Dubai. From idea to furnishing, our Interior Design Office in Business Bay ensures each apartment interior decor communicates luxury and function to you.
               </p>
             </div>
           </div>
@@ -173,7 +176,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BUSINESS BAY APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
