@@ -1,13 +1,19 @@
-"use client";
-import { FaPhoneAlt } from "react-icons/fa";
+'use client';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const CallButton = () => {
   const phoneNumber = '+971588075603';
 
   const handleClick = () => {
-    // Format the phone number
-    const formattedPhoneNumber = `tel:${+971588075603}`;
+    // Fire Google Ads conversion for Call Button click
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-11361089409/wchnCMOb_OsZEIHvsakq',
+      });
+    }
+
     // Initiate the call
+    const formattedPhoneNumber = `tel:${phoneNumber}`;
     window.location.href = formattedPhoneNumber;
   };
 

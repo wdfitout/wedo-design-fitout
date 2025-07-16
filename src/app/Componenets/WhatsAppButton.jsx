@@ -1,15 +1,23 @@
-'use client'; // Add this line at the beginning
+'use client';
 
 import { useState } from 'react';
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
-  const [whatsappNumber] = useState('YOUR_WhatsApp_NUMBER');
+  const [whatsappNumber] = useState('+971588075603');
 
   const handleClick = () => {
+    // Fire Google Ads conversion for WhatsApp click
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-11361089409/3MTICMCb_OsZEIHvsakq',
+      });
+    }
+
     // Format the WhatsApp URL with your number
-    const whatsappUrl = `https://wa.me/${+971588075603}`;
-    // Open the WhatsApp URL in a new tab
+    const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}`;
+
+    // Open the WhatsApp chat in a new tab
     window.open(whatsappUrl, '_blank');
   };
 
@@ -21,7 +29,7 @@ const WhatsAppButton = () => {
         position: 'fixed',
         bottom: '60px',
         left: '20px',
-        zIndex: '9999', // Ensure the button is on top of other elements
+        zIndex: '9999',
       }}
     >
       <FaWhatsapp className="text-xl" />
