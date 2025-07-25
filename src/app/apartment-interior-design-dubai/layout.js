@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Apartment Interior Design Dubai | We Do Interior",
+  title: "Apartment Interior Design Dubai - Modern Interior Design",
   description:
-    "We Do Interior creates a unique and beautiful floor and ceiling architecture with modern technology. Best apartment interior design company in Dubai, UAE",
+    "Luxury apartment interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/apartment-interior-design-dubai',

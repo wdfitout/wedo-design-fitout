@@ -15,13 +15,13 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Apartment Interior Design Dubai Crafted by Experts Who Know the City, Spaces, and Style
+              Apartment Interior Design Dubai by Experts Who Know Style and Space
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             <strong>Apartment interior design Dubai</strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
+             <strong> <a href="https://wedointerior.ae/apartment-projects">Apartment interior design Dubai</a></strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
            </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to luxurious penthouses in Palm Jumeirah. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.
+            We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to <b> <a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">luxurious penthouses in Palm Jumeirah</a></b>. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
             Whether you're upgrading for personal comfort or increasing rental value, our end-to-end service ensures your apartment becomes a reflection of elegance, efficiency, and Dubai’s modern lifestyle.

@@ -25,15 +25,16 @@ const DProjects = () => {
       {/* Top Content Block */}
       <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Smart Apartment Interior Design in Dubai for Urban Living — Make Every Square Meter Count
+          Smart Apartment Interior Design in Dubai for Urban Living
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
-    Creating a contemporary apartment interior in Dubai isn’t just about looks — it’s about
-    functionality in limited space, comfort in rental settings, and optimizing every detail
-    for modern city life. At WE DO Interior Design, we specialize in designing small and
-    mid-sized apartments that feel spacious, stylish, and truly personal — even if it’s a
-    studio or 1-bedroom unit in Downtown or JVC.
+    Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
+    in limited space, comfort in rental settings, and optimizing every detail for modern city life.
+     At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
+     that feel spacious, stylish, and truly personal — even if it’s a studio or <b> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
+     in Atlantis The Royal</a></b> or Downtown.
+
   </p>
 
   <p>
@@ -58,7 +59,7 @@ const DProjects = () => {
       <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
           <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-            Complete Your Apartment Interior Design in Dubai With Bold Loft-Inspired Concepts
+          Complete Your Apartment Interior Design in Dubai With Bold Loft-Inspired Concepts
           </h3>
           <p className="text-sm sm:text-base text-white font-play">
            As apartment layouts in Dubai evolve toward open-plan living, 
@@ -68,7 +69,7 @@ const DProjects = () => {
            and matte black accents — to create interiors that are bold yet cozy.
           </p>
           <p className="text-sm sm:text-base text-white">
-          Whether you're designing a 2-bedroom apartment in Dubai Hills or a studio in 
+          Whether you're designing a <b><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
           Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
           modern urban vibe. These curated touches, paired with custom lighting and smart 
           layouts, give your space a striking identity without sacrificing comfort.
@@ -144,17 +145,19 @@ const DProjects = () => {
 
             <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Luxury Interiors, Seamless Execution
+          Luxury Dubai Interiors, Seamless Execution
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
-              Luxury Apartment Interior Design in Dubai — Without Compromise
-            </h3>
+            <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
+              Luxury Apartment Interior Fitout in Dubai 
+            </h2>
             <p>
-            At WE DO, we believe luxury should be personal, practical, and seamless. That’s why we offer complete turnkey apartment interior solutions that include not just design, but procurement, documentation, execution, and supervision — all under one roof.
+            At WE DO, we believe luxury should be personal, practical, and seamless. That’s why we offer
+             complete turnkey apartment interior solutions that include not just design, but procurement, 
+             documentation, execution, and supervision — all under one roof.
             </p>
             <p>
               Our Process Includes:
@@ -163,7 +166,8 @@ const DProjects = () => {
             
             <li>
             <h3 className='font-play'>Material & Furniture Curation</h3>
-             <p className='text-white font-play'> Style discovery, space analysis, and mood boards tailored to your vision.</p>
+             <p className='text-white font-play'> Style discovery, space analysis, and mood boards
+               tailored to your vision.</p>
             </li>
 
              <li>
@@ -212,11 +216,11 @@ const DProjects = () => {
           </div>
 
           <div className="space-y-6 text-white font-play">
-            <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
+            <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
               The Best Interior Design In The Apartment Is Simple And Cost-Effective
-            </h3>
+            </h2>
             <p>
-              Your home should be a perfect combination of your personal style and thoughtful design. At WE DO, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
+              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO interior design and fitout</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
             </p>
             <p>
               With our modern online design collaboration process, working with our team is smooth, engaging, and fully transparent — from bedroom concepts to lounge furniture selection.

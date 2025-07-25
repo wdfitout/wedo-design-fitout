@@ -22,7 +22,8 @@ const Hero = () => {
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
           Apartment Interior Design Dubai </h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-            Modern Interior Designing 2025</h2>
+            Modern Interior Fit out in 2025
+            </h2>
         
 
         <div className="flex gap-4 flex-wrap">
