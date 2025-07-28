@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Villa Interior Design Dubai | We Do Interior Design & Fit Out",
+  title: "Villa Interior Design Dubai - Modern Interior Design",
   description:
-    "Villa interior design Dubai",
+    "Luxury villa  interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/villa-interior-design-dubai',
