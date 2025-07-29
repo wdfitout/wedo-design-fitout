@@ -25,32 +25,53 @@ const DProjects = () => {
       {/* Top Content Block */}
       <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Smart Apartment Interior Design in Dubai for Urban Living
+         Leading Landscape Company in Dubai for Premium Landscape Design services
         </h2>
- <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-  <p>
-    Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
-    in limited space, comfort in rental settings, and optimizing every detail for modern city life.
-     At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
-     that feel spacious, stylish, and truly personal — even if it’s a studio or <b> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
-     in Atlantis The Royal</a></b> or Downtown.
+     <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+   <p>
+    At Wedo Interior, we pride ourselves on delivering quality landscaping services in Dubai. 
+    From gardening residential homes to sprawling gardens in the urban area, our services range 
+    from automatic irrigation systems, garden maintenance, and even bespoke swimming pools that 
+    blend naturally with the landscape of Dubai. 
 
-  </p>
+    </p>
+         <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+            Swimming pool & Jacuzzi design
+        </h3>
+    <p>
+   We DO as a trusted landscape consultant in Dubai, offers full-service solutions tailored for both
+    residential landscaping in Dubai and commercial projects. Our services include pool design and
+     construction, regular maintenance, sealants, tile work, and plumbing.
 
-  <p>
-    We carefully balance modern furnishings with regional design cues to reflect Dubai’s unique
-    cultural blend. Our apartment design solutions include:
-  </p>
+    </p>
 
-  <ul className="list-disc list-inside space-y-1">
-    <li>Space-saving furniture layout planning</li>
-    <li>Bedroom and living room integration</li>
-    <li>Multi-functional furniture sourcing from Dubai’s top suppliers</li>
-    <li>Personalized color palettes and lighting strategies</li>
-  </ul>
-  <p><strong>Our mission:</strong> turn every apartment into a welcoming, livable space that feels
-      like home — not a hotel room. Whether you're a tenant or investor, we help elevate your
-      property's comfort and appeal.</p>
+  
+        <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Bespoke Garden Landscape Design Dubai
+        </h3>
+    <p>
+   WeDo interior Landscapes beautiful garden spaces in Dubai by combining lush softscape design with 
+   sophisticated hardscape design in Dubai to create dramatic and functional alfresco retreats perfect
+    for villas landscape in Dubai as well as residences. 
+    </p>
+    <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+            Stylish Structures & Cozy Corners for Your Garden
+        </h3>
+    <p>
+   We provide outdoor spaces that are a perfect blend of functionality, comfort, and aesthetics. Our 
+   skilled landscape designers in Dubai design personalized pergolas, gazebos, and fire pit areas. 
+   From residential landscaping to full-home landscaping in Dubai, we design each feature keeping 
+   the climate and lifestyle of Dubai in mind. 
+    </p>
+     <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Irrigation & maintenance
+        </h3>
+    <p>
+  As one of the trusted landscape design companies in Dubai, we install smart irrigation systems that
+   utilize water conservation while maintaining your garden healthy and green throughout the year. 
+   From landscape design to luxury villas, our  irrigation and maintenance services range from automated 
+   drip irrigation systems, sprinkler systems, to planned maintenance to keep plants healthy and your landscape beautiful.
+    </p>
 </div>
 
       </div>
@@ -58,25 +79,22 @@ const DProjects = () => {
       {/* Split Row – Text + Top Right Image */}
       <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Complete Your Apartment Interior Design in Dubai With Bold Loft-Inspired Concepts
-          </h3>
-          <p className="text-sm sm:text-base text-white font-play">
-           As apartment layouts in Dubai evolve toward open-plan living, 
-           loft-inspired interiors have become a favorite for homeowners 
-           seeking modern minimalism with character. At WE DO, we integrate 
-           industrial-chic elements — like exposed metal frames, rustic oak textures, 
-           and matte black accents — to create interiors that are bold yet cozy.
+          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+          Why Choose Us For your Landscape Design Dubai
+          </h2>
+            <p className="text-white font-play">
+          If you're looking to upgrade your home or office exterior, hiring WE DO Interior Design & Fitout 
+          for your landscape job is a wise move.As one of the leading landscape design companies in Dubai, 
+          our team of professionals possesses vast experience and imagination in each project—guaranteeing 
+          your area is not just practical but also aesthetically pleasing. We've perfected the technicalities
+           of landscape design in Dubai, from concept and implementation to site problem-solving with accuracy.
           </p>
-          <p className="text-sm sm:text-base text-white">
-          Whether you're designing a <b><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
-          Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
-          modern urban vibe. These curated touches, paired with custom lighting and smart 
-          layouts, give your space a striking identity without sacrificing comfort.
+         
+          <p className="text-white font-play">
+        Ready to Transform Your Outdoor Space with the Best Company To Go for Landscape Design In Dubai?
+         Book a Free Consultation Today and let our experts bring your landscaping vision to life.
           </p>
-          <p className="text-sm sm:text-base text-white">
-          <strong>Browse below to explore some of our most recent apartment transformations that 
-          embrace this timeless loft appeal.</strong></p>
+      
         </div>
 
         {/* Top Right Image with Hover Effects */}
@@ -145,51 +163,36 @@ const DProjects = () => {
 
             <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Luxury Dubai Interiors, Seamless Execution
+          How We Create Your Perfect Landscape Design in Dubai
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              Luxury Apartment Interior Fitout in Dubai 
-            </h2>
+             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
+            Our Steps to achieve exceptional landscape design Dubai
+             </h2>
+          <p>
+           From concept to completion, we follow a detailed process to bring your ideal landscape to life. Our Process includes:
+          </p>
+           
+          <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Consultation & concept
+          </h3>
             <p>
-            At WE DO, we believe luxury should be personal, practical, and seamless. That’s why we offer
-             complete turnkey apartment interior solutions that include not just design, but procurement, 
-             documentation, execution, and supervision — all under one roof.
+            We start with consultation & concept, working closely with you to understand your vision and design custom 
+            landscaping concepts that suit your taste and type of property. As a leading landscape consultant in Dubai,
+             we create initial concepts that are both aesthetically pleasing and functional.
             </p>
+             <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Design & 3D visualization
+
+          </h3>
             <p>
-              Our Process Includes:
+            Next comes design & 3D visualization, where our landscape designers in Dubai bring your concept to life with 
+            immersive renderings—perfect for visualizing every detail of your villa or home garden design.
+
             </p>
-            <ul className="list-decimal pl-5 space-y-2 text-[#caa193]">
-            
-            <li>
-            <h3 className='font-play'>Material & Furniture Curation</h3>
-             <p className='text-white font-play'> Style discovery, space analysis, and mood boards
-               tailored to your vision.</p>
-            </li>
-
-             <li>
-            <h3 className='font-'>Project Documentation</h3>
-             <p className='text-white font-play'> We collaborate with Dubai’s top suppliers to handpick furnishings, fabrics, and décor that align with your taste and lifestyle.</p>
-            </li>
-
-             <li>
-            <h3 className='font-play'>On-Site Supervision & Execution</h3>
-             <p className='text-white font-play'> Every layout, lighting plan, and color specification is documented for accuracy and transparency.</p>
-            </li>
-
-             <li>
-            <h3 className='font-play'>Personalized Design Development</h3>
-             <p className='text-white font-play'> Our project managers oversee every phase of implementation — from painting to furnishing — ensuring flawless results.</p>
-            </li>
-            </ul>
-            
-            <p>
-            Whether you're aiming for a contemporary loft, a classic modern style, or a customized luxury palette, we handle the entire transformation — efficiently and with meticulous care.
-            </p><p>
-            <strong>Our promise</strong>: Elegant, space-optimized, functional interiors — delivered on time, within budget, and with zero compromise.</p>
           </div>
 
           <div className="rounded-lg overflow-hidden shadow-md">
@@ -216,20 +219,44 @@ const DProjects = () => {
           </div>
 
           <div className="space-y-6 text-white font-play">
-            <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              The Best Interior Design In The Apartment Is Simple And Cost-Effective
-            </h2>
+            
+             <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Design & 3D visualization
+
+          </h3>
             <p>
-              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO interior design and fitout</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
+            Next comes design & 3D visualization, where our landscape designers in Dubai bring your concept to life with 
+            immersive renderings—perfect for visualizing every detail of your villa or home garden design.
+
             </p>
+           <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Build & installation
+
+          </h3>
             <p>
-              With our modern online design collaboration process, working with our team is smooth, engaging, and fully transparent — from bedroom concepts to lounge furniture selection.
+            In the installation & build phase, our landscape team executes the plan on high-quality materials and 
+            professional craftsmanship. From residential landscaping to pergolas, water features, or lighting, 
+            we make sure each aspect is perfectly carried out in accordance with luxury Dubai landscape design requirements.
+
             </p>
+          
+           <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           Handover & aftercare
+
+          </h3>
+            <p>
+             We ensure a smooth handover & aftercare of your bespoke landscape in Dubai, complete with clear guidance
+              on irrigation and maintenance. Our aftercare service guarantees that your outdoor space stays vibrant and 
+              well-maintained, with expert support just a call away whenever you need it.
+
+            </p>
+            
+
           </div>
         </div>
       </div>
 
-           {/* last paragraph */}
+          {/* last paragraph */}
            <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
         {/* Heading */}
         <div className="text-center">

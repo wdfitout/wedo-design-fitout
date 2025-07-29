@@ -22,20 +22,21 @@ const ApId = () => {
               Our landscape designers in Dubai beautifully blend nature with culture through their skills. 
               Positioned between garden design and landscape architecture, our approach transforms ordinary 
               exteriors into refined, functional masterpieces. Landscape Design Dubai is becoming increasingly
-              popular day by day. Be it personalized water features, artistic greenery, seamless outdoor layouts, 
-              our aim is to provide superior design, 
-             high-quality, and professional craftsmanship that makes your outdoor lifestyle exceptional.</p>
+              popular day by day.</p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
             Our professional services cover landscape construction & design, while ensuring that every element 
             from structure to finishing is executed with precision. With a focus on bespoke garden design Dubai, 
             we craft customized outdoor environments that reflect your personality while enhancing functionality.
-             Specializing in landscape design in Dubai, we bring together innovative planning, premium materials,
-              and sustainable practices to create spaces that inspire. Through our end-to-end landscape design & 
-              build Dubai solutions, we turn outdoor concepts into reality—delivering stunning, livable landscapes
-               that enrich your home or business.
           </p>
             
-
+          <p className="text-sm sm:text-base leading-7 mb-4 font-play">
+            
+             Specializing in landscape design in Dubai, we bring together innovative planning, premium materials,
+              and sustainable practices to create spaces that inspire. Through our end-to-end 
+             <strong> <a href="https://wedointerior.ae/design-build-services-in-dubai">landscape design & build Dubai </a></strong>
+               solutions, we turn outdoor concepts into reality—delivering stunning, livable landscapes
+               that enrich your home or business.
+          </p>
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
               15 Years of Experience
@@ -45,10 +46,8 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
-              Get Best Apartment Design Dubai
+              Get Best Landscape Design Dubai
             </h2>
-
-          
 
             {/* Video */}
             {!videoLoaded ? (

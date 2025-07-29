@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Overlay Content Box */}
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
-         Luxury Landscape Company in Dubai </h1>
+         Luxury Landscape Design Dubai </h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
             Landscape Construction & Design
             </h2>
