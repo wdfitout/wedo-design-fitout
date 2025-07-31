@@ -256,53 +256,7 @@ const DProjects = () => {
         </div>
       </div>
 
-          {/* last paragraph */}
-           <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
-        {/* Heading */}
-        <div className="text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
-            Furnishing Your Dubai Apartment — With Precision, Personality, and Purpose
-          </h2>
           
-          <p className="font-play text-sm sm:text-base text-white text-start py-2">
-          Choosing the right furniture for apartment interior design in Dubai is about more than just style — it’s about fitting function into form. At WE DO, we understand the challenges of urban living: tight corners, open layouts, awkward niches, and the need for maximum storage in minimal space.
-          </p>
-           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-          That’s why we curate and source multi-functional furniture that’s not only beautiful but also custom-fit for your apartment’s layout. Whether it’s a slimline console that fits between walls, floating shelves that maximize vertical space, or extendable dining tables that double as workstations — our solutions are always tailored, durable, and spatially smart.
-          </p>
-        </div>
-
-        {/* Section 2 */}
-        <div>
-          <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
-            Creative Use of Space = Smarter Interiors
-          </h3>
-          <h3 className="font-play text-sm sm:text-base text-[#caa193]">
-          We design with purpose :</h3>
-       <ul className="list-disc list-inside font-play text-sm sm:text-base text-white">
-  <li>Mirrors that expand perceived space in compact rooms</li>
-  <li>Wall-mounted lighting that frees up floor area</li>
-  <li>Built-in wardrobes and concealed cabinetry</li>
-  <li>Accent pieces that add personality without crowding</li>
-</ul>
-
-       <p className="font-play text-sm sm:text-base text-white"> 💡 TIP: Dark walls? <br></br>We use mirrored panels and uplighting to create visual depth — a proven strategy in our Dubai Marina and Downtown projects.
-        </p>
-        </div>
-
-        {/* Section 3 */}
-        <div>
-          <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
-            Personalized Touches That Matter
-          </h3>
-          <p className="font-play text-sm sm:text-base text-white">
-          Your apartment should reflect your story. We help you style shelves with curated souvenirs, art, travel books, and personal photos — ensuring your space feels not just furnished, but lived in and loved.
-          </p>
-          <p className="font-play text-sm sm:text-base text-white">
-          From industrial-chic coffee tables to minimalistic wall-mounted desks, we select pieces that blend modern elegance with Dubai’s fast-paced lifestyle. And yes — we always prioritize functionality, durability, and visual harmony.
-          </p>
-        </div>
-      </div>
     </section>
   );
 };

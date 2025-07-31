@@ -29,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Landscape Design Related Services
+        We Do Restaurant Interior Design Related Services
       </h2>
 
       {/* Desktop Grid */}

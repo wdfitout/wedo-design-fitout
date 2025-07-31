@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Restaurant Interior Design | We Do Interior Design & Fit Out",
+  title: "Restaurant Interior Design - Restaurants & Café Interior Designers",
   description:
-    "Restaurant interior design Dubai",
+    "Restaurant Fit-Out Services in Dubai, UAE – WE DO Interior Design is a top restaurant interior design company creating bespoke dining spaces.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/restaurant-interior-design',
+    canonical: '/apartment-interior-design-dubai',
   },
 };
 
