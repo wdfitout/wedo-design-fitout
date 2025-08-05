@@ -18,7 +18,7 @@ const ApId = () => {
              Restaurant Interior Design & Fit-Out Services in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            WEDO Interior Design and Fitout provide bespoke restaurant interiors & fit‑outs for the F&B industry in JBR, Downtown,
+            WEDO Interior Design and Fitout provide bespoke <b><a href="https://wedointerior.ae/restaurant-projects">restaurant interior design </a></b> & fit‑outs for the F&B industry in JBR, Downtown,
             Dubai Marina, Palm Jumeirah, Business Bay etc.Transform your dining concept into a destination with the help of the 
             best interior design company in Dubai for restaurants. As leading restaurant fit-out contractors in Dubai, we deliver 
             luxury, guest-centric commercial interior design from chic cafés on Jumeirah Beach Residence to fine-dining rooftops in Downtown and modern lounges overlooking Dubai Marina. Book Your Free Concept Consultation.

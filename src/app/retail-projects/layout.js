@@ -36,7 +36,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/gallery',
+    canonical: '/retail-projects',
   },
 };
 

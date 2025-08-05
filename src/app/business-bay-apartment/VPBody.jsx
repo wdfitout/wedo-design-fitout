@@ -126,19 +126,21 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
               <p>
-                BUSINESS BAY APARTMENT DESIGN by WE DO Interior Design & Fitout represents modern apartment design in dubai. Imagine a business bay apartment balcony with Burj Khalifa view merging into open‑plan living, cozy textures and intelligent storage.
+                BUSINESS BAY APARTMENT DESIGN by WE DO Interior Design & Fitout represents <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">modern apartment design in dubai</a></b>. Imagine
+                 a business bay apartment balcony with Burj Khalifa view merging into open‑plan living, cozy textures and intelligent
+                  storage.
+              </p>
+              
+              <p>
+               Our apartments interior designers blend apartment interior concepts with current Interior Design Trends in Business
+                Bay to create beautiful interiors in Business Bay, Dubai for studios, 1BHK apartment design and 2BHK apartment 
+                interior design. 
               </p>
               <p>
-                We offer our Dubai villa design services in various places so that every 
-                project we get can have a unique vision put into it. Our expert team designs 
-                beautifully designed splendour villas that make customers feel unmatched charm, 
-                comfort, and luxury.
-              </p>
-              <p>
-               Our apartments interior designers blend apartment interior concepts with current Interior Design Trends in Business Bay to create beautiful interiors in Business Bay, Dubai for studios, 1BHK apartment design and 2BHK apartment interior design. 
-              </p>
-              <p>
-                As the Best Interior Design Company in Business Bay and a reliable Fit‑Out Company in Business Bay Dubai, we provide turn‑key apartment interior design, apartment fit‑out in Dubai and Residential Interior Fit Out Designs in Dubai. From idea to furnishing, our Interior Design Office in Business Bay ensures each apartment interior decor communicates luxury and function to you.
+                As the Best Interior Design Company in Business Bay and a reliable <b><a href="https://wedointerior.ae/fit-out-company-dubai">Fit‑Out Company in Business Bay Dubai</a></b>, we
+                 provide turn‑key apartment interior design, apartment fit‑out in Dubai and Residential Interior Fit Out Designs 
+                 in Dubai. From idea to furnishing, our Interior Design Office in Business Bay ensures each apartment interior 
+                 decor communicates luxury and function to you.
               </p>
             </div>
           </div>

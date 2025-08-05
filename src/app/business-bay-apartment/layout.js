@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Business Bay Apartment Design Dubai | We Do Interior",
+  title: "Business Bay Apartment Interior design dubai",
   description:
-    "Business bay apartment interior design Dubai",
+    "Transform your business bay apartment with the best interior design company in Dubai. We craft modern interiors with luxurious spaces. Call Now!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/business-bay-apartment',
