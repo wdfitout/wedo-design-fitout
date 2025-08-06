@@ -25,32 +25,25 @@ const DProjects = () => {
       {/* Top Content Block */}
       <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Smart Apartment Interior Design in Dubai for Urban Living
+          Why Choose WE DO for Your Villa Interior Design in Dubai?
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
-    Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
-    in limited space, comfort in rental settings, and optimizing every detail for modern city life.
-     At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
-     that feel spacious, stylish, and truly personal — even if it’s a studio or <b> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
-     in Atlantis The Royal</a></b> or Downtown.
-
-  </p>
+    We know that choosing the right interior design and fitout company for your villa interior design dubai is very important
+     and at WEDO we work by combining innovation with quality and style with a client-focused approach. Our team of luxury
+     interior designers pay detailed attention to understand the way of your living and your vision.
+ </p>
 
   <p>
-    We carefully balance modern furnishings with regional design cues to reflect Dubai’s unique
-    cultural blend. Our apartment design solutions include:
+    As one of the best interior fitout companies in Dubai, WEDO offers complete in-house services which includes concept design,
+    planning, project execution, and delivery. Our use of VR/AR design previews, smart home technologies, and sustainable materials
+    keeps us ahead of the curve and adds value beyond what typical firms offer.Our use of VR/AR design previews, smart home
+    technologies, and sustainable materials keeps us ahead of the curve and adds value beyond what typical firms offer.
   </p>
-
-  <ul className="list-disc list-inside space-y-1">
-    <li>Space-saving furniture layout planning</li>
-    <li>Bedroom and living room integration</li>
-    <li>Multi-functional furniture sourcing from Dubai’s top suppliers</li>
-    <li>Personalized color palettes and lighting strategies</li>
-  </ul>
-  <p><strong>Our mission:</strong> turn every apartment into a welcoming, livable space that feels
-      like home — not a hotel room. Whether you're a tenant or investor, we help elevate your
-      property's comfort and appeal.</p>
+ <p>Moreover, our transparent process of working, timely delivery of projects and our strong commitment has helped us in earning 
+  the reputation as one of the best interior design companies in Dubai.
+</p>
+  
 </div>
 
       </div>
@@ -58,25 +51,20 @@ const DProjects = () => {
       {/* Split Row – Text + Top Right Image */}
       <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Complete Your Apartment Interior Design in Dubai With Bold Loft-Inspired Concepts
-          </h3>
+          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+          What is Luxury Villa Interior Design in Modern Style?
+          </h2>
           <p className="text-sm sm:text-base text-white font-play">
-           As apartment layouts in Dubai evolve toward open-plan living, 
-           loft-inspired interiors have become a favorite for homeowners 
-           seeking modern minimalism with character. At WE DO, we integrate 
-           industrial-chic elements — like exposed metal frames, rustic oak textures, 
-           and matte black accents — to create interiors that are bold yet cozy.
+           Luxury villa interior design in modern style is achieved by minimal clutter,clean lines, functional 
+           spaces and aesthetics. In Dubai, luxury modern Dubai house design is so high in demand, so we ensure that
+            every project by WEDO must be focused on spaciousness,natural light and elegant materials like marble, wood, and glass.
+
           </p>
-          <p className="text-sm sm:text-base text-white">
-          Whether you're designing a <b><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
-          Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
-          modern urban vibe. These curated touches, paired with custom lighting and smart 
-          layouts, give your space a striking identity without sacrificing comfort.
-          </p>
-          <p className="text-sm sm:text-base text-white">
-          <strong>Browse below to explore some of our most recent apartment transformations that 
-          embrace this timeless loft appeal.</strong></p>
+           <p className="text-sm sm:text-base text-white font-play">Our Work is mostly focused on the location like we design Arabic
+            style villas in Emirates Hills which reflects cultural richness while embracing the best of modern design in Dubai.From
+            expansive living areas to opulent bedrooms and serene outdoor landscapes, we bring balance, style, and comfort to your
+            villa.</p>
+          
         </div>
 
         {/* Top Right Image with Hover Effects */}
@@ -145,51 +133,53 @@ const DProjects = () => {
 
             <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Luxury Dubai Interiors, Seamless Execution
+          Bespoke Villa Interior Design Dubai, Crafted for Luxury Living
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              Luxury Apartment Interior Fitout in Dubai 
+              Our Interior Villa Design Services in Dubai
             </h2>
             <p>
-            At WE DO, we believe luxury should be personal, practical, and seamless. That’s why we offer
-             complete turnkey apartment interior solutions that include not just design, but procurement, 
-             documentation, execution, and supervision — all under one roof.
-            </p>
+            Our villa interior design services are tailored to fit your specific needs and preferences. Whether you are designing 
+             new villa or renovating an existing one, our services ensure luxury and comfort at every step.
+             </p>
             <p>
-              Our Process Includes:
+             Our Featured Services:
             </p>
             <ul className="list-decimal pl-5 space-y-2 text-[#caa193]">
             
             <li>
-            <h3 className='font-play'>Material & Furniture Curation</h3>
-             <p className='text-white font-play'> Style discovery, space analysis, and mood boards
-               tailored to your vision.</p>
+             <p className='text-white font-play'> <b> Architectural Design – </b>Thoughtful layouts for luxury and practicality</p>
             </li>
 
              <li>
-            <h3 className='font-'>Project Documentation</h3>
-             <p className='text-white font-play'> We collaborate with Dubai’s top suppliers to handpick furnishings, fabrics, and décor that align with your taste and lifestyle.</p>
+             <p className='text-white font-play'> <b>Landscape Design –</b> Luxury villa landscape design service Dubai creating harmony between indoor and outdoor spaces</p>
             </li>
 
              <li>
-            <h3 className='font-play'>On-Site Supervision & Execution</h3>
-             <p className='text-white font-play'> Every layout, lighting plan, and color specification is documented for accuracy and transparency.</p>
+             <p className='text-white font-play'> <b>Electrical & Plumbing Design – </b>Efficient, safe systems integrated for modern living</p>
             </li>
 
              <li>
-            <h3 className='font-play'>Personalized Design Development</h3>
-             <p className='text-white font-play'> Our project managers oversee every phase of implementation — from painting to furnishing — ensuring flawless results.</p>
+             <p className='text-white font-play'> <b>Furniture & Decor Selection –</b> Curated, custom-made pieces for a refined interior look</p>
+            </li>
+            <li>
+             <p className='text-white font-play'><b> Interior Fit Out in Dubai – </b>Complete premium fit-out in Dubai, ensuring perfect execution of design vision </p>
+            </li>
+            <li>
+             <p className='text-white font-play'> <b>Smart Home Integration –</b> Advanced home automation for lighting, climate, and security</p>
             </li>
             </ul>
             
             <p>
-            Whether you're aiming for a contemporary loft, a classic modern style, or a customized luxury palette, we handle the entire transformation — efficiently and with meticulous care.
-            </p><p>
-            <strong>Our promise</strong>: Elegant, space-optimized, functional interiors — delivered on time, within budget, and with zero compromise.</p>
+             We rank among one of the best villa  interior design companies in several areas of Dubai and we have completed our
+              projects like <b><a href="https://wedointerior.ae/al-manara-luxury-villa"></a>Al Manara luxury Villa</b>, 
+              <b><a href="https://wedointerior.ae/majan-villa-design">Majan Villa Interior Design</a></b> and 
+              <b><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District one MBR (Muhammad Bin Rashid) City Villa </a></b>etc
+            </p>           
           </div>
 
           <div className="rounded-lg overflow-hidden shadow-md">
@@ -217,14 +207,17 @@ const DProjects = () => {
 
           <div className="space-y-6 text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              The Best Interior Design In The Apartment Is Simple And Cost-Effective
+              Residential Interior Design Dubai Trends in 2025 
             </h2>
             <p>
-              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO interior design and fitout</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
-            </p>
+             As one of the emerging  villa interior design companies in Dubai,we stand at the forefront of residential interior 
+             design trends in 2025 in Dubai.The future of villa interiors revolves around sustainability,wellness and intelligent
+              living. Key trends include the integration of home offices, biophilic design (bringing nature indoors), and the use 
+              of eco-friendly materials to reduce environmental impact while enhancing luxury.</p>
             <p>
-              With our modern online design collaboration process, working with our team is smooth, engaging, and fully transparent — from bedroom concepts to lounge furniture selection.
-            </p>
+              In the era of 2025, the demand for Smart home integration continues to grow. We use voice-activated systems,  
+              climate control  and advanced lighting for fully automated living experience in Dubai.
+              </p>
           </div>
         </div>
       </div>
@@ -234,46 +227,43 @@ const DProjects = () => {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
-            Furnishing Your Dubai Apartment — With Precision, Personality, and Purpose
+            Our 3-Step Process for Villa Design Services in Dubai
           </h2>
           
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-          Choosing the right furniture for apartment interior design in Dubai is about more than just style — it’s about fitting function into form. At WE DO, we understand the challenges of urban living: tight corners, open layouts, awkward niches, and the need for maximum storage in minimal space.
-          </p>
-           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-          That’s why we curate and source multi-functional furniture that’s not only beautiful but also custom-fit for your apartment’s layout. Whether it’s a slimline console that fits between walls, floating shelves that maximize vertical space, or extendable dining tables that double as workstations — our solutions are always tailored, durable, and spatially smart.
-          </p>
+          To ensure a seamless experience, we follow a clear 3-step process for our villa design services in Dubai: </p>
+          
         </div>
 
         {/* Section 2 */}
         <div>
-          <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
-            Creative Use of Space = Smarter Interiors
-          </h3>
-          <h3 className="font-play text-sm sm:text-base text-[#caa193]">
-          We design with purpose :</h3>
-       <ul className="list-disc list-inside font-play text-sm sm:text-base text-white">
-  <li>Mirrors that expand perceived space in compact rooms</li>
-  <li>Wall-mounted lighting that frees up floor area</li>
-  <li>Built-in wardrobes and concealed cabinetry</li>
-  <li>Accent pieces that add personality without crowding</li>
-</ul>
+        
+       <h3 className="font-conthrax uppercase text-[#caa193]">Consultation & Site Visit</h3>
+        <p className="font-play text-sm sm:text-base text-white text-start py-2"> We initiate by 
+          understanding your vision and evaluating your space. This includes discussing your style preferences, functionality 
+          needs, and budget.</p>
+          <h3 className="font-conthrax uppercase text-[#caa193]">Design Proposal </h3>
+       <p className="font-play text-sm sm:text-base text-white"> Our team presents detailed concepts,
+         including mood boards, 3D visuals, and material samples. We do offer VR previews so you can walk through your 
+         villa before execution.</p>
+         <h3 className="font-conthrax uppercase text-[#caa193]">Execution & Handover</h3>
+       <p className="font-play text-sm sm:text-base text-white"> Once approved, we proceed with premium 
+        fitout in Dubai, managing all aspects—from construction to final decor touches. You receive a fully realized, bespoke 
+        villa ready to enjoy.
+</p>
 
-       <p className="font-play text-sm sm:text-base text-white"> 💡 TIP: Dark walls? <br></br>We use mirrored panels and uplighting to create visual depth — a proven strategy in our Dubai Marina and Downtown projects.
-        </p>
         </div>
 
         {/* Section 3 */}
         <div>
           <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
-            Personalized Touches That Matter
+            Let’s Create Your Dream Villa in Dubai
           </h3>
           <p className="font-play text-sm sm:text-base text-white">
-          Your apartment should reflect your story. We help you style shelves with curated souvenirs, art, travel books, and personal photos — ensuring your space feels not just furnished, but lived in and loved.
-          </p>
-          <p className="font-play text-sm sm:text-base text-white">
-          From industrial-chic coffee tables to minimalistic wall-mounted desks, we select pieces that blend modern elegance with Dubai’s fast-paced lifestyle. And yes — we always prioritize functionality, durability, and visual harmony.
-          </p>
+          So, are you ready to transform your villa into a true masterpiece? <b><a href="https://wedointerior.ae/contact-us">Contact WE DO Interior Design & Fitout </a></b>for a
+           free consultation and take the first step toward your dream villa design dubai. Give us a chance to show you why 
+           we are considered the best interior design company in Dubai for bespoke interiors.</p>
+          
         </div>
       </div>
     </section>

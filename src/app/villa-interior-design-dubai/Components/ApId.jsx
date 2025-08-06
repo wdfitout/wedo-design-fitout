@@ -15,18 +15,19 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Apartment Interior Design Dubai by Experts Who Know Style and Space
+              Luxury Villa Interior Design services in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             <strong> <a href="https://wedointerior.ae/apartment-projects">Apartment interior design Dubai</a></strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
-           </p>
+              Are you looking for bespoke <b><a href="https://wedointerior.ae/villa-projects">luxury modern villa interior design services in Dubai </a></b>
+              according to your own taste and lifestyle? At WE DO Interior Design & Fitout we design bespoke villa design to create 
+              luxury spaces for you to live. Our skilled team of luxury interior designers in Dubai works with great 
+              precision and creativity and utilize their years of expertise to design the best villas and modern homes in Dubai.
+            </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to <b> <a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">luxurious penthouses in Palm Jumeirah</a></b>. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.
+            Dubai with its iconic architecture and elite lifestyle deserves interior designs that are not only visually attractive 
+            but also highly functional. That’s why <b><a href="https://wedointerior.ae/">WE DO interiors design villas in dubai</a></b> according to luxury living in Dubai
             </p>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            Whether you're upgrading for personal comfort or increasing rental value, our end-to-end service ensures your apartment becomes a reflection of elegance, efficiency, and Dubai’s modern lifestyle.
-            </p>
-
+            
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
               15 Years of Experience
@@ -36,7 +37,7 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
-              Get Best Apartment Design Dubai
+              Get Best Villa Interior Design and FIt out in Dubai
             </h2>
 
           
