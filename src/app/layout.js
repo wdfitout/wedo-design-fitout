@@ -53,6 +53,23 @@ export default function RootLayout({ children }) {
           }}
         />
 
+        {/* Google Analytics (gtag.js) for G-1DX7X8GKN2 */}
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-1DX7X8GKN2"
+/>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1DX7X8GKN2');
+    `,
+  }}
+/>
+
+
         {/* Robots Meta Tag */}
         <meta
           name="robots"
