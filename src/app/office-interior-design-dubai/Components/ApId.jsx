@@ -18,7 +18,7 @@ const ApId = () => {
               Office Interior Fitout Companies in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            At WE DO interior, we know that Office interior fit-out in Dubai plays a very important role in enhancing the
+            At WE DO interior, we know that <b><a href="https://wedointerior.ae/office-projects">Office interior design Dubai </a></b>plays a very important role in enhancing the
             brand image, shaping productivity and supporting the well being of employees. A Strategically designed work 
             space not only enhances the functionality but also improves creativity, collaboration and motivation to do 
             more work for employees. Every Interior design element in a place contributes to a more efficient and peaceful

@@ -155,7 +155,7 @@ const DProjects = () => {
 
              <li>
             <h3 className='font-'>Co-working Spaces </h3>
-             <p className='text-white font-play'>Flexible, collaborative interiors for hubs in Dubai Marina, JLT, or Tecom.</p>
+             <p className='text-white font-play'>Flexible, collaborative interiors for hubs in Dubai Marina, <b><a href="https://wedointerior.ae/al-safa-real-estate-office">real estate office interior in Al Safa </a></b>,JLT, or Tecom.</p>
             </li>
 
              <li>
@@ -165,7 +165,7 @@ const DProjects = () => {
 
              <li>
             <h3 className='font-play'>Meeting Rooms & Boardrooms</h3>
-             <p className='text-white font-play'>Professional, smart spaces designed for productivity in locations like Business Bay, Motor city or Dubai Internet City.</p>
+             <p className='text-white font-play'>Professional, smart spaces designed for productivity in locations like <b><a href="https://wedointerior.ae/business-bay-office-fit-out">office fit out for Business Bay</a></b>, Motor city or Dubai Internet City.</p>
             </li>
              <li>
             <h3 className='font-play'>Reception & Waiting Areas </h3>
@@ -173,7 +173,7 @@ const DProjects = () => {
             </li>
              <li>
             <h3 className='font-play'>Breakout & Recreational Areas </h3>
-             <p className='text-white font-play'>  Wellness-focused interior designs for companies in Al Quoz or Knowledge Park.</p>
+             <p className='text-white font-play'>  Wellness-focused interior designs for companies in Al Quoz or <b><a href="https://wedointerior.ae/dubai-knowledge-park-office-fit-out">Dubai Knowledge Park office fitout</a></b>.</p>
             </li>
             </ul>
           </div>
