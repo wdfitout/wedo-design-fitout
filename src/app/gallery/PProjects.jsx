@@ -5,6 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
+    {
+    img: "/images/prph (10).png",
+    alt: "Apartment Interior Design",
+    title: "ii PRIMO PENTHOUSE",
+    href: "/ii-primo-penthouse",
+  },
   {
     img: "/images/bba (8).webp",
     alt: "Home Interior Design",
@@ -118,12 +124,6 @@ const projects = [
     alt: "Home Interior Design",
     title: "DUBAI KNOWLEDGE PARK OFFICE FIT OUT",
     href: "/dubai-knowledge-park-office-fit-out",
-  },
-  {
-    img: "/images/prph (10).png",
-    alt: "Apartment Interior Design",
-    title: "ii PRIMO PENTHOUSE",
-    href: "/ii-primo-penthouse",
   },
   {
     img: "/images/restaurant (4).webp",
