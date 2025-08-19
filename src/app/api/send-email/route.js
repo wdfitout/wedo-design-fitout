@@ -1,33 +1,57 @@
-import { NextResponse } from 'next/server';
-import sgMail from '@sendgrid/mail';
+// Ensure this route uses Node.js runtime (Nodemailer won't work on Edge)
+export const runtime = "nodejs";
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
-export async function POST(request) {
+// Optional: quick ping to verify the route is reachable at /api/send-email
+export async function GET() {
+  return NextResponse.json({ ping: "ok" });
+}
+
+export async function POST(req) {
   try {
-    const body = await request.json();
-    const { name, email, phone, subject, message } = body;
+    const { name, email, phone, subject, message } = await req.json();
 
-    if (!name || !email || !message) {
-      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+    // Basic validation to match your form fields
+    if (!name || !email || !subject || !message) {
+      return NextResponse.json(
+        { ok: false, error: "Name, email, subject, and message are required." },
+        { status: 400 }
+      );
     }
 
-    await sgMail.send({
-      to: process.env.CONTACT_TO_EMAIL,
-      from: process.env.CONTACT_TO_EMAIL, // must be a verified sender
-      templateId: process.env.SENDGRID_TEMPLATE_ID,
-      dynamicTemplateData: {
-        name,
-        email,
-        phone,
-        subject,
-        message,
-      },
+    // Required env vars
+    const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, FROM_EMAIL, TO_EMAIL } = process.env;
+    for (const [k, v] of Object.entries({ SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, FROM_EMAIL, TO_EMAIL })) {
+      if (!v) return NextResponse.json({ ok: false, error: `Missing env var: ${k}` }, { status: 500 });
+    }
+
+    const transporter = nodemailer.createTransport({
+      host: SMTP_HOST,                 // everest.mxrouting.net
+      port: Number(SMTP_PORT || 465),  // 465
+      secure: true,                    // SSL/TLS on 465
+      auth: { user: SMTP_USER, pass: SMTP_PASS }, // info@wedointerior.ae / password
     });
 
-    return NextResponse.json({ ok: true }, { status: 200 });
-  } catch (error) {
-    console.error('SendGrid error:', error.response?.body || error);
-    return NextResponse.json({ error: 'Failed to send message' }, { status: 500 });
+    // Helpful: provides clear errors (e.g., 535 auth failed, DNS, timeout)
+    await transporter.verify();
+
+    const info = await transporter.sendMail({
+      from: `"${name}" <${FROM_EMAIL}>`,   // envelope from (authenticated mailbox)
+      to: TO_EMAIL,                        // where you want to receive it
+      subject: subject || "New website enquiry",
+      text:
+        `From: ${name} <${email}>\n` +
+        (phone ? `Phone: ${phone}\n` : "") +
+        `\n${message}`,
+      replyTo: email,                       // so you can reply directly to the sender
+    });
+
+    return NextResponse.json({ ok: true, id: info.messageId });
+  } catch (err) {
+    const msg = (err && (err.response || err.message)) || "Unknown error";
+    console.error("Email send error:", err);
+    return NextResponse.json({ ok: false, error: msg }, { status: 500 });
   }
 }

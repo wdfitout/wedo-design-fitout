@@ -1,9 +1,12 @@
 "use client";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Image from "next/image";
 
 const ContactForm = () => {
+  const router = useRouter();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,39 +19,34 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus("Sending...");
 
     try {
-      const response = await fetch("/api/send-email", {
+      const res = await fetch("/api/send-email", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          subject: "",
-          message: "",
-        });
-        setStatus("Message submitted successfully.");
+      const data = await res.json().catch(() => ({}));
+
+      if (res.ok && data?.ok) {
+        // clear form (optional, you'll redirect anyway)
+        setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+        // change URL and show thank-you page
+        router.push("/thank-you"); // or router.replace("/thank-you")
       } else {
-        throw new Error("Failed to submit form");
+        const msg = data?.error || `Failed to submit form (status ${res.status})`;
+        setStatus(msg);
       }
     } catch (error) {
       console.error("Form submission error:", error);
-      setStatus("An error occurred. Please try again later.");
+      setStatus(error.message || "An error occurred. Please try again later.");
     }
   };
 
@@ -71,10 +69,7 @@ const ContactForm = () => {
         </h2>
       </div>
 
-      <form
-        onSubmit={handleSubmit}
-        className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 gap-x-8"
-      >
+      <form onSubmit={handleSubmit} className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 gap-x-8">
         {/* Left Column */}
         <div className="flex flex-col space-y-6 px-4">
           <div>
@@ -108,13 +103,12 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              required
               className="w-full border border-[#a16848] px-4 py-2 bg-transparent focus:outline-none"
               placeholder="05X-XXXXXXX"
             />
           </div>
           <div>
-            <label className="block mb-1 text-sm">Subject</label>
+            <label className="block mb-1 text-sm">Subject (required)</label>
             <input
               type="text"
               name="subject"
@@ -154,11 +148,7 @@ const ContactForm = () => {
       </form>
 
       {/* Feedback Message */}
-      {status && (
-        <div className="text-center mt-6 text-sm text-[#a16848]">
-          {status}
-        </div>
-      )}
+      {status && <div className="text-center mt-6 text-sm text-[#a16848]">{status}</div>}
     </section>
   );
 };
