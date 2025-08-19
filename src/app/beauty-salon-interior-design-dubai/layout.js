@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Apartment Interior Design Dubai - Modern Interior Design",
+  title: "Beauty Salon Interior Design Dubai - Salon & Spa Fit-Out ",
   description:
-    "Luxury apartment interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
+    "Luxury beauty salon interior design Dubai by WE DO Interior. From spa fit-outs to salons in Dubai Hills, Jumeirah & Downtown. Contact us today!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/apartment-interior-design-dubai',
