@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'we do interior design & fit out',
+              name: 'we do interior design',
               url: 'https://wedointerior.ae/',
               logo: {
                 '@type': 'ImageObject',
@@ -106,7 +106,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebPage',
-              name: 'we do interior design & fit out',
+              name: 'we do interior design',
               url: 'https://wedointerior.ae/',
               description:
                 'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
