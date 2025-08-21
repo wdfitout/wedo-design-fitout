@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Cafe Interior Design Dubai | We Do Interior",
+  title: "Cafe Interior Design Dubai - Coffee Shop Design",
   description:
-    "Cafe interior design Dubai",
+    "We DO Interior have expert cafe interior designers who can create the best cafe interior design Dubai. Visit us for your Cafe project",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/cafe-interior-design-dubai',
+    canonical: '/apartment-interior-design-dubai',
   },
 };
 
