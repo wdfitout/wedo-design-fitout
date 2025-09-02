@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Hotel Interior Design Dubai | We Do Interior",
+  title: "Hotel Interior Design Dubai - Hospitality Interior Design",
   description:
-    "Elevate your dining space design & experience with one of the best interior companies in Dubai. We do interior design & fit out!",
+    "Luxury Hotel interior design Dubai by WE DO. Best interior design company for hotels in UAE. Call now to start your project!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/hotel-interior-design-dubai',
