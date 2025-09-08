@@ -145,7 +145,16 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-      
+            <p>At ii primo penthouse in Downtown Dubai, <b><a href="https://wedointerior.ae/">WE DO interior design & Fit out</a></b> has designed one of the most Luxury
+              Penthouses in Downtown Dubai, showing sophistication,elegance and unparalleled comfort.Our expertise in Penthouse
+              Interior Design Dubai can be seen in every detail, from bespoke layouts to the refined finishes that enhance the
+              living experience. As a leading Penthouse interior design company in Dubai, we are skilled in creating Luxury
+              Penthouse Interior Design & Fit Out Dubai, blending modern aesthetics of Dubai with timeless luxury.
+          </p>
+          <p>This project highlights our dedication to offering penthouse interior design services with breathtaking views with
+             functionality and style. Known as leading Penthouse interior designers in Dubai, we deliver interiors that set new
+             standards for penthouse interiors in Dubai. With tailored Interior Design Services for a Penthouse, our team has 
+            transformed this residence into The Ultimate Dubai Penthouse, combining artistic vision with flawless execution.</p>
             </div>
           </div>
 

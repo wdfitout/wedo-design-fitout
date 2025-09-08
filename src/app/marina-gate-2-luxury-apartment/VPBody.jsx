@@ -181,11 +181,11 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
               <p>
-              Marina Gate 2 Luxury Apartment represents the ultimate combination of comfort and style, portraying luxury and sophistication in every aspect. Situated in the heart of Dubai Marina, this area represents a sophisticated modern apartment interior design, with intelligent layouts, pale colors, and high-quality finishes.
+              Marina Gate 2 Luxury Apartment represents the ultimate combination of comfort and style, portraying luxury and sophistication in every aspect. Situated in the heart of Dubai Marina, this area represents a sophisticated <b><a href="https://wedointerior.ae/apartment-projects"></a>modern apartment interior design</b>, with intelligent layouts, pale colors, and high-quality finishes.
               </p>
               
               <p>
-               WE DO Interior Design & Fitout is an expert in luxurious apartment design in Dubai Marina, and this project is a true example. From the kitchen to the bedrooms, each and every area is carefully planned with warmth and functionality coming together. Among the finest Marina Gate apartments in Dubai, this apartment raises the standard for Dubai Marina modern apartments fit-out.
+               <b><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b> is an expert in luxurious apartment design in Dubai Marina, and this project is a true example. From the kitchen to the bedrooms, each and every area is carefully planned with warmth and functionality coming together. Among the finest Marina Gate apartments in Dubai, this apartment raises the standard for Dubai Marina modern apartments fit-out.
                </p>
               
               <p>

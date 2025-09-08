@@ -143,7 +143,17 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+           <p>Our Dubai Marina Apartment project is a statement of elegance,where modern and luxury interiors combine with
+             Functionality. We are skilled in Luxurious Apartment Design in Dubai Marina as we deliver refined living spaces 
+             through bespoke concepts and full fit-out services.As one of the trusted Interior Design companies in Marina,
+              we blend precision and creativity to offer the <b><a href="https://wedointerior.ae/marina-gate-2-luxury-apartment">best interior design & fit-out in Dubai Marina</a></b>. This project 
+              highlights our expertise in modern minimalist design by combining sophistication with comfort to meet the 
+              lifestyle of Dubai.
+          </p>
+          <p>From customized layouts to premium finishes,our team provides interior design solutions to Dubai Marina residents. 
+            With our <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">Fitout Service of Apartment Interior Design  Dubai</a></b>, clients experience seamless execution and unmatched 
+            attention to detail. As a premier apartment renovation expert and leading Apartment Renovation Company in Dubai,we
+             transform spaces while setting a benchmark for Modern Interior Design in Marina Dubai</p>
             </div>
           </div>
 
@@ -159,7 +169,7 @@ const VPBody = () => {
               className="w-full h-auto object-cover"
             />
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+              A spacious modern apartment interior designed with elegant gold accents, large windows, and premium finishes.
             </figcaption>
           </figure>
         </div>

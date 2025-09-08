@@ -137,7 +137,17 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-           
+           <p>Our  Acacia Dubai Hills <b><a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2 Bedroom Apartment project 
+           highlights the modern living of Dubai </a></b>with a refined two-bedroom apartment design in Dubai. As a full-service interior design firm, WE DO Interior Design & Fitout provides a minimalist
+             modern apartment interior design that enhances the space, light and comfort. This project shows our expertise as one
+             of the leading interior design companies in Dubai Hills, specializing in bespoke services according to our client’s
+             lifestyle.
+           </p>
+           <p>Every step from concept to completion, our team managed the <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">fitout service of apartment interior design Dubai </a></b> while 
+            ensuring that every element we used in the design is functional and stylish.Whether for a two-bedroom or duplex 
+            apartment, or through our role as a trusted apartment renovation company in Dubai, we bring unique value to Dubai 
+            Hills Apartments with innovative design solutions.
+           </p>
             
             </div>
           </div>

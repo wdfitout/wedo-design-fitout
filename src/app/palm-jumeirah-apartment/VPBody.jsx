@@ -180,7 +180,19 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+        <p>Our latest palm jumeirah apartment in Dubai shows refined taste and elegance through our <b> <a href="b
+        https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">bespoke Interior Design
+           Services in Palm Jumeirah</a></b>, Dubai. Well known for delivering the Luxury Interior Design Solutions, WE DO interior 
+           design and Fit out crafts spaces by blending the functionality, comfort and sophistication. As one of the most
+            trusted Interior Design Companies Palm Jumeirah, our team provides expert fitout service with deep attention 
+            to detail while ensuring a smooth execution of every step from concept to completion. 
+      </p>
+      <p>This Dubai apartment project showcases our skills in Residential Interior Fit Out Designs in Dubai, offering our 
+        clients both practicality and style in every corner of their space. From innovative apartment interior design ideas
+        to premium finishes, our team focuses on creating timeless homes. With our Fitout Service of Apartment Interior 
+        Design Dubai, residents experience interiors that truly reflect Palm Jumeirah’s luxurious lifestyle.Through
+        tailored Interior Fit Out, we continue to lead as a benchmark in Leading Interior Design in Palm Jumeirah.
+        </p>
             </div>
           </div>
 

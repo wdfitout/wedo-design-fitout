@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Marina Gate 2 Luxury Apartment | We Do Interior Design & Fit Out",
+  title: "Marina Gate 2 Luxury Apartment Interior Design Dubai Marina",
   description:
-    "Marina gate 2 luxury apartment interior design Dubai",
+    "Experience luxury at Marina Gate 2 Luxury Apartment Interior Design in Dubai Marina.Contact WE DO Fitout to transform your apartment with style.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/marina-gate-2-luxury-apartment',

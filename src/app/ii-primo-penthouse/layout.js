@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "ii Primo Penthouse | We Do Interior Design & Fit Out",
+  title: "II PRIMO Penthouse Interior Design Dubai",
   description:
-    "ii primo penthouse interior design Dubai",
+    "Discover the luxury in II PRIMO Penthouse. As a penthouse interior design company in Dubai, WE DO delivers the best interior design services in Downtown. ",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/ii-primo-penthouse',
