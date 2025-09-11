@@ -179,7 +179,22 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+        <p>At WE DO Interior Design & Fitout, we feel proud in introducing our Royal Atlantis 2 bedroom Apartment project, a 
+          beautiful presentation of luxury living and modern design. This two bedroom Residence at Atlantis The Royal Residences 
+          was executed and designed with our signature attention to detail, bespoke functionality and combining elegance. 
+          With our <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">Fitout Service of Apartment Interior Design Dubai</a></b> , we designed sophisticated places that reflect the high 
+          end living of Royal Atlantis while ensuring that it meets the personal lifestyle needs of its residents.
+        </p>
+        <p>Our experienced Luxury Interior Designers Dubai carefully designed and planned every corner of this Royal Atlantis 
+          2 bedroom apartment while ensuring a seamless combination of practicality and design. From bespoke layouts to curated
+          finishes, this Royal Atlantis 2 bedroom project shows our strength in delivering the turn-key apartment interior design in Dubai 
+          UAE.The interiors embrace apartment design Dubai: modern luxury styles, transforming each space into an inviting yet
+          opulent environment.
+        </p>
+        <p>The bedrooms feature touches of elegance, exemplifying our expertise in bedroom interior design in Dubai, while the 
+          living room area highlights the blend of functionality and aesthetics.With custom fit-out services, we decorated or 
+          designed this residence as a <b><a href="https://wedointerior.ae/royal-atlantis-apartment">complete Royal Atlantis fit-out furniture apartment</a></b>, making it a true reflection of luxury. 
+          Choose us to get modern apartment design services tailored to your vision.</p>
             </div>
           </div>
 

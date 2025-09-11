@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Al-Quoz, Dubai, Cafe Interior Design | We Do Interior",
+  title: "Al-Quoz Cafe Interior Design Dubai | We Do Interior",
   description:
-    "Al-Quoz, Dubai, cafe interior design ",
+    "WE DO completed the Al Qouz cafe Interior project. As the best café interior design company in Dubai, we provide complete Café fit-out services. Call Now ",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/al-quoz-cafe-interior',

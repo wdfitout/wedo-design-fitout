@@ -144,9 +144,26 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
           
-              
+          <p>At WE DO Interior Design & Fitout in Dubai, we are skilled in creating welcoming and unique café interiors in Al Quoz
+             that combine practicality and aesthetics. Our recent Al Qouz café interior design project is a perfect example of how a design
+              can be transformed into a memorable customer experience. Known as a top café & coffee shop design company in Dubai, 
+              UAE, we bring precision and creativity to every project.
+          </p>
              
-             
+            <p>
+             As a trusted <b><a href="https://wedointerior.ae/cafe-interior-design-dubai">café interior design company in Dubai</a></b>, we know that a well-designed café is much more than just seating,
+             it's about the comfort, ambiance and brand identity. With our expertise in café interior design in Dubai, we provide 
+             bespoke solutions according to the clients requirements whether for modern coffee shops or cozy cafés.</p>
+
+            <p>
+              As one of the  top interior design companies offering services in Al Quoz, Dubai, WE DO is widely known as a trusted 
+              interior design company in Al Quoz. Our experienced café interior designers make sure that each detail from layout to
+              lighting, enhances both functionality and aesthetics.</p>
+            <p>
+              Ranked among the Top 10 Interior Design Companies in Al Quoz, Dubai, we also stand out as one of the <b><a href="https://wedointerior.ae/fit-out-company-dubai">best fit-out
+              companies in Dubai</a></b>, offering end-to-end solutions. From joinery, fit-out & interiors in Dubai, UAE to bespoke design,
+              we are recognized among the top interior fit out companies in the region.
+            </p>
             </div>
           </div>
 

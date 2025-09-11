@@ -143,7 +143,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-          
+          <p>At WE DO Interior Design & Fitout, we specialize in creating exceptional <b><a href="https://wedointerior.ae/restaurant-interior-design-dubai">restaurant interiors in Dubai & UAE</a></b> that 
+            blend functionality with striking aesthetics. Our recent restaurant project in Dubai Downtown, Dubai Mall showcases 
+            our expertise in crafting dining spaces that reflect both brand identity and guest experience.
+          </p>
+          <p>Recognized as a top interior design company in Dubai, we are proud to be among the <b><a href="https://wedointerior.ae/cafe-interior-design-dubai">leading restaurants & café interior
+             designers in UAE</a></b>, delivering spaces that leave a lasting impression. This Downtown Dubai Restaurant project demonstrates
+             why WE DO is known as the best restaurant interior design company in Downtown.
+          </p>
+
+          <p>As a creative restaurant interior design firm in Dubai, we handle the projects of complete restaurant fit-outs with 
+            accuracy while ensuring the concept flows smoothly from all stages from design to build.Our Downtown interior design 
+            expertise enables us to incorporate elegant layouts, inviting ambiance and comfortable seating according to the 
+            restaurant’s theme.
+            </p>
+
+            <p>With our customized <b><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interior design services in Dubai</a></b>, we focus on functionality while creating visually 
+              captivating spaces. Whether it’s fine dining or casual eateries, our Dubai restaurant design team offers professional 
+              restaurant design services in Dubai that set new standards in hospitality design.
+           </p>
             </div>
           </div>
 

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Royal Atlantis Apartment | We Do Interior Design & Fit Out",
+  title: "Royal Atlantis Apartment Interior Design in Dubai",
   description:
-    "Royal atlantis apartment interior design, Dubai",
+    "WE DO is offering Royal Atlantis Apartment interior design services in Dubai. This project blends luxury, fit-out, and bespoke furniture. Call Now!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/royal-atlantis-apartment',

@@ -126,9 +126,29 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-             
+          <p>
+            At WE DO Interior Design & Fitout, we specialize in creating luxury kitchen interior designs in Dubai that combine 
+            functionality, innovation, and style. Our latest Al Quoz Central kitchen project showcases expertise in kitchen 
+            interior design in Dubai, designed to meet the highest standards of efficiency and performance.
+          </p>
             
-             
+          <p>Among the most trusted kitchen renovation companies in Dubai, we design spaces that reflect the best kitchen interior 
+            design in Dubai, tailored for both residential and commercial requirements. This Al Quoz Central kitchen project 
+            highlights our experience in <b><a href="https://wedointerior.ae/fit-out-company-dubai">Kitchen interior fit-out in Dubai</a></b>, UAE, where functionality and modern design merge 
+            smoothly.
+          </p>   
+
+          <p>From classic kitchens and modern kitchen cabinets design in UAE to customized layouts, our experienced team ensures 
+            that every element of your kitchen is optimized for durability, workflow and aesthetics.This Dubai central kitchen 
+            was designed as a fully-equipped central kitchen for performing large scale operations, making it an ideal space for 
+            food and beverage industry.
+          </p>
+
+          <p>Well known for <b><a href="https://wedointerior.ae/commercial-interior-design-dubai">commercial kitchen design</a></b>, WE DO also offers tailored solutions for luxury, modern & smart kitchen 
+            interiors. With our expertise in kitchen interior design Dubai, we continue to create innovative spaces that balance 
+            elegance with performance.
+          </p>
+
             </div>
           </div>
 

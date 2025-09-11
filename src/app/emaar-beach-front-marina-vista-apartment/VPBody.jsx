@@ -143,7 +143,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>
+            At WE DO Interior Design & Fitout, we use our expertise and creativity to design luxury residences like Emaar beach front
+            marina vista apartment, Dubai. As a top interior design company in Emaar Beachfront, Dubai, our skilled team is expert
+            in crafting bespoke interiors.
+          </p>
+          
+          <p>
+            This project highlights our customized interior design for Emaar Properties Apartment, where every element from layouts
+            to finishes is designed in such a way to enhance the style, comfort and sophistication of our clients.We offer complete
+            Emaar Beachfront luxury interior design services in Dubai while focusing on creating the spaces that reflects elegance  of this iconic waterfront community.
+          </p>
+
+          <p>
+            Whether it’s apartments & villas or house interior design for this villa, WE DO interior design & fitout is known as
+            the <b><a href="https://wedointerior.ae/">best Emaar Beachfront interior design company in Dubai</a></b>. Our work portfolio includes a range of projects from
+            modern apartments to luxury villas.
+          </p>
+          
+          <p>This beautiful apartment in Emaar Beachfront shows our experience in luxury interior design at Emaar Beachfront, 
+            blending style with modern interior. With our passion for design and attention to detail, we continue to be the most
+            trusted choice for Emaar Beachfront <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">Luxury apartment interior design.</a></b> 
+         </p>
             </div>
           </div>
 

@@ -160,7 +160,7 @@ const VPBody = () => {
           className="absolute top-0 left-0 w-[1px] bg-gray-400 z-0 block lg:hidden"
           style={{ height: "calc(104px + 360px)" }}
         />
-
+         
         {/* Headings */}
         <div className="mb-6">
           <p className="text-xs sm:text-base font-conthrax tracking-wide uppercase text-white">
@@ -181,7 +181,26 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+       <p>At WE DO Interior Design & Fitout, we take pride in being among the top luxury interior designers in Dubai, delivering 
+          bespoke solutions for prestigious residences such as The Royal Atlantis Residences. Our latest project, a stunning 
+          Atlantis The Royal Bedroom Apartment, represents perfection in both things, the design and execution. With our 
+          specialized interior design and build service, we converted this place into a masterpiece by blending elegance and
+           functionality. </p>
+
+        <p>This <b><a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">Royal Atlantis apartment interior design </a></b>shows modern sophistication in every detail from  furnishings to finishes.
+          As part of our Royal Atlantis Fitout furniture apartment, we used the best bedroom interior design ideas for 2025 to
+          create a practical and stylish environment.
+          </p>
+
+          <p>Recognized as one of the leading interior fit out companies in Dubai, we provide complete fitout service of apartment
+            interior design – Dubai, ensuring quality and creativity in every project. As a trusted interior design company in
+            Dubai, our expertise in interior styling for apartments Dubai makes us the <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">best apartment design Dubai service
+            provider for luxury living</a></b> .
+          </p>
+
+          <p>This Royal Atlantis apartment project is a true reflection of timeless aesthetics and contemporary comfort, setting a
+             benchmark for the best bedroom interior design in Dubai.
+          </p>
             </div>
           </div>
 

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Downtown Dubai Restaurant | We Do Interior",
+  title: "Downtown Dubai Restaurant Interior Design",
   description:
-    "Downtown dubai restaurant interior design",
+    "WE DO Interior Design & Fitout specializes in Downtown Dubai Restaurant design. Known as the Best Interior Design Company. Contact us today!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/downtown-dubai-restaurant',
