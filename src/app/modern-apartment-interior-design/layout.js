@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "World trade center restaurant | We Do Interior Design & Fit Out",
+  title: " 5 Modern Apartment Interior Design Tips in 2025 by WEDO",
   description:
-    "World trade center restaurant interior design Dubai",
+    "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces. ",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/modern-apartment-interior-design',
