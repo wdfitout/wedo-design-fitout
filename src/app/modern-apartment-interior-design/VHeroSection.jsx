@@ -5,23 +5,23 @@ const VHeroSection = () => {
     {
       title: "New Hotel Interior Ideas To Make Your Hotel Spaces Luxury",
       age: "4 years ago",
-      image: "/images/High-rise_Dubai_Marina_apartment_interior-design-dubai.png", // Replace with actual path
+      image: "/images/high-rise-Dubai-Marina-apartment-interior-design-dubai.png", // Replace with actual path
     },
     {
       title: "Best Kids Room Interior Design Ideas | Tips To Decorate Your Kids Room",
       age: "4 years ago",
-      image: "/images/Elegant_Dubai_apartment_showcasing_open_living-room-interior-in-dubai.png", // Replace with actual path
+      image: "/images/elegant-dubai-apartment-showcasing-open-living-room-interior-in-dubai.png", // Replace with actual path
     },
     
     {
       title: "7 Inspiring Home Renovation Design Ideas You Need to Know",
       age: "1 year ago",
-      image: "/images/Dubai_apartment_balcony-exterior-design-company-in-dubai.png", // Replace with actual path
+      image: "/images/dubai-apartment-balcony-exterior-design-company-in-dubai.png", // Replace with actual path
     },
     {
       title: "7 Inspiring Home Renovation Design Ideas You Need to Know",
       age: "1 year ago",
-      image: "/images/Ultra-modern_Dubai_apartment_interior_design.png", // Replace with actual path
+      image: "/images/ultra-modern-dubai-apartment-interior-design.png", // Replace with actual path
     },
   ];
 
@@ -48,7 +48,7 @@ const VHeroSection = () => {
           </div>
           <div className="space-y-6">
             <Image
-              src="/images/ultra-modern_dubai_apartment_interior_design.png" 
+              src="/images/ultra-modern-dubai-apartment-interior-design.png" 
              
               alt="Modern apartment Room interior Design Dubai"
               width={800}
@@ -73,7 +73,7 @@ const VHeroSection = () => {
             </p>
           </div>
             <Image
-              src="/images/Compact_Dubai_bedroom_with_space-saving_furniture-with-modern-interior.png"
+              src="/images/compact-dubai-bedroom-with-pace-saving-furniture-with-modern-interior.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
@@ -95,7 +95,7 @@ const VHeroSection = () => {
               luxury finishes added can remarkably change, and upgrade, a whole apartment.
             </p> <br />
              <Image
-              src="/images/High-end_Dubai_apartment_interior_design-in-dubai.png"
+              src="/images/high-end-dubai-apartment-interior-design-in-dubai.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
@@ -118,7 +118,7 @@ const VHeroSection = () => {
               one wishes to offer a cross-section of international trends supported with local environment.
             </p> <br />
             <Image
-              src="/images/Fusion-style_Dubai_apartment_interior_ivory.png"
+              src="/images/fusion-style-dubai-apartment-interior-ivory.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
@@ -139,7 +139,7 @@ const VHeroSection = () => {
               areas.
             </p> <br/>
             <Image
-              src="/images/High-rise_Dubai_Marina_apartment_interior-design-dubai.png"
+              src="/images/high-rise-dubai-marina-apartment-interior-design-dubai.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
@@ -159,7 +159,7 @@ const VHeroSection = () => {
               in ways of modern wall art ideas for apartments and facilitate lively conversations.
             </p> <br/>
             <Image
-              src="/images/Dubai_high-rise_bedroom_with_floor-to-ceiling-modern-interior-design-dubai.png"
+              src="/images/dubai-high-rise-bedroom-with-floor-to-ceiling-modern-interior-design-dubai.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
@@ -177,7 +177,7 @@ const VHeroSection = () => {
              in Dubai is all about functionality and sophistication. You can employ these 5 tips to design a home that is both 
              trendy and functional according to your needs while enhancing your comfort.</p> <br/>
             <Image
-              src="/images/Elegant_Dubai_apartment_showcasing_open_living-room-interior-in-dubai.png"
+              src="/images/elegant-dubai-apartment-showcasing-open-living-room-interior-in-dubai.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}

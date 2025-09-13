@@ -143,8 +143,18 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-             
-              
+          <p>
+            At WE DO Interior Design & Fitout, we are happy to show you a luxurious classic villa in Al Manara, Dubai, this Villa in Dubai is a perfect example of style and elegance. This private residential villa was designed in such a way that it embodies sophistication while maintaining the warmth of a home, blending luxury with functionality.</p>
+                
+          <p>
+           As one of the leading villa interior designers in Dubai, Our professional team created the spaces that give a look of <b><a href="https://wedointerior.ae/villa-interior-design-dubai">Arabian style villas in Dubai</a></b> with modern luxury. From the elite living areas to the modern bedrooms, every element and corner of your villa interior design project represents our craftsmanship and attention to detail.
+         </p>
+         <p>
+          Our work as a trusted <b><a href="https://wedointerior.ae">interior fit-out company in Dubai</a></b> has flawless execution, transforming visions into reality. The Villa Al Manara in Dubai is an example of exclusivity, offering residents of Al Manara the ultimate lifestyle through <b><a href="https://wedointerior.ae/villa-interior-design-dubai">custom villa interior design in Dubai, UAE.</a></b>
+          </p>
+          <p>
+          Specializing in luxury villa design & fit-out, WE DO Interior in Dubai designs each project in such a way to reflect individuality and prestige. This Al Manara villa stands as a true masterpiece, highlighting our commitment to delivering timeless and elegant villa interior design services in Dubai.
+          </p>  
             </div>
           </div>
 
