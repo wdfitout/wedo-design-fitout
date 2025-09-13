@@ -166,6 +166,18 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+              <p>
+                At WE DO Interior Design & Fitout, we are so proud to show our luxury modern penthouse interior design at <b><a href="https://wedointerior.ae/marina-gate-2-luxury-apartment">The Residences at Marina Gate, Dubai.</a></b> This penthouse interior project presents our expertise in penthouse services in Dubai which combine functionality, elegance and luxury.
+              </p>
+              <p>
+                Well known for its waterfront lifestyle, Dubai Marina is one of the most iconic places to live. Many clients ask us, “Which part of Dubai Marina is best to live in?” and Marina gates is the answer because of its prime location, luxurious amenities and breathtaking views. Our penthouse interior design in Dubai project here captures the essence of refined living, with layouts tailored to maximize both comfort and panoramic cityscapes
+              </p>
+              <p>
+                As a leading name among interior design companies in Marina Gate, WEDO is expert in <b><a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">penthouse interior design & fit-out in Dubai</a></b>, delivering services that are both functional and stylish. From customized furniture and lighting to premium finishes, every corner of this penthouse shows our commitment to excellence.
+              </p>
+              <p>
+                Renowned as the <b><a href="https://wedointerior.ae/">No.1 Interior Designers in UAE, </a></b>WE DO brings innovation and precision to every project. Our modern penthouse interior design Dubai services redefine luxury, making residences at Marina Gate a true benchmark of contemporary living.
+              </p>
         
             </div>
           </div>

@@ -143,6 +143,18 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+              <p>
+                At WE DO Interior Design & Fitout, we feel so proud to showcase our Al Barsha Lounge project in Dubai, where our creativity meets your vision. This lounge interior design project highlights our  in <b><a href="https://wedointerior.ae/landscape-design-dubai">both interior and exterior design</a></b> and a smooth connection between outdoor elegance and indoor comfort.
+              </p>
+              <p>
+                As one of the top interior design companies in Al Barsha, we are providing unique concepts and interiors according to one’s taste, personality and brand identity. The Al Barsha Lounge in Dubai was purely designed with attention to details, we combine modern aesthetics with the most inviting atmosphere as we know that it's the requirement for a <b><a href="https://wedointerior.ae/cafe-interior-design-dubai">café interior design in Dubai.</a></b>  Our expertise in <b><a href="https://wedointerior.ae/design-build-services-in-dubai">coffee shop design and build in Dubai</a></b> not only look exceptional but also enhances customers' experience.
+              </p>
+              <p>
+                Known as the most F&B interior design & build company in Dubai, we pay special  attention to those layouts who increase efficiency while keeping the ambiance welcoming yet stylish. From lighting and furniture selection to outdoor landscaping, every element was thoughtfully curated.
+              </p>
+              <p>
+                We are among the  best luxury interior designers in Al Barsha because of creating projects that are both innovative and timeless. This Lounge Interior Design project in AL barsha reflects our commitment to excellence and sets new benchmarks for top café and coffee shop design in Dubai, UAE.
+              </p>
             
               
             </div>
