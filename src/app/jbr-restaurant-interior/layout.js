@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "JBR Restaurant Interior | We Do Interior Design & Fit Out",
+  title: "JBR Restaurant Interior Design - Jumeirah Beach Residence ",
   description:
-    "jbr restaurant interior design Dubai",
+    "jbr restaurant interior design Dubai. Get professional restaurant interior services in Jumeirah Beach Residence by WEDO. Conatact Us",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/jbr-restaurant-interior',

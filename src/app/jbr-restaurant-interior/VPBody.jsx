@@ -160,7 +160,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+         <p>
+          At  WE DO Interior Design & Fitout, we are experts in creating premium dining spaces that reflect the comfort, 
+          functionality and elegance. As one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">leading restaurant interior design firms in Dubai</a></b>, we provide customized 
+          restaurant interior design and fit-out contractor services in Jumeirah Beach Residence that are designed according 
+          to the unique brand needs of every business.
+        </p>
+        <p>
+          Our latest project at Jumeirah Beach Residence (JBR) indicates how we merge our creativity with luxury to create 
+         <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects"> JBR Restaurant  interior designs</a></b>  that enhance dining experiences in Dubai. Known for its elite lifestyle and high 
+          end community, JBR is a perfect location for starting any restaurant or cafe business as it attracts residents and 
+          tourists alike. With our expertise, we provide professional  restaurant design services in Dubai that focus on 
+          ambiance, flow, and brand identity.
+        </p>
+        <p>
+          As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Most reliable Interior design company in Jumeirah Beach Residence</a></b>, we design spaces that are ever green and f
+          its timeless trends of Dubai. From layout planning to lighting, furnishings and materials, every process is carefully 
+          executed to ensure seamless dining experiences.
+        </p>
+        <p>No matter if you are opening a cozy café or a restaurant in Jumeirah Beach Residence, our bespoke restaurant interior 
+          design services in Dubai ensure that your concept is transformed into reality. Browse our interior design solutions in 
+          JBR Dubai below.
+        </p>
             </div>
           </div>
 

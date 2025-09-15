@@ -162,8 +162,23 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
-            </div>
+         <p>At WE DO Interior Design & Fitout, we feel so proud in providing exceptional fitout service of penthouse interior 
+          design in Dubai.Our latest project of <b className="text-[#caa193]"><a href="https://wedointerior.ae/palm-jumeirah-apartment">2-bedroom apartment in Palm Jumeirah</a></b> shows a perfect combination of comfort, luxury and modern living.
+        </p>
+        <p>This luxury apartment in Palm Jumeirah Dubai was designed with a customized approach while ensuring every element and 
+          corner of this penthouse increases functionality. From concept to execution, our skilled team of penthouse apartment 
+          interior designers in Dubai managed the <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">interior fit-out</a></b> with precision, adding premium finishes and modern layouts 
+          that enhanced the lifestyle of palm Jumeirah Living.</p>
+          <p>Palm Jumeirah is known for its high end residences, and our objective is to match this prestige with modern designs. 
+            As one of the most reliable interior design companies in Palm Jumeirah,  WEDO provides customized services according 
+            to the client's needs.Our work on this penthouse at Palm Jumeirah Dubai demonstrates how thoughtful planning and high-
+            quality execution can transform spaces into luxurious living environments.
+         </p>
+         <p>
+          At WE DO, we offer full interior design services in Palm Jumeirah, Dubai, skilled in apartments that show elegance and 
+          comfort.Explore how our expertise in design and interior fit-out can bring your vision to life with timeless results.
+         </p>
+          </div>
           </div>
 
           {/* Image */}
