@@ -7,56 +7,56 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const galleryImages = [
   {
     src: "/images/dhfs (1).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant salon living room with ambient lighting",
+    title: "beauty salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
     src: "/images/dhfs (2).webp",
     alt: "Modern kitchen design with marble countertops",
-    title: "Villa Interior Gallery Image 2",
+    title: "facial studio Interior Gallery Image 2",
     description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
     src: "/images/dhfs (3).webp",
     alt: "Luxury bathroom with golden fixtures",
-    title: "Villa Interior Gallery Image 3",
+    title: "facial studio Interior Gallery Image 3",
     description: "Stylish bathroom with gold fixtures and large mirrors"
   },
   {
     src: "/images/dhfs (4).webp",
     alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
+    title: "facial studio Interior Gallery Image 4",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   {
     src: "/images/dhfs (5).webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
+    alt: "facial studio staircase with chandelier and marble steps",
+    title: "facial studio Interior Gallery Image 5",
     description: "Architectural staircase design with high ceiling chandelier"
   },
   {
     src: "/images/dhfs (6).webp",
     alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
+    title: "facial studio Interior Gallery Image 6",
     description: "Bespoke lounge area with leather furniture and curated art pieces"
   },
     {
     src: "/images/dhfs (7).webp",
     alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
+    title: "facial studio Interior Gallery Image 4",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   {
     src: "/images/dhfs (8).webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
+    alt: "facial studio staircase with chandelier and marble steps",
+    title: "facial studio Interior Gallery Image 5",
     description: "Architectural staircase design with high ceiling chandelier"
   },
   {
     src: "/images/dhfs (9).webp",
     alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
+    title: "facial studio Interior Gallery Image 6",
     description: "Bespoke lounge area with leather furniture and curated art pieces"
   }
 ];
@@ -126,7 +126,7 @@ const VPBody = () => {
         {/* Headings */}
         <div className="mb-6">
           <p className="text-xs sm:text-base font-conthrax tracking-wide uppercase text-white">
-            TRANSFORMING WORKING SPACES:
+            TRANSFORMING COMMERCIAL SPACES:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
             DUBAI HILLS MALL FACIAL STUDIO
@@ -140,10 +140,34 @@ const VPBody = () => {
           <div className="w-full lg:w-1/2">
             <div
               ref={scrollRef}
-              className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
+              className="max-h-[600px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+         <p>The Dubai Hills Mall Facial Studio interior design is a project that reflects how functionality and beauty can blend 
+          smoothly. At WE DO Interior Design & Fitout, we approached this space with the goal of redefining what a modern self-care 
+          studio should look like in Dubai 2025.</p>
+
+        <p>When we worked on the Facial Studio Interior Design in Dubai Hills Mall, our main idea was simply to create a place that 
+          feels modern, calm and luxurious all at once. At WE DO Interior Design & Fitout, each member knows that beauty spaces 
+          aren’t just about looks; they’re about the full experience.
+        </p>
         
+        <p>This Dubai Hills Mall Facial Studio project gave us the chance to show our creativity and bring <b className="text-[#caa193]"
+><a href="https://wedointerior.ae/dubai-mall-restaurant">luxury interior design 
+          in Dubai Hills Mall </a></b>to life by using stylish décor, soft colors and lighting. Every corner from the reception area to 
+          the treatment rooms was designed in such a way that it makes our clients feel comfortable and welcomed.
+        </p>
+        
+        <p>As one of the leading interior design companies in Dubai Hills, we always focus on combining beauty with functionality. 
+          For this studio, we carefully planned the layout so staff could work efficiently, while clients enjoy a seamless flow 
+          through the space.
+        </p>
+
+        <p>Whether it’s a beauty salon Dubai design & fit-out or a full-scale project, our approach stays the same—we mix creativity 
+          with precision. That’s why many consider us the go-to choice for the best interior design in Dubai Hills Mall and for 
+          <b className="text-[#caa193] "><a href="https://wedointerior.ae/beauty-salon-interior-design-dubai"> beauty salon interior design services in Dubai</a></b>.
+        </p>
+
             </div>
           </div>
 
@@ -151,15 +175,15 @@ const VPBody = () => {
           <figure className="w-full lg:w-1/2">
             <Image
               src="/images/dhfs (4).webp"
-              alt="Luxury villa interior with white marble flooring and gold accents"
-              title="Modern Villa Interior Design in Dubai"
+              alt="Luxury Salon interior with white marble flooring and gold accents"
+              title="Modern Salon Interior Design in Dubai"
               width={800}
               height={500}
               loading="lazy"
               className="w-full h-auto object-cover"
             />
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+              A spacious modern salon interior designed with elegant gold accents, large windows, and premium finishes.
             </figcaption>
           </figure>
         </div>
@@ -180,7 +204,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          FACIAL STUDIO INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

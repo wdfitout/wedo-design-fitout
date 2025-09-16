@@ -191,7 +191,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+          AL MANARA VILLA LUXURY VILLA INTERIOR DESIGN GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

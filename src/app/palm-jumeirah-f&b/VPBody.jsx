@@ -145,7 +145,26 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-      
+          <p>WE DO Interior Design & Fitout Team is specialized as best Restaurants & <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">Café Interior Designers in Palm Jumeirah</a></b> 
+            who transform the F&B spaces into divine experiences. Our Recent Palm Jumeirah F&B project is truly a reflection of 
+            functionality, creativity and elegance.
+          </p>
+
+          <p>As one of the premier interior fit-out contracting companies in Dubai, we worked on this project with a customized 
+            approach while ensuring that every detail from furniture selection to lighting and other finishes enhances both 
+            customer experience and operational flow of the restaurant.</p>
+          <p>Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">expertise in restaurant interior design in Dubai</a></b> enables us to create concepts that blend with the dining 
+            energy of Palm Jumeirah. The result is not only stylish and modern but also practical for staff and guests alike. 
+            The result is not only aesthetic but also practical for staff and guests alike.</p>
+
+            <p>As one of the trusted interior design companies in Palm Jumeirah, we pride ourselves on offering high-quality 
+              interior design services in Palm Jumeirah, Dubai for restaurants and cafés. This <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">restaurant project in Dubai</a></b> highlights why WE DO is 
+              considered the go-to choice for luxury interior design in Palm Jumeirah F&B and recognized for delivering the best 
+              interior design in Palm Jumeirah F&B.
+           </p>
+           <p>For anyone seeking café interior design in Palm Jumeirah, our portfolio showcases how we bring innovation and 
+            luxury together.
+           </p>
             </div>
           </div>
 

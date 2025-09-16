@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Palm Jumeirah F&B | We Do Interior Design & Fit Out",
+  title: "Palm Jumeirah F&B Interior Design & Fit Out",
   description:
-    "Palm jumeirah food and beverage interior design Dubai",
+    "Explore WE DO’s Palm Jumeirah F&B project. Luxury restaurant & café interior design with expert fit-out solutions for stylish, functional dining spaces.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/palm-jumeirah-f&b',

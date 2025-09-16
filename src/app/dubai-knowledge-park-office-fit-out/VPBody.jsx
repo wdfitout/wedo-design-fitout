@@ -143,7 +143,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-    
+          <p>WE DO Interior Design & Fitout is so proud that we are recognized as a <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">top fit-out company in Dubai</a></b>, trusted by 
+            business and business owners for delivering modern,stylish and functional workspaces. Our recent Dubai Knowledge 
+            Park Office Fit-out project reflects our skills and ability to design and create a dynamic office environment which 
+            balances comfort, innovation and enhances professionalism.
+          </p>
+
+          <p>As a premier <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">Office interior Design company in Dubai</a></b>,  from space planning to the final finishes,we designed and executed every step 
+            of this project with detailed attention. Known as one of the most trusted office fit out companies in Dubai, we offer 
+            our customized and expert interior solutions according to our clients.
+          </p>
+
+          <p>This project demonstrates why WE DO is considered the best interior company in Dubai Knowledge Park. With our focus 
+            on workflow, branding, and aesthetics, the result stands out as one of the <b className="text-[#caa193]" ><a href="https://wedointerior.ae/office-projects">best office fit out services in Dubai Knowledge Park</a></b>.
+          </p>
+
+          <p>Whether you’re looking for commercial fit out solutions in Dubai Knowledge Park, seeking fit out contractors in Dubai 
+            Knowledge Park, or need a trusted interior office fit out company in Dubai, WE DO delivers results that inspire 
+            productivity and leave a lasting impression.
+          </p>
             </div>
           </div>
 
@@ -180,7 +198,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+         DUBAI KNOWLEDGE PARK OFFICE FIT OUT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

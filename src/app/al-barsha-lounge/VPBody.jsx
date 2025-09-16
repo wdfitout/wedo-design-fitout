@@ -144,10 +144,10 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
               <p>
-                At WE DO Interior Design & Fitout, we feel so proud to showcase our Al Barsha Lounge project in Dubai, where our creativity meets your vision. This lounge interior design project highlights our  in <b><a href="https://wedointerior.ae/landscape-design-dubai">both interior and exterior design</a></b> and a smooth connection between outdoor elegance and indoor comfort.
+                At WE DO Interior Design & Fitout, we feel so proud to showcase our Al Barsha Lounge project in Dubai, where our creativity meets your vision. This lounge interior design project highlights our  in <b className="text-[#caa193]"><a href="https://wedointerior.ae/landscape-design-dubai">both interior and exterior design</a></b> and a smooth connection between outdoor elegance and indoor comfort.
               </p>
               <p>
-                As one of the top interior design companies in Al Barsha, we are providing unique concepts and interiors according to one’s taste, personality and brand identity. The Al Barsha Lounge in Dubai was purely designed with attention to details, we combine modern aesthetics with the most inviting atmosphere as we know that it's the requirement for a <b><a href="https://wedointerior.ae/cafe-interior-design-dubai">café interior design in Dubai.</a></b>  Our expertise in <b><a href="https://wedointerior.ae/design-build-services-in-dubai">coffee shop design and build in Dubai</a></b> not only look exceptional but also enhances customers' experience.
+                As one of the top interior design companies in Al Barsha, we are providing unique concepts and interiors according to one’s taste, personality and brand identity. The Al Barsha Lounge in Dubai was purely designed with attention to details, we combine modern aesthetics with the most inviting atmosphere as we know that it's the requirement for a <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">café interior design in Dubai.</a></b>  Our expertise in <b className="text-[#caa193]"><a href="https://wedointerior.ae/design-build-services-in-dubai">coffee shop design and build in Dubai</a></b> not only look exceptional but also enhances customers' experience.
               </p>
               <p>
                 Known as the most F&B interior design & build company in Dubai, we pay special  attention to those layouts who increase efficiency while keeping the ambiance welcoming yet stylish. From lighting and furniture selection to outdoor landscaping, every element was thoughtfully curated.
@@ -193,7 +193,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+          AL BARSHA LOUNGE INTERIOR DESIGN GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
