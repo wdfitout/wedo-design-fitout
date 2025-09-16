@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Palm Jumeirah 2 Bedroom Penthouse | We Do Interior Design & Fit Out",
+  title: "Palm Jumeirah 2 Bedroom Penthouse Interior Design",
   description:
-    "Palm jumeirah 2 bedroom penthouse interior design Dubai",
+    "Palm jumeirah 2 bedroom penthouse interior design Dubai. Get the best penthouse apartment interior design services by WEDO",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/palm-jumeirah-2-bedroom-penthouse',

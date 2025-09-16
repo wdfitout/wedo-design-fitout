@@ -145,7 +145,30 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+          <p>
+            At WE DO Interior Design & Fitout, we specialize in creating timeless and functional spaces that reflect luxury and 
+            comfort. Our latest achievement is the <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">Modern Apartment Interior Design in Madinat Jumeirah</a></b>, where we transformed the 
+            Madinat Jumeirah Living Asayel Apartment into a perfect balance of elegance and practicality.
+          </p>
+
+          <p>
+            This Madinat Jumeirah living Asayel Apartment, Dubai shows how our skills in <b className="text-[#caa193]"><a href="https://wedointerior.ae/modern-apartment-interior-design">interior design services for modern 
+            apartments</a></b> brings modern living of madinat jumeriah to life while maintaining the style. Every corner of this 
+            apartment was designed with detailed and careful attention, from stylish living areas to planned bedrooms. While 
+            designing a space we ensure that the space reflects both aesthetics and functionality.
+          </p>
+
+          <p>
+            Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">fitout service of apartment interior design Dubai</a></b> includes a smooth process at every step from design concept to 
+            execution. Using high quality materials, innovative layouts and bespoke finishes, we designed this apartment in such 
+            a way that it reflects a luxury lifestyle of Madinat Jumeirah Asayel.
+          </p>
+
+          <p>
+            As a well known name when it comes to apartment interior design Dubai, our team design spaces which are customized 
+            according to every client's needs. This project is a live example of  luxury interior design Dubai, where every 
+            element of the apartment reflects sophistication, comfort and modern charm.
+          </p>
             </div>
           </div>
 
