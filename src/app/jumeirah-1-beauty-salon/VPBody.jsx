@@ -162,7 +162,29 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-      
+          <p>
+            The recent salon interior design in Jumeirah 1 by WE DO Interior Design & Fitout represents how beautifully the 
+            elegance and functionality can be merged. This project shows our expertise in design of beauty salons, creating 
+            an environment that enhances the customer comfort and brand identity.
+          </p>
+
+         <p>
+          Our interior design team creates the most luxurious beauty salon interiors that not only attract clients but also 
+          provide them a relaxing environment. As one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/beauty-salon-interior-design-dubai"> trusted beauty salon interior design Dubai companies</a></b>, WEDO has 
+          designed every detail to embody elegance by using custom furniture, premium materials  and elegant lighting that 
+          highlight the beauty salon’s services in Jumeirah 1.
+         </p>
+
+          <p>
+            Known for <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">designing luxury beauty salons in Dubai & UAE</a></b>, we ensure each project has its own personality. This beauty 
+            salon Dubai design & fit-out balances modern aesthetics with practical functionality, making it a benchmark for other 
+            beauty salons interior in Jumeirah.
+          </p>
+
+          <p>What makes great salon interior design? It’s about creating a space that merges beauty, comfort, and efficiency—
+            something we achieved with our seamless salon interior design and decoration in Dubai. For high-end interior design 
+            & fit-out in Jumeirah, WE DO stands as a trusted partner.
+          </p>
             </div>
           </div>
 

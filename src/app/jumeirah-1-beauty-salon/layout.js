@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Jumeirah 1 Beauty Salon | We Do Interior Design & Fit Out",
+  title: "Jumeirah 1 Beauty Salon Interior Design & Fit Out",
   description:
-    "Jumeirah 1 beauty salon interior design Dubai",
+    "Explore our Jumeirah 1 salon interior design. WE DO creates luxury beauty salons in Dubai with custom furnitures & functional layouts. Visit Us",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/jumeirah-1-beauty-salon',

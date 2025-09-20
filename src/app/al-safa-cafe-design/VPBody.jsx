@@ -143,7 +143,27 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-         
+          <p>
+            At WE DO Interior Design & Fitout, our team specializes in creating F&B spaces into long lasting experiences and our 
+            project of café interior design in Al Safa is its live example. This project is a true reflection of our <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">expertise in 
+            Cafe Interior Design Dubai</a></b>. This Al Safa Cafe design project highlights our ability to combine modern aesthetics with 
+            functionality while ensuring that every detail increases both brand identity and customer experience.
+          </p>
+
+          <p>
+            Our team of expert <b className="text-[#caa193]"><a href="https://wedointerior.ae/about-us">restaurants & café interior designers</a></b> crafted a space that stands out among cafes in Al Safa and 
+            their design concepts by combining comfort, style, and innovation. Whether it’s a small café design in Al safa or a 
+            luxury cafe <b className="text-[#caa193]"><a href="https://wedointerior.ae/al-safa-real-estate-office">interior fit out in AL Safa</a></b> , we know that every project deserves our special services. For this cafe, we 
+            designed an atmosphere that balances elegance with practicality and also it offers a welcoming environment to our 
+            customers to relax and enjoy.
+          </p>
+
+          <p>
+            As one of the trusted interior fit-out experts in Dubai, our services cover everything from <b className="text-[#caa193]"><a href="https://wedointerior.ae/joinery-company-dubai">interior decoration & 
+            joinery in Dubai</a></b> to complete interior design & fit-out execution. This café project not only represents our design 
+            excellence but also answers the popular question: What are some unique café design themes?—by showcasing creativity 
+            through textures, lighting, and bespoke finishes.
+          </p>
             </div>
           </div>
 
@@ -180,7 +200,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+        AL SAFA CAFE DESIGN GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Al Safa, Dubai, Cafe Interior Design | We Do Interior",
+  title: "Al Safa Cafe Design Dubai - Best Cafe Interior Designers",
   description:
-    "Al Safa, Dubai, cafe interior design",
+    "Discover our  Al Safa café design, Dubai. WE DO creates stylish F&B Interior Designs with modern aesthetics, comfort, and functionality. Contact Us",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/al-safa-cafe-design',

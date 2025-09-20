@@ -96,7 +96,7 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; FEATURES &gt; VILLA INTERIOR DESIGN
+        HOME &gt; FEATURES &gt; FOUNTAIN VIEWS APARTMENT
       </p>
 
       {/* Heading + Paragraph + Image */}
@@ -118,7 +118,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            VILLA INTERIOR DESIGN SERVICES
+           FOUNTAIN VIEWS APARTMENT
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -132,7 +132,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+          <p>
+            The Fountain View Apartment Project at the iconic and high end Address Fountain Views Apartment in Downtown Dubai is a 
+            true example of sophistication and elegance. Designed and executed by WE DO Interior Design & Fitout, this project 
+            highlights our expertise in creating stunning apartment interiors that combine functionality with timeless luxury.
+         </p>
+
+         <p>
+          Our design approach for this <b className="text-[#caa193]"><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment interior design </a></b>in Fountain View focused on blending comfort, 
+          functionality, and contemporary elegance. From living areas to customized finishes, every corner reflects the 
+          perfection of expert modern apartment design interior.  Mostly the apartment interiors are not so appealing and 
+          they are more focused on practicality, but in this project, our team makes this apartment not only appealing but 
+          also practical according to daily living. That's why it's the <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">best apartment designs in Dubai till now</a></b>.
+        </p>
+
+        <p>As a pro in luxury apartment interior design in Fountain View, our team customized the  furniture, layouts and lighting 
+          to enhance the breathtaking views.With our tailored <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">fit-out service of apartment interior design in Dubai</a></b>, this project 
+          demonstrates how luxury and functionality can coexist beautifully.
+        </p>
+
+        <p>For those seeking the best apartment interior design in Fountain View or anywhere in Dubai, our team ensures every 
+          project becomes a masterpiece.
+        </p>
             </div>
           </div>
 
