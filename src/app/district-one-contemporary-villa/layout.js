@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "District One Contemporary Villa | We Do Interior",
+  title: "District One Contemporary Villa Interior Design in MBR City",
   description:
-    "District one contemporary villa interior design Dubai",
+    "District One Contemporary Villa Interior Design, MBR. Discover our villa design in Dubai. WE DO creates timeless luxury interiors. Contact us today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/district-one-contemporary-villa',

@@ -143,7 +143,29 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-          
+          <p>At <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">WE DO Interior Design & Fitout in Dubai</a></b>, we completed our stunning 2-bedroom apartment interior design in Dubai 
+            Creek Harbour by bringing together all the things including comfort, luxury and functionality. This is our Favourite 
+            project as its shows how we transform this space into personal space and how perfectly we customized it according to 
+            modern trends of Dubai Creek Harbour.
+          </p>
+
+          <p>Located in the heart of one of the best buildings in Dubai Creek Harbour, this Dubai Creek 2 bedroom apartment reflects 
+            the elegance of <b className="text-[#caa193]"><a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">luxury waterfront apartments in Dubai</a></b>.  Our team of interior designers focused on creating an atmosphere 
+            with bespoke that matched with the iconic skyline views. Every element, from furniture selection to the tiny details was 
+            chosen in such a way to enhance aesthetics and practicality.
+          </p>
+
+          <p>
+            This <b className="text-[#caa193]"><a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2 bedroom interior 
+            design in UAE</a></b> at Harbour Views Apartments in Dubai highlights our skills in fitout service of apartment 
+            interior design Dubai. The interior of this apartment consists of  modern layouts, sleek finishes and a warm color 
+            palette that makes the Creek Harbour residential apartment to be one of the most welcoming homes ever.
+          </p>
+
+          <p>
+            As Dubai continues to expand with luxurious new buildings in Dubai Creek Harbour, our two-bedroom project exemplifies 
+            what it means to blend contemporary design with timeless comfort.
+          </p>
             </div>
           </div>
 

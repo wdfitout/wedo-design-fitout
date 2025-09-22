@@ -143,7 +143,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+          <p>
+            In UAE, WE DO Interior Design & Fitout proudly shows its modern fit-out office in Business Bay, designed in such a way 
+            to combine both style and functionality into a relaxing workspace. As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">reliable interior fitout company in Business Bay</a></b>,
+            our team of interior designers and fitout specialists create work environments that increase productivity and represent the company's identity.
+          </p>
+          <p>
+            Our expertise as an office fit out company in Dubai enables us to deliver the best office fit-out solution in Dubai 
+            according to each client’s needs. This Business Bay Office fitout project highlights collaborative and open areas, 
+            balanced with private work zones, ensuring efficiency and comfort for the team's daily tasks.
+          </p>
+
+          <p>
+            If you are tired of <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">looking for office fit out companies in Dubai</a></b> , WE DO offers a reliable, creative, and results-
+            driven approach. With a reputation as a top interior fitout company in Business Bay, we stand among the top interior 
+            fit-out companies in Dubai for 2025 and are recognized as one of the top 10 interior fit out companies in Dubai.
+          </p>
+
+          <p>
+            Our work proves why WE DO is known as the <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">best interior design company in Business Bay, Dubai</a></b>, and why clients trust 
+            us when searching for an interior design office in Business Bay.
+          </p>
+
             </div>
           </div>
 
@@ -180,7 +201,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BUSINESS BAY OFFICE FITOUT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

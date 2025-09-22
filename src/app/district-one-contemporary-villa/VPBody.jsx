@@ -129,7 +129,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            VILLA INTERIOR DESIGN SERVICES
+            DISTRICT ONE CONTEMPORARY VILLA
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -143,7 +143,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-      
+           <p>
+            At WE DO Interior Design & Fitout, we recently completed a stunning District One villa interior design in Dubai, 
+            our team transformed this <b className="text-[#caa193]"><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District 1 contemporary villa, MBR City</a></b> into a most modern and comfortable space. Our 
+            vision for this District 1 community of Mohammed Bin Rashid was to design the interiors that blend comfort, 
+            functionality and elegance while reflecting the uniqueness and identity of Homeowners.
+            </p>
+
+            <p>
+              As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">leading provider of bespoke villa interior design in Dubai</a></b>, 
+              we specialize in offering complete villa interior design services that cover every detail of the villas in MBR.
+              This project puts light on our expertise in providing luxury interior design solutions for MBR City, featuring premium 
+              materials, open layouts, seamless integration of modern technology and custom-made furniture.
+            </p>
+
+            <p>
+              As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-construction-dubai">trusted interior fitout & villa construction company in Dubai</a></b>, UAE,  we also provide comprehensive fit-out and 
+              villa construction services while ensuring the accuracy and quality in every step from initial to final. Known as 
+              the best villa interior design company in Dubai, our skilled residential interior designers in Dubai continue to set 
+              new standards in design excellence. Whether it’s working on MBR City District 1 villas or other villa interiors in 
+              Dubai, our mission is to create timeless homes that perfectly combine luxury and lifestyle. Explore the full project 
+              below:
+            </p>
             </div>
           </div>
 
@@ -180,8 +201,8 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
-        </h2>
+                  DISTRICT ONE CONTEMPORARY VILLA GALLERY
+                </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((img, idx) => (
