@@ -32,19 +32,14 @@ const VHeroSection = () => {
         {/* Blog Content */}
         <div>
           <div className="text-sm mb-4 text-[#caa193]">
-            <p>Sep 11, 2025 • No Comments</p>
+            <p>Sep 23, 2025 • No Comments</p>
           </div>
 
           <h1 className=" text-[#caa193] text-3xl font-conthrax leading-tight py-10 ">
-           Modern Apartment Interior Design in Dubai - 5 Essential Design Tips 
+           Interior Design Styles Dubai 2025: 6 Must-Know Trends
           </h1>
-         <div className=" text-sm leading-relaxed font-play">
-            <p>
-              A Dubai apartment that is smartly designed with quality materials and a modern look naturally exudes elegance.
-              <b class="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai"> Apartment Interior Design Dubai</a></b> is vital since it makes the house appear wonderful and be comfortable. Good design
-              enables the space to function effectively; it's the appropriate colors and a hint of luxury. 
-            </p> <br/>
-            
+         <div className=" text-md leading-relaxed font-play">
+             <p> for paragraph</p>
           </div>
           <div className="space-y-6">
             <Image
@@ -55,22 +50,12 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <div className=" text-sm leading-relaxed font-play">
+            <div className=" text-md leading-relaxed font-play">
             <p>
-             Besides, it also enhances lighting and furniture placement for providing a fashionable appearance. A <b class="text-[#caa193]"><a href="https://wedointerior.ae/">professional
-            Interior Design Company in Dubai </a></b>assists by selecting the most suitable designs, furniture, and decorations. 
-            They tailor every element to suit the owner's lifestyle. Any apartment can be easily transformed elegantly and 
-            luxuriously with professional assistance. These 5 essential design tips will help you create a home that reflects 
-            your personality while staying on-trend with Dubai home décor styles.
+             
             </p>
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Optimizing Space and Natural Light</h2>
-            <p>
-              The greatest challenge of Dubai apartment interior design today is to optimize space. Begin with space-saving 
-              furniture—Dubai apartments are full of wall beds, folding dining tables, and nest coffee tables. The most intuitive
-              configurations furniture and the apartment building create flow, circulation, and functionality.Natural light is 
-              also a big factor. Make sure no window treatments such as blinds on most windows, utilizing sheer drapery, huge 
-              mirrors, and glass wall dividers to bounce as much natural light into the room area.
-            </p>
+            <p> for paragraph  </p>
           </div>
             <Image
               src="/images/compact-dubai-bedroom-with-pace-saving-furniture-with-modern-interior.png"
@@ -80,20 +65,10 @@ const VHeroSection = () => {
               className="rounded-md w-full object-cover"
             />
           </div>
-        <div className=" text-sm leading-relaxed font-play">
+        <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Luxury Through Materials and Colors</h2>
-            <p>
-              To properly design <b class="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">luxurious apartment interiors</a></b> , be mindful of luxurious materials. Incorporate rich textures 
-              and high-quality materials. Consider marble countertops, velvet sofas, and spun metal finishes. Employ the 
-              current strains and trends to incorporate a modern color scheme for apartments, including deeper emerald 
-              shades, warm taupe, or terracotta to create a sophisticated palette in your apartment.
-            </p> <br/>
-            <p>
-              Utilize laid in materials as natural woods or stones, since they offer contrast between elegance and warmth 
-              and welcome Mediterranean charm.  Even on the most simplistic of designs with minimalist design Dubai apartments, 
-              luxury finishes added can remarkably change, and upgrade, a whole apartment.
-            </p> <br />
+            <p> for paragraph  </p>
              <Image
               src="/images/high-end-dubai-apartment-interior-design-in-dubai.png"
               alt="Modern Laundry Room Design 2"
@@ -103,20 +78,12 @@ const VHeroSection = () => {
             />
           </div>
         
-             <div className=" text-sm leading-relaxed font-play">
+             <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Contrasting Contemporary and Traditional Styles
             </h2>
-            <p>
-              The cultural mix of Dubai permits the possibility of merging contemporary day interior design with a touch of 
-              traditional Middle Eastern décor. You can select contemporary furniture while adding Arabic patterns, 
-              Mashrabiya screens, and handcrafted local décor to infuse your space with a distinct personality and character.
-            </p> <br/>
-            <p>
-              Such blending would be suitable for a multitude of varying home styles in Dubai, especially in apartments where 
-              one wishes to offer a cross-section of international trends supported with local environment.
-            </p> <br />
+            <p> for paragraph  </p>
             <Image
               src="/images/fusion-style-dubai-apartment-interior-ivory.png"
               alt="Modern Laundry Room Design 2"
@@ -126,18 +93,12 @@ const VHeroSection = () => {
             />
           </div>
            
-             <div className=" text-sm leading-relaxed font-play">
+             <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Integrating Smart Home Features In Apartment
             </h2>
-            <p>
-              The quick upsurge of innovation in Dubai finds smart home integration technology in modern apartment architecture. 
-              To heighten a modern apartment interior with new aspects of modern living, think of incorporating automated lighting, 
-              climatic control mechanisms, voice-controlled assistants, and smart security systems, for convenience and readiness 
-              ahead. On the other hand, these improvements can give functionality and enhance your property value, particularly in upscale 
-              areas.
-            </p> <br/>
+            <p> for paragraph  </p>
             <Image
               src="/images/high-rise-dubai-marina-apartment-interior-design-dubai.png"
               alt="Modern Laundry Room Design 2"
@@ -146,18 +107,12 @@ const VHeroSection = () => {
               className="rounded-md w-full object-cover"
             />
           </div>
-           <div className=" text-sm leading-relaxed font-play">
+           <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Highlighting Stunning Views and Statement Pieces
             </h2>
-            <p>
-              There are many Dubai apartments with lovely skyline or marina views. Take advantage of these by using very few 
-              pieces of furniture directly next to windows and using floor-to-ceiling curtains that reveal the view without 
-              blocking it. Add inset pieces like great wall art, designer light illumination, and sculptural pieces of 
-              furniture, so you can demonstrate personality and make it your own. Such finishing pieces are natural fits 
-              in ways of modern wall art ideas for apartments and facilitate lively conversations.
-            </p> <br/>
+            <p> for paragraph  </p>
             <Image
               src="/images/dubai-high-rise-bedroom-with-floor-to-ceiling-modern-interior-design-dubai.png"
               alt="Modern Laundry Room Design 2"
@@ -167,31 +122,27 @@ const VHeroSection = () => {
             />
           </div>
           
-          <div className=" text-sm leading-relaxed font-play">
+          <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Design that Reflects Dubai Living
             </h2>
-            <p>
-             From apartment interior design ideas on a small scale to high-end smart living, modern apartment interior design 
-             in Dubai is all about functionality and sophistication. You can employ these 5 tips to design a home that is both 
-             trendy and functional according to your needs while enhancing your comfort.</p> <br/>
+            <p> for paragraph  </p>
             <Image
               src="/images/elegant-dubai-apartment-showcasing-open-living-room-interior-in-dubai.png"
               alt="Modern Laundry Room Design 2"
               width={800}
               height={600}
               className="rounded-md w-full object-cover"
-            /> <br />
-            <p>Need expert assistance in your apartment design? Our seasoned interior design company in Dubai will turn your 
-              vision into reality by combining beauty, technology, and functionality.</p>
+            />
+            <p> for paragraph  </p>
           </div>
-          <div className=" text-sm leading-relaxed font-play">
+          <div className=" text-md leading-relaxed font-play">
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-sm font-conthrax leading-tight py-5">
+            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1- How do I maximize space in a small Dubai apartment?
             </h3>
             <p>
@@ -199,7 +150,7 @@ const VHeroSection = () => {
             and use glass and mirrors to reflect space. 
             </p>
 
-            <h3 class="text-[#caa193] text-sm font-conthrax leading-tight py-5">
+            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2- What are the trending colours for apartments in Dubai?
             </h3>
             <p>
@@ -207,7 +158,7 @@ const VHeroSection = () => {
             pastels - Making it great for the luxe apartment style with a modern twist.
             </p>
 
-            <h3 class="text-[#caa193] text-sm font-conthrax leading-tight py-5">
+            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- Can I mix traditional and modern styles in a Dubai apartment?
             </h3>
             <p>
@@ -215,7 +166,7 @@ const VHeroSection = () => {
              with local textures, accents, and you make it possible! 
             </p>
 
-            <h3 class="text-[#caa193] text-sm font-conthrax leading-tight py-5">
+            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
              4- What smart home features are ideal for apartments?
             </h3>
             <p>
@@ -223,7 +174,7 @@ const VHeroSection = () => {
              interior realization and very handy. 
             </p>
 
-             <h3 class="text-[#caa193] text-sm font-conthrax leading-tight py-5">
+             <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
              5- How can I furnish my apartment balcony?
             </h3>
             <p>
