@@ -17,19 +17,19 @@ const blogPosts = [
   },
   {
     title: "6 Interior Design Styles Dubai 2025",
-    date: "Published: 25.05.2025",
+    date: "Published: 23.09.2025",
     excerpt:
       "Explore the top 6 interior design styles of 2025. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
     image: "/images/six-best-interior-design-trends-dubai-2025.png",
     link: "/interior-design-styles-dubai-2025",
   },
   {
-    title: "THE ART OF MARBLE, AS WE",
+    title: "5 Modern Apartment Interior Design",
     date: "Published: 25.05.2025",
     excerpt:
-      "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
-    image: "/images/blog3.webp",
-    link: "/blog3",
+      "Explore the top 6 Interior Design Styles Dubai. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
+    image: "/images/bohemian-boho-interior-design-dubai.png",
+    link: "/modern-apartment-interior-design",
   },
 ];
 
