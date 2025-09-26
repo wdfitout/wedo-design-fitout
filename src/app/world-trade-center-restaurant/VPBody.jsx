@@ -144,7 +144,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+          <p>At World Trade Center Dubai, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">restaurant Interior design Dubai projects</a></b> represents the most high end interior design 
+            services in Dubai. Trusted and known among the leading interior design companies in Dubai, this <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interior and 
+            fitout</a></b> is a blend of  functional layouts, sleek aesthetics and ambient lighting to give your restaurant the best dining 
+            experience.</p>
+
+            <p>Known among the <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">top 10 interior fit out companies in Dubai</a></b>, WE DO Interior Design & Fitout provides excellence 
+              through their premium materials, detailed planning and smooth execution of every step.As one of the best fit out 
+              companies in Dubai, our vision to this restaurant interior project combined the modern concepts with timeless 
+              elegance while ensuring the inviting atmosphere for guests.</p>
+
+            <p>Blending the skills of interior decoration companies in Dubai with the vision of innovative interior design firms in 
+              Dubai, every element of the restaurant—from furniture layout to finishes—has been thoughtfully crafted. Our expertise 
+              in interior fit out Dubai ensures that every corner meets international standards while remaining locally inspired.
+            </p> 
+
+            <p>As one of the top interior fit out companies in World Trade Center with a strong reputation among interior decorators 
+              Dubai, we also extend our design philosophy to homes. With experience in <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">residential interior designers Dubai</a></b> and 
+              residential interior design Dubai, we bring the same level of creativity and precision to every project.
+            </p>
             </div>
           </div>
 

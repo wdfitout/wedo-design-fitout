@@ -143,9 +143,28 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-   
+          <p>At WE DO Interior Design & Fitout, our team specialize in providing customized interior design services in Dubai. Our 
+            skill and expertise as a <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">leading Restaurant interior design and fit out contractor in Dubai</a></b> makes sure that every 
+            project is customized according to one's brand identity and taste, while offering a premium dining atmosphere.
+          </p>
+
+          <p>With 15 years of experience as a provider of professional restaurant design services in Dubai, WEDO delivers complete 
+            <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">interior design solutions for restaurants, cafés, and F&B spaces</a></b>. Among the most trusted Restaurants & Café Interior 
+            Designers in UAE, our team has transformed several spaces into stylish and inviting environments.
+          </p>
+
+          <p>Our recent Restaurant Interior Design Projects in Dubai, including this Business Bay Sah El Nom Express Cafe, 
+            highlight our ability to bring a bespoke restaurant interior design Dubai service. Recognized as a top fit-out company 
+            in Business Bay Dubai, we continue to be among the most reliable interior design companies in Business Bay, Dubai.
+          </p>
+
+          <p>At WE DO, we pride ourselves on being the <b className="text-[#caa193]"><a href="https://share.google/AVmunSa7i8A9KcvFT">best interior design company in Business Bay, Dubai</a></b> , offering restaurant 
+            interior design Dubai stylish F&B spaces. As a trusted interior design and fit-out company serving Business Bay, 
+            we redefine dining spaces that leave lasting impressions.
+          </p>
             </div>
           </div>
+
 
           {/* Image */}
           <figure className="w-full lg:w-1/2">
@@ -180,7 +199,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BUSINESS BAY RESTAURANT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

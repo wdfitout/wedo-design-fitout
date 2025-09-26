@@ -143,7 +143,22 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+           <p>At WE DO Interior Design & Fitout, our team provides luxury design solutions for MBR City, Dubai. Our skills in <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">villa 
+            interior design and fit out services in Dubai</a></b> means that every detail of our design reflects comfort, uniqueness and 
+            sophistication.</p>
+
+            <p>Our latest district 1 MBR city contemporary villa  Interior design project shows our skills in  contemporary villa 
+              interior which is designed by precision and creativity. This MBR City villa interior design project is a blend of 
+              innovation and elegance and completing this project was setting a new benchmark for luxurious modern villa designs 
+              in MBR City.
+            </p>
+            <p>Whether it’s <b className="text-[#caa193]"><a href="https://wedointerior.ae/district-one-contemporary-villa">District One villa interior renovation</a></b>or complete design and build, our team provides tailored 
+              solutions that meet the aspirations of homeowners. Well known for providing the best villa interior design in 
+              Mohammed Bin Rashid City, we specialize in creating bespoke designs that equalize aesthetics and practicality.</p>
+            
+            <p>As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">trusted interior fit-out & villa construction company in Dubai</a></b>, UAE, WE DO ensures seamless project execution 
+              from concept to completion. With a focus on detail, innovation, and craftsmanship, our MBR City villa project stands 
+              as a true expression of premium living.</p>
             </div>
           </div>
 
@@ -180,7 +195,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+         DISTRICT 1 MBR CITY CONTEMPORARY VILLA GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
