@@ -181,7 +181,29 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-      
+          <p> < b className="text-[#caa193]" ><a href="https://wedointerior.ae/palm-jumeirah-6-bedroom-penthouse">The Palm Jumeirah 6 Bedroom Penthouse Project </a></b> 
+            by WE DO Interior Design & Fitout is a true symbol of bespoke luxury Dubai Living in Palm Jumeirah. This luxury penthouse in Palm Jumeirah shows our expertise in creating timeless spaces 
+            which combine elegance, functionality and identity. As one of the leading interior design companies in Palm Jumeirah, 
+            we are skilled in crafting the residential spaces that reflect the aura of iconic destinations of Dubai.
+         </p>
+
+         <p>Our design for this Palm Jumeirah 6 Bedroom Penthouse sets a benchmark for luxury interior design for penthouses in Palm 
+          Jumeirah. From the grand living room interior in Palm Jumeirah to the serene bedroom interior design in Palm Jumeirah, 
+          every element is designed with perfection. The use of modern designs, natural light, and custom finishes transformed 
+          this place into a true expression of sophistication.
+         </p>
+
+         <p>Recognized as the best interior design Dubai company, WE DO Interior brings luxury interior design solutions to life 
+          for clients who expect the finest. Whether it’s penthouse interior design in Dubai or exclusive villas, our projects 
+          embody style and innovation. For homeowners seeking refined living, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse"> 
+           expertise in Palm Jumeirah penthouse interiors</a></b> ensures a one-of-a-kind lifestyle that defines modern luxury.
+        </p>
+
+        <p>Awarded the top interior design Dubai company, WE DO Interior realizes luxury interior design solutions for discerning 
+          clients who demand the best. Whether it's Dubai penthouse interior design or private villas, our work exhibits style and 
+          innovation. For residents looking for sophistication in living, our experience in Palm Jumeirah penthouse interiors gives 
+          a unique lifestyle that epitomizes contemporary luxury.
+        </p>
             </div>
           </div>
 

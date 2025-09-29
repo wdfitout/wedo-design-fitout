@@ -162,7 +162,31 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+           <p>
+                       We have recently completed our Palm Jumeirah Barber Shop Interior Design and fitout Project, in this project we blended 
+                       all the functional and luxury aspects while transforming this  space. As skilled in Barber Shop Interior Design Dubai, 
+                       our team creates unique designs and concepts to enhance user experience and make your brand or business memorable for 
+                       them.
+                     </p>
            
+                     <p>
+                       Our approach to <b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-projects">modern barber shop design</a></b> includes Modern furniture, sleek layouts and refined finishes. Whether it’s 
+                       a cutting-edge grooming station or stylish waiting areas, WEDO interior design and fitout ensure every detail directly 
+                       improves customer experience.Being among the top barber shop interior designers in Dubai, we deliver complete Barber 
+                       Shop Interior Design Services in Dubai from planning and 3D visualization to execution and finishing.
+                     </p>
+           
+                     <p>
+                       This project showcases why we are trusted for <b className="text-[#caa193]"><a href="https://wedointerior.ae/beauty-salon-interior-design-dubai">modern barber shop interior design Dubai</a></b>, blending sophistication with 
+                       practicality. As one of the Best barber shop interior design Dubai firms, we focus on delivering interiors that stand 
+                       out in both aesthetics and functionality.
+                     </p>
+           
+                     <p>
+                       Located in the heart of luxury, this barber shop Palm Jumeirah reflects our expertise in crafting spaces that define 
+                       style and comfort. Explore more about this project on our Palm Jumeirah Barber Shop page and discover why we’re the 
+                       choice for Barber Interior Design in Dubai, UAE.
+                     </p>
             </div>
           </div>
 

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Damac Hills 3 Bedroom Townhouse | We Do Interior",
+  title: "Damac Hills 3 Bedroom Townhouse Interior Design",
   description:
-    "Damac hills 3 bedroom townhouse interior design Dubai",
+    "Explore our Damac Hills 3 Bedroom Townhouse Interior Design project, where bespoke interiors, 3D planning & luxury finishes define Dubai living.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/damac-hills-3-bedroom-townhouse',

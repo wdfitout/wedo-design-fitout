@@ -3,7 +3,7 @@ import '../globals.css';
 export const metadata = {
   title: "Palm Jumeirah Barber Shop | We Do Interior Design & Fit Out",
   description:
-    "Palm jumeirah barber shop interior design Dubai",
+    "Explore our Palm Jumeirah Barber Shop Interior project,modern barber shop interior design Dubai with stylish spaces, luxury fit-out & refined details",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/palm-jumeirah-barber-shop',

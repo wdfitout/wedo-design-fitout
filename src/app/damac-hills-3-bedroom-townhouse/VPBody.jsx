@@ -126,8 +126,30 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>
+            At <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">WE DO Interior Design & Fit Out is transforming homes</a></b> with their skills of Interior Design and Decor in Damac Hills, 
+            Dubai. We completed our latest project of Damac Hills 3 Bedroom Townhouse and this project is a live example of how 
+            functionality,style and comfort can be combined to create beautiful and practical spaces in UAE.  As one of the Best 
+            Luxury Interior Designers in Damac Hills, we focus on delivering customized services for each project to each client.
+          </p>
+
+
+          <p>
+            From beginning to ending, our team offers complete Luxury Interior Design Solutions which includes bespoke interior 
+            solutions, installation, finishing and 3D planning. Whether you are looking for inspiration or practical Damac Hills 
+            Townhouse Interior Design Ideas, our expertise ensures timeless elegance and modern living.</p>
+          <p>
+            As one of the top Interior Designers in Damac Hills, we pride ourselves on being the Best Townhouse Interior Design 
+            Company in Dubai, trusted for innovation and detail. Our Dubai Best Townhouse Interior Design Services in DAMAC Hills 
+            are designed for homeowners seeking sophistication with functionality.</p>
+
+          <p>
+            With every project, including this <b className="text-[#caa193]"><a href="https://wedointerior.ae/arabella-2-bedroom-townhouse">beautiful Townhouse Interior Design</a></b>, we aim to set new benchmarks in design 
+            excellence. Discover more about our work on our Damac Hills 3 Bedroom Townhouse project and see why we are among 
+            Dubai’s most trusted names in interior design.
+          </p>
             </div>
+
           </div>
 
           {/* Image */}
@@ -163,7 +185,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          DAMAC HILLS 3 BEDROOM TOWNHOUSE INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
