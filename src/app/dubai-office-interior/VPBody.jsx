@@ -143,7 +143,30 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>
+            WE DO Interior Design & Fitout specializes in creating <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">best Office Interior Design in Dubai and UAE</a></b> by blending style, 
+            innovation and functionality. Our Team creates and provides modern office designs in Dubai according to the specific 
+            requirements of clients and their brand while enhancing the productivity and comfort of their business.  With our 
+            expertise in design and fit-out services in Dubai, we bring life to spaces with our bespoke services.
+          </p>
+
+          <p>
+            Recognized as a top interior design company in Dubai, we provide complete solutions as one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">top interior design 
+            & office fit-out companies in Dubai & UAE</a></b>. From concept to completion, our interior design & fit out services focus on 
+            creating inspiring workplaces that encourage collaboration and efficiency.
+          </p>
+
+          <p>
+            As leading <b className="text-[#caa193]"><a href="https://wedointerior.ae/">modern office interior designers in Dubai</a></b>, we offer innovative layouts and aesthetics for every project. 
+            Whether you need office interior design Dubai solutions or modern office interior Dubai concepts, our team ensures 
+            every detail aligns with your goals.
+          </p>
+
+          <p>
+            We specialize in office design & fit-out UAE, providing premium office design & commercial fit-out in Dubai for 
+            businesses seeking unique workspaces. Trust WE DO for interior design and fit-out services for office workspace 
+            that deliver excellence, innovation, and timeless style.
+          </p>
             </div>
           </div>
 
