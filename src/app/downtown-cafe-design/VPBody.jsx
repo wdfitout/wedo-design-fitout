@@ -138,7 +138,23 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>We at  WE DO Interior Design & Fitout are so proud to showcase our latest Downtown Café Design project near Dubai Mall. 
+            As one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">best café interior design service companies in Dubai</a></b>, our team specialize in creating the restaurant and 
+            cafe interiors that smoothly merge the style, comfort and functionality</p>
+
+            <p>This project reflects our expertise in café interior design and fit-out services in Dubai in which every detail is 
+              focused in such a way to enhance the customer experience and ambiance of the cafe.  Whether for a coffee shop, small 
+              café, or large hospitality venue, our team of interior designers deliver services that enhance the dining experience 
+              and attract more visitors.
+           </p>
+
+           <p>As a most reliable café interior design & fit-out contractor in Dubai with 15 years of experience, we provide all 
+            services from consultation to execution and then finishing.Our work in <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interiors in Dubai & UAE</a></b> emphasizes 
+            creativity, efficiency, and a unique brand identity.</p>
+
+            <p>With this Downtown café design, WE DO has redefined what it means to create hospitality spaces that stand out in one 
+              of Dubai’s most iconic destinations. Choose the premier café interior design company in the UAE for your next project.
+            </p>
             </div>
           </div>
 
@@ -175,7 +191,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+         DOWNTOWN CAFE DESIGN GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

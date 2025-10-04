@@ -143,7 +143,27 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-         
+          <p>WE DO Interior Design & Fitout has recently completed a beautiful City Walk <b className="text-[#caa193]"><a href="https://wedointerior.ae/dubai-creek-2-bedroom-apartment">2 Bedroom Apartment project in Dubai</a></b>  that 
+            clearly shows our commitment to excellence and functionality. As one of the best interior design companies in Dubai, 
+            our team is expert enough to transform the spaces like apartments and other residences into timeless elegance.
+          </p>
+
+          <p>This two-bedroom <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment design in Dubai</a></b> is a combination of modern lifestyle with practical designs and layouts 
+            and our team ensured that every corner and element of this apartment participates in both style and purpose. From 
+            living areas to cozy bedrooms, our team of interior designers craft the interiors that reflect the urban living 
+            style of City Walk residences. Whether it’s a full apartment renovation or customized interior design consultancy, 
+            WEDO delivers solutions that meet the highest design and fit-out standards.
+          </p>
+
+          <p>As trusted interior design contractors in Dubai, we manage all the steps from concept to completion, focusing on high 
+            end finishes and smart layouts according to Dubai living. Our approach to residential home design and fit-out in City 
+            Walk Dubai makes sure that each project indicates the unique lifestyle of our beloved clients.
+          </p>
+
+          <p>
+            If you’re looking to revolutionize your interiors, explore our expertise in City Walk renovation & design services. 
+            Discover how our 2 bedroom <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">apartment projects in Dubai</a></b> enhance modern living—visit City Walk Apartment Renovation.
+          </p>
             </div>
           </div>
 
@@ -180,7 +200,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          CITY WALK 2 BEDROOM APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
