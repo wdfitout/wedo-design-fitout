@@ -143,7 +143,24 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+          <p>The Al Wasl <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">Apartment project by WE DO Interior Design & Fitout</a></b> shows our great craftsmanship which perfectly matches 
+            the modern lifestyle of Dubai. Our approach to interior design in Dubai is about transforming the apartments into modern 
+            and luxurious spaces which reflect the individual taste and lifestyle of each client. Every element of this apartment 
+            interior design, from layout to materials was so carefully selected just to blend aesthetics and comfort.</p>
           
+          <p>Our team specializes in architecture & interior design Dubai and we also offer <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">villa renovation design in Al Wasl </a></b>and 
+            modern apartment design services according to each client. As a reliable interior design company in Dubai, we design 
+            the interiors that enhance the space while maintaining its aesthetic looks.</p>
+
+          <p>From commercial interior design in Dubai to residential interior design, WEDO stands with the top 10 interior fit out 
+            companies in Dubai who are offering design and interior fit-out services. As a leading interior design contractor in 
+            Dubai, we ensure high-quality execution and attention to every detail.
+          </p>
+
+          <p>If you’re seeking the <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">best apartment interior design service company </a></b>that transforms spaces with creativity and 
+            precision, WE DO Interior Design & Fitout is your ideal partner. Explore our Al Wasl Apartment project and discover 
+            how we redefine interior design in Dubai with style and sophistication.
+          </p>
             </div>
           </div>
 
@@ -180,7 +197,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+         AL WASL APARTMENT INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

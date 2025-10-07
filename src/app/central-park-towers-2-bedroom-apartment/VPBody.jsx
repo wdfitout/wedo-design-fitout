@@ -129,7 +129,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            CENTRAL PARK 2 BEDROOM APARTMENT
+            CENTRAL PARK TOWERS 2 BEDROOM APARTMENT
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -143,7 +143,23 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+          <p>At WE DO Interior Design & Fitout, we are proud to showcase our latest <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">apartment Interior Design project</a></b> , the Central Park Towers 2 Bedroom 
+            Apartment, an elegant reflection of contemporary living and functional design. As a top interior design company in 
+            Dubai, we specialize in creating spaces that embody comfort, sophistication, and timeless style.
+          </p>
+
+          <p>This <b className="text-[#caa193]"><a href="https://wedointerior.ae/city-walk-2-bedroom-apartment">two-bedroom apartment design in Dubai</a></b> blends modern aesthetics with practical layouts, ensuring each room 
+            complements the client’s lifestyle. From the living area to the bedroom interior design in Dubai, our team focused on 
+            maximizing space, natural light, and elegant finishes to achieve a refined yet homely ambiance.
+          </p>
+
+          <p>As a leading interior design and fit-out company in Dubai, we provided <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">turn-key apartment interior design in Dubai, UAE</a></b>, 
+            delivering a seamless experience from concept to completion. The project highlights why we are recognized among the top 10 
+            interior design companies in Dubai — with our meticulous attention to detail and creativity setting new benchmarks in residential
+           interiors.</p>
+
+           <p>For anyone seeking a bedroom interior design company in Dubai or a full two-bedroom apartment/duplex design, Central 
+            Park Towers 2 Bedroom Apartment stands as a true example of our top-notch craftsmanship and design excellence.</p>
             </div>
           </div>
 
@@ -180,7 +196,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+         CENTRAL PARK TOWERS 2 BEDROOM APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

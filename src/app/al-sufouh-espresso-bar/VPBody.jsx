@@ -106,7 +106,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY DINING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            AL SUGOUH ESPRESSO BAR
+            AL SUFOUH ESPRESSO BAR
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -120,7 +120,23 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-           
+           <p>At WE DO Interior Design & Fitout, our team is so proud to present our latest project named AL SUFOUH ESPRESSO BAR, 
+            this project is a true reflection of <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">modern commercial interior design in Dubai</a></b>. This Bar Project in Dubai shows our 
+            skills as the best interior design company in Dubai in which every element is crafted to create an inviting environment.
+           </p>
+
+           <p>The bar interior design Dubai is a modern  yet cozy aesthetic project that blends sleek finishes,warm lighting and 
+            comfortable seating that enhance the overall guest experience. As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/">trusted interior design & fit-out company in Dubai</a></b>, 
+            we focus on creating the spaces that are appealing as well as functional.</p>
+
+            <p>Our devoted and expert team delivered a bespoke concept which is customized according to one’s brand identity. From 
+              initial to final stage, each detail of this luxury interior design in the Al Sufouh Espresso Bar project highlights 
+              our dedication and perfection of work.</p>
+            
+            <p>
+              For businesses seeking top-notch interior design services in Dubai, AL SUFOUH ESPRESSO BAR stands as a true reflection 
+              of our creativity and commitment to exceptional <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">Cafe interior design in Al Sufouh, Dubai</a></b> .
+            </p>
             </div>
           </div>
 
@@ -157,7 +173,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          AL SUFOUH ESPRESSO BAR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
