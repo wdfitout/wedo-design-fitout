@@ -143,7 +143,27 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>The three-bedroom apartment Bulgari situated on Jumeirah Bay Island personifies an ideal combination of lavishness, 
+            elegance and comfort. At WE DO Interior Design & Fitout We craft unique apartment interiors in Dubai that redefine 
+            contemporary living. This Dubai luxury Bulgari apartment reflects eternal beauty through custom finishes, elegant 
+            materials and carefully crafted spaces that emphasize the essence of luxury homes in Dubai.</p>
+
+            <p>Our design strategy for <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai"> apartment interior design in Bulgari Dubai</a></b> is based on the provision of smooth flow throughout all 
+              three bedrooms, living and open areas. Each design feature contributes to the lighting and water frontage views, 
+              imparting calmness and elegance to every corner. As a leading apartment renovation company in Dubai, WEDO takes 
+              care that each aspect from idea to finish attains the highest levels of craftsmanship.</p>
+
+            <p>This <b className="text-[#caa193]"><a href="https://wedointerior.ae/address-skyview-3-bedroom-apartment">Dubai three-bedroom apartment design</a></b> reflects our dedication to excellence in luxury interiors  where modern 
+              style harmonizes with functional beauty. Whether renovation or new concept, our Bulgari apartment interior design 
+              expertise in Dubai redefines spaces into sophisticated havens.
+
+            </p>
+
+            <p>Select WEDO Interior Design & Fitout to deliver your Bulgari 3-bedroom apartment dream in style, accuracy, and 
+              eternal elegance.
+            </p>
+
+
             </div>
           </div>
 
@@ -180,7 +200,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BULGARI 3 BEDROOM APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

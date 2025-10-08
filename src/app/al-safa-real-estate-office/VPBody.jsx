@@ -143,7 +143,22 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-         
+           <p>The Al Safa Real Estate <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">Office interior design by WE DO Interior Design & Fitout</a></b> reflects a perfect balance of functionality, modern 
+            aesthetics and brand identity. As one of the top-rated interior fit out companies in Al Safa Dubai . Our goal was to create a 
+            workspace that enhances productivity while presenting a sophisticated image suited to the real estate industry.</p>
+
+            <p>Our expert team specializes in office interior design in Dubai, delivering complete interior design services, 
+            <b className="text-[#caa193]"><a href="https://wedointerior.ae/joinery-company-dubai">interior decoration and joinery solutions</a></b> tailored to each client’s needs. From concept development and space 
+              planning to furniture selection and execution every detail in this Al Safa Real Estate Office was carefully 
+              designed with precision and creativity.</p>
+
+            <p>Recognized as a <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">top interior fit out company in Dubai</a></b>, WEDO ensures that every project combines efficiency with 
+              style. The real estate office interior design features a clean layout, contemporary finishes and premium materials 
+              creating a welcoming yet professional environment for both employees and clients.
+            </p>
+
+            <p>Trust WEDO Interior Design & Fitout your reliable interior design and fit-out experts in Dubai to transform your 
+              office space into a modern, elegant and inspiring workplace just like the Al Safa Real Estate Office.</p>
             </div>
           </div>
 
@@ -180,7 +195,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+          AL SAFA REAL STATE OFFICE GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

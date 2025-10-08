@@ -143,7 +143,27 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-            
+            <p>
+            WEDO Interior Design & Fitout bring modernization and innovation to Al Wasl clothing store developments crafting 
+            unique, tailor-made retail environments that attract customers. Our skilled design team are retail interior design 
+            in Dubai designing trendy, customer-focused environments that extend brand identity. 
+           </p>
+
+           <p>Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/boutique-interior-design-dubai">interior design expertise in clothing stores in Dubai</a></b> merges contemporary style with functional layouts so that 
+            every aspect — from shelving and lighting to fitting areas — is well-designed. Whether a modern fashion boutique 
+            interior design or a large-scale shop interior design in Dubai, we customize our approach to complement your store's 
+            vision and target audience.</p>
+
+            <p>
+            We also offer complete interior designs & fitouts in Al Wasl, from design to completion with precision and finer 
+            craftsmanship. As leading interior fit out specialists in Al Wasl, Dubai, WEDO guarantees beautiful outcomes that 
+            embody luxury, brand expression, and sophistication.
+            </p>
+
+            <p>Choose WE DO Interior Design & Fitout, your <b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-projects">trusted retail interior design company in Dubai</a></b>, to re-imagine your Al 
+              Wasl apparel store as a beautiful retail experience that exemplifies luxury, elegance, and brand image.
+            </p>
+
             </div>
           </div>
 
@@ -180,7 +200,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+      AL WASL CLOTHING STORE GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
