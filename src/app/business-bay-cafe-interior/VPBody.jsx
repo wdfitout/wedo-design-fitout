@@ -131,7 +131,24 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+          <p>The Business Bay <b className="text-[#caa193]"><a href="https://wedointerior.ae/al-quoz-cafe-interior">Cafe Interior by WE DO Interior Design & Fitout</a></b> is an exemplary fusion of style, functionality, and 
+            ambiance. Conceived to reflect the vibrant energy of Business Bay, our café project represents a prime example of how 
+            welcoming spaces can be crafted that elevate the customer experience while supporting brand identity.</p>
+           
+          <p>Being the <b className="text-[#caa193]"><a href="https://wedointerior.ae/">best interior design company in Business Bay, Dubai</a></b>, we are an expert café interior design Dubai that is 
+            focused on combining style with comfort. Each detail  from layout to lighting was carefully selected by our expert 
+            café interior designers to create a cozy environment perfect for relaxation and socialization.
+          </p>
+
+          <p>Our café interior design, Business Bay Dubai project showcases our creative solution to F&B spaces. Recognized as one 
+            of the top interior design companies in Business Bay, WE DO offers end to end design and fit-out solutions that 
+            transform concepts into realities with accuracy and imagination.</p>
+
+          <p>Whether you want to launch a <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai"> coffee shop design project or revamp your restaurant</a></b>, our Business Bay, Dubai café 
+            interior design company guarantees excellence in every step. Discover more of our restaurant and café interior 
+            design Dubai projects and learn how WE DO turn cafés into signature venues throughout Dubai.</p>
+          
+
             </div>
           </div>
 
@@ -168,7 +185,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+        BUSINESS BAY CAFE INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

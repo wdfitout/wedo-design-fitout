@@ -102,7 +102,7 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; PROJECTS &gt; ARABELLA 3 BEDROOM PENTHOUSE
+        HOME &gt; PROJECTS &gt; ARABELLA 2 BEDROOM TOWNHOUSE
       </p>
 
       {/* Heading + Paragraph + Image */}
@@ -124,7 +124,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            ARABELLA 2 BEDROOM PENTHOUSE
+            ARABELLA 2 BEDROOM TOWNHOUSE
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -138,8 +138,26 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>The Arabella 2 Bedroom <b className="text-[#caa193]"><a href="https://wedointerior.ae/marina-gate-penthouse">townhouse development by WEDO Interior Design & Fitout</a></b> captures the essence of luxury penthouse 
+            interior design in Dubai. Our specialist Dubai interior designers designed this home with a sophisticated combination of 
+            contemporary elegance and practical refinement encapsulating the definition of luxury living.
+          </p>
+
+          <p>From the first architectural interior design stage to the last fitout work on Arabella 2 bedroom townhouse, each aspect 
+            was carefully designed to enhance comfort and beauty. Being a leading interior design firm in Arabella, our aim was to 
+            optimize space without losing the continuity between rooms so that each nook has an air of exclusivity and glamour.</p>
+
+          <p>Our modern Dubai interior design townhouse services involve custom furniture, premium finishes, and lighting ideas that 
+            produce a warm, yet luxurious atmosphere. This project demonstrates our knowledge as an Arabella 2 bedroom penthouse 
+            luxury interior designer with focus on detail, harmony, and classic design.</p>
+            <p>At WE DO, we are proud to be known for providing the best interior design in Arabella 2 bedroom penthouse, providing 
+            end-to-end luxury penthouse interior design & fit-out services in Dubai. Learn more about our Arabella <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">interior design 
+            projects</a></b> and live the true art of luxury living in Dubai.</p>
             </div>
+          
+          
+          
+
           </div>
 
           {/* Image */}
@@ -175,7 +193,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+         ARABELLA 2 BEDROOM TOWNHOUSE GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

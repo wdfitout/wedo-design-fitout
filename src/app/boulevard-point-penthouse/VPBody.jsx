@@ -144,8 +144,24 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-           
-            </div>
+           <p>The boulevard point penthouse initiative by WEDO Interior Design & Fitout embodies the pinnacle of opulence and style 
+            in the center of Downtown Dubai. Our skilled interior designers in Dubai have designed this area with an ideal mix of 
+            contemporary , sophistication and coziness. WEDO Interior Design provides an unparalleled living experience.</p>
+
+            <p>This <b className="text-[#caa193]"><a href="https://wedointerior.ae/ii-primo-penthouse">Dubai luxury penthouse interior design project</a></b> highlights exquisite materials, custom made furnishings and 
+              upscale finishes that demonstrate our dedication to ageless design. From inception to realization, our fitout work 
+              for Boulevard Point, Dubai maintained accuracy, meticulous attention to detail and exceptional craftsmanship throughout all phases.</p>
+          
+          <p>As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/">leading interior design company in Boulevard Point</a></b>, WE DO is dedicated to developing environments that are both 
+            practical and visually appealing. Our modern penthouse interior design services in Dubai are customized to accommodate 
+            unique lifestyles while enhancing the overall aesthetic attractiveness of luxurious living.</p> 
+
+          <p>Our luxury interior design solutions in Boulevard Point and best interior design options emphasize creativity, 
+            ingenuity, and excellence in every aspect. Discover how WE DO reshape environments with their luxury penthouse 
+            interior design and <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">fit-out expertise in Dubai</a></b> by checking our portfolio and understanding why our penthouse interior 
+            design Dubai projects  exemplify elegance at its highest level.
+          </p>
+   </div>
           </div>
 
           {/* Image */}

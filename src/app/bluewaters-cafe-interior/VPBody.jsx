@@ -143,7 +143,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-         
+          <p>Bluewaters Café <b className="text-[#caa193]"><a href="https://wedointerior.ae/">Interior by WE DO Interior Design & Fitout</a></b> has the perfect combination of creativity, functionality, 
+            and prestige design.Situated in the center of Bluewaters Island, the café fosters a modern yet inviting environment 
+            that aligns with the evolving café scene in Dubai and the Top café interior design trends for 2025.
+          </p>
+
+          <p>Our skilled designers have developed a Luxury interior design approach that enhances the customer experience while 
+            maintaining the essence of the brand.From furniture placement and lighting to material and finish, everything was 
+            attentively selected to craftsmanship  impeccable coordination of sophistication and comfort.</p>
+          
+          <p>Being a leading fit out contractor in Dubai, WEDO Interior Design & Fitout concentrate on commercial fitout solutions 
+            in Bluewaters, offering <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">complete F&B interior designs for coffee shops, restaurants, and cafes</a></b>. This Bluewaters F&B 
+            interior project is a proof of our focus on delivering luxury designs that are equally style, practicality and brand 
+            focused.</p>
+          
+          <p>Whether you're opening a new café or redeveloping an existing one, our prestigious interior design experience at Dubai 
+            Bluewaters makes us your perfect business partner for your next venture.</p>
+          
+          <p>Visit the complete project and find out why WE DO is among the <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">
+          Top café and coffee shop design companies in Dubai, UAE.</a></b></p>
             </div>
           </div>
 
@@ -180,7 +198,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BLUEWATERS CAFE INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

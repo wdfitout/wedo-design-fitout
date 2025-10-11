@@ -162,7 +162,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>WE DO Interior Design & Fitout's <b><a href="https://wedointerior.ae/boutique-interior-design-dubai">Umm Suqeim Boutique Interior Design</a></b> is a change of approach and style that embodies 
+            the essence of modern luxury through tailored design approaches which embody the character of innovative imagination 
+            and sophistication. As one of the top interior design firms in Umm Suqeim, we pride ourselves in creating boutique-like 
+            settings that combine functionality with aesthetic beauty.</p>
+
+          <p>Our experts who are among the best interior designers in Umm Suqeim aim to offer personalized interiors that raise the 
+            bar on brand experience and consumer experience. WE DO is renowned as a boutique interior design studio in Dubai for 
+            its unique approach to every project, where every detail tells a story of craftsmanship and innovation.</p>
+          
+          <p>Being a <b><a href="https://wedointerior.ae/retail-projects">retail interior design company in Dubai UAE</a></b>, we provide unparalleled retail interior design Dubai solutions 
+            that make businesses stand out. Having a reputation as one of the top interior contracting companies in Dubai and 
+            being ranked in the top 10 interior fit out companies in Dubai we do it all from concept to completion.
+         </p>
+
+         <p>Our commitment to excellence makes us one of the <b><a href="https://wedointerior.ae/fit-out-company-dubai">best fit out companies in Dubai</a></b> and trusted interior decoration 
+          companies in Dubai. Experience the excellence of design with WE DO's Umm Suqeim boutique interior design, where luxury 
+          meets creativity.</p>
+
+
             </div>
           </div>
 

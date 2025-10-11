@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Umm Suqeim Boutique | We Do Interior Design & Fit Out",
+  title: "Umm Suqeim Boutique Interior Design & Fit Out",
   description:
-    "Umm suqeim boutique interior design, Dubai",
+    "We at WEDO, specialise in retail interior design for clients and businesses. This Umm Suqeim Boutique Interior Design showacases our skills. Contact Us.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/umm-suqeim-boutique',
