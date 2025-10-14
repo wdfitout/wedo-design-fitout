@@ -137,9 +137,20 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-             
-             
-             
+           <p>WE DO Interior Design & Fitout, feel proud in presenting our latest project, the <b className="text-[#caa193]"><a href="https://wedointerior.ae/address-beach-resort-apartment">Address Sky View 3-Bedroom Apartment </a></b>
+            in Downtown Dubai. WE DO is well known among the top interior design and office fit-out companies in Dubai & UAE, our 
+            professional interior designers offer a personalized interior design and build service that merge comfort, innovation, 
+            and modern designs.
+           </p>
+           <p>WE DO deliver the <b className="text-[#caa193]"> <a href="https://wedointerior.ae/bulgari-3-bedroom-apartment">best designs to three-bedroom apartment design in Dubai</a></b> that tells the story of a modern but 
+            functional living, showcasing the sophistication and innovative approach of The Address Residence Sky View Towers 
+            Apartments. Our expert and professional designers give detailed attention to a balanced design and layouts through 
+            high-end materials, personalized finishing and flawless completion that elevate both the modernity and innovative aspects of urban living.</p>
+           
+           <p>We are <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">experts in apartment interior design in Dubai</a></b>. WE DO enhance each corner of this residence to deliver elegant 
+            and luxury designs, from the aesthetic living area to the comfortable bedrooms and functional kitchen. For those looking 
+            for  an apartment renovation company in Dubai, our specialization makes sure that each space we create stands out for 
+            its premium materials and personalized touch.</p>
             </div>
           </div>
 
@@ -176,7 +187,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          ADDRESS SKY VIEW 3 BEDROOM APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -124,7 +124,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY LIVING:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            VILLA INTERIOR DESIGN SERVICES
+            DUBAI MALL RESTAURANT INTERIOR
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -138,7 +138,23 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
+          <p>WE DO Interior Design & Fitout's Dubai Mall Restaurant project showcases the beauty of a modern dining concept in 
+            Dubai, fusing sophistication, comfort and functionality. Located in the center of Downtown Dubai, this project showcases 
+            our experience as a <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">leading F&B interior design and build company in Dubai </a></b>recognized for its ability to design and 
+            build extraordinary restaurant spaces that create an unforgettable experience.
+        </p>
+        <p>Our team of <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">professional restaurant and café interior designers in the UAE</a></b> created this area in a way that created a 
+          perfect balance between contemporary looks and a friendly ambiance. Being one of the top interior design companies in 
+          Dubai, we offered end-to-end fit-out services for the restaurant close to Dubai Mall, from developing the idea and 
+          planning the space to execution and finishing.
+      </p>
+
+      <p>This <b className="text-[#caa193]"><a href="https://wedointerior.ae/downtown-dubai-restaurant">Dubai Mall vicinity restaurant interior design</a></b>  is characterized by refined textures, warm lighting and fashionable 
+        seating that dress up the dining experience. Known for professional restaurant design services in Dubai, WE DO is dedicated 
+        to delivering each project with beauty and functionality.</p>
       
+      <p>With our talented team of interior designers in Dubai near to Dubai Mall, WE DO Interior Design & Fitout continues to 
+        redefine hospitality design. Discover the complete project below:</p>
             </div>
           </div>
 
@@ -175,7 +191,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+           DUBAI MALL RESTAURANT INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Dubai Restaurant Interior Fit Out | We Do Interior",
+  title: "Dubai Restaurant Interior Fit Out Project",
   description:
-    "Dubai restaurant interior fit out",
+    "Dubai Restaurant Interior Fit Out services by WEDO.The leading restaurant interior design company in Dubai, United Arab Emirates.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/dubai-restaurant-interior-fit-out',

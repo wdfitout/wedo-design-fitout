@@ -144,7 +144,23 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
              
-            
+            <p>WE DO Interior Design & Fitout's <b className="text-[#caa193]"><a href="https://wedointerior.ae/address-beach-resort-apartment">Address Beach Resort Apartment project</a></b> is a smooth fusion of luxury, comfort and 
+                        contemporary design. Situated in the core of JBR  The Address Beach Resort, our modern apartment project reflects our 
+                        commitment to delivering classic and elegant interiors designed in synchronism with the lifestyle of Dubai's elite 
+                        residents.
+                       </p>  
+                       <p>Being <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">one of the best interior fit-out companies in Dubai</a></b>, our team provided a full apartment interior design and 
+                        fit-out that embodies the luxury and sophistication of beachfront living. Each aspect of this Address Beach Resort 
+                        Apartment from the one-of-a-kind furniture and premium finishes to the sophisticated lighting and planning was 
+                        meticulously designed to maximize both beauty and functionality.
+                      </p>  
+                      <p>Recognized among Dubai residential interior design, WE DO specializes in providing customized design solutions that 
+                        express every client's uniqueness. Our Dubai residential interior designers ensure that each project exudes luxury 
+                        and innovation.</p>
+                      
+                      <p>This <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">Dubai luxury apartment interior fitout</a></b> is an ideal representation of our capabilities in taking spaces and turning 
+                        them into outstanding living environments. Learn more about the best apartment design at Address Beach Resort Apartment 
+                        on our website</p>
              
              
             </div>

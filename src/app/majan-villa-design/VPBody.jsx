@@ -162,7 +162,25 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-     
+           <p>The Majan Villa Design by WE DO Interior Design & Fitout reflect the perfect combination of creativity,style and 
+            practically. As a leading Majan villa interior design company in Dubai, we are experts in creating an elegant 
+            environment that shows style,comfort and sophistication.</p>
+
+            <p>Our professional team of interior design consultants in Dubai ensure that every project is perfectly executed and 
+              delivers premium results that redefine luxury lifestyle.</p>
+            
+            <p>This project showcases our efficiency in bespoke villa interior design in Dubai where every aspect from concept to 
+              completion is customized to clients requirements. Our luxury villa interior design in Dubai concentrates on a 
+              sophisticated environment, high quality material and premium finishes making us one of the best luxury interior 
+              designers in Majan.</p>
+            
+            <p>At WEDO interior design & fitout we ranked as the  UAE’s No. 1 interior design company in Dubai,providing complete  
+              villa interior design Dubai and fit-out services all in one location.</p>
+            
+            <p>Whether it's a modern makeover or a luxury villas design project, our designs turn ideas into reality with 
+              sophistication and skill.Experience the luxury of living through our Majan villa interior design in Dubai, where 
+              design meet perfection
+            </p>
             </div>
           </div>
 

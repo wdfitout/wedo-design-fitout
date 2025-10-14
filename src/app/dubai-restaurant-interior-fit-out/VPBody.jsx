@@ -143,7 +143,22 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-        
+          <p>WE DO Interior Design & Fitout's Dubai Restaurant Interior Fit Out is an example of our ability to design wonderful 
+            dining areas that are as functional as they are comfortable and pleasing to the eye. As one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">leading restaurant 
+            fit-out companies</a></b> and Dubai contractors, we have specialized in providing bespoke restaurant fitout service in Dubai 
+            that tells its own unique story for every brand.
+          </p>
+
+          <p>Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">UAE-based expert restaurant interior designers</a></b> ensured that each aspect of this project from spatial planning to 
+            material choice and lighting  was carefully designed to produce an atmosphere that is warm and welcoming. As a trusted 
+            restaurant interior design and fit-out contractor in Dubai, we offer turnkey restaurant fit-out services overseeing 
+            every phase of the process from initial concept to final delivery.
+         </p>
+
+         <p>This initiative showcases our capability to combine creative design with workable solutions, making it easy for 
+          restaurant owners to operate. WE DO remains one of the top restaurant interior design companies in Dubai, 
+          continually setting standards in restaurant interior fitout in Dubai, providing full restaurants & cafés 
+          fitout services that enhance the culinary experience.</p>
             </div>
           </div>
 
@@ -180,7 +195,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          DUBAI INTERIOR DESIGN GALLERY
+         DUBAI RESTAURANT INTERIOR FIT OUT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Address Skyview, Dubai, 3 Bedroom Apartment interior design | We Do Interior",
+  title: "Address Skyview 3 Bedroom Apartment Interior Design Dubai ",
   description:
-    "Address Skyview, Dubai, 3 bedroom apartment interior design",
+    "Explore our Address Skyview 3 Bedroom Apartment Interior Design Dubai Project that highlights our skills in interior design and fitout. Contact Us.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/address-skyview-3-bedroom-apartment',
+    canonical: '/address-skyview-3-bedroom-apartment', 
   },
 };
 

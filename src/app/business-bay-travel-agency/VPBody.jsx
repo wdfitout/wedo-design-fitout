@@ -143,8 +143,24 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-       
+           <p>Project of the Business Bay Travel Agency by WE DO Interior Design & Fitout is a reflection of modernity, innovative 
+            and unique creativity. Renowned among the top interior design companies in Business Bay, our professional team redefined 
+            elegant workspace into a welcoming and inspiring environment for both staff and clients.
+           </p>
+
+           <p>We are the <b className="text-[#caa193]"><a href="https://wedointerior.ae/">best interior design company in Business Bay, Dubai</a></b>, we are experts in providing commercial interior design 
+            in Dubai that elevates personality and lifestyle. This travel agency showcases premium finishes, personalized furniture, 
+            and creative space styling making it an excellent workplace.</p>
+          
+          <p>As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">top fit-out company in Business Bay Dubai</a></b>, WE DO offers turnkey interior solutions, from idea development to 
+            flawless execution making sure a best experience. We stand out as a reliable interior fitout company in Dubai that is 
+            built on premium quality, exclusive designing and on-time delivery </p>
+
+          <p>Through this <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design in Business Bay</a></b>, we continue to set new standards for fitout companies in Dubai, 
+            blending functional design with high-end quality. Discover how WE DO transforms commercial spaces with sophistication 
+            and precision by visiting our Business Bay Travel Agency project page</p>
             </div>
+          
           </div>
 
           {/* Image */}
@@ -180,7 +196,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          BUSINESS BAY TRAVEL AGENCY GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

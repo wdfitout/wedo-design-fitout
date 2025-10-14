@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Business Bay Travel Agency Design Dubai | We Do Interior",
+  title: "Business Bay Travel Agency Interior Design Project",
   description:
-    "Business bay travel agency interior design Dubai",
+    " Browse Business bay travel agency interior design. Top interior fitout company in business bay offering designs, renovations & premium fitout solutions.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/business-bay-travel-agency',
