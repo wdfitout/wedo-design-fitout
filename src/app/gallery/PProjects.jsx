@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const projects = [
     {
-    img: "/images/prph (10).png",
+    img: "/images/primo-sitting.jpg",
     alt: "Apartment Interior Design",
     title: "ii PRIMO PENTHOUSE",
     href: "/ii-primo-penthouse",

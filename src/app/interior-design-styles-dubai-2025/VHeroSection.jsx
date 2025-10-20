@@ -5,7 +5,7 @@ const VHeroSection = () => {
     {
       title: "New Hotel Interior Ideas To Make Your Hotel Spaces Luxury",
       age: "4 years ago",
-      image: "/images/high-rise-dubai-marina-apartment-interior-design-dubai.png", // Replace with actual path
+      image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png", // Replace with actual path
     },
     {
       title: "Best Kids Room Interior Design Ideas | Tips To Decorate Your Kids Room",

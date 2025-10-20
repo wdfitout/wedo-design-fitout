@@ -6,59 +6,292 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/prph (1).png",
+    src: "/images/01-living-01.jpg",
     alt: "Elegant villa living room with ambient lighting",
     title: "Villa Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
-    src: "/images/prph (2).png",
+    src: "/images/01-living-02.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
     {
-    src: "/images/prph (3).png",
+    src: "/images/01-living-03.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
   {
-    src: "/images/prph (4).png",
+    src: "/images/01-living-04.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
     {
-    src: "/images/prph (5).png",
+    src: "/images/01-living-05.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
     {
-    src: "/images/prph (6).png",
+    src: "/images/01-living-06.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
   {
-    src: "/images/prph (7).png",
+    src: "/images/01-living-07.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
     {
-    src: "/images/prph (8).png",
+    src: "/images/01-living-08.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
     {
-    src: "/images/prph (9).png",
+    src: "/images/01-living-09.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+
   },
+      {
+    src: "/images/01-living-10.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/01-living-11.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+  {
+    src: "/images/01-living-12.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/01-living-13.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/01-living-14.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+  {
+    src: "/images/01-living-15.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/01-living-16.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/01-living-17.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/01-living-18.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+       {
+    src: "/images/02-masbr-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-04.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-05.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-06.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+         {
+    src: "/images/02-masbr-07.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+           {
+    src: "/images/03-starea-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+             {
+    src: "/images/03-starea-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+             {
+    src: "/images/03-starea-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+               {
+    src: "/images/04-bedroom2-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/04-bedroom2-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/04-bedroom2-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/04-bedroom2-04.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/04-bedroom2-05.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+  {
+    src: "/images/04-bedroom2-06.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/05-bedroom3-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-04.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-05.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-06.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+      {
+    src: "/images/05-bedroom3-07.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+  {
+    src: "/images/06-masbathroom-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+   {
+    src: "/images/06-masbathroom-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+   {
+    src: "/images/06-masbathroom-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-01.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-02.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-03.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-04.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-05.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-06.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-07.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-08.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-09.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-10.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-11.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+    {
+    src: "/images/07-bathrooms-12.jpg",
+    alt: "Elegant villa living room with ambient lighting",
+
+  },
+  
+  
+
+  
+  
+  
   
 
 ];
@@ -161,7 +394,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/prph (7).png"
+              src="/images/primo-living.jpg"
               alt="Luxury villa interior with white marble flooring and gold accents"
               title="Modern Villa Interior Design in Dubai"
               width={800}
