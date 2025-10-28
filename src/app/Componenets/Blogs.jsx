@@ -27,9 +27,9 @@ const blogPosts = [
     title: "5 Modern Apartment Interior Design",
     date: "Published: 25.05.2025",
     excerpt:
-      "Explore the top 6 Interior Design Styles Dubai. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
+      " Discover bespoke villa interior design in Dubai. From Al Manara to District 1 MBR City, we redefine through design & turnkey fitout.",
     image: "/images/bohemian-boho-interior-design-dubai.png",
-    link: "/modern-apartment-interior-design",
+    link: "/luxury-villa-interior-design-in-dubai",
   },
 ];
 
