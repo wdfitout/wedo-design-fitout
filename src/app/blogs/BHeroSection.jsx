@@ -15,52 +15,54 @@ dayjs.extend(relativeTime);
 const blogs = [
   {
     id: 1,
-    slug: '/modern-apartment-interior-design',
+    slug: 'modern-apartment-interior-design',
     title: 'Modern Apartment Interior Design',
-    image: '/images/6w-residence (22).webp',
+    image: '/images/high-end-dubai-apartment-interior-design-in-dubai.png',
     date: '2025-01-01',
     tag: 'Blog',
   },
   {
     id: 2,
-    slug: 'villa-renovation-dubai',
-    title: 'Perfect Villa Renovation?',
-    image: '/images/6w-residence (23).webp',
-    date: '2024-12-01',
+    slug: 'interior-design-styles-dubai-2025',
+    title: '6 Interior Design Styles Dubai 2025',
+    image: '/images/six-best-interior-design-trends-dubai-2025.png',
+    date: '23.09.2025',
     tag: 'Blog',
   },
   {
     id: 3,
-    slug: 'apartment-revamp-dubai',
-    title: 'Revamp Your Dubai Apartment Ideas for a Modern Look',
-    image: '/images/6w-residence (24).webp',
-    date: '2024-07-01',
+    slug: 'luxury-villa-interior-design-in-dubai',
+    title: 'Tips For Luxury Villa Interior Design in Dubai',
+    image: '/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png',
+    date: '2025-05-25',
     tag: 'Blog',
   },
-  {
+    {
     id: 4,
-    slug: 'studio-apartment-maximization',
-    title: 'Maximize Small Spaces in Studio Apartments',
-    image: '/images/6w-residence (25).webp',
-    date: '2024-06-10',
+    slug: 'modern-apartment-interior-design',
+    title: 'Modern Apartment Interior Design',
+    image: '/images/high-end-dubai-apartment-interior-design-in-dubai.png',
+    date: '2025-01-01',
     tag: 'Blog',
   },
   {
     id: 5,
-    slug: 'luxury-vs-minimal-interiors',
-    title: 'Luxury vs Minimal Interior Design Styles Compared',
-    image: '/images/6w-residence (26).webp',
-    date: '2024-05-05',
+    slug: 'interior-design-styles-dubai-2025',
+    title: '6 Interior Design Styles Dubai 2025',
+    image: '/images/six-best-interior-design-trends-dubai-2025.png',
+    date: '23.09.2025',
     tag: 'Blog',
   },
   {
     id: 6,
-    slug: 'smart-home-integrations-villas',
-    title: 'Smart Home Integrations for Modern Villas',
-    image: '/images/6w-residence (27).webp',
-    date: '2024-03-15',
+    slug: 'luxury-villa-interior-design-in-dubai',
+    title: 'Tips For Luxury Villa Interior Design in Dubai',
+    image: '/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png',
+    date: '2025-05-25',
     tag: 'Blog',
   },
+  
+
 ];
 
 export default function BHeroSection() {
@@ -91,7 +93,7 @@ export default function BHeroSection() {
         {blogs.map((blog) => (
           <SwiperSlide key={blog.id} className="pb-0">
             <Link
-              href={`/blogs/${blog.slug}`}
+              href={blog.slug.startsWith('/') ? blog.slug : `/${blog.slug}`}
               className="block h-[60vh] relative overflow-hidden shadow-lg transition-transform duration-3000 hover:scale-[1.05] bg-black"
               aria-label={`Read blog: ${blog.title}`}
             >

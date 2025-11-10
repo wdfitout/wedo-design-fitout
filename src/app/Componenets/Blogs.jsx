@@ -24,11 +24,11 @@ const blogPosts = [
     link: "/interior-design-styles-dubai-2025",
   },
   {
-    title: "5 Modern Apartment Interior Design",
+    title: "Tips For Luxury Villa Interior Design in Dubai",
     date: "Published: 25.05.2025",
     excerpt:
-      " Discover bespoke villa interior design in Dubai. From Al Manara to District 1 MBR City, we redefine through design & turnkey fitout.",
-    image: "/images/bohemian-boho-interior-design-dubai.png",
+      "Explore the top 6 Interior Design Styles Dubai. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
+    image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
     link: "/luxury-villa-interior-design-in-dubai",
   },
 ];

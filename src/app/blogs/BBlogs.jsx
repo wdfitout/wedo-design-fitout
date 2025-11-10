@@ -8,28 +8,28 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 // Blog Data
 const blogPosts = [
   {
-    title: "Modern Apartment Interior Design",
-    date: "Published: 25.05.2025",
+   title: "5 Modern Apartment Interior Design",
+    date: "Published: 11.09.2025",
     excerpt:
-      "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
-    image: "/images/blog1.webp",
+      "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
+    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
     link: "/modern-apartment-interior-design",
   },
   {
-    title: "WEDO’S SECRET DESIGN RECIPE DUBAI DESIGN 2025",
-    date: "Published: 25.05.2025",
+    title: "6 Interior Design Styles Dubai 2025",
+    date: "Published: 23.09.2025",
     excerpt:
-      "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
-    image: "/images/blog2.webp",
-    link: "/blog2",
+      "Explore the top 6 interior design styles of 2025. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
+    image: "/images/six-best-interior-design-trends-dubai-2025.png",
+    link: "/interior-design-styles-dubai-2025",
   },
-  {
-    title: "THE ART OF MARBLE, AS WE DO MAGIC",
+ {
+    title: "Tips For Luxury Villa Interior Design in Dubai",
     date: "Published: 25.05.2025",
     excerpt:
-      "Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet...",
-    image: "/images/blog3.webp",
-    link: "/blog3",
+      " Discover bespoke villa interior design in Dubai. From Al Manara to District 1 MBR City, we redefine through design & turnkey fitout.",
+    image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
+    link: "/luxury-villa-interior-design-in-dubai",
   },
 ];
 
