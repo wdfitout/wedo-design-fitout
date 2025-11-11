@@ -31,6 +31,14 @@ const blogPosts = [
     image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
     link: "/luxury-villa-interior-design-in-dubai",
   },
+  {
+   title: "Interior Design Companies in Business Bay",
+    date: "Published: 11.09.2025",
+    excerpt:
+      "WE DO Interior Design & Fitout is a Dubai, based interior design studio providing functional design and premium solutions.",
+    image: "/images/Villa_Interior_Design_in_Business_Bay_Dubai.png",
+    link: "/interior-design-companies-in-business-bay-dubai",
+  },
 ];
 
 const Blogs = () => {
