@@ -39,6 +39,15 @@ const blogPosts = [
     image: "/images/Villa_Interior_Design_in_Business_Bay_Dubai.png",
     link: "/interior-design-companies-in-business-bay-dubai",
   },
+
+  {
+   title: " 5 Differences Between Villa and Apartment Interiors in Dubai",
+    date: "Published: 11.09.2025",
+    excerpt:
+      "Dubai's property market provides two unique ways of living: residences in villas and those in apartments.",
+    image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
+    link: "/dubai-villa-vs-apartment-interior-design",
+  },
 ];
 
 const Blogs = () => {

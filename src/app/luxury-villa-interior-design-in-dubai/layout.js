@@ -6,7 +6,7 @@ export const metadata = {
     "Discover luxury villa interior design in Dubai with WE DO. From Al Manara to District 1, we provide custom design and turnkey fit-out services.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/modern-apartment-interior-design',
+    canonical: '/luxury-villa-interior-design-in-dubai',
   },
 };
 

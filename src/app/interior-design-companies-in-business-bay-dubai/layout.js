@@ -6,7 +6,7 @@ export const metadata = {
     "Discover WE DO Interiors, a top interior design company in Business Bay, Dubai. Specializing in residential and commercial interior fit-out services.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/modern-apartment-interior-design',
+    canonical: '/interior-design-companies-in-business-bay-dubai',
   },
 };
 
