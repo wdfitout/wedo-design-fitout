@@ -83,15 +83,15 @@ const Blogs = () => {
     bg-no-repeat 
     text-white 
     overflow-hidden">
-      <div className="w-[80%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
-        {/* Arrow image */}
-        <div className="flex justify-center">
-          <Image
-            src="/images/sec-dvd.webp"
-            alt="Scroll down arrow"
-            width={320}
-            height={80}
-            className="h-auto w-48 sm:w-64"
+    <div className="w-[80%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
+      {/* Arrow image */}
+      <div className="flex justify-center">
+        <Image
+          src="/images/sec-dvd.webp"
+          alt="Scroll down arrow"
+          width={320}
+          height={80}
+          className="h-auto w-48 sm:w-64"
           />
         </div>
 
@@ -104,17 +104,17 @@ const Blogs = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {blogPosts.map((post, index) => (
             <Link href={post.link} key={index}>
-              <div
-                className="bg-gradient-to-br from-[#caa193] to-[#a0624d] p-[1px] rounded-md transition-transform duration-500 hover:scale-105 cursor-pointer"
+            <div
+            className="bg-gradient-to-br from-[#caa193] to-[#a0624d] p-[1px] rounded-md transition-transform duration-500 hover:scale-105 cursor-pointer"
               >
-                <div className="bg-black p-4 rounded-md flex flex-col h-full">
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    width={500}
-                    height={300}
-                    className="rounded w-full h-auto object-cover"
-                  />
+              <div className="bg-black p-4 rounded-md flex flex-col h-full">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={500}
+                  height={300}
+                  className="rounded w-full h-auto object-cover"
+                />
 
                   {/* Blog Content */}
                   <div className="mt-3 flex flex-col flex-grow">
