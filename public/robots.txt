@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://wedointerior.ae
+
+# Sitemaps
+Sitemap: https://wedointerior.ae/sitemap.xml
