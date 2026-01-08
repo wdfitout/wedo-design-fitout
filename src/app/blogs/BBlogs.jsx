@@ -48,13 +48,21 @@ const blogPosts = [
     image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
     link: "/dubai-villa-vs-apartment-interior-design",
   },
+    {
+   title: " 5 Differences Between Villa and Apartment Interiors in Dubai",
+    date: "Published: 11.09.2025",
+    excerpt:
+      "Dubai's property market provides two unique ways of living: residences in villas and those in apartments.",
+    image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
+    link: "/dubai-villa-vs-apartment-interior-design",
+  },
    {
    title: " Villa Construction in Dubai - Dubai Construction Company",
     date: "Published: 11.09.2025",
     excerpt:
       "Luxury villa construction in Dubai with complete construction execution, design & build, interior design and smart home systems.",
     image: "/images/luxury-villa-architectural-planning-and-design-dubai.png",
-    link: "/complete-villa-construction-in-dubai",
+    link: "/complete-villa-construction-dubai",
   },
 ];
 
