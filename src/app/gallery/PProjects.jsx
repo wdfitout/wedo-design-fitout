@@ -5,7 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-    {
+     {
+    img: "/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png",
+    alt: "Apartment Interior Design DSO",
+    title: "Dubai Silicon Oasis Apartment in Dubai",
+    href: "/dubai-silicon-oasis-apartment",
+  },
+  {
     img: "/images/primo-sitting.jpg",
     alt: "Apartment Interior Design",
     title: "ii PRIMO PENTHOUSE",
