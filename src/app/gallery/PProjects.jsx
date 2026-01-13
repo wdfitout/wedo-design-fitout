@@ -8,7 +8,7 @@ const projects = [
      {
     img: "/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png",
     alt: "Apartment Interior Design DSO",
-    title: "Dubai Silicon Oasis Apartment in Dubai",
+    title: "DUBAI SILICON OASIS APARTMENT",
     href: "/dubai-silicon-oasis-apartment",
   },
   {
