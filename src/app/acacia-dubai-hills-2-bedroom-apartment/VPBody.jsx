@@ -123,7 +123,7 @@ const VPBody = () => {
             TRANSFORMING LUXURY APARTMENTS:
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-           ACACIA DUBAI HILLS 2 BEDROOM APARTMENT
+           ACACIA DUBAI HILLS BEDROOM APARTMENT
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
