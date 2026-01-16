@@ -7,8 +7,8 @@ import Link from "next/link";
 const cardData = [
   {
     title: "VILLA INTERIOR DESIGN",
-    img: "/images/serv1.webp",
-    desc: "Luxury villa interior design in Dubai tailored to your lifestyle by experts at WE DO interior design and fitout.",
+    img: "/images/high-end-luxury-villa-interior-in-Dubai.png",
+    desc: "Luxury villa interior design Dubai according to your lifestyle by experts at WE DO interior design and fitout.",
     link: "/villa-interior-design-dubai",
   },
   {

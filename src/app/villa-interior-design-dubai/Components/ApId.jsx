@@ -18,14 +18,14 @@ const ApId = () => {
               Luxury Villa Interior Design services in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              Are you looking for bespoke <b><a href="https://wedointerior.ae/villa-projects">luxury modern villa interior design services in Dubai </a></b>
+              Are you looking for bespoke <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">luxury modern villa interior design services in Dubai </a></b>
               according to your own taste and lifestyle? At WE DO Interior Design & Fitout we design bespoke villa design to create 
               luxury spaces for you to live. Our skilled team of luxury interior designers in Dubai works with great 
               precision and creativity and utilize their years of expertise to design the best villas and modern homes in Dubai.
             </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
             Dubai with its iconic architecture and elite lifestyle deserves interior designs that are not only visually attractive 
-            but also highly functional. That’s why <b><a href="https://wedointerior.ae/">WE DO interiors design villas in dubai</a></b> according to luxury living in Dubai
+            but also highly functional. That’s why WE DO interiors design villas in dubai according to luxury living in Dubai
             </p>
             
             {/* Highlight Box */}

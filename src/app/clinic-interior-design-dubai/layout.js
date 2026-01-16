@@ -6,7 +6,7 @@ export const metadata = {
     "WE DO Interior Design & Fitout offers expert clinic interior design in Dubai with modern solutions for clinics, hospitals & healthcare. Visit Now",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/apartment-interior-design-dubai',
+    canonical: '/clinic-interior-design-dubai',
   },
 };
 
