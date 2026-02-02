@@ -15,28 +15,21 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Landscape Design in Dubai by WEDO Who Blend Nature and Luxury
+              Landscape Design in Dubai by WEDO 
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             <strong><a href="https://wedointerior.ae/">We Do interior design and fitout</a> </strong>stands among the Luxury Landscaping Companies in Dubai.
-              Our landscape designers in Dubai beautifully blend nature with culture through their skills. 
-              Positioned between garden design and landscape architecture, our approach transforms ordinary 
-              exteriors into refined, functional masterpieces. Landscape Design Dubai is becoming increasingly
-              popular day by day.</p>
+             We Do interior design and fitout stands among the Luxury Landscaping Companies in Dubai. 
+             Our landscape designers beautifully blend nature with culture through their skills. 
+             Positioned between garden design and landscape architecture, our approach transforms 
+             ordinary exteriors into refined masterpieces. Landscape Design Dubai is becoming 
+             increasingly popular day by day.</p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            Our professional services cover landscape construction & design, while ensuring that every element 
-            from structure to finishing is executed with precision. With a focus on bespoke garden design Dubai, 
-            we craft customized outdoor environments that reflect your personality while enhancing functionality.
+            Our range of professional services includes <b className="text-[#caa193]"><a href="https://wedointerior.ae/complete-villa-construction-dubai">landscape construction & design</a></b>, all of which is done 
+            while ensuring that all aspects, from structure to detail, are achieved to perfection. With our 
+            bespoke garden designs in Dubai, WE DO interiors can help to create your outdoor environment 
+            according to your interests.
           </p>
-            
-          <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            
-             Specializing in landscape design in Dubai, we bring together innovative planning, premium materials,
-              and sustainable practices to create spaces that inspire. Through our end-to-end 
-             <strong> <a href="https://wedointerior.ae/design-build-services-in-dubai">landscape design & build Dubai </a></strong>
-               solutions, we turn outdoor concepts into reality—delivering stunning, livable landscapes
-               that enrich your home or business.
-          </p>
+        
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
               15 Years of Experience

@@ -4,18 +4,18 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/ultra-luxury-villa-exterior-in-dubai.png',
+  link: '/complete-villa-construction-dubai',
+  title: ' Our Villa Construction in Dubai'
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/luxury-landscape-design.png', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
+  { src: '/images/poolside-landscape-design-dubai-sunken-seating.png', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
+  { src: '/images/contemporary-villa-landscape-design-dubai.png', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
+  { src: '/images/luxury-villa-landscape-design-dubai.png', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
+  { src: '/images/contemporary-villa-landscape-design.png', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
+  { src: '/images/luxury-villa-landscape-design-dubai-pool-evening.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
 ];
 
 const DProjects = () => {
@@ -28,22 +28,19 @@ const DProjects = () => {
          Leading Landscape Company in Dubai for Premium Landscape Design services
         </h2>
      <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-   <p>
-    At Wedo Interior, we pride ourselves on delivering quality landscaping services in Dubai. 
-    From gardening residential homes to sprawling gardens in the urban area, our services range 
-    from automatic irrigation systems, garden maintenance, and even bespoke swimming pools that 
-    blend naturally with the landscape of Dubai. 
-
-    </p>
+     <p>
+      At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">Wedo Interior design and fitout</a></b>, we pride ourselves on delivering quality custom landscaping services in Dubai. 
+      From gardening residential homes to sprawling gardens in the urban area, our services range from automatic 
+      irrigation systems, garden maintenance, and even bespoke swimming pools that blend naturally with the landscape of Dubai.
+     </p>
          <h3 className=" tracking-widest font-conthrax text-[#caa193]">
             Swimming pool & Jacuzzi design
         </h3>
-    <p>
-   We DO as a trusted landscape consultant in Dubai, offers full-service solutions tailored for both
-    residential landscaping in Dubai and commercial projects. Our services include pool design and
-     construction, regular maintenance, sealants, tile work, and plumbing.
-
-    </p>
+      <p>
+      We DO as a trusted landscape consultant in Dubai, offers full-service solutions tailored for both residential 
+      landscaping in Dubai and commercial projects. Our services include pool design and construction, regular 
+      maintenance, sealants, tile work, and plumbing.
+      </p>
 
   
         <h3 className=" tracking-widest font-conthrax text-[#caa193]">
@@ -57,21 +54,21 @@ const DProjects = () => {
     <h3 className=" tracking-widest font-conthrax text-[#caa193]">
             Stylish Structures & Cozy Corners for Your Garden
         </h3>
-    <p>
-   We provide outdoor spaces that are a perfect blend of functionality, comfort, and aesthetics. Our 
-   skilled landscape designers in Dubai design personalized pergolas, gazebos, and fire pit areas. 
-   From residential landscaping to full-home landscaping in Dubai, we design each feature keeping 
-   the climate and lifestyle of Dubai in mind. 
-    </p>
+     <p>
+      We have outdoor areas that provide a perfect amalgamation of functionality, comfort, and aesthetic value. 
+      We have professional landscape designers in Dubai who design custom-made pergolas, gazebos, and fire pit 
+      seating areas. We design such areas keeping in mind the climate and lifestyle of UAE, right from home to 
+      entire home design.
+     </p>
      <h3 className=" tracking-widest font-conthrax text-[#caa193]">
            Irrigation & maintenance
         </h3>
-    <p>
-  As one of the trusted landscape design companies in Dubai, we install smart irrigation systems that
-   utilize water conservation while maintaining your garden healthy and green throughout the year. 
-   From landscape design to luxury villas, our  irrigation and maintenance services range from automated 
-   drip irrigation systems, sprinkler systems, to planned maintenance to keep plants healthy and your landscape beautiful.
-    </p>
+      <p>
+      As a trusted outdoor design company in Dubai, we install smart irrigation systems that utilize water conservation 
+      while maintaining your garden healthy and green throughout the year. From landscape design to <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">luxury villas</a></b> , 
+      our irrigation and maintenance services range from automated drip irrigation systems, sprinkler systems, to 
+      planned maintenance to keep plants healthy and your landscape beautiful.
+     </p>
 </div>
 
       </div>
@@ -80,19 +77,19 @@ const DProjects = () => {
       <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Why Choose Us For your Landscape Design Dubai
+          Why Choose WEDO Interiors For your Landscape Design Dubai
           </h2>
             <p className="text-white font-play">
-          If you're looking to upgrade your home or office exterior, hiring WE DO Interior Design & Fitout 
-          for your landscape job is a wise move.As one of the leading landscape design companies in Dubai, 
-          our team of professionals possesses vast experience and imagination in each project—guaranteeing 
-          your area is not just practical but also aesthetically pleasing. We've perfected the technicalities
-           of landscape design in Dubai, from concept and implementation to site problem-solving with accuracy.
+              If you're looking to upgrade your home or office exterior, hiring WE DO Interior Design & Fitout 
+              for your landscape job is a wise move. As one of the leading landscape design companies in Dubai, 
+              our team of professionals possesses vast experience and imagination in each project guaranteeing 
+              your area is not just practical but also aesthetically pleasing. We've perfected the technicalities 
+              of landscape design in Dubai, from concept and implementation to site problem-solving with accuracy.
           </p>
          
           <p className="text-white font-play">
-        Ready to Transform Your Outdoor Space with the Best Company To Go for Landscape Design In Dubai?
-         Book a Free Consultation Today and let our experts bring your landscaping vision to life.
+              Ready To Revamp Your Outdoors With The Finest Firm To Consult For Landscape Design Dubai? There is 
+              never a better time than now to Get Free Consultation and let us transform your vision into reality!
           </p>
       
         </div>
@@ -169,36 +166,35 @@ const DProjects = () => {
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
+             <h3 className="text-xl font-conthrax text-[#caa193] mb-4">
             Our Steps to achieve exceptional landscape design Dubai
-             </h2>
+             </h3>
           <p>
            From concept to completion, we follow a detailed process to bring your ideal landscape to life. Our Process includes:
           </p>
            
-          <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+          <h4 className=" tracking-widest font-conthrax text-[#caa193]">
            Consultation & concept
-          </h3>
+          </h4>
             <p>
             We start with consultation & concept, working closely with you to understand your vision and design custom 
             landscaping concepts that suit your taste and type of property. As a leading landscape consultant in Dubai,
              we create initial concepts that are both aesthetically pleasing and functional.
             </p>
-             <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+             <h4 className=" tracking-widest font-conthrax text-[#caa193]">
            Design & 3D visualization
-
-          </h3>
+          </h4>
             <p>
             Next comes design & 3D visualization, where our landscape designers in Dubai bring your concept to life with 
-            immersive renderings—perfect for visualizing every detail of your villa or home garden design.
+            immersive renderings perfect for visualizing every detail of your villa or home garden design.
 
             </p>
           </div>
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
-              alt="Round luxury bed with fairy lights"
+              src="/images/luxury-landscape-design-dubai-night-villa.png"
+              alt="Night view of luxury landscape design of villa in Dubai"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -210,8 +206,8 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
-              alt="Elegant blue bedroom interior"
+              src="/images/resort-style-landscape-design-dubai-backyard.png"
+              alt="Best Landscape design services in Dubai"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -220,19 +216,19 @@ const DProjects = () => {
 
           <div className="space-y-6 text-white font-play">
             
-             <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+             <h4 className=" tracking-widest font-conthrax text-[#caa193]">
            Design & 3D visualization
 
-          </h3>
+          </h4>
             <p>
             Next comes design & 3D visualization, where our landscape designers in Dubai bring your concept to life with 
             immersive renderings—perfect for visualizing every detail of your villa or home garden design.
 
             </p>
-           <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           <h4 className=" tracking-widest font-conthrax text-[#caa193]">
            Build & installation
 
-          </h3>
+          </h4>
             <p>
             In the installation & build phase, our landscape team executes the plan on high-quality materials and 
             professional craftsmanship. From residential landscaping to pergolas, water features, or lighting, 
@@ -240,10 +236,10 @@ const DProjects = () => {
 
             </p>
           
-           <h3 className=" tracking-widest font-conthrax text-[#caa193]">
+           <h4 className=" tracking-widest font-conthrax text-[#caa193]">
            Handover & aftercare
 
-          </h3>
+          </h4>
             <p>
              We ensure a smooth handover & aftercare of your bespoke landscape in Dubai, complete with clear guidance
               on irrigation and maintenance. Our aftercare service guarantees that your outdoor space stays vibrant and 

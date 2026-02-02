@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/acdh (8).png"
-        alt="interior design"
+        src="/images/luxury-villa-landscape-design-dubai.png"
+        alt="luxury Villa landscape design in Dubai"
         width={1920}
         height={1080}
         priority
@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
           Landscape Design Dubai </h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-            Landscape Construction & Design
+            Landscape Construction & Design Services
             </h2>
         
 

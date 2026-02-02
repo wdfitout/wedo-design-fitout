@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/pjapt (8).webp',
-  '/images/pjapt (12).webp',
-  '/images/pjapt (14).webp',
+  '/images/contemporary-villa-landscape-design.png',
+  '/images/resort-style-landscape-design-dubai-backyard.png',
+  '/images/contemporary-villa-landscape-design-dubai.png',
 ];
 
 const DesignV = () => {

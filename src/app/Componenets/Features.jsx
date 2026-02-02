@@ -18,9 +18,9 @@ const cardData = [
     link: "/apartment-interior-design-dubai",
   },
   {
-    title: "LANDSCAPE DESIGN",
-    img: "/images/serv3.webp",
-    desc: "Premier landscape company in Dubai offering bespoke landscape design in Dubai for villas, gardens, and outdoor spaces.",
+    title: "LANDSCAPE DESIGN DUBAI",
+    img: "/images/luxury-villa-landscape-design-dubai.png",
+    desc: "Premier landscape company offering bespoke landscape design Dubai for villas, gardens, and outdoor spaces.",
     link: "/landscape-design-dubai",
   },
   {
