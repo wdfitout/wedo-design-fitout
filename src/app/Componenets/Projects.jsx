@@ -41,7 +41,7 @@ const projects = [
     slug: "retail-projects",
   },
   {
-    img: "/images/villa-construction-dubai.webp",
+    img: "/images/ultra-luxury-villa-exterior-in-dubai.webp",
     alt: "Villa Construction",
     title: "VILLA CONSTRUCTION",
     desc: "Trusted villa construction company Dubai with expert villa contractors. A full-service design and build company.",

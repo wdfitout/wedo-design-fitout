@@ -4,18 +4,18 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
+  src: '/images/alwasl (11).webp',
+  link: '/modern-apartment-interior-design',
   title: 'Business Bay Apartment'
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/bba.png', link: '/business-bay-apartment', title: 'BUSINESS BAY APARTMENT' },
+  { src: '/images/mgapt-2 (4).jpg', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
+  { src: '/images/modern-apartment-interior-design-in-dubai.webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APRTMENT' },
+  { src: '/images/ATRD (23).webp', link: '/royal-atlantis-2-bedroom-apartment', title: 'ROYAL ATLANTIS 2 BEDROOM APARTMENT' },
+  { src: '/images/dmaptt.png', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
+  { src: '/images/primo-loungee.png', link: '/ii-primo-penthouse', title: 'II PRIMO PENTHOUSE' },
 ];
 
 const DProjects = () => {
@@ -29,10 +29,10 @@ const DProjects = () => {
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
-    Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
+    Creating a <b className="text-[#caa193]"><a href="https://wedointerior.ae/modern-apartment-interior-design">Modern apartment interior in Dubai</a></b> isn’t just about looks — it’s about functionality 
     in limited space, comfort in rental settings, and optimizing every detail for modern city life.
      At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
-     that feel spacious, stylish, and truly personal — even if it’s a studio or <b> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
+     that feel spacious, stylish, and truly personal — even if it’s a studio or <b className="text-[#caa193]"> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
      in Atlantis The Royal</a></b> or Downtown.
 
   </p>
@@ -67,16 +67,16 @@ const DProjects = () => {
            seeking modern minimalism with character. At WE DO, we integrate 
            industrial-chic elements — like exposed metal frames, rustic oak textures, 
            and matte black accents — to create interiors that are bold yet cozy.
-          </p>
-          <p className="text-sm sm:text-base text-white">
-          Whether you're designing a <b><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
+           <br /><br />
+           Whether you're designing a <b className="text-[#caa193]"><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
           Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
           modern urban vibe. These curated touches, paired with custom lighting and smart 
           layouts, give your space a striking identity without sacrificing comfort.
+          <br /> <br />
+          Browse below to explore some of our most recent apartment transformations that 
+          embrace this timeless loft appeal.
           </p>
-          <p className="text-sm sm:text-base text-white">
-          <strong>Browse below to explore some of our most recent apartment transformations that 
-          embrace this timeless loft appeal.</strong></p>
+       
         </div>
 
         {/* Top Right Image with Hover Effects */}
@@ -194,7 +194,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/primo-sitting.jpg"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -207,7 +207,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/dubai-interior-design-companies-apartment-sitting-area.webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -217,10 +217,11 @@ const DProjects = () => {
 
           <div className="space-y-6 text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              The Best Interior Design In The Apartment Is Simple And Cost-Effective
+              The Best Interior Design In The Apartment Is Simple And Cost-Effective 
+
             </h2>
             <p>
-              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO interior design and fitout</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
+              Your home should be a perfect combination of your personal style and thoughtful design. At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO interior design and fitout</a></b>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
             </p>
             <p>
               With our modern online design collaboration process, working with our team is smooth, engaging, and fully transparent — from bedroom concepts to lounge furniture selection.

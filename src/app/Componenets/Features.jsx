@@ -13,7 +13,7 @@ const cardData = [
   },
   {
     title: "APARTMENT INTERIOR DESIGN",
-    img: "/images/serv2.webp",
+    img: "/images/primo-sitting.jpg",
     desc: "Smart, elegant, and space-optimized apartment interior design and fit-out crafted for modern Dubai living.",
     link: "/apartment-interior-design-dubai",
   },

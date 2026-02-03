@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/acdh (8).png"
+        src="/images/bba (2).jpg"
         alt="interior design"
         width={1920}
         height={1080}
@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
           Apartment Interior Design Dubai </h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-            Modern Interior Fit out in 2025
+            Modern Interior Fit out Services in Dubai
             </h2>
         
 
