@@ -372,7 +372,7 @@ const PProjects = () => {
                 <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
                   <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
                   <div className="p-2">
-                    <h3 className="text-white text-sm font-paly text-center">{card.title}</h3>
+                    <h3 className="text-white text-sm font-play text-center">{card.title}</h3>
                   </div>
                 </div>
               </div>
