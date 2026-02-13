@@ -6,30 +6,31 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
-const blogPosts = [
+const blogPosts = [ 
   {
+    title: "Office Interior Design Trends in Business Bay",
+    date: "Published: 12.02.2026",
+    excerpt:
+      "Explore the latest office interior design trends in Business Bay for 2026, including flexible layouts, biophilic design & luxury office fit-out solutions.",
+    image: "/images/smart-technology-integration-office-interior-business-bay.png",
+    link: "/office-interior-design-trends-in-business-bay",
+  },
+  
+  {
+    title: "Villa Construction in Dubai",
+    date: "Published: 05.01.2026",
+    excerpt:
+      "Luxury villa construction in Dubai with complete construction execution, design & build, interior design and turnkey solutions",
+    image: "/images/high-end-luxury-villa-interior-in-Dubai.png",
+    link: "/complete-villa-construction-dubai",
+  },
+{
     title: "5 Modern Apartment Interior Design",
     date: "Published: 11.09.2025",
     excerpt:
       "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
     image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
     link: "/modern-apartment-interior-design",
-  },
-  {
-    title: "6 Interior Design Styles Dubai 2025",
-    date: "Published: 23.09.2025",
-    excerpt:
-      "Explore the top 6 interior design styles of 2025. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
-    image: "/images/six-best-interior-design-trends-dubai-2025.png",
-    link: "/interior-design-styles-dubai-2025",
-  },
-  {
-    title: "Tips For Luxury Villa Interior Design in Dubai",
-    date: "Published: 25.05.2025",
-    excerpt:
-      "Explore the top 6 Interior Design Styles Dubai. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
-    image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
-    link: "/luxury-villa-interior-design-in-dubai",
   },
   
 ];

@@ -7,14 +7,42 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
+  
   {
-   title: "5 Modern Apartment Interior Design",
-    date: "Published: 11.09.2025",
+    title: "Office Interior Design Trends in Business Bay",
+    date: "Published: 12.02.2026",
     excerpt:
-      "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
-    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
-    link: "/modern-apartment-interior-design",
+      "Explore the latest office interior design trends in Business Bay for 2026, including flexible layouts, biophilic design & luxury office fit-out solutions.",
+    image: "/images/smart-technology-integration-office-interior-business-bay.png",
+    link: "/office-interior-design-trends-in-business-bay",
   },
+
+  {
+   title: " 5 Differences Between Villa and Apartment Interiors in Dubai",
+    date: "Published: 02.02.2026",
+    excerpt:
+      "Dubai's property market provides two unique ways of living: residences in villas and those in apartments.",
+    image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
+    link: "/dubai-villa-vs-apartment-interior-design",
+  },
+   {
+   title: " Villa Construction in Dubai - Dubai Construction Company",
+    date: "Published: 05.01.2026",
+    excerpt:
+      "Luxury villa construction in Dubai with complete construction execution, design & build, interior design and smart home systems.",
+    image: "/images/luxury-villa-architectural-planning-and-design-dubai.png",
+    link: "/complete-villa-construction-dubai",
+  },
+   
+  {
+   title: "Interior Design Companies in Business Bay",
+    date: "Published: 15.12.2025",
+    excerpt:
+      "WE DO Interior Design & Fitout is a Dubai, based interior design studio providing functional design and premium solutions.",
+    image: "/images/Villa_Interior_Design_in_Business_Bay_Dubai.png",
+    link: "/interior-design-companies-in-business-bay-dubai",
+  },
+  
   {
     title: "6 Interior Design Styles Dubai 2025",
     date: "Published: 23.09.2025",
@@ -23,6 +51,14 @@ const blogPosts = [
     image: "/images/six-best-interior-design-trends-dubai-2025.png",
     link: "/interior-design-styles-dubai-2025",
   },
+  {
+   title: "5 Modern Apartment Interior Design",
+    date: "Published: 11.09.2025",
+    excerpt:
+      "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
+    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
+    link: "/modern-apartment-interior-design",
+  },
  {
     title: "Tips For Luxury Villa Interior Design in Dubai",
     date: "Published: 25.05.2025",
@@ -30,31 +66,6 @@ const blogPosts = [
       " Discover bespoke villa interior design in Dubai. From Al Manara to District 1 MBR City, we redefine through design & turnkey fitout.",
     image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
     link: "/luxury-villa-interior-design-in-dubai",
-  },
-  {
-   title: "Interior Design Companies in Business Bay",
-    date: "Published: 11.09.2025",
-    excerpt:
-      "WE DO Interior Design & Fitout is a Dubai, based interior design studio providing functional design and premium solutions.",
-    image: "/images/Villa_Interior_Design_in_Business_Bay_Dubai.png",
-    link: "/interior-design-companies-in-business-bay-dubai",
-  },
-
-  {
-   title: " 5 Differences Between Villa and Apartment Interiors in Dubai",
-    date: "Published: 11.09.2025",
-    excerpt:
-      "Dubai's property market provides two unique ways of living: residences in villas and those in apartments.",
-    image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
-    link: "/dubai-villa-vs-apartment-interior-design",
-  },
-   {
-   title: " Villa Construction in Dubai - Dubai Construction Company",
-    date: "Published: 11.09.2025",
-    excerpt:
-      "Luxury villa construction in Dubai with complete construction execution, design & build, interior design and smart home systems.",
-    image: "/images/luxury-villa-architectural-planning-and-design-dubai.png",
-    link: "/complete-villa-construction-dubai",
   },
 ];
 
