@@ -6,10 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-
-  '/images/02-masbr-02.jpg',
-  '/images/06-masbathroom-01.jpg',
-  '/images/01-living-08.jpg',
+  '/images/pjapt (8).webp',
+  '/images/pjapt (12).webp',
+  '/images/pjapt (14).webp',
 ];
 
 const DesignV = () => {
