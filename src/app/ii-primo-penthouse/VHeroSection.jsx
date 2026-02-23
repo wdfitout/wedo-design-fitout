@@ -8,7 +8,7 @@ const VHeroSection = () => {
     <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/primo-lounge.jpg"
+        src="/images/penth14.webp"
         alt="Luxury penthouse lounge interior design"
         fill
         priority
