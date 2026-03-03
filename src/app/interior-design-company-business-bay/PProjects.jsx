@@ -10,27 +10,56 @@ const services = [
     description:
       "Bespoke residential & villa design tailored to your lifestyle and vision.",
     bgImage: "/images/bba.png",
+    link: "/office-interior-design-business-bay",
   },
   {
     title: "Apartment Interior Design In Business Bay",
     description:
       "High-quality fit-out services ensuring seamless execution from start to finish.",
     bgImage: "/images/01-living-07.jpg",
+    link: "/apartment-interior-design-business-bay",
   },
   {
     title: "Villa Interior Design In Business Bay",
     description:
       "Interactive 3D & VR previews to visualize your space before execution.",
     bgImage: "/images/ATRD (2).webp",
+    link: "/villa-interior-design-business-bay",
   },
   {
     title: "Restaurant Interior Design In Business Bay",
     description:
       "Bespoke furniture and styling solutions crafted for elegance & function.",
     bgImage: "/images/adbr (6).png",
+    link: "/restaurant-interior-design-business-bay",
   },
 ];
-
+const businessBayProjects = [
+  {
+    title: "MEBY Tourism Office Fit-Out",
+    category: "Travel Agency Office - Business Bay",
+    image: "/images/meby (6).webp",
+    link: "/business-bay-travel-agency",
+  },
+  {
+    title: "Business Bay Apartment Interior",
+    category: "Residential Apartment - Business Bay",
+    image: "/images/bba (6).jpg",
+    link: "/business-bay-apartment",
+  },
+  {
+    title: "Restaurant Interior Design",
+    category: "Restaurant - Business Bay",
+    image: "/images/sahelnom (5).webp",
+    link: "/business-bay-restaurant",
+  },
+  {
+    title: "Star Tech Office Interior",
+    category: "Commercial Office - Business Bay",
+    image: "/images/startech (2).webp",
+    link: "/business-bay-office-fit-out",
+  },
+];
 const AboutSection = () => {
   return (
     <section className="bg-[#000000] py-16 sm:py-20">
@@ -45,7 +74,7 @@ const AboutSection = () => {
             PROFESSIONAL INTERIOR DESIGN SERVICES IN BUSINESS BAY
            </h2>
             <p className="text-justify text-white text-base sm:text font-play mb-6 leading-relaxed">
-              As a leading interior design company in Business Bay, we offer services for both commercial 
+              As a leading <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-companies-in-business-bay-dubai">interior design company in Business Bay</a></b> , we offer services for both commercial 
               and residential projects. Our services related to office interior design Business Bay help 
               the businesses in designing a modern and productive space. For commercial businesses, our 
               services of commercial interior design Business Bay, such as retail outlets, restaurants, 
@@ -54,12 +83,13 @@ const AboutSection = () => {
                <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                 COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
              </h3>
-              For our residential clients, our apartment interior design Business Bay services helps in 
+              For our residential clients, our <b className="text-[#caa193]"
+              ><a href="https://wedointerior.ae/business-bay-apartment">apartment interior design Business Bay</a></b> services helps in 
               designing homes that are comfortable, stylish and modern. We combine custom furniture and 
               luxurious materials to suit the lifestyle of our clients. Our renovation services in 
               Business Bay upgrade or renovate the existing spaces with minimal disturbance.
               With our creative and technical skills, we are known as one of the best interior fit 
-              out contractors Business Bay and interior design and fit out companies in Dubai, with 
+              out contractors Business Bay and <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-in-business-bay-dubai">fit-out company in Business Bay Dubai</a></b>, with 
               projects that reflect quality, style, and attention to detail.
             </p>
              
@@ -86,14 +116,15 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-white text-sm sm:text-base font-play mb-4">
-            The commercial towers in Business Bay have the most splendid offices, startups, and multinational companies in Dubai. Our office interior design Business Bay services are based on delivering spaces that are functional,motivating and matching with the standard corporate environment in Dubai.
+            The commercial towers in Business Bay have the most splendid offices, startups, and multinational companies in Dubai. Our <b className="text-[#caa193]"
+            ><a href="https://wedointerior.ae/office-interior-design-trends-in-business-bay">office interior design Business Bay services</a></b> are based on delivering spaces that are functional,motivating and matching with the standard corporate environment in Dubai.
           </p>
          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                 COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
              </h3>
           <p className="text-white text-sm sm:text-base mb-4 font-play">
-            We oversee all the details involved in office fit-outs, such as space planning, furniture, lighting design, and technology. As professional offices fit out contractors in Dubai, we also handle DCD approvals and authority approvals Dubai to ensure that everything goes smoothly. 
-            Other than  Business Bay, our office interior design projects also cover the nearby areas of DIFC and Downtown Dubai, which means that all businesses in the main commercial areas of Dubai get to enjoy our expertise. 
+            We oversee all the details involved in office fit-outs Dubai, such as space planning, furniture, lighting design, and technology. As professional offices fit out contractors in Dubai, we also handle DCD approvals and authority approvals Dubai to ensure that everything goes smoothly. 
+            Other than  Business Bay, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">office interior design projects</a></b> also cover the nearby areas of DIFC and Downtown Dubai, which means that all businesses in the main commercial areas of Dubai get to enjoy our expertise. 
           </p>
 
 
@@ -121,42 +152,40 @@ const AboutSection = () => {
         </div>
         
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {services.map((service, idx) => (
-            <div
-              key={idx}
-              className="relative h-[340px] rounded-2xl overflow-hidden group shadow-lg"
-            >
-              {/* Background Image */}
-              <Image
-                src={service.bgImage}
-                alt={service.title}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+  {services.map((service, idx) => (
+    <Link key={idx} href={service.link} className="block group">
+      <div className="relative h-[340px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+        
+        <Image
+          src={service.bgImage}
+          alt={service.title}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+        />
 
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
+        <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
 
-              {/* Content */}
-              <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 text-white">
-                <h3 className="text-md font-conthrax mb-2">
-                  {service.title}
-                </h3>
-                <p className="text-sm text-gray-200 leading-relaxed">
-                  {service.description}
-                </p>
-              </div>
-            </div>
-            
-          ))}
+        <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 text-white">
+          <h3 className="text-md font-conthrax mb-2">
+            {service.title}
+          </h3>
+          <p className="text-sm text-gray-200 leading-relaxed">
+            {service.description}
+          </p>
         </div>
+
+      </div>
+    </Link>
+  ))}
+</div>
       <div className="text-center mt-10">
          <h2 className="text-[#b98877] text-2xl  font-conthrax mb-4 leading-tight">
             Turnkey Fit-Out and Design & Build Solutions
           </h2>
           <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-          At WE DO Interior Design & Fitout, we offer full-service turnkey fit out Business Bay services for our clients who are looking for all in one experience. As a reputable design and build company Dubai, we oversee all aspects of the process, from the first consultation and design concept to the approvals from the authorities Dubai, through to completion and delivery. Our end-to-end process ensures a smooth, efficient, and high-quality experience at all times. Our clients can take advantage of our knowledge in interior design and fit out companies in Dubai.
+          At <b className="text-[#caa193]"
+         ><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we offer full-service turnkey fit out Business Bay services for our clients who are looking for all in one experience. As a reputable design and build company Dubai, we oversee all aspects of the process, from the first consultation and design concept to the approvals from the authorities Dubai, through to completion and delivery. Our end-to-end process ensures a smooth, efficient, and high-quality experience at all times. Our clients can take advantage of our knowledge in interior design and fit out companies in Dubai.
 
             </p>
         </div>
@@ -176,7 +205,8 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-white text-sm sm:text-base font-play mb-4">
-            Business Bay is known for its luxury residential properties, and our apartment interior design in Business Bay Dubai services are designed to provide you with luxurious, comfortable, and contemporary living spaces. We are experts in luxury interior design Dubai and provide homes that are a perfect blend of beauty and functionality</p>
+            Business Bay is known for its luxury residential properties, and our <b className="text-[#caa193]"
+            ><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design in Business Bay Dubai</a></b> services are designed to provide you with luxurious, comfortable, and contemporary living spaces. We are experts in luxury interior design Dubai and provide homes that are a perfect blend of beauty and functionality</p>
          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                ELEGANT RESIDENTIAL SPACES TAILORED TO YOUR LIFESTYLE
              </h3>
@@ -259,50 +289,69 @@ const AboutSection = () => {
            Commercial Interior Design in Business Bay
           </h2>
           <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-          Our commercial interior design solutions include retail, restaurants, and hospitality. We know that design has a significant impact on customer experience, brand image, and efficiency. From retail fit out Business Bay projects to restaurant interior design Business Bay, we provide services in design, materials, lighting, and implementation. As a good reputed fit out company in Business Bay, we design interiors that are aesthetic, functional, and match with your brand identity. We have successfully completed our projects in the surrounding regions of Business Bay such as Sheikh Zayed Road and Bay Avenue. Our commercial designs are modern and elegant, making us one of the leading interior fit out companies in Dubai.
+          Our < b className="text-[#caa193]"><a href="https://wedointerior.ae/commercial-interior-design-dubai">commercial interior design solutions</a></b> include retail, restaurants, and hospitality. We know that design has a significant impact on customer experience, brand image, and efficiency. From retail fit out Business Bay projects to <b className="text-[#caa193]"
+          ><a href="https://wedointerior.ae/business-bay-restaurant">restaurant interior design Business Bay</a></b> , we provide services in design, materials, lighting, and implementation. As a good reputed fit out company in Business Bay, we design interiors that are aesthetic, functional, and match with your brand identity. We have successfully completed our projects in the surrounding regions of Business Bay such as Sheikh Zayed Road and Bay Avenue. Our commercial designs are modern and elegant, making us one of the leading interior fit out companies in Dubai.
 
          </p>
         </div>
-        
-       {/* Services Section */}
-        <div className="text-center mt-10 mb-12">
-           <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-            Our Projects in Business Bay
-          </h2>
+        {/* ================= BUSINESS BAY PROJECTS SECTION ================= */}
+<section className="bg-[#000000] py-16">
+  <div className="container mx-auto px-4 sm:px-8 lg:px-16">
+
+    {/* Section Heading */}
+    <div className="text-center mb-12">
+      <h2 className="text-[#b98877] text-3xl font-conthrax mb-4 leading-tight">
+        Our Projects in Business Bay
+      </h2>
+      <p className="text-gray-300 max-w-3xl mx-auto font-play">
+        Discover our completed interior design and fit-out projects in Business Bay,
+        including commercial offices, <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-apartment-design">luxury business bay apartment designs</a></b>, restaurants, and turnkey solutions.
+      </p>
+    </div>
+
+    {/* Projects Grid */}
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+  {businessBayProjects.map((project, index) => (
+    <Link key={index} href={project.link} className="block group">
+      <div className="relative overflow-hidden rounded-2xl shadow-lg cursor-pointer">
+
+        <div className="relative h-[320px]">
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
         </div>
-        
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {services.map((service, idx) => (
-            <div
-              key={idx}
-              className="relative h-[340px] rounded-2xl overflow-hidden group shadow-lg"
-            >
-              {/* Background Image */}
-              <Image
-                src={service.bgImage}
-                alt={service.title}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
-
-              {/* Content */}
-              <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 text-white">
-                <h4 className="text-md font-conthrax mb-2">
-                  {service.title}
-                </h4>
-                <p className="text-sm text-gray-200 leading-relaxed">
-                  {service.description}
-                </p>
-              </div>
-             
-            </div>
-            
-          ))}
+        <div className="absolute inset-0 flex flex-col justify-end p-6 z-10 text-white">
+          <h3 className="text-lg font-conthrax mb-1">
+            {project.title}
+          </h3>
+          <p className="text-sm text-gray-300">
+            {project.category}
+          </p>
         </div>
+
+      </div>
+    </Link>
+  ))}
+</div>
+    {/* Bottom CTA */}
+    <div className="text-center mt-12">
+      <Link href="/gallery">
+        <button className="bg-[#b98877] hover:bg-[#a97463] text-black px-8 py-3 rounded-md font-conthrax transition duration-300">
+          View All Projects
+        </button>
+      </Link>
+    </div>
+
+  </div>
+</section>
+
+{/* ================= END BUSINESS BAY PROJECTS SECTION ================= */}
+       
          <div className="text-left mt-10 mb-0">
          <h2 className="text-[#b98877] text-2xl  font-conthrax mb-4 leading-tight">
            Interior Renovation and Upgrade Services
@@ -315,8 +364,9 @@ const AboutSection = () => {
            Local Expertise and Presence in Dubai
           </h2>
             <p className=" text-left mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-              Although Business Bay is our main area of providing services, our knowledge and expertise extend throughout Dubai and the UAE. Being one of the best interior design companies in Dubai, we have successfully completed various projects including travel agency Office, Cafe Interiors, business bay restaurant and an apartment interior in different locations, always providing the best possible outcomes in luxury interior design Dubai, interior design in Dubai, and other upscale regions. <br /> <br />
-              Through our services we make sure that clients from other areas are also able to take advantage of our professional interior design and fit-out solutions. Our status as one of the best interior design companies in Business is reinforced by a portfolio of satisfied clients across Dubai’s premium districts.
+              Although Business Bay is our main area of providing services, our knowledge and expertise extend throughout Dubai and the UAE. Being one of the best interior design companies in Dubai, we have successfully completed various projects including <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-travel-agency">travel agency Office</a></b>, Cafe Interiors, business bay restaurant and an apartment interior in different locations, always providing the best possible outcomes in luxury interior design Dubai, interior design in Dubai, and other upscale regions. <br /> <br />
+              Through our services we make sure that clients from other areas are also able to take advantage of our professional interior design and fit-out solutions. Our status as one of the <b className="text-[#caa193]"
+            ><a href="https://wedointerior.ae/interior-design-companies-in-business-bay-dubai">best interior design companies in Business Bay</a></b> is reinforced by a portfolio of satisfied clients across Dubai’s premium districts.
 
             </p>
         </div>
