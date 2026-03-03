@@ -7,7 +7,16 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
-  {
+ 
+ {
+    title: "5 Things to Consider When Designing Your Business Bay Apartment",
+    date: "Published: 03.03.2026",
+    excerpt:
+      "Discover 5 key tips for designing your Business Bay apartment with modern layouts, luxury finishes, and smart technology by WE DO.",
+    image: "/images/business-bay-apartment-space-planning-in-dubai.png",
+    link: "/business-bay-apartment-design",
+  },
+   {
     title: "Office Interior Design Trends in Business Bay",
     date: "Published: 12.02.2026",
     excerpt:
@@ -24,14 +33,7 @@ const blogPosts = [
     image: "/images/high-end-luxury-villa-interior-in-Dubai.png",
     link: "/complete-villa-construction-dubai",
   },
-{
-    title: "5 Modern Apartment Interior Design",
-    date: "Published: 11.09.2025",
-    excerpt:
-      "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
-    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
-    link: "/modern-apartment-interior-design",
-  },
+
   
 ];
 

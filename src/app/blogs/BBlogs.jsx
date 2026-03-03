@@ -9,6 +9,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 const blogPosts = [
   
   {
+    title: "5 Things to Consider When Designing Your Business Bay Apartment",
+    date: "Published: 03.03.2026",
+    excerpt:
+      "Discover 5 key tips for designing your Business Bay apartment with modern layouts, luxury finishes, and smart technology by WE DO.",
+    image: "/images/business-bay-apartment-space-planning-in-dubai.png",
+    link: "/business-bay-apartment-design",
+  },
+  {
     title: "Office Interior Design Trends in Business Bay",
     date: "Published: 12.02.2026",
     excerpt:
