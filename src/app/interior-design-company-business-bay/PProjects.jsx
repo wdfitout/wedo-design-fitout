@@ -8,8 +8,8 @@ const services = [
   {
     title: "Office Interior Design In Business Bay",
     description:
-      "Bespoke residential & villa design tailored to your lifestyle and vision.",
-    bgImage: "/images/bba.png",
+      "Modern office fit-out, workspace planning, and commercial interior design in Dubai.",
+    bgImage: "/images/turnkey-fit-out-solutions-in-business-bay.png",
     link: "/office-interior-design-business-bay",
   },
   {
