@@ -7,7 +7,14 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
- 
+ {
+    title: "Essential Office Interior Elements in Business bay",
+    date: "Published: 18.03.2026",
+    excerpt:
+      "Explore essential office interior elements in Business Bay Dubai, including layout planning, lighting to create modern workspaces.",
+    image: "/images/dubai-office-aesthetic-interior-design-in-business-bay.png",
+    link: "/office-interior-elements-business-bay",
+  },
  {
     title: "5 Things to Consider When Designing Your Business Bay Apartment",
     date: "Published: 03.03.2026",
@@ -25,15 +32,6 @@ const blogPosts = [
     link: "/office-interior-design-trends-in-business-bay",
   },
   
-  {
-    title: "Villa Construction in Dubai",
-    date: "Published: 05.01.2026",
-    excerpt:
-      "Luxury villa construction in Dubai with complete construction execution, design & build, interior design and turnkey solutions",
-    image: "/images/high-end-luxury-villa-interior-in-Dubai.png",
-    link: "/complete-villa-construction-dubai",
-  },
-
   
 ];
 
