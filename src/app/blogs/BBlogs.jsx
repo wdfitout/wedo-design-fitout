@@ -7,7 +7,22 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
-  
+  {
+    title: "Essential Office Interior Elements in Business bay",
+    date: "Published: 18.03.2026",
+    excerpt:
+      "Explore essential office interior elements in Business Bay Dubai, including layout planning, lighting to create modern workspaces.",
+    image: "/images/dubai-office-aesthetic-interior-design-in-business-bay.png",
+    link: "/office-interior-elements-business-bay",
+  },
+  {
+    title: "5 Things to Consider When Designing Your Business Bay Apartment",
+    date: "Published: 03.03.2026",
+    excerpt:
+      "Discover 5 key tips for designing your Business Bay apartment with modern layouts, luxury finishes, and smart technology by WE DO.",
+    image: "/images/business-bay-apartment-space-planning-in-dubai.png",
+    link: "/business-bay-apartment-design",
+  },
   {
     title: "Office Interior Design Trends in Business Bay",
     date: "Published: 12.02.2026",

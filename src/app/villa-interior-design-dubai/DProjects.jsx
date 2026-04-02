@@ -10,12 +10,12 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/d1mbr (5).png', link: '/district-1-mbr-city-contemporary-villa', title: 'DISTRICT 1 MBR CITY VILLA' },
-  { src: '/images/d1villa (3).webp', link: '/district-one-contemporary-villa', title: 'DISTRICT 1 CONTEMPORARY VILLA' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/district-1-mbr-city-contemporary-villa-interior-design.png', link: '/district-1-mbr-city-contemporary-villa', title: 'DISTRICT 1 MBR CITY VILLA' },
+  { src: '/images/district-one-contemporary-villa.png', link: '/district-one-contemporary-villa', title: 'DISTRICT 1 CONTEMPORARY VILLA' },
+  { src: '/images/madinat-jumeirah-living-asayel-apartment.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
   { src: '/images/majanvilla (2).webp', link: '/majan-villa-design', title: 'MAJAN VILLA DESIGN' },
   { src: '/images/manara villa (33).webp', link: '/al-manara-luxury-villa', title: 'AL MANARA LUXURY VILLA' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
+  { src: '/images/palm-jumeirah-apartment-interior-design.png', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
  
 ];
 

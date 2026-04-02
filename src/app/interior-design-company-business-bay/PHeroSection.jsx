@@ -40,7 +40,7 @@ const PHeroSection = () => {
           {/* CTA Button */}
           <div className="mt-8">
             <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-              Our Business Bay Projects
+             <a href="https://wedointerior.ae/gallery">Our Business Bay Projects</a> 
             </button>
           </div>
 

@@ -82,7 +82,7 @@ const VHeroSection = () => {
           
             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Why WE DO Is Relevant for Business Bay Clients</h2>
             <p> With many years of experience working across Dubai’s most elite neighborhoods, WE DO designers have a deep 
-              understanding of the designs in Business Bay, from modern apartment design and luxury villa interiors to high-end 
+              understanding of the designs in Business Bay, from <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-apartment-design">modern apartment design</a></b> and luxury villa interiors to high-end 
               office spaces that enhance productivity and creativity. We blend aesthetic appeal, technical expertise, and 
               authority coordination to provide seamless results.</p> <br />
              <Image
@@ -212,7 +212,7 @@ const VHeroSection = () => {
              <li> <b class="text-[#caa193]">Handover –</b> Delivering your completed space ready for use.</li>
             </ul> <br />
 
-            <p>When it comes to interior design in Business Bay, WE DO Interior Design & Fitout is reputed as a uniqueness and reliable partner. Our commitment to deliver premium quality and bespoke service create us the <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery">best interior design company in Business Bay for both clients of homes and business</a></b>.
+            <p>When it comes to interior design in Business Bay, WE DO Interior Design & Fitout is reputed as a uniqueness and reliable partner. Our commitment to deliver premium quality and bespoke service create us the <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-company-business-bay">best interior design company in Business Bay for both clients of homes and business</a></b>.
 Eager to begin your project? Connect with WE DO Interior Design & Fitout today for a free consultation and explore how we can change your space into an excellence and masterpiece.
 </p>
           </div>

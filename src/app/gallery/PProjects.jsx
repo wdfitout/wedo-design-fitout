@@ -12,7 +12,7 @@ const projects = [
     href: "/dubai-silicon-oasis-apartment",
   },
   {
-    img: "/images/primo-sitting.jpg",
+    img: "/images/penth19.webp",
     alt: "Apartment Interior Design",
     title: "ii PRIMO PENTHOUSE",
     href: "/ii-primo-penthouse",
