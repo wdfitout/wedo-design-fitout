@@ -49,7 +49,7 @@ const AboutSection = () => {
       <div className="w-full mt-5 px-4 sm:px-6 md:px-8">
         <div className="w-full max-w-[1200px] mx-auto">
           <Image
-            src="/images/sec2-img1.webp"
+            src="/images/ssimg.webp"
             alt="Interior design Dubai"
             width={800}
             height={600}

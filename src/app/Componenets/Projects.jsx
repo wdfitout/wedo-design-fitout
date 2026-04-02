@@ -6,14 +6,14 @@ import Link from "next/link";
 
 const projects = [
   {
-    img: "/images/manara villa (33).webp",
+    img: "/images/ultra-luxury-villa-exterior-in-dubai.webp",
     alt: "Home Interior Design",
     title: "VILLA PROJECTS",
     desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai.",
     slug: "villa-projects",
   },
   {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
+    img: "/images/hm6.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
     desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted interior designers.",
@@ -27,7 +27,7 @@ const projects = [
     slug: "restaurant-projects",
   },
   {
-    img: "/images/x.learning (3).webp",
+    img: "/images/xlearn.webp",
     alt: "Office Interior Design",
     title: "OFFICE PROJECTS",
     desc: "Best office interior design fit out company in Dubai, offering tailored Office Design & Commercial Fit-Out in Dubai.",

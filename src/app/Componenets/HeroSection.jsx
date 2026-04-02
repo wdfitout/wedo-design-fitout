@@ -4,19 +4,22 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/images/luxury-interior-design-home-design-dubai.webp",
+  
+  "/images/hm1.webp",
+  "/images/hm2.webp",
+  "/images/hm3.webp",
+  "/images/hm4.webp",
+  "/images/hm5.webp",
   "/images/dubai-interior-design-companies-apartment-sitting-area.webp",
-  "/images/dubai-restaurant-interior-design-best-company.webp",
   "/images/luxury-apartment-dinning-experience.webp",
-  "/images/office-reception-interior-design-dubai.webp",
+  "/images/hm6.webp",
+  "/images/hm7.webp",
   "/images/dubai-atlantis-the-royal-luxury-apartment.webp",
-  "/images/retaurant-interior-design-dubai.webp",
-  "/images/dubai-interior-design-companies-luxury-villa.webp",
+  "/images/hm8.webp",
+  "/images/hm9.webp",
   "/images/best-retaurant-interior-design-dubai.webp",
   "/images/palm-jumeirah-luxury-apartment-living-room-interior-design-dubai.webp",
-  "/images/dubai-luxury-home-interior-design-company.webp",
-  "/images/dubai-interior-design-company-luxury-villa-sitting-room.webp",
-  "/images/no-1-house-interior-design-dubai.webp",
+ 
 ];
 
 const HeroSection = () => {

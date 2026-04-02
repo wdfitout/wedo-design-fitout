@@ -37,7 +37,7 @@ const DesignProjects = () => {
           
             <div className="block">
               <Image
-              src="/images/sec3-img01.webp"
+              src="/images/res.webp"
               alt="Residential Interior Design"
               width={1400}
               height={600}
