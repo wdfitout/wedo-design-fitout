@@ -8,6 +8,14 @@ import Link from "next/link";
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
  {
+    title: "Commercial Interior Fit-out in Business Bay Dubai",
+    date: "Published: 11.04.2026",
+    excerpt:
+      "Transform your workspace with premium commercial interior fit-out in Business Bay Dubai. WE DO Interior Design & Fitout offers expert office designs and tailored fit-out services.",
+    image: "/images/Commercial Interior Fit-out in Business Bay Dubai.png",
+    link: "/commercial-interior-fit-out",
+  },
+  {
     title: "Essential Office Interior Elements in Business bay",
     date: "Published: 18.03.2026",
     excerpt:
@@ -23,14 +31,7 @@ const blogPosts = [
     image: "/images/business-bay-apartment-space-planning-in-dubai.png",
     link: "/business-bay-apartment-design",
   },
-   {
-    title: "Office Interior Design Trends in Business Bay",
-    date: "Published: 12.02.2026",
-    excerpt:
-      "Explore the latest office interior design trends in Business Bay for 2026, including flexible layouts, biophilic design & luxury office fit-out solutions.",
-    image: "/images/smart-technology-integration-office-interior-business-bay.png",
-    link: "/office-interior-design-trends-in-business-bay",
-  },
+   
   
   
 ];

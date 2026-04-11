@@ -7,6 +7,15 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
+  
+   {
+    title: "Commercial Interior Fit-out in Business Bay Dubai",
+    date: "Published: 11.04.2026",
+    excerpt:
+      " Transform your workspace with premium commercial interior fit-out in Business Bay Dubai. WE DO Interior Design & Fitout offers expert office designs and tailored fit-out services.",
+    image: "/images/Commercial Interior Fit-out in Business Bay Dubai.png",
+    link: "/commercial-interior-fit-out",
+  },
   {
     title: "Essential Office Interior Elements in Business bay",
     date: "Published: 18.03.2026",
@@ -74,14 +83,7 @@ const blogPosts = [
     image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
     link: "/modern-apartment-interior-design",
   },
- {
-    title: "Tips For Luxury Villa Interior Design in Dubai",
-    date: "Published: 25.05.2025",
-    excerpt:
-      " Discover bespoke villa interior design in Dubai. From Al Manara to District 1 MBR City, we redefine through design & turnkey fitout.",
-    image: "/images/district-one-contemporary-villa-interior-luxury-villa-interior-design-in-dubai.png",
-    link: "/luxury-villa-interior-design-in-dubai",
-  },
+
 ];
 
 const Blogs = () => {
