@@ -18,7 +18,7 @@ const ApId = () => {
                Why Apartment Interior Design in Business Bay Requires Expertise            
                </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           Apartments in Business Bay need stylish space designing, high-end finishes, and unique design to align with the area’s contemporary living style. WE DO provide elegant apartment interior design and customized fit-out services in Business Bay, changing studios, 1-bedroom, and ordinary apartments into sophisticated, practical living spaces with full design, finishing, and project management</p>
+           Apartments in Business Bay need stylish space designing, high-end finishes, and unique design to align with the area’s contemporary living style. WE DO provide elegant <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design</a></b> and customized fit-out services in Business Bay, changing studios, 1-bedroom, and ordinary apartments into sophisticated, practical living spaces with full design, finishing, and project management</p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
           Crafting in Business Bay needs expert knowledge of high-end living, waterfront layouts, and luxurious residential standards. WE DO is one of Dubai’s exclusive districts, apartments here require pure elegance, unique space planning, and strict compliance with building regulations.
             </p>
@@ -30,7 +30,7 @@ const ApId = () => {
             <h3 className="text-sm sm:text-xl md:text-sm font-conthrax tracking-widest text-[#caa193] py-2">
              Compact Studios & Smart Space Planning         
             </h3>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">Studios and compact units in business bay Dubai reflect unique challenges. Limited layouts required thoughtful space planning, built-in storage, and practical design elements. Experienced apartment interior design Business Bay services elevate smart storage design, vertical integration, and flawless completion of living, dining, and sleeping zones to manage both luxury and style.</p>
+           <p className="text-sm sm:text-base leading-7 mb-4 font-play">Studios and compact units in business bay Dubai reflect unique challenges. Limited layouts required thoughtful space planning, built-in storage, and practical design elements. Experienced <b className="text-[#caa193]" ><a href="https://wedointerior.ae/apartment-interior-design-business-bay">apartment interior design Business Bay services</a></b> elevate smart storage design, vertical integration, and flawless completion of living, dining, and sleeping zones to manage both luxury and style.</p>
 
             <h3 className="text-sm sm:text-xl md:text-sm font-conthrax tracking-widest text-[#caa193] py-2">
              Building Regulations & Professional Coordination         

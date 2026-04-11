@@ -31,7 +31,7 @@ const DProjects = () => {
             <h3 className="text-sm sm:text-xl md:text-sm font-conthrax tracking-widest text-[#caa193] py-2">
              Creative Design & Mood Board Creation
             </h3>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">We start each Business Bay Apartment Interior Design Dubai project with a deep artistic direction. Our experienced designers develop themes, material palettes, and cohesive colors and furniture approaches matched with your living style and the character of modern apartments in Business Bay.</p>
+           <p className="text-sm sm:text-base leading-7 mb-4 font-play">We start each <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-apartment">Business Bay Apartment Interior Design Dubai project</a></b> with a deep artistic direction. Our experienced designers develop themes, material palettes, and cohesive colors and furniture approaches matched with your living style and the character of modern apartments in Business Bay.</p>
 
             <h3 className="text-sm sm:text-xl md:text-sm font-conthrax tracking-widest text-[#caa193] py-2">
             2D Layout & Space Planning
@@ -163,11 +163,11 @@ const DProjects = () => {
             
             <li>
             <h3 className='font-play'>Consultation & Site Evaluation</h3>
-             <p className='text-white font-play'>WE DO start with a detailed site visit to acknowledge your apartment’s layout, natural light, and structural situations. This step of the process is exclusive for Business Bay Apartment Interior Design Dubai projects, giving us permission to assess the potential for space planning and practical enhancements.</p>
+             <p className='text-white font-play'>WE DO start with a detailed site visit to acknowledge your apartment’s layout, natural light, and structural situations. This step of the process is exclusive for Business Bay <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-projects">Apartment Interior Design Dubai projects</a></b>, giving us permission to assess the potential for space planning and practical enhancements.</p>
             </li>
 
              <li>
-            <h3 className='font-'>Concept Development & Space Planning</h3>
+            <h3 className='font-play'>Concept Development & Space Planning</h3>
              <p className='text-white font-play'>WE DO have experienced designers deliver an artistic vision matched with your living style. We craft each design space intelligently, integrating layouts for studios, 1-bedroom, 2-bedroom apartments, or luxury apartments in Business Bay. This makes sure both modernity and practicality are reflected together.</p>
             </li>
 
@@ -179,15 +179,17 @@ const DProjects = () => {
 
              <li>
             <h3 className='font-play'>Building Coordination & Documentation</h3>
-             <p className='text-white font-play'>Working in business bay dubai, we cooperate with building authorities, manage approvals, and make sure compliance with all local regulations. Our professionals are among the leading interior design and fit-out companies in Business Bay, managing documentation for a seamless process.</p>
+             <p className='text-white font-play'>Working in business bay dubai, we cooperate with building authorities, manage approvals, and make sure compliance with all local regulations. Our professionals are among the leading <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-companies-in-business-bay-dubai">interior design and fit-out companies in Business Bay</a></b>, managing documentation for a seamless process.</p>
             </li>
-           
+            <li>
             <h3 className='font-play'>Execution & Fit-Out Management</h3>
              <p className='text-white font-play'>Our specialist executes the project with accuracy, optimizing Modern Apartment Interior Fit-Out in Business Bay services, bespoke joinery, and luxury completion. From studio apartments in Executive Towers to penthouses close to the Dubai Canal, we handle each detail exclusively.</p>
-
+           </li>
+           <li> 
              <h3 className='font-play'>Final Inspection & Handover</h3>
              <p className='text-white font-play'>When once the fit-out is finished, we do a thorough inspection to make sure each detail meets our standards. The final result is a turn-key apartment interior design ready for contemporary living, blending comfort, and practicality.
              </p>
+             </li>
             </ul>
               
           </div>
@@ -255,7 +257,7 @@ const DProjects = () => {
                Why Choose WE DO for Apartment Interior Design in Business Bay
             </h2> 
             <p>
-            We are the best interior design company in Business Bay, WE DO have experienced craftsmen who are skilled in Business Bay Apartment Interior Design Dubai. We deliver high quality modern apartment interiors for studios, 1- and 2-bedroom apartments, and luxury apartments in Business Bay, making sure each interior design project showcases luxury, practicality, and elegance attention to details. Our skilled designers also specialize in creating personalized layouts, hidden storage, and turn-key apartment interior design services specific to each client’s living style. 
+            We are the <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-company-business-bay">best interior design company in Business Bay</a></b>, WE DO have experienced craftsmen who are skilled in Business Bay Apartment Interior Design Dubai. We deliver high quality modern apartment interiors for studios, 1- and 2-bedroom apartments, and luxury apartments in Business Bay, making sure each interior design project showcases luxury, practicality, and elegance attention to details. Our skilled designers also specialize in creating personalized layouts, hidden storage, and turn-key apartment interior design services specific to each client’s living style. 
          <br /><br />
           WE DO offer full design and build services, covering in-house joinery & carpentry, dedicated project completion, and flawless coordination with building management in business bay dubai. With a seamless finishing process and commitment to on time delivery, WE DO make sure that each apartment interior design Business Bay services project is completed meticulously, resulting in modern apartment interior fit-out in Business Bay that blends modernity, style, and innovation.</p>
               
@@ -284,7 +286,7 @@ const DProjects = () => {
           1 Bedroom Apartment Interior Design
           </h3>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-          One-bedroom apartments close to Bay Avenue or Marina Gate desire a balance of privacy and sophistication. Using intelligent colors and furniture, functional storage, and exclusive layouts, we design Business Bay Apartment Interior Design Dubai services that are innovative yet modern.
+          One-bedroom apartments close to Bay Avenue or Marina Gate desire a balance of privacy and sophistication. Using intelligent colors and furniture, functional storage, and exclusive layouts, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-apartment-design">Business Bay Apartment designs</a></b>  are innovative yet modern.
          </p>
 
           <h3 className="text-sm sm:text-xl md:text-sm font-conthrax tracking-widest text-[#caa193] py-2">
