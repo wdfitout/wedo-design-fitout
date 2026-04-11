@@ -5,21 +5,20 @@ import Image from "next/image";
 
 const images = [
   
+  "/images/hm3.webp",
   "/images/hm1.webp",
   "/images/hm2.webp",
-  "/images/hm3.webp",
   "/images/hm4.webp",
   "/images/hm5.webp",
-  "/images/dubai-interior-design-companies-apartment-sitting-area.webp",
-  "/images/luxury-apartment-dinning-experience.webp",
   "/images/hm6.webp",
   "/images/hm7.webp",
-  "/images/dubai-atlantis-the-royal-luxury-apartment.webp",
   "/images/hm8.webp",
   "/images/hm9.webp",
-  "/images/best-retaurant-interior-design-dubai.webp",
+  "/images/dubai-interior-design-companies-apartment-sitting-area.webp",
+  "/images/dubai-atlantis-the-royal-luxury-apartment.webp",  
   "/images/palm-jumeirah-luxury-apartment-living-room-interior-design-dubai.webp",
- 
+  "/images/luxury-apartment-dinning-experience.webp",
+  "/images/best-retaurant-interior-design-dubai.webp",
 ];
 
 const HeroSection = () => {
