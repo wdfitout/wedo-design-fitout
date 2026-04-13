@@ -7,6 +7,7 @@ import Projects from "./Componenets/Projects";
 import DesignProjects from "./Componenets/DesignTypes";
 import Features from "./Componenets/Features";
 import Services from "./Componenets/Services";
+import AreasWeServe from "./Componenets/AreasWeServe";
 import Blogs from "./Componenets/Blogs";
 import Testimonials from "./Componenets/Testimonials";
 import OurAuthorities from "./Componenets/OurAuthorities";
@@ -30,6 +31,7 @@ export default function Home() {
         <DesignProjects />
         <Features />
         <Services />
+        <AreasWeServe />
         <Blogs />
         <Testimonials />
          <div className="bg-[#f5ede5]">
