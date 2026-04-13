@@ -5,37 +5,36 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-    {
-    img: "/images/x.learning (5).webp",
-    alt: "Home Interior Design",
-    title: "DUBAI KNOWLEDGE PARK OFFICE FIT OUT",
-    href: "/dubai-knowledge-park-office-fit-out",
-  },
-   
-      {
-    img: "/images/commercial (4).webp",
-    alt: "Home Interior Design",
-    title: "AL SAFA REAL ESTATE OFFICE",
-    href: "/al-safa-real-estate-office",
-  },
-    {
-    img: "/images/commercial (5).webp",
-    alt: "Restaurant Interior Design",
-    title: "BUSINESS BAY TRAVEL AGENCY",
-    href: "/business-bay-travel-agency",
-  },
-   {
-    img: "/images/startech (1).webp",
-    alt: "Restaurant Interior Design",
-    title: "BUSINESS BAY OFFICE FIT OUT",
-    href: "/business-bay-office-fit-out",
-  },
-    {
-    img: "/images/sns (1).webp",
+  {
+    img: "/images/penth19.webp",
     alt: "Apartment Interior Design",
-    title: "DUBAI OFFICE INTERIOR",
-    href: "/dubai-office-interior",
-  }
+    title: "ii PRIMO PENTHOUSE",
+    href: "/ii-primo-penthouse",
+  },
+    {
+    img: "/images/magapt (10).png",
+    alt: "Apartment Interior Design",
+    title: "MARINA GATE PENTHOUSE",
+    href: "/marina-gate-penthouse",
+  },
+    {
+    img: "/images/Residential (4).webp",
+    alt: "Home Interior Design",
+    title: "PALM JUMEIRAH 2 BEDROOM PENTHOUSE",
+    href: "/palm-jumeirah-2-bedroom-penthouse",
+  },
+    {
+    img: "/images/Residential (6).webp",
+    alt: "Apartment Interior Design",
+    title: "PALM JUMEIRAH 6 BEDROOM PENTHOUSE",
+    href: "/palm-jumeirah-6-bedroom-penthouse",
+  },
+    {
+    img: "/images/blpph (1).png",
+    alt: "Restaurant Interior Design",
+    title: "BOULEVARD POINT PENTHOUSE",
+    href: "/boulevard-point-penthouse",
+  },
   
 
 ];
@@ -62,7 +61,7 @@ const PProjects = () => {
         {/* Section Title */}
         <div className="relative mb-6 sm:mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
-            OFFICE PROJECTS IN DUBAI
+            PENTHOUSE PROJECTS IN DUBAI
           </h2>
         </div>
 

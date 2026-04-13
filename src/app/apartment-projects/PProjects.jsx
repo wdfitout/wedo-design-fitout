@@ -5,6 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
+     {
+    img: "/images/penth19.webp",
+    alt: "Apartment Interior Design",
+    title: "ii PRIMO PENTHOUSE",
+    href: "/ii-primo-penthouse",
+  },
+ 
   {
     img: "/images/bba (8).webp",
     alt: "Home Interior Design",
@@ -77,14 +84,6 @@ const projects = [
     title: "MADINAT JUMEIRAH LIVING ASAYEL APARTMENT",
     href: "/madinat-jumeirah-living-asayel-apartment",
   },
-
-  {
-    img: "/images/modern-apartment-interior-design-in-dubai.webp",
-    alt: "Apartment Interior Design",
-    title: "ii PRIMO PENTHOUSE",
-    href: "/ii-primo-penthouse",
-  },
-
 
   {
     img: "/images/fvapt (1).png",

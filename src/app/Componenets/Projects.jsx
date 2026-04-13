@@ -6,27 +6,27 @@ import Link from "next/link";
 
 const projects = [
   {
-    img: "/images/ultra-luxury-villa-exterior-in-dubai.webp",
+    img: "/images/villa-projects-dubai.avif",
     alt: "Home Interior Design",
     title: "VILLA PROJECTS",
     desc: "Transform your home with bespoke villa interior design in Dubai. We specialize in luxury villa design Dubai.",
     slug: "villa-projects",
   },
   {
-    img: "/images/hm6.webp",
+    img: "/images/penth15.webp",
     alt: "Modern Apartment Interior Design",
     title: "APARTMENT PROJECTS",
     desc: "Expert in apartment design Dubai, we offer complete fitout service of apartment and are a trusted interior designers.",
     slug: "apartment-projects",
   },
-  {
-    img: "/images/dubai-interior-design-company-restaurant-counter.webp",
-    alt: "Restaurant Interior Design",
-    title: "RESTAURANT PROJECTS",
-    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants.",
-    slug: "restaurant-projects",
+    {
+    img: "/images/penth1.webp",
+    alt: "Villa Construction",
+    title: "PENTHOUSE PROJECTS",
+    desc: "Trusted villa construction company Dubai with expert villa contractors. A full-service design and build company.",
+    slug: "penthouse-projects",
   },
-  {
+    {
     img: "/images/xlearn.webp",
     alt: "Office Interior Design",
     title: "OFFICE PROJECTS",
@@ -34,19 +34,21 @@ const projects = [
     slug: "office-projects",
   },
   {
+    img: "/images/restaurant-projects-dubai.avif",
+    alt: "Restaurant Interior Design",
+    title: "RESTAURANT PROJECTS",
+    desc: "Leading restaurant interior design & fit out contractor in Dubai, crafting unique dining experiences for cafés and restaurants.",
+    slug: "restaurant-projects",
+  },
+
+  {
     img: "/images/beauty-salon-spa-retail-interior-design.webp",
     alt: "Retail Interior Design",
     title: "RETAIL PROJECTS",
     desc: "Top retail interior design company in Dubai, trusted among the best interior fit out companies in Dubai.",
     slug: "retail-projects",
   },
-  {
-    img: "/images/ultra-luxury-villa-exterior-in-dubai.webp",
-    alt: "Villa Construction",
-    title: "VILLA CONSTRUCTION",
-    desc: "Trusted villa construction company Dubai with expert villa contractors. A full-service design and build company.",
-    slug: "villa-construction-dubai",
-  },
+
 ];
 
 const Projects = () => {
