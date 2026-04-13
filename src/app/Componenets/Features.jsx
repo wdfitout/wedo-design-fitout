@@ -25,7 +25,7 @@ const cardData = [
   },
   {
     title: "RESTAURANT INTERIOR DESIGN",
-    img: "/images/serv3.webp",
+    img: "/images/xaima (14).webp",
     desc: "Customized restaurant interior design services in Dubai, crafting unique dining atmospheres. Experts in restaurants & café interior design.",
     link: "/restaurant-interior-design",
   },
