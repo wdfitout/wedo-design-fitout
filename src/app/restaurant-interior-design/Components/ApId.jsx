@@ -18,7 +18,7 @@ const ApId = () => {
              Restaurant Interior Design & Fit-Out Services in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            WEDO Interior Design and Fitout provide bespoke <b><a href="https://wedointerior.ae/restaurant-projects">restaurant interior design </a></b> & fit‑outs for the F&B industry in JBR, Downtown,
+            WEDO Interior Design and Fitout provide bespoke <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">restaurant interior design </a></b> & fit‑outs for the F&B industry in JBR, Downtown,
             Dubai Marina, Palm Jumeirah, Business Bay etc.Transform your dining concept into a destination with the help of the 
             best interior design company in Dubai for restaurants. As leading restaurant fit-out contractors in Dubai, we deliver 
             luxury, guest-centric commercial interior design from chic cafés on Jumeirah Beach Residence to fine-dining rooftops in Downtown and modern lounges overlooking Dubai Marina. Book Your Free Concept Consultation.
@@ -46,7 +46,7 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
              <Image
-              src="/images/atlantis (2).webp"
+              src="/images/xaima (8).webp"
               alt="Watch our company video"
               width={1280}
               height={720}
@@ -59,16 +59,16 @@ const ApId = () => {
                 </div>
               </div>
             ) : (
-              <div className="w-full aspect-video border-4 border-[#caa193] rounded-lg overflow-hidden">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/yNeCQLpYvww?autoplay=1&mute=1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
+              <div className="w-full border-4 border-[#caa193] rounded-lg overflow-hidden flex justify-center">
+  <blockquote
+    className="instagram-media"
+    data-instgrm-permalink="https://www.instagram.com/p/DI_9Xf5ucyP/"
+    data-instgrm-version="14"
+    style={{ width: "100%", maxWidth: "540px" }}
+  ></blockquote>
+
+  <script async src="//www.instagram.com/embed.js"></script>
+</div>
             )}
 
             {/* Optional Highlight or CTA */}

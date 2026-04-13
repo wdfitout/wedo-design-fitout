@@ -4,18 +4,18 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/dubai-interior-design-company-restaurant-counter.webp',
+  link: '/downtown-dubai-restaurant',
+  title: 'DOWNTOWN DUBAI RESTAURANT'
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/crazymask (7).webp', link: '/jbr-restaurant-interior', title: 'JBR RESTAURANT INTERIOR' },
+  { src: '/images/dtrest (2).webp', link: '/downtown-dubai-restaurant', title: 'DOWNTOWN DUBAI RESTAURANT' },
+  { src: '/images/sahelnom (5).webp', link: '/business-bay-restaurant', title: 'BUSINESS BAY RESTAURANT' },
+  { src: '/images/piadera (9).webp', link: '/world-trade-center-restaurant', title: 'WORLD TRADE CENTER RESTAURANT' },
+  { src: '/images/xaima (10).webp', link: '/dubai-restaurant-interior-fit-out', title: 'DUBAI RESTAURANT INTERIOR FIT OUT' },
+  { src: '/images/fujiya (6).webp', link: '/dubai-mall-restaurant', title: 'DUBAI MALL RESTAURANT INTERIOR' },
 ];
 
 const DProjects = () => {
@@ -30,7 +30,7 @@ const DProjects = () => {
           Why Restaurant Interior Design Matters in Dubai?
           </h2>
           <p className="text-sm sm:text-base text-white font-play">
-           The restaurant interior design plays a very important role in attracting the customers in the Food & beverage
+           The <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design-dubai">restaurant interior design Dubai</a></b> plays a very important role in attracting the customers in the Food & beverage
            industry of Dubai.  A beautifully designed space not only impresses the customers but also leaves a long lasting
             impression on the people which automatically results in repetitive visits and social engagement for the business. 
             It boosts the working and creativity of staff and guest satisfaction rate. That’s why choosing a trusted restaurant
@@ -57,9 +57,11 @@ const DProjects = () => {
           </a>
         </div>
       </div>
-
+      
+               <h2 className="text-center text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] mb-10">
+      OUR RESTAURANT INTERIOR DESIGN PROJECTS IN DUBAI</h2>
       {/* Gallery Grid with Hover Effects */}
-      <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
+      <div className=" w-full h-[350px] object-cover lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
             <Image
@@ -115,7 +117,7 @@ const DProjects = () => {
              Our Process: From Concept to Completion
             </h2>
             <p>
-            At WE DO Interior Design & Fitout, our approach to restaurant interior design in Dubai is fully turnkey crafted 
+            At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, our approach to restaurant interior design in Dubai is fully turnkey crafted 
             to deliver seamless results across JBR, Downtown, Dubai Marina, and beyond. Here’s how we bring your vision to life:
             </p>
             <p>
@@ -162,7 +164,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/xaima (11).webp"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -175,7 +177,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/downtown-dubai-luxury-interior-design.webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -212,7 +214,7 @@ const DProjects = () => {
         </h2>
           
         <p className="font-play text-sm sm:text-base text-white text-start py-2">
-         As a best interior fit-out design company for restaurants in UAE, we are skilled in creating unique environments 
+         As a best interior design firm for restaurant in UAE, we are skilled in creating unique environments 
          according to your concept, interest and location. Our expertise across full spectrum of the F&B industry, including:
          </p>
           
@@ -251,8 +253,7 @@ const DProjects = () => {
            earning the long-term trust of our clients through every project we complete.
          </p>
           <p className="font-play text-sm sm:text-base text-white">
-         Ready to create a standout space for your Restaurant? Tap the button below to discuss your bespoke restaurant interior 
-         design and fit‑out anywhere in Dubai, UAE.
+         Ready to create a standout space for your Restaurant? Tap the button below to discuss your bespoke restaurant fit out dubai anywhere in Dubai, UAE.
       </p>
         </div>
       </div>
