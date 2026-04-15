@@ -11,7 +11,7 @@ const blogPosts = [
     title: "Commercial Interior Fit-out in Business Bay Dubai",
     date: "Published: 11.04.2026",
     excerpt:
-      "Transform your workspace with premium commercial interior fit-out in Business Bay Dubai.  WE DO Offers expert interior fit-outs",
+      "Expert modern commercial interior fit-out and luxury office design in Business Bay Dubai by leading WE DO Interior Design & Fitout.",
     image: "/images/Commercial Interior Fit-out in Business Bay Dubai.png",
     link: "/commercial-interior-fit-out",
   },

@@ -3,7 +3,7 @@ import '../globals.css';
 export const metadata = {
   title: " Commercial Interior Fit-out in Business Bay Dubai | WEDO",
   description:
-    "Transform your workspace with premium commercial interior fit-out in Business Bay Dubai. WE DO Interior Design & Fitout offers expert office designs and tailored fit-out services. ",
+    "Expert modern commercial interior fit-out and luxury office design in Business Bay Dubai by leading WE DO Interior Design & Fitout.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/commercial-interior-fit-out',

@@ -33,7 +33,7 @@ const VHeroSection = () => {
             <p>April 11, 2026 • No Comments</p>
           </div>
 
-          <h1 className="text-[#caa193] text-3xl font-conthrax leading-tight py-10 uppercase">
+          <h1 className="text-[#caa193] text-3xl font-conthrax leading-tight py-10 ">
             The Ultimate Guide to Commercial Interior Fit-out in Business Bay Dubai
           </h1>
 
@@ -50,7 +50,7 @@ const VHeroSection = () => {
 
          
           <div className="text-md leading-relaxed font-play space-y-4">
-            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">Why Commercial Interior Fit-out Matters in Business Bay Dubai</h2>
+            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">Why Commercial Interior Fit-out Matters in Business Bay Dubai</h2>
             <p>
               Business Bay Dubai is the hub to a wide range of businesses , from scratches to corporations. In such a competitive ecosystem, companies should go beyond basic practicality to design workspaces that stand out. This is where the specialization of the best <b>Fit Out Company In Business Bay Dubai</b> becomes essential.
             </p>
@@ -65,7 +65,7 @@ const VHeroSection = () => {
           </div>
 
           <div className="text-md leading-relaxed font-play space-y-4">
-            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">Understanding The Interior Fit-Out Process</h2>
+            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">Understanding The Interior Fit-Out Process</h2>
             <p>
             A successful project is built on a well-planned vision, and understanding <b>The Interior Fit-Out Process</b> is key to getting desired results. This process makes sure that each stage of the project is completed exclusivity and with attention to detail.
             </p>
@@ -91,7 +91,7 @@ const VHeroSection = () => {
           </div>
 
           <div className="text-md leading-relaxed font-play space-y-4">
-             <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">The Role of a Professional Interior Design Company</h2>
+             <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">The Role of a Professional Interior Design Company</h2>
             <p>
               Selecting the right interior company for your project is one of the most crucial decisions you will make. With various<b> interior firms in Dubai</b> delivering services, it is important to choose a company that blends experience, artistic, and practicality.</p>
             
@@ -102,7 +102,7 @@ const VHeroSection = () => {
               Selecting the right interior company for your project is one of the most crucial decisions you will make. With various<b> interior firms in Dubai</b> delivering services, it is important to choose a company that blends experience, artistic, and practicality.</p>
             </p>
             
-            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">Design Trends Influencing Modern Workspaces</h2>
+            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">Design Trends Influencing Modern Workspaces</h2>
             <p>
              The field of office interior design in the UAE has changed significantly in recent years. Businesses are increasingly adopting innovative design concepts that elevate collaboration and workers development.  Technology optimization is another crucial aspect of contemporary design. Smart systems, modern lighting services, and comfortable furniture are now important aspects of a successful Commercial Interior Fit-out. These trends are being embraced by Top Interior design companies in Business Bay, covering WE DO Interior Design & Fitout, to design workspaces that are both functional and future-ready.</p>
 
@@ -111,11 +111,11 @@ const VHeroSection = () => {
           </div>
 
           <div className="text-md leading-relaxed font-play space-y-4">
-           <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">What Defines a Successful Office Fit Out</h2>
+           <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">What Defines a Successful Office Fit Out</h2>
             <p>
               A successful and developed Office Fit Out is one that gets the perfect balance between elegance and innovation. It is not just about designing a visually appealing space but also about making sure that the workspace supports daily operations exclusively. Businesses that invest in experienced commercial interior design services benefit from improved efficiency and a deeper brand image. That is why many businesses select to work with the best commercial interior design company In Dubai to get their goals.</p>
            
-            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax uppercase">Why Businesses Choose WE DO Interior Design & Fitout</h2>
+            <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">Why Businesses Choose WE DO Interior Design & Fitout</h2>
             <p>
               In a market filled with options, choosing the right Fit Out Company In Business Bay Dubai can be difficult. What sets WE DO Interior Design & Fitout apart is its dedication to high-end quality, innovation, and client satisfaction. Our company has built a deep reputation as one of the biggest interior design companies by consistently offering iconic projects. Our skills in Commercial Fit Out allows it to manage projects of different sizes and difficulties with ease. </p>
 
