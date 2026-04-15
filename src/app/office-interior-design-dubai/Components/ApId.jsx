@@ -18,18 +18,7 @@ const ApId = () => {
               Office Interior Fitout Companies in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            At WE DO interior, we know that <b><a href="https://wedointerior.ae/office-projects">Office interior design Dubai </a></b>plays a very important role in enhancing the
-            brand image, shaping productivity and supporting the well being of employees. A Strategically designed work 
-            space not only enhances the functionality but also improves creativity, collaboration and motivation to do 
-            more work for employees. Every Interior design element in a place contributes to a more efficient and peaceful
-            work environment. For businesses who are investing in professional office interior design, we make sure that
-            the workspace reflects the values and it leaves a long lasting positive impact on clients and visitors.</p>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            In the city of Dubai, whether in DIFC, Business Bay, Dubai Marina, Jumeirah Lake Towers (JLT) or Dubai Media City,
-            competition is high and first impressions matter. A good office interior design in Dubai significantly influences 
-            client perception. A well designed interior not only represents a company but also communicates professionalism,
-            innovation, and attention to detail. Our Office interior fitout enhances both employee performance and business
-            growth.
+           Dubai is famous as a business hub, the requirements for quality <b> office interior design Dubai </b> is increasing day by day as the companies are now giving attention to practicality, branding, and employee productivity. <b> WE DO Interior Design & Fitout </b> is well known as one of the top <b> office interior fit-out companies in Dubai</b>, delivering innovative workspaces according to contemporary business needs. We are a reliable <b> interior design & office fit-out company in Dubai </b>, our experienced designers blend their expertise with technical elegance in order to offer the best results.
            </p>
            
             {/* Highlight Box */}
