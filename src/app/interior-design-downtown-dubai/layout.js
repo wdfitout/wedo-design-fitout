@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Business Bay, Dubai - WE DO interiors",
+  title: "Best Interior Design Company in DownTown, Dubai - WE DO interiors",
   description:
-    "Luxury interior design company in Business Bay delivering office, apartment & turnkey fit-outs. Schedule your free consultation today.",
+    "Transform your space with the top interior design company in Downtown Dubai. We specialize in luxury apartment renovations, high-end office fit-outs, and bespoke turnkey solutions near Burj Khalifa. Schedule your free consultation today!",
   keywords:[
     "interior design company Business Bay",
     "interior design company in Business Bay Dubai",

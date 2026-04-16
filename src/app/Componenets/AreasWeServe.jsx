@@ -6,28 +6,30 @@ import React from "react";
 
 const areas = [
   {
+    title: "Interior Design Dubai Creek Harbour",
+    description: "Waterfront apartment design and contemporary lifestyle interiors in Dubai Creek.",
+    bgImage: "/images/dbckapt (5).png",
+    link: "/interior-design-dubai-creek-harbour",
+  },
+  {
+    
     title: "Office Interior Design In Business Bay",
-    description: "Modern office fit-out and workspace planning.",
-    bgImage: "/images/turnkey-fit-out-solutions-in-business-bay.png",
-    link: "/office-interior-design-business-bay",
-  },
-  {
-    title: "Apartment Interior Design In Business Bay",
-    description: "Luxury apartment interiors with premium finishes.",
-    bgImage: "/images/01-living-07.jpg",
-    link: "/apartment-interior-design-business-bay",
-  },
-  {
-    title: "Interior Design Company In Business Bay",
-    description: "Bespoke Commercial & Residential interiors with modern aesthetics.",
-    bgImage: "/images/startech (3).webp",
+    description: "Modern office fit-out and workspace planning in Business Bay",
+    bgImage: "/images/adbr (9).png",
     link: "/interior-design-company-business-bay",
   },
   {
-    title: "Restaurant Interior Design In Business Bay",
-    description: "Creative restaurant spaces that enhance experience.",
-    bgImage: "/images/adbr (6).png",
-    link: "/restaurant-interior-design-business-bay",
+    
+    title: "Interior Design Downtown Dubai",
+    description: "Elite residential design and high-end penthouse fit-out in Downtown",
+    bgImage: "/images/dtrest (2).webp",
+    link: "/interior-design-downtown-dubai",
+  },
+  {
+    title: "Interior Design Jumeirah Dubai",
+    description: "Luxury villa renovation and premium interior styling in Jumeirah.",
+    bgImage: "/images/pjapt (5).webp",
+    link: "/interior-design-jumeirah-dubai",
   },
 ];
 

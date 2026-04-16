@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Business Bay, Dubai - WE DO interiors",
+  title: "Best Interior Design Company in Creek Harbour, Dubai - WE DO interiors",
   description:
-    "Luxury interior design company in Business Bay delivering office, apartment & turnkey fit-outs. Schedule your free consultation today.",
+    "Elevate your space with the top interior design company in Dubai Creek Harbour. We deliver luxury apartment, office, and turnkey fit-out solutions tailored to your lifestyle. Transform your waterfront property with our expert team. Schedule your free consultation today!",
   keywords:[
     "interior design company Business Bay",
     "interior design company in Business Bay Dubai",

@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Business Bay, Dubai - WE DO interiors",
+  title: "Best Interior Design Company in Jumeirah, Dubai - WE DO interiors",
   description:
-    "Luxury interior design company in Business Bay delivering office, apartment & turnkey fit-outs. Schedule your free consultation today.",
+    "Luxury interior design company in Jumeirah delivering premium office, apartment & turnkey fit-outs. Schedule your free consultation today.",
   keywords:[
     "interior design company Business Bay",
     "interior design company in Business Bay Dubai",
