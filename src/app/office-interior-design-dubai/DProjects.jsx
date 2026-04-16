@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/x.learning (11).webp',
+  link: '/dubai-knowledge-park-office-fit-out',
+  title: 'DUBAI KNOWLEDGE PARK OFFICE FIT OUT'
 };
 
 const galleryImages = [
@@ -73,9 +73,16 @@ const DProjects = () => {
           </a>
         </div>
       </div>
+<<<<<<< HEAD
 
       {/* 4. Types of Office Spaces We Design (Gallery Grid) */}
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10">
+=======
+            <h2 className=" font-conthrax text-center text-xs sm:text-xl md:text-xl font-bold tracking-widest mb-6 uppercase text-[#caa193]">
+      OUR OFFICE INTERIOR DESIGN PROJECTS IN DUBAI</h2>
+      {/* Gallery Grid with Hover Effects */}
+      <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
+>>>>>>> 7f47e24 (office interior page)
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
             <Image src={src} alt={title} width={400} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" />

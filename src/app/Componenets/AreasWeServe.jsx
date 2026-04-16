@@ -18,10 +18,10 @@ const areas = [
     link: "/apartment-interior-design-business-bay",
   },
   {
-    title: "Villa Interior Design In Business Bay",
-    description: "Bespoke villa interiors with modern aesthetics.",
-    bgImage: "/images/ATRD (2).webp",
-    link: "/villa-interior-design-business-bay",
+    title: "Interior Design Company In Business Bay",
+    description: "Bespoke Commercial & Residential interiors with modern aesthetics.",
+    bgImage: "/images/startech (3).webp",
+    link: "/interior-design-company-business-bay",
   },
   {
     title: "Restaurant Interior Design In Business Bay",

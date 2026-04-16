@@ -41,7 +41,7 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
              <Image
-              src="/images/atlantis (2).webp"
+              src="/images/nestfinder (10).webp"
               alt="Watch our company video"
               width={1280}
               height={720}
@@ -54,16 +54,19 @@ const ApId = () => {
                 </div>
               </div>
             ) : (
-              <div className="w-full aspect-video border-4 border-[#caa193] rounded-lg overflow-hidden">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/yNeCQLpYvww?autoplay=1&mute=1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
+                    <div className="w-full border-4 border-[#caa193] rounded-lg overflow-hidden flex justify-center">
+                       <blockquote
+                        className="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/DI_-AXpuMt9/"
+                        data-instgrm-version="14"
+                        style={{ width: "100%", maxWidth: "540px" }}
+                       ></blockquote>
+
+                       <script async src="//www.instagram.com/embed.js"></script>
+                   </div>
+
+
+
             )}
 
             {/* Optional Highlight or CTA */}

@@ -6,7 +6,7 @@ export const metadata = {
     "WE DO Interior offers office interior design and fit-out services in Dubai, with customized workspaces in DIFC,Dubai Marina, Business Bay etc . Call Now",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/apartment-interior-design-dubai',
+    canonical: '/office-interior-design-dubai',
   },
 };
 
