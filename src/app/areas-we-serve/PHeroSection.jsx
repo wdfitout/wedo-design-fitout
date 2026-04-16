@@ -24,7 +24,7 @@ const PHeroSection = () => {
       BEST INTERIOR DESIGN COMPANY DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    Enhance productivity with expert Office Interior Design & Fit-Out by WE DO Interior Design & Fitout. Serving Dubai Knowledge Park and Business Bay, we specialize in modern office spaces, design and build solutions, and premium office furniture. As a trusted Office Fit-Out Company in Dubai, we craft workspaces that inspire innovation and efficiency. </p>
+    Enhance productivity with expert Interior Designers from WE DO Interior Design & Fitout. Serving in heart of Dubai and in all high end and luxury living and commercial spaces like Business Bay, Downtown, Palm Jumeirah, Dubai Marina, MBR City and in  we specialize in modern office spaces, design and build solutions, and premium office furniture. As a trusted Office Fit-Out Company in Dubai, we craft workspaces that inspire innovation and efficiency. </p>
   </div>
     </div>
   );
