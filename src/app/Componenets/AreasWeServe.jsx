@@ -13,7 +13,7 @@ const areas = [
   },
   {
     
-    title: "Office Interior Design In Business Bay",
+    title: "Interior Design In Business Bay",
     description: "Modern office fit-out and workspace planning in Business Bay",
     bgImage: "/images/adbr (9).png",
     link: "/interior-design-company-business-bay",
