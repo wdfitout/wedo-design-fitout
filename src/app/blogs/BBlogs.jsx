@@ -7,7 +7,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
-  
+  {
+   title: "High-End Living Room interior Design in Business Bay Dubai",
+    date: "Published: 18.04.2026",
+    excerpt:
+      "Discover how to design a luxury living room interior  in Business Bay Dubai with modern interiors, elegant styles, smart layouts, and expert tips from WE DO.",
+    image: "/images/Luxury interior material focus Dubai living room.png",
+    link: "/living-room-interior-business-bay",
+  },
    {
     title: "Commercial Interior Fit-out in Business Bay Dubai",
     date: "Published: 11.04.2026",
@@ -75,14 +82,7 @@ const blogPosts = [
     image: "/images/six-best-interior-design-trends-dubai-2025.png",
     link: "/interior-design-styles-dubai-2025",
   },
-  {
-   title: "5 Modern Apartment Interior Design",
-    date: "Published: 11.09.2025",
-    excerpt:
-      "Discover modern apartment interior designs in 2025. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
-    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
-    link: "/modern-apartment-interior-design",
-  },
+  
 
 ];
 

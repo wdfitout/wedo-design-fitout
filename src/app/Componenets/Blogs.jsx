@@ -8,6 +8,14 @@ import Link from "next/link";
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
  {
+    title: "High-End Living Room interior Design in Business Bay Dubai",
+    date: "Published: 18.04.2026",
+    excerpt:
+      "Discover how to design a luxury living room interior  in Business Bay Dubai with modern interiors, elegant styles, smart layouts, and expert tips from WE DO.",
+    image: "/images/Luxury interior material focus Dubai living room.png",
+    link: "/living-room-interior-business-bay",
+  },
+  {
     title: "Commercial Interior Fit-out in Business Bay Dubai",
     date: "Published: 11.04.2026",
     excerpt:
@@ -23,14 +31,7 @@ const blogPosts = [
     image: "/images/dubai-office-aesthetic-interior-design-in-business-bay.png",
     link: "/office-interior-elements-business-bay",
   },
- {
-    title: "5 Things to Consider When Designing Your Business Bay Apartment",
-    date: "Published: 03.03.2026",
-    excerpt:
-      "Discover 5 key tips for designing your Business Bay apartment with modern layouts, luxury finishes, and smart technology by WE DO.",
-    image: "/images/business-bay-apartment-space-planning-in-dubai.png",
-    link: "/business-bay-apartment-design",
-  },
+ 
    
   
   
