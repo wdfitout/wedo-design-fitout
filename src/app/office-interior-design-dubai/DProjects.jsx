@@ -10,12 +10,12 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/corporate-office-design', title: 'CORPORATE OFFICES' },
-  { src: '/images/dmapt (9).webp', link: '/co-working-space', title: 'CO-WORKING SPACES' },
-  { src: '/images/Residential (2).webp', link: '/boardrooms-meeting-rooms', title: 'BOARDROOMS & MEETING ROOMS' },
-  { src: '/images/mg2-(1).webp', link: '/reception-waiting-areas', title: 'RECEPTION & WAITING AREAS' },
-  { src: '/images/pjapt (5).webp', link: '/private-cabins', title: 'PRIVATE CABINS & MANAGER ROOMS' },
-  { src: '/images/mjapt (9).png', link: '/executive-offices', title: 'EXECUTIVE OFFICES' },
+  { src: '/images/x-learn.png', link: '/dubai-knowledge-park-office-fit-out', title: 'DUBAI KNOWLEDGE PARK OFFICE FIT-OUT' },
+  { src: '/images/startech (10).webp', link: '/business-bay-office-fit-out', title: 'START TECH BUSINESS BAY OFFICE FIT-OUT' },
+  { src: '/images/sns (1).webp', link: '/dubai-office-interior', title: 'SNS DUBAI OFFICE INTERIOR' },
+  { src: '/images/nest-finders.png', link: '/al-safa-real-estate-office', title: 'AL SAFA REAL ESTATE OFFICE' },
+  { src: '/images/meby (6).webp', link: '/business-bay-travel-agency', title: 'MEBY BUSINESS BAY TRAVEL AGENCY' },
+ 
 ];
 
 const DProjects = () => {
@@ -47,31 +47,24 @@ const DProjects = () => {
       </div>
 
       {/* 3. Our Office Interior Design Services in Dubai */}
-      <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
-        <div className="w-full lg:w-2/3 space-y-4">
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+      <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start  gap-6 mb-12">
+        <div className="w-full lg:w-3/3 space-y-4">
+          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
             Our Office Interior Design Services in Dubai
-          </h3>
+          </h2>
           <p className="text-sm sm:text-base text-white font-play">
             We are one of the best <b> office interior fit out companies in Dubai</b>, offering full services specific to each business.
           </p>
           <div className="text-white space-y-4 font-play">
-            <p><b>a. Space Planning & Layout Design:</b> We are experts in thoughtful layouts for office interiors in Dubai, managing open-plan workspaces with private offices. Our professionals ensure exclusive zoning for departments, making us the best office interior company for contemporary businesses.</p>
-            <p><b>b. Office Fit-Out Services:</b> Our personalized office interior fit-out solutions cover each and everything from ideation to completion. As reliable Dubai office fit-out contractors, we also manage approvals, making your space flawless and compliant.</p>
-            <p><b>c. Custom Office Furniture Design:</b> We design ergonomic and stylish furniture services, from workstations to executive desks. Our personalized designs enhance practicality and aesthetics, creating us one of the best office interior design Dubai offers for personalized spaces.</p>
-            <p><b>d. Lighting Design:</b> We curate lighting systems that handle natural and artificial sources, making sure a productive and luxurious work ambiance.</p>
-            <p><b>e. Branding & Corporate Identity Integration:</b> We include brand elements into interiors, offering elegant office interior design Dubai services that showcase your company identity.</p>
+            <p><b className="text-[#caa193]">a. Space Planning & Layout Design:</b> We are experts in thoughtful layouts for office interiors in Dubai, managing open-plan workspaces with private offices. Our professionals ensure exclusive zoning for departments, making us the best office interior company for contemporary businesses.</p>
+            <p><b className="text-[#caa193]">b. Office Fit-Out Services:</b> Our personalized office interior fit-out solutions cover each and everything from ideation to completion. As reliable Dubai office fit-out contractors, we also manage approvals, making your space flawless and compliant.</p>
+            <p><b className="text-[#caa193]">c. Custom Office Furniture Design:</b> We design ergonomic and stylish furniture services, from workstations to executive desks. Our personalized designs enhance practicality and aesthetics, creating us one of the best office interior design Dubai offers for personalized spaces.</p>
+            <p><b className="text-[#caa193]">d. Lighting Design:</b> We curate lighting systems that handle natural and artificial sources, making sure a productive and luxurious work ambiance.</p>
+            <p><b className="text-[#caa193]">e. Branding & Corporate Identity Integration:</b> We include brand elements into interiors, offering elegant office interior design Dubai services that showcase your company identity.</p>
           </div>
         </div>
 
-        <div className="w-full lg:w-1/3 group relative overflow-hidden rounded-lg shadow-lg self-center">
-          <a href={textImage.link} className="block">
-            <Image src={textImage.src} alt={textImage.title} width={500} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">{textImage.title}</p>
-            </div>
-          </a>
-        </div>
+       
 </div>
 
 {/* 4. Types of Office Spaces We Design (Gallery Grid) */}
@@ -103,38 +96,38 @@ const DProjects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 text-white font-play text-sm sm:text-base">
           <div className="space-y-6">
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Corporate Offices –</strong> 
+            <h3 className='font-play font-bold'> <strong className="text-[#caa193] uppercase block mb-1">Corporate Offices –</strong> </h3> 
               Professional and scalable ambiances crafted for large teams, showcasing strong corporate office interior design Dubai standards.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Co-Working Spaces –</strong> 
+             <h3 className='font-play font-bold'><strong className="text-[#caa193] uppercase block mb-1">Co-Working Spaces –</strong> </h3>
               Advanced and thoughtfully designed offices perfect for collaborative working environments and companies in today's world.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Boardrooms and Meeting Rooms –</strong> 
+             <h3 className='font-play font-bold'> <strong className="text-[#caa193] uppercase block mb-1">Boardrooms and Meeting Rooms –</strong> </h3>
               Properly designed offices featuring good designs suitable for presentations, meetings, and decisions.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Reception and Waiting Areas –</strong> 
+             <h3 className='font-play font-bold'> <strong className="text-[#caa193] uppercase block mb-1">Reception and Waiting Areas –</strong> </h3>
               High-end entrance spaces that craft lasting first impressions, match your brand identity.
             </div>
           </div>
 
           <div className="space-y-6">
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Private Cabins and Manager Rooms –</strong> 
+              <h3 className='font-play font-bold'> <strong className="text-[#caa193] uppercase block mb-1">Private Cabins and Manager Rooms –</strong> </h3>
               Practical and luxurious enclosed spaces for leadership and focused work.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Lounge and Pantry Spaces –</strong> 
+              <h3 className='font-play font-bold'> <strong className="text-[#caa193] uppercase block mb-1">Lounge and Pantry Spaces –</strong> </h3>
               Peaceful zones crafted to elevate employee wellbeing and informal interactions.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Startups & Small Offices –</strong> 
+             <h3 className='font-play font-bold'>  <strong className="text-[#caa193] uppercase block mb-1">Startups & Small Offices –</strong> </h3>
               Smart and exclusive layouts for compact spaces, best for businesses seeking interior offices near me or cost-effective services.
             </div>
             <div>
-              <strong className="text-[#caa193] uppercase block mb-1">Executive Offices –</strong> 
+             <h3 className='font-play font-bold'>  <strong className="text-[#caa193] uppercase block mb-1">Executive Offices –</strong> </h3>
               Quality and elegant interiors specific for top management, blending luxury with practicality.
             </div>
           </div>
@@ -169,12 +162,14 @@ const DProjects = () => {
         
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <h2 className="text-xl font-conthrax text-[#caa193] mb-4 uppercase">5. Office Interior Design Trends in Dubai</h2>
-            <p>Contemporary office interior design companies in Dubai are elevating elegant aesthetics that promote accuracy and attention. Sustainable materials and eco-friendly visions are also becoming exclusive in <b> office interior design in UAE </b>. Modern offices that feature automation have been redefining working environments, whereas good designs make it easy for workers to work both on-site and remotely. Elements from biophilic interior design, such as plants, are employed to increase the productivity of employees.</p>
+            <h2 className="text-xl font-conthrax text-[#caa193] mb-4 uppercase"> <b className="text-[#caa193]"
+            ><a href="https://wedointerior.ae/office-interior-design-trends-in-business-bay">Office Interior Design Trends</a></b>  in Dubai</h2>
+            <p>Contemporary office interior design companies in Dubai are elevating elegant aesthetics that promote accuracy and attention. <b className="text-[#caa193]"
+           ><a href="https://wedointerior.ae/office-interior-elements-business-bay">Office Interior Elements</a></b> from biophilic interior design, such as plants, are employed to increase the productivity of employees.</p>
             
-            <h2 className="text-xl font-conthrax text-[#caa193] mt-8 mb-4 uppercase">6. Our Office Design Process</h2>
+            <h2 className="text-xl font-conthrax text-[#caa193] mt-8 mb-4 uppercase">Our Office Design Process</h2>
             <p>WE DO is a reliable <b> office interior design company in Dubai </b>, we follow a well-planned concept to offer flawless office interior fit-out and design services:
-</p>
+            </p>
             <ul className="list-decimal pl-5 space-y-2 text-[#caa193]">
               <li><h3 className='font-play font-bold'>Site Visit and Measurement</h3><p className='text-white'> We start with a detailed site inspection to understand the space, needs, and technical aspects for your office interior design in Dubai space.</p></li>
               <li><h3 className='font-play font-bold'>Zoning and Space Planning</h3><p className='text-white'>Our specialization crafts exclusive layouts that maximize practicality and workflow, making sure smart utilization of your office interiors in Dubai.</p></li>
@@ -185,18 +180,18 @@ const DProjects = () => {
             </ul>
           </div>
           <div className="rounded-lg overflow-hidden shadow-md">
-            <Image src="/images/pjapt (12).webp" alt="Office Process" width={600} height={400} className="w-full h-auto object-cover" />
+            <Image src="/images/office-interior.png" alt="Office Process" width={600} height={400} className="w-full h-auto object-cover" />
           </div>
         </div>
 
         {/* 7. Regulations & Why Choose WE DO (Why Choose unchanged as requested) */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="rounded-lg overflow-hidden shadow-md">
-            <Image src="/images/serv8.webp" alt="Office Regulations" width={600} height={400} className="w-full h-auto object-cover" />
+            <Image src="/images/modern-office-interiors.png" alt="Office Regulations" width={600} height={400} className="w-full h-auto object-cover" />
           </div>
           <div className="space-y-6 text-white font-play">
-            <h2 className="text-xl font-conthrax text-[#caa193] mb-4 uppercase">7. Office Fit-Out Regulations in Dubai</h2>
-            <p>Each <b> commercial fit-out solutions </b> space must comply with Dubai legalities. Approvals from accurate authorities are important before completion. As professionals, we manage all approvals, making sure compliance with elegant standards. This makes us a reliable partner for <b> interior architect office </b> level spaces and large-scale fit-outs.</p>
+            <h2 className="text-xl font-conthrax text-[#caa193] mb-4 uppercase">Office Fit-Out Regulations in Dubai</h2>
+            <p>Each <b className="text-[#caa193]"><a href="https://wedointerior.ae/commercial-interior-fit-out">commercial interior fit-out in business bay</a> </b> space must comply with Dubai legalities. Approvals from accurate authorities are important before completion. As professionals, we manage all approvals, making sure compliance with elegant standards. This makes us a reliable partner for <b> interior architect office </b> level spaces and large-scale fit-outs.</p>
             
             <div className="space-y-6 text-white font-play"> <h2 className="text-xl font-conthrax text-[#caa193] mb-4"> Why Choose WE DO Interior Design & Fitout for Your Office Project </h2> <p> Creating an office interior  design that maximizes productivity and embodies your brand is at the very center of our endeavors at WE DO Interior Design & Fitout. As one of the top office interior design companies in Dubai, we are experts in office interior fit-out, office refurbishment, and office renovation with emphasis on creativity, functionality, and accuracy. Our highly acclaimed office fit-out and interior design services in Dubai cover high-end business districts such as Jumeirah lake towers, DIFC, Business Bay, and Dubai Media City, with unparalleled performance for both luxury fit-out and refurbishment schemes and contemporary commercial interiors. </p> <p> As one of the top Dubai office fit-out contractors, we combine smart solutions and ergonomic fittings to design intelligent workplaces for today's employees. With a long history of delivering excellence across Sheikh Zayed Road, Dubai South, and more, our on-time delivery guarantee makes us the preferred partner for businesses looking for office interior designers in Dubai who deliver excellence every time. </p> </div></div>
         </div>

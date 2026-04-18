@@ -18,7 +18,8 @@ const ApId = () => {
               Office Interior Fitout Companies in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           Dubai is famous as a business hub, the requirements for quality <b> office interior design Dubai </b> is increasing day by day as the companies are now giving attention to practicality, branding, and employee productivity. <b> WE DO Interior Design & Fitout </b> is well known as one of the top <b> office interior fit-out companies in Dubai</b>, delivering innovative workspaces according to contemporary business needs. We are a reliable <b> interior design & office fit-out company in Dubai </b>, our experienced designers blend their expertise with technical elegance in order to offer the best results.
+           Dubai is famous as a business hub, the requirements for quality <b 
+          className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design Dubai</a>  </b> is increasing day by day as the companies are now giving attention to practicality, branding, and employee productivity. <b> WE DO Interior Design & Fitout </b> is well known as one of the top <b> office interior fit-out companies in Dubai</b>, delivering innovative workspaces according to contemporary business needs. We are a reliable <b> interior design & office fit-out company in Dubai </b>, our experienced designers blend their expertise with technical elegance in order to offer the best results.
            </p>
            
             {/* Highlight Box */}

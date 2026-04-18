@@ -35,7 +35,7 @@ const Hero = () => {
           </Link>
 
           <Link
-            href="/projects"
+            href="/office-projects"
             className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
           >
             Our Projects
