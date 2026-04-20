@@ -1,19 +1,19 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Creek Harbour, Dubai - WE DO interiors",
+  title: "Interior Design Dubai Creek Harbour Services - WE DO interiors",
   description:
-    "Elevate your space with the top interior design company in Dubai Creek Harbour. We deliver luxury apartment, office, and turnkey fit-out solutions tailored to your lifestyle. Transform your waterfront property with our expert team. Schedule your free consultation today!",
+    "Luxury interior design company in Dubai Creek Harbour delivering office, apartment & turnkey fit-outs. Schedule your free consultation today.",
   keywords:[
-    "interior design company Business Bay",
-    "interior design company in Business Bay Dubai",
-    "office interior design Business Bay",
-    "apartment interior design Business Bay",
-    "interior fit out company Business Bay",
-    "turnkey fit out Business Bay",
-    "commercial interior design Business Bay",
+    "interior design company Dubai Creek Harbour",
+    "interior design company in Creek Harbour",
+    "office interior design Dubai Creek Harbour",
+    "apartment interior design Dubai Creek Harbour",
+    "interior fit out company Dubai Creek Harbour",
+    "turnkey fit out Dubai Creek Harbour",
+    "commercial interior design Dubai Creek Harbour",
     "luxury interior design Dubai",
-    "renovation services Business Bay",
+    "renovation services Dubai Creek Harbour",
     "design and build company Dubai"
   ],
   metadataBase: new URL('https://wedointerior.ae/'),
@@ -21,7 +21,7 @@ export const metadata = {
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
       'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/interior-design-company-business-bay',
+    url: 'https://wedointerior.ae/interior-design-dubai-creek-harbour',
     siteName: 'WE DO Interior Design & Fitout',
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/interior-design-company-business-bay',
+    canonical: '/interior-design-dubai-creek-harbour',
   },
 };
 
@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
               },
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "Dubai Creek Harbour",
                 "addressLocality": "Dubai",
                 "postalCode": "00000",
                 "addressCountry": "AE"
@@ -94,9 +94,9 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Interior Design Company in Business Bay",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "Luxury interior design services in Business Bay Dubai including offices, apartments, cafes, restaurants, and travel agencies."
+              "name": "Interior Design Company in Dubai Creek Harbour",
+              "url": "https://wedointerior.ae/interior-design-dubai-creek-harbour",
+              "description": "Luxury interior design services in Dubai Creek Harbour including offices, apartments, cafes, restaurants, and travel agencies."
             })
           }}
         />
@@ -108,22 +108,22 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://wedointerior.ae/interior-design-company-business-bay",
+              "@id": "https://wedointerior.ae/interior-design-dubai-creek-harbour",
               "name": "WE DO Interior Design & Fitout",
               "image": "https://wedointerior.ae/og-image.jpg",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
+              "url": "https://wedointerior.ae/interior-design-dubai-creek-harbour",
               "telephone": "+971 058 807 5603",
               "priceRange": "$$$",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "Dubai Creek Harbour",
                 "addressLocality": "Dubai",
                 "addressRegion": "Dubai",
                 "postalCode": "00000",
                 "addressCountry": "AE"
               },
               "areaServed": [
-                "Business Bay",
+                "Dubai Creek Harbour",
                 "Downtown Dubai",
                 "DIFC",
                 "Dubai Mall",
@@ -133,109 +133,18 @@ export default function RootLayout({ children }) {
                 "Sheikh Zayed Road"
               ],
               "serviceOffered": [
-                {"@type": "Service","name": "Office Interior Design in Business Bay"},
-                {"@type": "Service","name": "Apartment Interior Design in Business Bay"},
-                {"@type": "Service","name": "Villa Interior Design In Business Bay"},
-                {"@type": "Service","name": "Restaurant Interior Design In Business Bay"}
+                {"@type": "Service","name": "Office Interior Design in Dubai Creek Harbour"},
+                {"@type": "Service","name": "Apartment Interior Design in Dubai Creek Harbour"},
+                {"@type": "Service","name": "Villa Interior Design In Dubai Creek Harbour"},
+                {"@type": "Service","name": "Restaurant Interior Design In Dubai Creek Harbour"}
               ]
             })
           }}
         />
 
-        {/* FAQ Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "How long does an office fit-out in Business Bay take?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Office fit-outs typically take six to twelve weeks depending on the project size and complexity. All required DCD and authority approvals are managed by our team."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide turnkey fit-out services in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we provide complete turnkey fit-out services including design, approvals, execution, and final handover."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you design luxury apartments in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we specialize in apartment interior design and luxury residential interiors in Business Bay, creating elegant and functional spaces."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are you a leading interior design company in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "WE DO Interior Design & Fitout is recognized for delivering high-quality residential and commercial interior design and fit-out projects in Business Bay."
-                  }
-                }
-              ]
-            })
-          }}
-        />
+       
 
-        {/* CollectionPage Schema with Business Bay Projects */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "CollectionPage",
-              "name": "Business Bay Interior Design Projects",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "A curated collection of luxury interior design and fit-out projects in Business Bay by WE DO Interior Design & Fitout.",
-              "mainEntity": {
-                "@type": "ItemList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Business Bay Apartment Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-apartment"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Business Bay Office Fit-Out",
-                    "url": "https://wedointerior.ae/business-bay-office-fit-out"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "Business Bay Cafe Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-cafe-interior"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "name": "Business Bay Restaurant Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-restaurant"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "name": "Business Bay Travel Agency Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-travel-agency"
-                  }
-                ]
-              }
-            })
-          }}
-        />
-
+       
       </head>
       <body>{children}</body>
     </html>
