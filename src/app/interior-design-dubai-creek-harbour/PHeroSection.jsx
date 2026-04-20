@@ -25,15 +25,16 @@ const PHeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-3xl sm:text-5xl md:text-4xl font-conthrax leading-tight">
-            Interior Design Company in <br /> Dubai Creek Harbour
+           Interior Design <br /> Dubai Creek Harbour Services  
           </h1>
 
           {/* Subheading */}
           <p className="font-play mt-6 max-w-2xl text-gray-200">
-            WE DO Interior Design & Fitout is a leading Interior Design Company in Dubai Creek Harbour, 
-            providing bespoke interior design services for luxury residential and modern commercial spaces. 
-            Dubai Creek Harbour is the future of waterfront living, renowned for its spectacular 
-            skyline views, iconic Creek Tower, and sophisticated island-inspired lifestyle.</p>
+           Creek Harbour is reputed as one of the most iconic waterfront communities in Dubai, famous for its modern residence in Dubai Creek Harbour, comfortable living style, and profitable return on investment opportunities. Dubai Creek Harbour is considered among the highly developed waterfront developments known for their modern residences in Dubai Creek, luxurious living experience, and high return on investment. 
+</p>
+<p className="font-play mt-6 max-w-2xl text-gray-200">
+           Due to the consistent growth in this area along with high demands for properties, many property owners are on the hunt for the best interior design Dubai Creek Harbour professionals that can provide elegance along with practical designs. WE DO Interior Design & Fitout is a top interior designers company delivering expert interior design services in Dubai, specific for apartment owners, investors, and commercial customers.  
+</p>
 
           {/* CTA Button */}
           <div className="mt-8">
