@@ -1,15 +1,21 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Office Projects Dubai | We Do Interior Design & Fit-Out",
+  title: "Interior Design Dubai | Areas We Serve – Business Bay, Downtown & More",
   description:
-    "Corporate Office, interior design and fit-out projects in Dubai by We Do Interior. Discover our commercial portfolio.",
+    "Interior design services in Dubai by WE DO Interior Design & Fitout. Experts in residential interior & commercial fit-out across Dubai. Call Now",  
   keywords: [
-    'Interior Design Projects Dubai',
-    'Fit-Out Portfolio Dubai',
-    'Luxury Interior Projects UAE',
-    'We Do Interior Design Projects',
-    'Dubai Interior Design Portfolio',
+    ' interior design services in Dubai',
+    'interior design Dubai',
+    'interior design company in Dubai',
+    'areas we serve Dubai',
+    'residential interior Dubai',
+    'commercial fit out Dubai',
+    'interior design and fit out',
+    'Business Bay interior design',
+    'Downtown Dubai interior design',
+    'Jumeirah interior design',
+    'luxury interior design Dubai',
   ],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
@@ -36,7 +42,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/office-projects',
+    canonical: '/interior-design-dubai',
   },
 };
 
@@ -70,7 +76,7 @@ export default function RootLayout({ children }) {
               },
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Dubai Marina',
+                streetAddress: 'Dubai',
                 addressLocality: 'Dubai',
                 postalCode: '00000',
                 addressCountry: 'AE',

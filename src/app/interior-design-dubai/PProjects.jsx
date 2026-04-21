@@ -6,35 +6,31 @@ import Link from "next/link";
 
 const projects = [
     {
-    img: "/images/x.learning (5).webp",
-    alt: "Home Interior Design",
-    title: "DUBAI KNOWLEDGE PARK OFFICE FIT OUT",
-    href: "/dubai-knowledge-park-office-fit-out",
+    img: "/images/dbckapt (5).png",
+    alt: "Waterfront apartment design and contemporary lifestyle interiors in Dubai Creek.",
+    title: "INTERIOR DESIGN DUBAI CREEK HARBOUR",
+    href: "/interior-design-dubai-creek-harbour",
+  },
+
+      {
+    img: "/images/adbr (9).png",     
+    alt: "Modern office fit-out and workspace planning in Business Bay",
+    title: "INTERIOR DESIGN BUSINESS BAY",
+    href: "/interior-design-company-business-bay",
+  },
+
+    {
+    img: "/images/dtrest (2).webp",
+    alt: "Elite Restaurant design and high-end apartment fit-out in Downtown",
+    title: "INTERIOR DESIGN DOWNTOWN DUBAI",
+    href: "/interior-design-downtown-dubai",
   },
    
-      {
-    img: "/images/commercial (4).webp",
-    alt: "Home Interior Design",
-    title: "AL SAFA REAL ESTATE OFFICE",
-    href: "/al-safa-real-estate-office",
-  },
     {
-    img: "/images/commercial (5).webp",
-    alt: "Restaurant Interior Design",
-    title: "BUSINESS BAY TRAVEL AGENCY",
-    href: "/business-bay-travel-agency",
-  },
-   {
-    img: "/images/startech (1).webp",
-    alt: "Restaurant Interior Design",
-    title: "BUSINESS BAY OFFICE FIT OUT",
-    href: "/business-bay-office-fit-out",
-  },
-    {
-    img: "/images/sns (1).webp",
-    alt: "Apartment Interior Design",
-    title: "DUBAI OFFICE INTERIOR",
-    href: "/dubai-office-interior",
+    img: "/images/pjapt (5).webp",
+    alt: "Luxury villa renovation and premium interior styling in Jumeirah.",
+    title: "INTERIOR DESIGN JUMEIRAH DUBAI",
+    href: "/interior-design-jumeirah-dubai",
   }
   
 
@@ -62,7 +58,7 @@ const PProjects = () => {
         {/* Section Title */}
         <div className="relative mb-6 sm:mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
-            OFFICE PROJECTS IN DUBAI
+          AREAS WE SERVICE IN DUBAI
           </h2>
         </div>
 

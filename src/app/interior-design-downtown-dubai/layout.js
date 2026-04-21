@@ -3,9 +3,9 @@ import '../globals.css';
 export const metadata = {
   title: "Best Interior Design Company in DownTown, Dubai - WE DO interiors",
   description:
-    "Transform your space with the top interior design company in Downtown Dubai. We specialize in luxury apartment renovations, high-end office fit-outs, and bespoke turnkey solutions near Burj Khalifa. Schedule your free consultation today!",
+    "Transform your space with the top interior design company in Downtown Dubai. We specialize in apartment renovations, high-end office fit-outs. Visit Us!",
   keywords:[
-    "interior design company Business Bay",
+    "interior design company Downtown Dubai",
     "interior design company in Business Bay Dubai",
     "office interior design Business Bay",
     "apartment interior design Business Bay",
@@ -18,10 +18,10 @@ export const metadata = {
   ],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Best Interior Design Company in DownTown, Dubai - WE DO interiors',
     description:
       'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/interior-design-company-business-bay',
+    url: 'https://wedointerior.ae/interior-design-downtown-dubai',
     siteName: 'WE DO Interior Design & Fitout',
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/interior-design-company-business-bay',
+    canonical: '/interior-design-downtown-dubai',
   },
 };
 
@@ -108,10 +108,10 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://wedointerior.ae/interior-design-company-business-bay",
+              "@id": "https://wedointerior.ae/interior-design-downtown-dubai",
               "name": "WE DO Interior Design & Fitout",
               "image": "https://wedointerior.ae/og-image.jpg",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
+              "url": "https://wedointerior.ae/interior-design-downtown-dubai",
               "telephone": "+971 058 807 5603",
               "priceRange": "$$$",
               "address": {

@@ -13,7 +13,7 @@ const areas = [
   },
   {
     
-    title: "Interior Design In Business Bay",
+    title: "Interior Design Business Bay",
     description: "Modern office fit-out and workspace planning in Business Bay",
     bgImage: "/images/adbr (9).png",
     link: "/interior-design-company-business-bay",
@@ -21,7 +21,7 @@ const areas = [
   {
     
     title: "Interior Design Downtown Dubai",
-    description: "Elite residential design and high-end penthouse fit-out in Downtown",
+    description: "Elite Restaurant design and high-end apartment fit-out in Downtown",
     bgImage: "/images/dtrest (2).webp",
     link: "/interior-design-downtown-dubai",
   },

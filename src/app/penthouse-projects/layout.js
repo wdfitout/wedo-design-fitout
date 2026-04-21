@@ -16,7 +16,7 @@ export const metadata = {
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
       'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/office-projects/',
+    url: 'https://wedointerior.ae/penthouse-projects/',
     siteName: 'we do interior design & fit out',
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/office-projects',
+    canonical: '/penthouse-projects',
   },
 };
 

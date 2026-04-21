@@ -21,10 +21,10 @@ const PHeroSection = () => {
   {/* Overlay Text Content */}
   <div className="absolute inset-x-0 bottom-2 sm:bottom-10 text-center px-4 text-white z-10">
     <h1 className="text-md sm:text-3xl font-penrise">
-      BEST INTERIOR DESIGN COMPANY DUBAI
+      Interior Design Dubai – Areas We Serve
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    Enhance productivity with expert Interior Designers from WE DO Interior Design & Fitout. Serving in heart of Dubai and in all high end and luxury living and commercial spaces like Business Bay, Downtown, Palm Jumeirah, Dubai Marina, MBR City and in  we specialize in modern office spaces, design and build solutions, and premium office furniture. As a trusted Office Fit-Out Company in Dubai, we craft workspaces that inspire innovation and efficiency. </p>
+   WE DO Interior Design & Fitout is one of the leading Interior Design Companies in Dubai, UAE, providing quality interior design services in Dubai, while focusing on functionality and style. We offer you comprehensive interior design & fit-out services ranging from residential interior designs to commercial fit-out. We serve in all major locations of Dubai, such as Creek Harbour, Downtown Dubai, Business Bay, and Jumeirah </p>
   </div>
     </div>
   );
