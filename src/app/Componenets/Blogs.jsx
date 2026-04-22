@@ -7,7 +7,15 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
- {
+  {
+    title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
+    date: "Published: 21.04.2026",
+    excerpt:
+      "Explore luxury bathroom trends in Dubai Creek Harbour with WE DO Interior Design: spa-layouts, smart tech, and premium finishes.",
+    image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
+    link: "/bathroom-design-trends-dubai-creek-harbour",
+  },
+  {
     title: "High-End Living Room interior Design in Business Bay Dubai",
     date: "Published: 18.04.2026",
     excerpt:
@@ -23,14 +31,7 @@ const blogPosts = [
     image: "/images/Commercial Interior Fit-out in Business Bay Dubai.png",
     link: "/commercial-interior-fit-out",
   },
-  {
-    title: "Essential Office Interior Elements in Business bay",
-    date: "Published: 18.03.2026",
-    excerpt:
-      "Explore essential office interior elements in Business Bay Dubai, including layout planning, lighting to create modern workspaces.",
-    image: "/images/dubai-office-aesthetic-interior-design-in-business-bay.png",
-    link: "/office-interior-elements-business-bay",
-  },
+ 
  
    
   

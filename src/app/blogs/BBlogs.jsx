@@ -7,6 +7,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
+ {
+    title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
+    date: "Published: 21.04.2026",
+    excerpt:
+      "Explore luxury bathroom trends in Dubai Creek Harbour with WE DO Interior Design: spa-layouts, smart tech, and premium finishes.",
+    image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
+    link: "/bathroom-design-trends-dubai-creek-harbour",
+  },
   {
    title: "High-End Living Room interior Design in Business Bay Dubai",
     date: "Published: 18.04.2026",
@@ -74,14 +82,7 @@ const blogPosts = [
     link: "/interior-design-companies-in-business-bay-dubai",
   },
   
-  {
-    title: "6 Interior Design Styles Dubai 2025",
-    date: "Published: 23.09.2025",
-    excerpt:
-      "Explore the top 6 interior design styles of 2025. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
-    image: "/images/six-best-interior-design-trends-dubai-2025.png",
-    link: "/interior-design-styles-dubai-2025",
-  },
+  
   
 
 ];

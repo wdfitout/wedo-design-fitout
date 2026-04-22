@@ -13,8 +13,16 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
 
 const blogs = [
-  {
+ {
     id: 1,
+    slug: 'bathroom-design-trends-dubai-creek-harbour',
+    title: 'Luxury Bathroom Design Trends in Dubai Creek Harbour',
+    image: '/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png',
+    date: '2026-04-21',
+    tag: 'Blog',
+  },
+  {
+    id: 2,
     slug: 'living-room-interior-business-bay',
     title: 'High-End Living Room interior Design in Business Bay Dubai',
     image: '/images/Luxury interior material focus Dubai living room.png',
@@ -22,7 +30,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 2,
+    id: 3,
     slug: 'commercial-interior-fit-out',
     title: 'Commercial Interior Fit-out in Business Bay Dubai ',
     image: '/images/Commercial Interior Fit-out in Business Bay Dubai.png',
@@ -30,7 +38,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 3,
+    id: 4,
     slug: 'office-interior-elements-business-bay',
     title: 'Essential Office Interior Elements in Business bay',
     image: '/images/dubai-office-aesthetic-interior-design-in-business-bay.png',
@@ -38,7 +46,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 4,
+    id: 5,
     slug: 'business-bay-apartment-design',
     title: '5 Things to Consider When Designing Your Business Bay Apartment',
     image: '/images/business-bay-apartment-space-planning-in-dubai.png',
@@ -46,21 +54,14 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 5,
+    id: 6,
     slug: 'office-interior-design-trends-in-business-bay',
     title: 'Office Interior Design Trends in Business Bay 2026',
     image: '/images/smart-technology-integration-office-interior-business-bay.png',
     date: '2026-02-12',
     tag: 'Blog',
   },
-    {
-    id: 6,
-    slug: 'dubai-villa-vs-apartment-interior-design',
-    title: '5 Differences Between Villa and Apartment Interiors in Dubai',
-    image: '/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png',
-    date: '2026-02-02',
-    tag: 'Blog',
-  },
+    
   
  
   
