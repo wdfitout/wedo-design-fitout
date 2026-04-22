@@ -6,27 +6,31 @@ import Link from "next/link";
 
 const VHeroSection = () => {
   const suggestions = [
-    {
-      title: "New Hotel Interior Ideas To Make Your Hotel Spaces Luxury",
-      age: "4 years ago",
-      image: "/images/high-rise-dubai-marina-apartment-interior-design-dubai.png",
-    },
-    {
-      title: "Best Kids Room Interior Design Ideas | Tips To Decorate Your Kids Room",
-      age: "4 years ago",
-      image: "/images/elegant-dubai-apartment-showcasing-open-living-room-interior-in-dubai.png",
-    },
-    {
-      title: "7 Inspiring Home Renovation Design Ideas You Need to Know",
-      age: "1 year ago",
-      image: "/images/dubai-apartment-balcony-exterior-design-company-in-dubai.png",
-    },
-    {
-      title: "7 Inspiring Home Renovation Design Ideas You Need to Know",
-      age: "1 year ago",
-      image: "/images/ultra-modern-dubai-apartment-interior-design.png",
-    },
-  ];
+  {
+    title: "5 Differences Between Villa and Apartment Interiors in Dubai",
+    age: "February 2, 2026",
+    image: "/images/5_Differences_Between_Villa_and_Apartment_Interiors_in_Dubai.png",
+    link: "/dubai-villa-vs-apartment-interior-design", 
+  },
+  {
+    title: "Villa Construction in Dubai - Complete Design & Build",
+    age: "January 5, 2026",
+    image: "/images/luxury-villa-architectural-planning-and-design-dubai.png",
+    link: "/complete-villa-construction-dubai",
+  },
+  {
+    title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
+    age: "April 21, 2026",
+    image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
+    link: "/bathroom-design-trends-dubai-creek-harbour",
+  },
+  {
+    title: "High-End Living Room interior Design in Business Bay",
+    age: "April 18, 2026",
+    image: "/images/Luxury interior material focus Dubai living room.png",
+    link: "/living-room-interior-business-bay",
+  },
+];
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 text-white mt-20">
@@ -198,18 +202,28 @@ These facilities include steam rooms, under-floor heating, and air vents. All th
   );
 };
 
+// Sidebar component
 const Sidebar = ({ suggestions }) => (
-  <div className="sticky top-24">
-    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#caa193]">You might also like</h3>
+  <div>
+    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#b49a55]">You might also like</h3>
     <ul className="space-y-4">
       {suggestions.map((post, index) => (
         <li key={index} className="flex space-x-4">
-          <div className="w-20 h-16 bg-gray-200 rounded-md overflow-hidden flex-shrink-0">
-            <Image src={post.image} alt={post.title} width={80} height={64} className="w-full h-full object-cover" />
-          </div>
+          <a href={post.link} className="flex space-x-4 cursor-pointer">
+            <div className="w-20 h-16 rounded-md overflow-hidden flex-shrink-0">
+              <Image 
+                src={post.image} 
+                alt={post.title} 
+                width={80} 
+                height={64} 
+                className="w-full h-full object-cover" 
+              />
+              </div>
+              </a>
+         
           <div>
-            <p className="text-sm font-play line-clamp-2">{post.title}</p>
-            <p className="text-xs text-[#caa193]">{post.age}</p>
+            <p className="text-sm font-play">{post.title}</p>
+            <p className="text-xs text-[#b49a55]">{post.age}</p>
           </div>
         </li>
       ))}

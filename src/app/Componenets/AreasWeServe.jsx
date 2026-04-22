@@ -83,7 +83,7 @@ const AreasWeServe = () => {
         </div>
              {/* View All Button */}
         <div className="mt-10 flex justify-center">
-          <Link href="/areas-we-serve">
+          <Link href="/interior-design-dubai">
             <button className="bg-gradient-to-br from-[#caa193] to-[#a0624d] text-black font-conthrax px-8 py-3 rounded hover:scale-105 transition-transform duration-300 tracking-wider uppercase">
               VIEW MORE
             </button>
