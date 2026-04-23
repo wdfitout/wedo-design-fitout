@@ -170,7 +170,7 @@ const VHeroSection = () => {
 // Sidebar component
 const Sidebar = ({ suggestions }) => (
   <div>
-    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#b49a55]">You might also like</h3>
+    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#caa193]">You might also like</h3>
     <ul className="space-y-4">
       {suggestions.map((post, index) => (
         <li key={index} className="flex space-x-4">
@@ -188,7 +188,7 @@ const Sidebar = ({ suggestions }) => (
          
           <div>
             <p className="text-sm font-play">{post.title}</p>
-            <p className="text-xs text-[#b49a55]">{post.age}</p>
+            <p className="text-xs text-[#caa193]">{post.age}</p>
           </div>
         </li>
       ))}

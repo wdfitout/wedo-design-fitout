@@ -47,7 +47,7 @@ const VHeroSection = () => {
 
           <div className="text-md leading-relaxed font-play space-y-4">
             <p>
-             One thing that Dubai is renowned for is its iconic, functional, and class world. Nowhere in Dubai does one find better representation of this than in the residential houses in Dubai Creek Harbour. Bathrooms that previously served only the function of being bathrooms have now evolved into luxurious environments that reflect elegance and creativity.<a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
+             One thing that Dubai is renowned for is its iconic, functional, and class world. Nowhere in Dubai does one find better representation of this than in the residential houses in Dubai Creek Harbour. Bathrooms that previously served only the function of being bathrooms have now evolved into luxurious environments that reflect elegance and creativity.<a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
   WE DO Interior Design & Fit-out
 </a> have an understanding of what modern-day house owners view as elegance in interior designing.
             </p>
@@ -61,15 +61,14 @@ const VHeroSection = () => {
           <div className="text-md leading-relaxed font-play space-y-4">
             <h2 className="text-[#caa193] text-2xl py-5 font-conthrax ">The Rise of Luxury Bathroom Design in Dubai Creek Harbour</h2>
             <p>
-              The idea of Dubai Creek Harbour represents a new era of living, where the luxurious buildings feature stunning water views along with them. The residents residing in Dubai Creek Harbour expect a lot in terms of interior designs. The expectation brings about a demand for
-              <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
-  luxury interior design Dubai Creek Harbour.
+              The idea of Dubai Creek Harbour represents a new era of living, where the luxurious buildings feature stunning water views along with them. The residents residing in Dubai Creek Harbour expect a lot in terms of interior designs. The expectation brings about a demand for <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
+   luxury interior design Dubai Creek Harbour.
 </a> 
             </p>
             {/* Image 2 */}
             <Image src="/images/Luxury Bathroom Design in Dubai.png" alt="Best luxury living room" width={800} height={600} className="rounded-md w-full object-cover my-6" />
             <p>
-              Luxury bathrooms nowadays cannot be considered luxurious just due to their costliness. The modern luxury bathrooms must consist of various technology and sustainable factors alongside the unique designing aspect. As being one of the <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
+              Luxury bathrooms nowadays cannot be considered luxurious just due to their costliness. The modern luxury bathrooms must consist of various technology and sustainable factors alongside the unique designing aspect. As being one of the <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
  leading  interior designing firms in Dubai Creek Harbour,
 </a>  we assure you of our unique designs.
             </p>
@@ -93,7 +92,7 @@ const VHeroSection = () => {
             </p>
             <h3 className="text-[#caa193] text-xl font-bold mb-2">Smart Bathroom Technology</h3>
             <p>
-              Technology plays a huge part in influencing <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
+              Technology plays a huge part in influencing <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
  interior design services.
 </a>  Today, a smart bathroom is one of the most important aspects of any luxury house, providing convenience and a high-tech environment for its residents.
             </p>
@@ -106,7 +105,7 @@ const VHeroSection = () => {
             </p>
             <Image src="/images/minimalistic bathroom design trends in Dubai Creek Harbour.png" alt="Neutral luxury living room" width={800} height={600} className="rounded-md w-full object-cover my-6" />
             <p>
-              Nonetheless, minimalist design applied in the bathroom designs of Dubai Creek Harbour is anything but dull. This style includes extravagant details and materials paired with beautiful textures and intriguing designs without appearing cluttered.This is the approach followed by <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
+              Nonetheless, minimalist design applied in the bathroom designs of Dubai Creek Harbour is anything but dull. This style includes extravagant details and materials paired with beautiful textures and intriguing designs without appearing cluttered.This is the approach followed by <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
  luxury interior designers in Dubai in WE DO.
 </a> 
             </p>
@@ -123,7 +122,7 @@ const VHeroSection = () => {
             </p>
              <Image src="/images/luxury bathroom interior in Dubai Creek Harbour residence.png" alt="Custom bespoke luxury living room Dubai" width={800} height={600} className="rounded-md w-full object-cover my-6" />
             <p>
-            As bespoke interior designers, we offer personalized solutions designed specifically for you. This guarantees that function will never overshadow form in your <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#b49a55]">
+            As bespoke interior designers, we offer personalized solutions designed specifically for you. This guarantees that function will never overshadow form in your <a href="/interior-design-companies-in-business-bay" className="font-bold hover:underline text-[#caa193]">
  high-end interiors uae projects.
 </a>             </p>
             <h3 className="text-[#caa193] text-xl font-bold mb-2">Sustainable and Eco-Friendly Designs</h3>
@@ -218,7 +217,7 @@ These facilities include steam rooms, under-floor heating, and air vents. All th
 // Sidebar component
 const Sidebar = ({ suggestions }) => (
   <div>
-    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#b49a55]">You might also like</h3>
+    <h3 className="text-xl font-conthrax mb-4 mt-16 text-[#caa193]">You might also like</h3>
     <ul className="space-y-4">
       {suggestions.map((post, index) => (
         <li key={index} className="flex space-x-4">
@@ -236,7 +235,7 @@ const Sidebar = ({ suggestions }) => (
          
           <div>
             <p className="text-sm font-play">{post.title}</p>
-            <p className="text-xs text-[#b49a55]">{post.age}</p>
+            <p className="text-xs text-[#caa193]">{post.age}</p>
           </div>
         </li>
       ))}
