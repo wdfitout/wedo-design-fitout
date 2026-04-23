@@ -1,21 +1,29 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Apartment Projects Dubai | We Do Interior Design & Fit-Out",
+  title: "Apartment Projects in Dubai | Interior Design, Renovation & Fit-Out",
   description:
-    "Explore luxury Apartment interior design and fit-out projects in Dubai by We Do Interior. Discover our residential and hospitality portfolio.",
-  keywords: [
-    'Interior Design Projects Dubai',
-    'Fit-Out Portfolio Dubai',
-    'Luxury Interior Projects UAE',
-    'We Do Interior Design Projects',
-    'Dubai Interior Design Portfolio',
-  ],
+    "Explore apartment projects in Dubai by WE DO Interior Design & Fitout. We provide complete apartment interior design, renovation, and fit-out services.",
+ keywords: [
+  'Apartment Projects Dubai',
+  'Apartment Interior Design Dubai',
+  'Apartment Renovation Dubai',
+  'Apartment Fit-Out Dubai',
+  'Apartment Interior Design Company Dubai',
+  'Residential Apartment Projects UAE',
+  'Modern Apartment Interiors Dubai',
+  'Luxury Apartment Design Dubai',
+  'We Do Interior Design Apartment Projects',
+  'Dubai Apartment Interior Design Services',
+],
+ publisher: [
+  'WEDO Interior Design & Fitout',
+ ],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Interior Design apartment Projects Dubai | We Do',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Explore apartment interior design and fit-out projects in Dubai by We Do Interior. Discover our portfolio.',
     url: 'https://wedointerior.ae/apartment-projects/',
     siteName: 'we do interior design & fit out',
     images: [
@@ -32,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Explore apartment interior design, renovation and fit-out projects in Dubai by We Do Interior. Discover our portfolio.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -58,8 +66,8 @@ export default function RootLayout({ children }) {
               url: 'https://wedointerior.ae/',
               logo: 'https://wedointerior.ae/logo.png',
               sameAs: [
-                'https://www.instagram.com/yourprofile',
-                'https://www.facebook.com/yourprofile',
+                'https://www.instagram.com/we.do.uae',
+                'https://www.facebook.com/wedo.design.dubai',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
@@ -70,7 +78,7 @@ export default function RootLayout({ children }) {
               },
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Dubai Marina',
+                streetAddress: 'jebel ali Industrial',
                 addressLocality: 'Dubai',
                 postalCode: '00000',
                 addressCountry: 'AE',
@@ -111,20 +119,20 @@ export default function RootLayout({ children }) {
                   {
                     '@type': 'ListItem',
                     position: 1,
-                    name: 'Residential Interior Projects',
-                    url: 'https://wedointerior.ae/projects/residential',
+                    name: 'Apartment Interior Projects',
+                    url: 'https://wedointerior.ae/apartment-projects',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
-                    name: 'Commercial Interior Projects',
-                    url: 'https://wedointerior.ae/projects/commercial',
+                    name: 'Villa Interior Projects',
+                    url: 'https://wedointerior.ae/villa-projects',
                   },
                   {
                     '@type': 'ListItem',
                     position: 3,
-                    name: 'Hospitality Interior Projects',
-                    url: 'https://wedointerior.ae/projects/hospitality',
+                    name: 'Penthouse Interior Projects',
+                    url: 'https://wedointerior.ae/penthouse-projects',
                   },
                 ],
               },

@@ -8,8 +8,8 @@ const PHeroSection = () => {
     <div className="relative w-full h-[300px] sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
   {/* Background Image */}
   <Image
-    src="/images/d1villa (3).webp"
-    alt="interior design"
+    src="/images/manara villa (33).webp"
+    alt="Al manara villa interior design with white theme"
     fill
     priority
     className="object-cover"
@@ -24,7 +24,7 @@ const PHeroSection = () => {
       VILLA PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-      Experience bespoke villa interior design across Dubai’s most prestigious neighborhoods. From our Al Manara Luxury Villa to the stunning Jumeirah Beach Residence Villa and Majan Villa Design, WE DO Interior Design & Fitout delivers luxury villa design, blending modern or classic villa interiors with interior & landscape design trends crafted for refined living in Dubai.
+      Experience bespoke <b><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interior design</a></b> across Dubai’s most prestigious neighborhoods. From our Al Manara Luxury Villa to the stunning Jumeirah Beach Residence Villa and Majan Villa Design, WE DO Interior Design & Fitout delivers luxury villa design, blending modern or classic villa interiors with interior & <b><a href="https://wedointerior.ae/landscape-design-dubai">landscape design</a></b> trends crafted for refined living in Dubai.
     </p>
   </div>
 </div>

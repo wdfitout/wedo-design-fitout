@@ -24,7 +24,7 @@ const PHeroSection = () => {
       RETAIL PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    WE DO Interior Design & Fit-Out delivers expert retail interior design in Dubai, blending function and aesthetics to attract and retain customers. From premium boutiques in Dubai Hills Mall to trend-setting retail spaces in Umm Suqeim, we create branded environments that drive engagement and sales with precision-built fit-outs and bespoke design solutions</p>
+    WE DO Interior Design & Fit-Out delivers expert <b><a href="https://wedointerior.ae/boutique-interior-design-dubai">retail interior design in Dubai</a></b> , blending function and aesthetics to attract and retain customers. From premium boutiques in Dubai Hills Mall to trend-setting retail spaces in Umm Suqeim, we create branded environments that drive engagement and sales with precision-built fit-outs and bespoke design solutions</p>
   </div>
     </div>
   );

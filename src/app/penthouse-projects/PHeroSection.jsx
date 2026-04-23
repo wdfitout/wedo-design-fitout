@@ -24,7 +24,7 @@ const PHeroSection = () => {
       PENTHOUSE PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    Elevate luxury living with bespoke Penthouse Design & Fit-Out by WE DO Interior Design & Fit-Out. Serving Palm Jumeirah, Dubai Marina, Business Bay, Downtown Dubai, we specialize in high-end penthouse spaces, custom design and build solutions, and premium finishes. As a trusted Penthouse Fit-Out Company in Dubai, we craft sophisticated interiors that reflect elegance, exclusivity, and modern living. </p>
+    Elevate living with bespoke Penthouse Design by WE DO Interior Design & Fit-Out. Serving Palm Jumeirah, Dubai Marina, Business Bay, Downtown Dubai, we specialize in high-end penthouse spaces, custom design and build solutions, and premium finishes. As a trusted <b><a href="https://wedointerior.ae/">Penthouse Interior Design Company in Dubai</a></b>, UAE, we craft sophisticated interiors that reflect elegance, exclusivity, and modern living. </p>
   </div>
     </div>
   );

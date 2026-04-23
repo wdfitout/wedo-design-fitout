@@ -21,12 +21,12 @@ const PHeroSection = () => {
       <div className="absolute bottom-6 z-10 p-4 rounded-lg text-white left-1/2 -translate-x-1/2">
 
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
-          Discover Our Interior Design Projects in Dubai </h1>
+         Explore Our Residential & Commercial Design Projects</h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-            Modern Interior Design in 2025</h2>
+           Luxury Interior Design Company in Dubai UAE</h2>
         
 
-        <div className="flex gap-4 flex-wrap">
+        <div className="flex gap-4 mt-5 flex-wrap">
           <Link
             href="/contact-us"
             className="bg-[#caa193] text-black px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition-all duration-200"
@@ -35,7 +35,7 @@ const PHeroSection = () => {
           </Link>
 
           <Link
-            href="/projects"
+            href="/gallery"
             className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
           >
             Our Projects

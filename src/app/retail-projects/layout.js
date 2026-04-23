@@ -1,21 +1,28 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Retail Projects Dubai | We Do Interior Design & Fit-Out",
+  title: "Retail Projects In Dubai - We Do Interior",
   description:
-    "Explore retail design and fit-out projects in Dubai by We Do Interior. Discover our retail and commercial portfolio.",
+    "Explore retail projects in Dubai by WE DO Interior Design & Fitout. Luxury retail interior design, boutique design & fit-out services. Contact us today.",
   keywords: [
-    'Interior Design Projects Dubai',
-    'Fit-Out Portfolio Dubai',
-    'Luxury Interior Projects UAE',
-    'We Do Interior Design Projects',
-    'Dubai Interior Design Portfolio',
-  ],
+  'Retail Projects Dubai',
+  'Retail Interior Design Dubai',
+  'Luxury Retail Interior Design Dubai',
+  'Boutique Interior Design Dubai',
+  'Retail Fit-Out Company Dubai',
+  'Retail Interior Design Company Dubai',
+  'Interior Design & Fit-Out Company Dubai',
+  'Commercial Retail Design UAE',
+  'Shop Interior Design Dubai',
+  'We Do Retail Interior Projects'
+],
+
+publisher:['WEDO Interior Design & Fit-out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Retail Projects in Dubai | Luxury Boutique & Retail Interior Design',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Explore retail projects in Dubai by WE DO Interior Design & Fitout. Luxury retail interior design, boutique design & fit-out services. Contact us today.',
     url: 'https://wedointerior.ae/retail-projects',
     siteName: 'we do interior design & fit out',
     images: [
@@ -30,9 +37,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Retail Projects in Dubai - Luxury Boutique & Retail Interior Design',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Explore retail projects in Dubai by WE DO Interior Design & Fitout. Luxury retail interior design, boutique design & fit-out services. Contact us today.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -58,8 +65,8 @@ export default function RootLayout({ children }) {
               url: 'https://wedointerior.ae/',
               logo: 'https://wedointerior.ae/logo.png',
               sameAs: [
-                'https://www.instagram.com/yourprofile',
-                'https://www.facebook.com/yourprofile',
+                'https://www.instagram.com/we.do.uae',
+                'https://www.facebook.com/wedo.design.dubai',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
@@ -70,7 +77,7 @@ export default function RootLayout({ children }) {
               },
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Dubai Marina',
+                streetAddress: 'Jabel Ali Industrial 1',
                 addressLocality: 'Dubai',
                 postalCode: '00000',
                 addressCountry: 'AE',
@@ -87,50 +94,14 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'WebPage',
               name: 'Interior Design Projects in Dubai',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/retail-projects',
               description:
-                'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+                'Explore retail projects in Dubai by WE DO Interior Design & Fitout. Luxury retail interior design, boutique design & fit-out services. Contact us today.',
             }),
           }}
         />
 
-        {/* CollectionPage Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'CollectionPage',
-              name: 'Interior Design Projects',
-              url: 'https://wedointerior.ae/projects',
-              description:
-                'A curated collection of luxury interior design and fit-out projects completed by We Do Interior Design in Dubai.',
-              mainEntity: {
-                '@type': 'ItemList',
-                itemListElement: [
-                  {
-                    '@type': 'ListItem',
-                    position: 1,
-                    name: 'Residential Interior Projects',
-                    url: 'https://wedointerior.ae/projects/residential',
-                  },
-                  {
-                    '@type': 'ListItem',
-                    position: 2,
-                    name: 'Commercial Interior Projects',
-                    url: 'https://wedointerior.ae/projects/commercial',
-                  },
-                  {
-                    '@type': 'ListItem',
-                    position: 3,
-                    name: 'Hospitality Interior Projects',
-                    url: 'https://wedointerior.ae/projects/hospitality',
-                  },
-                ],
-              },
-            }),
-          }}
-        />
+     
       </head>
       <body>{children}</body>
     </html>

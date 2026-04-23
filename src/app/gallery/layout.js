@@ -3,7 +3,7 @@ import '../globals.css';
 export const metadata = {
   title: "Our Gallery | We Do Interior Design & Fit-Out",
   description:
-    "Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.",
+    "Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio. Call Now!",
   keywords: [
     'Interior Design Projects Dubai',
     'Fit-Out Portfolio Dubai',
@@ -58,8 +58,8 @@ export default function RootLayout({ children }) {
               url: 'https://wedointerior.ae/',
               logo: 'https://wedointerior.ae/logo.png',
               sameAs: [
-                'https://www.instagram.com/yourprofile',
-                'https://www.facebook.com/yourprofile',
+                'https://www.instagram.com/we.do.uae',
+                'https://www.facebook.com/wedo.design.dubai',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
               },
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Dubai Marina',
+                streetAddress: 'Jabel Ali Industrial 1',
                 addressLocality: 'Dubai',
                 postalCode: '00000',
                 addressCountry: 'AE',
@@ -112,19 +112,19 @@ export default function RootLayout({ children }) {
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Residential Interior Projects',
-                    url: 'https://wedointerior.ae/projects/residential',
+                    url: 'https://wedointerior.ae/villa-projects',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Commercial Interior Projects',
-                    url: 'https://wedointerior.ae/projects/commercial',
+                    url: 'https://wedointerior.ae/office-projects',
                   },
                   {
                     '@type': 'ListItem',
                     position: 3,
                     name: 'Hospitality Interior Projects',
-                    url: 'https://wedointerior.ae/projects/hospitality',
+                    url: 'https://wedointerior.ae/restaurant-projects',
                   },
                 ],
               },
@@ -133,6 +133,7 @@ export default function RootLayout({ children }) {
           
         />
       </head>
+      <meta name="publisher" content="WE DO Interior Design and Fitout"></meta>
       <body>{children}</body>
     </html>
   );

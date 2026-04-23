@@ -58,18 +58,19 @@ const VPBody = () => {
         {/* Row: Static Text + Video */}
         <div className="flex flex-col lg:flex-row gap-10">
           {/* Simple Static Text */}
-          <div className="w-full lg:w-1/2 space-y-4 text-sm sm:text-lg leading-6 text-white/90 font-play">
+          <div className="w-full lg:w-1/2 space-y-4 text-sm leading-6 text-white/90 font-play">
             <p>
-              We Do design is a top-notch company that was established in 2015 by Hamza Jamal Alatta. The company manufactures and delivers the best services of interior designing products at an affordable price. We offer the best interior designing services throughout the UAE.
+              We Do design is a top-notch company that was established in 2015 by Hamza Jamal Alatta. The company manufactures and delivers the best services of interior designing products. We offer the <b className="text-[#caa193]"
+              ><a href="https://wedointerior.ae/#services">best interior designing services</a></b> throughout the UAE.
             </p>
             <p>
               We have a highly qualified staff that is available 24/7 for you. Our professionals can turn your normal-looking interior into a modern, aesthetic, and luxurious one by doing a few modifications. We provide the services of interior designing of commercial, institutional, residential, and other architectural projects.
             </p>
             <p>
-              We offer our Dubai villa design services in various places so that every project we get can have a unique vision put into it. Our expert team designs beautifully designed splendour villas that make customers feel unmatched charm, comfort, and luxury.
+              We offer our <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-dubai"> Dubai interior design services</a></b> in various places so that every project we get can have a unique vision put into it. Our expert team designs beautifully designed splendour spaces that make customers feel unmatched charm, comfort, and luxury.
             </p>
             <p>
-              WE DO Interior Design and Fitout is one of the best villa interior design companies in Dubai, transforming private villas into personalized havens. As a luxury villa interior design company and bespoke high-end designer, we specialize in the design of modern luxury villas embodying both elegance and innovation.
+              WE DO Interior Design and Fitout is one of the best interior design companies in Dubai, transforming private villas into personalized havens. As a luxury <b className="text-[#caa193]"><a href="https://www.instagram.com/we.do.uae/">interior design company</a></b> and bespoke high-end designer, we specialize in the design of modern luxury villas embodying both elegance and innovation.
             </p>
           </div>
 
@@ -81,7 +82,7 @@ const VPBody = () => {
                 onClick={() => setVideoLoaded(true)}
               >
                 <Image
-                  src="/images/atlantis (2).webp"
+                  src="/images/ATRD (3).webp"
                   alt="Watch our company video"
                   fill
                   className="object-cover"
@@ -106,13 +107,15 @@ const VPBody = () => {
             )}
 
             <a
-              href="/projects"
+              href="/gallery"
               className="inline-block px-6 py-3 bg-[#caa193] text-white text-sm font-semibold tracking-wider rounded hover:bg-[#b48773] transition"
             >
               View Our Projects
             </a>
           </div>
+        
         </div>
+        
       </div>
 
     </section>

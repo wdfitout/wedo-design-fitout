@@ -8,8 +8,8 @@ const VHeroSection = () => {
     <div className="relative w-full h-[250px] sm:h-[200px] md:h-[250px] lg:h-[300px] xl:h-[350px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/cnpkapt (6).png"
-        alt="interior design"
+        src="/images/penth14.webp"
+        alt="best interior design company in dubai"
         fill
         priority
         className="object-cover"

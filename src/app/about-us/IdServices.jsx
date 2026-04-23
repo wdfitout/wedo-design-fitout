@@ -7,21 +7,21 @@ import Link from "next/link";
 const cardData = [
   {
     title: "RESIDENTIAL",
-    img: "/images/serv1.webp",
-    desc: "Luxury interior design tailored for villa architecture and grandeur aesthetics in Dubai.",
+    img: "/images/primo-sitting.jpg",
+    desc: "Luxury residential interior design services in Dubai for villas, apartments, penthouses and tonwhouses etc.",
     link: "/villa-interior-design-dubai",
   },
   {
     title: "COMMERCIAL",
-    img: "/images/serv2.webp",
-    desc: "Smart, elegant and space-optimized apartment interiors crafted for modern city life.",
-    link: "/apartment-interior-design-dubai",
+    img: "/images/xaima (8).webp",
+    desc: "Smart, elegant and space-optimized interiors for Commercial spaces like offices, restaurants, retails in Dubai",
+    link: "/restaurant-interior-design",
   },
    {
     title: "FIT OUT",
-    img: "/images/serv3.webp",
-    desc: "Create unforgettable dining spaces with ambiance that enhances the culinary experience.",
-    link: "/landscape-design-dubai",
+    img: "/images/x.learning (7).webp",
+    desc: "Providing the best Office fit-out services in Dubai for Offices and other commercial spaces.",
+    link: "fit-out-company-dubai",
   },
 ];
 

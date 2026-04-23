@@ -19,7 +19,7 @@ const blogPosts = [
    title: "High-End Living Room interior Design in Business Bay Dubai",
     date: "Published: 18.04.2026",
     excerpt:
-      "Discover how to design a luxury living room interior  in Business Bay Dubai with modern interiors, elegant styles, smart layouts, and expert tips from WE DO.",
+      "Discover how to design a luxury living room interior in Business Bay with modern interiors smart layouts, and expert tips from WE DO.",
     image: "/images/Luxury interior material focus Dubai living room.png",
     link: "/living-room-interior-business-bay",
   },

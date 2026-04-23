@@ -25,7 +25,7 @@ const PHeroSection = () => {
       RESTAURANT PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    As a leading Restaurant Interior Design Company in Dubai, UAE, WE DO Interior Design & Fitout delivers inspiring spaces across Downtown Dubai, Bluewaters, and Al Quoz. Our team of expert Interior Designers in UAE offers bespoke restaurant design services and turnkey fit out solutions, creating vibrant, functional spaces that reflect your brand identity
+    As a leading Restaurant Interior Design Company in Dubai, UAE, WE DO Interior Design & Fitout delivers inspiring spaces across Downtown Dubai, Bluewaters, and Al Quoz. Our team of expert Interior Designers in UAE offers bespoke <b><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interior design services</a></b> and turnkey fit out solutions, creating vibrant, functional spaces that reflect your brand identity
     </p>
   </div>
 

@@ -24,7 +24,7 @@ const PHeroSection = () => {
       OFFICE PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    Enhance productivity with expert Office Interior Design & Fit-Out by WE DO Interior Design & Fitout. Serving Dubai Knowledge Park and Business Bay, we specialize in modern office spaces, design and build solutions, and premium office furniture. As a trusted Office Fit-Out Company in Dubai, we craft workspaces that inspire innovation and efficiency. </p>
+    Enhance productivity with expert <b><a href="https://wedointerior.ae/office-interior-design-dubai">Office Interior Design</a></b> & Fit-Out by WE DO Interior Design & Fitout. Serving Dubai Knowledge Park and Business Bay, we specialize in modern office spaces, design and build solutions, and premium office furniture. As a trusted <b><a href="https://wedointerior.ae/fit-out-company-dubai">Office Fit-Out Company in Dubai</a></b>, we craft workspaces that inspire innovation and efficiency. </p>
   </div>
     </div>
   );

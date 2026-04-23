@@ -24,7 +24,7 @@ const PHeroSection = () => {
       APARTMENT PROJECTS DUBAI
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    Redesign your space with Apartment Interior Design Dubai at WE DO Interior Design & Fitout. From Business Bay to Dubai Marina and Atlantis The Royal, we offer expert modern apartment design interior, apartment renovation, and complete fitout services. Redefine your lifestyle with sophisticated apartment interior decor and residential design specifically for you.</p>
+    Redesign your space with <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">Apartment Interior Design Dubai</a></b>  at WE DO Interior Design & Fitout. From Business Bay to Dubai Marina and Atlantis The Royal, we offer expert modern apartment design interior, apartment renovation, and <b><a href="https://wedointerior.ae/fit-out-company-dubai">complete fitout services</a></b>. Redefine your lifestyle with sophisticated apartment interior decor and residential design specifically for you.</p>
   </div>
     </div>
   );
