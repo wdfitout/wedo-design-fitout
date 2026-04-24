@@ -43,12 +43,14 @@ const VHeroSection = () => {
 
           <div className="text-md leading-relaxed font-play space-y-4">
             <p>
-             In today’s competitive commercial landscape, the interior design of a workspace plays a crucial role in creating how a business operates and how it is perceived. Business Bay Dubai, well known for its contemporary architecture, has become a central hub for companies searching for growth and development. In such an ambiance, investing in<b> Commercial Interior Fit-out</b> is no longer a luxury but a requirement.
+             In today’s competitive commercial landscape, the interior design of a workspace plays a crucial role in creating how a business operates and how it is perceived. Business Bay Dubai, well known for its contemporary architecture, has become a central hub for companies searching for growth and development. In such an ambiance, investing in<a href="/commercial-interior-fit-out-in-business-bay-dubai" className="font-bold hover:underline text-[#caa193]">
+  Commercial Interior Fit-out
+</a> is no longer a luxury but a requirement.
             </p>
              {/* Image 1 */}
           <Image src="/images/Commercial Interior Fit-out in Business Bay Dubai.png" alt="Commercial Interior Fit-out" width={800} height={600} className="rounded-md w-full object-cover my-6" />
             <p>
-              At <b>WE DO Interior Design & Fitout</b>, the focus is on providing tailored services that match with business objectives and contemporary workplace standards. As one of the reliable <b> Interior Fit-Out Companies In UAE </b>, the company understands that a well-structured workspace elevates productivity and creates the strongest brand identity.
+              At <b>WE DO Interior Design & Fitout</b>, the focus is on providing tailored services that match with business objectives and contemporary workplace standards. As one of the reliable <a href="/commercial-interior-fit-out-in-business-bay-dubai" className="font-bold hover:underline text-[#caa193]"> Interior Fit-Out Companies In UAE </a>, the company understands that a well-structured workspace elevates productivity and creates the strongest brand identity.
             </p>
           </div>
 
@@ -64,7 +66,7 @@ const VHeroSection = () => {
 
             <h3 className="text-[#caa193] text-xl font-bold mb-2">The Role of a Professional Interior Design Company</h3>
             <p>
-              Many businesses select to collaborate with <b>Top Interior design companies in Business Bay</b> to make sure that their workspace showcases professionalism and innovation. With extensive experience in providing <b> Fit Out Dubai</b> services, <b> WE DO Interior Design & Fitout </b> helps businesses achieve these aims through personalized design strategies.
+              Many businesses select to collaborate with <a href="/commercial-interior-fit-out-in-business-bay-dubai" className="font-bold hover:underline text-[#caa193]"> Top Interior design companies in Business Bay </a> to make sure that their workspace showcases professionalism and innovation. With extensive experience in providing <b> Fit Out Dubai</b> services, <b> WE DO Interior Design & Fitout </b> helps businesses achieve these aims through personalized design strategies.
             </p>
           </div>
 
