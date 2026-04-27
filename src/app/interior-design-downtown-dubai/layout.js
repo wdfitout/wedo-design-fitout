@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in DownTown, Dubai - WE DO interiors",
+  title: "Interior Design Company in Downtown Dubai | Best Interior Design & Fit-Out Services",
   description:
-    "Transform your space with the top interior design company in Downtown Dubai. We specialize in apartment renovations, high-end office fit-outs. Visit Us!",
+    "Top interior design company in Downtown Dubai delivering residential & commercial fit-out services. Book your consultation today.",
   keywords:[
     "interior design company Downtown Dubai",
     "interior design company in Business Bay Dubai",

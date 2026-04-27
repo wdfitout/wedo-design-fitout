@@ -6,30 +6,30 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Office Interior Design In Downtown Dubai",
+    title: "Office Interior Design Downtown",
     description:
-      "Modern office fit-out, workspace planning, and commercial interior design in Dubai.",
+      "Workspaces that match your company’s concept and operational requirements with flawless completion.",
     bgImage: "/images/dtrest (6).webp",
     link: "/office-interior-design-downtown-dubai",
   },
   {
-    title: "Apartment Interior Design In Downtown Dubai",
+    title: "Residential Interior Design Downtown",
     description:
-      "High-quality fit-out services ensuring seamless execution from start to finish.",
+      "Redefining contemporary living through customized, sophisticated, and luxurious spaces.",
     bgImage: "/images/01-living-07.jpg",
     link: "/apartment-interior-design-downtown-dubai",
   },
   {
-    title: "Villa Interior Design In Downtown Dubai",
+    title: "Commercial Interior Design Downtown",
     description:
-      "Interactive 3D & VR previews to visualize your space before execution.",
+      "Redefining business spaces into high-performing ambiances for retail, stores, and hospitality.",
     bgImage: "/images/ATRD (2).webp",
-    link: "/villa-interior-design-downtown-dubai",
+    link: "/commercial-interior-design-downtown-dubai",
   },
   {
-    title: "Restaurant Interior Design In Downtown Dubai",
+    title: "Restaurant & Hospitality Design",
     description:
-      "Bespoke furniture and styling solutions crafted for elegance & function.",
+      "Aesthetic dining ambiances combining elegance with innovation for a long-lasting impact.",
     bgImage: "/images/adbr (6).png",
     link: "/restaurant-interior-design-downtown-dubai",
   },
@@ -37,28 +37,28 @@ const services = [
 
 const businessBayProjects = [
   {
-    title: "Downtown Tourism Office Fit-Out",
-    category: "Travel Agency Office - Downtown Dubai",
+    title: "Luxury Penthouse Interior",
+    category: "Residential - Downtown Dubai",
     image: "/images/meby (6).webp",
-    link: "/downtown-dubai-travel-agency",
-  },
-  {
-    title: "Downtown Apartment Interior",
-    category: "Residential Apartment - Downtown Dubai",
-    image: "/images/bba (6).jpg",
     link: "/downtown-dubai-apartment",
   },
   {
-    title: "Restaurant Interior Design",
-    category: "Restaurant - Downtown Dubai",
+    title: "Premium Corporate Office",
+    category: "Commercial - Downtown Dubai",
+    image: "/images/bba (6).jpg",
+    link: "/downtown-dubai-office-fit-out",
+  },
+  {
+    title: "Fine Dining Restaurant",
+    category: "Hospitality - Downtown Dubai",
     image: "/images/sahelnom (5).webp",
     link: "/downtown-dubai-restaurant",
   },
   {
-    title: "Elite Corporate Office Interior",
-    category: "Commercial Office - Downtown Dubai",
+    title: "Retail Boutique Store",
+    category: "Retail - Downtown Dubai",
     image: "/images/startech (2).webp",
-    link: "/downtown-dubai-office-fit-out",
+    link: "/downtown-dubai-retail",
   },
 ];
 
@@ -67,312 +67,273 @@ const AboutSection = () => {
     <section className="bg-[#000000] py-16 sm:py-20">
       <div className="container mx-auto px-4 sm:px-8 lg:px-16">
 
-        {/* Image + Content Row */}
-        <div className="flex flex-col lg:flex-row items-center gap-12">
-          
-          <div className="w-full text-center ">
-            <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-              PROFESSIONAL INTERIOR DESIGN SERVICES IN DOWNTOWN DUBAI
-            </h2>
-            <p className="text-justify text-white text-base sm:text font-play mb-6 leading-relaxed">
-              As a leading <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-companies-in-downtown-dubai">interior design company in Downtown Dubai</a></b>, we offer services for both commercial 
-              and residential projects. Our services related to office interior design Downtown Dubai help 
-              the businesses in designing a modern and productive space. For commercial businesses, our 
-              services of commercial interior design Downtown Dubai, such as retail outlets, restaurants, 
-              and hotels, ensure that every project is visually attractive and functional.
-              <br /><br />
-              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
-                COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
-              </h3>
-              For our residential clients, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/downtown-apartment">apartment interior design Downtown Dubai</a></b> services helps in 
-              designing homes that are comfortable, stylish and modern. We combine custom furniture and 
-              luxurious materials to suit the lifestyle of our clients. Our renovation services in 
-              Downtown Dubai upgrade or renovate the existing spaces with minimal disturbance.
-              With our creative and technical skills, we are known as one of the best interior fit 
-              out contractors Downtown Dubai and <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-in-downtown-dubai-dubai">fit-out company in Downtown Dubai Dubai</a></b>, with 
-              projects that reflect quality, style, and attention to detail.
-            </p>
-              
-            <section className="bg-[#000000] py-10">
-              <div className="container mx-auto flex flex-col lg:flex-row items-center px-4 sm:px-8 lg:px-16 gap-10">
-                {/* Left Side - Image */}
-                <div className="w-full lg:w-1/2">
-                  <Image
-                    src="/images/startech (3).webp"
-                    alt="Office Interior Design in Downtown Dubai"
-                    width={800}
-                    height={600}
-                    className="w-full h-100 rounded-lg shadow-md"
-                   />
-                </div>
-
-                {/* Right Side - Content */}
-                <div className="w-full lg:w-1/2 text-center lg:text-left">
-                  <h2 className="text-[#b98877] text-2xl sm:text-2xl font-conthrax mb-4 leading-tight">
-                    Office Interior Design and Fit-Out in Downtown Dubai
-                  </h2>
-
-                  <p className="text-white text-sm sm:text-base font-play mb-4">
-                    The corporate towers in Downtown Dubai have the most splendid offices, startups, and multinational companies in Dubai. Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-trends-in-downtown-dubai">office interior design Downtown Dubai services</a></b> are based on delivering spaces that are functional, motivating and matching with the standard corporate environment in Dubai.
-                  </p>
-                  <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
-                    COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
-                  </h3>
-                  <p className="text-white text-sm sm:text-base mb-4 font-play">
-                    We oversee all the details involved in office fit-outs Dubai, such as space planning, furniture, lighting design, and technology. As professional offices fit out contractors in Dubai, we also handle DCD approvals and authority approvals Dubai to ensure that everything goes smoothly. 
-                    Other than Downtown Dubai, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">office interior design projects</a></b> also cover the nearby areas of DIFC and Business Bay, which means that all businesses in the main commercial areas of Dubai get to enjoy our expertise. 
-                  </p>
-
-                  {/* Buttons */}
-                  <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                    <Link href="/gallery">
-                      <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-                        See Our Projects
-                      </button>
-                    </Link>
-
-                    <Link href="/contact-us">
-                      <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-                        Free Consultation
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              {/* Services Section */}
-              <div className="text-center mt-10 mb-12">
-                <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-                  Our Interior Services in Downtown Dubai
-                </h2>
-              </div>
+        {/* Section 1: Intro Content */}
+        <div className="w-full text-center mb-16">
         
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                {services.map((service, idx) => (
-                  <Link key={idx} href={service.link} className="block group">
-                    <div className="relative h-[340px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
-                      <Image
-                        src={service.bgImage}
-                        alt={service.title}
-                        fill
-                        className="object-cover transition-transform duration-700 group-hover:scale-110"
-                      />
-                      <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
-                      <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 text-white text-left">
-                        <h3 className="text-md font-conthrax mb-2">
-                          {service.title}
-                        </h3>
-                        <p className="text-sm text-gray-200 leading-relaxed">
-                          {service.description}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
 
-              <div className="text-center mt-10">
-                <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-                  Turnkey Fit-Out and Design & Build Solutions
-                </h2>
-                <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-                  At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we offer full-service turnkey fit out Downtown Dubai services for our clients who are looking for all in one experience. As a reputable design and build company Dubai, we oversee all aspects of the process, from the first consultation and design concept to the approvals from the authorities Dubai, through to completion and delivery. Our end-to-end process ensures a smooth, efficient, and high-quality experience at all times. Our clients can take advantage of our knowledge in interior design and fit out companies in Dubai.
-                </p>
-              </div>
-            </section>
-          </div>
+          <h2 className="text-[#b98877] text-xl font-conthrax mb-4 leading-tight text-left">
+  INTERIOR DESIGN DOWNTOWN DUBAI – LUXURY LIVING & COMMERCIAL EXCELLENCE
+</h2>
+<p className="text-justify text-white text-base font-play mb-4 leading-relaxed">
+  Downtown Dubai is a place of iconic developments near Burj Khalifa and high-end residences, 
+  creating it one of the most iconic locations for high-end interiors. Our Interior Design 
+  Downtown Dubai services in Dubai are specific to meet the needs of this elite ambiance.
+</p>
+
+<p className="text-white text-base font-play mb-2 text-left">We craft and offer:</p>
+<ul className="list-disc text-white text-base font-play mb-6 ml-6 space-y-1 text-left">
+  <li>Luxury apartments and penthouses</li>
+  <li>Premium office spaces</li>
+  <li>Retail and restaurant interiors</li>
+</ul>
+
+<p className="text-justify text-white text-base font-play mb-6 leading-relaxed">
+  WE DO is specialists across nearby areas like Business Bay, Dubai Creek Harbour, and 
+  Dubai Marina, reinforcing our reputation as one of the top 10 interior designers in Dubai.
+</p>
         </div>
-            
-        <section className="bg-[#000000] py-10">
-          <div className="container mx-auto flex flex-col lg:flex-row items-center px-4 sm:px-8 lg:px-16 gap-10">
-            {/* Right Side - Content */}
-            <div className="w-full lg:w-1/2 text-center lg:text-left">
-              <h2 className="text-[#b98877] text-2xl sm:text-2xl font-conthrax mb-4 leading-tight">
-                Apartment and Luxury Interior Design in Downtown Dubai
-              </h2>
 
-              <p className="text-white text-sm sm:text-base font-play mb-4">
-                Downtown Dubai is known for its luxury residential properties, and our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design in Downtown Dubai</a></b> services are designed to provide you with luxurious, comfortable, and contemporary living spaces. We are experts in luxury interior design Dubai and provide homes that are a perfect blend of beauty and functionality.
-              </p>
-              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
-                ELEGANT RESIDENTIAL SPACES TAILORED TO YOUR LIFESTYLE
-              </h3>
-              <p className="text-white text-sm sm:text-base mb-4 font-play">
-                We also undertake projects in other nearby locations like the Burj Vista and the Address Residences in Downtown Dubai. Whether it is a small apartment or a waterfront penthouse, our interior design in Downtown Dubai is a perfect blend of elegance, innovation, and functionality.
-              </p>
-
-              {/* Buttons */}
-              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                <Link href="/gallery">
-                  <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-                    See Our Projects
-                  </button>
-                </Link>
-
-                <Link href="/contact-us">
-                  <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-                    Free Consultation
-                  </button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Left Side - Image */}
-            <div className="w-full lg:w-1/2">
-              <Image
-                src="/images/bba.png"
-                alt="Office Interior Design in Downtown Dubai"
-                width={800}
-                height={600}
-                className="w-full h-100 rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-          
-          <div className="text-center mt-10">
-            <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-              Why Choose WE DO Interior Design & Fitout in Downtown Dubai
-            </h2>
-            <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-              Choosing the right interior design company in Downtown Dubai is important to ensure that you achieve the best results. At WE DO Interior Design & Fitout, we have managed to set ourselves apart from the rest because of our commitment to excellence and passion for design. Our professional interior designers in Downtown Dubai have good experience of working in iconic high-rise buildings, ensuring that the work is done in the most efficient manner possible while also adhering to the necessary regulations. Our clients trust us for our clear pricing, organized project management, and creative designs for residential as well as commercial projects.
-              Our experience also includes the neighboring areas of Dubai Mall area, Burj Khalifa district and Sheikh Zayed Road, making us the go-to choice for clients looking for the best interior design company in Downtown Dubai.
-            </p>
-          </div>
-        </section>
-
-        <div className="relative mb-12 transition-transform duration-500 hover:scale-105">
-          <div className="block">
+        {/* Section 2: Image + About Content */}
+        <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
+          <div className="w-full lg:w-1/2">
             <Image
-              src="/images/primo-sitting.jpg"
-              alt="Residential Interior Design"
-              width={1400}
+              src="/images/startech (3).webp"
+              alt="About WE DO Interior Design"
+              width={800}
               height={600}
-              className="object-cover w-full h-[200px] sm:h-[330px]"
+              className="w-full h-auto rounded-lg shadow-md"
             />
-            {/* Overlay */}
-            <div className="absolute inset-y-0 text-start right-0 w-1/2 md:w-1/3 bg-black/70 p-2 sm:p-10 flex flex-col justify-center">
-              <h2 className="text-lg text-[#b98877] font-conthrax uppercase">
-                START YOUR INTERIOR DESIGN PROJECT IN DOWNTOWN DUBAI TODAY
-              </h2>
-              <p className="text-[15px] leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all duration-300 ease-in-out">
-                If you are looking for an experienced Interior Design Company in Downtown Dubai, WE DO Interior Design & Fitout is your best partner. From office interiors and retail outlets to apartments, penthouses, and restaurants, we work with every kind of space. Contact us today to schedule a consultation or site visit and experience expert interior design in Downtown Dubai, transforming your space into a stylish, functional, and high-end environment.
-              </p>
-            </div>
           </div>
-          
-          {/* Vertical Line */}
-          <div className="hidden md:block absolute top-0 left-1/3 w-[2px] h-full bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
-        </div>
-
-        <div className="text-center mb-0">
-          <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-            Commercial Interior Design in Downtown Dubai
-          </h2>
-          <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-            Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/commercial-interior-design-dubai">commercial interior design solutions</a></b> include retail, restaurants, and hospitality. We know that design has a significant impact on customer experience, brand image, and efficiency. From retail fit out Downtown Dubai projects to <b className="text-[#caa193]"><a href="https://wedointerior.ae/downtown-dubai-restaurant">restaurant interior design Downtown Dubai</a></b>, we provide services in design, materials, lighting, and implementation. As a good reputed fit out company in Downtown Dubai, we design interiors that are aesthetic, functional, and match with your brand identity. We have successfully completed our projects in the surrounding regions of Downtown Dubai such as Sheikh Zayed Road and City Walk. Our commercial designs are modern and elegant, making us one of the leading interior fit out companies in Dubai.
-          </p>
-        </div>
-
-        {/* ================= DOWNTOWN PROJECTS SECTION ================= */}
-        <section className="bg-[#000000] py-16">
-          <div className="container mx-auto px-4 sm:px-8 lg:px-16">
-            {/* Section Heading */}
-            <div className="text-center mb-12">
-              <h2 className="text-[#b98877] text-3xl font-conthrax mb-4 leading-tight">
-                Our Projects in Downtown Dubai
-              </h2>
-              <p className="text-gray-300 max-w-3xl mx-auto font-play">
-                Discover our completed interior design and fit-out projects in Downtown Dubai,
-                including commercial offices, <b className="text-[#caa193]"><a href="https://wedointerior.ae/downtown-dubai-apartment-design">luxury Downtown Dubai apartment designs</a></b>, restaurants, and turnkey solutions.
-              </p>
-            </div>
-
-            {/* Projects Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {businessBayProjects.map((project, index) => (
-                <Link key={index} href={project.link} className="block group">
-                  <div className="relative overflow-hidden rounded-2xl shadow-lg cursor-pointer">
-                    <div className="relative h-[320px]">
-                      <Image
-                        src={project.image}
-                        alt={project.title}
-                        fill
-                        className="object-cover transition-transform duration-700 group-hover:scale-110"
-                      />
-                      <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
-                    </div>
-                    <div className="absolute inset-0 flex flex-col justify-end p-6 z-10 text-white text-left">
-                      <h3 className="text-lg font-conthrax mb-1">
-                        {project.title}
-                      </h3>
-                      <p className="text-sm text-gray-300">
-                        {project.category}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-            
-            {/* Bottom CTA */}
-            <div className="text-center mt-12">
+          <div className="w-full lg:w-1/2 text-center lg:text-left">
+            <h2 className="text-[#b98877] text-2xl font-conthrax mb-4">About WE DO Interior Design & Fitout</h2>
+            <p className="text-white text-sm sm:text-base font-play mb-4 text-justify">
+              WE DO is a top name among interior design companies in Dubai, providing personalized interiors that handle comfort and practicality. With the best experience in residential and commercial spaces, we are reputed as one the best interior design and fit out companies in Dubai for our functional concept. From ideation to finishings, our experienced designers make sure each project meets the quality standards, placing us one of the most trusted interior design companies for clients looking in Dubai.
+            </p>
+            <div className="flex justify-center lg:justify-start gap-4 mt-6">
               <Link href="/gallery">
-                <button className="bg-[#b98877] hover:bg-[#a97463] text-black px-8 py-3 rounded-md font-conthrax transition duration-300">
-                  View All Projects
+                <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
+                  See Our Projects
+                </button>
+              </Link>
+              <Link href="/contact-us">
+                <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
+                  Free Consultation
                 </button>
               </Link>
             </div>
           </div>
-        </section>
-
-        <div className="text-left mt-10 mb-0">
-          <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-            Interior Renovation and Upgrade Services
-          </h2>
-          <p className=" text-left mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-            Not only Interior Design, we also deliver our premium renovation services. Our team optimizes layouts, integrates smart systems, and upgrades finishes to provide best interior designs that enhance both aesthetics and functionality of your space. We provide full renovation services in Downtown Dubai and nearby locations. Our team of experts works on layouts, smart systems, and finishes to provide high-end interior solutions that improve aesthetics and functionality.
-          </p>
-          <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-            Local Expertise and Presence in Dubai
-          </h2>
-          <p className=" text-left mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
-            Although Downtown Dubai is our main area of providing services, our knowledge and expertise extend throughout Dubai and the UAE. Being one of the best interior design companies in Dubai, we have successfully completed various projects including <b className="text-[#caa193]"><a href="https://wedointerior.ae/downtown-dubai-travel-agency">travel agency Office</a></b>, Cafe Interiors, Downtown Dubai restaurant and an apartment interior in different locations, always providing the best possible outcomes in luxury interior design Dubai, interior design in Dubai, and other upscale regions. <br /> <br />
-            Through our services we make sure that clients from other areas are also able to take advantage of our professional interior design and fit-out solutions. Our status as one of the <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-companies-in-downtown-dubai-dubai">best interior design companies in Downtown Dubai</a></b> is reinforced by a portfolio of satisfied clients across Dubai’s premium districts.
-          </p>
         </div>
 
-        <div className=" text-sm leading-relaxed font-play text-white text-left">
-          <h2 className="text-[#b98877] text-2xl font-conthrax leading-tight py-5">
-            Frequently asked questions (FAQs)
+        {/* Section 3: Services Grid */}
+        <div className="text-center mb-12">
+          <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 uppercase">
+            Our Interior Design Services in Downtown Dubai
           </h2>
-          <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
-            1-  How long does an office fit-out in Downtown Dubai take?
-          </h3>
-          <p>
-            Office fit-outs usually take six to twelve weeks, depending on the size and complexity of the project. Our team takes care of all approvals from DCD and approvals from the authority in Dubai.
-          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          {services.map((service, idx) => (
+            <Link key={idx} href={service.link} className="block group">
+              <div className="relative h-[340px] rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={service.bgImage}
+                  alt={service.title}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
+                <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 text-white text-left">
+                  <h3 className="text-md font-conthrax mb-2">{service.title}</h3>
+                  <p className="text-sm text-gray-200 leading-relaxed">{service.description}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
 
-          <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
-            2-  Do you provide turnkey fit-out services?
-          </h3>
-          <p>
-            Yes, our turnkey fit out services in Downtown Dubai include all aspects, from design and approval to completion and delivery to our clients. 
-          </p>
+        {/* Section 4: Detailed Descriptions */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 text-white font-play">
+  <div className="text-justify">
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Residential Interior Design Downtown</h3>
+      <p>
+        WE DO offers residential services that redefine contemporary living through customized and sophisticated spaces. In Downtown Dubai, we have the best interior designers. Our houses are designed to show off your way of life, and we maintain an ideal balance between elegance and luxury. WE DO offers meticulous skyline to sophisticated penthouses presented near popular spaces such as the Burj Khalifa. Moreover, WE DO also specializes in bedroom interior designs, adding a personal touch of elegance and coziness to every home.
+      </p>
+    </div>
 
-          <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
-            3- Can you design luxury apartments in Downtown Dubai?
-          </h3>
-          <p>
-            Yes, we can. At WEDO, we are experts in apartment interior design in Downtown Dubai and luxury residential projects, designing homes that are both beautiful and functional.
-          </p>
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Commercial Interior Design Downtown</h3>
+      <p>
+        We offer unique <a href="/interior-design-downtown-dubai" className="font-bold hover:underline text-[#b98877]">
+ commercial interior design services
+</a>  that elevate both practicality and brand personality. As a leading interior design company in Dubai, WE DO redefines business spaces into high-performing ambiances. Our portfolio covers corporate offices, retail stores, and hospitality venues crafted to maximize client engagement and operational flow. For business owners looking for the best commercial interiors, we offer creative and well-planned services that blend elegance with peak productivity.
+      </p>
+    </div>
 
-          <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
-            4- Are you among the best interior design companies in Downtown Dubai?
-          </h3>
-          <p>
-            With our experience, quality work, and happy clients, WE DO Interior Design & Fitout is one of the best interior design companies in Downtown Dubai.
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Office Interior Design Downtown</h3>
+      <p>
+        Our specialization in <a href="/interior-design-downtown-dubai" className="font-bold hover:underline text-[#b98877]">
+  office interior design Dubai
+</a>  gives attention to designing workspaces that match your company’s concept and operational requirements. Whether it’s a contemporary startup or a large corporate office, we design environments that boost exclusivity and employee productivity. We are renowned as one of the top interior design companies in Dubai, handling everything from idea development and space styling to full completion, making sure a flawless transformation for your workspace.
+      </p>
+    </div>
+  </div>
+
+  <div className="text-justify">
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Restaurant & Hospitality Interior Design Downtown</h3>
+      <p>
+        WE DO is the top <a href="/interior-design-downtown-dubai" className="font-bold hover:underline text-[#b98877]">
+ restaurant interior designer Dubai,
+</a>  crafting aesthetic dining ambiances that leave a long-lasting impact on guests. Our vision combines elegance with innovation, giving special attention to mood lighting, acoustic comfort, and well-structured layouts. From quality cafés to comfortable luxury restaurants, we craft iconic spaces that reinforce brand identity and elevate the overall client experience through professional design and execution.
+      </p>
+    </div>
+
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Interior Fit-Out Services</h3>
+      <p>
+        We are reputed as one of the top <a href="/interior-design-downtown-dubai" className="font-bold hover:underline text-[#b98877]">
+  interior fit-out companies in Dubai,
+</a>  providing full turnkey services specific to each project's unique needs. Our solutions cover everything from technical space styling to authority approvals, MEP works, and personalized high-end joinery. We are one of the best interior design companies Downtown Dubai, making sure seamless completion of every phase, offering premium results and guaranteed on-time delivery for our valued clients.
+      </p>
+    </div>
+
+    <div className="mb-8">
+      <h3 className="text-[#b98877] text-lg font-conthrax mb-3">Renovation & Remodeling</h3>
+      <p>
+        WE DO provides luxury renovation and remodeling solutions designed to improve and transform living and work environments into modern masterpieces. If you are modernizing an old apartment or redefining a business ambiance, our professionals make sure a smooth and exclusive process from start to finish. With a deep presence as one of the top interior design companies in Downtown Dubai, we deliver new life to existing spaces with practical design and quality completion.
+      </p>
+    </div>
+  </div>
+</div>
+
+        {/* Section 5: Why Choose / Process Image Section */}
+        <div className="relative mb-16 transition-transform duration-500 hover:scale-[1.02]">
+          <div className="relative h-[250px] sm:h-[400px]">
+            <Image
+              src="/images/primo-sitting.jpg"
+              alt="Luxury Project"
+              fill
+              className="object-cover rounded-xl"
+            />
+            <div className="absolute inset-y-0 right-0 w-full md:w-1/2 bg-black/80 p-6 sm:p-12 flex flex-col justify-center rounded-r-xl">
+              <h2 className="text-xl text-[#b98877] font-conthrax mb-4">WHY CHOOSE WE DO INTERIOR DESIGN</h2>
+              <p className="text-sm sm:text-base text-gray-200 font-play leading-relaxed">
+                WE DO is renowned as one of the top 10 interior designers in Dubai, delivering full turnkey services from ideation to finishings. Our specialization in luxury projects across Downtown Dubai makes sure exclusive quality, high-end materials, and attention to detail. We are placed as one of the interior design companies in Downtown Dubai, we are dedicated to offering projects on time while exceeding client needs.
+              </p>
+            </div>
+          </div>
+          <div className="hidden md:block absolute top-0 left-1/2 w-[2px] h-full bg-gradient-to-b from-[#caa193] to-transparent" />
+        </div>
+
+        {/* Section 6: Process Description */}
+        <div className="bg-[#111] p-8 rounded-2xl mb-16">
+          
+          <h2 className="text-[#b98877] text-2xl font-conthrax mb-5 text-center uppercase">Our Interior Design Process</h2>
+          <p className="text-sm sm:text-base text-gray-200 font-play leading-relaxed mb-5">
+                We follow a streamlined concept to deliver exclusive results:
+</p>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-white font-play text-sm">
+            <div className="text-center p-4 border border-[#b98877]/20 rounded-lg">
+              <span className="block text-[#b98877] font-conthrax text-xl mb-2">01</span>
+              <p><b>Consultation & Requirements Analysis:</b>  We understand your vision and space needs and thus design an exact plan that fits your requirements.</p>
+            </div>
+            <div className="text-center p-4 border border-[#b98877]/20 rounded-lg">
+              <span className="block text-[#b98877] font-conthrax text-xl mb-2">02</span>
+              <p><b>Design Concept & Planning:</b> We provide professional designs and concepts according to your style requirements. </p>
+            </div>
+            <div className="text-center p-4 border border-[#b98877]/20 rounded-lg">
+              <span className="block text-[#b98877] font-conthrax text-xl mb-2">03</span>
+              <p><b>3D Visualization:</b> We provide you realistic visualization of your 3D design to help you envision the end product before the start of work.
+</p>
+            </div>
+            <div className="text-center p-4 border border-[#b98877]/20 rounded-lg">
+              <span className="block text-[#b98877] font-conthrax text-xl mb-2">04</span>
+              <p><b>Execution & Fit-Out:</b> Our experienced designers manage full interior design & fit-out Dubai services with accuracy and premium workmanship.
+</p>
+            </div>
+            
+            <div className="text-center p-4 border border-[#b98877]/20 rounded-lg">
+              <span className="block text-[#b98877] font-conthrax text-xl mb-2">05</span>
+              <p><b>Final Handover: </b> We offer a fully executed, ready-to-use space that meets your needs and quality trends.
+</p>
+
+            </div>
+            
+          </div>
+          <p className="text-sm sm:text-base text-gray-200 font-play leading-relaxed mt-5">
+                This structured process makes sure exclusivity and quality at each stage.
+
+</p>
+        </div>
+
+        {/* Section 7: Projects Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-[#b98877] text-3xl font-conthrax mb-4 uppercase">Our Projects in Downtown Dubai</h2>
+          <p className="text-gray-300 max-w-3xl mx-auto font-play">
+            Discover our completed interior design and fit-out projects in Downtown Dubai, including commercial offices, luxury apartments, and turnkey solutions.
           </p>
         </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          {businessBayProjects.map((project, index) => (
+            <Link key={index} href={project.link} className="block group">
+              <div className="relative overflow-hidden rounded-2xl h-[320px]">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition" />
+                <div className="absolute inset-0 flex flex-col justify-end p-6 z-10 text-white text-left">
+                  <h3 className="text-lg font-conthrax mb-1">{project.title}</h3>
+                  <p className="text-sm text-gray-300">{project.category}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* Section 8: Final Transform CTA */}
+        <div className="text-center mb-16 bg-[#080808] py-12 rounded-2xl border border-[#b98877]/10">
+          <h2 className="text-[#b98877] text-2xl font-conthrax mb-4">TRANSFORM YOUR SPACE IN DOWNTOWN DUBAI</h2>
+          <p className="text-white font-play mb-8 max-w-4xl mx-auto px-4">
+           Enhance your home or business with WE DO. If clients are looking for interior design companies in Downtown, interior designers in Downtown Dubai, or professional interior fit-out companies in Dubai, WE DO is here to bring your dream to real life. WE DO is the best interior design company in Downtown Dubai, specializing in providing interior design services for homes as well as offices. WE DO is one of the reputable interior design companies in Dubai, providing fit-out solutions that suit current trends in life as well as business.
+          </p>
+          <Link href="/contact-us">
+            <button className="bg-[#b98877] hover:bg-[#a17566] text-black font-conthrax px-10 py-4 rounded-md transition duration-300">
+              BOOK YOUR CONSULTATION TODAY
+            </button>
+          </Link>
+        </div>
+
+        {/* FAQs Section */}
+        <div className="text-left bg-[#111] p-10 rounded-2xl">
+          <h2 className="text-[#b98877] text-2xl font-conthrax mb-8 text-center md:text-left">FAQs – INTERIOR DESIGN DOWNTOWN DUBAI</h2>
+          <div className="space-y-8 text-white font-play max-w-5xl">
+            <div>
+              <h3 className="text-[#b98877] font-bold mb-2">How much does interior design cost in Downtown Dubai?</h3>
+              <p className="text-gray-300 text-sm sm:text-base">Prices depend on the nature of the project, good-quality materials, and design requirements. Luxury designs usually require larger budgets than usual.</p>
+            </div>
+            <div>
+              <h3 className="text-[#b98877] font-bold mb-2">How long does fit-out take?</h3>
+              <p className="text-gray-300 text-sm sm:text-base">Most fit-outs take between 4 and 12 weeks.</p>
+            </div>
+            <div>
+              <h3 className="text-[#b98877] font-bold mb-2">Do you provide complete interior design services?</h3>
+              <p className="text-gray-300 text-sm sm:text-base">We are one of the best interior designers and fit-out companies in Dubai providing a comprehensive range of services.</p>
+            </div>
+            <div>
+              <h3 className="text-[#b98877] font-bold mb-2">How can I select the best interior designer in Dubai?</h3>
+              <p className="text-gray-300 text-sm sm:text-base">Select an experienced interior designer with a good reputation among best interior designers in Dubai.</p>
+            </div>
+            <div>
+              <h3 className="text-[#b98877] font-bold mb-2">Do you design commercial interiors?</h3>
+              <p className="text-gray-300 text-sm sm:text-base">We specialize in commercial interior design, including offices, retail and restaurants.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
