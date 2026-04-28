@@ -1,26 +1,31 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Interior Design Company in Downtown Dubai | Best Interior Design & Fit-Out Services",
+  title: "Interior Design Downtown Dubai - Residential & Commercial Experts",
   description:
-    "Top interior design company in Downtown Dubai delivering residential & commercial fit-out services. Book your consultation today.",
-  keywords:[
-    "interior design company Downtown Dubai",
-    "interior design company in Business Bay Dubai",
-    "office interior design Business Bay",
-    "apartment interior design Business Bay",
-    "interior fit out company Business Bay",
-    "turnkey fit out Business Bay",
-    "commercial interior design Business Bay",
-    "luxury interior design Dubai",
-    "renovation services Business Bay",
-    "design and build company Dubai"
-  ],
+    "Premium Interior Design Downtown Dubai for homes & offices. WE DO delivers luxury fit-out, modern interiors & turnkey solutions. Call now!",
+  keywords: [
+  'Interior Design Downtown Dubai',
+  'interior design company in Downtown Dubai',
+  'interior designers Downtown Dubai',
+  'interior fit-out companies in Dubai',
+  'interior design companies in Dubai',
+  'luxury interior design Downtown Dubai',
+  'residential interior design Downtown Dubai',
+  'commercial interior design Dubai',
+  'office interior design Dubai',
+  'restaurant interior design Dubai',
+  'fit-out company Downtown Dubai',
+  'interior design and fit out companies in Dubai',
+  'best interior designers in Dubai',
+  'turnkey interior solutions Dubai',
+  'renovation and remodeling Dubai'
+],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
     title: 'Best Interior Design Company in DownTown, Dubai - WE DO interiors',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Premium Interior Design Downtown Dubai for homes & offices. WE DO delivers luxury fit-out, modern interiors & turnkey solutions. Call now!',
     url: 'https://wedointerior.ae/interior-design-downtown-dubai',
     siteName: 'WE DO Interior Design & Fitout',
     images: [
@@ -37,7 +42,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Premium Interior Design Downtown Dubai for homes & offices. WE DO delivers luxury fit-out, modern interiors & turnkey solutions. Call now!',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -78,7 +83,7 @@ export default function RootLayout({ children }) {
               },
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "Downtown",
                 "addressLocality": "Dubai",
                 "postalCode": "00000",
                 "addressCountry": "AE"
@@ -94,9 +99,9 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Interior Design Company in Business Bay",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "Luxury interior design services in Business Bay Dubai including offices, apartments, cafes, restaurants, and travel agencies."
+              "name": "Interior Design Company in Downtown",
+              "url": "https://wedointerior.ae/interior-design-downtown-dubai",
+              "description": "Premium Interior Design Downtown Dubai for homes & offices. WE DO delivers luxury fit-out, modern interiors & turnkey solutions. Call now!"
             })
           }}
         />
@@ -116,7 +121,7 @@ export default function RootLayout({ children }) {
               "priceRange": "$$$",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "DownTown",
                 "addressLocality": "Dubai",
                 "addressRegion": "Dubai",
                 "postalCode": "00000",
@@ -133,10 +138,10 @@ export default function RootLayout({ children }) {
                 "Sheikh Zayed Road"
               ],
               "serviceOffered": [
-                {"@type": "Service","name": "Office Interior Design in Business Bay"},
-                {"@type": "Service","name": "Apartment Interior Design in Business Bay"},
-                {"@type": "Service","name": "Villa Interior Design In Business Bay"},
-                {"@type": "Service","name": "Restaurant Interior Design In Business Bay"}
+                {"@type": "Service","name": "Office Interior Design in DownTown Dubai"},
+                {"@type": "Service","name": "Apartment Interior Design in DownTown Dubai"},
+                {"@type": "Service","name": "Villa Interior Design In DownTown Dubai"},
+                {"@type": "Service","name": "Restaurant Interior Design In DownTown Dubai"}
               ]
             })
           }}
@@ -152,89 +157,41 @@ export default function RootLayout({ children }) {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "How long does an office fit-out in Business Bay take?",
+                  "name": "How much does interior design cost in Downtown Dubai?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Office fit-outs typically take six to twelve weeks depending on the project size and complexity. All required DCD and authority approvals are managed by our team."
+                    "text": "Prices depend on the nature of the project, good-quality materials, and design requirements. Luxury designs usually require larger budgets than usual."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Do you provide turnkey fit-out services in Business Bay?",
+                  "name": "How long does fit-out take?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, we provide complete turnkey fit-out services including design, approvals, execution, and final handover."
+                    "text": "Most fit-outs take between 4 and 12 weeks."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Do you design luxury apartments in Business Bay?",
+                  "name": "Do you provide complete interior design services?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, we specialize in apartment interior design and luxury residential interiors in Business Bay, creating elegant and functional spaces."
+                    "text": "We are one of the best interior designers and fit-out companies in Dubai providing a comprehensive range of services."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Are you a leading interior design company in Business Bay?",
+                  "name": "How can I select the best interior designer in Dubai?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "WE DO Interior Design & Fitout is recognized for delivering high-quality residential and commercial interior design and fit-out projects in Business Bay."
+                    "text": "Select an experienced interior designer with a good reputation among best interior designers in Dubai."
                   }
                 }
               ]
             })
           }}
         />
-
-        {/* CollectionPage Schema with Business Bay Projects */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "CollectionPage",
-              "name": "Business Bay Interior Design Projects",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "A curated collection of luxury interior design and fit-out projects in Business Bay by WE DO Interior Design & Fitout.",
-              "mainEntity": {
-                "@type": "ItemList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Business Bay Apartment Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-apartment"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Business Bay Office Fit-Out",
-                    "url": "https://wedointerior.ae/business-bay-office-fit-out"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "Business Bay Cafe Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-cafe-interior"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "name": "Business Bay Restaurant Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-restaurant"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "name": "Business Bay Travel Agency Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-travel-agency"
-                  }
-                ]
-              }
-            })
-          }}
-        />
+      
 
       </head>
       <body>{children}</body>

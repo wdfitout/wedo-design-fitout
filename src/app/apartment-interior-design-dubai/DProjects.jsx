@@ -32,7 +32,7 @@ const DProjects = () => {
     Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
     in limited space, comfort in rental settings, and optimizing every detail for modern city life.
      At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
-     that feel spacious, stylish, and truly personal — even if it’s a studio or <b> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
+     that feel spacious, stylish, and truly personal — even if it’s a studio or <b className="text-[#caa193]"> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
      in Atlantis The Royal</a></b> or Downtown.
 
   </p>
@@ -69,7 +69,7 @@ const DProjects = () => {
            and matte black accents — to create interiors that are bold yet cozy.
           </p>
           <p className="text-sm sm:text-base text-white">
-          Whether you're designing a <b><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
+          Whether you're designing a <b className="text-[#caa193]"><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
           Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
           modern urban vibe. These curated touches, paired with custom lighting and smart 
           layouts, give your space a striking identity without sacrificing comfort.

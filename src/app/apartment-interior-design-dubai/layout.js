@@ -1,7 +1,7 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Apartment Interior Design Dubai - Modern Interior Design",
+  title: "Apartment Interior Design Dubai - WEDO Interior",
   description:
     "Luxury apartment interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
   metadataBase: new URL('https://wedointerior.ae/'),

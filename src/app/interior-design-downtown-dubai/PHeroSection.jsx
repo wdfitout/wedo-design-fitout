@@ -31,12 +31,9 @@ const PHeroSection = () => {
           {/* Subheading - Updated for Downtown */}
           <p className="font-play mt-6 max-w-2xl text-gray-200">
             WE DO offers high-end <a href="/interior-design-downtown-dubai" className="font-bold hover:underline text-[#b98877]">
-  interior design Downtown Dubai 
-</a> services specific for contemporary living and quality commercial spaces. WE DO is a reliable interior design company in Downtown Dubai, experts in designing elegant interiors that showcase contemporary living styles, brand personality, and practicality.
+                interior design Downtown Dubai </a> services specific for contemporary living and quality commercial spaces. WE DO is a reliable interior design company in Downtown Dubai, experts in designing elegant interiors that showcase contemporary living styles, brand personality, and practicality.
           </p>
-          <p className="font-play mt-6 max-w-2xl text-gray-200">
-           WE DO is renowned as one of the best interior design companies in Dubai, our professionals blend elegance, innovative expertise, and flawless completion. If you are seeking interior design companies in Downtown, interior designers in Downtown Dubai, or leading interior fit-out companies in Dubai, we offer full well-structured services.
-          </p>
+         
 
           {/* CTA Button - Updated link and text */}
           <div className="mt-8">
