@@ -8,6 +8,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 // Blog Data
 const blogPosts = [
  {
+   title: "3-5-7 Rule in Interior Design Dubai",
+    date: "Published: 29.04.2026",
+    excerpt:
+      "Find out more about the 3-5-7 rule in interior design. Get the best advice from an upscale interior design firm in Dubai for your villas and apartments.",
+    image: "/images/Luxury modern Dubai living room interiors.png",
+    link: "/3-5-7-rule-interior-design-dubai",
+  },
+  {
     title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
     date: "Published: 21.04.2026",
     excerpt:
@@ -73,14 +81,7 @@ const blogPosts = [
     link: "/complete-villa-construction-dubai",
   },
    
-  {
-   title: "Interior Design Companies in Business Bay",
-    date: "Published: 15.12.2025",
-    excerpt:
-      "WE DO Interior Design & Fitout is a Dubai, based interior design studio providing functional design and premium solutions.",
-    image: "/images/Villa_Interior_Design_in_Business_Bay_Dubai.png",
-    link: "/interior-design-companies-in-business-bay-dubai",
-  },
+  
   
   
   

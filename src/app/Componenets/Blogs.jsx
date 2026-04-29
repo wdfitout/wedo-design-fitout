@@ -8,6 +8,14 @@ import Link from "next/link";
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
   {
+    title: "3-5-7 Rule in Interior Design Dubai  | WE DO Interior Design ",
+    date: "Published: 29.04.2026",
+    excerpt:
+      "Find out more about the 3-5-7 rule in interior design. Get the best advice from an upscale interior design firm in Dubai for your villas and apartments.",
+    image: "/images/Luxury modern Dubai living room interiors.png",
+    link: "/3-5-7-rule-interior-design-dubai",
+  },
+  {
     title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
     date: "Published: 21.04.2026",
     excerpt:
@@ -23,14 +31,7 @@ const blogPosts = [
     image: "/images/Luxury interior material focus Dubai living room.png",
     link: "/living-room-interior-business-bay",
   },
-  {
-    title: "Commercial Interior Fit-out in Business Bay Dubai",
-    date: "Published: 11.04.2026",
-    excerpt:
-      "Expert modern commercial interior fit-out and luxury office design in Business Bay Dubai by leading WE DO Interior Design & Fitout.",
-    image: "/images/Commercial Interior Fit-out in Business Bay Dubai.png",
-    link: "/commercial-interior-fit-out",
-  },
+  
  
  
    
