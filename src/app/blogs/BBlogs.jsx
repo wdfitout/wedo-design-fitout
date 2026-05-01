@@ -81,7 +81,42 @@ const blogPosts = [
     link: "/complete-villa-construction-dubai",
   },
    
-  
+
+  {
+   title: "Interior Design Companies in Business Bay",
+    date: "Published: 11.11.2025",
+    excerpt:
+      "Discover WE DO Interiors, a top interior design company in Business Bay, Dubai. Specializing in interior fit-out services.",
+    image: "/images/Interior_Design_Companies_in_Business_Bay_Dubai.png",
+    link: "/interior-design-companies-in-business-bay-dubai",
+  },
+   {
+   title: "Tips For Luxury Villa Interior Design in Dubai",
+    date: "Published: 08.10.2025",
+    excerpt:
+      "Discover luxury villa interior design in Dubai with WE DO. From Al Manara to District 1, we provide custom design and turnkey fit-out services.",
+    image: "/images/modern-villa-interior-with-smart-home-technology-luxury-villa-interior-design-in-dubai.png",
+    link: "/luxury-villa-interior-design-in-dubai",
+  },
+
+   {
+   title: "Interior Design Styles Dubai 2025: 6 Must-Know Trends",
+    date: "Published: 23.9.2025",
+    excerpt:
+      "Explore the top 6 Interior Design Styles Dubai. From modern to boho, WE DO Interior Design & Fitout helps bring your vision to life in Dubai.",
+    image: "/images/six-best-interior-design-trends-dubai-2025.png",
+    link: "/interior-design-styles-dubai-2025",
+  },
+
+   {
+   title: " Modern Apartment Interior Design in Dubai",
+    date: "Published: 11.9.2025",
+    excerpt:
+      "Discover modern apartment interior designs in 2026. Explore 5 trending styles in Dubai, from minimalism to boho, for elegant living spaces.",
+    image: "/images/high-end-dubai-apartment-interior-design-in-dubai.png",
+    link: "/modern-apartment-interior-design",
+  },
+
   
   
   
