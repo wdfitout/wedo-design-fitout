@@ -6,7 +6,7 @@ export const metadata = {
     "Ofice interior design in Business Bay Dubai by WE DO. Modern office fit-out, workspace planning, and commercial interior design in Dubai. Contact us!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/office-interior-design-business-bay',
+    canonical: '/apartment-interior-design-dubai-creek-harbour',
   },
 };
 

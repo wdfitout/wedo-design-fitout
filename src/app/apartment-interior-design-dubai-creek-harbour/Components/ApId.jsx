@@ -14,13 +14,12 @@ const ApId = () => {
         <div className="flex flex-col lg:flex-row">
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
-            <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-             Modern Office Interior Design for Business Bay Workspaces
-            </h2>
+            <h1 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
+            Apartment Interior Design in Dubai Creek Harbour
+            </h1>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             Office Interior Design in Business Bay Dubai gives attention to designing productive, modern, and visually appealing workplaces in one of the most iconic business districts of Dubai. Placed close to meticulous landmarks including the Burj Khalifa, Dubai Mall, and Dubai Canal, Business Bay is space for corporate headquarters, startups, financial companies, and global enterprises.</p>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           A well-structured <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design Dubai</a></b> concept helps businesses design environments that support development and brand identity. At WE DO Interior Design & Fitout, our professionals offer expert office interior fit out Dubai, well-planned, and Office Design & Commercial Fit-Out in Dubai to help firms change their spaces into efficient and mesmerizing environments.
+             WE DO provide a design concept for the <a href="/apartment-interior-design-dubai-creek-harbour" className="text-[#caa193]">
+     Apartment Interior Design of Creek Harbour Dubai. </a>  Every Dubai Creek Harbour Apartment is designed according to an iconic living concept of waterfront living, where architecture combines with elegant living. We are a reliable interior designer Dubai, our specialization is in renovating the apartments into customized spaces that match with both modernism and functionality. Whether you opt for Modern Apartment in Dubai Creek Harbour projects or premium Creek Harbour Residential Apartment projects, our team  designs interior spaces to enhance the sophisticated nature of this destination. We are one of the top interior design companies in Dubai, WE DO offer specific services that enhance each Apartment at Dubai Creek Harbour into a statement of contemporary living.
             </p>
            
 

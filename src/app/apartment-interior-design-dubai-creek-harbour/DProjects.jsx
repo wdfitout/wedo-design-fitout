@@ -23,18 +23,18 @@ const DProjects = () => {
       {/* Top Content Block */}
       <div className="lg:max-w-[80%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-         About Office Interior Design in Business Bay
+         Why Apartment Interior Design in Dubai Creek Harbour Matters?
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
-   The need for <b className="text-[#caa193]"><a href="https://wedointerior.ae/commercial-interior-design-dubai">commercial interior design Dubai</a></b> has developed significantly as more companies design offices in Business Bay. We are one of the most luxurious commercial hubs in Dubai, the area features premium towers, contemporary office buildings, and corporate headquarters that need experienced office interior fit out companies in Dubai to craft practical workspaces.
+   Designing an apartment interior design in Dubai Creek Harbour is more about planning than just designing; the right planning can do wonders not only for your apartment but also for your lifestyle. These apartments are renowned for their spacious designs, fabulous views, and modern architectural style; therefore, <a href="/apartment-interior-design-dubai" className="text-[#caa193]">
+     apartment interior design in Dubai </a>  is essential for getting the best out of them.
   </p>
 
   <p>
-   Businesses compete not only in solutions but also in workplace expertise. This is why firms rely on professional interior design consultants in Business Bay and reliable interior fit out consultants in Dubai to design offices that showcase elegance and efficiency. Contemporary Office interior design UAE focuses on well-structured design, employee growth, and branding. If it is a corporate office, a startup hub, or a consulting company, a professional office interior decorator UAE makes sure that the work space elevates productivity and gives a strong impression on clients and employees.
+   An effective interior  will ensure efficient use of natural light, smooth transition between indoors and outdoors, and a modern style. WE DO is one of the best interior design companies in UAE, understands how to match interior designs with Industry trends while adding a distinctive touch. Our Professional Interior Design Dubai Creek Harbour Dubai services in Dubai make sure that each apartment showcases luxury, practicality, and timeless value.
   </p>
-  <p> <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-travel-agency"></a></b>Premium office buildings in Business Bay require expert Building & Interior Design solutions, covering stylish layouts, collaborative zones, and contemporary design elements that match with global office standards.</p>
-</div>
+  </div>
 
       </div>
 
@@ -42,11 +42,34 @@ const DProjects = () => {
       <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Office Interior Design Trends in Business Bay
+          Our Apartment Interior Design Services in Dubai Creek Harbour
           </h2>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-          The contemporary space is developing continuously, and <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-trends-in-business-bay">Office Interior Design Trends in Business Bay</a></b> showcase this change. Companies today give attention to designing innovative and comfortable workspaces rather than cultural office layouts. Contemporary offices cover collaborative areas where colleagues can brainstorm and deliver ideas, along with peaceful spaces created for the best work. Eco-friendly materials and solutions are becoming most famous in commercial interior design Dubai, supporting businesses to remove environmental impact while balancing sophisticated aesthetics. A famous trend in Modern Office Interior Design is the addition of stylish technology, covering automated lighting, digital meeting rooms, and thoughtful workspace systems that enhance efficiency. Biophilic design, which integrates organic elements such as greenery and natural light, is also importantly used in office trends in Business Bay to enhance employee well-being and developments .
-          </p>
+          <ul className=" space-y-2 text-[#caa193]">
+            
+            <li>
+            <h3 className='font-play'>Luxury Apartment Interior Design</h3>
+             <p className='text-white font-play'> Our apartment interior services focus on quality materials, textures, and bespoke detailing. Our interior in Dubai provide <a href="/modern-apartment-interior-design" className="text-[#caa193]">
+     luxury apartment interior design ideas in Dubai </a>  with fine finishing, including marble and warm lighting options.</p>
+            </li>
+
+             <li>
+            <h3 className='font-'>Small Apartment Space Optimization</h3>
+             <p className='text-white font-play'> For studio apartment interior design , we craft intelligent storage services and multifunctional spaces. Our concept makes sure that even smaller apartments feel open, exclusive, and inspiring.</p>
+            </li>
+
+             <li>
+            <h3 className='font-play'>Turnkey Interior Fit-Out Services</h3>
+             <p className='text-white font-play'>WE DO is one of the top <a href="/fit-out-company-dubai" className="text-[#caa193]">
+     fit out companies in dubai,</a>  offering full turn-key apartment interior design services, from ideation to completion. Our services cover design, material sourcing, and full project finishings.</p>
+            </li>
+
+             <li>
+            <h3 className='font-play'>Custom Furniture & Joinery</h3>
+             <p className='text-white font-play'> We design and fabricate custom-made wardrobes, kitchens, and furniture to fit each location. Our team of experts, Dubai Apartment Interior Design Contractors, guarantees precision and excellence in all details.</p>
+            </li>
+         
+            </ul>
+         
           
         </div>
 
@@ -98,38 +121,46 @@ const DProjects = () => {
 
             <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Our Office Interior Design Services in Business Bay
+         Our Design Approach
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
             
-            <p>
-            We are a <b className="text-[#caa193]"><a href="https://wedointerior.ae/">top interior design and fit-out company in Dubai</a></b>, WE DO Interior Design & Fitout offers full workspace redefining solutions for businesses.
-
-            </p>
+           
            
             <ul className="list-decimal pl-5 space-y-2 text-[#caa193]">
             
             <li>
-            <h3 className='font-play'>Office Space Planning</h3>
-             <p className='text-white font-play'> Exclusive planning is the base of premium office fit out design. Our experienced team analyzes process, departments, and office functions to design layouts that elevate productivity and space utilization in Business Bay’s work space towers.</p>
+            <h3 className='font-play'> Consultation & Space Evaluation</h3>
+             <p className='text-white font-play'> The first step we undertake in every apartment interior design project is consulting extensively to determine the idea and needs of the client. During this stage, we conduct an intelligent assessment of the layout of the Dubai Creek Harbour Apartment to find ways to improve the project.</p>
             </li>
 
              <li>
-            <h3 className='font-'>Corporate Office Interior Design</h3>
-             <p className='text-white font-play'> Our commercial office design in Dubai solutions focus on designing efficient workspaces, meeting rooms, reception areas, and collaborative zones that showcase your company’s brand personality.</p>
+            <h3 className='font-'>Concept Development & Mood Boards</h3>
+             <p className='text-white font-play'> Once the needs are clear, we jump into idea development. Here, we craft layout styling, well-structured strategies, and mood boards that explain the artistic direction of the modern apartment design interior. This phase makes sure clarity and alignment before stepping forward.</p>
             </li>
 
              <li>
-            <h3 className='font-play'>Office Fit-Out & Renovation</h3>
-             <p className='text-white font-play'>We offer full office fitout in Dubai, including design, construction, and final handover. As many years of expertise in interior fit out contractors, we make sure each office project matches Dubai trends and regulations.</p>
+            <h3 className='font-play'>3D Visualization & Design Preview</h3>
+             <p className='text-white font-play'>WE DO craft high-quality 3D visualizations that deliver the apartment interior design Dubai Creek Harbour vision to real life. Clients can explore their future space in a realistic format, giving them permission to check design elements before finishing begins.</p>
             </li>
 
              <li>
-            <h3 className='font-play'>Workspace Optimization</h3>
-             <p className='text-white font-play'> Contemporary offices need usability and aesthetic ambiance. Our Fit-out Services for Office Work Space cover well-planned layouts, improving lighting, integrating collaborative zones, and creating smart office solutions.</p>
+            <h3 className='font-play'> Material Selection & Finishing Choices</h3>
+             <p className='text-white font-play'> Material selection is a crucial phase where we craft finishes based on elegance, durability, and practicality. Each choice matches the quality apartment interior design in Dubai standards to make sure timeless sophistication and quality.</p>
+            </li>
+
+             <li>
+            <h3 className='font-play'> Fit-Out Execution & Construction</h3>
+             <p className='text-white font-play'> We are one of the best <a href="/apartment-interior-design-dubai-creek-harbour" className="text-[#caa193]">
+     residential fit out companies in dubai,</a>  we handle full Fit Out Works of Apartment in dubai with accuracy. Our professionals ensure seamless completion, quality craftsmanship, and strict adherence to space timelines.</p>
+            </li>
+
+             <li>
+            <h3 className='font-play'> Styling & Final Handover</h3>
+             <p className='text-white font-play'> The last phase involves integrating and detailing, where furniture should be placed, lighting, and décor elements are elegantly arranged. Each Creek Harbour Residential Apartment is offered fully elegant, ready for immediate use.</p>
             </li>
          
             </ul>
@@ -180,13 +211,15 @@ const DProjects = () => {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
-           Office Design Styles for Business Bay Offices
+          Designing for Dubai Creek Harbour Lifestyle
           </h2>
           
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-         Businesses presented in Business Bay operate across industries such as technology, real estate, and consulting, which means each commercial space needs a premium approach to office interior design Dubai. Experienced office interior design companies in Business Bay Dubai focus on designing environments that showcase a company’s brand personality while supporting development and collaboration. One of the important and popular concepts in Modern Office Interior Design is the contemporary corporate layout, which features pure architectural lines, warm color palettes, and open-plan layouts that enhance efficient work process and communication. Also a widely used approach in interior designs in Business Bay is minimalist commercial space design, where sophistication, practicality, and clutter-free layouts design calm and well-planned environments for workers. <br /> <br />
-         Modern executive work spaces are tailored for corporate leaders and financial institutions. These spaces integrate high-end materials, personalized furniture, and flawless finishes that showcase expertise and authority. Various interior design consultants in Business Bay also craft aesthetic workspaces for startups and functional companies, adding structured layouts, collaborative areas, and premium design elements that mesmerize creativity. These evolving office interior design trends in Business Bay showcase the requirements of contemporary businesses, supporting companies to build enduring work ambiance through well-planned commercial interior design Dubai and strategic commercial designing.
+        Dubai Creek Harbour showcases a living style that is defined by sophistication, nature, and urban elegance. Crafting interiors here needs a deep knowledge of its ambiances and architectural identity. Our concept of interior for apartments gives attention to integrating waterfront elements into the design.
 </p>
+ <p className="font-play text-sm sm:text-base text-white text-start py-2">
+         Large windows are raised without many details to deal with view issues, while color schemes are mesmerized by natural colors and the skyline.  Outdoor spaces like the balcony are made to be extensions of the living spaces, creating perfect indoor-outdoor flow experiences. Whether it’s an overcrowded dubai living room or a tranquil bedroom, all elements are perfectly chosen to show the environment.
+         </p>
           
         </div>
 
@@ -206,23 +239,19 @@ const DProjects = () => {
 
           <div className="text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193]">
-              Our Office Interior Design Process
+             Types of Apartments We Design
             </h2>
-            <p>
-              As a reliable Fit-Out Company in Business Bay Dubai, our layouts process ensures flawless project execution from ideation to final execution.
-            </p>
-              <h3 className="text-sm font-conthrax text-[#caa193] mt-2 mb-2">Consultation</h3> 
-             <p>We start by understanding your company’s requirements, office requirements, and brand concept.</p>
-           <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2 ">Concept Design </h3>
-           <p>Our experienced designers design practical concepts and well-structured layouts for Modern Office Interior Design.</p>
-            <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2">3D Visualization</h3>
-            <p>Exclusive 3D designs support space owners to visualize the complete workspace before construction starts.</p>
-            <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2">Material Selection</h3>
-            <p>We choose premium materials and seamless finishes to make sure durability and elegance.</p>
-             <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2">Fit-Out Execution</h3>
-             <p>Our professional interior fit out contractors manage the full interior fit out process.</p>
-             <h3 className="text-sm font-conthrax text-[#caa193] mt-2 mb-2 ">Final Delivery</h3>
-             <p>The completed workspace is offered ready for operations, aligning with all commercial standards.</p>
+            
+              <h3 className="text-sm font-conthrax text-[#caa193] mt-2 mb-2">Studio Apartments</h3> 
+             <p>Our studio apartment interior design services give attention to maximizing space while handling style. Elegant designs and functional furniture create a perfect and unique ambience.</p>
+           <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2 ">One Bedroom Apartments </h3>
+           <p>In One Bedroom Apartments, our interiors combine luxury and functionality. The designs are specific to cater for the needs of modern living.</p>
+            <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2">Two Bedrooms and Three Bedrooms Apartments</h3>
+            <p>  <a href="/dubai-creek-2-bedroom-apartment" className="text-[#caa193]">
+     Two Bedrooms and Three Bedrooms Apartments</a>  give us more flexibility in designing interiors. We craft well-structured zones for living, dining, and relaxation, making sure a flawless flow overall the space.</p>
+            <h3 className="text-sm font-conthrax text-[#caa193]  mt-2 mb-2">Luxury Waterfront Apartments</h3>
+            <p>Quality Apartment at Dubai Creek Harbour projects are crafted with high-end completion and personalized elements. These interiors showcase meticulous design and sophistication at each level.</p>
+             
           </div>
           
         </div>
@@ -231,54 +260,65 @@ const DProjects = () => {
        <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full  space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          Why Businesses in Business Bay Choose Us
+         Popular Buildings and Communities in Dubai Creek Harbour
           </h2>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-         Businesses looking for <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-company-business-bay">interior design companies in Business Bay Dubai</a></b> or a <b className="text-[#caa193]"><a href="https://share.google/vaHSTzxMLd9gEt7A9">trusted office interior design company in Business Bay </a></b> select WE DO Interior Design & Fitout because of our experiences, dedication, and personalized solutions. Our experienced designers and skilled interior fit out consultants in Dubai who are expert in Office Design & Commercial Fit-Out in Dubai. We have knowledge about Dubai’s commercial regulations, building trends, and workspace needs, allowing us to offer exclusive projects for companies placed in Business Bay and nearby places. WE DO is one of the reliable business bay interior design companies, we offer full design and fit-out solutions from ideation to finishes, creating us the best  business bay office fit out Company in Dubai for contemporary commercial spaces.
+         Dubai Creek Harbour is a comfort place to some of the most iconic residential developments. We have many years of experience including crafting apartments in communities such as Address Harbour Point, Creek Rise, Creek Edge, Harbour Views, and The Cove.
           </p>
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-         Nearby Areas We Serve
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">Our interior design services in Business Bay also goes beyond to several nearby workspace districts and key business places across Dubai. These cover Downtown Dubai, Dubai International Financial Centre, Dubai Design District, Al Wasl, Jumeirah, and Sheikh Zayed Road. Businesses seeking interior design companies in Sheikh Zayed Road, interior companies in Business Bay, or the best fit out companies in Business Bay can depend on our professional team to offer premium office design and fit-out solutions all over these iconic locations.
-         </p>
+           <p className="text-sm sm:text-base text-white text-justify font-play">
+         Each of these developments features contemporary architecture and quality living standards, creating them ideal for personalized apartment interior design ideas. Our interior design matches the best characteristics of each building while managing a consistent level of exclusivity.
+                   </p>
+                   <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+        Why Choose WE DO Interior Design & Fitout
+          </h2>
+          <p className="text-sm sm:text-base text-white text-justify font-play">
+        WE DO is reputed as one of the best interior companies near me by delivering a combination of elegance, technical expertise, and client-focused services. Our specialization in apartment interior design in Dubai gives us permission to offer spaces that are both visually striking and highly practical.
+          </p>
+           <p className="text-sm sm:text-base text-white text-justify font-play">
+         We are among the <a href="/apartment-interior-design-dubai-creek-harbour" className="text-[#caa193]">
+     leading interior design firms in Dubai.</a>  We offer full services ensuring that our clients have an impeccable experience. Our interior design solutions are not based on templates but are rather tailored according to individual preference and needs.
+With a high reputation among fit out companies in dubai, we give importance to quality, accuracy, and timely handover. From ideation to finishings, our approach is to exceed expectations and craft interiors that truly reputed.
+                   </p>
+         
          
   <h2 className="text-lg md:text-xl font-conthrax text-[#caa193]">
-    FAQs – Office Interior Design in Business Bay
+    FAQs 
   </h2>
 
   <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
-    How much does office interior design cost in Business Bay?
+    What is the cost of designing an apartment interior in Dubai Creek Harbour?
   </h3>
   <p p className="text-sm sm:text-base text-white text-justify font-play">
-    The cost of office interior design Dubai varies on office areas, design difficulty, and premium materials used. Experienced office fit out Dubai projects typically cover design, planning, and construction costs.
+    It differs based on the dimensions, level of intricacy of the design, and materials to be used. Projects that are luxurious and those that offer a turn-key apartment interior design services demand more money.
+      </p>
+
+  <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
+    What is the duration of the fit-out process?
+  </h3>
+  <p p className="text-sm sm:text-base text-white text-justify font-play">
+   
+It is dependent on the extent of the work involved. The usual duration of Fit Out Works of Apartment in dubai can range from a few weeks to a few months.
   </p>
 
   <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
-    How long does an office fit-out project take?
+    Do you offer turn-key solutions?
   </h3>
   <p p className="text-sm sm:text-base text-white text-justify font-play">
-    Many <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-office-fit-out">Office Fit Outs in Business Bay</a></b>, Dubai take between 4 to 8 weeks relying on the process of the project.
-  </p>
+    Certainly. We offer turn-key apartment interior design services, covering design, execution, and final handover.
+      </p>
 
   <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
-    Do you handle approvals for office fit-out in Dubai?
+    Can you effectively design small apartments?
   </h3>
   <p p className="text-sm sm:text-base text-white text-justify font-play">
-    Yes. As experienced interior fit out consultants in Dubai, we handle approvals, documentation, and compliance with building regulations.
-  </p>
+    Definitely. Our skills in studio apartment interior design ensure maximum utilization of space.
+      </p>
 
   <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
-    Can you redesign small offices in Business Bay?
+   Do you take care of approvals?
   </h3>
   <p p className="text-sm sm:text-base text-white text-justify font-play">
-    Yes. Our commercial office design in Dubai solutions cover small office layouts, coworking spaces, and corporate headquarters.
-  </p>
-
-  <h3 className="text-base md:text-sm font-conthrax text-[#caa193]">
-    Do you provide turnkey office fit-out services?
-  </h3>
-  <p p className="text-sm sm:text-base text-white text-justify font-play">
-    Yes. We deliver full Office Design & Commercial Fit-Out in Dubai, including design, materials, construction, and final delivery.
+    Yes, as experienced Dubai Apartment Interior Design Contractors, we manage all necessary approvals and compliance requirements.
   </p>
 </div>
         </div>
