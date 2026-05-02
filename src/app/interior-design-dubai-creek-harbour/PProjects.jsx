@@ -58,11 +58,11 @@ const creekProjects = [
     link: "/dubai-creek-2-bedroom-apartment",
   },
    {
-    title: "Dubai Creek Harbour Apartment Entrance",
-    category: "partment Entrance - Dubai Creek Harbour",
-    image: "/images/dbckapt (2).png",
-    link: "/dubai-creek-2-bedroom-apartment",
-  },
+    title: "EMAAR HARBOUR POINT APARTMENT",
+    category: "Apartment Interior Design - Dubai Creek Harbour",
+    image: "/images/address-harbour-point-master-bedroom-interior-design-dubai-creek-harbour.png",
+    link: "/emaar-harbour-point-apartment-dubai",
+},
    {
     title: "Dubai Creek Harbour Apartment Dining Area",
     category: "Apartment Dining Area - Dubai Creek Harbour",
