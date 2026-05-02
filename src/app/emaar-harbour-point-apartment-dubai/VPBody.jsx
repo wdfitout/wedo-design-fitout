@@ -136,21 +136,21 @@ const VPBody = () => {
       </p>
 
       <div>
-        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Living Concept & Design Style:</h3>
+        <h3 className="text-[#caa193] font-conthrax text-base  mr-1">Living Concept & Design Style</h3>
         <span>
           As we have years of experience in Interior Design in Dubai Creek Harbour, this emaar beachfront apartment has open-plan living, a smooth dining and an open kitchen set-up with soft neutral tones. We have used high quality materials, large windows from floor to ceiling that enhance natural light in the apartment and also gives a beautiful skyline view.
         </span>
       </div>
 
       <div>
-        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Apartment Interior Design Approach:</h3>
+        <h3 className="text-[#caa193] font-conthrax text-base  mr-1">Apartment Interior Design Approach</h3>
         <span>
           This apartment project highlights our <b className="text-[#caa193]"><a href="/interior-design-dubai-creek-harbour">Interior Design Services in Dubai Creek Harbour</a></b>. Our team focused on clean lines, modern designs and most importantly we made sure that the space is totally functional. 
         </span>
       </div>
 
       <div>
-        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Location & Project Identity:</h3>
+        <h3 className="text-[#caa193] font-conthrax text-base mr-1">Location & Project Identity</h3>
         <span>
           This project of  Emaar Harbour Point Apartment Dubai is the most premium waterfront residence in Dubai creek. Its a very strong example of high-end Interior Design in Dubai Creek Harbour.
         </span>
@@ -166,8 +166,8 @@ const VPBody = () => {
   <figure className="w-full lg:w-1/2">
     <Image
       src="/images/emaar-address-harbour-point-living-dining-interior-design-dubai-creek-harbour.png"
-      alt="Luxury apartment interior in Dubai Creek Harbour with waterfront views"
-      title="Modern Apartment Interior Design in Dubai Creek Harbour"
+alt="Emaar Address Harbour Point Living Dining Interior Design Dubai Creek Harbour"
+title="Emaar Address Harbour Point Living Dining Interior Design Dubai Creek Harbour"
       width={800}
       height={500}
       loading="lazy"

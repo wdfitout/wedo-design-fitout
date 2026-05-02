@@ -10,8 +10,16 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/meby (6).webp', link: '/business-bay-travel-agency', title: 'MEBY BUSINESS BAY TRAVEL AGENCY' },
-  { src: '/images/startech (3).webp', link: '/business-bay-office-fit-out', title: 'STARTECH BUSINESS BAY OFFICE FIT-OUT' },
+  { 
+  src: '/images/dbckapt1.webp', 
+  link: '/dubai-creek-2-bedroom-apartment', 
+  title: 'DUBAI CREEK 2 BEDROOM APARTMENT INTERIOR' 
+},
+{ 
+  src: '/images/address-harbour-point-master-bedroom-interior-design-dubai-creek-harbour.png', 
+  link: '/emaar-harbour-point-apartment-dubai', 
+  title: 'EMAAR HARBOUR POINT APARTMENT' 
+},
  
   
 ];
