@@ -5,7 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-     {
+  {
+    img: "/images/address-harbour-point-master-bedroom-interior-design-dubai-creek-harbour.png",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "EMAAR HARBOUR POINT APARTMENT",
+    href: "/emaar-harbour-point-apartment-dubai",
+  },   
+  {
     img: "/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png",
     alt: "Apartment Interior Design DSO",
     title: "DUBAI SILICON OASIS APARTMENT",

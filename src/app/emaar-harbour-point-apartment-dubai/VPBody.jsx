@@ -6,59 +6,47 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/apartment-master-bedroom-interior-design-dubai-silicon-oasis.png",
-    alt: "Elegant apartment living room with ambient lighting",
-    title: "apartment Interior design in Dubai",
-    description: "Spacious living area with beige tones and gold accents"
+    src: "/images/address-harbour-point-kids-bedroom-design-dubai.png",
+    alt: "Address Harbour Point Kids Bedroom Design Dubai",
+    title: "Kids Bedroom Interior Design Dubai Creek Harbour",
+    description: "Elegant and functional kids bedroom design in Emaar Address Harbour Point."
   },
   {
-    src: "/images/minimal-modern-apartment-interior-dubai-silicon-oasis.png",
-    alt: "Modern apartment design with marble countertops",
-    title: "apartment Interior design DSO",
-    description: "Modern apartment interior desing services in DUBAi silicon oAsis"
+    src: "/images/address-harbour-point-bathroom-interior-design-dubai-creek-harbour.png",
+    alt: "Address Harbour Point Bathroom Interior Design Dubai Creek Harbour",
+    title: "Emaar Harbour Point Apartment Bathroom Interior",
+    description: "Premium bathroom interior design project in Emaar Address Harbour Point, Creek Harbour."
   },
   {
-    src: "/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png",
-    alt: "Luxury dining with golden fixtures",
-    title: "Apartment Dining Area Interior Design in DSO",
-    description: "Stylish Dining Area of an apartment interior design"
+    src: "/images/address-harbour-point-dining-area-interior-design-dubai.png",
+    alt: "Address Harbour Point Dining Area Interior Design Dubai",
+    title: "Apartment Dining Interior Design Dubai Creek Harbour",
+    description: "Sophisticated dining area design for waterfront living at Address Harbour Point."
   },
   {
-    src: "/images/minimal-modern-apartment-kitchen-design-dubai-silicon-oasis.png",
-    alt: "kitchen interior with neutral tones and wall paneling in Dubai",
-    title: "Modern Kitchen Interior design in Dubai SIlicon Oasis",
-    description: "Modern apartment Kitchen Interior design in Dubai SIlicon Oasis"
+    src: "/images/address-harbour-point-open-kitchen-interior-design-dubai.png",
+    alt: "Address Harbour Point Open Kitchen Interior Design Dubai",
+    title: "Modern Open Kitchen Design Dubai Creek Harbour",
+    description: "Sleek and contemporary open kitchen interior at Emaar Address Harbour Point."
   },
   {
-    src: "/images/modern-bathroom-interior-design-in-Dubai-Silicon-oasis.png",
-    alt: "modern bathroom interior design of an apartment in DSO",
-    title: "modern bathroom interior design Dubai",
-    description: "modern bathroom interior design Dubai in DSO"
+    src: "/images/address-harbour-point-small-sitting-area-design-dubai-creek-harbour.png",
+    alt: "Address Harbour Point Small Sitting Area Design Dubai Creek Harbour",
+    title: "Apartment Sitting Area Design Dubai Creek Harbour",
+    description: "Minimalist and comfortable sitting area design for luxury apartments in Creek Harbour."
   },
   {
-    src: "/images/interior-design-service-in-silicon-oasis-dubai.png",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Apartment Interior services in Dubai Silicon Oasis",
-    description: "Best apartment Interior Dubai Silicon Oasis"
-  },
-    {
-    src: "/images/luxury-minimal-master-bedroom-interior-dubai-silicon-oasis.png",
-    alt: "master Bedroom interior of apartment in DSO",
-    title: "master Bedroom interior of apartment in DSO",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/emaar-address-harbour-point-living-dining-interior-design-dubai-creek-harbour.png",
+    alt: "Emaar Address Harbour Point Living Dining Interior Design Dubai Creek Harbour",
+    title: "Living & Dining Interior Design Dubai Creek Harbour",
+    description: "Seamless living and dining space design at Emaar Address Harbour Point."
   },
   {
-    src: "/images/luxury-walk-in-closet-dubai-apartment.png",
-    alt: "walk in closet of apartment Interior in Dubai Silicon oasis",
-    title: "walk in closet of apartment Interior in Dubai Silicon oasis",
-    description: "walk in closet interior of apartment in Dubai Silicon oasis"
+    src: "/images/address-harbour-point-master-bedroom-interior-design-dubai-creek-harbour.png",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "Master Bedroom Interior Design Dubai Creek Harbour",
+    description: "Luxury master bedroom showcasing custom paneling and premium finishes at Address Harbour Point."
   },
-  {
-    src: "/images/luxury-apartment-balcony-dubai-modern.png",
-    alt: "Balcony of apartment Interior Design project in DSO",
-    title: "apartment Interior Design Balcony Image",
-    description: "Balcony with sofas and beautiful terrace view in DSO Dubai"
-  }
 ];
 
 const VPBody = () => {
@@ -107,7 +95,7 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; PROJECTS &gt; DSO APARTMENT
+        HOME &gt; PROJECTS &gt; EMAAR HARBOUR POINT APARTMENT
       </p>
 
       {/* Heading + Paragraph + Image */}
@@ -126,57 +114,70 @@ const VPBody = () => {
         {/* Headings */}
         <div className="mb-6">
           <p className="text-xs sm:text-base font-conthrax tracking-wide uppercase text-white">
-            TRANSFORMING LUXURY LIVING:
+            Transforming Emaar beachfront living
           </p>
-          <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-          DUBAI SILICON OASIS APARTMENT
-          </h1>
+          <h2 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
+          Emaar Harbour Point Apartment Dubai
+          </h2>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
 
         {/* Row: Paragraph + Image */}
-        <div className="flex flex-col lg:flex-row gap-10">
-          {/* Paragraph */}
-          <div className="w-full lg:w-1/2">
-            <div
-              ref={scrollRef}
-              className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
-              style={{ scrollbarWidth: "none" }}
-            >
-              <p>
-               In this <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design </a></b>project of DSO, we provided Interior Design Service in Silicon Oasis, Dubai. This apartment 
-               is Designed and executed by WE DO interiors which is one of the best interior companies in Dubai. Neutral tones,
-               custom furniture, marbles flooring and many other factors combine together creating a sophisticated environment. 
-               As part of our interior design services, the apartment layout was planned in such a way that it aligns perfectly 
-               with Interior Design Dubai standards in UAE.</p>
-              <p>
-               Known as a Best <b className="text-[#caa193]"><a href="https://wedointerior.ae/">Interior Fit Out Company in Dubai Silicon Oasis</a></b>, Dubai, this project represents our expertise in 
-               residential interior design services in Dubai. Our skilled team implemented custom joinery, integrated storage, a 
-               feature TV wall with sleek finishes, and quality to place us among the trusted interior fit-out companies in Dubai. 
-               Every detail was customized to suit apartment living style in Dubai Silicon Oasis, demonstrating how professional 
-               interior design services can enhance residential places through detailed planning, premium materials, and seamless 
-               fit-out execution.</p>
-            
-              
-            </div>
-          </div>
+      <div className="flex flex-col lg:flex-row gap-10">
+  {/* Paragraph */}
+  <div className="w-full lg:w-1/2">
+    <div
+      ref={scrollRef}
+      className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
+      style={{ scrollbarWidth: "none" }}
+    >
+      <p>
+        This <b className="text-[#caa193]"><a href="/apartment-interior-design-dubai-creek-harbour">Apartment Interior Design in Dubai Creek Harbour </a></b>  project by WEDO Interiors shows a beautiful merge of modern and functional space located in Emaar Address Harbour Point. The interior design of this project reflects our approach towards waterfront living. The design perfectly aligns with the coastal living.
+      </p>
 
-          {/* Image */}
-          <figure className="w-full lg:w-1/2">
-            <Image
-              src="/images/minimal-modern-apartment-interior-dubai-silicon-oasis.png"
-              alt="Luxury aparmment interior with white marble flooring and gold accents"
-              title="Modern apartment Interior Design in Dubai Silicon Oasis"
-              width={800}
-              height={500}
-              loading="lazy"
-              className="w-full h-auto object-cover"
-            />
-            <figcaption className="sr-only">
-              A spacious modern apartmet interior designed with elegant gold accents, large windows, and premium finishes.
-            </figcaption>
-          </figure>
-        </div>
+      <div>
+        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Living Concept & Design Style:</h3>
+        <span>
+          As we have years of experience in Interior Design in Dubai Creek Harbour, this emaar beachfront apartment has open-plan living, a smooth dining and an open kitchen set-up with soft neutral tones. We have used high quality materials, large windows from floor to ceiling that enhance natural light in the apartment and also gives a beautiful skyline view.
+        </span>
+      </div>
+
+      <div>
+        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Apartment Interior Design Approach:</h3>
+        <span>
+          This apartment project highlights our <b className="text-[#caa193]"><a href="/interior-design-dubai-creek-harbour">Interior Design Services in Dubai Creek Harbour</a></b>. Our team focused on clean lines, modern designs and most importantly we made sure that the space is totally functional. 
+        </span>
+      </div>
+
+      <div>
+        <h3 className="text-[#caa193] font-conthrax text-base inline-block mr-1">Location & Project Identity:</h3>
+        <span>
+          This project of  Emaar Harbour Point Apartment Dubai is the most premium waterfront residence in Dubai creek. Its a very strong example of high-end Interior Design in Dubai Creek Harbour.
+        </span>
+      </div>
+
+      <p>
+        If you want to explore our more interior design projects in Dubai Creek Harbour or you have your own apartment which you want to discuss, then connect with out team at WE DO Interior Design & Fitout. We provide full <b className="text-[#caa193]"><a href="/apartment-interior-design-dubai"> apartment interior design </a></b> and apartment renovation services at Emaar address Harbour point, Dubai.
+      </p>
+    </div>
+  </div>
+
+  {/* Image */}
+  <figure className="w-full lg:w-1/2">
+    <Image
+      src="/images/emaar-address-harbour-point-living-dining-interior-design-dubai-creek-harbour.png"
+      alt="Luxury apartment interior in Dubai Creek Harbour with waterfront views"
+      title="Modern Apartment Interior Design in Dubai Creek Harbour"
+      width={800}
+      height={500}
+      loading="lazy"
+      className="w-full h-auto object-cover rounded-md"
+    />
+    <figcaption className="sr-only">
+      A spacious modern apartment interior in Dubai Creek Harbour designed with elegant finishes and large windows.
+    </figcaption>
+  </figure>
+</div>
       </div>
 
       {/* Gallery Section */}
@@ -194,7 +195,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-         DUBAI SILICON OASIS APARTMENT INTERIOR GALLERY
+        EMAAR HARBOUR POINT APARTMENT GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
