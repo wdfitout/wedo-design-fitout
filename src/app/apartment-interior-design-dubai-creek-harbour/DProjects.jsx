@@ -94,7 +94,7 @@ const DProjects = () => {
       </div>
         <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-lg font-conthrax text-white py-12">
-          Our Office Interior Design Projects In Business Bay
+          Our Interior Design Projects In Dubai Creek Harbour
         </h2>
         </div>
       {/* Gallery Grid with Hover Effects */}
