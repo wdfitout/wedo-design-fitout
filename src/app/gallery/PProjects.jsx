@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
+
+  
      {
     img: "/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png",
     alt: "Apartment Interior Design DSO",
@@ -234,7 +236,7 @@ const projects = [
     href: "/al-sufouh-espresso-bar",
   },
   {
-    img: "/images/cnpkapt (1).PNG",
+    img: "/images/cnpkapt (2).PNG",
     alt: "Restaurant Interior Design",
     title: "CENTRAL PARK TOWERS 2 BEDROOM APARTMENT",
     href: "/central-park-towers-2-bedroom-apartment",
@@ -253,7 +255,7 @@ const projects = [
   },
   {
     img: "/images/blapt (4).PNG",
-    alt: "Restaurant Interior Design",
+    alt: "apartment Interior Design",
     title: "BULGARI 3 BEDROOM APARTMENT",
     href: "/bulgari-3-bedroom-apartment",
   },

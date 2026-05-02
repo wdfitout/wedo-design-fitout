@@ -26,7 +26,7 @@ const galleryImages = [
   {
     src: "/images/blapt (5).png",
     alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
+    title: "Villa Interior Gallery Image",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   {

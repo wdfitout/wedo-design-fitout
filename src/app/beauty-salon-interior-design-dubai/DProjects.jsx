@@ -4,18 +4,14 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/Why Businesses Choose WE DO Interior Design & Fitout.png',
+  link: '/commercial-interior-fit-out',
+  title: 'Ultimate Guide to Commercial Interior Fit-out'
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/dhfs (1).webp', link: '/dubai-hills-mall-facial-studio', title: 'DUBAI HILLS MALL FACIAL STUDIO' },
+  { src: '/images/beauty-salon-interior.PNG', link: '/jumeirah-1-beauty-salon', title: 'JUMEIRAH 1 BEAUTY SALON' },
 ];
 
 const DProjects = () => {
@@ -29,7 +25,7 @@ const DProjects = () => {
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
    <p>
-    At WE DO, we provide complete Beauty Salon Dubai Design & Fit-Out services, positioning ourselves as a
+    At WE DO, we provide complete Beauty Salon <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">Dubai Design & Fit-Out services</a></b>, positioning ourselves as a
     trusted Salon Interior Design Company in Dubai. From SPA interior design Dubai for luxury spaces to small 
     boutique salons, our solutions are tailored for every client.
    </p>
@@ -56,7 +52,7 @@ const DProjects = () => {
     Luxury Salon Fit-Out in Dubai
    </h3>
    <p className="text-sm sm:text-base text-white font-play">
-    As the Top Salon and Spa Interior Design Company in Dubai, UAE,we carefully work on every aspect of luxury 
+    As the <b className="text-[#caa193]"><a href="https://share.google/AfPFr0UfMfgi3vNyq">Top Salon and Spa Interior Design Company in Dubai, UAE</a></b>,we carefully work on every aspect of luxury 
     salon fit-out in Dubai. From getting permits and planning layout to final execution, our approach guarantees
      perfection, efficiency and durability. Every detail is paid deep attention to provide elegance,functionality
       and flawless finish.
@@ -106,7 +102,8 @@ const DProjects = () => {
           </a>
         </div>
       </div>
-
+      <h2 className=" font-conthrax text-center text-xs sm:text-xl md:text-xl font-bold tracking-widest mb-6 uppercase text-[#caa193]">
+      OUR BEAUTY SALON INTERIOR PROJECTS IN DUBAI </h2>
       {/* Gallery Grid with Hover Effects */}
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
@@ -199,7 +196,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/dhfs (1).webp"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -212,7 +209,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/tabs (16).webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -225,22 +222,16 @@ const DProjects = () => {
               What Makes a Salon Fit-Out in Dubai Outstanding?
             </h2>
             <p>
-              You may wonder: What makes a salon fit-out in Dubai outstanding? The answer lies in attention to detail and
-              smart space planning. Being the best salon and spa interior design company in Dubai, we make every square
+              Do you know What makes a salon fit-out in Dubai outstanding? The answer lies in attention to detail and
+              smart space planning. Being the <b className="text-[#caa193]"><a href="https://wedointerior.ae/beauty-salon-interior-design-dubai">best salon and spa interior design company in Dubai</a></b>, we make every square
               meter count with flowing spaces from entrance to retail to treatment areas. The right lighting makes beauty 
-              treatments shine, and custom furniture brings personality and comfort. Sustainability is also high on our
-              agenda, with eco-friendly products that are both fashionable and responsible.
+              treatments shine, and custom furniture brings personality and comfort. 
               </p>
               <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
               Bespoke Design Styles for Every Beauty Salon Design in Dubai
             </h2>
             <p>
-              Every salon has its own personality, and our designs reflect that. We craft the interiors of a modern and 
-              vintage salon with a balance of charm and elegance, while the interiors of a modern and traditional spa 
-              bring together timeless relaxation. For those who prefer sleek looks, modern or contemporary designs and 
-              minimalist designs create clean, youthful spaces. If cultural luxury appeals to you, our Arabian designs 
-              and Morocco-designs bring richness and grandeur. For the conscious business owner, we provide eco-friendly 
-              designs that promote wellness and sustainability.
+             WEDO crafts salon interiors with a balance of charm and elegance. For those who prefer sleek looks, modern or contemporary designs and minimalist designs create clean, youthful spaces. If cultural luxury appeals to you, our Arabian designs and Morocco-designs bring richness and grandeur. For the conscious business owner, we provide eco-friendly designs that promote wellness and sustainability.
             </p>
            
           </div>
