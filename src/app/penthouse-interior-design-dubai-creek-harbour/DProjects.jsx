@@ -13,7 +13,90 @@ const galleryImages = [
   { src: '/images/meby (6).webp', link: '/dubai-creek-2-bedroom-apartment', title: 'LUXURY 2 BEDROOM APARTMENT DUBAI CREEK HARBOUR' },
   { src: '/images/startech (3).webp', link: '/emaar-harbour-point-apartment-dubai', title: 'EMAAR HARBOUR POINT APARTMENT FIT-OUT' },
 ];
+const TestimonialCarousel = () => {
+  const testimonials = [
+    {
+      quote: "WE DO Interior Design & Fit-Out transformed our penthouse in The Cove into exactly what we had envisioned. From Emaar approvals to final styling, every detail was handled with precision. The result perfectly reflects the waterfront lifestyle we dreamed of. We would recommend WE DO to any penthouse owner in Creek Harbour without hesitation.",
+      author: "A.K., The Cove Tower 1, Dubai Creek Harbour",
+    },
+    {
+      quote: "WE DO Interior Design & Fit-Out delivered beyond our expectations from start to finish. The team was professional, transparent, and passionate throughout the entire process. Our apartment in Creek Rise now feels warm, functional, and perfectly suited to waterfront living. We could not be happier with the final outcome they delivered.",
+      author: "S.M., Creek Rise Tower 2, Dubai Creek Harbour",
+    },
+    {
+      quote: "Choosing WE DO for our Harbour Views unit was one of our best decisions. They handled Emaar fit-out requirements seamlessly and brought our vision to life with remarkable detail. Every finish, every fixture, and every corner was carefully considered. Their communication remained excellent from day one through to completion.",
+      author: "R.A., Harbour Views Tower 1, Dubai Creek Harbour",
+    },
+  ];
 
+  const [idx, setIdx] = React.useState(0);
+  const [slide, setSlide] = React.useState("in");
+
+  const goTo = (newIdx) => {
+    setSlide("out");
+    setTimeout(() => {
+      setIdx((newIdx + testimonials.length) % testimonials.length);
+      setSlide("in");
+    }, 500);
+  };
+
+  React.useEffect(() => {
+    const timer = setInterval(() => {
+      goTo(idx + 1);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, [idx]);
+
+  return (
+    <div className="bg-black-300 p-6 rounded-lg border-l-4 border-[#caa193] my-6 font-play text-white">
+      <h2 className="text-lg font-conthrax text-[#caa193] uppercase tracking-wider mb-3 text-justify">
+        What Our Clients Say About Our Creek Harbour Work
+      </h2>
+
+      <div
+        style={{
+          transition: "opacity 0.5s ease, transform 0.5s ease",
+          opacity: slide === "in" ? 1 : 0,
+          transform: slide === "in" ? "translateX(0px)" : "translateX(60px)",
+          minHeight: "120px",
+        }}
+      >
+        <p className="italic text-sm sm:text-base text-gray-300 text-justify">
+          "{testimonials[idx].quote}"
+        </p>
+        <span className="block text-right text-xs font-conthrax text-[#caa193] mt-2">
+          — {testimonials[idx].author}
+        </span>
+      </div>
+
+      <div className="flex items-center justify-between mt-4">
+        <button
+          onClick={() => goTo(idx - 1)}
+          className="w-8 h-8 rounded-full border border-[#caa193] text-[#caa193] flex items-center justify-center text-lg hover:bg-[#caa193] hover:text-black transition-colors"
+        >
+          ‹
+        </button>
+        <div className="flex gap-2">
+          {testimonials.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => goTo(i)}
+              className={`w-2 h-2 rounded-full transition-colors ${
+                i === idx ? "bg-[#caa193]" : "bg-gray-600"
+              }`}
+            />
+          ))}
+        </div>
+        <button
+          onClick={() => goTo(idx + 1)}
+          className="w-8 h-8 rounded-full border border-[#caa193] text-[#caa193] flex items-center justify-center text-lg hover:bg-[#caa193] hover:text-black transition-colors"
+        >
+          ›
+        </button>
+      </div>
+    </div>
+  );
+};
 const DProjects = () => {
   return (
     <section className="px-6 py-5 bg-black-200">
@@ -53,50 +136,46 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
-        <div className="w-full lg:w-2/3 space-y-4">
-          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-            What Makes Creek Harbour Penthouse Interiors Unique
-          </h2>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            All interior designers operating in Dubai do not have experience in designing <b className="text-[#caa193]"><a href="/apartment-interior-design-dubai-creek-harbour">apartments in Creek Harbour</a></b>, and the output differs accordingly. Below are the unique features of penthouses in Creek Harbour and how they will influence your decision on which designer to choose.
-          </p>
-          <ul className="space-y-4 text-[#caa193]">
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">The Architecture of Dubai Creek:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> Residential buildings in Creek Harbour, The Cove, Island Park, Creek Gate, Harbour Views, use a distinctive vocabulary of architectural expression, including high ceiling height ranging from 3.2m to 5m in penthouses, full width terraces, and panoramic double aspect view of the Creek and Downtown. Ignoring this architecture in interior design produces an erroneous result; respecting it will create a masterpiece.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">The Views Of Dubai Creek:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> The spacious interiors of Dubai Creek Harbour penthouses owe as much to their surroundings as they do to the interior. In our work on Dubai Creek Harbour penthouse layouts, the view becomes the focal furniture, the dimensions of which must be carefully calculated to maintain sightlines while using materials that accentuate the amount of natural light available. A Burj Khalifa or Creek Tower view in perfect frame is more valuable than any furniture you can buy.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">The Scale of Dubai Creek:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify">The size of a 5,000 square ft penthouse in Dubai Creek Harbour cannot be termed as a large-scale building. The design of such a building has to incorporate soundproofing of the living areas and sleeping quarters, different moods for lights depending on the time of the day, and diversity in the building to ensure that people feel comfortable there. We’ve done this before.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">The Building Rules:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify">Emaar's fit-out regulations for creek harbor towers specify walls that can be opened up, materials that can be used in common hallways upon delivery, and structural changes that need extra NOCs. An uninformed designer wastes several weeks of delay and perhaps expensive corrections. WE DO know the rules for each project based on numbers rather than referring to the manual on your own time.</p>
-            </li>
-          </ul>
-        </div>
+       <div className="max-w-7xl mx-auto">
+        <h2 className="text-center text-3xl font-conthrax text-white py-12">
+          What Makes Creek Harbour Penthouse Interiors Unique
+        </h2>
 
-        {/* Top Right Image with Hover Effects */}
-        <div className="w-full lg:w-1/3 group relative overflow-hidden rounded-lg shadow-lg">
-          <a href={textImage.link} className="block">
-            <Image
-              src={textImage.src}
-              alt={textImage.title}
-              width={500}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {textImage.title}
+        {/* Section 1: Text Left, Image Right */}
+        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
+          <div className="space-y-6 text-white font-play">
+            <p className="text-justify">
+              All interior designers operating in Dubai do not have experience in designing apartments in Creek Harbour, and the output differs accordingly. Below are the unique features of penthouses in Creek Harbour and how they will influence your decision on which designer to choose.
               </p>
-            </div>
-          </a>
+            <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
+              <li>
+                <h3 className="font-play font-bold text-base text-justify">The Architecture of Dubai Creek:</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify"> Residential buildings in Creek Harbour, The Cove, Island Park, Creek Gate, Harbour Views, use a distinctive vocabulary of architectural expression, including high ceiling height ranging from 3.2m to 5m in penthouses, full width terraces, and panoramic double aspect view of the Creek and Downtown. Ignoring this architecture in interior design produces an erroneous result; respecting it will create a masterpiece.</p>
+              </li>
+              <li>
+                <h3 className="font-play font-bold text-base text-justify">The Views Of Dubai Creek:</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify"> The spacious interiors of Dubai Creek Harbour penthouses owe as much to their surroundings as they do to the interior. In our work on Dubai Creek Harbour penthouse layouts, the view becomes the focal furniture, the dimensions of which must be carefully calculated to maintain sightlines while using materials that accentuate the amount of natural light available. A Burj Khalifa or Creek Tower view in perfect frame is more valuable than any furniture you can buy.</p>
+              </li>
+              <li>
+                <h3 className="font-play font-bold text-base text-justify">The Scale of Dubai Creek:</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">The size of a 5,000 square ft penthouse in Dubai Creek Harbour cannot be termed as a large-scale building. The design of such a building has to incorporate soundproofing of the living areas and sleeping quarters, different moods for lights depending on the time of the day, and diversity in the building to ensure that people feel comfortable there. We’ve done this before.</p>
+              </li>
+              <li>
+                <h3 className="font-play font-bold text-base text-justify">The Building Rules:</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify"> Emaar's fit-out  regulations for creek harbor towers specify walls that can be opened up, materials that can be used in common hallways upon delivery, and structural changes that need extra NOCs. An uninformed designer wastes several weeks of delay and perhaps expensive corrections. WE DO know the rules for each project based on numbers rather than referring to the manual on your own time.</p>
+                              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-lg overflow-hidden shadow-md">
+            <Image
+              src="/images/startech (2).webp"
+              alt="Round luxury bed with fairy lights"
+              width={600}
+              height={400}
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
 
@@ -222,17 +301,8 @@ const DProjects = () => {
           </div>
 
           {/* Testimonial Block */}
-          <div className="bg-black-300 p-6 rounded-lg border-l-4 border-[#caa193] my-6 font-play text-white">
-            <h2 className="text-lg font-conthrax text-[#caa193] uppercase tracking-wider mb-3 text-justify">
-              What Our Clients Say About Our Creek Harbour Work
-            </h2>
-            <p className="italic text-sm sm:text-base text-gray-300 text-justify">
-              "WE DO Interior Design & Fit-Out transformed our penthouse in The Cove into exactly what we had imagined and more. The team handled every detail from the Emaar approvals to the final styling, and kept us informed throughout. The result is a space that truly reflects the location and how we live. We would recommend WE DO to any penthouse owner in Creek Harbour without hesitation."
-            </p>
-            <span className="block text-right text-xs font-conthrax text-[#caa193] mt-2">
-              — A.K., The Cove Tower 1, Dubai Creek Harbour
-            </span>
-          </div>
+        {/* Testimonial Carousel Block */}
+<TestimonialCarousel />
         </div>
       </div>
 
@@ -245,7 +315,18 @@ const DProjects = () => {
           <p className="text-sm sm:text-base text-white text-justify font-play">
             Our company <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">WE DO Interior Design & Fit-Out</a></b> provides penthouse interior design in Dubai Creek Harbour and beyond to the entire eastern side of Dubai, which includes Downtown Dubai, Business Bay, DIFC, Dubai Festival City, and Ras Al Khor. Our team can reach your property within 24 hours from the time you call us if your property is situated in or near Dubai Creek.
           </p>
-          
+          {/* Map Embed */}
+<div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57752.54585328352!2d55.29!3d25.185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f4b8b8b8b8b%3A0x0!2sDubai+Creek+Harbour!5e0!3m2!1sen!2sae!4v1680000000000!5m2!1sen!2sae"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+  </div>
           <h2 className="text-lg md:text-xl font-conthrax text-[#caa193] pt-6">
             Penthouse Interior Design Dubai Creek Harbour — Frequently Asked Questions
           </h2>
