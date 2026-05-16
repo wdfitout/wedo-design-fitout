@@ -15,12 +15,12 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-             Modern Office Interior Design for Business Bay Workspaces
+             Penthouse Interior Design in Dubai Creek Harbour
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             Office Interior Design in Business Bay Dubai gives attention to designing productive, modern, and visually appealing workplaces in one of the most iconic business districts of Dubai. Placed close to meticulous landmarks including the Burj Khalifa, Dubai Mall, and Dubai Canal, Business Bay is space for corporate headquarters, startups, financial companies, and global enterprises.</p>
+             Dubai Creek Harbour by Emaar is its most ambitious waterfront concept, where the entire development centers on the magnificent views of the Creek, the yet-to-be-built Creek Tower, and the skyline, which matches that of Downtown. The penthouse in Dubai Creek Harbour are the crown jewels of this entire vision – sprawling, full-floor units with high ceiling spaces, floor-to-ceiling glass windows, and private outdoor terraces overlooking the most breathtaking views in the country.</p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           A well-structured <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design Dubai</a></b> concept helps businesses design environments that support development and brand identity. At WE DO Interior Design & Fitout, our professionals offer expert office interior fit out Dubai, well-planned, and Office Design & Commercial Fit-Out in Dubai to help firms change their spaces into efficient and mesmerizing environments.
+          WE DO Interior Design & Fit Out is renowned for providing luxury penthouse interior design in Dubai. We now offer the same expertise in Creek Harbour, which comes with our bespoke interior design services, joinery services, fit-out installation, and all necessary Emaar approval processes. Are you ready to start your project? Get a complimentary site visit today.
             </p>
            
 

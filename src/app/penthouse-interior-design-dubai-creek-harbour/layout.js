@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Office Interior Design in Business Bay Dubai - Office Fit Out Company",
+  title: "Penthouse Interior Design Dubai Creek Harbour - WE DO",
   description:
-    "Ofice interior design in Business Bay Dubai by WE DO. Modern office fit-out, workspace planning, and commercial interior design in Dubai. Contact us!",
+    " Luxury penthouse interior design in Dubai Creek Harbour. Bespoke fit-out, Emaar approvals handled, 3D visualization included. View our penthouse projects.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/office-interior-design-business-bay',
+    canonical: '/ penthouse-interior-design-dubai-creek-harbour',
   },
 };
 
