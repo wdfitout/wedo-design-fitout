@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/wellness-focused-office-interiors-in-business-bay.png',
-  '/images/sustainable-office-interior-design-materials-in-business-bay.png',
-  '/images/turnkey-fit-out-solutions-in-business-bay.png',
+  '/images/apartment in creek.png',
+  '/images/address-harbour-point-dining-area-interior-design-dubai.png',
+  '/images/emaar-address-harbour-point-living-dining-interior-design-dubai-creek-harbour.png',
 ];
 
 const DesignV = () => {

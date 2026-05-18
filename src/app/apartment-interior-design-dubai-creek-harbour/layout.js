@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Office Interior Design in Business Bay Dubai - Office Fit Out Company",
+  title: "Apartment Interior Design in Dubai Creek Harbour - WEDO",
   description:
-    "Ofice interior design in Business Bay Dubai by WE DO. Modern office fit-out, workspace planning, and commercial interior design in Dubai. Contact us!",
+    "Apartment interior design Dubai Creek Harbour by expert designers delivering interiors for stylish waterfront living. Contact us!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/apartment-interior-design-dubai-creek-harbour',

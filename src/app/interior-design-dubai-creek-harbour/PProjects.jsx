@@ -220,7 +220,7 @@ const AboutSection = () => {
              1- Apartment Interior Design in Creek Harbour Dubai
              </h3>
           <p className="text-white text-sm sm:text-base mb-4 font-play">
-           WE DO professionals of Apartment Interior Design in Creek Harbour Dubai, focusing on modern designs, innovative planning, and individualized styling. Every residential apartment is planned keeping in mind unique space usage, effective layout design for both smaller and larger apartments, and individualized furniture solutions that deal with luxury.
+           WE DO professionals of <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">Apartment Interior Design</a></b> in Creek Harbour Dubai, focusing on modern designs, innovative planning, and individualized styling. Every residential apartment is planned keeping in mind unique space usage, effective layout design for both smaller and larger apartments, and individualized furniture solutions that deal with luxury.
           </p>
              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
              2- Turnkey Interior Design & Fit-out Services
@@ -239,7 +239,7 @@ const AboutSection = () => {
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">5- Dubai Creek Harbour Apartment Renovation</h3>
               <p className="text-white text-sm sm:text-base mb-4 font-play">We provide full Dubai Creek Harbour Apartment Renovation solutions that cover layout elevates, interior modernization, and value enhancement. Our interior design and renovation concept gives attention to improving both elegance and ROI, creating older units competitive and valuable in the market.</p> 
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight"> 6- Commercial Interior Design in Dubai Creek Harbour</h3>
-              <p className="text-white text-sm sm:text-base mb-4 font-play">Seeking an expert interior designer Dubai commercial services? WE DO craft retail stores, cafés, restaurants, and office interior designs with a deep focus on branding and practicality. We are one of the top interior companies in Dubai, offering commercial spaces that are both visually appealing and operationally exclusive.</p>
+              <p className="text-white text-sm sm:text-base mb-4 font-play">Seeking an expert interior designer Dubai commercial services? WE DO craft retail stores, cafés, restaurants, and <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior designs</a></b> with a deep focus on branding and practicality. We are one of the top interior companies in Dubai, offering commercial spaces that are both visually appealing and operationally exclusive.</p>
         </div>
       </div>
            
@@ -426,7 +426,7 @@ const AboutSection = () => {
         </p>
 
         <ul className="list-disc pl-5 mt-3 text-[15px] leading-relaxed text-gray-300 font-play">
-          <li><strong className="text-[#b98877]">Creek Palace</strong> – Premium apartment interior design in Creek Palace</li>
+          <li><strong className="text-[#b98877]">Creek Palace</strong> – <b className="text-[#caa193]"><a href="https://wedointerior.ae/modern-apartment-interior-design">Premium apartment interior design</a></b> in Creek Palace</li>
           <li><strong className="text-[#b98877]">Moor at Creek Beach</strong> – Functional and stylish interiors</li>
           <li><strong className="text-[#b98877]">Creek Waters</strong> – High-end fit-out services in Creek Waters</li>
           <li><strong className="text-[#b98877]">Aeon Tower</strong> – Modern layouts for urban living</li>
@@ -500,7 +500,7 @@ const AboutSection = () => {
              2-  Do you offer turnkey fit-out services in Dubai Creek Harbour?
             </h3>
             <p>
-            Yes, WE DO is reputed as one of the top interior design and fit out companies in Dubai delivering turnkey services.</p>
+            Yes, WE DO is reputed as one of the <b className="text-[#caa193]"><a href="https://share.google/qnDtZzrMsxMSB6llH">top interior design and fit out companies in Dubai</a></b> delivering turnkey services.</p>
 
             <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
              3- Can you furnish my apartment for Airbnb?

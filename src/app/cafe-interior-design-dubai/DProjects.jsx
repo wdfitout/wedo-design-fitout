@@ -10,12 +10,11 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/lila-milano (2).webp', link: '/al-quoz-cafe-interior', title: 'LILA MILANO AL QUOZ CAFE INTERIOR' },
+  { src: '/images/karakna (2).webp', link: '/al-safa-cafe-design', title: 'KARAKNA AL SAFA CAFE DESIGN' },
+  { src: '/images/undimanche (3).webp', link: '/bluewaters-cafe-interior', title: 'UNDIMANCHE BLUEWATERS CAFE INTERIOR' },
+  { src: '/images/vogue (7).webp', link: '/downtown-cafe-design', title: 'VOGUE DOWNTOWN CAFE DESIGN' },
+  { src: '/images/allegro (3).webp', link: '/business-bay-cafe-interior', title: 'ALLEGRO BUSINESS BAY CAFE INTERIOR' },
 ];
 
 const DProjects = () => {

@@ -3,12 +3,12 @@ import './globals.css';
 export const metadata = {
   title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
   description:
-    'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+    'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
     title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
-      'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+      'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
     url: 'https://wedointerior.ae/',
     siteName: 'we do interior design',
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
-      'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+      'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
     images: ['/images/logo.svg'],
   },
   alternates: {
@@ -109,7 +109,7 @@ export default function RootLayout({ children }) {
               name: 'we do interior design',
               url: 'https://wedointerior.ae/',
               description:
-                'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+                'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
             }),
           }}
         />
@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
               '@type': 'BlogPosting',
               headline: 'Modern Interior Design in Dubai',
               description:
-                'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+                'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
               url: 'https://wedointerior.ae/',
               author: {
                 '@type': 'Organization',

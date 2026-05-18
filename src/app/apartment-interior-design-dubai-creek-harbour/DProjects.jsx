@@ -4,9 +4,9 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/contemporary-and-modern-office-interior-design.png',
-  link: '/office-interior-design-trends-in-business-bay',
-  title: 'Interior Design Trends In Business Bay'
+  src: '/images/luxury bathroom interior showcasing premium natural materials in Dubai Creek Harbour residence.png',
+  link: '/bathroom-design-trends-dubai-creek-harbour',
+  title: 'Luxury Bathroom Design Trends in Dubai Creek Harbour'
 };
 
 const galleryImages = [
