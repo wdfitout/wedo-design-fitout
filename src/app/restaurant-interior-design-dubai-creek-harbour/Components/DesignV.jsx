@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/wellness-focused-office-interiors-in-business-bay.png',
-  '/images/sustainable-office-interior-design-materials-in-business-bay.png',
-  '/images/turnkey-fit-out-solutions-in-business-bay.png',
+  '/images/dtrest (2).webp',
+  '/images/restaurant (2).webp',
+  '/images/restaurant (3).webp',
 ];
 
 const DesignV = () => {
@@ -29,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Office Interior Design Business Bay
+       We Do Resturant Interior Design Dubai Creek Harbour
       </h2>
 
       {/* Desktop Grid */}

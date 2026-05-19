@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Office Interior Design in Business Bay Dubai - Office Fit Out Company",
+  title: "Restaurant Interior Design Dubai Creek Harbour | WE DO",
   description:
-    "Ofice interior design in Business Bay Dubai by WE DO. Modern office fit-out, workspace planning, and commercial interior design in Dubai. Contact us!",
+    "Restaurant interior design & turnkey fitout in Dubai Creek Harbour. F&B concepts, MEP, approvals handled in-house. Visit today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/office-interior-design-business-bay',
+    canonical: '/restaurant-interior-design-dubai-creek-harbour',
   },
 };
 

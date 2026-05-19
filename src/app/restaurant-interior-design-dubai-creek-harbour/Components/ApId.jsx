@@ -15,12 +15,11 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-             Modern Office Interior Design for Business Bay Workspaces
+             Restaurant Interior Design in Dubai Creek Harbour
             </h2>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             Office Interior Design in Business Bay Dubai gives attention to designing productive, modern, and visually appealing workplaces in one of the most iconic business districts of Dubai. Placed close to meticulous landmarks including the Burj Khalifa, Dubai Mall, and Dubai Canal, Business Bay is space for corporate headquarters, startups, financial companies, and global enterprises.</p>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           A well-structured <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design Dubai</a></b> concept helps businesses design environments that support development and brand identity. At WE DO Interior Design & Fitout, our professionals offer expert office interior fit out Dubai, well-planned, and Office Design & Commercial Fit-Out in Dubai to help firms change their spaces into efficient and mesmerizing environments.
+                       <p className="text-sm sm:text-base leading-7 mb-4 font-play">
+           Turnkey Restaurant interiors and fitouts for F&B concepts around The Creek from fine dining to café promenade.<br/>
+           Over 15 years · Over 500 projects completed · Trakheesi, Dubai Municipality and Civil Defence approvals in house
             </p>
            
 
