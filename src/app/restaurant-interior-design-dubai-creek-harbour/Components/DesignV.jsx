@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/dtrest (2).webp',
-  '/images/restaurant (2).webp',
-  '/images/restaurant (3).webp',
+  '/images/fujiya (1).webp',
+  '/images/fujiya (2).webp',
+  '/images/fujiya (5).webp',
 ];
 
 const DesignV = () => {

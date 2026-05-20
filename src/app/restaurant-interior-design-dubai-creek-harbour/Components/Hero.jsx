@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/dtrest (2).webp"
+        src="/images/fujiya (2).webp"
         alt="Premium Restaurant Interior Design Dubai Creek Harbour"
         width={1920}
         height={1080}

@@ -4,15 +4,12 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/restaurant (10).webp',
+  src: '/images/fujiya (3).webp',
   link: '/restaurant-interior-design-dubai-creek-harbour',
   title: 'Resturant Interior Design Trends In Creek Harbour'
 };
 
-const galleryImages = [
-  { src: '/images/meby (6).webp', link: '/business-bay-travel-agency', title: 'MEBY BUSINESS BAY TRAVEL AGENCY' },
-  { src: '/images/startech (3).webp', link: '/business-bay-office-fit-out', title: 'STARTECH BUSINESS BAY OFFICE FIT-OUT' },
-];
+
 
 // Testimonials Data (Original + 2 Dummy)
 const testimonials = [
@@ -63,25 +60,8 @@ const DProjects = () => {
   return (
     <section className="px-6 py-5 bg-black-200">
       
-      {/* Top Content Block */}
-      <div className="lg:max-w-[80%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
-        
-        <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-          
-
-          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] text-center">
-            Interior Design in Dubai Creek Harbour
-          </h2>
-          <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-            <p>
-              The new Dubai Creek Harbour development is rapidly becoming the hot destination for F&B operators looking to open their restaurants in Dubai. With the waterfront views overlooking the Creek, the planned Dubai Creek Tower at its core, and the entire master planned community of Emaar Creek Harbour attracting visitors and residents from all over the city. Any new establishment opening its doors here already has a ready customer base.
-            </p>
-            <p>
-              WE DO Interior Design & FitOut provides comprehensive interior design services for <b className="text-[#caa193]"><a href="/restaurant-interior-design-dubai-creek-harbour">restaurants interior design in Dubai Creek Harbour</a></b> including individual concepts on the beach front of the Creek Beach promenade and F&B establishments in the hotels such as The Palace Dubai Creek Harbour, Vida Creek Harbour and Address Grand Creek Harbour.
-            </p>
-          </div>
-        </div>
-      </div>
+      
+    
 
       {/* Split Row – Text + Top Right Image */}
       <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
@@ -219,7 +199,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/restaurant (6).webp"
+              src="/images/fujiya (3).webp"
               alt="Why Dubai Creek Harbour Restaurants Choose WE DO"
               width={600}
               height={400}
@@ -282,7 +262,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/restaurant (4).webp"
+              src="/images/fujiya (7).webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -409,7 +389,7 @@ const DProjects = () => {
   {/* Google Maps Embedded iFrame */}
   <div className="w-full h-[350px] sm:h-[450px] rounded-lg overflow-hidden border border-[#caa193]/30 shadow-lg relative">
     <iframe
-       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.919696803875!2d55.3452161!3d25.2066955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f679fadbb563d%3A0x15e90d8fe66e02f2!2sDubai%20Creek%20Harbour!5e0!3m2!1sen!2sae!4v1716140000000!5m2!1sen!2sae"
+       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28879.625769385028!2d55.3708!3d25.2048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f679fadfb563d%3A0x15e90d8fe66e02f2!2sRas%20Al%20Khor%20-%20Dubai%20Creek%20Harbour%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1779287470131!5m2!1sen!2s" 
       width="100%"
       height="100%"
       style={{ border: 0 }}
