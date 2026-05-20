@@ -199,7 +199,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/fujiya (3).webp"
+              src="/images/fujiya (6).webp"
               alt="Why Dubai Creek Harbour Restaurants Choose WE DO"
               width={600}
               height={400}
