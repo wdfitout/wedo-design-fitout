@@ -40,23 +40,12 @@ const AboutSection = () => {
     overflow-hidden"
 >
       {/* Top Intro Text */}
-      <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-2 text-center text-[12px] sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
+      <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-6 text-center text-[12px] sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
         <p>
         At WE DO Interior Design & Fit-Out, we deliver award-winning interior design Dubai services that redefine how commercial and residential spaces should feel and function. Popular among the best interior design companies in Dubai, we bring creativity, engineering precision, and site-tested execution to every project—whether it's a luxury villa interior design in Emirates Hills, a smart apartment interior design in Downtown Dubai, or a high-end office fitout in DIFC. With over 15 years of experience in industry, WEDO interior is among the leading interior companies in Dubai, shaping environments that reflect Dubai’s fast-paced, visionary culture.</p>
       </div>
 
-      {/* Image Section */}
-      <div className="w-full mt-5 px-4 sm:px-6 md:px-8">
-        <div className="w-full max-w-[1200px] mx-auto">
-          <Image
-            src="/images/ssimg.webp"
-            alt="Interior design Dubai"
-            width={800}
-            height={600}
-            className="w-full h-auto"
-          />
-        </div>
-      </div>
+
 
       {/* Wireframe and Content Section */}
       <div className="relative px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-4 md:py-12 bg-no-repeat bg-cover bg-[url('/images/mobile-wire.svg')] lg:bg-[url('/images/desktop-wire.svg')]">
@@ -83,7 +72,7 @@ const AboutSection = () => {
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-10 sm:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-sm sm:text-base mt-10 mb-6 sm:mb-0">
           {features.map((feature, index) => (
             <div key={index} className="space-y-3 px-2 text-start">
               <h3 className="text-[#caa193] text-[12px] font-conthrax uppercase tracking-wide text-center">

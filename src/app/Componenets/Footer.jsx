@@ -16,35 +16,29 @@ import { IoIosMail } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 
 const socialLinks = [
-  { icon: <FaTiktok />, href: "https://www.tiktok.com/@wedo_interior" },
-  { icon: <FaInstagram />, href: "https://www.instagram.com/wedo_interior/" },
+  { icon: <FaInstagram />, href: "https://www.instagram.com/we.do.uae/" },
   { icon: <FaLinkedin />, href: "https://www.linkedin.com/company/wedointeriors/" },
   { icon: <FaPinterest />, href: "https://www.pinterest.com/wedo_interior/" },
   { icon: <FaFacebook />, href: "https://www.facebook.com/wedofitout" },
+  { icon: <FaTiktok />, href: "https://www.tiktok.com/@wedo_interior" },
 ];
 
 const navLinks = [
-  "Home",
-  "About Us",
-  "Projects",
-  "Features",
-  "Areas",
-  "Services",
-  "Blogs",
-  "Testimonials",
-  "Contact Us",
+  { title: "Home", path: "/" },
+  { title: "Services", path: "/" },
+  { title: "Gallery", path: "/gallery" },
+  { title: "Blogs", path: "/blogs" },
+  { title: "About Us", path: "/about-us" },
+  { title: "Contact Us", path: "/contact-us" },
 ];
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#a0624d] to-[#caa193] text-white text-[6px] md:text-sm">
-      {/* Top Decorative Line */}
+    <footer className="bg-gradient-to-br from-[#a0624d] to-[#caa193] text-white">
       <div className="h-[2px] bg-gradient-to-r from-[#caa193] via-[#a0624d] to-[#caa193]" />
 
-      {/* Black Strip Section */}
-      <div className="bg-black md:px-4 sm:px-8 lg:px-20 py-2 md:py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-        {/* Social Links and Contacts */}
-        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-2 md:gap-4 text-sm">
+      <div className="bg-black px-4 sm:px-8 lg:px-20 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-3 md:gap-5">
           <div className="flex justify-center md:justify-start gap-3 text-lg">
             {socialLinks.map((item, idx) => (
               <a
@@ -52,52 +46,72 @@ const Footer = () => {
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[#C49B74] transition"
+                className="hover:text-[#caa193] transition-colors"
               >
                 {item.icon}
               </a>
             ))}
           </div>
-          <div className="flex flex-col md:flex-row items-center gap-2 text-xs md:ml-6">
-            <span className="flex items-center gap-1">
-              <FaPhoneAlt /> +971 42 762 520
-            </span>
-            <span className="flex items-center gap-1">
+
+          <div className="flex flex-col md:flex-row items-center gap-2 text-xs lg:text-sm">
+            <a
+              href="tel:+971588075603"
+              className="flex items-center gap-1 hover:text-[#caa193] transition-colors"
+            >
+              <FaPhoneAlt /> +971 58 807 5603
+            </a>
+
+            <a
+              href="https://wa.me/971588075603"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 hover:text-[#97c38d] transition-colors"
+            >
               <FaWhatsapp /> +971 58 807 5603
-            </span>
+            </a>
           </div>
         </div>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-3 font-light uppercase">
+        <div className="hidden md:flex items-center gap-4 lg:gap-6 font-light uppercase">
           {navLinks.map((link, idx) => (
-            <Link key={idx} href={`/#${link.toLowerCase().replace(/ /g, "-")}`}>
-              <span className="hover:text-[#C49B74] transition">{link}</span>
+            <Link
+              key={idx}
+              href={link.path}
+              className="text-[11px] lg:text-[13px] tracking-wide hover:text-[#caa193] transition-colors"
+            >
+              {link.title}
             </Link>
           ))}
         </div>
       </div>
 
-      {/* Mobile Navigation */}
-      <div className="md:hidden flex flex-wrap justify-center gap-3 py-3 px-4 font-light uppercase">
+      <div className="md:hidden flex flex-wrap justify-center gap-4 py-4 px-4 font-light uppercase bg-black/95">
         {navLinks.map((link, idx) => (
-          <Link key={idx} href={`/#${link.toLowerCase().replace(/ /g, "-")}`}>
-            <span className="hover:text-[#C49B74] transition">{link}</span>
+          <Link
+            key={idx}
+            href={link.path}
+            className="text-xs tracking-wide hover:text-[#caa193] transition-colors"
+          >
+            {link.title}
           </Link>
         ))}
       </div>
 
-      {/* Info Section */}
-      <div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-10 lg:px-20 py-2 md:py-6 gap-4 text-[9px] md:text-sm text-white">
-        <div className="md:space-y-2 text-center md:text-left">
-          <p className="flex items-center gap-2">
-            <IoIosMail className="text-[#c38d90]" /> INFO@WEDOINTERIOR.AE
-          </p>
-          <p className="flex items-center gap-2">
-            <IoLocationSharp className="text-[#c38d90]" />
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-10 lg:px-20 py-5 md:py-7 gap-5 text-[11px] md:text-sm text-white">
+        <div className="space-y-2 text-center md:text-left">
+          <a
+            href="mailto:INFO@WEDOINTERIOR.AE"
+            className="flex items-center justify-center md:justify-start gap-2 hover:text-white/80 transition-colors"
+          >
+            <IoIosMail className="text-black/70" /> INFO@WEDOINTERIOR.AE
+          </a>
+
+          <p className="flex items-center justify-center md:justify-start gap-2">
+            <IoLocationSharp className="text-black/70" />
             OFFICE - WH-05 A, JABEL ALI INDUSTRIAL 1, DUBAI, UAE
           </p>
         </div>
+
         <Link href="/" className="flex items-center">
           <Image
             src="/images/logo-s-Black.png"
@@ -109,9 +123,8 @@ const Footer = () => {
         </Link>
       </div>
 
-      {/* Footer Bottom Bar */}
-      <div className="text-center text-[10px] md:text-xs pb-4">
-        © WEDO {new Date().getFullYear()} ALL RIGHTS RESERVED
+      <div className="text-center text-[10px] md:text-xs pb-4 uppercase">
+        © WE DO {new Date().getFullYear()} All Rights Reserved
       </div>
     </footer>
   );
