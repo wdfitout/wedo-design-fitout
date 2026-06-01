@@ -7,32 +7,32 @@ import Link from "next/link";
 const services = [
   {
     title: "Office Interior Design In Business Bay",
-    description:
-      "Modern office fit-out, workspace planning, and commercial interior design in Dubai.",
     bgImage: "/images/turnkey-fit-out-solutions-in-business-bay.png",
     link: "/office-interior-design-business-bay",
   },
   {
     title: "Apartment Interior Design In Business Bay",
-    description:
-      "High-quality fit-out services ensuring seamless execution from start to finish.",
     bgImage: "/images/01-living-07.jpg",
     link: "/apartment-interior-design-business-bay",
   },
   {
-    title: "Villa Interior Design In Business Bay",
-    description:
-      "Interactive 3D & VR previews to visualize your space before execution.",
+    title: "Penthouse Interior Design Business Bay",
     bgImage: "/images/ATRD (2).webp",
-    link: "/villa-interior-design-business-bay",
+    link: "/penthouse-interior-design-business-bay",
   },
   {
     title: "Restaurant Interior Design In Business Bay",
-    description:
-      "Bespoke furniture and styling solutions crafted for elegance & function.",
     bgImage: "/images/adbr (6).png",
     link: "/restaurant-interior-design-business-bay",
   },
+
+  {
+    title: "Retail Interior Design In Business Bay",
+    bgImage: "/images/retail (1).webp",
+    link: "/retail-interior-design-business-bay",
+  },
+
+  
 ];
 const businessBayProjects = [
   {
@@ -59,6 +59,7 @@ const businessBayProjects = [
     image: "/images/startech (2).webp",
     link: "/business-bay-office-fit-out",
   },
+  
 ];
 const AboutSection = () => {
   return (
@@ -152,10 +153,10 @@ const AboutSection = () => {
         </div>
         
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
   {services.map((service, idx) => (
     <Link key={idx} href={service.link} className="block group">
-      <div className="relative h-[340px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+      <div className="relative h-[250px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
         
         <Image
           src={service.bgImage}

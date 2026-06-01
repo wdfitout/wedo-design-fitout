@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/pjapt (8).webp',
-  '/images/pjapt (12).webp',
-  '/images/pjapt (14).webp',
+  '/images/Hotel Interior Designs Dubai.png',
+  '/images/Hotel Interior Design company in Dubai.png',
+   '/images/Hotel bathroom fitout dubai.png',
 ];
 
 const DesignV = () => {

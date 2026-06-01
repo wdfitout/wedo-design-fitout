@@ -47,7 +47,7 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
+      <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6">
         <div className="w-full lg:w-2/3 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Our Apartment Interior Design Services in Dubai Creek Harbour
@@ -57,7 +57,7 @@ const DProjects = () => {
             <li>
             <h3 className='font-play'>Luxury Apartment Interior Design</h3>
              <p className='text-white font-play'> Our apartment interior services focus on quality materials, textures, and bespoke detailing. Our interior in Dubai provide <a href="/modern-apartment-interior-design" className="text-[#caa193]">
-     luxury apartment interior design ideas in Dubai </a>  with fine finishing, including marble and warm lighting options.</p>
+           luxury apartment interior design ideas in Dubai </a>  with fine finishing, including marble and warm lighting options.</p>
             </li>
 
              <li>
@@ -177,7 +177,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/startech (2).webp"
+              src="/images/dubai-creek-apartment.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -237,7 +237,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/meby (7).webp"
+              src="/images/address-harbour-point-master-bedroom-design-dubai.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

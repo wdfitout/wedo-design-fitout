@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/pjapt (8).webp',
-  '/images/pjapt (12).webp',
-  '/images/pjapt (14).webp',
+  '/images/Clinic Interior Design in Dubai.png',
+  '/images/Healthcare Interior Design Company in Dubai.png',
+  '/images/clinic interior designers in Dubai.png',
 ];
 
 const DesignV = () => {

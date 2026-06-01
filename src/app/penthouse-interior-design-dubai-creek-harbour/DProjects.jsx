@@ -10,8 +10,8 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/meby (6).webp', link: '/dubai-creek-2-bedroom-apartment', title: 'LUXURY 2 BEDROOM APARTMENT DUBAI CREEK HARBOUR' },
-  { src: '/images/startech (3).webp', link: '/emaar-harbour-point-apartment-dubai', title: 'EMAAR HARBOUR POINT APARTMENT FIT-OUT' },
+  { src: '/images/dbckapt (9).png', link: '/dubai-creek-2-bedroom-apartment', title: ' 2 BEDROOM APARTMENT DUBAI CREEK HARBOUR' },
+  { src: '/images/address-harbour-point-small-sitting-area-design-dubai-creek-harbour.png', link: '/emaar-harbour-point-apartment-dubai', title: 'EMAAR HARBOUR POINT APARTMENT FIT-OUT' },
 ];
 const TestimonialCarousel = () => {
   const testimonials = [

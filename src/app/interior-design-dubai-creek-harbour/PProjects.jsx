@@ -7,45 +7,33 @@ import Link from "next/link";
 const services = [
   {
     title: "Apartment Interior Design In Dubai Creek Harbour",
-    description:
-      "Modern Apartment fit-out,  planning, and commercial interior design in Dubai.",
     bgImage: "/images/dbckapt (5).png",
     link: "/apartment-interior-design-dubai-creek-harbour",
   },
   {
     title: "Penthouse Interior Design In Dubai Creek Harbour",
-    description:
-      "High-quality fit-out services ensuring seamless execution from start to finish.",
     bgImage: "/images/01-living-07.jpg",
     link: "/penthouse-interior-design-dubai-creek-harbour",
   },
   {
     title: "Retail Interior Design In Dubai Creek Harbour",
-    description:
-      "Interactive 3D & VR previews to visualize your space before execution.",
     bgImage: "/images/retail (1).webp",
     link: "/retail-interior-design-dubai-creek-harbour",
   },
   {
     title: "Restaurant Interior Design In Dubai Creek Harbour",
-    description:
-      "Bespoke furniture and styling solutions crafted for elegance & function.",
     bgImage: "/images/restaurant (9).webp",
     link: "/restaurant-interior-design-dubai-creek-harbour",
   },
 
   {
     title: "Cafe Interior Design In Dubai Creek Harbour",
-    description:
-      "Modern Cafe fit-out,  planning, and commercial interior design in Dubai.",
     bgImage: "/images/karakna (9).webp",
     link: "/cafe-interior-design-dubai-creek-harbour",
   },
 
   {
     title: "Custom Furniture In Dubai Creek Harbour",
-    description:
-      "Modern Cafe fit-out,  planning, and commercial interior design in Dubai.",
     bgImage: "/images/joinery-furniture.webp",
     link: "/custom-furniture-joinery-dubai-creek-harbour",
   },
@@ -174,11 +162,10 @@ const AboutSection = () => {
         </div>
         
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
   {services.map((service, idx) => (
     <Link key={idx} href={service.link} className="block group">
-      <div className="relative h-[340px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
-        
+         <div className="relative h-[250px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
         <Image
           src={service.bgImage}
           alt={service.title}

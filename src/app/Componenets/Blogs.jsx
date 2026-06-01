@@ -19,7 +19,7 @@ const blogPosts = [
     title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
     date: "Published: 21.04.2026",
     excerpt:
-      "Explore luxury bathroom trends in Dubai Creek Harbour with WE DO Interior Design: spa-layouts, smart tech, and premium finishes.",
+      "Explore luxury bathroom trends in Dubai Creek Harbour with WE DO Interior Design & fit-out spa-layouts, smart tech, and premium bathroom finishes.",
     image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
     link: "/bathroom-design-trends-dubai-creek-harbour",
   },

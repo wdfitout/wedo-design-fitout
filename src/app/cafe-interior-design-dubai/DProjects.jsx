@@ -4,9 +4,9 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/Design Trends Influencing Modern Workspaces.png',
+  link: '/commercial-interior-fit-out',
+  title: 'Commercial Interior fit-out'
 };
 
 const galleryImages = [
@@ -60,17 +60,18 @@ const DProjects = () => {
           </h3>
           <p className="text-sm sm:text-base text-white font-play">
           When searching for interior design near me, café owners often struggle to find a company that balances creativity 
-          with technical expertise. At WE DO Interior Design and Fitout, we are among the  top 10 interior fit out companies
+          with technical expertise. At <b className="text-[#caa193]"
+><a href="https://www.instagram.com/we.do.uae/"></a>WE DO Interior</b>  Design and Fitout, we are among the  top 10 interior fit out companies
           in Dubai with vast experience of  café interiors in Dubai.
           </p>
       
-          <p className="text-sm sm:text-base text-white">
+          <p className="text-sm sm:text-base text-white font-play">
           As an experienced café interior design company in Dubai,  we are a team of expert designers, project managers
           and architects who understand the method of creating cafés that are not only appealing but also efficient.
           We provide complete café and restaurant design Dubai services that ensure the staff efficiency, customer 
           flow and a warm, welcoming environment.
          </p>
-          <p className="text-sm sm:text-base text-white"> 
+         <p className="text-sm sm:text-base text-white font-play">
           Whether you need residential interior design for a home café concept, commercial interior design for a branded coffee
           shop chain, or hospitality interior design for a high-end venue, we offer specialized services under one roof.
           </p>
@@ -168,7 +169,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/allegro (3).webp"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -181,7 +182,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/vogue (2).webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -245,7 +246,8 @@ const DProjects = () => {
 
           <p className="font-play text-sm sm:text-base text-white">
           If you are ready to elevate your café’s atmosphere and create a space that inspires customers, trust one of the best
-          interior fit out companies in Dubai— <b><a href="https://wedointerior.ae/">WE DO Interior Design and Fitout.</a></b>
+          interior fit out companies in Dubai— <b className="text-[#caa193]"
+        ><a href="https://wedointerior.ae/">WE DO Interior Design and Fitout.</a></b>
          </p>
         </div>
       </div>

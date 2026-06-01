@@ -6,7 +6,7 @@ export const metadata = {
     "We DO Interior have expert cafe interior designers who can create the best cafe interior design Dubai. Visit us for your Cafe project",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/apartment-interior-design-dubai',
+    canonical: '/cafe-interior-design-dubai',
   },
 };
 

@@ -18,7 +18,8 @@ const ApId = () => {
              Clinic Interior Design in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             At <b><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we use our creativity and expertise in every project, skilled in  clinic interior design in Dubai. Our Services include designing and <b><a href="https://wedointerior.ae/fit-out-company-dubai">fit-out for hospitals</a></b> ,private clinics and medical centers, designing and creating spaces that are both functional as well as stylish. As a trusted interior design company in Dubai, WEDO Interior understands that every medical space requires something more than just interiors. The health care places should reflect professionalism, comply  with DHA regulations and should have a healing , safe and fresh environment for patients in Dubai.
+             At <b className="text-[#caa193]"
+><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we use our creativity and expertise in every project, skilled in  clinic interior design in Dubai. Our Services include designing and <b><a href="https://wedointerior.ae/fit-out-company-dubai">fit-out for hospitals</a></b> ,private clinics and medical centers, designing and creating spaces that are both functional as well as stylish. As a trusted interior design company in Dubai, WEDO Interior understands that every medical space requires something more than just interiors. The health care places should reflect professionalism, comply  with DHA regulations and should have a healing , safe and fresh environment for patients in Dubai.
            </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
             If  you’re opening a modern clinic in Dubai,searching for a hospital interior design & fit-out company in Dubai, or  setting up a medical clinic fit-out, We Do Interior Design & Fit out team provides turnkey services that are  compliant, innovative and patient-focused.
@@ -45,7 +46,7 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
              <Image
-              src="/images/atlantis (2).webp"
+              src="/images/modern clinic design in Dubai.png"
               alt="Watch our company video"
               width={1280}
               height={720}

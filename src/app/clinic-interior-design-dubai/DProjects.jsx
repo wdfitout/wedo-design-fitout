@@ -3,19 +3,12 @@
 import React from 'react';
 import Image from 'next/image';
 
-const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
-};
+
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/dhfs (1).webp', link: '/dubai-hills-mall-facial-studio', title: 'Dubai Hills Facial Studio' },
+  { src: '/images/beauty-salon-interior.png', link: '/jumeirah-1-beauty-salon', title: 'Tess Avenue Beauty Salon' },
+
 ];
 
 const DProjects = () => {
@@ -29,7 +22,8 @@ const DProjects = () => {
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
-    A clinic should be something more than just a treatment space, it should not only provide treatments to the patients, but also comfort, safety and efficiency. At WE DO Interior Design & Fitout we are specialized in providing stylish & functional clinic interior design in Dubai by blending modern trends with  medical practicality. Our clinic interior designers focus on details like:
+    A clinic should be something more than just a treatment space, it should not only provide treatments to the patients, but also comfort, safety and efficiency. At WE DO Interior Design & Fitout we are specialized in providing stylish & functional <b className="text-[#caa193]"
+><a href="https://wedointerior.ae/clinic-interior-design-dubai">clinic interior design in Dubai</a></b>  by blending modern trends with  medical practicality. Our clinic interior designers focus on details like:
   </p>
 
   <ul className="list-disc list-inside space-y-1">
@@ -46,11 +40,11 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
-        <div className="w-full lg:w-2/3 space-y-4">
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+      <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
+        <div className="w-full lg:w-3/3 space-y-4">
+          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Leading Healthcare Interior Design Company in Dubai
-          </h3>
+          </h2>
           <p className="text-sm sm:text-base text-white font-play">
            WE DO Interior Design & Fitout is recognized as the #1 medical clinic interior design company in Dubai. We have successfully executed medical clinic interiors, hospital projects, and healthcare centers across the UAE. As a clinic interior design company in Dubai and a healthcare interior design company in the UAE, we deliver professional hospital interior designers with the right blend of creativity, compliance, and technical expertise.
 
@@ -62,25 +56,11 @@ const DProjects = () => {
           We at WEDO partner with the most reliable contractors and suppliers in Dubai while ensuring that each project meets the standards of DHA approval,HSE guidelines  and local rules compliance.  As a reputable clinic interior fit-out provider in Dubai, we are committed to providing patient-friendly aesthetics,durable materials and seamless project delivery.</p>
         </div>
 
-        {/* Top Right Image with Hover Effects */}
-        <div className="w-full lg:w-1/3 group relative overflow-hidden rounded-lg shadow-lg">
-          <a href={textImage.link} className="block">
-            <Image
-              src={textImage.src}
-              alt={textImage.title}
-              width={500}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {textImage.title}
-              </p>
-            </div>
-          </a>
-        </div>
+      
       </div>
-
+  <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-center text-[#caa193] mb-10">
+          Our Clinic Interior Design Projects in Dubai
+          </h2>
       {/* Gallery Grid with Hover Effects */}
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
@@ -190,7 +170,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/skincare-clinic-interiors.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -203,7 +183,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/clinic interior designers in Dubai.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}
@@ -251,7 +231,8 @@ const DProjects = () => {
 
           </h3>
           
-       <p className="font-play text-sm sm:text-base text-white"> Our expertise spans across Dubai and the UAE. Whether you are launching a medical clinic set up in Dubai Healthcare City, expanding a facility in Business Bay, renovating near Dubai Marina, or opening a clinic in Jumeirah, Al Wasl, or Sheikh Zayed Road, our team ensures your project benefits from clinic interior design near me services.
+       <p className="font-play text-sm sm:text-base text-white"> Our expertise spans across Dubai and the UAE. Whether you are launching a medical clinic set up in Dubai Healthcare City, expanding a facility in <b className="text-[#caa193]"
+><a href="https://wedointerior.ae/interior-design-company-business-bay"> Business Bay</a></b>, renovating near Dubai Marina, or opening a clinic in Jumeirah, Al Wasl, or Sheikh Zayed Road, our team ensures your project benefits from clinic interior design near me services.
          As a trusted clinic interior design company in the UAE, we also provide services in Abu Dhabi, Sharjah, and other Emirates, delivering turnkey fit-out for medical facilities wherever you are located. </p>
         </div>
 

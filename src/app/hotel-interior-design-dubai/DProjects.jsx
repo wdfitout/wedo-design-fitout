@@ -10,12 +10,11 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/adh (7).webp', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dmapt (9).webp', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
-  { src: '/images/mg2-(1).webp', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/pjapt (5).webp', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/mjapt (9).png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/downtown-restaurant.png', link: '/downtown-dubai-restaurant', title: 'DOWNTOWN RESTAURANT DUBAI' },
+  { src: '/images/crazymask (11).webp', link: '/jbr-restaurant-interior', title: 'CRAZY MASK JBR RESTAURANT INTERIOR' },
+  { src: '/images/xaima (4).webp', link: '/dubai-restaurant-interior-fit-out', title: 'DUBAI RESTAURANT INTERIOR FIT OUT' },
+  { src: '/images/fujiya-restaurant.png', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
+ 
 ];
 
 const DProjects = () => {
@@ -53,7 +52,7 @@ const DProjects = () => {
 
       {/* Split Row – Text + Top Right Image */}
       <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
-        <div className="w-full lg:w-2/3 space-y-4">
+        <div className="w-full lg:w-3/3 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Turnkey Hotel Interior Fit-Out Dubai
           </h2>
@@ -75,25 +74,10 @@ const DProjects = () => {
          </p>
         </div>
 
-        {/* Top Right Image with Hover Effects */}
-        <div className="w-full lg:w-1/3 group relative overflow-hidden rounded-lg shadow-lg">
-          <a href={textImage.link} className="block">
-            <Image
-              src={textImage.src}
-              alt={textImage.title}
-              width={500}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {textImage.title}
-              </p>
-            </div>
-          </a>
-        </div>
       </div>
-
+ <h2 className="text-sm sm:text-xl text-center md:text-xl tracking-widest font-conthrax text-[#caa193] mb-10">
+          Our Hospitality Interior Design Projects in Dubai
+          </h2>
       {/* Gallery Grid with Hover Effects */}
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
@@ -113,6 +97,8 @@ const DProjects = () => {
           </a>
         ))}
       </div>
+
+      
             {/* Bottom CTA Section */}
       <div className="bg-[#f5ede5] py-10 text-center space-y-4">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase">
@@ -183,7 +169,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (12).webp"
+              src="/images/hospitality-dubai-interiors.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -196,7 +182,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/serv8.webp"
+              src="/images/Hotel Interior Design company in Dubai.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

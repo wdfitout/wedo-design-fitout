@@ -43,7 +43,7 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
              <Image
-              src="/images/atlantis (2).webp"
+              src="/images/Hotel relaxing area Interior Design Dubai.png"
               alt="Watch our company video"
               width={1280}
               height={720}

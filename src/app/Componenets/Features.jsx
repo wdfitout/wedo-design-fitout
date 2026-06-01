@@ -49,13 +49,13 @@ const cardData = [
   },
   {
     title: "CLINICS INTERIOR DESIGN",
-    img: "/images/dubai-luxury-clinic-interior.webp",
+    img: "/images/modern clinic design in Dubai.png",
     desc: "WE DO offers clinic interior design in Dubai that is both stylish & functional, creating healing spaces with comfort and  hygiene.",
     link: "/clinic-interior-design-dubai",
   },
   {
     title: "HOTEL INTERIOR DESIGN",
-    img: "/images/dubai-five-star-hotel-bedroom-design.webp",
+    img: "/images/Hotel Interior Designs Dubai.png",
     desc: "Luxury spaces by a leading hotel interior design company in Dubai, blending style & function in world-class hospitality interior design.",
     link: "/hotel-interior-design-dubai",
   },
