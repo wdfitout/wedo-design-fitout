@@ -7,6 +7,15 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
+  
+  {
+    title: "Dubai Creek Harbour Waterfront Apartment Design",
+    date: "Published: 25.05.2026",
+    excerpt:
+      "Discover the ultimate guide to Waterfront Apartment Design in Dubai Creek Harbour. Learn expert tips, trends, and ideas from WE DO interiors.",
+    image: "/images/Modern waterfront apartment living room in Dubai Creek Harbour.png",
+    link: "/creek-harbour-waterfront-apartment-design",
+  },
   {
     title: "3-5-7 Rule in Interior Design Dubai  | WE DO Interior Design ",
     date: "Published: 29.04.2026",
@@ -23,14 +32,7 @@ const blogPosts = [
     image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
     link: "/bathroom-design-trends-dubai-creek-harbour",
   },
-  {
-    title: "High-End Living Room interior Design in Business Bay Dubai",
-    date: "Published: 18.04.2026",
-    excerpt:
-      "Discover how to design a luxury living room interior  in Business Bay Dubai with modern interiors, elegant styles, smart layouts, and expert tips from WE DO.",
-    image: "/images/Luxury interior material focus Dubai living room.png",
-    link: "/living-room-interior-business-bay",
-  },
+  
   
  
  

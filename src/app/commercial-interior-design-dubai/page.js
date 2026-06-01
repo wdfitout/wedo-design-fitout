@@ -19,8 +19,6 @@ export default function Home() { // Capitalized "home" → "Home"
         <div className="flex flex-wrap justify-center">
           <CommercialProjects />
         </div>
-
-          <CommercialProjects />
       
         <Footer />
       </div>

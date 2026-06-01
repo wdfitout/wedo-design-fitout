@@ -1,36 +1,35 @@
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-    {
+  {
     img: "/images/commercial-office-reception-interior-design-dubai.webp",
-    alt: "Home Interior Design",
+    alt: "Dubai Knowledge Park Office Fit Out",
     title: "DUBAI KNOWLEDGE PARK OFFICE FIT OUT",
     href: "/dubai-knowledge-park-office-fit-out",
   },
   {
     img: "/images/commercial (2).webp",
-    alt: "Apartment Interior Design",
+    alt: "Dubai Office Interior",
     title: "DUBAI OFFICE INTERIOR",
     href: "/dubai-office-interior",
   },
   {
     img: "/images/commercial (3).webp",
-    alt: "Apartment Interior Design",
+    alt: "Al Wasl Clothing Store",
     title: "AL WASL CLOTHING STORE",
     href: "/al-wasl-clothing-store",
   },
-    {
+  {
     img: "/images/commercial (4).webp",
-    alt: "Home Interior Design",
+    alt: "Al Safa Real Estate Office",
     title: "AL SAFA REAL ESTATE OFFICE",
     href: "/al-safa-real-estate-office",
   },
   {
     img: "/images/commercial (5).webp",
-    alt: "Restaurant Interior Design",
+    alt: "Business Bay Travel Agency",
     title: "BUSINESS BAY TRAVEL AGENCY",
     href: "/business-bay-travel-agency",
   },
@@ -40,62 +39,53 @@ const CommercialProjects = () => {
   return (
     <section
       id="projects"
-      className="bg-[url('/images/p-bg.webp')] bg-cover bg-center bg-no-repeat text-white"
+      className="bg-black bg-[url('/images/p-bg.webp')] bg-cover bg-center bg-no-repeat text-white"
     >
-      {/* Arrow image */}
-      <div className="mt-10 sm:mt-16 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll down arrow"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-          loading="lazy"
-        />
-      </div>
+      <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 md:py-20 lg:px-16">
+        <div className="mb-10 text-center">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-[#caa193]">
+            Portfolio
+          </p>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
-        {/* Section Title */}
-        <div className="relative mb-6 sm:mb-12">
-          <h2 className="text-lg sm:text-xl font-semibold tracking-wider text-center">
-            OUR COMMERCIAL PROJECTS IN DUBAI
+          <h2 className="text-2xl font-semibold uppercase tracking-wide sm:text-3xl">
+            Our Commercial Projects in Dubai
           </h2>
         </div>
 
-        {/* Project Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {projects.map((card, index) => (
-            <Link key={index} href={card.href}>
-              <div className="relative aspect-[4/3] overflow-hidden group cursor-pointer w-full">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project) => (
+            <Link
+              key={project.title}
+              href={project.href}
+              className="group block overflow-hidden bg-[#111]"
+            >
+              <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image
-                  src={card.img}
-                  alt={card.alt}
+                  src={project.img}
+                  alt={project.alt}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+                  className="object-cover transition duration-700 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
-                  <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
-                  <div className="p-2">
-                    <h3 className="text-white text-sm text-center">{card.title}</h3>
-                  </div>
-                </div>
+
+                <div className="absolute inset-0 bg-black/15 transition group-hover:bg-black/35" />
+              </div>
+
+              <div className="border-t border-[#caa193]/70 bg-black/80 px-4 py-4">
+                <h3 className="text-center text-sm font-semibold uppercase leading-snug tracking-wide text-white">
+                  {project.title}
+                </h3>
               </div>
             </Link>
           ))}
         </div>
 
-        {/* CTA Button */}
         <div className="mt-12 flex justify-center">
           <a
             href="mailto:info@wedointerior.ae"
-            className="uppercase font-semibold tracking-wide px-20 py-3.5 text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
-            style={{
-              borderImage: "linear-gradient(to right, #caa193, #a0624d)",
-              borderImageSlice: 1,
-            }}
+            className="border border-[#caa193] px-10 py-4 text-sm font-semibold uppercase tracking-wide text-[#caa193] transition duration-300 hover:bg-[#caa193] hover:text-black sm:px-16"
           >
-            SEND YOUR ENQUIRY NOW
+            Send Your Enquiry Now
           </a>
         </div>
       </div>
