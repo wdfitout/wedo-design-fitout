@@ -13,8 +13,17 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
 
 const blogs = [
+ 
  {
     id: 1,
+    slug: 'creek-harbour-apartment-design',
+    title: 'How to Design Apartment in Dubai Creek Harbour',
+    image: '/images/luxury high-rise apartment in Dubai Creek Harbour.png',
+    date: '2026-06-04',
+    tag: 'Blog',
+  },
+  {
+    id: 2,
     slug: 'creek-harbour-waterfront-apartment-design',
     title: 'Guide to Dubai Creek Harbour Waterfront Apartment Design',
     image: '/images/Modern waterfront apartment living room in Dubai Creek Harbour.png',
@@ -22,7 +31,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 2,
+    id: 3,
     slug: '3-5-7-rule-interior-design-dubai',
     title: '3-5-7 Rule in Interior Design Dubai',
     image: '/images/Luxury modern Dubai living room interiors.png',
@@ -30,7 +39,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 3,
+    id: 4,
     slug: 'bathroom-design-trends-dubai-creek-harbour',
     title: 'Luxury Bathroom Design Trends in Dubai Creek Harbour',
     image: '/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png',
@@ -38,7 +47,7 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 4,
+    id: 5,
     slug: 'living-room-interior-business-bay',
     title: 'High-End Living Room interior Design in Business Bay Dubai',
     image: '/images/Luxury interior material focus Dubai living room.png',
@@ -46,21 +55,14 @@ const blogs = [
     tag: 'Blog',
   },
   {
-    id: 5,
+    id: 6,
     slug: 'commercial-interior-fit-out',
     title: 'Commercial Interior Fit-out in Business Bay Dubai ',
     image: '/images/Commercial Interior Fit-out in Business Bay Dubai.png',
     date: '2026-04-11',
     tag: 'Blog',
   },
-  {
-    id: 6,
-    slug: 'office-interior-elements-business-bay',
-    title: 'Essential Office Interior Elements in Business bay',
-    image: '/images/dubai-office-aesthetic-interior-design-in-business-bay.png',
-    date: '2026-03-18',
-    tag: 'Blog',
-  },
+  
   
   
     

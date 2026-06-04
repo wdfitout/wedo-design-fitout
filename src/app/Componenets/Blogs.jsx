@@ -9,6 +9,15 @@ import Link from "next/link";
 const blogPosts = [ 
   
   {
+    title: "How to Design Apartment in Dubai Creek Harbour",
+    date: "Published: 04.06.2026",
+    excerpt:
+      "Explore the art of designing your dream apartment in Dubai Creek Harbour via WE DO Interior. Explore luxurious apartment interior designs in Dubai.",
+    image: "/images/luxury high-rise apartment in Dubai Creek Harbour.png",
+    link: "/creek-harbour-apartment-design",
+  },
+  
+  {
     title: "Dubai Creek Harbour Waterfront Apartment Design",
     date: "Published: 25.05.2026",
     excerpt:
@@ -23,14 +32,6 @@ const blogPosts = [
       "Find out more about the 3-5-7 rule in interior design. Get the best advice from an upscale interior design firm in Dubai for your villas and apartments.",
     image: "/images/Luxury modern Dubai living room interiors.png",
     link: "/3-5-7-rule-interior-design-dubai",
-  },
-  {
-    title: "Luxury Bathroom Design Trends in Dubai Creek Harbour",
-    date: "Published: 21.04.2026",
-    excerpt:
-      "Explore luxury bathroom trends in Dubai Creek Harbour with WE DO Interior Design & fit-out spa-layouts, smart tech, and premium bathroom finishes.",
-    image: "/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png",
-    link: "/bathroom-design-trends-dubai-creek-harbour",
   },
   
   

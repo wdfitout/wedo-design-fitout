@@ -8,6 +8,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 // Blog Data
 const blogPosts = [
  {
+   title: "How to Design Apartment in Dubai Creek Harbour",
+    date: "Published: 04.06.2026",
+    excerpt:
+      "Explore the art of designing your dream apartment in Dubai Creek Harbour via WE DO Interior. Explore luxurious apartment interior designs in Dubai.",
+    image: "/images/luxury high-rise apartment in Dubai Creek Harbour.png",
+    link: "/creek-harbour-apartment-design",
+  },
+  {
    title: "Guide to Dubai Creek Harbour Waterfront Apartment Design",
     date: "Published: 25.05.2026",
     excerpt:
