@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Office Interior Design in Business Bay Dubai - Office Fit Out Company",
+  title: "Custom Furniture & Joinery Dubai Creek Harbour | WE DO",
   description:
-    "Ofice interior design in Business Bay Dubai by WE DO. Modern office fit-out, workspace planning, and commercial interior design in Dubai. Contact us!",
+    "Transform your Creek Harbour property with premium custom made furniture, wardrobes, & kitchen cabinetry. 15+ years of bespoke in-house joinery excellence in Dubai.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/office-interior-design-business-bay',
+    canonical: '/custom-furniture-joinery-dubai-creek-harbour',
   },
 };
 

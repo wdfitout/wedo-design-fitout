@@ -15,12 +15,13 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-             Modern Office Interior Design for Business Bay Workspaces
+            Custom Furniture & Joinery in Dubai Creek Harbour
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             Office Interior Design in Business Bay Dubai gives attention to designing productive, modern, and visually appealing workplaces in one of the most iconic business districts of Dubai. Placed close to meticulous landmarks including the Burj Khalifa, Dubai Mall, and Dubai Canal, Business Bay is space for corporate headquarters, startups, financial companies, and global enterprises.</p>
+             Custom Furniture & Joinery in Dubai Creek Harbour well-planned personalization service crafted for the homes and businesses of one of Dubai's most iconic waterfront communities. At WE DO Interior Design & Fitout, we are a reliable Woodwork Company in Dubai offering high-end bespoke in-house joinery Dubai services from the first design vision to the final completion for Creek Harbour's apartments, penthouses, cafes, restaurants, and retail spaces.
+</p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-           A well-structured <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior design Dubai</a></b> concept helps businesses design environments that support development and brand identity. At WE DO Interior Design & Fitout, our professionals offer expert office interior fit out Dubai, well-planned, and Office Design & Commercial Fit-Out in Dubai to help firms change their spaces into efficient and mesmerizing environments.
+          If you want to get custom made furniture in Dubai for your luxury home or require a full custom furniture and joinery fit-out for your commercial space, our professionals bring the craftsmanship, creativity, and project management specialist to make it happen on time, within budget, and to the highest finish standard.
             </p>
            
 
