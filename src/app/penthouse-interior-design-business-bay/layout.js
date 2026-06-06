@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Penthouse Interior Design Business Bay - WE DO",
+  title: " Penthouse Interior Design in Business Bay Dubai - WE DO ",
   description:
-    " Luxury penthouse interior design in Business Bay. Bespoke fit-out, Emaar approvals handled, 3D visualization included. View our penthouse projects.",
+    "Penthouse design & fitout in Business Bay. transparent quotes, 94% on-time delivery, bespoke finishes & smart home from one expert team. Contact Now.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/penthouse-interior-design-business-bay',

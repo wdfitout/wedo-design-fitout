@@ -15,14 +15,14 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2 text-justify">
-              Penthouse Interior Design in Business Bay
+              Penthouse Interior Design in Business Bay Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Business Bay by Emaar is its most ambitious waterfront concept, where the entire development centers on the magnificent views of the Creek, the yet-to-be-built Creek Tower, and the skyline, which matches that of Downtown. The <b className="text-[#caa193]"><a href="/penthouse-interior-design-dubai-creek-harbour">penthouse in Business Bay</a></b> are the crown jewels of this entire vision – sprawling, full-floor units with high ceiling spaces, floor-to-ceiling glass windows, and private outdoor terraces overlooking the most breathtaking views in the country.
+             Your Business Bay penthouse is much more than just a location. You live on top of everything. Your interior must follow the same approach but unfortunately many penthouses in Dubai are left unexploited from within due to lack of proper planning or interior designing techniques.
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              WE DO Interior Design & Fit Out is renowned for providing luxury penthouse interior design in Dubai. We now offer the same expertise in Business Bay, which comes with our bespoke interior design services, joinery services, fit-out installation, and all necessary Emaar approval processes. Are you ready to start your project? Get a complimentary site visit today.
-            </p>
+              At WE DO Interior Design & Fitout, we specialise in <b className="text-[#caa193]"><a href="/penthouse-interior-design-business-bay">penthouse interior design in Business Bay</a></b> for clients who do not compromise on quality. We bring together smart design ideas and practical solutions to create better spaces, knowledge of high-quality materials, and work experience in top-notch residential areas of Business Bay. If what you are looking for is luxury penthouse interior design Business Bay which will change not only your perception of it but also the way you live, feel, and maintain it, then look no further.
+              </p>
             
 
             {/* Highlight Box */}
