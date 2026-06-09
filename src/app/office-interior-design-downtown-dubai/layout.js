@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Restaurant Interior Design in Business Bay Dubai | WEDO",
+  title: "Office Interior Design in Downtown Dubai | WE DO",
   description:
-    "  Looking for restaurant interior design in Business Bay Dubai? WE DO deliver premium restaurants fitout Business Bay. Visit Us Today.",
+    " Looking for expert office interior design in Downtown Dubai? WE DO delivers premium office fitout,  executive suites, full floor fitouts & corporate spaces.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/restaurant-interior-design-business-bay',
+    canonical: '/office-interior-design-downtown-dubai',
   },
 };
 

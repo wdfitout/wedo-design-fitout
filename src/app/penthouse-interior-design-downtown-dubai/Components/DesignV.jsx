@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/sahelnom (8).webp',
-  '/images/sahelnom (6).webp',
-  '/images/sahelnom (5).webp',
+  '/images/blpph (2).png',
+  '/images/blpph (3).png',
+  '/images/blpph (4).png',
 ];
 
 const DesignV = () => {
@@ -29,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do restaurant Interior Design Dubai Business Bay
+        We Do Penthouse Interior Design in Downtown Dubai 
       </h2>
 
       {/* Desktop Grid */}

@@ -16,16 +16,16 @@ const galleryImages = [
 const TestimonialCarousel = () => {
   const testimonials = [
    {
-  quote: "WE DO Interior Design & Fit-Out transformed our retail in Volante Tower into a luxurious residence that perfectly captures the energy of Business Bay. The team handled every aspect from concept design to final styling with exceptional professionalism.",
-  author: "A.K., Volante Tower, Business Bay",
+  quote: "WE DO transformed our Bay Square boutique from a bare shell into the most striking retail environment in the building. WE DO handed over the keys three days ahead of schedule and we opened without a single snagging issue outstanding. For a regional rollout, that kind of reliability is everything. Best retail interior design Business Bay has delivered, without question.",
+  author: " Boutique Owner, Bay Square",
 },
 {
-  quote: "Our retail overlooking Dubai Canal now feels like a five-star private residence. WE DO managed the complete fit-out process seamlessly and delivered exactly what was promised.",
-  author: "S.M., Peninsula Business Bay",
+  quote: "Completely on-brand, on budget, and handed over three days early. That operational intelligence shows in every design decision. The best interior fitout contractor Business Bay has recommended to us.",
+  author: "Regional Retail Manager, Bay Avenue ",
 },
 {
-  quote: "The team created a sophisticated retail interior that maximizes our Burj Khalifa views while maintaining comfort and practicality. Communication and project management were outstanding throughout.",
-  author: "R.A., Executive Towers, Business Bay",
+  quote: "Municipality approvals, landlord NOC, signage, FF&E, all under one roof. As a retail interior design firm Business Bay brands genuinely trust, WE DO stand completely apart.",
+  author: "Brand Director, Executive Towers Retail ",
 },
   ];
 
@@ -50,7 +50,7 @@ const TestimonialCarousel = () => {
   return (
     <div className="bg-black-300 p-6 rounded-lg border-l-4 border-[#caa193] my-6 font-play text-white">
       <h2 className="text-lg font-conthrax text-[#caa193] uppercase tracking-wider mb-3 text-justify">
-        What Our Clients Say About Our Business Bay Work
+       What Our Retail Clients Say
       </h2>
 
       <div
@@ -104,72 +104,62 @@ const DProjects = () => {
       {/* Top Content Block */}
       <div className="lg:max-w-[80%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
-          retail Interior Design Services in Business Bay
+          Why Retail Design in Business Bay Is a Brand Statement
         </h2>
         <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
           <p className="text-justify">
-            At WE DO Interior Design & Fit-Out, our retail interior design Business Bay services are built around one principle, every decision should serve the space, the view, and the way you live. Here is what we deliver for every Business Bay retail project.
+            Business Bay's retail customer is sophisticated, globally experienced, and unforgiving of environments that feel generic. A retail space without spatial narrative, considered lighting, and brand conviction will not generate the dwell time or repeat visits that justify Business Bay's premium rental rates.
           </p>
-          <ul className="space-y-4 text-[#caa193]">
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">Space Planning and Layout Design:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> Our luxurious retail in Business Bay Harbor will have an area ranging from 3,500 to 7,000 sq ft on two floors. The layout for our restaurants will be professionally designed in such a way that the living spaces will access the water views while the sleeping spaces will have the necessary privacy. The service spaces will also be well concealed.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">Custom Joinery & Millwork:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> Our <b className="text-[#caa193]"><a href="/custom-furniture-joinery-dubai-creek-harbour">custom joinery</a></b> is done at our own factory, which includes anything from luxury kitchen islands and full height wardrobes to fluted panelled walls and TV unit storage. Among the materials used for our retail interior design are smoked oak wood, walnut veneer, lacquered MDF, and brushed brass fixtures.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">FF&E Procurement:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify">We handle procurement of all furnishings and fittings from pendant lighting to customized sofas via our reliable supplier network. One person handles everything. Not 12 separate vendors.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">3D Visualization & Concept Design:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> Even before ordering a single item or putting a hand to any walls, you get to see your dream retail come alive in photorealistic 3D visualization. Where Business Bay retail interior design services are concerned, this is an absolute must.</p>
-            </li>
-            <li>
-              <h3 className="font-play font-bold text-base text-justify">Turnkey Fit-Out & Project Management:</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify"> From civil works, floorings, ceilings, MEP coordination, to painting, styling, and snagging, everything is handled by a separate project manager right from the very beginning until completion. This is how Modern retail Interior Design Dubai Services should be.</p>
-            </li>
-          </ul>
+           <p className="text-justify">
+           The best retail interior design Business Bay invests in design that influences customer behaviour, encourages product discovery, and increases purchase confidence. As a specialist commercial retail design company Business Bay, WE DO understands that great retail design is commercial strategy expressed through space. In a neighbourhood where top interior designers Business Bay Dubai raise the standard every year, the gap between a well-designed store and a struggling one comes down entirely to the quality of your interior environment.
+          </p>
+          
         </div>
       </div>
 
       {/* Split Row – Text + Top Right Image */}
        <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          What Makes Business Bay retail Interiors Unique
+          Our Retail Interior Design Services in Business Bay
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
-              All interior designers operating in Dubai do not have experience in designing apartments in Business Bay, and the output differs accordingly. Below are the unique features of restaurants in Business Bay and how they will influence your decision on which designer to choose.
+             As a fully integrated retail fitout company Business Bay Dubai, WE DO manages your entire retail project from brand concept to handover, design, approvals, construction, and FF&E under one roof.
               </p>
             <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
               <li>
-                <h3 className="font-play font-bold text-base text-justify">The Architecture of Business Bay:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> Residential buildings in Business Bay, The Cove, Island Park, Creek Gate, Harbour Views, use a distinctive vocabulary of architectural expression, including high ceiling height ranging from 3.2m to 5m in restaurants, full width terraces, and panoramic double aspect view of the Creek and Downtown. Ignoring this architecture in interior design produces an erroneous result; respecting it will create a masterpiece.</p>
+                <h3 className="font-play font-bold text-base text-justify">Brand Concept & Visual Identity Translation</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">Every successful shop interior design Business Bay project begins with brand immersion. We spend our time learning about what makes your brand tick, who your customers are, and what emotional journey you wish for your visitors to experience. As a trusted <b className="text-[#caa193]"><a href="https://wedointerior.ae/">luxury retail interior design Dubai</a></b> specialist, we have delivered brand-specific environments across fashion, jewellery, beauty, and F&B retail, each one distinctly and unmistakably its own brand.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">The Views Of Business Bay:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> The spacious interiors of Business Bay restaurants owe as much to their surroundings as they do to the interior. In our work on Business Bay retail layouts, the view becomes the focal furniture, the dimensions of which must be carefully calculated to maintain sightlines while using materials that accentuate the amount of natural light available. A Burj Khalifa or Creek Tower view in perfect frame is more valuable than any furniture you can buy.</p>
+                <h3 className="font-play font-bold text-base text-justify">Shopfront & Facade Design</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">Your shopfront decides whether customers enter or walk past. WE DO designs shopfronts that command attention through material quality, lighting strategy, and the visual relationship between your interior and the street. As an experienced interior fitout company Business Bay specialist, we navigate the building regulations, landlord requirements, and master developer guidelines of every major Business Bay retail address.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">The Scale of Business Bay:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify">The size of a 5,000 square ft retail in Business Bay cannot be termed as a large-scale building. The design of such a building has to incorporate soundproofing of the living areas and sleeping quarters, different moods for lights depending on the time of the day, and diversity in the building to ensure that people feel comfortable there. We’ve done this before.</p>
+                <h3 className="font-play font-bold text-base text-justify">Display, Merchandising & Material Specification</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">Great retail interior design Business Bay Dubai integrates display and merchandising logic into the architecture, never as an afterthought. As a specialist retail interior design firm Business Bay clients trust for long-term performance, WE DO selects finishes aligned with your brand and specified for Dubai's climate, meaning your store looks as good in year three as it did on opening day.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">The Building Rules:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> Emaar's fit-out  regulations for creek harbor towers specify walls that can be opened up, materials that can be used in common hallways upon delivery, and structural changes that need extra NOCs. An uninformed designer wastes several weeks of delay and perhaps expensive corrections. WE DO know the rules for each project based on numbers rather than referring to the manual on your own time.</p>
+                <h3 className="font-play font-bold text-base text-justify">Lighting, Technology & Signage</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">Lighting is the most powerful tool in retail design, it makes products irresistible and creates the moments customers photograph and share. For premium retail fitout Business Bay projects, we design dynamic lighting scenes optimised across all dayparts. Technology systems including POS, digital displays, security systems, and customer-facing screens are integrated into the design from the very beginning. WE DO also designs, produces, and installs complete signage and graphics packages as part of our integrated retail interior design service Business Bay offering.</p>
+                              </li>
+                               <li>
+                <h3 className="font-play font-bold text-base text-justify">Beauty & Wellness Retail</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">Our <b className="text-[#caa193]"><a href="/boutique-interior-design-dubai">bespoke boutique interior design Dubai</a></b> approach creates beauty environments with testing stations, consultation zones, and sensory design elements that extend dwell time and deepen brand engagement.</p>
+                              </li> 
+                              <li>
+                <h3 className="font-play font-bold text-base text-justify">Electronics, F&B & Specialty Retail</h3>
+                <p className="text-white font-play text-sm sm:text-base text-justify">From clean tech showrooms to operationally efficient artisan F&B concepts, WE DO delivers specialist commercial fitout company Business Bay Dubai expertise across every retail category all F&B projects fully compliant with Dubai Municipality requirements.</p>
                               </li>
             </ul>
           </div>
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/startech (2).webp"
+              src="/images/startech (3).webp"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -180,14 +170,14 @@ const DProjects = () => {
       </div>
 
       {/* Gallery Heading */}
-      <div className="max-w-7xl mx-auto">
+      {/* <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-lg font-conthrax text-white py-12">
           retail Projects in Business Bay
         </h2>
-      </div>
+      </div> */}
 
       {/* Gallery Grid with Hover Effects */}
-      <div className="lg:max-w-[50%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-6xl mx-auto mb-10">
+      {/* <div className="lg:max-w-[50%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-6xl mx-auto mb-10">
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
             <Image
@@ -204,40 +194,36 @@ const DProjects = () => {
             </div>
           </a>
         ))}
-      </div>
+      </div> */}
 
       {/* Emaar Fit-Out Approvals Section */}
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Emaar Fit-Out Approvals for Business Bay restaurants
+          How Smart Retail Design Increases Your Sales
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <p className="text-justify">
-              Approvals – this is the issue that pops up more often than any other when we discuss retail interior designers in Dubai. Approvals involve paperwork, waiting, and fear of making mistakes. But our answer is simple and straightforward, WE DO deal with everything on your behalf. This is how we do approvals for a retail interior design in Business Bay:
-            </p>
-            <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
-              <li>
-                <h3 className="font-play font-bold text-base text-justify">Emaar NOC Application:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> We file all the paperwork regarding Emaar fit-out applications including the method statement, material submittals, floor plans, and contractor credentials. Time frame – 2-4 weeks.</p>
-              </li>
-              <li>
-                <h3 className="font-play font-bold text-base text-justify">Dubai Municipality Approval:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> Structural changes involving the addition or removal of walls and changes in MEP paths must be approved by DM. We ensure that all drawings conform to DM guidelines.</p>
-              </li>
-              <li>
-                <h3 className="font-play font-bold text-base text-justify">Civil Defence NOC:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify">Any change in the fire safety mechanism, sprinklers, or exit route will have to be approved by the Civil Defence. It will be done in such a manner that there would not be any sequential approval for it.</p>
-              </li>
-              <li>
-                <h3 className="font-play font-bold text-base text-justify">Building Management Coordination:</h3>
-                <p className="text-white font-play text-sm sm:text-base text-justify"> Timing of work, elevator protection, insurance certificates, waste management schedule; everything required by the building management office falls within our purview. Your neighbors will not complain. Your handover will not be delayed.</p>
-                <p className="text-white font-play text-sm sm:text-base mt-2 text-justify">Once you engage WE DO Interior Design & Fit-Out, approvals become our problem, not yours.</p>
-              </li>
-            </ul>
-          </div>
+  <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
+    <li>
+      <h3 className="font-play font-bold text-base text-justify">Customer journey mapping increases conversion:</h3>
+      <p className="text-white font-play text-sm sm:text-base text-justify"> We design the path through your store deliberately, entrance, discovery zones, point-of-sale, reducing friction and increasing purchase probability at every step.</p>
+    </li>
+    <li>
+      <h3 className="font-play font-bold text-base text-justify">Dwell time correlates directly with spend:</h3>
+      <p className="text-white font-play text-sm sm:text-base text-justify"> Engaging environments keep customers in-store longer and spending more at every visit.</p>
+    </li>
+    <li>
+      <h3 className="font-play font-bold text-base text-justify">Lighting transforms product desirability:</h3>
+      <p className="text-white font-play text-sm sm:text-base text-justify"> As a specialist retail interior designer Business Bay brands rely on, we treat lighting as a revenue tool, generating measurable uplift in product perception and transaction value.</p>
+    </li>
+    <li>
+      <h3 className="font-play font-bold text-base text-justify">Social media moments drive acquisition:</h3>
+      <p className="text-white font-play text-sm sm:text-base text-justify"> Every WE DO retail project includes intentional photography moments that generate earned social reach, organic visibility that paid advertising in Business Bay's market rarely matches.</p>
+    </li>
+  </ul>
+</div>
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
@@ -281,11 +267,10 @@ const DProjects = () => {
       <div className="lg:max-w-[90%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
-            Why Dubai's retail Owners Choose WE DO Interior Design & Fit-Out
+            Why Retail Brands in Business Bay Choose WE DO
           </h2>
           <p className="font-play text-sm sm:text-base text-white text-justify py-2 leading-relaxed">
-            Being the best retail <b className="text-[#caa193]"><a href="/interior-design-dubai-creek-harbour">interior design company in Business Bay</a></b>. WE DO offers you the assurance not just in words but also backed up by completed projects in Palm Jumeirah, Downtown, DIFC and the latest addition is the Business Bay. All of your requirements related to design, custom joinery manufacture, procurement and project management are carried out under one umbrella in our Jebel Ali premises. WE DO will not subcontract any critical activities and no surprise in terms of quality and time of delivery. Given the extensive experience in designing restaurants in Dubai in the best addresses of the city, our team has expertise that general interior design companies lack in dealing with restaurants. Our designers know what fits best in your retail. Each project in your retail is managed by a single project manager throughout the entire process from start to completion. One contact number is enough for all of your requirements. All the Dubai retail interiors which fall within the size range of 3,500 to 5,500 square feet can be finished in a time frame of 12 - 18 weeks. All the fit outs provided by WE DO come with a one year warranty on all joineries and fittings.<br /><br />
-            <strong className="text-[#caa193]">DED Licensed | Emaar Approved Contractor | 15+ Years in Dubai</strong>
+            At WE DO Interior Design & fit-out, every design decision filtered through your brand brief. This separates luxury retail fitout Business Bay that builds equity from fitout that merely fills space.  We know Bay Square, Bay Avenue, Executive Towers, and DAMAC strips intimately. As a proven interior design firm Business Bay operators recommend, this local knowledge is a genuine commercial advantage for every client. As a trusted commercial fitout company Business Bay Dubai, we take complete ownership from day one to handover. Our delivery record means your store opens when planned, setting us apart from every other fitout contractor Business Bay in the market.  Our commitment does not end at handover. Dedicated snagging resolution and ongoing support ensure your retail environment performs exactly as delivered through the critical first months of trading.
           </p>
         </div>
 
@@ -309,84 +294,114 @@ const DProjects = () => {
       {/* Serving Areas & FAQs Section */}
       <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full space-y-4">
+          <div className="pt-6 border-t border-gray-800 space-y-6">
+  <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+    Our Retail Fitout Process
+  </h2>
+  
+  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+    <ul className="space-y-4 text-[#caa193]">
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 1 — Free Consultation (Week 1)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">Site visit, brand brief, budget discussion. No obligations.</p>
+      </li>
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 2 – Concept Design (Weeks 2-3)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">Visualisation in 3 dimensions, materials boards, facade options, and basic cost estimate.</p>
+      </li>
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 3 – Approvals (Weeks 3-6)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">Approval from Dubai Municipality, Civil Defense, and landlord, all done in parallel to design process.</p>
+      </li>
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 4 – Construction & Fitout (Weeks 6-12)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">Project manager allocated. Regular weekly reports. Highest quality standards.</p>
+      </li>
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 5 — Signage, Graphics & Technology (Week 11 to 12)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">All signage, graphics, and technology integrated alongside the main fitout.</p>
+      </li>
+      <li>
+        <h3 className="font-play font-bold text-base text-justify">Step 6 — Handover (Week 12)</h3>
+        <p className="text-white font-play text-sm sm:text-base text-justify">Full walkthrough, snagging sign-off, and post-handover support begins.</p>
+      </li>
+    </ul>
+    
+    <p className="text-justify pt-2 text-white">
+      Most Business Bay retail fitouts deliver in 10 to 14 weeks. Kiosk projects complete in 6 to 8 weeks.
+    </p>
+  </div>
+</div>
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
             Serving Business Bay & Surrounding Areas
           </h2>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            Our company <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">WE DO Interior Design & Fit-Out</a></b> provides retail interior design in Business Bay and beyond to the entire eastern side of Dubai, which includes Downtown Dubai, Business Bay, DIFC, Dubai Festival City, and Ras Al Khor. Our team can reach your property within 24 hours from the time you call us if your property is situated in or near Business Bay.
-          </p>
+          
           {/* Map Embed */}
 <div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57752.54585328352!2d55.29!3d25.185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f4b8b8b8b8b%3A0x0!2sDubai+Creek+Harbour!5e0!3m2!1sen!2sae!4v1680000000000!5m2!1sen!2sae"
-    width="100%"
-    height="100%"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14441.876359555234!2d55.2642646648766!3d25.187346881779927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f683393961555%3A0xdbd206f47702875b!2sBusiness%20Bay%20-%20Dubai!5e0!3m2!1sen!2sae!4v1717680000000!5m2!1sen!2sae"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
   </div>
-          <h2 className="text-lg md:text-xl font-conthrax text-[#caa193] pt-6">
-            retail Interior Design Business Bay — Frequently Asked Questions
-          </h2>
+          <h2 className="text-lg md:text-xl font-conthrax text-[#caa193] pt-6 uppercase">
+  Retail Interior Design Business Bay — Frequently Asked Questions
+</h2>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            How much does retail interior design cost in Business Bay?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            retail interior design in Business Bay cost will depend on the size of your retail unit, the type of job required, and the material quality chosen. retail fit-out costs in Business Bay can vary from AED 350,000 for a standard turnkey service up to AED 900,000+ for larger units. We give you a clear itemised quote after the first site visit – never rough estimates.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  How much does retail interior design cost in Business Bay?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play">
+  From AED 800 per sqm for standard formats to AED 5,000 per sqm for luxury boutiques. A typical 80 sqm premium fitout requires AED 150,000 to AED 350,000 including design, construction, signage, and approvals. WE DO provides a fully itemised estimate after your initial site visit at no charge.
+</p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            How long does a full retail fit-out take in Business Bay?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            The duration of a typical retail interior design Business Bay service, involving complete interior design, custom joinery manufacture, and furniture procurement, will be between 12-18 weeks, beginning from design approval of. This includes the Emaar approval period. Larger or more complex projects, cinema rooms, rooftop kitchens, structural changes may extend to 20–22 weeks. All timelines are written into the contract.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  How long does a retail fitout take in Business Bay?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play">
+  Standard retail fitouts take 10 to 14 weeks from design sign-off. Kiosk projects deliver in 6 to 8 weeks. Engage your fitout partner at least 3 months before your planned opening to protect against approval delays.
+</p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            Do you handle Emaar fit-out approvals for Business Bay restaurants?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            WE DO Interior Design & Fit-Out takes care of all of the Emaar NOC process, Dubai Municipality clearances, Civil Defense coordination, and other building management matters for each and every retail in Business Bay that we choose to undertake. This is part of the project management included in our service offering, not an additional extra.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  Do you handle municipality and landlord approvals?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play">
+  Yes, completely. As an experienced interior fitout contractor Business Bay clients trust, WE DO manages all DM submissions, Civil Defence compliance, and landlord NOC on every retail project.
+</p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            What is offered by you as part of your turnkey retail interior design service?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            Our retail Interior Design Business Bay services includes the following scope: concept design, 3D visuals, space planning, joinery manufacture, furnishing procurement, civil and MEP works, floorings, ceilings, paintwork, and styling. We start with a blank retail and finish with a fully completed apartment.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  Can you translate our brand guidelines into a store design?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play">
+  Absolutely. Brand translation is a core competency of our retail interior design firm Business Bay team, faithful to your identity and optimised for your specific location.
+</p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            Do you offer 3D visualization before we commit to the design?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            Yes. Every retail interior design project at WE DO begins with a full 3D photorealistic render of all key spaces before any work begins or any item is ordered. For Business Bay retail interiors where the relationship between the interior and the view is central to the design, we consider visualization a non-negotiable step.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  Have you completed retail projects in Business Bay?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play">
+  Yes. WE DO has delivered retail interior design Business Bay projects across Bay Square, Bay Avenue, Executive Towers, and DAMAC retail strips with full knowledge of each location's specific requirements.
+</p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            Can you work on a retail that is already occupied or furnished?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
-            Yes. We have delivered retail renovation projects in occupied units across Dubai, working in phased sequences one zone at a time to allow residents to remain in the property. This requires a more detailed programme and additional site management, which we plan for at the outset.
-          </p>
-
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-            Which retail buildings in Business Bay have you worked in?
-          </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
-            In our retail Projects in Business Bay, we have carried out fit-out in The Cove, Harbour Views, Creek Gate, and Island Park. We know the rules regarding the particular fit-out in each of the towers. If your building is not listed, contact us. Our team will research the specific requirements before your first meeting.
-          </p>
+<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+  What makes WE DO different from other retail designers in Business Bay?
+</h3>
+<p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+  Your designer and builder are the same team, accountable to the same outcome. Combined with specialist retail expertise, cost transparency, and proven delivery, this is why Business Bay's most successful brands choose WE DO as their retail interior design company Business Bay Dubai partner.
+</p>
 
           {/* Final Closing Content */}
           <div className="pt-6 border-t border-gray-800">
             <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] mb-2 text-justify">
-              Start Your Business Bay retail Project
+              Ready to Build a Retail Space That Converts in Business Bay?
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
-              Your Business Bay retail deserves a design that matches the address. WE DO Interior Design & Fit-Out offers a free site visit and initial concept consultation, no obligation, no generic presentation. Tell us your building, your size, and your vision. We handle the rest.
+              Business Bay rewards excellence and punishes mediocrity in equal measure. The brands that succeed here invest in environments that earn attention, build trust, and convert footfall into loyal customers, from opening day and every day after. WE DO Interior Design & Fitout is the <b className="text-[#caa193]"><a href="/interior-design-company-business-bay">interior design company Business Bay</a></b> brands trust when the standard is non-negotiable. From your first consultation to your opening day, we are your single point of accountability for a retail environment that truly performs.
+Planning a retail fitout in Business Bay? Speak with our design team for a free site visit, concept discussion, and fully itemised project estimate. [Book Your Free Consultation].
             </p>
           </div>
         </div>

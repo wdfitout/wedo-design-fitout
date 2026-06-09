@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "retail Interior Design Business Bay - WE DO",
+  title: "Retail Interior Design in Business Bay Dubai | WE DO",
   description:
-    " Luxury retail interior design in Business Bay. Bespoke fit-out, Emaar approvals handled, 3D visualization included. View our retail projects.",
+    "Looking for expert retail interior design in Business Bay Dubai? WE DO deliver premium retail fitout Business Bay, boutiques etc. Contact Today!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/retail-interior-design-business-bay',

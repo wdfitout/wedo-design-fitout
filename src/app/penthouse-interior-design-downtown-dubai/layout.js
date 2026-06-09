@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Restaurant Interior Design in Business Bay Dubai | WEDO",
+  title: " Penthouse Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
   description:
-    "  Looking for restaurant interior design in Business Bay Dubai? WE DO deliver premium restaurants fitout Business Bay. Visit Us Today.",
+    "Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/restaurant-interior-design-business-bay',
+    canonical: '/penthouse-interior-design-downtown-dubai',
   },
 };
 

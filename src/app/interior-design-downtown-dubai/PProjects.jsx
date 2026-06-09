@@ -8,30 +8,30 @@ const services = [
   {
     title: "Office Interior Design Downtown",
     description:
-      "Workspaces that match your company’s concept and operational requirements with flawless completion.",
-    bgImage: "/images/dtrest (6).webp",
+      "Looking for expert office interior design in Downtown Dubai? WE DO delivers premium office fitout,  executive suites, full floor fitouts & corporate spaces.",
+    bgImage: "/images/sns (2).webp",
     link: "/office-interior-design-downtown-dubai",
   },
   {
-    title: "Residential Interior Design Downtown",
+    title: "Apartment Interior Design Downtown",
     description:
-      "Redefining contemporary living through customized, sophisticated, and luxurious spaces.",
-    bgImage: "/images/01-living-07.jpg",
+      "Transform your Downtown Dubai apartment with WE DO, apartment interior design, personalized finishes, smart home integration. Contact us!",
+    bgImage: "/images/mgapt-2 (5).jpg",
     link: "/apartment-interior-design-downtown-dubai",
   },
   {
-    title: "Commercial Interior Design Downtown",
+    title: "Retail Interior Design Business Bay",
     description:
-      "Redefining business spaces into high-performing ambiances for retail, stores, and hospitality.",
-    bgImage: "/images/ATRD (2).webp",
-    link: "/commercial-interior-design-downtown-dubai",
+      "Looking for expert retail interior design in Business Bay Dubai? WE DO deliver premium retail fitout Business Bay, boutiques etc. Contact Today!",
+    bgImage: "/images/bespoke-and-boutique-style-office-interiors-in-business-bay.png",
+    link: "/retail-interior-design-business-bay",
   },
   {
-    title: "Restaurant & Hospitality Design",
+    title: "Restaurant Interior Design Business Bay",
     description:
-      "Aesthetic dining ambiances combining elegance with innovation for a long-lasting impact.",
-    bgImage: "/images/adbr (6).png",
-    link: "/restaurant-interior-design-downtown-dubai",
+      "Looking for restaurant interior design in Business Bay Dubai? WE DO deliver premium restaurants fitout Business Bay. Visit Us Today.",
+    bgImage: "/images/sahelnom (4).webp",
+    link: "/restaurant-interior-design-business-bay",
   },
 ];
 

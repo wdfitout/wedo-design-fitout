@@ -15,13 +15,13 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2 text-justify">
-              retail Interior Design in Business Bay
+             Retail Interior Design in Business Bay Dubai | WE DO Interiors
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Business Bay by Emaar is its most ambitious waterfront concept, where the entire development centers on the magnificent views of the Creek, the yet-to-be-built Creek Tower, and the skyline, which matches that of Downtown. The <b className="text-[#caa193]"><a href="/retail-interior-design-dubai-creek-harbour">retail in Business Bay</a></b> are the crown jewels of this entire vision – sprawling, full-floor units with high ceiling spaces, floor-to-ceiling glass windows, and private outdoor terraces overlooking the most breathtaking views in the country.
+              Business Bay is not a neighbourhood of casual browsers. The people walking past your shopfront are corporate decision-makers, luxury residents, and high-net-worth professionals who have experienced the finest retail environments across London, Milan, and New York. They recognise quality instantly, and walk past everything that falls short.
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              WE DO Interior Design & Fit Out is renowned for providing luxury retail interior design in Dubai. We now offer the same expertise in Business Bay, which comes with our bespoke interior design services, joinery services, fit-out installation, and all necessary Emaar approval processes. Are you ready to start your project? Get a complimentary site visit today.
+              <b className="text-[#caa193]"><a href="/retail-interior-design-business-bay">Retail interior design in Business Bay</a></b> is about creating a branded environment that builds trust, positions your product correctly, and converts footfall into loyal customers from the very first visit. At WE DO Interior Design & Fitout, we are the retail interior design company Business Bay Dubai operators trust when the standard cannot be compromised. As a leading interior design company, we have delivered retail fitout  projects across Bay Square, Bay Avenue, Executive Towers, and DAMAC retail strips, transforming bare shells into retail environments that perform from day one.
             </p>
             
 

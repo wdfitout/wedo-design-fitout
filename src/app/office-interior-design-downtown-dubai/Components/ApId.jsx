@@ -15,13 +15,13 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2 text-justify">
-              Restaurant Interior Design in Business Bay
+              Office Interior Design in Downtown Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Business Bay does not forgive mediocrity. This is a neighbourhood where corporate executives take client lunches, where residents expect the same standard in their local bistro as they do in their penthouse, and where a restaurant's interior is reviewed just as critically as its menu. In this environment, <b className="text-[#caa193]"><a href="/restaurant-interior-design">restaurant interior design in Business Bay</a></b> is not a finishing touch, it is the foundation of your entire business case.
+              WE DO Interior Design & Fit-out  provides office interior design and fitout services across Downtown Dubai.. As your client steps into your office in Boulevard Plaza, Emaar Square, or Burj Khalifa offices, their impression of you is made even before you open your mouth to greet them..
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              At WE DO Interior Design & Fitout, we have built our reputation as a leading restaurant design company Business Bay Dubai, because we understand that a great restaurant interior is a revenue engine, not a decoration budget. Whether you are launching a fine dining destination on Marasi Drive, a casual all-day café-restaurant in Bay Square, or a rooftop concept above the Business Bay skyline, our team delivers premium restaurant fitout Business Bay projects that open on time, perform from day one, and grow in reputation over years.
+             At WE DO Interior Design & Fitout, we are specialists in <b className="text-[#caa193]"><a href="/office-interior-design-dubai"> office interior design in Downtown Dubai</a></b> for companies who recognize that their working environment is a tool of their trade, not just an area to park some tables and chairs. WE DO provides complete office fitout Downtown Dubai solutions for businesses of every size.
             </p>
             
 
