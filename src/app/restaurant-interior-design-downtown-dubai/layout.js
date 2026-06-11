@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "  Penthouse Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
+  title: "Restaurant Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
   description:
-    " Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
+    "WE DO designs restaurants, cafés and dining spaces across Downtown Dubai, Boulevard, Opera District, Souk Al Bahar and more. Book a free site visit today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/penthouse-interior-design-downtown-dubai',
+    canonical: '/restaurant-interior-design-downtown-dubai',
   },
 };
 

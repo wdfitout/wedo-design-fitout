@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "  Penthouse Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
+  title: "Retail Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
   description:
-    " Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
+    "WE DO designs retail stores, boutiques and showrooms across Downtown Dubai and surrounding areas. Book a free site visit today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/penthouse-interior-design-downtown-dubai',
+    canonical: '/retail-interior-design-downtown-dubai',
   },
 };
 

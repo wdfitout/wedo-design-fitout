@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "  Penthouse Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
+  title: "Hotel Apartments Interior Design in Downtown Dubai | WE DO",
   description:
-    " Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
+    " WE DO specialize in hotel apartment interior design in Downtown Dubai, Address, Vida, Forte & more. Call Now!.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/penthouse-interior-design-downtown-dubai',
+    canonical: '/hotel-apartments-interior-downtown-dubai',
   },
 };
 

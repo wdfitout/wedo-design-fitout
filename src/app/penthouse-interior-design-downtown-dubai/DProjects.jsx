@@ -24,7 +24,7 @@ const TestimonialCarousel = () => {
   author: "M. & S. Al Farsi, Penthouse Owners, Address Boulevard ⭐⭐⭐⭐⭐",
 },
 {
-  quote: "hree months after moving in, the penthouse still feels exactly as it did on handover day. Every material has held up perfectly. When guests walk through the door, the reaction is always the same. WE DO are genuinely the top interior designers Downtown Dubai penthouse owners recommend.",
+  quote: "Three months after moving in, the penthouse still feels exactly as it did on handover day. Every material has held up perfectly. When guests walk through the door, the reaction is always the same. WE DO are genuinely the top interior designers Downtown Dubai penthouse owners recommend.",
   author: "J. Harrington, Penthouse Owner, Act One Act Two ⭐⭐⭐⭐⭐",
 },
 

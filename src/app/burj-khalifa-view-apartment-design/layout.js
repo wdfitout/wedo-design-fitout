@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "  Penthouse Interior Design in Downtown Dubai | WE DO Interior Design & Fitout",
+  title: "Burj Khalifa View Apartment Interior Design Downtown Dubai | WE DO",
   description:
-    " Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
+    " Transform your Burj Khalifa view apartment with WE DO, luxury interior design that frames Dubai's most iconic view. Contact Now!",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/penthouse-interior-design-downtown-dubai',
+    canonical: '/burj-khalifa-view-apartment-design',
   },
 };
 
