@@ -124,52 +124,19 @@ As a specialist <b className="text-[#caa193]"><a href="/interior-design-downtown
       {/* Split Row – Text + Top Right Image */}
       <div className="max-w-7xl mx-auto">
   <h2 className="text-center text-3xl font-conthrax text-white py-12 uppercase">
-    What We Do For Your Apartment
+    Buildings We Know Well in Downtown Dubai
   </h2>
 
   {/* Section 1: Text Left, Image Right */}
   <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
-    <div className="space-y-6 text-white font-play">
-      <p className="text-justify">
-      We handle everything from the first sketch to the last cushion. As a fully integrated apartment fitout company Downtown Dubai clients trust, our design and construction teams work together under one roof, which means no gaps, no finger-pointing, and no nasty surprises on site.
-    </p>
-      <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Getting the Layout Right First</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify"> Before we talk about materials or furniture, we talk about how you actually use your space. Where do you eat? Do you work from home? Do you host often? For investor clients, what kind of tenant are you targeting and what do they need?<br/>
-These answers shape the layout. We develop full 3D visuals before anything is built so you can see exactly what you are getting. No guesswork, no surprises.
-</p>
-        </li>
-        
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Apartment Kitchen Design</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">In many apartment renovation Downtown Dubai projects, the kitchen is often the most important space for improving both lifestyle and property value. It is the first thing a serious buyer or tenant looks at. A well-designed kitchen, proper joinery, quality stone countertops, integrated appliances, can single-handedly justify a higher rent or a stronger asking price.<br/>
-As a trusted <b className="text-[#caa193]"><a href="/apartment-interior-design-dubai">luxury apartment interior design Downtown Dubai</a></b> specialist, we design kitchens that look exceptional and work properly in daily use. Both things matter equally.
-</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Living Area & View Framing</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify"> If you can see the Burj Khalifa from your apartment or enjoy the magnificent sight of the Dubai Fountain, then this view must be the focal point of your space.Our space planning will ensure that everything in your home, whether it’s your furniture, lighting, or window dressing, will highlight this view in an appropriate manner. This is always something that our bespoke apartment interior design Dubai clients never fail to notice once they lay eyes on their final product.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Bedrooms & Wardrobes</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">A master bedroom in a Downtown apartment should feel like a proper retreat. Calm. Considered. A room is much more than just a place where there’s a bed. Our bedrooms have layered lighting, functional wardrobes, and materials which give the space warmth while remaining light.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Bathrooms</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">Bathroom quality plays a key role in getting high ratings on Airbnbs and choosing to rent your apartment. Having a spa-like bathroom, great stone, frameless glass, and proper lighting sends a message to tenants that you care for your entire apartment. We design bathrooms that earn their own compliments.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Smart Home & Technology</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">Lighting scenes you control from your phone. Climate that adjusts automatically. Motorised blinds that open with the sunrise. For short-term rental apartments, smart access control means no key handovers. WE DO integrate all of this from the design stage, not bolted on at the end.</p>
-        </li>
-         <li>
-          <h3 className="font-play font-bold text-base text-justify">Furniture, Styling & Final Finishing</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">We source and install everything, every piece of furniture, every light fitting, every decorative object. When we hand over your apartment it is genuinely move-in or guest-ready. Not a project site with a shopping list attached.</p>
-        </li>
-      </ul>
-    </div>
-
+    
+<div className="text-center">
+         
+          <p className="font-play text-sm sm:text-base text-white text-justify py-2 leading-relaxed">
+            We have delivered <b className="text-[#caa193]"><a href="/modern-apartment-interior-design"> apartment interior design</a></b> Downtown Dubai projects across Burj Vista Tower 1 and 2, Address Boulevard, Act One Act Two, The Residence, Boulevard Point, Vida Downtown, 29 Boulevard, and Standpoint Towers.<br/>
+This matters because every building is different. Different HOA rules. Different building management teams. Different structural considerations. Our experience across these buildings means we handle approvals faster, avoid common delays, and know exactly what is and is not possible in each one.By anticipating building-specific challenges before they arise, we streamline the entire fit-out process and ensure a seamless transformation that perfectly respects the building's infrastructure.
+          </p>
+        </div>
     <div className="rounded-lg overflow-hidden shadow-md">
       <Image
         src="/images/mgapt-2 (10).jpg"
@@ -268,16 +235,47 @@ Off-plan buyers who want to hit the ground running. We start the design process 
 
       {/* Why restaurant Owners Choose Us & Testimonial Section */}
       <div className="lg:max-w-[90%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12">
-        <div className="text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
-          Buildings We Know Well in Downtown Dubai
-          </h2>
-          <p className="font-play text-sm sm:text-base text-white text-justify py-2 leading-relaxed">
-            We have delivered <b className="text-[#caa193]"><a href="/modern-apartment-interior-design"> apartment interior design</a></b> Downtown Dubai projects across Burj Vista Tower 1 and 2, Address Boulevard, Act One Act Two, The Residence, Boulevard Point, Vida Downtown, 29 Boulevard, and Standpoint Towers.<br/>
-This matters because every building is different. Different HOA rules. Different building management teams. Different structural considerations. Our experience across these buildings means we handle approvals faster, avoid common delays, and know exactly what is and is not possible in each one.
-          </p>
-        </div>
-
+        <h2 className="text-center text-3xl font-conthrax text-white uppercase"> What We Do For Your Apartment </h2>
+<div className="space-y-6 text-white font-play">
+      <p className="text-justify">
+      We handle everything from the first sketch to the last cushion. As a fully integrated apartment fitout company Downtown Dubai clients trust, our design and construction teams work together under one roof, which means no gaps, no finger-pointing, and no nasty surprises on site.
+    </p>
+      <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Getting the Layout Right First</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify"> Before we talk about materials or furniture, we talk about how you actually use your space. Where do you eat? Do you work from home? Do you host often? For investor clients, what kind of tenant are you targeting and what do they need?<br/>
+These answers shape the layout. We develop full 3D visuals before anything is built so you can see exactly what you are getting. No guesswork, no surprises.
+</p>
+        </li>
+        
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Apartment Kitchen Design</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify">In many apartment renovation Downtown Dubai projects, the kitchen is often the most important space for improving both lifestyle and property value. It is the first thing a serious buyer or tenant looks at. A well-designed kitchen, proper joinery, quality stone countertops, integrated appliances, can single-handedly justify a higher rent or a stronger asking price.<br/>
+As a trusted <b className="text-[#caa193]"><a href="/apartment-interior-design-dubai">luxury apartment interior design Downtown Dubai</a></b> specialist, we design kitchens that look exceptional and work properly in daily use. Both things matter equally.
+</p>
+        </li>
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Living Area & View Framing</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify"> If you can see the Burj Khalifa from your apartment or enjoy the magnificent sight of the Dubai Fountain, then this view must be the focal point of your space.Our space planning will ensure that everything in your home, whether it’s your furniture, lighting, or window dressing, will highlight this view in an appropriate manner. This is always something that our bespoke apartment interior design Dubai clients never fail to notice once they lay eyes on their final product.</p>
+        </li>
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Bedrooms & Wardrobes</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify">A master bedroom in a Downtown apartment should feel like a proper retreat. Calm. Considered. A room is much more than just a place where there’s a bed. Our bedrooms have layered lighting, functional wardrobes, and materials which give the space warmth while remaining light.</p>
+        </li>
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Bathrooms</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify">Bathroom quality plays a key role in getting high ratings on Airbnbs and choosing to rent your apartment. Having a spa-like bathroom, great stone, frameless glass, and proper lighting sends a message to tenants that you care for your entire apartment. We design bathrooms that earn their own compliments.</p>
+        </li>
+        <li>
+          <h3 className="font-play font-bold text-base text-justify">Smart Home & Technology</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify">Lighting scenes you control from your phone. Climate that adjusts automatically. Motorised blinds that open with the sunrise. For short-term rental apartments, smart access control means no key handovers. WE DO integrate all of this from the design stage, not bolted on at the end.</p>
+        </li>
+         <li>
+          <h3 className="font-play font-bold text-base text-justify">Furniture, Styling & Final Finishing</h3>
+          <p className="text-white font-play text-sm sm:text-base text-justify">We source and install everything, every piece of furniture, every light fitting, every decorative object. When we hand over your apartment it is genuinely move-in or guest-ready. Not a project site with a shopping list attached.</p>
+        </li>
+      </ul>
+    </div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image

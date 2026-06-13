@@ -5,12 +5,12 @@ import React from "react";
 import Link from "next/link";
 
 const services = [
-  {
-    title: "Office Interior Design Downtown",
+ {
+    title: "Retail Interior Design in Downtown Dubai",
     description:
-      "Looking for expert office interior design in Downtown Dubai? WE DO delivers premium office fitout,  executive suites, full floor fitouts & corporate spaces.",
-    bgImage: "/images/sns (2).webp",
-    link: "/office-interior-design-downtown-dubai",
+      "WE DO designs retail stores, boutiques and showrooms across Downtown Dubai and surrounding areas. Book a free site visit today.",
+    bgImage: "/images/dtrest (1).webp",
+    link: "/retail-interior-design-downtown-dubai",
   },
   {
     title: "Apartment Interior Design Downtown",
@@ -20,18 +20,46 @@ const services = [
     link: "/apartment-interior-design-downtown-dubai",
   },
   {
+    title: "Office Interior Design Downtown",
+    description:
+      "Looking for expert office interior design in Downtown Dubai? WE DO delivers premium office fitout,  executive suites, full floor fitouts & corporate spaces.",
+    bgImage: "/images/sns (2).webp",
+    link: "/office-interior-design-downtown-dubai",
+  },
+   {
+    title: "Penthouse Interior Design in Downtown Dubai",
+    description:
+      "Transform your Downtown Dubai penthouse with bespoke interior design, smart home integration, luxury finishes, and Burj Khalifa view framing. Visit now!",
+    bgImage: "/images/blpph (9).png",
+    link: "/penthouse-interior-design-downtown-dubai",
+  },
+  {
+    title: "Burj Khalifa View Apartment Interior Design Downtown Dubai",
+    description:
+      "Transform your Burj Khalifa view apartment with WE DO, luxury interior design that frames Dubai's most iconic view. Contact Now!",
+    bgImage: "/images/ctwkapt (1).png",
+    link: "/burj-khalifa-view-apartment-design",
+  },
+  {
+    title: "Hotel Apartments Interior Design in Downtown Dubai",
+    description:
+      "WE DO specialize in hotel apartment interior design in Downtown Dubai, Address, Vida, Forte & more. Call Now!.",
+    bgImage: "/images/fvapt (1).png",
+    link: "/hotel-apartments-interior-downtown-dubai",
+  },
+  {
+    title: "Restaurant Interior Design in Downtown Dubai",
+    description:
+      "WE DO designs restaurants, cafés and dining spaces across Downtown Dubai, Boulevard, Opera District, Souk Al Bahar and more. Book a free site visit today.",
+    bgImage: "/images/xaima (5).webp",
+    link: "/restaurant-interior-design-downtown-dubai",
+  },
+ {
     title: "Retail Interior Design Business Bay",
     description:
       "Looking for expert retail interior design in Business Bay Dubai? WE DO deliver premium retail fitout Business Bay, boutiques etc. Contact Today!",
     bgImage: "/images/bespoke-and-boutique-style-office-interiors-in-business-bay.png",
     link: "/retail-interior-design-business-bay",
-  },
-  {
-    title: "Restaurant Interior Design Business Bay",
-    description:
-      "Looking for restaurant interior design in Business Bay Dubai? WE DO deliver premium restaurants fitout Business Bay. Visit Us Today.",
-    bgImage: "/images/sahelnom (4).webp",
-    link: "/restaurant-interior-design-business-bay",
   },
 ];
 
