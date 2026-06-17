@@ -310,10 +310,10 @@ const DProjects = () => {
       Working with one team for your <b className="text-[#caa193]"><a href="/luxury-villa-interior-design-in-dubai">villa interior design in Jumeirah</a></b> project means:
     </p>
     <ul className="list-disc pl-5 space-y-2 text-white">
-      <li className="text-sm sm:text-base text-justify">A consistent design across the whole villa, instead of rooms that feel disconnected from each other</li>
-      <li className="text-sm sm:text-base text-justify">Fewer delays, since one team manages the schedule instead of multiple contractors working separately</li>
-      <li className="text-sm sm:text-base text-justify">Better pricing through established supplier relationships</li>
-      <li className="text-sm sm:text-base text-justify">One point of contact for the entire project, from planning to handover</li>
+      <li className="text-sm sm:text-base text-justify">A consistent design across the whole villa, instead of rooms that feel disconnected from each other.</li>
+      <li className="text-sm sm:text-base text-justify">Fewer delays, since one team manages the schedule instead of multiple contractors working separately.</li>
+      <li className="text-sm sm:text-base text-justify">Better pricing through established supplier relationships.</li>
+      <li className="text-sm sm:text-base text-justify">One point of contact for the entire project, from planning to handover.</li>
     </ul>
   </div>
 </div>
