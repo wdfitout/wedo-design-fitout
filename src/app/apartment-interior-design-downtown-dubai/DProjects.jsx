@@ -133,8 +133,8 @@ As a specialist <b className="text-[#caa193]"><a href="/interior-design-downtown
 <div className="text-center">
          
           <p className="font-play text-sm sm:text-base text-white text-justify py-2 leading-relaxed">
-            We have delivered <b className="text-[#caa193]"><a href="/modern-apartment-interior-design"> apartment interior design</a></b> Downtown Dubai projects across Burj Vista Tower 1 and 2, Address Boulevard, Act One Act Two, The Residence, Boulevard Point, Vida Downtown, 29 Boulevard, and Standpoint Towers.<br/>
-This matters because every building is different. Different HOA rules. Different building management teams. Different structural considerations. Our experience across these buildings means we handle approvals faster, avoid common delays, and know exactly what is and is not possible in each one.By anticipating building-specific challenges before they arise, we streamline the entire fit-out process and ensure a seamless transformation that perfectly respects the building's infrastructure.
+            We have delivered b className="text-[#caa193]"><a href="/modern-apartment-interior-design"> apartment interior design</a></b> Downtown Dubai projects across Burj Vista Tower 1 and 2, Address Boulevard, Act One Act Two, The Residence, Boulevard Point, Vida Downtown, 29 Boulevard, and Standpoint Towers.<br/>
+This matters because ev<ery building is different. Different HOA rules. Different building management teams. Different structural considerations. Our experience across these buildings means we handle approvals faster, avoid common delays, and know exactly what is and is not possible in each one.By anticipating building-specific challenges before they arise, we streamline the entire fit-out process and ensure a seamless transformation that perfectly respects the building's infrastructure.
           </p>
         </div>
     <div className="rounded-lg overflow-hidden shadow-md">
