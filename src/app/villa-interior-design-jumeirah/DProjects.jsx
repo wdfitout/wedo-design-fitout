@@ -9,10 +9,7 @@ const textImage = {
   title: 'Interior Design Trends In Business Bay'
 };
 
-const galleryImages = [
-  { src: '/images/dbckapt (9).png', link: '/dubai-creek-2-bedroom-apartment', title: ' 2 BEDROOM APARTMENT DUBAI Business Bay' },
-  { src: '/images/address-harbour-point-small-sitting-area-design-dubai-creek-harbour.png', link: '/emaar-harbour-point-apartment-dubai', title: 'EMAAR HARBOUR POINT APARTMENT FIT-OUT' },
-];
+
 const TestimonialCarousel = () => {
   const testimonials = [
    {
@@ -201,32 +198,7 @@ const DProjects = () => {
   </div>
 </div>
 
-      {/* Gallery Heading */}
-      {/* <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-lg font-conthrax text-white py-12">
-          restaurant Projects in Business Bay
-        </h2>
-      </div> */}
-
-      {/* Gallery Grid with Hover Effects */}
-      {/* <div className="lg:max-w-[50%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-6xl mx-auto mb-10">
-        {galleryImages.map(({ src, link, title }, i) => (
-          <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
-            <Image
-              src={src}
-              alt={title}
-              width={400}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {title}
-              </p>
-            </div>
-          </a>
-        ))}
-      </div> */}
+      
 
       {/* Emaar Fit-Out Approvals Section */}
       <div className="max-w-7xl mx-auto">
