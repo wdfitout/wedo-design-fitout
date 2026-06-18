@@ -373,7 +373,7 @@ Whatever the building, our concept begins the same way, understanding the people
            Do you help with furniture and styling, or just the design and construction? 
           </h3>
           <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
-            We can manage the full process, including furniture selection, sourcing, and final styling, or we can focus purely on layout, design, and construction if you prefer to handle furnishing yourself
+            We can manage the full process, including furniture selection, sourcing, and final styling, or we can focus purely on layout, design, and construction if you prefer to handle furnishing yourself.
           </p>
           
 

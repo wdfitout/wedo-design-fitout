@@ -29,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Apartment Interior Design in Jumeirah.
+        We Do Apartment Interior Design in Jumeirah
       </h2>
 
       {/* Desktop Grid */}
