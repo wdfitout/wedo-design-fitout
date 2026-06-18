@@ -18,7 +18,7 @@ const ApId = () => {
              Apartment Interior Design in Jumeirah
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Jumeirah is one of those places where people stay for many years, and not for brief stints. People make their homes there, establish patterns based on the schools, beaches, and quiet streets of Jumeirah, and start to understand that their home is much more than a place to sleep. This is when the discrepancy arises. Apartment interior design in Jumeirah is mostly about closing that gap. It is rarely about crafting something elegant or trend-driven.
+              Jumeirah is one of those places where people stay for many years and not for brief stints. People make their homes there, establish patterns based on the schools, beaches, and quiet streets of Jumeirah, and start to understand that their home is much more than a place to sleep. This is when the discrepancy arises. Apartment interior design in Jumeirah is mostly about closing that gap. It is rarely about crafting something elegant or trend-driven.
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               At WE DO Interior Design & Fitout, we provide apartment interior design in Jumeirah, luxury apartment interior design Dubai, and custom apartment interiors Dubai for homeowners, investors, and long-term residents. We have designed apartments across Jumeirah for families, returning residents, and property owners preparing units for new tenants.
