@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Joinery Company Dubai | We Do Interior Design & Fit Out",
+  title: "Joinery Services in Dubai | WE DO Interior Design & Fitout",
   description:
-    " Joinery company Dubai",
+    "WE DO delivers bespoke joinery services in Dubai, custom cabinetry, wardrobes & furniture built to the highest standard.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/joinery-company-dubai',
@@ -13,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <meta name="keywords" content="office interior design business bay, office fit out business bay dubai, office interior design dubai, commercial interior design dubai, office fit out company dubai, office interior fit out dubai, business bay office interior design, office design commercial fit out dubai, interior design company business bay dubai, office renovation business bay, workspace interior design dubai"></meta>
+      <meta name="publisher" content="WE DO Interior Design & Fitout">
+      </meta><body>{children}</body>
     </html>
   );
 }

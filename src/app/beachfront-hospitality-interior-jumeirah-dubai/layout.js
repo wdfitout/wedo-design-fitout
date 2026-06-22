@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Bedroom Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
+  title: "Beachfront Hospitality Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "Redefine your bedroom with WE DO high-end bedroom interior design in Jumeirah Dubai. Personalized wardrobes, quality finishes and stylish layouts.",
+    " WE DO designs beachfront hospitality interiors in Jumeirah Dubai, beach clubs, restaurants & boutique hotels. Premium hospitality fitout.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/bedroom-interior-design-jumeirah',
+    canonical: '/beachfront-hospitality-interior-jumeirah-dubai',
   },
 };
 

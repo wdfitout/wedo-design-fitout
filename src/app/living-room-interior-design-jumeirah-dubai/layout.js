@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Villa Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
+  title: "Living Room Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "Custom villa interior design in Jumeirah, Pearl Jumeirah, Umm Suqeim and Jumeirah Bay Island. WE DO offers interior design services across Dubai.",
+    "Transform your living room with WE DO, luxury living room interior design. Bespoke furniture, lighting & layouts that bring families together.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/villa-interior-design-jumeirah',
+    canonical: '/living-room-interior-design-jumeirah-dubai',
   },
 };
 

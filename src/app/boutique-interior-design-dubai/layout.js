@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Boutique Interior Design Dubai - Retail Interior Design",
+  title: "Boutique Interior Design in Dubai | WE DO Interior Design & Fitout",
   description:
-    "Luxury Boutique interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
+    "WE DO designs premium boutique interiors in Dubai, fashion stores, concept shops & lifestyle brands. Trusted boutique fitout specialists.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/boutique-interior-design-dubai',

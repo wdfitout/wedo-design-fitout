@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/acdh (8).png"
-        alt="interior design"
+        src="/images/boutique.jpeg"
+        alt="Modern beauty salon pedicure lounge with soft textures"
         width={1920}
         height={1080}
         priority
@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Overlay Content Box */}
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
-          Boutique Interior Design Dubai </h1>
+          Boutique Interior Design in Dubai </h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
            Boutique Interior Design Company in Dubai
             </h2>

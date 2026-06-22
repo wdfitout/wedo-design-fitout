@@ -6,10 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-   '/images/boutique (7).jpeg',
-  '/images/boutique (6).jpeg',
-  '/images/boutique (5).jpeg',
- 
+  '/images/joinery (2).jpeg',
+  '/images/joinery (3).jpeg',
+  '/images/joinery (4).jpeg',
 ];
 
 const DesignV = () => {
@@ -30,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Boutique Interior Design in Dubai
+        We Do Joinery Services in Dubai
       </h2>
 
       {/* Desktop Grid */}

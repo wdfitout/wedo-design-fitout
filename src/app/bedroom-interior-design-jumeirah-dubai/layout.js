@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Living Room Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
+  title: "Bedroom Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "Transform your living room with WE DO, luxury living room interior design. Bespoke furniture, lighting & layouts that bring families together.",
+    "Redefine your bedroom with WE DO high-end bedroom interior design in Jumeirah Dubai. Personalized wardrobes, quality finishes and stylish layouts.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/living-room-interior-design-jumeirah',
+    canonical: '/bedroom-interior-design-jumeirah-dubai',
   },
 };
 

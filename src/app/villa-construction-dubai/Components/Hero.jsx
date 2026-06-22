@@ -1,31 +1,51 @@
+"use client";
+
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[350px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
-      
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/villa-construction-by-luxury-interior-design-company-dubai.webp')" }}
-      ></div>
+    <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
+      {/* Background Image */}
+      <Image
+        src="/images/pjapt (4).webp"
+        alt="interior design"
+        width={1920}
+        height={1080}
+        priority
+        className="object-cover"
+      />
 
-      
-            {/* Gradient Overlay Behind Text */}
-  <div className="absolute inset-x-0 bottom-0 h-3/4 bg-gradient-to-t from-black/90 to-transparent z-0" />
+      {/* Overlay Content Box */}
+      <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
+        <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
+      Villa Interior Design Jumeirah</h1>
+          <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
+         Villa Interior Design Company in Jumeirah 
+            </h2>
+        
 
-  {/* Overlay Text Content */}
-  <div className="absolute inset-x-0 bottom-2 sm:bottom-10 text-center px-4 text-white z-10">
-    <h1 className="text-md sm:text-3xl font-penrise">
-      VILLA CONSTRUCTION DUBAI
-    </h1>
-    <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-    We Do Interior Design & Fitout transforms visions for luxury villa into life. We Do Interior Design & Fitout is the Top villa construction company in Dubai. From Conception to completion, Our seasoned team ensures that every detail is crafted with perfection.</p>
-  </div>
-    
-    </section>
+        <div className="flex gap-4 flex-wrap">
+          <Link
+            href="/contact-us"
+            className="bg-[#caa193] text-black px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition-all duration-200"
+          >
+            Send an Inquiry
+          </Link>
+
+          <Link
+            href="/gallery"
+            className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
+          >
+            Our Projects
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 };
 
 export default Hero;
-
+ 
 

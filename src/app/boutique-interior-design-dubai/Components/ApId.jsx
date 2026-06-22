@@ -15,14 +15,15 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Boutique Interior Design & Fit-Out in Dubai
+              Boutique Interior Design in Dubai
             </h2>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              At WE DO Interior Design & Fitout, we are expert in delivering boutique interior design Dubai along with fit-out services. Our team of expert boutique interior designers in Dubai design spaces that reflect brand story and improve customer experience.Whether it’s a fashion boutique interior design in Dubai Marina, a luxury boutique fit-out in Downtown Dubai, we ensure every detail is customized to create a memorable shopping environment across Dubai.
-            </p>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              As one of the best boutique interior design companies in Dubai, our focus is on premium finishes, brand-centric storytelling and intelligent layouts. From custom boutique interiors for fashion brands in JBR and Al Wasl to modern boutique showroom designs in Dubai Hills, we provide end-to-end solutions that cover both boutique renovation and boutique fit-out in Dubai.
+            <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
+              A boutique is not just a small retail shop. People do not visit boutiques for endless product choices or fast transactions. They come looking for something more curated, a unique product, a stronger brand connection, and a retail experience that feels personal. The experience of a boutique starts not while dealing with the products; it starts right from the entrance till the lighting, materials, design, displays, changing rooms, and even customers' movements in the shop. This is why boutique design needs another perspective entirely. WE DO offers unique Boutique interior design Dubai services to fashion brands, concept shops, independent brands, lifestyle retailers, and boutiques that require an interior with an individualistic touch rather than an ordinary retail solution.
+             </p>
+            <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
+              Whether you have a need to open a new boutique, refurbish your retail space, introduce your luxury concept, or expand your brand into the highly competitive Dubai market, our team will handle all processes right from conception to delivery of the fitout. As it is with boutique retailing, clients are always observant of every detail.
            </p>
+            
 
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
@@ -33,7 +34,7 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
-              Get Best Boutique Interior Design Dubai
+              Get Best Spa & Beauty Salon Design Dubai
             </h2>
 
           
@@ -45,7 +46,7 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
              <Image
-              src="/images/atlantis (2).webp"
+              src="/images/boutique (8).jpeg"
               alt="Watch our company video"
               width={1280}
               height={720}
@@ -61,7 +62,7 @@ const ApId = () => {
               <div className="w-full aspect-video border-4 border-[#caa193] rounded-lg overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/yNeCQLpYvww?autoplay=1&mute=1"
+                  src="https://media.istockphoto.com/id/1219824796/video/happy-customers-are-loyal-customers.mp4?s=mp4-640x640-is&k=20&c=ZkjFu_2a7BIxiVKSsrH2xzUgqKRrCWKC_yKnkhlYeeI="
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -6,29 +6,54 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Villa Interior Design In Jumeirah",
-    description: "Premium luxury villa interiors, space planning, and architectural fit-outs in the heart of Jumeirah.",
-    bgImage: "/images/pjapt (1).webp",
-    link: "/villa-interior-design-jumeirah",
+    title: "Kitchen Interior Design in Jumeirah Dubai",
+    description: "WE DO delivers premium kitchen interior design in Jumeirah Dubai, including custom cabinetry, luxury finishes and smart layouts.",
+    bgImage: "/images/carnistore (4).webp",
+    link: "/kitchen-interior-design-jumeirah-dubai",
   },
   {
-    title: "Apartment Interior Design In Jumeirah",
-    description: "Elegant apartment renovations and modern interior solutions for coastal living.",
-    bgImage: "/images/pjapt (2).webp",
+    title: "Bedroom Interior Design in Jumeirah Dubai",
+    description: "Redefine your bedroom with WE DO high-end bedroom interior design in Jumeirah Dubai. Personalized wardrobes, quality finishes and stylish layouts.",
+    bgImage: "/images/cnpkapt (4).png",
+    link: "/bedroom-interior-design-jumeirah-dubai",
+  },
+  {
+    title: "Living Room Interior Design in Jumeirah Dubai",
+    description: "Transform your living room with WE DO, luxury living room interior design. Bespoke furniture, lighting & layouts that bring families together.",
+    bgImage: "/images/living (6).jpeg",
+    link: "/living-room-interior-design-jumeirah-dubai",
+  },
+  {
+    title: "Home Renovation in Jumeirah Dubai",
+    description: "WE DO delivers complete home renovation in Jumeirah Dubai, villas and apartments, room by room or full transformation. Trusted renovation specialists.",
+    bgImage: "/images/renovation.jpeg",
+    link: "/home-renovation-jumeirah-dubai",
+  },
+  {
+    title: "Beachfront Interior Design in Jumeirah Dubai",
+    description: "Transform your beachfront home with WE DO, luxury beachfront interior design. Coastal-inspired living, premium finishes & sea view design.",
+    bgImage: "/images/beachfront (25).webp",
+    link: "/beachfront-interior-design-jumeirah-dubai",
+  },
+   {
+    title: "Beachfront Hospitality Interior Design in Jumeirah Dubai",
+    description: "WE DO designs beachfront hospitality interiors in Jumeirah Dubai, beach clubs, restaurants & boutique hotels. Premium hospitality fitout.",
+    bgImage: "/images/hospitality.jpeg",
+    link: "/beachfront-hospitality-interior-jumeirah-dubai",
+  },
+  {
+    title: "Apartment Interior Design in Jumeirah",
+    description: "WE DO Interior Design & Fitout curates elegant and welcoming apartment interiors across Jumeirah, from beachside areas to family homes.",
+    bgImage: "/images/2wresidence (4).webp",
     link: "/apartment-interior-design-jumeirah",
   },
   {
-    title: "Retail & Boutique Design In Jumeirah",
-    description: "Exclusive retail store fit-outs and boutique interiors designed to enhance brand prestige.",
-    bgImage: "/images/pjapt (3).webp",
+    title: "Retail Interior Design in Jumeirah Dubai",
+    description: "WE DO delivers premium retail interior design in Jumeirah Dubai, luxury boutiques, concept stores & brand flagships.",
+    bgImage: "/images/retail (2).jpeg",
     link: "/retail-interior-design-jumeirah",
   },
-  {
-    title: "Restaurant Interior Design In Jumeirah",
-    description: "Bespoke hospitality and cafe interior styling for the elite Jumeirah dining scene.",
-    bgImage: "/images/pjapt (4).webp",
-    link: "/restaurant-interior-design-jumeirah",
-  },
+   
 ];
 
 const jumeirahProjects = [

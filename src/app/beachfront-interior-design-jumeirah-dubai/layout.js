@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Fitout Company in Dubai | WE DO Interior Design & Fitout",
+  title: "Beachfront Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "WE DO is a leading fitout company in Dubai, residential, commercial & hospitality fitout delivered by one integrated team.",
+    "Transform your beachfront home with WE DO, luxury beachfront interior design. Coastal-inspired living, premium finishes & sea view design.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/fitout-company-dubai',
+    canonical: '/beachfront-interior-design-jumeirah-dubai',
   },
 };
 

@@ -1,19 +1,21 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Villa Construction Dubai | We Do Interior Design & Fit Out",
+  title: "Villa Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "Villa construction Dubai",
+    "Custom villa interior design in Jumeirah, Pearl Jumeirah, Umm Suqeim and Jumeirah Bay Island. WE DO offers interior design services across Dubai.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/villa-construction-dubai/',
+    canonical: '/villa-construction-dubai',
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <meta name="keywords" content="office interior design business bay, office fit out business bay dubai, office interior design dubai, commercial interior design dubai, office fit out company dubai, office interior fit out dubai, business bay office interior design, office design commercial fit out dubai, interior design company business bay dubai, office renovation business bay, workspace interior design dubai"></meta>
+      <meta name="publisher" content="WE DO Interior Design & Fitout">
+      </meta><body>{children}</body>
     </html>
   );
 }

@@ -6,7 +6,7 @@ export const metadata = {
     "WE DO delivers premium retail interior design in Jumeirah Dubai, luxury boutiques, concept stores & brand flagships.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/retail-interior-design-jumeirah-dubai',
+    canonical: '/retail-interior-design-jumeirah',
   },
 };
 
