@@ -95,7 +95,7 @@ const AboutSection = () => {
               PROFESSIONAL INTERIOR DESIGN SERVICES IN JUMEIRAH
             </h2>
             <p className="text-justify text-white text-base font-play mb-6 leading-relaxed">
-              As a leading <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-companies-in-jumeirah-dubai">interior design company in Jumeirah</a></b>, we offer services for both high-end residential 
+              As a leading interior design company in Jumeirah, we offer services for both high-end residential 
               and exclusive commercial projects. Our services for villa interior design Jumeirah help 
               homeowners in creating a timeless and luxurious living space. For commercial businesses, our 
               bespoke fit-out services ensure that retail outlets and boutiques reflect the prestigious 
@@ -104,7 +104,7 @@ const AboutSection = () => {
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                 EXCLUSIVE SOLUTIONS FOR LUXURY LIVING
               </h3>
-              For our residential clients, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/jumeirah-apartment">Jumeirah interior design</a></b> services help in 
+              For our residential clients, our Jumeirah interior design services help in 
               crafting homes that are sophisticated and modern. We combine custom-made furniture and 
               premium materials to suit the elite lifestyle of our Jumeirah clients. Our renovation services in 
               Jumeirah upgrade existing villas and apartments with exceptional craftsmanship.
@@ -127,7 +127,8 @@ const AboutSection = () => {
                     Villa Design and Luxury Fit-Out in Jumeirah
                   </h2>
                   <p className="text-white text-sm sm:text-base font-play mb-4">
-                    Jumeirah is home to some of Dubai’s most magnificent villas and luxury estates. Our <b className="text-[#caa193]"><a href="#">luxury interior design Jumeirah</a></b> services are focused on delivering elegance and superior quality.
+                    Jumeirah is home to some of Dubai’s most magnificent villas and luxury estates. Our 
+                    luxury interior design Jumeirah services are focused on delivering elegance and superior quality.
                   </p>
                   <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                     PREMIUM RESIDENTIAL EXPERTISE

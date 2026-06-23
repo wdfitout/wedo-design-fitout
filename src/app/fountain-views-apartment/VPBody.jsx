@@ -7,44 +7,44 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const galleryImages = [
   {
     src: "/images/fvapt (1).png",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant apartment living room with ambient lighting",
+    title: "apartment Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
     src: "/images/fvapt (2).png",
     alt: "Modern kitchen design with marble countertops",
-    title: "Villa Interior Gallery Image 2",
+    title: "apartment Interior Gallery Image 2",
     description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
     src: "/images/fvapt (3).png",
     alt: "Luxury bathroom with golden fixtures",
-    title: "Villa Interior Gallery Image 3",
+    title: "apartment Interior Gallery Image 3",
     description: "Stylish bathroom with gold fixtures and large mirrors"
   },
   {
     src: "/images/fvapt (4).png",
     alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
+    title: "apartment Interior Gallery Image 4",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   {
     src: "/images/fvapt (5).png",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
+    alt: "apartment staircase with chandelier and marble steps",
+    title: "apartment Interior Gallery Image 5",
     description: "Architectural staircase design with high ceiling chandelier"
   },
   {
     src: "/images/fvapt (6).png",
     alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
+    title: "apartment Interior Gallery Image 6",
     description: "Bespoke lounge area with leather furniture and curated art pieces"
   },
     {
     src: "/images/fvapt (7).png",
     alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
+    title: "apartment Interior Gallery Image 4",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   
@@ -161,15 +161,15 @@ const VPBody = () => {
           <figure className="w-full lg:w-1/2">
             <Image
               src="/images/fvapt (4).png"
-              alt="Luxury villa interior with white marble flooring and gold accents"
-              title="Modern Villa Interior Design in Dubai"
+              alt="Luxury apartment interior with white marble flooring and gold accents"
+              title="Modern apartment Interior Design in Dubai"
               width={800}
               height={500}
               loading="lazy"
               className="w-full h-auto object-cover"
             />
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+              A spacious modern apartment interior designed with elegant gold accents, large windows, and premium finishes.
             </figcaption>
           </figure>
         </div>
@@ -190,7 +190,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+          APARTMENT INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

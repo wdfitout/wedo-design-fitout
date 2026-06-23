@@ -7,74 +7,74 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const galleryImages = [
   {
     src: "/images/tabs (4).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (5).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (6).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (7).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (8).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (9).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (10).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (11).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (12).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (13).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (14).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/tabs (15).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    alt: "Elegant Beauty Salon living room with ambient lighting",
+    title: "Beauty Salon Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
  
@@ -192,15 +192,15 @@ const VPBody = () => {
           <figure className="w-full lg:w-1/2">
             <Image
               src="/images/tabs (2).webp"
-              alt="Luxury villa interior with white marble flooring and gold accents"
-              title="Modern Villa Interior Design in Dubai"
+              alt="Luxury Beauty Salon interior with white marble flooring and gold accents"
+              title="Modern Beauty Salon Interior Design in Dubai"
               width={800}
               height={500}
               loading="lazy"
               className="w-full h-auto object-cover"
             />
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+              A spacious modern Beauty Salon interior designed with elegant gold accents, large windows, and premium finishes.
             </figcaption>
           </figure>
         </div>
@@ -221,7 +221,7 @@ const VPBody = () => {
         
                 {/* Section Heading */}
                 <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          VILLA INTERIOR GALLERY
+        BEAUTY SALON INTERIOR GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

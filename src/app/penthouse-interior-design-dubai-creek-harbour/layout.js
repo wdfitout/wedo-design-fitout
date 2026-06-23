@@ -6,7 +6,7 @@ export const metadata = {
     " Luxury penthouse interior design in Dubai Creek Harbour. Bespoke fit-out, Emaar approvals handled, 3D visualization included. View our penthouse projects.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/ penthouse-interior-design-dubai-creek-harbour',
+    canonical: '/penthouse-interior-design-dubai-creek-harbour',
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata = {
     "Luxury villa construction in Dubai with complete construction execution, design & build, interior design, smart home systems, and turnkey solutions",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/complete-villa-construction-in-dubai',
+    canonical: '/complete-villa-construction-dubai',
   },
 };
 

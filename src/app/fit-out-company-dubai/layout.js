@@ -6,7 +6,7 @@ export const metadata = {
     "WE DO is a leading fitout company in Dubai, residential, commercial & hospitality fitout delivered by one integrated team.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/fitout-company-dubai',
+    canonical: '/fit-out-company-dubai',
   },
 };
 

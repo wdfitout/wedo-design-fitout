@@ -14,9 +14,9 @@ const ApId = () => {
         <div className="flex flex-col lg:flex-row">
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
-            <h1 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
+            <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
             Apartment Interior Design in Dubai Creek Harbour
-            </h1>
+            </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
              WE DO provide a design concept for the <a href="/apartment-interior-design-dubai-creek-harbour" className="text-[#caa193]">
      Apartment Interior Design of Creek Harbour Dubai. </a>  Every Dubai Creek Harbour Apartment is designed according to an iconic living concept of waterfront living, where architecture combines with elegant living. We are a reliable interior designer Dubai, our specialization is in renovating the apartments into customized spaces that match with both modernism and functionality. Whether you opt for Modern Apartment in Dubai Creek Harbour projects or premium Creek Harbour Residential Apartment projects, our team  designs interior spaces to enhance the sophisticated nature of this destination. We are one of the top interior design companies in Dubai, WE DO offer specific services that enhance each Apartment at Dubai Creek Harbour into a statement of contemporary living.

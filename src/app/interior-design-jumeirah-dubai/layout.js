@@ -3,45 +3,45 @@ import '../globals.css';
 export const metadata = {
   title: "Best Interior Design Company in Jumeirah, Dubai - WE DO interiors",
   description:
-    "Luxury interior design company in Jumeirah delivering premium office, apartment & turnkey fit-outs. Schedule your free consultation today.",
-  keywords:[
-    "interior design company Business Bay",
-    "interior design company in Business Bay Dubai",
-    "office interior design Business Bay",
-    "apartment interior design Business Bay",
-    "interior fit out company Business Bay",
-    "turnkey fit out Business Bay",
-    "commercial interior design Business Bay",
+    "Luxury interior design company in Jumeirah delivering premium residential, office & turnkey fit-out solutions. Schedule your free consultation today.",
+  keywords: [
+    "interior design company Jumeirah",
+    "interior design company in Jumeirah Dubai",
+    "office interior design Jumeirah",
+    "apartment interior design Jumeirah",
+    "interior fit out company Jumeirah",
+    "turnkey fit out Jumeirah",
+    "commercial interior design Jumeirah",
     "luxury interior design Dubai",
-    "renovation services Business Bay",
+    "renovation services Jumeirah",
     "design and build company Dubai"
   ],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Interior Design in Jumeirah Dubai | WE DO Interior Design & Fit-Out',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/interior-design-company-business-bay',
+      'Explore luxury interior design and fit-out services in Jumeirah Dubai by WE DO Interior Design & Fitout.',
+    url: 'https://wedointerior.ae/interior-design-jumeirah-dubai',
     siteName: 'WE DO Interior Design & Fitout',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Interior Design Project Banner',
+        alt: 'Interior Design Jumeirah Dubai',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: 'Interior Design in Jumeirah Dubai | WE DO Interiors',
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
+      'Luxury interior design & fit-out services in Jumeirah Dubai.',
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: '/interior-design-company-business-bay',
+    canonical: '/interior-design-jumeirah-dubai',
   },
 };
 
@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
               },
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "Jumeirah",
                 "addressLocality": "Dubai",
                 "postalCode": "00000",
                 "addressCountry": "AE"
@@ -94,9 +94,10 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Interior Design Company in Business Bay",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "Luxury interior design services in Business Bay Dubai including offices, apartments, cafes, restaurants, and travel agencies."
+              "name": "Interior Design Company in Jumeirah",
+              "url": "https://wedointerior.ae/interior-design-jumeirah-dubai",
+              "description":
+                "Luxury interior design services in Jumeirah Dubai including villas, apartments, offices, and restaurants."
             })
           }}
         />
@@ -108,35 +109,35 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://wedointerior.ae/interior-design-company-business-bay",
+              "@id": "https://wedointerior.ae/interior-design-jumeirah-dubai",
               "name": "WE DO Interior Design & Fitout",
               "image": "https://wedointerior.ae/og-image.jpg",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
+              "url": "https://wedointerior.ae/interior-design-jumeirah-dubai",
               "telephone": "+971 058 807 5603",
               "priceRange": "$$$",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
+                "streetAddress": "Jumeirah",
                 "addressLocality": "Dubai",
                 "addressRegion": "Dubai",
                 "postalCode": "00000",
                 "addressCountry": "AE"
               },
               "areaServed": [
-                "Business Bay",
-                "Downtown Dubai",
-                "DIFC",
-                "Dubai Mall",
-                "Burj Khalifa",
-                "Dubai Canal",
+                "Jumeirah",
+                "Jumeirah 1",
+                "Jumeirah 2",
+                "Jumeirah Beach Road",
+                "La Mer",
+                "Umm Suqeim",
                 "Al Wasl",
-                "Sheikh Zayed Road"
+                "City Walk"
               ],
               "serviceOffered": [
-                {"@type": "Service","name": "Office Interior Design in Business Bay"},
-                {"@type": "Service","name": "Apartment Interior Design in Business Bay"},
-                {"@type": "Service","name": "Villa Interior Design In Business Bay"},
-                {"@type": "Service","name": "Restaurant Interior Design In Business Bay"}
+                { "@type": "Service", "name": "Villa Interior Design in Jumeirah" },
+                { "@type": "Service", "name": "Apartment Interior Design in Jumeirah" },
+                { "@type": "Service", "name": "Office Interior Design in Jumeirah" },
+                { "@type": "Service", "name": "Restaurant Interior Design in Jumeirah" }
               ]
             })
           }}
@@ -152,34 +153,26 @@ export default function RootLayout({ children }) {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "How long does an office fit-out in Business Bay take?",
+                  "name": "How long does an interior design project in Jumeirah take?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Office fit-outs typically take six to twelve weeks depending on the project size and complexity. All required DCD and authority approvals are managed by our team."
+                    "text": "Most interior design projects in Jumeirah take between 6 to 12 weeks depending on size and complexity."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Do you provide turnkey fit-out services in Business Bay?",
+                  "name": "Do you provide villa interior design in Jumeirah?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, we provide complete turnkey fit-out services including design, approvals, execution, and final handover."
+                    "text": "Yes, we specialize in luxury villa interior design and turnkey fit-out services in Jumeirah Dubai."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Do you design luxury apartments in Business Bay?",
+                  "name": "Do you handle turnkey fit-out projects in Jumeirah?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, we specialize in apartment interior design and luxury residential interiors in Business Bay, creating elegant and functional spaces."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are you a leading interior design company in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "WE DO Interior Design & Fitout is recognized for delivering high-quality residential and commercial interior design and fit-out projects in Business Bay."
+                    "text": "Yes, we provide complete turnkey solutions including design, approvals, execution, and handover."
                   }
                 }
               ]
@@ -187,56 +180,8 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        {/* CollectionPage Schema with Business Bay Projects */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "CollectionPage",
-              "name": "Business Bay Interior Design Projects",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "A curated collection of luxury interior design and fit-out projects in Business Bay by WE DO Interior Design & Fitout.",
-              "mainEntity": {
-                "@type": "ItemList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Business Bay Apartment Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-apartment"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Business Bay Office Fit-Out",
-                    "url": "https://wedointerior.ae/business-bay-office-fit-out"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "Business Bay Cafe Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-cafe-interior"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "name": "Business Bay Restaurant Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-restaurant"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "name": "Business Bay Travel Agency Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-travel-agency"
-                  }
-                ]
-              }
-            })
-          }}
-        />
-
       </head>
+
       <body>{children}</body>
     </html>
   );

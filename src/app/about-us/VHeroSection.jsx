@@ -16,9 +16,9 @@ const VHeroSection = () => {
       />
            {/* Overlay Text Content */}
       <div className="absolute inset-x-0 bottom-10 text-center px-4 text-white z-10">
-        <h1 className="text-xl sm:text-xl md:text-4xl lg:text-5xl font-penrise">
+        <p className="text-xl sm:text-xl md:text-4xl lg:text-5xl font-penrise">
           VISION AT WORK
-        </h1>
+        </p>
         <p className="text-xs sm:text-base md:text-sm mt-2 font-conthrax tracking-wider">
           DESIGN & CRAFTING LUXURY SPACES IN DUBAI
         </p>
