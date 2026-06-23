@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
         Design and Build in Dubai</h1>
           <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-         Design and Build Company in Jumeirah Dubai
+         Design and Build Company in Dubai
             </h2>
         
 

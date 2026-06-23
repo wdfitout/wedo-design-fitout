@@ -58,28 +58,28 @@ const services = [
 
 const jumeirahProjects = [
   {
-    title: "Luxury Jumeirah Villa",
-    category: "Residential Villa - Jumeirah 1",
+    title: "Peaky Blinders",
+    category: "Barber Retail - Palm Jumeirah",
+    image: "/images/peakyblinders (5).webp",
+    link: "/palm-jumeirah-barber-shop",
+  },
+  {
+    title: "Tess Avenue Salon",
+    category: "Salon - Jumeirah 1",
+    image: "/images/tabs (10).webp",
+    link: "/jumeirah-1-beauty-salon",
+  },
+  {
+    title: "Haagen Das Cafe",
+    category: "Hospitality - Palm Jumeirah",
+    image: "/images/haagen (4).webp",
+    link: "/palm-jumeirah-f&b",
+  },
+  {
+    title: "Apartment",
+    category: "Apartment - Palm Jumeirah",
     image: "/images/pjapt (5).webp",
-    link: "/jumeirah-villa-project",
-  },
-  {
-    title: "Coastal Apartment Interior",
-    category: "Modern Apartment - Jumeirah Beach",
-    image: "/images/pjapt (6).webp",
-    link: "/jumeirah-apartment-project",
-  },
-  {
-    title: "Elite Boutique Fit-Out",
-    category: "Retail Store - Jumeirah Road",
-    image: "/images/pjapt (7).webp",
-    link: "/jumeirah-retail-project",
-  },
-  {
-    title: "High-End Cafe Design",
-    category: "Hospitality - Jumeirah 3",
-    image: "/images/pjapt (8).webp",
-    link: "/jumeirah-cafe-project",
+    link: "/palm-jumeirah-apartment",
   },
 ];
 
@@ -115,7 +115,7 @@ const AboutSection = () => {
                 <div className="w-full lg:w-1/2">
                   <Image
                     src="/images/pjapt (9).webp"
-                    alt="Luxury Villa Interior Design in Jumeirah"
+                    alt="Luxury Interior Design in Jumeirah"
                     width={800}
                     height={600}
                     className="w-full h-100 rounded-lg shadow-md"
@@ -269,7 +269,7 @@ const AboutSection = () => {
                 Our Projects in Jumeirah
               </h2>
               <p className="text-gray-300 max-w-3xl mx-auto font-play">
-                Explore our portfolio of luxury villa fit-outs and elite residential designs in Jumeirah.
+                Explore our portfolio of interior fit-outs and elite residential designs in Jumeirah.
               </p>
             </div>
 
