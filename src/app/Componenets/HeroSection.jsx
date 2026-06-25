@@ -5,6 +5,9 @@ import Image from "next/image";
 
 const images = [
   
+  
+  "/images/Bleu-17.webp",
+  "/images/Bleu-27.webp",
   "/images/hm3.webp",
   "/images/hm1.webp",
   "/images/hm2.webp",
