@@ -107,7 +107,8 @@ const AboutSection = () => {
                <h2 className="text-[#b98877] text-2xl  font-conthrax mb-4 leading-tight">
                 Hire Interior Designer Dubai – Commercial & Residential Experts
               </h2>
-           <p className="text-justify text-white text-base sm:text font-play mb-6 leading-relaxed">Searching for an interior designer Dubai Creek Harbour means you need a reliable team that can handle both design creativity and full execution. WE DO is a reliable interior designers company delivering full services specific for residential apartments, elegant homes, and commercial spaces all over Dubai. We are reputed as one of the top interior design companies in Dubai and are often selected by customers looking for interior companies near me due to our professionalism, quality materials, and high-end project management concept.
+           <p className="text-justify text-white text-base sm:text font-play mb-6 leading-relaxed">Searching for an interior designer Dubai Creek Harbour means you need a reliable team that can handle both design creativity and full execution. WE DO is a reliable interior designers company delivering full services specific for residential apartments, elegant homes, and <b className= "text-[#caa193]"
+          ><a href="https://wedointerior.ae/commercial-interior-design-dubai">commercial spaces all over Dubai</a></b>. We are reputed as one of the top interior design companies in Dubai and are often selected by customers looking for interior companies near me due to our professionalism, quality materials, and high-end project management concept.
             </p>
              
               <section className="bg-[#000000] py-10">
@@ -212,21 +213,21 @@ const AboutSection = () => {
              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
              2- Turnkey Interior Design & Fit-out Services
              </h3>
-              <p className="text-white text-sm sm:text-base mb-4 font-play">WE DO is one of the most reliable interior design and fit out companies in Dubai, delivering full personalized services from idea development to finishings. Our services cover design, approvals, completion, and full project management. We are among the leading interior fit out companies in Dubai, providing high-end interiors.</p>
-              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">3- uxury Interior Design Dubai Creek Harbour</h3>
-              <p className="text-white text-sm sm:text-base mb-4 font-play">We are professional in luxury interior design Dubai services are specific for high-end apartments and penthouses in Dubai Creek Harbour. WE DO use quality materials, personalized completion, and customized detailing to craft elegant interiors that elevate the value of each Dubai Creek Harbour residential apartment.</p>
+              <p className="text-white text-sm sm:text-base mb-4 font-play">WE DO is one of the most reliable interior design and <b className= "text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">fit out companies in Dubai</a></b>, delivering full personalized services from idea development to finishings. Our services cover design, approvals, completion, and full project management. We are among the leading interior fit out companies in Dubai, providing high-end interiors.</p>
+              <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">3- Luxury Interior Design Dubai Creek Harbour</h3>
+              <p className="text-white text-sm sm:text-base mb-4 font-play">We are professional in <b className= "text-[#caa193]"><a href="https://wedointerior.ae/interior-design-dubai">luxury interior design Dubai</a></b> services are specific for high-end apartments and penthouses in Dubai Creek Harbour. WE DO use quality materials, personalized completion, and customized detailing to craft elegant interiors that elevate the value of each Dubai Creek Harbour residential apartment.</p>
               
         
 
         </div>
         
        <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">4- Furniture Packages & Airbnb Setup</h3>
+          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">4- <b><a href="custom-furniture-joinery-dubai-creek-harbour">Furniture Packages & Airbnb Setup</a></b> </h3>
               <p className="text-white text-sm sm:text-base mb-4 font-play">WE DO offers client-focused solutions covering flexible furniture packages, Airbnb furnishing setups, and planning designed for rental optimization. We offer the best service that is iconic for owners specifically for short-term rental income in modern residences in Dubai Creek Harbour, making sure faster occupancy and profitable returns.</p>
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">5- Dubai Creek Harbour Apartment Renovation</h3>
               <p className="text-white text-sm sm:text-base mb-4 font-play">We provide full Dubai Creek Harbour Apartment Renovation solutions that cover layout elevates, interior modernization, and value enhancement. Our interior design and renovation concept gives attention to improving both elegance and ROI, creating older units competitive and valuable in the market.</p> 
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight"> 6- Commercial Interior Design in Dubai Creek Harbour</h3>
-              <p className="text-white text-sm sm:text-base mb-4 font-play">Seeking an expert interior designer Dubai commercial services? WE DO craft retail stores, cafés, restaurants, and <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior designs</a></b> with a deep focus on branding and practicality. We are one of the top interior companies in Dubai, offering commercial spaces that are both visually appealing and operationally exclusive.</p>
+              <p className="text-white text-sm sm:text-base mb-4 font-play">Seeking an expert interior designer Dubai commercial services? WE DO craft <b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-interior-design-dubai-creek-harbour">retail stores</a></b>, <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai-creek-harbour">cafés</a></b>,  <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design-dubai-creek-harbour">restaurants</a></b>, and <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">office interior designs</a></b> with a deep focus on branding and practicality. We are one of the top interior companies in Dubai, offering commercial spaces that are both visually appealing and operationally exclusive.</p>
         </div>
       </div>
            
@@ -257,7 +258,7 @@ const AboutSection = () => {
                           <li>Studio Apartments</li>
                             <li>1 Bedroom Apartments</li>
                             <li>2–3 Bedroom Apartments</li>
-                            <li>Luxury Penthouses</li>
+                            <li><a href="https://wedointerior.ae/penthouse-interior-design-dubai-creek-harbour">Luxury Penthouses</a></li>
                             <li>Waterfront Residences</li>
                             <li>Serviced Apartments</li>
                             <li>Short-Term Rental Units</li>
