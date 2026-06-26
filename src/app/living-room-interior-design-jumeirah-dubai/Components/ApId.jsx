@@ -22,7 +22,7 @@ const ApId = () => {
 Maybe that's why so many living rooms just feel a bit off. Not bad exactly,  just not quite right, and nobody can really say why.
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              That's usually where living room interior design in Jumeirah starts for us, figuring out what this particular room needs to do for your particular family, and building from there. A lot of Jumeirah villas have living rooms with genuinely good bones too. High ceilings, decent natural light, sometimes a garden view right there, and none of it gets used properly because the room was never really planned around it in the first place.
+              That's usually where <b className="text-[#caa193]"><a href="https://wedointerior.ae/living-room-interior-design-jumeirah-dubai">living room interior design in Jumeirah</a></b> starts for us, figuring out what this particular room needs to do for your particular family, and building from there. A lot of Jumeirah villas have living rooms with genuinely good bones too. High ceilings, decent natural light, sometimes a garden view right there, and none of it gets used properly because the room was never really planned around it in the first place.
                           </p>
             
 

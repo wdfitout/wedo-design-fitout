@@ -22,7 +22,7 @@ const ApId = () => {
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               It happens through joinery. Joinery is one of the most critical yet often ignored aspects of any interior because it stands at the junction between interior design and its real-life application.
-WE DO provides premium joinery services Dubai for residential projects, retail spaces, hospitality spaces, and commercial interiors with customized fabrication and impeccable installation.
+WE DO provides <b className="text-[#caa193]"><a href="https://wedointerior.ae/joinery-company-dubai"> premium joinery services Dubai </a></b> for residential projects, retail spaces, hospitality spaces, and commercial interiors with customized fabrication and impeccable installation.
                           </p>
 
                           <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">

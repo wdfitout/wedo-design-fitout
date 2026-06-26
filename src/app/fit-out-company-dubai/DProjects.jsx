@@ -148,7 +148,7 @@ const DProjects = () => {
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
               At WE DO, our approach starts with one belief:
-              Great interiors are created when design and delivery remain connected. We operate as a fully integrated Fitout and interior design company Dubai, bringing planning, approvals, execution, and coordination together from day one. This system eliminates many of the challenges faced by our clients with respect to conventional forms of project execution.
+              Great interiors are created when design and delivery remain connected. We operate as a fully integrated <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Fitout and interior design company Dubai</a></b>, bringing planning, approvals, execution, and coordination together from day one. This system eliminates many of the challenges faced by our clients with respect to conventional forms of project execution.
             </p>
             <p className="text-justify">
               Instead of working with numerous consultants and contractors, our client deals with only one team who is accountable for the entire process. The scope of approvals includes items such as Dubai Municipality, Civil Defense, DEWA Coordination, Landlord Approvals, and Project Compliance.
@@ -319,7 +319,7 @@ const DProjects = () => {
               Areas We Deliver Fitout Projects Across Dubai
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
-              Our team delivers projects across major residential and commercial locations including Downtown Dubai, Business Bay, DIFC, Jumeirah, Dubai Marina, JBR, Palm Jumeirah, Al Barsha, Dubai Hills, Deira, and Bur Dubai. Each location creates different design expectations, authority requirements, and operational needs.
+              Our team delivers projects across major <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-dubai"> residential and commercial locations </a></b> including Downtown Dubai, Business Bay, DIFC, Jumeirah, Dubai Marina, JBR, Palm Jumeirah, Al Barsha, Dubai Hills, Deira, and Bur Dubai. Each location creates different design expectations, authority requirements, and operational needs.
             </p>
             <p className="text-sm sm:text-base text-white text-justify font-play">
               That local understanding helps us adapt while maintaining consistent standards. Clients searching for a Fitout company near me Dubai often discover that experience across multiple communities creates better results than working only within one niche.
@@ -327,14 +327,15 @@ const DProjects = () => {
           </div>
           <div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28882.11586523091!2d55.22557672152865!3d25.194273577322997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43da3ca3ffb7%3A0x6fb26207f2df47b3!2sJumeirah%20-%20Dubai!5e0!3m2!1sen!2sae!4v1717680000000!5m2!1sen!2sae"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231011.6968037307!2d55.111943845625345!3d25.193245468798935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a6d4bc5%3A0x62a339193f0ac809!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1719380000000!5m2!1sen!2sae"
+  width="100%"
+  height="100%"
+  style={{ border: 0, minHeight: '450px' }} // minHeight layout maintain rakhne ke liye hai
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  
+></iframe>
           </div>
 
           <h2 className="text-lg md:text-xl font-conthrax text-[#caa193] pt-6 uppercase">
@@ -348,52 +349,52 @@ const DProjects = () => {
             A fitout company transforms a space into a finished, functional environment through planning, execution, coordination, and completion.
           </p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+         <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             How much does a fitout cost in Dubai?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             Project requirements vary depending on scope, finishes, approvals, and complexity.
           </p>
 
           <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             How long does a fitout project take in Dubai?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             Timelines depend on project type and delivery requirements.
           </p>
 
-          <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
+         <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             Do you handle all approvals as part of the fitout service?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             Yes. Approval coordination is included within our process.
           </p>
           
           <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             What types of fitout projects do you specialise in?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             Residential, commercial, hospitality, renovation, and turnkey interiors.
           </p>
 
           <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             What areas in Dubai do you cover?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             We deliver projects across major communities throughout Dubai.
           </p>
 
           <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             What is the difference between Cat A and Cat B fitout?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+          <p className="text-sm sm:text-base text-white text-justify font-play">
             Cat A focuses on base preparation while Cat B includes customised fitout.
           </p>
 
           <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
             How do I choose the right fitout company in Dubai?
           </h3>
-          <p className="text-sm sm:text-base text-white text-justify font-play pb-6">
+           <p className="text-sm sm:text-base text-white text-justify font-play">
             Look for integrated delivery, approvals knowledge, project experience, and transparent communication.
           </p>
 
@@ -405,7 +406,7 @@ const DProjects = () => {
             <p className="text-sm sm:text-base text-white text-justify font-play">
               Your project deserves more than separate teams trying to coordinate. Work with one team that plans carefully, builds responsibly, and stays accountable from first conversation to final handover.
             
-              Book your free consultation today and start your project with WE DO Interior Design & Fitout.
+              Book your free consultation today and <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us"> start your project with WE DO Interior Design & Fitout </a></b>.
             </p>
           </div>
         </div>

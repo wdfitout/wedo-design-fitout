@@ -15,15 +15,10 @@ const ApId = () => {
           {/* Text Column */}
           <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2 text-justify">
-            Beachfront Hospitality Interior Design in Jumeirah Dubai
+             Villa Interior Design Jumeirah
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              A beachfront hospitality venue is never judged only by its location. Guests may arrive because of the sea view, but what makes them stay, spend more, return again, and recommend the experience is the environment around them.
-              </p>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Through WE DO, we deliver a luxurious and high-quality offering of <b className="text-[#caa193]"><a href="https://wedointerior.ae/beachfront-hospitality-interior-jumeirah-dubai">Hospitality Interior Jumeirah Beachfront </a></b> ideas. These ideas integrate an appealing atmosphere, functionality, material quality, and guest experience in order to assist hospitality brands in creating a unique destination.
-Whether it is a fashionable beach club, restaurant, boutique hospitality area, or resort setting, our interior design services provide a perfect solution.
-            </p>
+             Jumeirah is more than a single neighbourhood. This consists of a number of existing and upcoming residential neighborhoods, such as Jumeirah 1, Jumeirah 2, Jumeirah 3, Pearl Jumeirah, Jumeirah Bay Island, La Mer, and Umm Suqeim. At WE DO Interior Design & Fitout, we offer villa interior design services in Jumeirah, luxury villa interior designs in Dubai, as well as custom villa interiors in Dubai to residents of all these neighborhoods.                </p>
             
 
             {/* Highlight Box */}

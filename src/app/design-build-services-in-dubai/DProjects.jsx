@@ -114,7 +114,7 @@ const DProjects = () => {
             Many clients hear the phrase design and build but are not always sure how it works.The traditional construction model separates design and execution. A client hires a designer. Concepts and visuals are created. After approvals, contractors are invited to quote and build. Although this seems flexible, it creates handovers between teams at multiple stages. Small details get lost. Budgets change. Technical decisions affect original concepts. Responsibilities become unclear.
           </p>
           <p className="text-justify">
-            The Design and build company Dubai model works differently. One integrated team manages the entire process. Design decisions happen with construction realities already considered. Construction planning starts earlier. Communication becomes faster. The approved concept remains protected throughout delivery. This creates better alignment between expectations and results. It also allows projects to move with greater consistency because fewer parties are involved.
+            The <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Design and build company Dubai </a></b> model works differently. One integrated team manages the entire process. Design decisions happen with construction realities already considered. Construction planning starts earlier. Communication becomes faster. The approved concept remains protected throughout delivery. This creates better alignment between expectations and results. It also allows projects to move with greater consistency because fewer parties are involved.
          
             This approach works effectively across both Residential design and build Dubai and Commercial design and build Dubai environments. For homeowners, it reduces stress. For businesses, it reduces operational delays. For investors, it creates more predictable outcomes.
           </p>
@@ -191,7 +191,7 @@ const DProjects = () => {
               Commercial projects require strong coordination. Our team delivers offices, hospitality spaces, retail environments, wellness concepts, and mixed-use interiors. Our Interior design and build Dubai process reduces interruptions and supports smoother project delivery.
             </p>
             <p className="text-justify">
-              <b className="text-[#caa193]">Interior Fitout Design and Build</b><br />
+              <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai"> Interior Fitout Design and Build </a></b><br />
               Our Design build fitout Dubai solutions combine design development, procurement, coordination, and execution into one streamlined system. This reduces unnecessary complexity.
             </p>
             <p className="text-justify">
@@ -292,7 +292,7 @@ const DProjects = () => {
                 <b className="text-[#caa193]">Approvals —</b> Required approvals are incorporated into the delivery timeline.
               </p>
               <p className="text-justify">
-                <b className="text-[#caa193]">Construction & Build —</b> Execution follows approved documentation while maintaining design integrity. Coordination continues throughout implementation.
+                <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-construction-dubai"> Construction & Build —</a></b> Execution follows approved documentation while maintaining design integrity. Coordination continues throughout implementation.
               </p>
               <p className="text-justify">
                 <b className="text-[#caa193]">Handover & Aftercare —</b> Final review, completion support, and transition planning ensure a smooth project closeout.
@@ -396,14 +396,15 @@ const DProjects = () => {
         {/* Map Container Block */}
         <div className="w-full rounded-lg overflow-hidden shadow-lg my-4" style={{ height: "350px" }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28882.11586523091!2d55.22557672152865!3d25.194273577322997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43da3ca3ffb7%3A0x6fb26207f2df47b3!2sJumeirah%20-%20Dubai!5e0!3m2!1sen!2sae!4v1717680000000!5m2!1sen!2sae"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231011.6968037307!2d55.111943845625345!3d25.193245468798935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a6d4bc5%3A0x62a339193f0ac809!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1719380000000!5m2!1sen!2sae"
+  width="100%"
+  height="100%"
+  style={{ border: 0, minHeight: '450px' }} // minHeight layout maintain rakhne ke liye hai
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  
+></iframe>
         </div>
 
         {/* FAQ Section */}
@@ -473,7 +474,7 @@ const DProjects = () => {
               </h2>
               <p className="text-justify">
             Your project should not depend on multiple teams trying to coordinate. Work with one partner that designs smarter, builds responsibly, and stays accountable from first consultation to final handover.
-Book your free consultation today and receive a clear roadmap for your project with WE DO Interior Design & Fitout.
+<b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us"> Book your free consultation today </a></b> and receive a clear roadmap for your project with WE DO Interior Design & Fitout.
           </p>
             </div>
           </div>

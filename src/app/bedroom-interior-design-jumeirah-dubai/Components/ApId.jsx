@@ -19,10 +19,10 @@ const ApId = () => {
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               Bedrooms are expected to be the most comfortable room in a home, yet they are often the most overlooked. In many homes, the living room receives the investment, the kitchen gets renovated, and the bedroom ends up becoming an afterthought.
-That gap is exactly what bedroom interior design in Jumeirah is meant to close. Not just making a room look nice in photos, but making it a space that actually helps you switch off at the end of the day and feel ready to start the next one.
+That gap is exactly what <b className="text-[#caa193]"><a href="https://wedointerior.ae/bedroom-interior-design-jumeirah-dubai">bedroom interior design in Jumeirah</a></b> is meant to close. Not just making a room look nice in photos, but making it a space that actually helps you switch off at the end of the day and feel ready to start the next one.
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              At WE DO Interior Design & Fitout we have renovated various rooms of different types of villas, apartments, master rooms, guest rooms, kids’ rooms, but their specification never changes. It is not enough for customers to have their rooms attractive. What they require is rooms that are comfortable and properly arranged.
+              At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b> we have renovated various rooms of different types of villas, apartments, master rooms, guest rooms, kids’ rooms, but their specification never changes. It is not enough for customers to have their rooms attractive. What they require is rooms that are comfortable and properly arranged.
                           </p>
             
 

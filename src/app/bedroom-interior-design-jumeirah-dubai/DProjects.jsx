@@ -191,7 +191,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Children's & Guest Bedroom Design</b><br />
-              Children's rooms need to grow with the child, functional storage, quality materials, and a design that does not require replacing each couple of years. Guest rooms benefit from a slightly more neutral, hotel-like calm that works for any visitor. As a specialist in children's bedroom interior design Jumeirah, we design rooms that are genuinely lived in, not just decorated.
+              Children's rooms need to grow with the child, functional storage, quality materials, and a design that does not require replacing each couple of years. Guest rooms benefit from a slightly more neutral, hotel-like calm that works for any visitor. As a specialist in children's bedroom <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-jumeirah-dubai">interior design Jumeirah</a></b>, we design rooms that are genuinely lived in, not just decorated.
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Smart Home Integration</b><br />
@@ -398,7 +398,7 @@ const DProjects = () => {
           If your bedroom has stopped feeling like the retreat it should be, too cluttered, too tired, or simply never quite finished, that is exactly where we like to start.
 WE DO Interior Design & Fitout has redesigned bedrooms across Jumeirah's villas and apartments, and we know how to turn an overlooked room into the one you actually look forward to walking into.
 
-         Book your complimentary site visit today. We will visit your home, understand how the space is being used, identify what could work better, and provide practical design recommendations along with a fully itemised estimate.        </p>
+        <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us">Book your complimentary site</a></b> visit today. We will visit your home, understand how the space is being used, identify what could work better, and provide practical design recommendations along with a fully itemised estimate.        </p>
       </div>
     </div>
             </div>

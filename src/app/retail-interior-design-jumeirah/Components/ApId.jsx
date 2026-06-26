@@ -22,7 +22,7 @@ const ApId = () => {
 A great retail environment results in trust, added value of the brand, more exploration, and loyalty from the consumers.
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              We at WE DO offer top-notch Retail interior design Jumeirah Dubai services for clients who wish for their retail stores to be destinations. We provide designs that integrate aspects of branding, experience, and commercial success in order to create spaces that not only look amazing but function well on a day-to-day basis.
+              We at WE DO offer top-notch <b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-interior-design-jumeirah"> Retail interior design Jumeirah Dubai services </a></b> for clients who wish for their retail stores to be destinations. We provide designs that integrate aspects of branding, experience, and commercial success in order to create spaces that not only look amazing but function well on a day-to-day basis.
 Whatever your project involves, whether you have just set up a luxury boutique, you wish to open a concept store, are renovating an old retail space or creating a new flagship space, we are here to provide you with designs that will truly impress your customers.
             </p>
             

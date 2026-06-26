@@ -22,7 +22,7 @@ const ApId = () => {
 The best fitout is about knowing how people live, work, shop, and interact and providing them with interiors that cater to all of these aspects. This is especially true when it comes to fitouts in Dubai, where the client expects everything to be done well, from looking good to performing well. That is exactly why choosing the right fitout partner matters.
                           </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              At WE DO, we deliver complete Fitout company Dubai solutions through one integrated team responsible for design coordination, approvals, project delivery, fitout execution, and final handover. We do not treat fitout as construction alone. It is seen as a transformation of possibility into an environment that functions perfectly in the real world.
+              At WE DO, we deliver <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai"> complete Fitout company Dubai solutions </a></b> through one integrated team responsible for design coordination, approvals, project delivery, fitout execution, and final handover. We do not treat fitout as construction alone. It is seen as a transformation of possibility into an environment that functions perfectly in the real world.
                           </p>
 
                           <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">

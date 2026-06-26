@@ -9,18 +9,20 @@ const textImage = {
   title: 'Interior Design Trends In Business Bay'
 };
 
-
 const TestimonialCarousel = () => {
   const testimonials = [
-   {
-  quote: "WE DO worked on our villa in Jumeirah 2 and the result matched what we discussed at the start. The team kept us updated throughout, which made the whole process easier.",
-  author: "Villa Owner, Jumeirah ⭐⭐⭐⭐⭐",
-},
-{
-  quote: "We needed a full renovation on our property near Umm Suqeim and weren't sure where to start. The team handled the design and the construction side together, which saved us a lot of back and forth.",
-  author: " Villa Renovation Client ⭐⭐⭐⭐⭐",
-},
-
+    {
+      quote: "Choosing WE DO for our Villa construction Dubai project gave us confidence from planning to completion. The finished home feels exactly how we imagined.",
+      author: "Ahmed R. — Homeowner, Dubai Hills ⭐⭐⭐⭐⭐",
+    },
+    {
+      quote: "Their Villa building Dubai process created clarity throughout construction and removed the coordination challenges we expected.",
+      author: " Sarah M. — Villa Owner, Jumeirah ⭐⭐⭐⭐⭐",
+    },
+    {
+      quote: "Working with one Villa contractor Dubai team made delivery smoother and the overall experience significantly easier.",
+      author: "Omar K. — Property Investor ⭐⭐⭐⭐⭐",
+    },
   ];
 
   const [idx, setIdx] = React.useState(0);
@@ -44,7 +46,7 @@ const TestimonialCarousel = () => {
   return (
     <div className="bg-black-300 p-6 rounded-lg border-l-4 border-[#caa193] my-6 font-play text-white">
       <h2 className="text-lg font-conthrax text-[#caa193] uppercase tracking-wider mb-3 text-justify">
-   What Clients Say
+        What Our Villa Construction Clients Say
       </h2>
 
       <div
@@ -91,163 +93,128 @@ const TestimonialCarousel = () => {
     </div>
   );
 };
+
 const DProjects = () => {
   return (
     <section className="px-6 py-5 bg-black-200">
       
       {/* Top Content Block */}
       <div className="lg:max-w-[80%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
-  
-  <div className="space-y-4 text-sm sm:text-base font-play text-white ">
-    
-    <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-  Our Villa Interior Design Services
-</h2>
+        <div className="space-y-4 text-sm sm:text-base font-play text-white ">
+          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+            Our Villa Construction Services in Dubai
+          </h2>
 
- <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Living Room and Majlis</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">These two areas can be described as social spaces in the home since this is the area where not only the members of the family but also visitors gather. We always start with making sure you are comfortable, and then we pick out the furniture, lights, and colours to match your tastes.To homeowners desiring the traditional majlis, we come up with designs that are not only comfortable but also match their existing interiors.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Master Bedroom and Guest Rooms</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">Bedrooms are to have a peaceful environment. The emphasis is on the flexibility of lighting, high-end fabrics, and organizational systems that maintain the order and cleanliness. The guest bedrooms are given similar consideration for the comfort of the visitors.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Kitchen and Dining Interiors</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">A kitchen requires you to manage daily cooking and still look right when you're entertaining. Open kitchen and dining layouts are common in villas across Jumeirah 1, 2, and 3, and we'll help you decide if that layout suits your home or if a more closed layout works better.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Children's Rooms Interior Design</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">Kids' rooms take a beating. We design spaces that are safe, easy to maintain, and can be adjusted as children get older.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Home Offices Interior</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">A proper home office has become a regular request across most of our projects. We design these to be quiet and functional without feeling out of place in the rest of the house.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Outdoor and Terrace Areas</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">Most of the villas found in Umm Suqeim, Jumeirah 3, and Pearl Jumeirah feature gardens, terraces, and pool decks that can be transformed into functional outdoor living spaces. Our team ensures that such areas are maximally utilized all year long.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Full Villa Renovation Dubai</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">For older villas that require more than a simple refresh, Our villa renovation in Jumeirah service includes layout modifications, structural upgrades, space reconfiguration, and complete interior transformations. It is here that our expertise of luxury villa renovations in Dubai comes in handy, particularly in older houses within Jumeirah 1 and Umm Suqeim.</p>
-        </li>
-        <li>
-          <h3 className="font-play font-bold text-base text-justify">Villa Design and Build</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">For older villas that require more than a simple refresh, our <b className="text-[#caa193]"><a href="/design-build-services-in-dubai">villa design and build in Dubai</a></b> service covers the project from layout planning through to interiors, so the architecture and the interior design are planned together rather than as separate steps. As an experienced villa design company Dubai, we ensure both architecture and interiors work together seamlessly.</p>
-        </li>
-      </ul>
-
-
-  </div>
-</div>
+          <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">New Villa Construction — Full Build</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Our New villa construction Dubai service supports homeowners developing completely new residential properties from empty plots through final handover. This process includes planning coordination, technical delivery, structural execution, finishing, and completion support. Every stage is designed to remain connected so the final home reflects the original intention.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">Custom Villa Design & Build</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">No two families live the same way. That is why our Custom villa construction Dubai and <b className="text-[#caa193]"><a href="https://wedointerior.ae/design-build-services-in-dubai"> Villa design and build Dubai services </a></b> focus on creating homes around individual lifestyles instead of standard formulas. Some homeowners prioritise entertainment spaces. Others focus on privacy, family living, natural light, wellness, or future flexibility. We build around those priorities.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">Structural & Civil Works</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Strong homes begin below the surface. Structural quality influences longevity, stability, and performance. Our construction teams coordinate civil and structural execution with close attention to sequencing and technical standards.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">MEP — Mechanical, Electrical & Plumbing</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Good homes feel effortless to live in. That experience depends heavily on systems homeowners rarely notice directly. Integrated MEP planning improves comfort, efficiency, and long-term functionality.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify"><b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai"> Interior Fitout & Finishing </a></b></h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Construction becomes a home through finishing. Material transitions, detailing, lighting integration, cabinetry, and final environments determine how the villa feels once occupied.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify"><b className="text-[#caa193]"><a href="https://wedointerior.ae/landscape-design-dubai"> Landscaping & External Works Coordination </a></b></h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">The experience of a villa begins before entering the front door. External areas create arrival moments and shape everyday living.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">Dubai Municipality Approvals & Permits</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Approval coordination remains integrated into delivery planning to support smoother progress.</p>
+            </li>
+            <li>
+              <h3 className="font-play font-bold text-base text-justify">Project Management — Start to Handover</h3>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Construction requires constant alignment between teams, schedules, and decisions. Our management process keeps everything moving in the same direction.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
 
       {/* Split Row – Text + Top Right Image */}
       <div className="max-w-7xl mx-auto">
-  <h2 className="text-center text-3xl font-conthrax text-white py-12 uppercase">
-   
-   Current Villa Interior Design Trends in Jumeirah
-  </h2>
+        <h2 className="text-center text-3xl font-conthrax text-white py-12 uppercase">
+          Building a Villa in Dubai — What You Need to Know First
+        </h2>
 
-  {/* Section 1: Text Left, Image Right */}
-  <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
-    <div className="space-y-6 text-white font-play">
-      <p className="text-justify">
-  Tastes shift over time, and these are the <b className="text-[#caa193]"><a href="/villa-interior-design-dubai">modern villa interior design in Jumeirah</a></b> ideas we're getting asked about most often right now:
-  </p>
-           <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Warm minimalism</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">Those that have a neat design with straight lines, while simultaneously integrating nature into the design by way of using natural colors and textures without making the room too cold.</p>
-  </li>
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Indoor Outdoor Living</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">This style is particularly popular with villa owners who have gardens and pools privately, especially those in areas like Umm Suqeim and Jumeirah 3.</p>
-  </li>
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Statement Lighting Control</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">Modern villas today need to have layered lighting design with statement pendants alongside smart lighting control systems.</p>
-  </li>
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Natural materials</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">Wood, stone, rattan, and linen are replacing some of the all-glossy, all-white finishes that were popular a few years back.</p>
-  </li>
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Smart home features</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">Automated lighting, climate control, and security systems are now standard requests for luxury home interior design in Dubai, not just extras.</p>
-  </li>
-  <li>
-    <h3 className="font-play font-bold text-base text-justify">Storage built into the design</h3>
-    <p className="text-white font-play text-sm sm:text-base text-justify">Walk-in closets, kitchen organisation systems, and built-in storage are getting just as much attention as the visible finishes.</p>
-  </li>
-  
-</ul>
-      
-    </div>
+        {/* Section 1: Text Left, Image Right */}
+        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
+          <div className="space-y-6 text-white font-play">
+            <p className="text-justify">
+              Building a villa in Dubai creates opportunities that very few property decisions can offer. You are not selecting from existing layouts or compromising around previous choices. Instead, you shape the home around your lifestyle, your priorities, and the way you want everyday life to work. That freedom also creates responsibility. Villa construction is rarely as straightforward as clients initially expect because the visible construction phase represents only part of the process. Before construction starts, decisions around planning, coordination, authority requirements, technical integration, design direction, and project sequencing already influence timelines and outcomes.
+            </p>
+            <p className="text-justify">
+              Dubai’s residential market includes different development conditions depending on location, plot requirements, authority approvals, and project objectives. This means successful projects are rarely created through isolated decisions. Many villa projects encounter problems because the process becomes fragmented. A designer develops concepts. Technical drawings move elsewhere. Contractors interpret the information later. Site decisions begin changing the original vision. Eventually the homeowner becomes responsible for coordinating everyone. This approach often creates unnecessary complexity.
+            </p>
+            <p className="text-justify">
+              As a specialist <b className="text-[#caa193]"><a href="https://wedointerior.ae/complete-villa-construction-dubai"> Villa construction company Dubai </a></b>, our process connects every stage under one delivery structure. Design teams understand construction realities. Execution teams understand design priorities. Approvals remain aligned. Communication becomes simpler. Clients receive one clear process instead of multiple disconnected conversations. For anyone planning to build a villa in Dubai, integration is often the difference between a stressful experience and a successful one.
+            </p>
+          </div>
 
-    <div className="rounded-lg overflow-hidden shadow-md">
-      <Image
-        src="/images/pjapt (6).webp"
-        alt="Round luxury bed with fairy lights"
-        width={600}
-        height={400}
-        className="w-full h-auto object-cover"
-      />
-    </div>
-  </div>
-</div>
+          <div className="rounded-lg overflow-hidden shadow-md">
+            <Image
+              src="/images/construction (5).jpeg"
+              alt="Luxury Villa Structure"
+              width={600}
+              height={400}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
 
-      
-
-      {/* Emaar Fit-Out Approvals Section */}
+      {/* Why Villa Construction Needs More Than Just a Contractor */}
       <div className="max-w-7xl mx-auto">
-  <h2 className="text-center text-3xl font-conthrax text-white py-12 uppercase">
-  Choosing the Right Materials for Jumeirah's Climate
-  </h2>
+        <h2 className="text-center text-3xl font-conthrax text-white py-12 uppercase">
+          Why Villa Construction Needs More Than Just a Contractor
+        </h2>
 
-  {/* Section 1: Text Left, Image Right */}
-  <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
-    <div className="space-y-6 text-white font-play">
-      <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-    <p className="text-justify">
-      Material choices matter more here than in most places. Dubai's heat, humidity, and coastal conditions can quickly affect materials that are not selected for the local environment. As part of our residential interior design in Jumeirah process, we recommend materials based on how they perform locally, not just how they look in a showroom:
-    </p>
-    <ul className="list-disc pl-5 space-y-2 text-[#caa193]">
-      <li className="text-white font-play text-sm sm:text-base text-justify"><b className="text-[#caa193]">Porcelain or natural stone flooring</b> – stays cooler underfoot and holds up well over time</li>
-      <li className="text-white font-play text-sm sm:text-base text-justify"><b className="text-[#caa193]">Quartz and marble surfaces</b> – good for kitchens and bathrooms where heat and moisture are constant</li>
-      <li className="text-white font-play text-sm sm:text-base text-justify"><b className="text-[#caa193]">UV-resistant fabrics</b> – important for villas with large windows and direct sunlight, common in Pearl Jumeirah and La Mer properties</li>
-      <li className="text-white font-play text-sm sm:text-base text-justify"><b className="text-[#caa193]">Moisture-resistant paints</b> – help prevent damage in kitchens, bathrooms, and laundry areas</li>
-      <li className="text-white font-play text-sm sm:text-base text-justify"><b className="text-[#caa193]">Treated wood or engineered timber</b> – gives a warm look without the risk of warping</li>
-    </ul>
-    <p className="text-justify pt-2">
-      We also factor in ventilation and natural light when planning layouts, which can help keep cooling costs down over time.
-    </p>
-  </div>
-      
-    
-    </div>
+        {/* Section 1: Text Left, Image Right */}
+        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
+          <div className="space-y-6 text-white font-play">
+            <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+              <p className="text-justify">
+                Many homeowners assume construction quality is mainly determined by who is on site. In reality, quality is often determined long before construction begins. Most problems appear when drawings and execution stop speaking the same language. Architectural concepts can look exceptional. But if technical coordination, construction sequencing, and finishing standards are not managed together, the final result starts moving away from the original intention. This is one of the biggest reasons homeowners feel disappointed after completion despite investing heavily.
+              </p>
+              <p className="text-justify">
+                Construction becomes reactive. Decisions become rushed. Timelines extend. Finishes become inconsistent. The problem is rarely effort. The problem is separation. Our integrated Villa construction and design Dubai approach keeps the entire project connected. Design decisions are reviewed against practical delivery requirements. Construction planning happens with final outcomes in mind. Interior detailing is considered early. Approvals remain connected to scheduling. This structure reduces common project issues while creating stronger control over the final result. Another major challenge in Dubai residential construction is timing.
+              </p>
+              <p className="text-justify">
+                Many villa delays happen because decisions are postponed until site work begins. When planning, coordination, and delivery operate together, projects move with more confidence. Quality also becomes easier to maintain. When one team owns both planning and execution, responsibility becomes clearer. That accountability creates better results.
+              </p>
+            </div>
+          </div>
 
-    <div className="rounded-lg overflow-hidden shadow-md">
-      <Image
-        src="/images/pjapt (7).webp"
-        alt="Round luxury bed with fairy lights"
-        width={600}
-        height={400}
-        className="w-full h-auto object-cover"
-      />
-    </div>
-  </div>
-</div>
+          <div className="rounded-lg overflow-hidden shadow-md">
+            <Image
+              src="/images/construction (6).jpeg"
+              alt="Villa Construction Site Execution"
+              width={600}
+              height={400}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
 
       {/* Bottom CTA Section */}
       <div className="bg-[#f5ede5] py-10 text-center space-y-4">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase text-black">
-          Get In Touch With Us
+           Get In Touch With Us
         </h3>
         <p className="text-sm sm:text-base font-play text-black text-center">
-          We are located in the world's luxury city, Dubai
-        </p>
+           We are located in the world's luxury city, Dubai         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
           <a
             href="https://wa.me/971588075603"
@@ -266,34 +233,26 @@ const DProjects = () => {
         </div>
       </div>
 
-      {/* Why restaurant Owners Choose Us & Testimonial Section */}
+      {/* Why Dubai Villa Owners Choose WE DO for Construction */}
       <div className="lg:max-w-[90%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12">
+        <div className="space-y-6">
+          <h2 className="text-center text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+            Why Dubai Villa Owners Choose WE DO for Construction
+          </h2>
+          
+          <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+            <p className="text-justify">
+              Villa owners choose WE DO because homes deserve more than disconnected project delivery. With our integrated approach, we are able to put together our design abilities, approvals knowledge, technical coordination skills, construction services, fitout services, and post-completion services all into one structure. Our aim is to build a project that remains consistent from the first point of contact to completion. The process becomes much easier for our clients. Our communication skills, dependability, and design ability are highly appreciated by our clients.
+            </p>
+            
+          </div>
+        </div>
         
-<div className=" space-y-6">
-  <h2 className="text-center text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-    Why Work With a Professional Design Team
-  </h2>
-  
-  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-    <p className="text-justify">
-      Some homeowners try to manage interior projects themselves, or hire separate contractors for different rooms. This often costs more in the long run, with mismatched designs, delays, and unexpected expenses.
-    </p>
-    <p className="text-justify font-bold ">
-      Working with one team for your <b className="text-[#caa193]"><a href="/luxury-villa-interior-design-in-dubai">villa interior design in Jumeirah</a></b> project means:
-    </p>
-    <ul className="list-disc pl-5 space-y-2 text-white">
-      <li className="text-sm sm:text-base text-justify">A consistent design across the whole villa, instead of rooms that feel disconnected from each other</li>
-      <li className="text-sm sm:text-base text-justify">Fewer delays, since one team manages the schedule instead of multiple contractors working separately</li>
-      <li className="text-sm sm:text-base text-justify">Better pricing through established supplier relationships</li>
-      <li className="text-sm sm:text-base text-justify">One point of contact for the entire project, from planning to handover</li>
-    </ul>
-  </div>
-</div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (8).webp"
-              alt="Elegant blue bedroom interior"
+              src="/images/construction (7).jpeg"
+              alt="Premium Villa Execution Finish"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -301,8 +260,7 @@ const DProjects = () => {
           </div>
 
           {/* Testimonial Block */}
-        {/* Testimonial Carousel Block */}
-<TestimonialCarousel />
+          <TestimonialCarousel />
         </div>
       </div>
 
@@ -310,168 +268,110 @@ const DProjects = () => {
       <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full space-y-4">
           <div className="space-y-8">
-  
-
-<div className="pt-6 border-t border-gray-800 space-y-6">
-  <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-    How We Work
-  </h2>
-  
-  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-    <ul className="space-y-4 text-[#caa193]">
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">Initial Consultation</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">We begin with a consultation to understand your lifestyle, design preferences, budget, and project goals.</p>
-      </li>
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">Site Visit</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">Visit to the Villa Our specialists will visit your villa and measure the space while assessing the current condition of the property, whether it is an old building at Jumeirah 2 or a new building in Jumeirah Bay Island.</p>
-      </li>
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">Design Concept and 3D Visuals</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">We put together a design plan with 3D renderings, so you can see what the finished space will look like before any work starts.</p>
-      </li>
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">Material and Furniture Selection</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">You choose from a range of finishes and furniture options that fit your style and budget, with our guidance.</p>
-      </li>
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">On-Site Fitout</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">The on-site fitout is done by our crew, while keeping you updated on its progress at all times.</p>
-      </li>
-      <li>
-        <h3 className="font-play font-bold text-base text-justify">Final Styling and Handover</h3>
-        <p className="text-white font-play text-sm sm:text-base text-justify">We complete the final styling, install accessories and soft furnishings, and prepare your villa for handover</p>
-      </li>
-    </ul>
-  </div>
-</div>
-
-{/* ==================== NEWLY ADDED CONTENT SECTIONS ==================== */}
-
-{/* Areas We Cover Section */}
-<div className="pt-8 border-t border-gray-800 space-y-6">
-  <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-    Areas We Cover
-  </h2>
-  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-    <p className="text-justify">
-      We provide villa interior design and fitout services across all of Jumeirah's communities, including:
-    </p>
-    <ul className="list-disc pl-5 space-y-2 text-[#caa193]">
-      <li className="text-white font-play text-sm sm:text-base">Jumeirah 1, Jumeirah 2, and Jumeirah 3</li>
-      <li className="text-white font-play text-sm sm:text-base">Pearl Jumeirah</li>
-      <li className="text-white font-play text-sm sm:text-base">Jumeirah Bay Island</li>
-      <li className="text-white font-play text-sm sm:text-base">La Mer</li>
-      <li className="text-white font-play text-sm sm:text-base">Umm Suqeim</li>
-      <li className="text-white font-play text-sm sm:text-base">Jumeirah Islands, Jumeirah Park, and Jumeirah Golf Estates</li>
-    </ul>
-    <p className="text-justify pt-2">
-      Wherever your villa is located, our specialists can visit, assess the space, and put together a plan that fits the property and the area it's in.
-    </p>
-  </div>
-</div>
-
-{/* Why Villa Owners Choose WE DO Section */}
-<div className="pt-8 border-t border-gray-800 space-y-6">
-  <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-    Why Villa Owners Choose WE DO
-  </h2>
-  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-    <p className="text-justify">
-      There's no shortage of villa fitout companies in Dubai, but here's what sets our villa interior design in Jumeirah services apart. We know the area, all of it. The villas in Jumeirah 1 and Umm Suqeim are typically older with bigger land space and more traditional floor plans. Meanwhile, new areas such as Pearl Jumeirah and Jumeirah Bay Island usually have shells that require further finishing before they become a true home. We have a lot of experience dealing with both types of properties.
-    </p>
-    <p className="text-justify">
-      The villa fitout in Jumeirah and custom villa interiors Dubai that we offer include floorings, ceilings, lighting, joineries, kitchen areas, wardrobe areas, and furniture design. You won't need to coordinate different contractors to deal with different parts of your home. The climate in Dubai will quickly erode any materials that aren't suited to it, especially near the coast, e.g., Pearl Jumeirah and La Mer.
-    </p>
-  </div>
-</div>
-</div>
-          {/* Map Embed */}
-
-          <div className="space-y-4">
-    <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-      Serving Jumeirah & Surrounding Areas
-    </h2>
-   
-  </div>
+            
+            <div className="pt-6 border-t border-gray-800 space-y-6">
+              <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+                Our Villa Construction Process
+              </h2>
+              
+              <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+                <p className="text-justify">
+                  Every villa begins differently but successful delivery follows a structured approach. The process starts with consultation and site assessment where project priorities, site opportunities, technical requirements, and expectations become clear. Once direction is established, design development begins. Layouts evolve. Technical integration starts. Approvals are coordinated. Construction planning becomes more detailed.
+                </p>
+                <p className="text-justify">
+                  Structural works then move into execution with sequencing planned to support later stages. As construction progresses, service integration and interior planning continue in parallel. This reduces unnecessary interruptions later. Interior fitout transforms the structure into a complete living environment. Finishing details receive attention because this is where quality becomes visible. External works complete the experience. The final stage focuses on handover, final review, and post-completion support. Each villa timeline varies depending on scope, size, approvals, and complexity but structured planning creates more predictable delivery.
+                </p>
+              </div>
+            </div>
+{/* Types of Villa Construction Projects We Deliver Section */}
+            <div className="pt-8 border-t border-gray-800 space-y-6">
+              <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase text-justify">
+                Types of Villa Construction Projects We Deliver:
+              </h2>
+              <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+               <p className="text-justify">
+                  Every villa project starts with different priorities. Some clients begin with empty land. Others already own properties that need transformation. Our team supports custom-built villas developed from new plots, luxury residential environments designed around premium living standards, villa extensions that expand existing spaces while maintaining consistency, complete demolish-and-rebuild projects that replace older properties with entirely new homes, and investment-focused villa developments created to support resale or rental performance.
+Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery"> Luxury villa construction Dubai projects </a></b> place equal attention on design quality and execution quality because one without the other never creates exceptional results.
+                </p>
+              </div>
+            </div>
+            {/* Dubai Areas We Build Villas In Section */}
+            <div className="pt-8 border-t border-gray-800 space-y-6">
+              <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+                Dubai Areas We Build Villas In
+              </h2>
+              <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+                <p className="text-justify">
+                  Our villa construction experience extends across some of Dubai’s most established residential communities. We support projects in:
+                </p>
+                <ul className="list-disc pl-5 space-y-2 text-[#caa193]">
+                  <li className="text-white font-play text-sm sm:text-base">Jumeirah, Al Barsha, and Mirdif</li>
+                  <li className="text-white font-play text-sm sm:text-base">Dubai Hills Estate</li>
+                  <li className="text-white font-play text-sm sm:text-base">Arabian Ranches</li>
+                  <li className="text-white font-play text-sm sm:text-base">Palm Jumeirah</li>
+                  <li className="text-white font-play text-sm sm:text-base">Mohammed Bin Rashid City</li>
+                  <li className="text-white font-play text-sm sm:text-base">Nad Al Sheba and Umm Suqeim</li>
+                </ul>
+                <p className="text-justify pt-2">
+                  Each location creates different planning conditions, architectural expectations, and project requirements. Our process adapts accordingly while maintaining consistency in delivery standards.
+                </p>
+              </div>
+            </div>
 <div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>
- <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28882.11586523091!2d55.22557672152865!3d25.194273577322997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43da3ca3ffb7%3A0x6fb26207f2df47b3!2sJumeirah%20-%20Dubai!5e0!3m2!1sen!2sae!4v1717680000000!5m2!1sen!2sae"
+           <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231011.6968037307!2d55.111943845625345!3d25.193245468798935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a6d4bc5%3A0x62a339193f0ac809!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1719380000000!5m2!1sen!2sae"
   width="100%"
   height="100%"
-  style={{ border: 0 }}
+  style={{ border: 0, minHeight: '450px' }} // minHeight layout maintain rakhne ke liye hai
   allowFullScreen=""
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
+  title="WE DO Villa Construction Dubai Location"
 ></iframe>
-  </div>
-         <h2 className="text-lg md:text-xl font-conthrax text-[#caa193] pt-6 uppercase">
-  Frequently Asked Questions
-</h2>
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  How long does a villa interior design project take? 
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
-  <b className="text-[#caa193]"><a href="/al-manara-luxury-villa"> Full villa projects</a></b> usually take 6 to 12 weeks. Smaller updates, like a single room, can be completed faster.
-   </p>
-  <h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-   Will I see the design before work begins? 
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
- Yes. We provide 3D visuals and mood boards so you know what to expect before construction starts.
-  </p>
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  Can you work with furniture I already own? 
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
- Yes. We can build the design around pieces you want to keep, or suggest small changes so they fit better with the new look.
-  </p>
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  Do you handle permits for renovation work?
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
-  Yes, our team takes care of the approvals needed for renovation projects across Jumeirah and surrounding communities.
-  </p>
-
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  Do you do both modern and traditional designs?
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
-  Yes, we can create designs in a modern style, an Arabic style, or even a combination of both styles.
-  </p>
-
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  Which materials are good for Dubai’s weather conditions?
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
-  Porcelain tiles, quartz stone, treated woods, and fabrics that resist UV rays should fare well in the hot, humid climate of the UAE, particularly around beaches such as those at La Mer and Pearl Jumeirah.
-  </p>
-
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
- Do you work on new builds as well as renovations?
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play">
- Yes. Alongside renovations, we also offer villa design and build services in Dubai for homeowners working on new properties, particularly in newer developments like Jumeirah Bay Island.
- </p>
-
-<h3 className="text-base md:text-sm font-conthrax text-[#caa193] pt-2 text-justify">
-  Is the consultation free?
-</h3>
-<p className="text-sm sm:text-base text-white text-justify font-play pb-6">
-  Yes, the initial consultation is free with no obligation to proceed.
-</p>
-          {/* Final Closing Content */}
-          <div className="pt-6 border-t border-gray-800">
+          </div>
+            {/* Frequently Asked Questions Section */}
+            <div className="pt-8 border-t border-gray-800 space-y-6">
+              <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
+                <ul className="space-y-4 text-[#caa193]">
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">How long does villa construction take in Dubai?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">Project timelines depend on approvals, complexity, scale, and specification requirements.</p>
+                  </li>
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">How much does it cost to build a villa in Dubai?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">Investment varies depending on project size, finishes, site conditions, and overall scope.</p>
+                  </li>
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">Do you handle Dubai Municipality approvals for construction?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">Yes. Approval coordination forms part of our integrated process.</p>
+                  </li>
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">Can you build a villa from an existing architectural design?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">Yes. Existing concepts can be reviewed and developed for construction delivery.</p>
+                  </li>
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">What areas in Dubai do you build villas in?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">We support projects across major villa communities throughout Dubai.</p>
+                  </li>
+                  <li>
+                    <h3 className="font-play font-bold text-base text-justify">What is included in a full villa construction project?</h3>
+                    <p className="text-white font-play text-sm sm:text-base text-justify">Scope may include planning, approvals, construction, MEP coordination, fitout, finishing, and handover.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+<div className="pt-6 border-t border-gray-800">
             <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] mb-2 text-justify">
-             Get Started on Your Villa Project
+             Ready to Build Your Dream Villa in Dubai?
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
-             Whether you're planning a complete villa renovation or simply updating a few key spaces, our team can help you create a home that reflects your lifestyle and preferences, kindly feel free to contact us at WE DO Interior Design & Fitout to come for an introductory discussion at no charge at all from your side. Be rest assured that regardless of where you reside whether in Jumeirah 1, Pearl Jumeirah, Jumeirah Bay Island, or anywhere else around, we will be in position to assess your needs and offer appropriate solutions.
-             </p>
-             <p className="text-sm sm:text-base text-white text-justify font-play">
-            Ready to transform your villa? Connect with WE DO Interior Design & Fitout today for a free consultation. Our team will assess your property, discuss your requirements, and create a tailored villa interior design solution for your Jumeirah home.
-             </p>
+            Your villa should not feel like a collection of contractors and decisions. It should feel like one clear vision delivered properly. Work with one team that manages the details, protects the design, and builds to the standard your home deserves.
+Book your free consultation today and start your villa journey with WE DO Interior Design & Fitout.
+            </p>
+          </div>
           </div>
         </div>
       </div>

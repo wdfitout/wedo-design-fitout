@@ -117,10 +117,10 @@ const DProjects = () => {
             <b className=" text-[#caa193] ">The light is more intense, and it moves differently.</b> Rooms that overlook the sea get a certain kind of natural lighting that is not seen elsewhere. They can be bright and sometimes even harsh at various times of the day.
           </p>
           <p className="text-justify">
-            <b className=" text-[#caa193] ">The views deserve to be the main event.</b> If your living room or bedroom faces the sea, that view should be doing some of the work the room's design usually has to do alone. Furniture placement, window treatments, even where you put a mirror, all of it either supports that view or gets in the way of it.
+            <b className=" text-[#caa193] ">The views deserve to be the main event.</b> If your <b className="text-[#caa193]"><a href="https://wedointerior.ae/living-room-interior-design-jumeirah-dubai">living room or bedroom</a></b> faces the sea, that view should be doing some of the work the room's design usually has to do alone. Furniture placement, window treatments, even where you put a mirror, all of it either supports that view or gets in the way of it.
           </p>
           <p className="text-justify">
-            <b className=" text-[#caa193] ">Salt air is genuinely tough on materials.</b> This is the part people often don't think about until it's a problem. Certain metals, fabrics, and finishes that look beautiful inland can deteriorate noticeably faster in a beachfront property. A good beachfront villa interior design Dubai project accounts for this from the material selection stage, not after something's started showing wear.
+            <b className=" text-[#caa193] ">Salt air is genuinely tough on materials.</b> This is the part people often don't think about until it's a problem. Certain metals, fabrics, and finishes that look beautiful inland can deteriorate noticeably faster in a beachfront property. A good <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">beachfront villa interior design Dubai </a></b> project accounts for this from the material selection stage, not after something's started showing wear.
           </p>
           <p className="text-justify">
             <b className=" text-[#caa193] ">Indoor and outdoor space tend to blur.</b> Balconies, terraces, beach access, all these do not exist on their own, but rather are merely an extension of the inside itself. This aspect is crucially important at this place above all others.
@@ -137,7 +137,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
-              This is really the heart of any sea view apartment interior design Jumeirah project, so it's worth talking through properly.
+              This is really the heart of any sea view <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-jumeirah">apartment interior design Jumeirah</a></b> project, so it's worth talking through properly.
             </p>
             <p className="text-justify">
               Sightlines come first. Furniture, colour schemes, anything else, before all this, to where does one’s eye turn on entering the room? It must invariably be towards the sea, and that must be made possible through planning and not hindered through the presence of a cabinet or a back of a sofa that turns its back on the sea view.
@@ -411,7 +411,7 @@ const DProjects = () => {
        
           WE DO Interior Design & Fitout has designed beachfront homes across Jumeirah, JBR, and La Mer, and we understand what it actually takes to get a coastal property right, not just how it looks, but how it holds up and how it feels to live in, day after day.
       
-          Get in touch for a free home visit. We'll come and see the space, talk through how the light and the view work across the day, and put together a clear, itemised proposal.
+          <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us">Get in touch for a free home visit </a></b>. We'll come and see the space, talk through how the light and the view work across the day, and put together a clear, itemised proposal.
         </p>
       </div>
     </div>

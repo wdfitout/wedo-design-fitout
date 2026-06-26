@@ -118,7 +118,7 @@ const DProjects = () => {
           <p className="text-justify">
             That is why joinery can be a key element distinguishing a mediocre interior from an outstanding one. Also, joinery happens to be the most frequently used component in the projects.
           
-            Joinery becomes part of everyday life. You use it constantly, opening doors, storing belongings, moving through spaces, and interacting with it without even noticing. That is why quality becomes visible very quickly. One of the strongest advantages of working with a professional Joinery company Dubai is control.
+            Joinery becomes part of everyday life. You use it constantly, opening doors, storing belongings, moving through spaces, and interacting with it without even noticing. That is why quality becomes visible very quickly. One of the strongest advantages of working with a professional <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Joinery company Dubai </a></b> is control.
           </p>
           <ul className="list-disc pl-5 space-y-2 text-justify">
             <li>Control over proportions.</li>

@@ -180,7 +180,7 @@ const DProjects = () => {
               Why Dubai Boutique Owners Choose WE DO
             </h3>
             <p className="text-justify">
-              Owners of boutiques select WE DO for the reason that boutiques require a special kind of attention, which is often not paid by regular retailing procedures. Our approach includes design thinking, retailing knowledge, fabrication capabilities, fit-out skills, and project management in one package.
+              Owners of boutiques select <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> WE DO </a></b> for the reason that boutiques require a special kind of attention, which is often not paid by regular retailing procedures. Our approach includes design thinking, retailing knowledge, fabrication capabilities, fit-out skills, and project management in one package.
             </p>
             <p className="text-justify">
               We hold the opinion that the atmosphere of the boutique space should be unique rather than replicated. All the decisions made regarding the layout, materials, light, and display of products are thought out considering the brand and consumer experience.

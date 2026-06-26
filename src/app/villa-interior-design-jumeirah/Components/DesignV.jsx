@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/construction (2).jpeg',
-  '/images/construction (3).jpeg',
-  '/images/construction (4).jpeg',
+  '/images/pjapt (1).webp',
+  '/images/pjapt (2).webp',
+  '/images/pjapt (3).webp',
 ];
 
 const DesignV = () => {
@@ -29,7 +29,7 @@ const DesignV = () => {
   return (
     <section className="py-10 px-6 bg-black-200">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        We Do Villa Construction in Dubai
+        We Do Villa Interior Design Jumeirah
       </h2>
 
       {/* Desktop Grid */}

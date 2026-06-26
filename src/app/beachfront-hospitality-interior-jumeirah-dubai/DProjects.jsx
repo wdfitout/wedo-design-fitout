@@ -289,7 +289,7 @@ const DProjects = () => {
         <h2 className="text-center text-3xl font-conthrax text-white uppercase">Why Jumeirah Hospitality Operators Choose WE DO</h2>
         <div className="space-y-6 text-white font-play">
           <p className="text-justify">
-            Hospitality operators choose WE DO because beachfront commercial environments demand specialised thinking. We understand how coastal conditions influence material choices, how guest movement affects operations, and how hospitality spaces must adapt throughout the day.
+            Hospitality operators <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> choose WE DO </a></b> because beachfront commercial environments demand specialised thinking. We understand how coastal conditions influence material choices, how guest movement affects operations, and how hospitality spaces must adapt throughout the day.
           
             Our team combines concept creation, interior design, fitout coordination, approvals support, and execution under one process to simplify delivery. Every design decision balances aesthetics with performance so venues continue creating memorable experiences long after opening day.
           </p>
@@ -326,7 +326,7 @@ const DProjects = () => {
                 </p>
                 <p className="text-justify">
                   <b  className="text-[#caa193]">Beachfront Restaurants & Dining Venues</b><br />
-                  Exceptional Beachfront restaurant interior design Jumeirah creates memorable dining experiences while improving operational flow. Layouts, atmosphere, service paths, and sea visibility all work together.
+                  Exceptional Beachfront <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design"> restaurant interior design Jumeirah </a></b> creates memorable dining experiences while improving operational flow. Layouts, atmosphere, service paths, and sea visibility all work together.
                 </p>
                 <p className="text-justify">
                   <b  className="text-[#caa193]">Beach Lounges & Sunset Bars</b><br />
@@ -422,7 +422,7 @@ const DProjects = () => {
               Your location may attract guests once. Your experience brings them back.
 Create a destination that performs commercially, photographs beautifully, and becomes part of Jumeirah’s hospitality landscape.
 
-              Book your free site visit today and receive an itemised project estimate from WE DO Interior Design & Fitout.
+              <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us"> Book your free site visit today </a></b> and receive an itemised project estimate from WE DO Interior Design & Fitout.
 
             </p>
             

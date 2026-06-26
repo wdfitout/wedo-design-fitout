@@ -149,7 +149,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Interior Quality Influences Product Value</b><br />
-              Customers often associate product quality with store quality. High-end finishes, lighting, detailing, and display presentation affect perceived value. That is why effective Commercial interior design Jumeirah supports pricing, positioning, and customer confidence.
+              Customers often associate product quality with store quality. High-end finishes, lighting, detailing, and display presentation affect perceived value. That is why effective <b className="text-[#caa193]"><a href="https://wedointerior.ae/commercial-interior-design-dubai"> Commercial interior design Jumeirah  </a></b> supports pricing, positioning, and customer confidence.
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Retail Is Increasingly Visual</b><br />
@@ -253,7 +253,7 @@ const DProjects = () => {
         <h2 className="text-center text-3xl font-conthrax text-white uppercase">Why Jumeirah Retailers Choose WE DO</h2>
         <div className="space-y-6 text-white font-play">
           <p className="text-justify">
-            Retailers go for WE DO because a good retail space needs more than just fancy finishing touches. WE DO understands customer behaviour, visual merchandising, operational flow, and how to position retail environments for stronger customer engagement. WE DO has brought together a combination of design and fit out in a way that makes for environments that are unique but functional.
+           <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Retailers go for WE DO  </a></b> because a good retail space needs more than just fancy finishing touches. WE DO understands customer behaviour, visual merchandising, operational flow, and how to position retail environments for stronger customer engagement. WE DO has brought together a combination of design and fit out in a way that makes for environments that are unique but functional.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -283,7 +283,7 @@ const DProjects = () => {
               
               <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
                 <p className="text-justify">
-                  <b className="text-[#caa193]">Luxury Boutique —</b> Premium retail spaces designed around elevated presentation and personalised customer experience. Ideal for Boutique interior design Jumeirah Dubai and luxury product categories.
+                  <b className="text-[#caa193]">Luxury Boutique —</b> Premium retail spaces designed around elevated presentation and personalised customer experience. Ideal for <b className="text-[#caa193]"><a href="https://wedointerior.ae/boutique-interior-design-dubai"> Boutique interior design Jumeirah Dubai  </a></b> and luxury product categories.
                 </p>
                 <p className="text-justify">
                   <b className="text-[#caa193]">Lifestyle & Concept Store —</b> Flexible retail environments designed for evolving collections and experiential shopping. Our Concept store design Jumeirah approach creates stronger interaction and customer engagement.

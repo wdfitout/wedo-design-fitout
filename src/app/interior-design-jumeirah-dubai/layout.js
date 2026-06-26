@@ -1,9 +1,9 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Interior Design Company in Jumeirah, Dubai - WE DO interiors",
+  title: "Interior Design in Jumeirah Dubai | WE DO Interior Design & Fitout",
   description:
-    "Luxury interior design company in Jumeirah delivering premium residential, office & turnkey fit-out solutions. Schedule your free consultation today.",
+    "WE DO delivers premium interior design in Jumeirah Dubai, villas, apartments, kitchens, living rooms. Trusted interior design specialists across Jumeirah.",
   keywords: [
     "interior design company Jumeirah",
     "interior design company in Jumeirah Dubai",

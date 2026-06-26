@@ -119,7 +119,7 @@ const DProjects = () => {
               First we look at how the room gets used now, and how you'd actually like to use it. Family space most of the time, formal on occasion, both? From there we plan proper zones, somewhere to talk, somewhere for the TV, maybe a quieter reading corner, instead of one big arrangement trying to cover everything at once.
             </p>
             <p className="text-justify">
-              <b className="text-[#caa193]">Custom Furniture & Joinery</b><br />
+              <b className="text-[#caa193]"><b className="text-[#caa193]"><a href="https://wedointerior.ae/joinery-company-dubai">Custom Furniture & Joinery</a></b></b><br />
               Built-in shelving, media units, storage that's actually sized for what you own and the room you have. This is part of our wider villa interior design Jumeirah work, custom joinery tends to solve storage far better than freestanding pieces, especially in bigger rooms where loose furniture can end up looking scattered around.
             </p>
             <p className="text-justify">
@@ -132,7 +132,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Majlis & Formal Sitting Area Design</b><br />
-              Plenty of Jumeirah villas have a majlis separate from the main family space. These rooms have their own rules, more traditional seating, designed with bigger gatherings in mind. With majlis interior design Jumeirah Dubai, the trick is keeping it formal enough for guests while still being comfortable enough that it doesn't sit unused most of the year.
+              Plenty of Jumeirah villas have a majlis separate from the main family space. These rooms have their own rules, more traditional seating, designed with bigger gatherings in mind. With majlis <b className="text-[#caa193]"><a href="https://www.google.com/search?sca_esv=878d6b3e4de82b13&hl=en&authuser=0&sxsrf=APpeQnuKjyVOnjgjctu9_9cDFGctyMk4tw:1782218241091&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltac,rimspwouohc&shndl=30&source=sh/x/loc/uni/m1/1&kgs=366763fdac7b9f3b&utm_source=epsd1,ltac,rimspwouohc,sh/x/loc/uni/m1/1">interior design Jumeirah Dubai</a></b>, the trick is keeping it formal enough for guests while still being comfortable enough that it doesn't sit unused most of the year.
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Open Plan Living & Outdoor Connection</b><br />
@@ -144,7 +144,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Smart Home Integration</b><br />
-              Lighting scenes, automated blinds, AV setups that don't leave cables and three remotes lying around. As an established interior design company Jumeirah Dubai, we plan all of this in from the start, much easier than retrofitting it once the room's finished.
+              Lighting scenes, automated blinds, AV setups that don't leave cables and three remotes lying around. As an established <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-jumeirah-dubai"> interior design company Jumeirah Dubai </a></b>, we plan all of this in from the start, much easier than retrofitting it once the room's finished.
             </p>
 
 
@@ -193,10 +193,8 @@ const DProjects = () => {
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
             A few things come up again and again.
-         
-            The seating doesn't actually work for talking to each other. Sofa, two chairs, TV on the wall, looks fine in theory, but if people can't sit comfortably and have a conversation, the room just becomes somewhere you pass through. Good living room renovation Jumeirah Dubai work starts with how your family actually wants to sit together, not just where the screen goes.
-          
-            Then there's lighting, one ceiling light doing a job that needs three or four. Either the room's too bright to relax in or too dim to read in, and it's rarely right for either. Right living room lighting designs something that will make a huge difference in the way the space feels according to the time of day.
+         The seating doesn't actually work for talking to each other. Sofa, two chairs, TV on the wall, looks fine in theory, but if people can't sit comfortably and have a conversation, the room just becomes somewhere you pass through. Good <b className="text-[#caa193]"><a href="https://wedointerior.ae/home-renovation-jumeirah-dubai">living room renovation Jumeirah Dubai</a></b> work starts with how your family actually wants to sit together, not just where the screen goes.
+Then there's lighting, one ceiling light doing a job that needs three or four. Either the room's too bright to relax in or too dim to read in, and it's rarely right for either. Right living room lighting designs something that will make a huge difference in the way the space feels according to the time of day.
           </p>
           <p className="text-justify">
             Size of the furniture poses challenges for homeowners in Jumeirah villas all the time due to the fact that the space is usually larger than expected. The items that may suit the smaller room are easily outgrown by the space, making everything appear less full.
@@ -388,7 +386,7 @@ const DProjects = () => {
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
             If you look around your living room and think it's fine, just fine, nothing more, that's worth paying attention to. A room you spend this much time in should feel like somewhere you actually want to be.
-WE DO Interior Design & Fitout has spent years turning living rooms across Jumeirah villas and apartments from "it'll do" into rooms people genuinely look forward to coming home to.
+<b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b> has spent years turning living rooms across Jumeirah villas and apartments from "it'll do" into rooms people genuinely look forward to coming home to.
 Book your complimentary site visit and see how your living room could work better for everyday family life, entertaining, and everything in between.
             </p>
           </div>

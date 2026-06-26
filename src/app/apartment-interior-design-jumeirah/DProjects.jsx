@@ -141,11 +141,11 @@ const DProjects = () => {
             </li>
             <li>
               <h3 className="font-play font-bold text-base text-justify">Storage Solutions Throughout the Apartment</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify">Storage is one of the most underrated parts of residential interior design in Jumeirah, and one of the things that impacts daily life the most. Built-in storage services, in hallways, bedrooms, kitchens, and utility areas, can fully change how an apartment feels to live in.</p>
+              <p className="text-white font-play text-sm sm:text-base text-justify">Storage is one of the most underrated parts of <b className="text-[#caa193]"><a href="https://www.google.com/search?sca_esv=878d6b3e4de82b13&hl=en&authuser=0&sxsrf=APpeQnuKjyVOnjgjctu9_9cDFGctyMk4tw:1782218241091&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltac,rimspwouohc&shndl=30&source=sh/x/loc/uni/m1/1&kgs=366763fdac7b9f3b&utm_source=epsd1,ltac,rimspwouohc,sh/x/loc/uni/m1/1">residential interior design in Jumeirah</a></b>, and one of the things that impacts daily life the most. Built-in storage services, in hallways, bedrooms, kitchens, and utility areas, can fully change how an <b className="text-[#caa193]"><a href="https://wedointerior.ae/modern-apartment-interior-design">modern apartment interior</a></b> feels to live in.</p>
             </li>
             <li>
               <h3 className="font-play font-bold text-base text-justify">Material and Finish Selection</h3>
-              <p className="text-white font-play text-sm sm:text-base text-justify">As part of our residential interior design in Jumeirah services, material selection plays an important role in creating interiors that remain attractive and durable for years.</p>
+              <p className="text-white font-play text-sm sm:text-base text-justify">As part of our <b className="text-[#caa193]"><a href="https://wedointerior.ae/home-interior-design-dubai"> residential interior design</a></b> in Jumeirah services, material selection plays an important role in creating interiors that remain attractive and durable for years.</p>
             </li>
             <li>
               <h3 className="font-play font-bold text-base text-justify">Project Management Through to Handover</h3>
@@ -169,7 +169,7 @@ const DProjects = () => {
             <ul className="list-disc pl-5 space-y-4 text-[#caa193]">
               <li>
                 <b className="text-[#caa193]">Layouts tend to be more spacious and family-friendly:</b>
-                <span className="text-white block mt-1 text-justify">Many apartments in Jumeirah were designed for families, which means big bedrooms, comfortable dining areas, and sometimes maids' rooms or functional storage spaces that apartments simply do not have.</span>
+                <span className="text-white block mt-1 text-justify">Many <b className="text-[#caa193]"><a href="https://wedointerior.ae/palm-jumeirah-apartment">apartments in Jumeirah</a></b> were designed for families, which means big bedrooms, comfortable dining areas, and sometimes maids' rooms or functional storage spaces that apartments simply do not have.</span>
               </li>
               <li>
                 <b className="text-[#caa193]">Natural light is often underused:</b>
@@ -255,7 +255,7 @@ const DProjects = () => {
         <h2 className="text-center text-3xl font-conthrax text-white uppercase">Why Families in Jumeirah Choose WE DO </h2>
         <div className="space-y-6 text-white font-play">
           <p className="text-justify">
-            The people that seek our assistance in apartment interior design in Jumeirah are not looking for anything flashy; they want someone to understand them and design the interior according to their way of living. This is where all our designs begin. It affects every aspect of the process, from the very first draft until the last detail. Another thing that we consider in designing interiors is that the clients have some stress related to their homes because people usually remain in their apartments for years to come. Therefore, instead of choosing the things that will remain fashionable for a short period only, we prefer things that will age beautifully.
+            The people that seek our assistance in <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design</a></b> in Jumeirah are not looking for anything flashy; they want someone to understand them and design the interior according to their way of living. This is where all our designs begin. It affects every aspect of the process, from the very first draft until the last detail. Another thing that we consider in designing interiors is that the clients have some stress related to their homes because people usually remain in their apartments for years to come. Therefore, instead of choosing the things that will remain fashionable for a short period only, we prefer things that will age beautifully.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -375,7 +375,7 @@ const DProjects = () => {
               Book Your Free Consultation
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
-              If your Jumeirah apartment needs a refresh, a complete apartment fit out company Dubai solution, or a full interior renovation, Schedule a free consultation today and discover how your apartment can be transformed into a more functional, comfortable, and personalised living space.<br/>
+              If your Jumeirah apartment needs a refresh, a complete <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">apartment fit out company Dubai</a></b> solution, or a full interior renovation, <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us">Schedule a free consultation today</a></b> and discover how your apartment can be transformed into a more functional, comfortable, and personalised living space.<br/>
               WE DO visit your apartment, listen to what is and is not working, and put together honest, practical suggestions along with a clear estimate. No pressure, and no assumption that bigger or more expensive is automatically better, just a straightforward conversation about how to make your home work properly for you.
             </p>
           </div>
