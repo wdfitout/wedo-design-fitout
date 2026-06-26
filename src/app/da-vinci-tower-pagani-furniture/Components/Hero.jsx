@@ -15,7 +15,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/videos/Da-vinci-tower-by-pagani-business-bay-dubai.mp4" type="video/mp4" />
+        <source src="/videos/da-vinci-tower-by-pagani-business-bay-dubai.mp4" type="video/mp4" />
       </video>
 
       {/* Optional Dark Overlay */}
