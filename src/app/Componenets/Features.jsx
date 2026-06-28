@@ -25,7 +25,7 @@ const cardData = [
   },
   {
     title: "RESTAURANT INTERIOR DESIGN",
-    img: "/images/xaima (14).webp",
+    img: "/images/crazymask (6).webp",
     desc: "Customized restaurant interior design services in Dubai, crafting unique dining atmospheres. Experts in restaurants & café interior design.",
     link: "/restaurant-interior-design",
   },
@@ -43,7 +43,7 @@ const cardData = [
   },
   {
     title: "CAFE INTERIOR DESIGN",
-    img: "/images/vogue (7).webp",
+    img: "/images/karakna (10).webp",
     desc: "Expert in café interior design in Dubai, WE DO ranks among the top cafe interior designers in the UAE, blending style, comfort, and brand identity.",
     link: "/cafe-interior-design-dubai",
   },
