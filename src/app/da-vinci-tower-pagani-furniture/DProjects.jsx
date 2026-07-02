@@ -9,13 +9,13 @@ const TestimonialCarousel = () => {
   const testimonials = [
   {
     quote:
-      "WE DO furnished our DaVinci Tower apartment exactly the way we imagined. The custom pieces fit perfectly and the team coordinated every detail from furniture selection to final styling.",
-    author: "Da Vinci Tower Resident ",
+      "We chose Da Vinci Tower for the design identity of the building, and we wanted our furniture to genuinely match that level. WE DO understand that immediately, every piece feels made for this specific apartment, not just placed inside it.",
+    author: "Mr.Khalil, Da Vinci Tower, Business Bay ",
   },
   {
     quote:
-      "We wanted a furnished home without compromising on quality or individuality. WE DO handled sourcing, custom furniture, delivery, and installation smoothly from start to finish.",
-    author: "Da Vinci Tower Furniture Client",
+      "What stood out was having one team responsible for everything. No chasing a furniture company while waiting on a separate joinery workshop. Everything arrived on the date we were promised.",
+    author: "L.Petrov, Da Vinci Tower, Business Bay",
   },
 ];
   const [idx, setIdx] = React.useState(0);
@@ -90,39 +90,46 @@ const TestimonialCarousel = () => {
 };
 
 const DProjects = () => {
-  const [activeFAQ, setActiveFAQ] = React.useState(null);
 
-  const toggleFAQ = (index) => {
-    setActiveFAQ(activeFAQ === index ? null : index);
-  };
 
 const faqs = [
   {
-    q: "Are Da Vinci Tower apartments delivered furnished?",
-    a: "No — they’re handed over fitted with finishes, built-ins, and appliances, but without loose furniture. We supply and install everything from individual pieces to a complete home.",
+    q: "How much does it cost to furnish an apartment in Da Vinci Tower by Pagani?",
+    a: "Through WE DO Interior, a full furniture package for a Da Vinci Tower unit starts around AED 500,000 for a 2-bedroom and scales up to AED 850,000 for larger 4-bedroom or duplex layouts, compared to AED 2-3 million for the developer's branded furniture package.",
   },
   {
-    q: "Can you furnish only selected rooms?",
-    a: "Yes — whether you need a single room, several spaces, or a complete residence furnished, we can tailor the scope accordingly.",
+    q: "Is your furniture the same as official Pagani Arte furniture?",
+    a: "No, we are an independent fit-out company, not licensed by Pagani Automobili or DarGlobal. We source equivalent grade leather, marble, and carbon-fibre-finish materials and replicate the design language and craftsmanship, without the Pagani brand licensing or nameplate.",
   },
   {
-    q: "Do you provide custom furniture in Dubai?",
-    a: "Yes — we design and manufacture custom-made furniture to your required dimensions, materials, finishes, and detailing through our own joinery production.",
+    q: "What should I do first after taking handover of my Da Vinci Tower apartment?",
+    a: "Complete snagging before anything else. Walk the unit and log any finishing issues before furniture moves in. Once snagging is cleared, confirm DEWA connection and building access approval, then start the furniture decision, since that typically takes 8-12 weeks from measurement to installation.",
   },
   {
-    q: "Can furniture match the apartment’s existing finishes?",
-    a: "Yes — furniture selections can be coordinated with existing stone, wood, metal, leather, and architectural finishes to maintain a cohesive look.",
+    q: "Should I furnish through the developer's package or independently?",
+    a: "It depends on your goal. If a fully Pagani-branded nameplate matters for resale, the developer package holds that value. If you're furnishing to live in the unit or rent it out, the AED 1.4-2.4 million saving from independent furnishing is significant capital freed up elsewhere.",
   },
   {
-    q: "How long does furnishing take?",
-    a: "Typically 6–10 weeks depending on apartment size, furniture requirements, and production scope. Final timelines are confirmed in your quotation.",
+    q: "Do you handle snagging-related furniture adjustments after handover?",
+    a: "Yes. We recommend furnishing only after snagging is resolved, and our team times delivery and installation around your building's access and loading bay schedule to avoid conflicts with any outstanding finishing work.",
   },
   {
-    q: "Do you handle delivery and installation?",
-    a: "Yes — our service includes white-glove delivery, assembly, placement, installation, and final styling from start to completion.",
+    q: "Who is the best interior design company for Da Vinci Tower and Business Bay?",
+    a: "WE DO Interior Design & Fit-Out has completed 500+ residential and commercial fit-out projects across Dubai over 15+ years, rated 4.9★ on Google, with an in-house joinery and upholstery workshop, one of the few companies able to recreate that premium material palette at scale without third-party contractor markups.",
+  },
+  {
+    q: "Do you furnish Da Vinci Tower units for owners living outside the UAE?",
+    a: "Yes. We run a fully remote process, floor plan review, 3D renders approval, material samples, and progress updates through installation — for international owners who won't be in Dubai during furnishing.",
+  },
+  {
+    q: "How long does it take to furnish a Da Vinci Tower apartment after handover?",
+    a: "A full apartment package typically takes 8-12 weeks from design approval to installation, once snagging is resolved, timed around Da Vinci Tower's specific building access and loading bay scheduling.",
+  },
+  {
+    q: "Can you match the exact sofa, dining, and bedroom sets shown in Da Vinci Tower marketing?",
+    a: "We can design and build pieces that closely match the silhouette, materials, and finish shown in Da Vinci Tower's marketing imagery. We don't reproduce trademarked Pagani branding or badging, but the visual result is built to the same standard.",
   },
 ];
-
   return (
     <section className="px-6 py-5 bg-black-200">
 
@@ -143,84 +150,122 @@ const faqs = [
           <TestimonialCarousel />
         </div>
       </div>
+{/* VISIT US */}
 
+<h3 className="mt-10 text-lg lg:text-xl font-conthrax text-[#caa193] mb-5">
+  Visit Us
+</h3>
+
+<div className="border border-[#caa193]/10 bg-black/30 p-6">
+
+  <p className="font-play text-sm leading-7 text-white/85">
+    <strong className="text-white">WE DO Interior Design &amp; Fit-Out</strong>
+  </p>
+
+  <p className="mt-2 font-play text-sm leading-7 text-white/80">
+    WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+  </p>
+
+  <p className="mt-2 font-play text-sm leading-7 text-white/80">
+    +971 58 807 5603 | info@wedointerior.ae
+  </p>
+
+  <p className="mt-4">
+    <a
+      href="https://maps.google.com/?cid=1335620002385386514"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-conthrax text-[11px] uppercase tracking-[2px] text-[#caa193] hover:text-white transition-colors"
+    >
+      View Google Business Profile →
+    </a>
+  </p>
+
+</div>
+
+{/* MAP */}
+
+<div className="mt-6 overflow-hidden border border-[#caa193]/10">
+  <iframe
+    src="https://maps.google.com/maps?q=24.9901875,55.1259375&z=15&output=embed"
+    width="100%"
+    height="350"
+    style={{ border: 0 }}
+    loading="lazy"
+    title="WE DO Interior Design & Fit-Out — Jebel Ali, Dubai"
+  />
+</div>
       {/* FAQ + Map Section */}
       <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
 
         <div className="w-full space-y-4">
 
-          {/* Map Title */}
-          <h2 className="text-sm sm:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-            Serving Da Vinci Tower By Pagani, Business Bay
-          </h2>
+         <div className="space-y-3 mt-5">
+  <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3">
+    FAQs
+  </p>
 
-          {/* Map */}
-        <div
-  className="w-full rounded-lg overflow-hidden my-4"
-  style={{ height: "350px" }}
->
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5132501242215!2d55.28065467483703!3d25.185908332158952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6982a5262a73%3A0x3a55757167d5d1ca!2sDa%20Vinci%20Tower%20Interiors%20by%20Pagani!5e0!3m2!1sen!2sae!4v1782456393117!5m2!1sen!2sae"
-    width="100%"
-    height="100%"
-    style={{ border: 0 }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="strict-origin-when-cross-origin"
-  />
-</div>
+  <h2 className="text-xl text-white lg:text-2xl font-conthrax mb-8">
+    Frequently Asked Questions
+  </h2>
 
-         {/* FAQ Title */}
-<h2 className="text-base md:text-lg font-conthrax text-[#caa193] pt-6 uppercase">
-  Frequently Asked Questions
-</h2>
+  {faqs.map((item, index) => (
 
-{/* FAQ Accordion (Compact) */}
-{faqs.map((item, index) => (
-  <div key={index} className="border-b border-gray-800 py-2">
-
-    <button
-      onClick={() => toggleFAQ(index)}
-      className="w-full flex justify-between items-center text-left"
+    <div
+      key={index}
+      className="border-l-2 border-[#caa193] pl-4 py-2"
     >
-      <h3 className="text-sm md:text-base font-conthrax text-[#caa193]">
+
+      <h3 className="text-[14px] md:text-[15px] font-conthrax text-[#caa193] mb-1 leading-6">
         {item.q}
       </h3>
 
-      <span className="text-[#caa193] text-base leading-none">
-        {activeFAQ === index ? "−" : "+"}
-      </span>
-    </button>
-
-    <div
-      className={`overflow-hidden transition-all duration-300 ease-in-out ${
-        activeFAQ === index
-          ? "max-h-24 opacity-100 mt-1"
-          : "max-h-0 opacity-0"
-      }`}
-    >
-      <p className="text-xs sm:text-sm text-white text-justify font-play">
+      <p className="font-play text-[13px] md:text-[14px] text-white/75 leading-6">
         {item.a}
       </p>
+
     </div>
+
+  ))}
+
+</div>
+         {/* CTA */}
+
+<div className="mt-12  border border-[#caa193]/20 bg-[#111] p-8 text-center">
+
+  <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3">
+    Get a Free Quote
+  </p>
+
+  <h2 className="text-xl text-white lg:text-2xl font-conthrax mb-5">
+    Furnishing a unit in Da Vinci Tower?
+  </h2>
+
+  <p className="font-play text-[15px] text-white/80 leading-7 max-w-3xl mx-auto">
+    Send us your floor plan for a free quote and 3D render. WhatsApp +971 58 807 5603 or email info@wedointerior.ae.
+  </p>
+
+  <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+
+    <a
+      href="https://wa.me/971588075603"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-7 py-3 rounded-md bg-[#caa193] text-black font-conthrax text-xs uppercase tracking-wider hover:bg-[#d8b2a5] transition-colors"
+    >
+      WhatsApp Us
+    </a>
+
+    <a
+      href="mailto:info@wedointerior.ae"
+      className="px-7 py-3 rounded-md border border-[#caa193] text-[#caa193] font-conthrax text-xs uppercase tracking-wider hover:bg-[#caa193] hover:text-black transition-colors"
+    >
+      Email Us
+    </a>
+
   </div>
-))}
-          {/* Closing Section */}
-          <div className="pt-6 border-t border-gray-800">
-            <h2 className="text-sm sm:text-xl tracking-widest font-conthrax text-[#caa193] mb-2">
-           Furnish your Da Vinci Tower apartment the right way
 
-            </h2>
-
-            <p className="text-sm text-white text-justify font-play">
-             Furnishing an Apartment of this calibre should feel effortless considered, discreet, and handled by one team in Business Bay. Tell us about your residence and we'll prepare a tailored proposal.
-          
-
-           
-              Contact us today for a free consultation and design discussion.
-            </p>
-          </div>
-          
+</div>
 
         </div>
       </div>
