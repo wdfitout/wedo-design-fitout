@@ -139,7 +139,7 @@ const faqs = [
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/pjapt (8).webp"
+              src="/images/da-vinci-tower-1.webp"
               alt="Elegant interior"
               width={600}
               height={400}
