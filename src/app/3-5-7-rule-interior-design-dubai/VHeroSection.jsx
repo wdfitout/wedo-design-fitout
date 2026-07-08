@@ -65,9 +65,7 @@ const VHeroSection = () => {
           <div className="text-md leading-relaxed font-play space-y-4">
             <h2 className="text-[#caa193] text-2xl py-5 font-conthrax">What is the 3-5-7 Rule in Interior Design?</h2>
             <p>
-              The 3-5-7 rule in interior design dubai is a basic principle adopted by the professionals in Dubai for making aesthetically pleasing and well-planned interior designs. The principle is based on the concept of creating a harmonious balance in interior decorations through odd numbers. Assembling elements in threes, fives, or sevens gives them an iconically more flexible look than their counterparts in even numbers. That is why many <a href="/3-5-7-rule-interior-design-dubai" className="font-bold hover:underline text-[#caa193]">
-interior design companies in Dubai
-</a> adhere to this principle when designing living spaces like living rooms, bedrooms, and even business areas.
+              The 3-5-7 rule in interior design dubai is a basic principle adopted by the professionals in Dubai for making aesthetically pleasing and well-planned interior designs. The principle is based on the concept of creating a harmonious balance in interior decorations through odd numbers. Assembling elements in threes, fives, or sevens gives them an iconically more flexible look than their counterparts in even numbers. That is why many interior design companies in Dubai adhere to this principle when designing living spaces like living rooms, bedrooms, and even business areas.
             </p>
             {/* Image 2 */}
             <Image 

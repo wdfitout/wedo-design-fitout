@@ -38,8 +38,7 @@ const DProjects = () => {
   <p>
     As one of the best villa interior fitout companies in Dubai, WEDO offers complete in-house services which includes concept design,
     planning, project execution, and delivery. Our use of VR/AR design previews, smart home technologies, and sustainable materials
-    keeps us ahead of the curve and adds value beyond what typical firms offer.Our use of VR/AR design previews, smart home
-    technologies, and sustainable materials keeps us ahead of the curve and adds value beyond what typical firms offer.
+    keeps us ahead of the curve and adds value beyond what typical firms offer.
   </p>
  <p>
   Moreover, our transparent process of working, timely delivery of projects and our strong commitment has helped us in earning 

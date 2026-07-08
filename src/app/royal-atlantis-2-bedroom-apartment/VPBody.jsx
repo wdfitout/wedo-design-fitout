@@ -8,37 +8,37 @@ const galleryImages = [
   {
     src: "/images/ATRD (2).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Terrace Exterior Design ATR",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/ATRD (4).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Elegant Terrace Exterior Design at ATR",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/ATRD (6).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Exterior Design Setup with Chairs",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/ATRD (14).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Bedroom Dressing table interior",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/ATRD (15).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Bedroom interior design with LED Wall",
     description: "Spacious living area with beige tones and gold accents"
   },
     {
     src: "/images/ATRD (16).webp",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "ATR bedroom with terrace and LED",
     description: "Spacious living area with beige tones and gold accents"
   },
     {

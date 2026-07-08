@@ -61,14 +61,20 @@ const HeroSection = () => {
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent z-10" />
 
       {/* Overlay Text Content */}
-      <div className="absolute inset-x-0 bottom-4 md:bottom-10 text-center px-4 text-white z-20">
-        <h1 className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-penrise -tracking-normal">
-          VISION AT WORK
-        </h1>
-        <p className="text-[10px] sm:text-lg md:text-2xl md:mt-2 font-play tracking-wider">
-          DESIGN & CRAFTING LUXURY SPACES IN DUBAI
-        </p>
-      </div>
+     {/* Overlay Text Content */}
+<div className="absolute inset-x-0 bottom-4 md:bottom-10 text-center px-4 text-white z-20">
+  {/* Tagline (same styling as before) */}
+  <p className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-penrise -tracking-normal">
+    VISION AT WORK
+  </p>
+
+  {/* SEO H1 */}
+  <h1 className="text-sm sm:text-lg md:text-2xl lg:text-3xl font-play tracking-wider mt-2">
+    Luxury Interior Design &amp; Fit-Out Company in Dubai
+  </h1>
+
+  
+</div>
     </div>
   );
 };
