@@ -1,9 +1,6 @@
 'use client';
 
-import Image from 'next/image';
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { FaPlay } from 'react-icons/fa';
 
 const ApId = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -18,7 +15,8 @@ const ApId = () => {
               Penthouse Interior Design in Dubai Creek Harbour
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              Dubai Creek Harbour by Emaar is its most ambitious waterfront concept, where the entire development centers on the magnificent views of the Creek, the yet-to-be-built Creek Tower, and the skyline, which matches that of Downtown. The <b className="text-[#caa193]"><a href="/penthouse-interior-design-dubai-creek-harbour">penthouse in Dubai Creek Harbour</a></b> are the crown jewels of this entire vision – sprawling, full-floor units with high ceiling spaces, floor-to-ceiling glass windows, and private outdoor terraces overlooking the most breathtaking views in the country.
+              Dubai Creek Harbour by Emaar is its most <b className='text-[#caa193]'
+              ><a href="creek-harbour-waterfront-apartment-design">ambitious waterfront concept</a></b>, where the entire development centers on the magnificent views of the Creek, the yet-to-be-built Creek Tower, and the skyline, which matches that of Downtown. The penthouse in Dubai Creek Harbour are the crown jewels of this entire vision – sprawling, full-floor units with high ceiling spaces, floor-to-ceiling glass windows, and private outdoor terraces overlooking the most breathtaking views in the country.
             </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               WE DO Interior Design & Fit Out is renowned for providing luxury penthouse interior design in Dubai. We now offer the same expertise in Creek Harbour, which comes with our bespoke interior design services, joinery services, fit-out installation, and all necessary Emaar approval processes. Are you ready to start your project? Get a complimentary site visit today.

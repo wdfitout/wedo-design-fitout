@@ -128,7 +128,7 @@ const DProjects = () => {
               <p className="text-white font-play text-sm sm:text-base text-justify"> Even before ordering a single item or putting a hand to any walls, you get to see your dream penthouse come alive in photorealistic 3D visualization. Where creek harbour penthouse interior design services are concerned, this is an absolute must.</p>
             </li>
             <li>
-              <h3 className="font-play font-bold text-base text-justify">Turnkey Fit-Out & Project Management:</h3>
+              <h3 className="font-play font-bold text-base text-justify"><b><a href="/fit-out-company-dubai">Turnkey Fit-Out</a></b> & Project Management:</h3>
               <p className="text-white font-play text-sm sm:text-base text-justify"> From civil works, floorings, ceilings, MEP coordination, to painting, styling, and snagging, everything is handled by a separate project manager right from the very beginning until completion. This is how Modern Penthouse Interior Design Dubai Services should be.</p>
             </li>
           </ul>
@@ -137,15 +137,16 @@ const DProjects = () => {
 
       {/* Split Row – Text + Top Right Image */}
        <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-3xl font-conthrax text-white py-12">
+        <h2 className="text-center text-3xl font-conthrax text-white py-5">
           What Makes Creek Harbour Penthouse Interiors Unique
         </h2>
 
         {/* Section 1: Text Left, Image Right */}
-        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div className="grid md:grid-cols-2 gap-10 items-center mb-5">
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
-              All interior designers operating in Dubai do not have experience in designing apartments in Creek Harbour, and the output differs accordingly. Below are the unique features of penthouses in Creek Harbour and how they will influence your decision on which designer to choose.
+              All interior designers operating in Dubai do not have experience in <b className='text-[#caa193]'
+             ><a href="/apartment-interior-design-dubai-creek-harbour">designing apartments in Creek Harbour</a></b>, and the output differs accordingly. Below are the unique features of penthouses in Creek Harbour and how they will influence your decision on which designer to choose.
               </p>
             <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
               <li>
@@ -169,8 +170,8 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/startech (2).webp"
-              alt="Round luxury bed with fairy lights"
+              src="/images/pentv12.webp"
+              alt="Penthouse bedroom outside dubai creek harbour views with sofa sitting"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -181,7 +182,7 @@ const DProjects = () => {
 
       {/* Gallery Heading */}
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-lg font-conthrax text-white py-12">
+        <h2 className="text-center text-lg font-conthrax text-white py-5">
           Penthouse Projects in Dubai Creek Harbour
         </h2>
       </div>
@@ -208,31 +209,32 @@ const DProjects = () => {
 
       {/* Emaar Fit-Out Approvals Section */}
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          Emaar Fit-Out Approvals for Creek Harbour Penthouses
-        </h2>
+       
 
         {/* Section 1: Text Left, Image Right */}
-        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div className="grid md:grid-cols-2 gap-10 items-center mb-10">
           <div className="space-y-6 text-white font-play">
+             <h2 className=" text-3xl font-conthrax text-white">
+          Emaar Fit-Out Approvals for Creek Harbour Penthouses
+        </h2>
             <p className="text-justify">
               Approvals – this is the issue that pops up more often than any other when we discuss penthouse interior designers in Dubai. Approvals involve paperwork, waiting, and fear of making mistakes. But our answer is simple and straightforward, WE DO deal with everything on your behalf. This is how we do approvals for a penthouse interior design in Dubai Creek Harbour:
             </p>
             <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
               <li>
-                <h3 className="font-play font-bold text-base text-justify">Emaar NOC Application:</h3>
+                <h3 className="font-play mb-2 font-bold text-base text-justify">Emaar NOC Application:</h3>
                 <p className="text-white font-play text-sm sm:text-base text-justify"> We file all the paperwork regarding Emaar fit-out applications including the method statement, material submittals, floor plans, and contractor credentials. Time frame – 2-4 weeks.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">Dubai Municipality Approval:</h3>
+                <h3 className="font-play  mb-2 font-bold text-base text-justify">Dubai Municipality Approval:</h3>
                 <p className="text-white font-play text-sm sm:text-base text-justify"> Structural changes involving the addition or removal of walls and changes in MEP paths must be approved by DM. We ensure that all drawings conform to DM guidelines.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">Civil Defence NOC:</h3>
+                <h3 className="font-play  mb-2 font-bold text-base text-justify">Civil Defence NOC:</h3>
                 <p className="text-white font-play text-sm sm:text-base text-justify">Any change in the fire safety mechanism, sprinklers, or exit route will have to be approved by the Civil Defence. It will be done in such a manner that there would not be any sequential approval for it.</p>
               </li>
               <li>
-                <h3 className="font-play font-bold text-base text-justify">Building Management Coordination:</h3>
+                <h3 className="font-play  mb-2 font-bold text-base text-justify">Building Management Coordination:</h3>
                 <p className="text-white font-play text-sm sm:text-base text-justify"> Timing of work, elevator protection, insurance certificates, waste management schedule; everything required by the building management office falls within our purview. Your neighbors will not complain. Your handover will not be delayed.</p>
                 <p className="text-white font-play text-sm sm:text-base mt-2 text-justify">Once you engage WE DO Interior Design & Fit-Out, approvals become our problem, not yours.</p>
               </li>
@@ -241,8 +243,8 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/startech (2).webp"
-              alt="Round luxury bed with fairy lights"
+              src="/images/pentv18.webp"
+              alt="penthouse white sofa sitting in creek harbour"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -284,7 +286,8 @@ const DProjects = () => {
             Why Dubai's Penthouse Owners Choose WE DO Interior Design & Fit-Out
           </h2>
           <p className="font-play text-sm sm:text-base text-white text-justify py-2 leading-relaxed">
-            Being the best penthouse <b className="text-[#caa193]"><a href="/interior-design-dubai-creek-harbour">interior design company in Dubai Creek Harbour</a></b>. WE DO offers you the assurance not just in words but also backed up by completed projects in Palm Jumeirah, Downtown, DIFC and the latest addition is the Dubai Creek Harbour. All of your requirements related to design, custom joinery manufacture, procurement and project management are carried out under one umbrella in our Jebel Ali premises. WE DO will not subcontract any critical activities and no surprise in terms of quality and time of delivery. Given the extensive experience in designing penthouses in Dubai in the best addresses of the city, our team has expertise that general interior design companies lack in dealing with penthouses. Our designers know what fits best in your penthouse. Each project in your penthouse is managed by a single project manager throughout the entire process from start to completion. One contact number is enough for all of your requirements. All the Dubai penthouse interiors which fall within the size range of 3,500 to 5,500 square feet can be finished in a time frame of 12 - 18 weeks. All the fit outs provided by WE DO come with a one year warranty on all joineries and fittings.<br /><br />
+            Being the best penthouse <b className="text-[#caa193]"><a href="/interior-design-dubai-creek-harbour">interior design company in Dubai Creek Harbour</a></b>. WE DO offers you the assurance not just in words but also backed up by completed projects in <b className='text-[#caa193]'
+            ><a href="/palm-jumeirah-2-bedroom-penthouse">Palm Jumeirah</a></b>, Downtown, DIFC and the latest addition is the Dubai Creek Harbour. All of your requirements related to design, custom joinery manufacture, procurement and project management are carried out under one umbrella in our Jebel Ali premises. WE DO will not subcontract any critical activities and no surprise in terms of quality and time of delivery. Given the extensive experience in designing penthouses in Dubai in the best addresses of the city, our team has expertise that general interior design companies lack in dealing with penthouses. Our designers know what fits best in your penthouse. Each project in your penthouse is managed by a single project manager throughout the entire process from start to completion. One contact number is enough for all of your requirements. All the Dubai penthouse interiors which fall within the size range of 3,500 to 5,500 square feet can be finished in a time frame of 12 - 18 weeks. All the fit outs provided by WE DO come with a one year warranty on all joineries and fittings.<br /><br />
             <strong className="text-[#caa193]">DED Licensed | Emaar Approved Contractor | 15+ Years in Dubai</strong>
           </p>
         </div>
@@ -292,8 +295,8 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/meby (7).webp"
-              alt="Elegant blue bedroom interior"
+              src="/images/penth2.webp"
+              alt="penthouse living room LED wall with decor items in Dubai Creek harbour"
               width={600}
               height={400}
               className="w-full h-auto object-cover"
@@ -313,7 +316,7 @@ const DProjects = () => {
             Serving Dubai Creek Harbour & Surrounding Areas
           </h2>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-            Our company <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">WE DO Interior Design & Fit-Out</a></b> provides penthouse interior design in Dubai Creek Harbour and beyond to the entire eastern side of Dubai, which includes Downtown Dubai, Business Bay, DIFC, Dubai Festival City, and Ras Al Khor. Our team can reach your property within 24 hours from the time you call us if your property is situated in or near Dubai Creek.
+            Our company WE DO Interior Design & Fit-Out provides penthouse interior design in Dubai Creek Harbour and beyond to the entire eastern side of Dubai, which includes Downtown Dubai, Business Bay, DIFC, Dubai Festival City, and Ras Al Khor. Our team can reach your property within 24 hours from the time you call us if your property is situated in or near Dubai Creek.
           </p>
           {/* Map Embed */}
 <div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>

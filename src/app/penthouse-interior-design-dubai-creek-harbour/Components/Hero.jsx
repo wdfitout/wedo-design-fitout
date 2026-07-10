@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/bespoke-and-boutique-style-office-interiors-in-business-bay.png"
-        alt="interior design"
+        src="/images/penth5.webp"
+        alt="sofa sitting loose furniture in dubai creek harbour"
         width={1920}
         height={1080}
         priority

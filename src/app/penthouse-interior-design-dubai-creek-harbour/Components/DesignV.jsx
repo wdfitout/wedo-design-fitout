@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/wellness-focused-office-interiors-in-business-bay.png',
-  '/images/sustainable-office-interior-design-materials-in-business-bay.png',
-  '/images/turnkey-fit-out-solutions-in-business-bay.png',
+  '/images/penth4.webp',
+  '/images/pentv1.webp',
+  '/images/pentv4.webp',
 ];
 
 const DesignV = () => {
@@ -95,7 +95,7 @@ const DesignV = () => {
             ✅ Request availability by WhatsApp
           </a>
           <a
-            href="mailto:info@example.com"
+            href="mailto:info@wedointerior.ae"
             className="px-6 py-3 bg-[#caa193] text-white font-play text-sm rounded w-full sm:w-auto text-center"
           >
             ✉️ Request availability by E-mail
