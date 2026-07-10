@@ -7,7 +7,17 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
+ 
+ 
  {
+    title: "Best Interior Design Companies in Downtown Dubai",
+    date: "Published: 10.07.2026",
+    excerpt:
+      "Comparing interior design companies in Downtown Dubai? Learn how to choose the right firm for luxury fit-outs, Emaar approvals, and expert design.",
+    image: "/images/interior-design-company-down-town-dubaii.png",
+    link: "/interior-design-companies-downtown-dubai",
+  },
+   {
    title: "How to Design Apartment in Dubai Creek Harbour",
     date: "Published: 04.06.2026",
     excerpt:
@@ -27,7 +37,7 @@ const blogPosts = [
    title: "3-5-7 Rule in Interior Design Dubai",
     date: "Published: 29.04.2026",
     excerpt:
-      "Find out more about the 3-5-7 rule in interior design. Get the best advice from an upscale interior design firm in Dubai for your villas and apartments.",
+      "Find out about the 3-5-7 rule in interior design. Get advice from an upscale interior design firm in Dubai for your villas and apartments.",
     image: "/images/Luxury modern Dubai living room interiors.png",
     link: "/3-5-7-rule-interior-design-dubai",
   },

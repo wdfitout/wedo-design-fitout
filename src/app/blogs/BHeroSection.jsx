@@ -14,20 +14,22 @@ dayjs.extend(relativeTime);
 
 const blogs = [
  
- {
+  {
     id: 1,
-    slug: 'creek-harbour-apartment-design',
-    title: 'How to Design Apartment in Dubai Creek Harbour',
-    image: '/images/luxury high-rise apartment in Dubai Creek Harbour.png',
-    date: '2026-06-04',
+    slug: 'interior-design-companies-downtown-dubai',
+    title: 'Best Interior Design Companies in Downtown Dubai',
+  image: '/images/interior-design-company-down-town-dubaii.png',
+    date: '2026-07-10',
     tag: 'Blog',
   },
+  
+  
   {
     id: 2,
     slug: 'creek-harbour-waterfront-apartment-design',
     title: 'Guide to Dubai Creek Harbour Waterfront Apartment Design',
     image: '/images/Modern waterfront apartment living room in Dubai Creek Harbour.png',
-    date: '2026.05.25',
+    date: '2026-05-25',
     tag: 'Blog',
   },
   {
@@ -62,8 +64,8 @@ const blogs = [
     date: '2026-04-11',
     tag: 'Blog',
   },
-  
-  
+
+ 
   
     
   

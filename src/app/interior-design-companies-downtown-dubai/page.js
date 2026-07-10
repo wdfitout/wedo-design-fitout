@@ -1,26 +1,27 @@
-import React from "react";
-import Navbar from "../Componenets/Navbar"; // Fixed "Componenets" typo
-import Hero from "./Components/Hero";
-import WhatsAppButton from "../Componenets/WhatsAppButton";
+import Navbar from "../Componenets/Navbar";
 import CallButton from "../Componenets/CallButton";
-import DtdId from "./Components/DtdId";
-import DtdidM from "./Components/DtdidM";
+import WhatsAppButton from "../Componenets/WhatsAppButton";
+import VHeroSection from "./VHeroSection"
+
 import Footer from "../Componenets/Footer";
 
-export default function Home() { // Capitalized "home" → "Home"
+export default function ProjectsPage() {
   return (
-    <>
-  
-      
-      <div className="relative flex flex-col min-h-screen bg-[#121212]">
-        <Navbar />
-        <Hero />
-        <WhatsAppButton />
-        <CallButton />
-        <DtdId />
-        <DtdidM />
-        <Footer />
-      </div>
-    </>
+    <main className="relative flex flex-col min-h-screen bg-[#121212]">
+      {/* Sticky Top Navbar */}
+      <Navbar className="absolute top-0 z-10 w-screen" />
+
+      {/* Hero Image Section */}
+      <VHeroSection />
+
+      {/* Floating Action Buttons */}
+      <CallButton />
+      <WhatsAppButton />
+
+     
+
+      {/* Footer Section */}
+      <Footer />
+    </main>
   );
 }
