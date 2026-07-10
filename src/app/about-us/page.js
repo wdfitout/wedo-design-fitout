@@ -4,7 +4,6 @@ import WhatsAppButton from "../Componenets/WhatsAppButton";
 import VHeroSection from "./VHeroSection"
 import VPBody from "./VPBody";
 import IdServices from "./IdServices";
-import AboutSection from "../Componenets/AboutSection";
 import Recent from "./Recent";
 import Footer from "../Componenets/Footer";
 
@@ -25,7 +24,7 @@ export default function ProjectsPage() {
       {/* Projects Grid Section */}
       <VPBody />
       <IdServices />
-      <AboutSection />
+    
       <Recent />
 
       {/* Footer Section */}

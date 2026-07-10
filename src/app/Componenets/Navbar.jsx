@@ -59,7 +59,7 @@ const navLinks = [
       },
        {
         title: "FURNITURE",
-        path: "/penthouse-projects",
+        path: "/da-vinci-tower-pagani-furniture",
        
       },
     ],
