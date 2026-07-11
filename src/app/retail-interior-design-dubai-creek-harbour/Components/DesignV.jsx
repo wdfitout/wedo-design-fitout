@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/dbckapt (2).png',
-  '/images/dbckapt (1).png',
-  '/images/dbckapt (8).png',
+  '/images/accessories-jewellery-display-nook-boutique-dubai-creek-harbour.png',
+    '/images/beauty-cosmetics-boutique-interior-dubai-creek-harbour.png',
+  '/images/boutique-clothing-display-wall-dubai-creek-harbour.png',
 ];
 
 const DesignV = () => {
@@ -95,7 +95,7 @@ const DesignV = () => {
             ✅ Request availability by WhatsApp
           </a>
           <a
-            href="mailto:info@example.com"
+            href="mailto:info@wedointerior.ae"
             className="px-6 py-3 bg-[#caa193] text-white font-play text-sm rounded w-full sm:w-auto text-center"
           >
             ✉️ Request availability by E-mail

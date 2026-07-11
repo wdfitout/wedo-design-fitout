@@ -3,11 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-const textImage = {
-  src: '/images/dbckapt (5).png',
-  link: '/interior-design-dubai-creek-harbour',
-  title: 'Retail Interior Design Dubai Creek Harbour'
-};
+
 
 const DProjects = () => {
   // Testimonial Slider State
@@ -58,77 +54,62 @@ const DProjects = () => {
           </p>
 
           <p>
-            Generic retail store interior design doesn't work in this micro-market. A jewellery boutique at The Cove Dubai Creek Harbour needs a different spatial logic than a concept store on the Creek Marina promenade. Our work as retail interior design experts focuses on those distinctions site lines, dwell zones, fixture height, and material palettes calibrated to the property type, the brand, and the buyer walking past.
+            Generic <b className='text-[#caa193]'><a href="https://wedointerior.ae/retail-interior-design-dubai">retail store interior design </a></b>doesn't work in this micro-market. A jewellery boutique at The Cove Dubai Creek Harbour needs a different spatial logic than a concept store on the Creek Marina promenade. Our work as retail interior design experts focuses on those distinctions site lines, dwell zones, fixture height, and material palettes calibrated to the property type, the brand, and the buyer walking past.
           </p>
         </div>
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[90%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
-        <div className="w-full lg:w-2/3 space-y-4">
-          <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
-            Our Retail Interior Design Services in Dubai Creek Harbour
+      <div className="lg:max-w-[80%] mx-auto content-center flex flex-col lg:flex-row items-start mb-12">
+<div className="w-full space-y-4">         
+   <h2 className="text-center text-2xl md:text-3xl font-conthrax text-white py-5 uppercase tracking-wider">
+            Our Retail Interior Design Services <br />in Dubai Creek Harbour
           </h2>
           
           <p className="text-sm sm:text-base text-white text-justify font-play leading-relaxed">
             We deliver every stage of a retail fit-out Dubai Creek Harbour brands need from concept to handover. Each service below is led by senior designers and executed by our in-house fit-out and joinery teams.
           </p>
 
-          <div className="space-y-4 text-sm sm:text-base text-white text-justify font-play leading-relaxed">
-            <p className="text-justify">
+             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 text-sm sm:text-base text-white text-justify font-play leading-relaxed">
+              <div>
+              <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Boutique Interior Design</b>
-              Tailored boutique interiors designed specifically for fashion, accessory, and lifestyle products launching into or moving within Dubai Creek Harbour. From storefront interior design to bespoke lighting solutions. Explore our <b className="text-[#caa193]"><a href="/boutique-interior-design-dubai" className="hover:underline">boutique interior design services </a></b> for the full scope.
+              Tailored boutique interiors designed specifically for fashion, accessory, and lifestyle products launching into or moving within Dubai Creek Harbour. From storefront interior design to bespoke lighting solutions. Explore our <b className='text-[#caa193]'><a href="https://wedointerior.ae/umm-suqeim-boutique">boutique interior design services</a></b> for the full scope.
             </p>
-
-            <p className="text-justify">
+               </div>
+             <div><p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Luxury Showroom Design</b>
               Designing of showroom interiors for automobiles, furniture, jewelry and luxury products. The design of our showrooms is an absolute combination of product display and brand messaging through superior joinery and lighting.
-            </p>
+            </p></div>
 
-            <p className="text-justify">
+            <div> <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Flagship Store Interiors</b>
               Flagship retail design demands a different scale of thinking multi-zone layouts, immersive brand moments, and architectural feature walls. We've delivered flagship-format retail interior designs in Dubai and bring that depth to Creek Harbour briefs.
-            </p>
+            </p></div>
 
-            <p className="text-justify">
+           <div>  <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Podium & Mall Shop Fit-Out</b>
               Store Interior Fit-Out for podium-level units inside Address, Vida, and Creek Gate developments. We work within Emaar's tenant fit-out manuals, handle access coordination with mall management, and execute within active-mall hours when required.
-            </p>
+            </p></div>
 
-            <p className="text-justify">
+          <div>   <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Pop-Up & Kiosk Design</b>
               Short-lead pop-up stores, seasonal activations, and standalone kiosks for the Creek Beach and Creek Marina promenades. Modular, brand-ready, and fast to deploy.
-            </p>
+            </p></div>
 
-            <p className="text-justify">
+           <div>  <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Visual Merchandising & Space Planning</b>
               Layout strategy that maximises sqft yield entry magnetism, decompression zones, fixture sightlines, and checkout flow. Backed by retail traffic logic, not guesswork.
-            </p>
+            </p></div>
 
-            <p className="text-justify">
+           <div>  <p className="text-justify">
               <b className="text-[#caa193] block text-base font-conthrax text-left">Retail Branding Integration</b>
               Brand identity translated into spatial design signage, materials, colour, and texture coordinated with your existing brand guidelines or built from scratch alongside our design team.
-            </p>
+            </p></div>
           </div>
         </div>
 
-        {/* Top Right Image */}
-        <div className="w-full lg:w-1/3 group relative overflow-hidden rounded-lg shadow-lg lg:mt-10">
-          <a href={textImage.link} className="block">
-            <Image
-              src={textImage.src}
-              alt={textImage.title}
-              width={500}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center px-4">
-                {textImage.title}
-              </p>
-            </div>
-          </a>
-        </div>
+      
       </div>
 
       <div className="max-w-7xl mx-auto">
@@ -190,8 +171,8 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md group relative">
             <Image
-              src="/images/dbckapt (6).png"
-              alt="Premium Retail Store Fit-Out and Bespoke Joinery Execution"
+              src="/images/clothing-display-wall-dubai-creek-harbour.png"
+              alt="retail store clothing display with chair and flowers in creek harbour"
               width={600}
               height={400}
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
@@ -240,8 +221,8 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md group relative">
             <Image
-              src="/images/dbckapt (4).png"
-              alt="Retail Interior Design Approvals and Fit-Out in Dubai Creek Harbour"
+              src="/images/jewellery-display-nook-boutique-dubai-creek-harbour.png"
+              alt="jewellery display area with mirror in retail creek harbour"
               width={600}
               height={400}
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
@@ -304,11 +285,11 @@ const DProjects = () => {
           </h2>
 
           <p className="text-sm sm:text-base text-white text-justify font-play leading-relaxed">
-           <b className="text-[#caa193]"><a href="https://wedointerior.ae/" className="hover:underline">Retailers choose WE DO</a></b> due to our over 15 years of experience in high-end commercial design services for all of Dubai's exclusive areas such as DIFC, Downtown, Business Bay, Palm Jumeirah, and most recently, Dubai Creek Harbour. Designing a retail space is our forte, where we create a concept around your brand identity and design it in such a way that suits the customer base your retail outlet caters to. We pride ourselves on being turn-key designers for your projects, meaning that designing, MEP, joinery, fit-outs, and even approvals happen under one roof, which removes the finger-pointing between subcontractors and gives you one point of accountability from kickoff to handover. 
+           <b className="text-[#caa193]"><a href="https://wedointerior.ae/" className="hover:underline">Retailers choose WE DO</a></b> due to our over 15 years of experience in high-end commercial design services for all of Dubai's exclusive areas such as DIFC, <b className='text-[#caa193]'><a href="/retail-interior-design-downtown-dubai">Downtown</a></b> , <b className='text-[#caa193]'><a href="/interior-design-company-business-bay">Business Bay</a></b>, Palm Jumeirah, and most recently, Dubai Creek Harbour. Designing a retail space is our forte, where we create a concept around your brand identity and design it in such a way that suits the customer base your retail outlet caters to. We pride ourselves on being turn-key designers for your projects, meaning that designing, MEP, joinery, fit-outs, and even approvals happen under one roof, which removes the finger-pointing between subcontractors and gives you one point of accountability from kickoff to handover. 
             <br /><br />
             Working within Creek Harbour requires extensive local knowledge about Emaar buildings. The reason behind this is that we are already familiar with Emaar's criteria for fit-outs of their tenants, property management, and approval procedures because we have worked through them many times before. Every construction project relies on our in-house joinery facility located in Jebel Ali, which manufactures display units, storefronts, counters, and feature walls ourselves. This results in a shorter lead time, better quality assurance, and a 12-month warranty on all of our joinery pieces. 
-            <br /><br />
-            Businesses looking for interior design companies in Business Bay Dubai or a trusted office interior design company in Business Bay select WE DO Interior Design & Fitout because of our experiences, dedication, and personalized solutions.
+         
+            Businesses looking for <b className='text-[#caa193]'><a href="interior-design-dubai-creek-harbour">interior design companies in Dubai Creek Harbour</a></b>  select WE DO Interior Design & Fitout because of our experiences, dedication, and personalized solutions.
           </p>
           
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193] uppercase">
@@ -483,7 +464,7 @@ const DProjects = () => {
               Are you looking for a retail interior designer near me in Dubai Creek Harbour?
             </h3>
             <p className="text-sm sm:text-base text-white text-justify font-play leading-relaxed">
-              If you are looking for a retail interior designer near me, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/business-bay-office-fit-out" className="hover:underline">Dubai-based studio provides service to Dubai Creek Harbour</a></b>, Downtown, Business Bay, and Jumeirah from our Jebel Ali base. Our site visits for Dubai Creek Harbour happen within 48 hours of inquiry.
+              If you are looking for a retail interior designer near me, our Dubai-based studio provides service to Dubai Creek Harbour, Downtown, Business Bay, and <b className='text-[#caa193]'><a href="https://wedointerior.ae//retail-interior-design-jumeirah">Jumeirah</a></b> from our Jebel Ali base. Our site visits for Dubai Creek Harbour happen within 48 hours of inquiry.
             </p>
 
             <h3 className="text-base md:text-sm font-conthrax text-[#caa193] text-left">

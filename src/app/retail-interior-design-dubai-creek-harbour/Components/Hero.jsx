@@ -9,8 +9,8 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/dbckapt (9).png"
-        alt="interior design"
+        src="/images/beauty-cosmetics-boutique-interior-dubai-creek-harbour.png"
+        alt="Beauty and cosmetics boutique interior design in Dubai Creek Harbour"
         width={1920}
         height={1080}
         priority
@@ -21,8 +21,9 @@ const Hero = () => {
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
           Retail Interior Design Dubai Creek Harbour </h1>
-          <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-           Retail Interior Design Company in Dubai Creek Harbour
+          <h2 className="text-sm md:text-xl lg:text-2xl font-play mb-3">  
+           15+ Years | In-House Joinery | Emaar & DDA Approvals Handled
+
             </h2>
         
 

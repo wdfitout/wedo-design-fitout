@@ -6,28 +6,28 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Apartment Interior Design In Dubai Creek Harbour",
+    title: "Apartment Interior Design Dubai Creek Harbour",
     bgImage: "/images/dbckapt (5).png",
     link: "/apartment-interior-design-dubai-creek-harbour",
   },
   {
-    title: "Penthouse Interior Design In Dubai Creek Harbour",
-    bgImage: "/images/01-living-07.jpg",
+    title: "Penthouse Interior Design Dubai Creek Harbour",
+    bgImage: "/images/pentv4.webp",
     link: "/penthouse-interior-design-dubai-creek-harbour",
   },
   {
-    title: "Retail Interior Design In Dubai Creek Harbour",
-    bgImage: "/images/retail (1).webp",
+    title: "Retail Interior Design Dubai Creek Harbour",
+    bgImage: "/images/clothing-display-wall-dubai-creek-harbour.png",
     link: "/retail-interior-design-dubai-creek-harbour",
   },
   {
-    title: "Restaurant Interior Design In Dubai Creek Harbour",
+    title: "Restaurant Interior Design Dubai Creek Harbour",
     bgImage: "/images/restaurant (9).webp",
     link: "/restaurant-interior-design-dubai-creek-harbour",
   },
 
   {
-    title: "Cafe Interior Design In Dubai Creek Harbour",
+    title: "Cafe Interior Design Dubai Creek Harbour",
     bgImage: "/images/karakna (9).webp",
     link: "/cafe-interior-design-dubai-creek-harbour",
   },
