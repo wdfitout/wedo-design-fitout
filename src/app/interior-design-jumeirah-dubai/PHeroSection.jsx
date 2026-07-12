@@ -31,8 +31,6 @@ const PHeroSection = () => {
           {/* Subheading */}
           <p className="font-play mt-6 max-w-2xl text-gray-200">
            Jumeirah offers a different lifestyle compared to many areas in Dubai, with larger homes, privacy, and established communities. Interiors here need to feel comfortable, practical, and designed to last. At WE DO Interior Design & Fitout, we provide premium <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-jumeirah-dubai">  Interior design Jumeirah Dubai </a></b> solutions that create spaces around the way people live.</p>
-<p className="font-play mt-6 max-w-2xl text-gray-200">
-           Being a reliable interior design company, we provide a wide array of services to enhance the villas, apartments, beach residences, and home renovation projects through the modern personalized approach. In addition, our interior design services in Jumeirah Dubai include all the stages of the design process from planning to execution.</p>
 
           {/* CTA Button */}
           <div className="mt-8">

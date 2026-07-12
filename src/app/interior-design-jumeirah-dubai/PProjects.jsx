@@ -111,14 +111,22 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full text-center ">
             <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight uppercase">
-              Why Interior Design in Jumeirah Requires a Different Approach
-            </h2>
-            <p className="text-justify text-white text-base font-play mb-6 leading-relaxed">
-              The interior design of Jumeirah Dubai is not just about trends. The houses located in Jumeirah tend to be spacious and better suited to be lived in by families for years to come, which means that interior designing is more planned and should be comfortable. Unlike the apartments located in the city, these houses have plenty of space both inside and outside, which means that the interior of such a house should be comfortable.
               
-              The quality of the interior becomes obvious in Jumeirah because it is made of materials, lighting, finishes, and joinery. Being an experienced interior designer in Jumeirah Dubai, we offer you customized interiors in Jumeirah, Umm Suqeim, Al Wasl, La Mer, City Walk, and nearby neighborhoods.
-            </p>
-             
+               Our Interior Design Services in Jumeirah Dubai
+            </h2>
+           
+              <p className="text-white text-sm sm:text-base font-play mb-4 text-justify">
+                    WE DO provides complete Home interior design Jumeirah Dubai services for homeowners who want interiors that feel elevated but practical.
+                  </p>
+                  <div className="space-y-4 text-white text-sm sm:text-base font-play text-left mb-6">
+<p className="text-justify"><b className="text-[#b98877]">Bedroom Interior Design Jumeirah</b> — Sleeping areas need to encourage sleep without making us feel isolated from the remainder of the home. The <b className="text-[#caa193]"><a href="https://wedointerior.ae/bedroom-interior-design-jumeirah-dubai"> interior design of our bedrooms </a></b> is achieved by designing better layouts, lighting, wardrobe systems, custom joinery, furnishing design, and finishes which create a more relaxed atmosphere.</p>
+<p className="text-justify"><b className="text-[#b98877]"><b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-interior-design-jumeirah-dubai">Kitchen Interior Design Jumeirah </a></b></b> — The kitchen has become one of the most used spaces in modern homes. Our kitchens are based on functionality, efficiency, materiality, and coherence without compromising the luxury residential atmosphere. Many homeowners combine kitchen upgrades with wider Interior design and renovation Jumeirah projects.</p>
+<p className="text-justify"><b className="text-[#b98877]">Living Room Interior Design Jumeirah</b> — <b className="text-[#caa193]"><a href="https://wedointerior.ae/living-room-interior-design-jumeirah-dubai"> Living room interiors </a></b> are commonly made the focal point of any home. WE DO designs living rooms based on principles of comfort, scale, motion, and human interaction such that each space feels inviting all year round and not just for special occasions.</p>
+<p className="text-justify"><b className="text-[#b98877]">Home Renovation Jumeirah Dubai</b> — Where people appreciate where they are but need more from their home experience,our <b className="text-[#caa193]"><a href="https://wedointerior.ae/home-renovation-jumeirah-dubai"> home renovation in Jumeirah </a></b> can make the greatest difference. We redesign layouts, improve functionality, update finishes, and modernise interiors while preserving the identity of the property.</p>
+<p className="text-justify"><b className="text-[#b98877]">Beachfront Interior Design Jumeirah</b> — Properties closer to the coastline require a different approach to materials and natural light. Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/beachfront-interior-design-jumeirah-dubai"> beachfront interiors </a></b> focus on creating calm, bright environments that feel connected to outdoor living.</p>
+<p className="text-justify"><b className="text-[#b98877]"><b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-interior-design-jumeirah">Retail Interior Design Jumeirah </a></b></b> — Alongside residential work, WE DO also delivers premium retail and customer-facing interiors across Jumeirah and surrounding locations.</p>
+</div>
+
             <section className="bg-[#000000] py-10">
               <div className="container mx-auto flex flex-col lg:flex-row items-center px-4 sm:px-8 lg:px-16 gap-10">
                 <div className="w-full lg:w-1/2">
@@ -133,20 +141,13 @@ const AboutSection = () => {
 
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                   <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight">
-                    Our Interior Design Services in Jumeirah Dubai
+                    Why Interior Design in Jumeirah Requires a Different Approach
                   </h2>
-                  <p className="text-white text-sm sm:text-base font-play mb-4 text-justify">
-                    WE DO provides complete Home interior design Jumeirah Dubai services for homeowners who want interiors that feel elevated but practical.
-                  </p>
-                  
-                  <div className="space-y-4 text-white text-sm sm:text-base font-play text-left mb-6">
-                    <p className="text-justify"><b className="text-[#b98877]">Bedroom Interior Design Jumeirah</b> — Sleeping areas need to encourage sleep without making us feel isolated from the remainder of the home. The <b className="text-[#caa193]"><a href="https://wedointerior.ae/bedroom-interior-design-jumeirah-dubai">  interior design of our bedrooms </a></b> is achieved by designing better layouts, lighting, wardrobe systems, custom joinery, furnishing design, and finishes which create a more relaxed atmosphere.</p>
-                    <p className="text-justify"><b className="text-[#b98877]"><b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-interior-design-jumeirah-dubai">  Kitchen Interior Design Jumeirah </a></b></b> — The kitchen has become one of the most used spaces in modern homes. Our kitchens are based on functionality, efficiency, materiality, and coherence without compromising the luxury residential atmosphere. Many homeowners combine kitchen upgrades with wider Interior design and renovation Jumeirah projects.</p>
-                    <p className="text-justify"><b className="text-[#b98877]">Living Room Interior Design Jumeirah</b> — <b className="text-[#caa193]"><a href="https://wedointerior.ae/living-room-interior-design-jumeirah-dubai">  Living room interiors </a></b> are commonly made the focal point of any home. WE DO designs living rooms based on principles of comfort, scale, motion, and human interaction such that each space feels inviting all year round and not just for special occasions.</p>
-                    <p className="text-justify"><b className="text-[#b98877]">Home Renovation Jumeirah Dubai</b> — Where people appreciate where they are but need more from their home experience,our <b className="text-[#caa193]"><a href="https://wedointerior.ae/home-renovation-jumeirah-dubai">  home renovation in Jumeirah </a></b> can make the greatest difference. We redesign layouts, improve functionality, update finishes, and modernise interiors while preserving the identity of the property.</p>
-                    <p className="text-justify"><b className="text-[#b98877]">Beachfront Interior Design Jumeirah</b> — Properties closer to the coastline require a different approach to materials and natural light. Our <b className="text-[#caa193]"><a href="https://wedointerior.ae/beachfront-interior-design-jumeirah-dubai">  beachfront interiors </a></b> focus on creating calm, bright environments that feel connected to outdoor living.</p>
-                    <p className="text-justify"><b className="text-[#b98877]"><b className="text-[#caa193]"><a href="https://wedointerior.ae/retail-interior-design-jumeirah">  Retail Interior Design Jumeirah </a></b></b> — Alongside residential work, WE DO also delivers premium retail and customer-facing interiors across Jumeirah and surrounding locations.</p>
-                  </div>
+                   <p className="text-justify text-white text-base font-play mb-6 leading-relaxed">
+              The interior design of Jumeirah Dubai is not just about trends. The houses located in Jumeirah tend to be spacious and better suited to be lived in by families for years to come, which means that interior designing is more planned and should be comfortable. Unlike the apartments located in the city, these houses have plenty of space both inside and outside, which means that the interior of such a house should be comfortable.
+              
+              The quality of the interior becomes obvious in Jumeirah because it is made of materials, lighting, finishes, and joinery. Being an experienced interior designer in Jumeirah Dubai, we offer you customized interiors in Jumeirah, Umm Suqeim, Al Wasl, La Mer, City Walk, and nearby neighborhoods.
+            </p>
 
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
                     <Link href="/gallery">
@@ -207,19 +208,11 @@ const AboutSection = () => {
           <div className="container mx-auto flex flex-col lg:flex-row items-center px-4 sm:px-8 lg:px-16 gap-10">
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight uppercase">
-              Our Interior Design Process in Jumeirah Dubai  
+             Why Jumeirah Residents Choose WE DO
               </h2>
-              <p className="text-white text-sm sm:text-base font-play mb-4 text-justify">
-                             At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">  WE DO Interior Design & Fitout </a></b>, our approach keeps design decisions clear, communication organised, and execution aligned from beginning to end. Whether the project involves Residential interior design Jumeirah, complete renovation, or full Interior fitout Jumeirah Dubai, every stage is planned carefully.
-              </p>
-
-              <div className="space-y-4 text-white text-sm sm:text-base font-play text-left mt-6 mb-6">
-                <p className="text-justify"><b className="text-[#b98877]">Discovery & Consultation</b> — Every project begins with an analysis of the home and its inhabitants. The team meets to discuss lifestyles, needs, design considerations, time frames, and the functional role of each space. Site visits help us appreciate proportions, conditions on site, and possibilities at hand. This stage creates the foundation for successful Interior design Jumeirah Dubai projects.</p>
-                <p className="text-justify"><b className="text-[#b98877]">Concept Development & Space Planning</b> — Once requirements are clear, WE DO develop the design direction. Layouts are elegant, circulations are enhanced, and ideas start to emerge in initial form. At this point, issues of materials, finish, furniture direction, and language become relevant considerations. In larger Villa interior design Jumeirah projects, it will ensure continuity within different parts of the home.</p>
-                <p className="text-justify"><b className="text-[#b98877]">Design Development & Material Selection</b> — After the vision is approved, the design moves into greater detail. Our professionals develop arts, finish schedules, joinery ideas, lighting concepts, and material selections to make sure each element supports the overall interior. This phase is especially important for clients looking for Luxury interior design Jumeirah Dubai where finish quality influences the end experience.</p>
-                <p className="text-justify"><b className="text-[#b98877]">Interior Fitout & Project Coordination</b> — Once designs are finalised, execution begins. WE DO coordinate fitout activities, installation sequencing, contractor communication, and site progress to maintain consistency between design intent and delivery. Since we work as both an Interior design company Jumeirah Dubai and fitout contractors, we provide clients with reduced delays and increased coordination.</p>
-                <p className="text-justify"><b className="text-[#b98877]">Styling, Completion and Handover</b> — This stage deals with completing the process. It involves positioning furniture, finishing touches, inspection and quality control, among others, prior to handover. From Home interior design Jumeirah Dubai to interior design and renovation Jumeirah, WE DO ensure a sense of completeness and comfortability in our interiors.</p>
-              </div>
+              <p className=" max-w-6xl mx-auto text-sm sm:text-base text-white py-4 font-play text-justify ">
+              WE DO is one of the finest firms for interior design and fit-out in Dubai. WE DO is the choice of homeowners due to our combination of creativity and implementation skills. Our knowledge of local residential interior design and renovation challenges and the high expectations that accompany premium interiors enables us to simplify the process and be consistent in the implementation of the project. Our clients prefer us because of our ability to produce interiors which are personal and timeless.
+            </p>
 
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
                 <Link href="/gallery">
@@ -248,11 +241,22 @@ const AboutSection = () => {
 
           <div className="text-center mt-14">
             <h2 className="text-[#b98877] text-2xl font-conthrax mb-4 leading-tight uppercase">
-              Why Jumeirah Residents Choose WE DO
+              
+               Our Interior Design Process in Jumeirah Dubai
             </h2>
-            <p className="text-center max-w-6xl mx-auto text-sm sm:text-base text-white py-4 font-play text-justify sm:text-center">
-              WE DO is one of the finest firms for interior design and fit-out in Dubai. WE DO is the choice of homeowners due to our combination of creativity and implementation skills. Our knowledge of local residential interior design and renovation challenges and the high expectations that accompany premium interiors enables us to simplify the process and be consistent in the implementation of the project. Our clients prefer us because of our ability to produce interiors which are personal and timeless.
-            </p>
+            
+
+            <p className="text-white text-sm sm:text-base font-play mb-4 text-justify">
+                             At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">  WE DO Interior Design & Fitout </a></b>, our approach keeps design decisions clear, communication organised, and execution aligned from beginning to end. Whether the project involves Residential interior design Jumeirah, complete renovation, or full Interior fitout Jumeirah Dubai, every stage is planned carefully.
+              </p>
+
+              <div className="space-y-4 text-white text-sm sm:text-base font-play text-left mt-6 mb-6">
+                <p className="text-justify"><b className="text-[#b98877]">Discovery & Consultation</b> — Every project begins with an analysis of the home and its inhabitants. The team meets to discuss lifestyles, needs, design considerations, time frames, and the functional role of each space. Site visits help us appreciate proportions, conditions on site, and possibilities at hand. This stage creates the foundation for successful Interior design Jumeirah Dubai projects.</p>
+                <p className="text-justify"><b className="text-[#b98877]">Concept Development & Space Planning</b> — Once requirements are clear, WE DO develop the design direction. Layouts are elegant, circulations are enhanced, and ideas start to emerge in initial form. At this point, issues of materials, finish, furniture direction, and language become relevant considerations. In larger Villa interior design Jumeirah projects, it will ensure continuity within different parts of the home.</p>
+                <p className="text-justify"><b className="text-[#b98877]">Design Development & Material Selection</b> — After the vision is approved, the design moves into greater detail. Our professionals develop arts, finish schedules, joinery ideas, lighting concepts, and material selections to make sure each element supports the overall interior. This phase is especially important for clients looking for Luxury interior design Jumeirah Dubai where finish quality influences the end experience.</p>
+                <p className="text-justify"><b className="text-[#b98877]">Interior Fitout & Project Coordination</b> — Once designs are finalised, execution begins. WE DO coordinate fitout activities, installation sequencing, contractor communication, and site progress to maintain consistency between design intent and delivery. Since we work as both an Interior design company Jumeirah Dubai and fitout contractors, we provide clients with reduced delays and increased coordination.</p>
+                <p className="text-justify"><b className="text-[#b98877]">Styling, Completion and Handover</b> — This stage deals with completing the process. It involves positioning furniture, finishing touches, inspection and quality control, among others, prior to handover. From Home interior design Jumeirah Dubai to interior design and renovation Jumeirah, WE DO ensure a sense of completeness and comfortability in our interiors.</p>
+              </div>
           </div>
         </section>
 
@@ -262,7 +266,7 @@ const AboutSection = () => {
             
             {/* Single Static Background Image */}
             <Image
-              src="/images/pjapt (11).webp"
+              src="/images/OIG3.jpeg"
               alt="Elite Interior Design Jumeirah"
               fill
               priority
