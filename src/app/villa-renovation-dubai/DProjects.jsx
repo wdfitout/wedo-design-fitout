@@ -306,7 +306,7 @@ const DProjects = () => {
         </table>
         <p className="font-play text-sm sm:text-base text-white">
           WE DO&apos;s renovation service covers the cosmetic side of this table in full. If your project also needs structural
-          changes, we coordinate that through our <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-construction-dubai">villa construction</a></b> team, so it&apos;s still managed under one point of contact.
+          changes, we coordinate that through our <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-construction-dubai"> villa construction </a></b> team, so it&apos;s still managed under one point of contact.
         </p>
       </div>
 
@@ -449,7 +449,7 @@ const DProjects = () => {
           <div>
             <h3 className="font-conthrax uppercase text-[#caa193] text-sm sm:text-base">Landscaping &amp; Garden Design</h3>
             <p className="font-play text-sm sm:text-base text-white text-start py-2">
-              <b className="text-[#caa193]"><a href="https://wedointerior.ae/landscape-design-dubai">Landscaping and garden design</a></b> planting, irrigation, and outdoor living areas, distinct from the driveway and hardscaping work covered under Exterior &amp; Façade Renovation. Often bundled with a pool or exterior renovation project, since access and site logistics overlap.
+              <b className="text-[#caa193]"><a href="https://wedointerior.ae/landscape-design-dubai"> Landscaping and garden design </a></b> planting, irrigation, and outdoor living areas, distinct from the driveway and hardscaping work covered under Exterior &amp; Façade Renovation. Often bundled with a pool or exterior renovation project, since access and site logistics overlap.
             </p>
              <p className="font-play text-sm sm:text-base text-white">
             Need to add square footage instead of reconfiguring within your villa's existing layout? Extensions require Dubai Municipality-approved structural drawings and a licensed structural sign-off outside our renovation scope, but coordinated through our villa construction team as part of the same single point of contact.
