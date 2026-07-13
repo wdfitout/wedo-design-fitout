@@ -5,18 +5,18 @@ import Image from 'next/image';
 
 const textImage = {
   src: '/images/villa-renovation-demolition-dubai.png',
-  link: '/luxury-villa-interior-design-in-dubai',
+  
   title: 'Tips For Renovate Your Villa in Dubai'
 };
 
 const galleryImages = [
  
-  { src: '/images/villa-renovation-dubai-before-after.png', link: '/district-1-mbr-city-contemporary-villa', title: 'VILLA RENOVATION DUBAI BEFORE AFTER' },
-  { src: '/images/villa-renovation-extension-dubai.png', link: '/district-one-contemporary-villa', title: 'VILLA RENOVATION EXTENSION DUBAI' },
-  { src: '/images/villa-renovation-exterior-dubai.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'VILLA RENOVATION EXTERIOR DUBAI' },
-  { src: '/images/villa-renovation-flooring-dubai.png', link: '/majan-villa-design', title: 'VILLA RENOVATION FLOORING DUBAI' },
-  { src: '/images/villa-renovation-kitchen-dubai.png', link: '/al-manara-luxury-villa', title: 'VILLA RENOVATION KITCHEN DUBAI' },
-  { src: '/images/villa-renovation-pool-dubai.png', link: '/palm-jumeirah-apartment', title: 'VILLA RENOVATION POOL DUBAI' },
+  { src: '/images/villa-renovation-dubai-before-after.png',  title: 'VILLA RENOVATION DUBAI BEFORE AFTER' },
+  { src: '/images/villa-renovation-extension-dubai.png',  title: 'VILLA RENOVATION EXTENSION DUBAI' },
+  { src: '/images/villa-renovation-exterior-dubai.png',  title: 'VILLA RENOVATION EXTERIOR DUBAI' },
+  { src: '/images/villa-renovation-flooring-dubai.png',  title: 'VILLA RENOVATION FLOORING DUBAI' },
+  { src: '/images/villa-renovation-kitchen-dubai.png',  title: 'VILLA RENOVATION KITCHEN DUBAI' },
+  { src: '/images/villa-renovation-pool-dubai.png',  title: 'VILLA RENOVATION POOL DUBAI' },
 
 ];
 
@@ -178,52 +178,56 @@ const DProjects = () => {
         </div>
       </div>
 
-      <h2 className="text-center text-3xl font-conthrax text-white py-12">
-          How it works, in short — Get Started in 3 Steps
-        </h2>
+     <div className="w-full max-w-[85%] mx-auto mb-16">
+  <h2 className="text-center text-2xl sm:text-3xl font-conthrax text-white py-12">
+    How it works, in short — Get Started in 3 Steps
+  </h2>
 
-        {/* Section 1: Text Left, Image Right */}
-        <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
-          <div className="space-y-6 text-white font-play text-justify">
-            <p>
-              From first call to final walkthrough, most villa renovations move through six stages. 
-              Standard-scope projects complete in 3-4 months; large or full-scope renovations typically 
-              take 6-8 months. Here&apos;s how it works, in short:
-            </p>
-            
-            <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
-              <li>
-                <p className='text-white font-play'>
-                  <b className="text-[#caa193]">Design – </b>
-                  We turn your brief and villa layout into a concept.
-                </p>
-              </li>
-              <li>
-                <p className='text-white font-play'>
-                  <b className="text-[#caa193]">Preview – </b>
-                  You review the full design in 3D before any work begins.
-                </p>
-              </li>
-              <li>
-                <p className='text-white font-play'>
-                  <b className="text-[#caa193]">Build – </b>
-                  We execute exactly what you approved, on the agreed timeline.
-                </p>
-              </li>
-            </ul>
-          </div>
+  {/* Description Text Above Cards */}
+  <p className="text-center max-w-3xl mx-auto text-sm sm:text-base text-white/80 font-play mb-12">
+    From first call to final walkthrough, most villa renovations move through six stages. 
+    Standard-scope projects complete in 3-4 months; large or full-scope renovations typically 
+    take 6-8 months. Here&apos;s how it works, in short:
+  </p>
 
-         <div className="rounded-lg overflow-hidden shadow-md">
-            <Image
-              src="/images/villa-renovation-landscaping-dubai.png"
-              alt="villa-renovation-landscaping-dubai"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        </div>
-        
+  {/* 3-Step Cards Grid */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    {/* Card 1: Design */}
+    <div className="bg-neutral-900/50 border border-neutral-800 p-6 rounded-xl space-y-3 shadow-lg hover:border-[#caa193]/50 transition-colors duration-300">
+      <div className="flex items-center gap-3">
+        <span className="font-conthrax text-2xl text-[#caa193]">01</span>
+        <h3 className="font-conthrax text-lg text-[#caa193] tracking-wider">Design</h3>
+      </div>
+      <p className="text-sm sm:text-base text-white/90 font-play leading-relaxed">
+        We turn your brief and villa layout into a concept.
+      </p>
+    </div>
+
+    {/* Card 2: Preview */}
+    <div className="bg-neutral-900/50 border border-neutral-800 p-6 rounded-xl space-y-3 shadow-lg hover:border-[#caa193]/50 transition-colors duration-300">
+      <div className="flex items-center gap-3">
+        <span className="font-conthrax text-2xl text-[#caa193]">02</span>
+        <h3 className="font-conthrax text-lg text-[#caa193] tracking-wider">Preview</h3>
+      </div>
+      <p className="text-sm sm:text-base text-white/90 font-play leading-relaxed">
+        You review the full design in 3D before any work begins.
+      </p>
+    </div>
+
+    {/* Card 3: Build */}
+    <div className="bg-neutral-900/50 border border-neutral-800 p-6 rounded-xl space-y-3 shadow-lg hover:border-[#caa193]/50 transition-colors duration-300">
+      <div className="flex items-center gap-3">
+        <span className="font-conthrax text-2xl text-[#caa193]">03</span>
+        <h3 className="font-conthrax text-lg text-[#caa193] tracking-wider">Build</h3>
+      </div>
+      <p className="text-sm sm:text-base text-white/90 font-play leading-relaxed">
+        We execute exactly what you approved, on the agreed timeline.
+      </p>
+    </div>
+
+  </div>
+</div>
 
         {/* Section 2: Image Left, Text Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -265,7 +269,7 @@ const DProjects = () => {
       
 
       {/* Cosmetic vs Structural */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Cosmetic vs. Structural: What&apos;s the Difference?
         </h2>
@@ -311,7 +315,7 @@ const DProjects = () => {
       </div>
 
       {/* Villa Renovation Materials in Dubai */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Villa Renovation Materials in Dubai
         </h2>
@@ -365,7 +369,7 @@ const DProjects = () => {
       </div>
 
       {/* Steps Breakdown Summary */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
             Villa Renovation Services in Dubai
@@ -463,7 +467,7 @@ const DProjects = () => {
       
 
       {/* What Are the Steps Involved in Villa Renovation Detail */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           What Are the Steps Involved in Villa Renovation?
         </h2>
@@ -482,7 +486,7 @@ const DProjects = () => {
       </div>
 
       {/* Villa Renovation vs Villa Fit-Out */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Villa Renovation vs. Villa Fit-Out
         </h2>
@@ -535,7 +539,7 @@ const DProjects = () => {
 
       {/* Auto-Play Testimonials Carousel with Pause-on-Hover */}
       <div
-        className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 relative overflow-hidden text-justify"
+        className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 relative overflow-hidden text-justify"
         onMouseEnter={() => setIsPlaying(false)}
         onMouseLeave={() => setIsPlaying(true)}
       >
@@ -623,21 +627,21 @@ const DProjects = () => {
         </div>
       </div>
 
-      <div className="w-full rounded-lg overflow-hidden my-4" style={{ height: "350px" }}>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231011.6968037307!2d55.111943845625345!3d25.193245468798935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a6d4bc5%3A0x62a339193f0ac809!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1719380000000!5m2!1sen!2sae"
-          width="100%"
-          height="100%"
-          style={{ border: 0, minHeight: '450px' }}
-          allowFullScreen={true}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="WE DO Villa Construction Dubai Location"
-        ></iframe>
-      </div>
+      <div className="w-full rounded-lg overflow-hidden my-12 shadow-lg" style={{ height: "450px" }}>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.292133776448!2d55.1259375!3d24.990187499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6954f6d82d69%3A0x12891350d5165c12!2sInterior%20Design%20Company%20Dubai%20-%20WeDo%20Interior%20Design%20%26%20Fit%20out!5e0!3m2!1sen!2sae!4v1783940352669!5m2!1sen!2sae"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen={true}
+    loading="lazy"
+    referrerPolicy="strict-origin-when-cross-origin"
+    title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+  ></iframe>
+</div>
 
       {/* FAQs */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Frequently Asked Questions
         </h2>

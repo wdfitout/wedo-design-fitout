@@ -10,7 +10,7 @@ const ApId = () => {
 
   return (
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <p>July 12, 2026</p>
+      <p>July 13, 2026</p>
       <div className="lg:max-w-[80%] mx-auto">
         
         <div className="flex flex-col lg:flex-row gap-12">
@@ -63,13 +63,13 @@ const ApId = () => {
             ) : (
               <div className="w-full aspect-video border-4 border-[#caa193] rounded-lg overflow-hidden">
                 <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/HZDoGMJZh20?autoplay=1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+  className="w-full h-full"
+  src="https://www.youtube.com/embed/yNeCQLpYvww"
+  title="WE DO Villa Renovation Dubai Video"
+  style={{ border: 0 }}
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
               </div>
             )}
             
