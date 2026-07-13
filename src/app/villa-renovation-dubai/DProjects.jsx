@@ -60,7 +60,7 @@ const DProjects = () => {
     <section className="px-6 py-10 bg-black-200">
 
       {/* Top Content Block */}
-     <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
+     <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Why Choose WE DO for Villa Renovation Dubai
         </h2>
@@ -91,7 +91,7 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-  <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-center gap-6 mb-12"> 
+  <div className="lg:max-w-[70%] mx-auto flex flex-col lg:flex-row items-center gap-6 mb-12"> 
   {/* Note: items-start ki jagah items-center use kiya hai taaki bade image ke sath text vertical center align ho jaye */}
   
   {/* Text Column - 50% Width */}
@@ -133,7 +133,7 @@ const DProjects = () => {
 </div>
 
       {/* Gallery Grid with Hover Effects */}
-      <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10">
+      <div className="lg:max-w-[70%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10">
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
             <Image
@@ -178,7 +178,7 @@ const DProjects = () => {
         </div>
       </div>
 
-     <div className="w-full max-w-[85%] mx-auto mb-16">
+     <div className="w-full max-w-[70%] mx-auto mb-16">
   <h2 className="text-center text-2xl sm:text-3xl font-conthrax text-white py-6">
     How it works, in short — Get Started in 3 Steps
   </h2>
