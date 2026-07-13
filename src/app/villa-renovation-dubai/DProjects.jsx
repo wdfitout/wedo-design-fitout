@@ -179,12 +179,12 @@ const DProjects = () => {
       </div>
 
      <div className="w-full max-w-[85%] mx-auto mb-16">
-  <h2 className="text-center text-2xl sm:text-3xl font-conthrax text-white py-12">
+  <h2 className="text-center text-2xl sm:text-3xl font-conthrax text-white py-6">
     How it works, in short — Get Started in 3 Steps
   </h2>
 
   {/* Description Text Above Cards */}
-  <p className="text-center max-w-3xl mx-auto text-sm sm:text-base text-white/80 font-play mb-12">
+  <p className="text-center max-w-3xl mx-auto text-sm sm:text-base text-white/80 font-play mb-6">
     From first call to final walkthrough, most villa renovations move through six stages. 
     Standard-scope projects complete in 3-4 months; large or full-scope renovations typically 
     take 6-8 months. Here&apos;s how it works, in short:
