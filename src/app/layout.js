@@ -1,35 +1,172 @@
 import './globals.css';
+import {
+  SITE_URL,
+  WEDO_ORGANIZATION_ID,
+  WEDO_BUSINESS,
+  WEDO_AGGREGATE_RATING,
+  WEDO_REVIEWS,
+} from './business-schema';
+
+const HOME_TITLE =
+  'Interior Design Dubai | Luxury Designers | We Do Interior';
+
+const HOME_DESCRIPTION =
+  'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.';
 
 export const metadata = {
-  title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
-  description:
-    'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL(SITE_URL),
+
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
+
+  alternates: {
+    canonical: '/',
+  },
+
   openGraph: {
-    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
-    description:
-      'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
-    url: 'https://wedointerior.ae/',
-    siteName: 'we do interior design',
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
+    url: SITE_URL,
+    siteName: 'WE DO Interior Design',
+    type: 'website',
     images: [
       {
         url: '/images/logo.svg',
         width: 1200,
         height: 630,
-        alt: 'Interior Blog Banner',
+        alt: 'WE DO Interior Design Dubai',
       },
     ],
-    type: 'website',
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
-    description:
-      'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     images: ['/images/logo.svg'],
   },
-  alternates: {
-    canonical: '/',
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
+  },
+};
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  ...WEDO_BUSINESS,
+
+  logo: {
+    '@type': 'ImageObject',
+    url: `${SITE_URL}images/logo.svg`,
+    width: 600,
+    height: 60,
+  },
+
+  aggregateRating: WEDO_AGGREGATE_RATING,
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${SITE_URL}#webpage`,
+  name: 'WE DO Interior Design',
+  url: SITE_URL,
+  description: HOME_DESCRIPTION,
+
+  about: {
+    '@id': WEDO_ORGANIZATION_ID,
+  },
+
+  isPartOf: {
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}#website`,
+    name: 'WE DO Interior Design',
+    url: SITE_URL,
+  },
+};
+
+const siteNavigationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'WE DO Interior Design Website Navigation',
+
+  itemListElement: [
+    {
+      '@type': 'SiteNavigationElement',
+      position: 1,
+      name: 'About Us',
+      url: `${SITE_URL}about-us`,
+    },
+    {
+      '@type': 'SiteNavigationElement',
+      position: 2,
+      name: 'Apartment Interior Design Dubai',
+      url: `${SITE_URL}apartment-interior-design-dubai`,
+    },
+    {
+      '@type': 'SiteNavigationElement',
+      position: 3,
+      name: 'Villa Interior Design Dubai',
+      url: `${SITE_URL}villa-interior-design-dubai`,
+    },
+    {
+      '@type': 'SiteNavigationElement',
+      position: 4,
+      name: 'Gallery',
+      url: `${SITE_URL}projects`,
+    },
+    {
+      '@type': 'SiteNavigationElement',
+      position: 5,
+      name: 'Contact Us',
+      url: `${SITE_URL}contact-us`,
+    },
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: SITE_URL,
+    },
+  ],
+};
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${SITE_URL}#interior-design-service`,
+
+  name: 'Interior Design and Fit-Out Dubai',
+  serviceType: 'Interior Design and Fit-Out',
+  url: SITE_URL,
+
+  provider: {
+    '@type': 'LocalBusiness',
+    '@id': WEDO_ORGANIZATION_ID,
+    name: WEDO_BUSINESS.name,
+    url: WEDO_BUSINESS.url,
+    telephone: WEDO_BUSINESS.telephone,
+    address: WEDO_BUSINESS.address,
+  },
+
+  areaServed: {
+    '@type': 'Place',
+    name: 'Dubai, United Arab Emirates',
   },
 };
 
@@ -37,204 +174,80 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Tag (gtag.js) for AW-11361089409 */}
+
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
         />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
+
+              function gtag() {
+                window.dataLayer.push(arguments);
+              }
+
               gtag('js', new Date());
+
               gtag('config', 'AW-11361089409');
+              gtag('config', 'G-1DX7X8GKN2');
             `,
           }}
         />
 
-        {/* Google Analytics (gtag.js) for G-1DX7X8GKN2 */}
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-1DX7X8GKN2"
-/>
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1DX7X8GKN2');
-    `,
-  }}
-/>
+        {/* LocalBusiness / Organization Schema */}
 
-
-        {/* Robots Meta Tag */}
-        <meta
-          name="robots"
-          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-        />
-
-        {/* Organization Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Organization',
-              name: 'we do interior design',
-              url: 'https://wedointerior.ae/',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://wedointerior.ae/images/logo.svg',
-                width: 600,
-                height: 60,
-              },
-              sameAs: [
-                'https://www.instagram.com/yourprofile',
-                'https://www.facebook.com/yourprofile',
-              ],
-            }),
+            __html: JSON.stringify(localBusinessSchema),
           }}
         />
 
-        {/* WebPage Schema */}
+        {/* Homepage WebPage Schema */}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebPage',
-              name: 'we do interior design',
-              url: 'https://wedointerior.ae/',
-              description:
-                'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
-            }),
+            __html: JSON.stringify(webPageSchema),
           }}
         />
 
-        {/* BlogPosting Schema */}
+        {/*
+         * BlogPosting schema is intentionally excluded because this is
+         * the business homepage, not a blog article.
+         */}
+
+        {/* Website Navigation Schema */}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'BlogPosting',
-              headline: 'Modern Interior Design in Dubai',
-              description:
-                'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.',
-              url: 'https://wedointerior.ae/',
-              author: {
-                '@type': 'Organization',
-                name: 'we do interior design',
-              },
-              publisher: {
-                '@type': 'Organization',
-                name: 'we do interior design',
-                logo: {
-                  '@type': 'ImageObject',
-                  url: 'https://wedointerior.ae/images/logo.svg',
-                  width: 600,
-                  height: 60,
-                },
-              },
-              mainEntityOfPage: 'https://wedointerior.ae/',
-              image: {
-                '@type': 'ImageObject',
-                url: 'https://wedointerior.ae/images/logo.svg',
-                width: 1200,
-                height: 630,
-              },
-              datePublished: '2025-06-22',
-            }),
+            __html: JSON.stringify(siteNavigationSchema),
           }}
         />
 
-        {/* Site Navigation Schema */}
+        {/* Homepage Breadcrumb Schema */}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'ItemList',
-              itemListElement: [
-                {
-                  '@type': 'SiteNavigationElement',
-                  position: 1,
-                  name: 'About Us',
-                  url: 'https://wedointerior.ae/about-us',
-                },
-                {
-                  '@type': 'SiteNavigationElement',
-                  position: 2,
-                  name: 'Apartment Interior Design Dubai',
-                  url: 'https://wedointerior.ae/apartment-interior-design-dubai',
-                },
-                {
-                  '@type': 'SiteNavigationElement',
-                  position: 3,
-                  name: 'Villa Interior Design Dubai',
-                  url: 'https://wedointerior.ae/villa-interior-design-dubai',
-                },
-                {
-                  '@type': 'SiteNavigationElement',
-                  position: 4,
-                  name: 'Gallery',
-                  url: 'https://wedointerior.ae/projects',
-                },
-                {
-                  '@type': 'SiteNavigationElement',
-                  position: 5,
-                  name: 'Contact Us',
-                  url: 'https://wedointerior.ae/contact-us',
-                },
-              ],
-            }),
+            __html: JSON.stringify(breadcrumbSchema),
           }}
         />
 
-        {/* BreadcrumbList Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'BreadcrumbList',
-              itemListElement: [
-                {
-                  '@type': 'ListItem',
-                  position: 1,
-                  name: 'Home',
-                  item: 'https://wedointerior.ae/',
-                },
-              ],
-            }),
-          }}
-        />
+        {/* Interior Design and Fit-Out Service Schema */}
 
-        {/* Service Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Service',
-              serviceType: 'Interior Design and Fit Out',
-              provider: {
-                '@type': 'Organization',
-                name: 'we do interior design',
-                url: 'https://wedointerior.ae',
-              },
-              areaServed: {
-                '@type': 'Place',
-                name: 'Dubai, UAE',
-              },
-              url: 'https://wedointerior.ae/',
-            }),
+            __html: JSON.stringify(serviceSchema),
           }}
         />
       </head>
+
       <body>{children}</body>
     </html>
   );

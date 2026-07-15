@@ -1,4 +1,5 @@
 import '../globals.css';
+import { WEDO_BUSINESS, WEDO_AGGREGATE_RATING, WEDO_REVIEWS } from '../business-schema';
 
 export const metadata = {
   title: "Villa Renovation Dubai | Full Villa Fit-Out | WE DO",
@@ -35,9 +36,9 @@ export default function RootLayout({ children }) {
               "name": "Villa Renovation Dubai",
               "serviceType": "Villa Renovation",
               "provider": {
-                "@type": "LocalBusiness",
-                "name": "WE DO Interior Design & Fit-Out",
-                "url": "https://wedointerior.ae/"
+                ...WEDO_BUSINESS,
+                "aggregateRating": WEDO_AGGREGATE_RATING,
+                "review": WEDO_REVIEWS
               },
               "areaServed": [
                 { "@type": "Place", "name": "Emirates Hills" },
@@ -64,21 +65,7 @@ export default function RootLayout({ children }) {
                   {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Swimming Pool Renovation"}},
                   {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landscaping & Garden Design"}}
                 ]
-              },
-              "review": [
-                {
-                  "@type": "Review",
-                  "author": {"@type": "Person", "name": "Sarah A."},
-                  "reviewBody": "WE DO completely transformed our villa into a modern, elegant home while preserving the character we loved. From the renovation planning to the final finishes, every detail was handled professionally. The team kept us informed throughout the project, completed the work on schedule, and delivered exceptional quality. We couldn't be happier with the results.",
-                  "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
-                },
-                {
-                  "@type": "Review",
-                  "author": {"@type": "Person", "name": "Ahmed K."},
-                  "reviewBody": "Renovating our villa felt like a huge decision, but WE DO made the entire process smooth and stress-free. Their designers understood exactly what we wanted, and the craftsmanship exceeded our expectations. The finished home is brighter, more functional, and beautifully finished. We highly recommend them to anyone planning a villa renovation in Dubai.",
-                  "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
-                }
-              ]
+              }
             })
           }}
         />
