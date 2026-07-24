@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/acdh (6).png"
-        alt="interior design"
+        alt="Luxury master bedroom interior design for a 2-bedroom apartment at Acacia Dubai Hills, Dubai"
         fill
         priority
         className="object-cover"

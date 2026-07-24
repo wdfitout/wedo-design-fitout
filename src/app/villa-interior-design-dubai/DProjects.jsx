@@ -178,7 +178,7 @@ const DProjects = () => {
             
             <p>
              We rank among one of the best villa  interior design companies in several areas of Dubai and we have completed our
-              projects like <b className="text-[#caa193]"><a href="https://wedointerior.ae/al-manara-luxury-villa"></a>Al Manara luxury Villa</b>, 
+              projects like <b className="text-[#caa193]"><a href="https://wedointerior.ae/al-manara-luxury-villa">Al Manara luxury Villa</a></b>, 
               <b><a href="https://wedointerior.ae/majan-villa-design"> Majan Villa Interior Design</a></b> and 
               <b className="text-[#caa193]"><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa"> District one MBR (Muhammad Bin Rashid) City Villa </a></b>etc
             </p>           

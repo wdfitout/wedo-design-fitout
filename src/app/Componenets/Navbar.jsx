@@ -25,12 +25,12 @@ const navLinks = [
         title: "COMMERCIAL",
         path: "/commercial-interior-design-dubai",
         children: [
-          { title: "BEAUTY SALON", path: "/commercial-interior-design-dubai" },
-          { title: "OFFICE", path: "/commercial-interior-design-dubai" },
+          { title: "BEAUTY SALON", path: "/beauty-salon-interior-design-dubai" },
+          { title: "OFFICE", path: "/office-interior-design-dubai" },
           { title: "BARBER", path: "/commercial-interior-design-dubai" },
-          { title: "HOTEL", path: "/commercial-interior-design-dubai" },
-          { title: "LANDSCAPE", path: "/commercial-interior-design-dubai" },
-          { title: "RESTAURANT", path: "/commercial-interior-design-dubai" },
+          { title: "HOTEL", path: "/hotel-interior-design-dubai" },
+          { title: "LANDSCAPE", path: "/landscape-design-dubai" },
+          { title: "RESTAURANT", path: "/restaurant-interior-design" },
         ],
       },
       {
@@ -38,7 +38,7 @@ const navLinks = [
         path: "/villa-interior-design-dubai",
         children: [
           { title: "VILLA", path: "/villa-interior-design-dubai" },
-          { title: "APARTMENT", path: "/villa-interior-design-dubai" },
+          { title: "APARTMENT", path: "/apartment-interior-design-dubai" },
           { title: "BEDROOM", path: "/villa-interior-design-dubai" },
           { title: "LIVING ROOM", path: "/villa-interior-design-dubai" },
           { title: "KITCHEN", path: "/villa-interior-design-dubai" },

@@ -198,7 +198,7 @@ const DProjects = () => {
 
         {/* 8. FAQs Section */}
         <div className="mb-20">
-          <h2 className="text-center text-3xl font-conthrax text-[#caa193] mb-10 uppercase">8. Frequently Asked Questions (FAQs)</h2>
+          <h2 className="text-center text-3xl font-conthrax text-[#caa193] mb-10 uppercase">Frequently Asked Questions (FAQs)</h2>
           <div className="max-w-4xl mx-auto space-y-4">
             {faqs.map((faq, index) => (
               <div key={index} className="border border-[#caa193]/30 rounded-lg overflow-hidden">
@@ -221,7 +221,7 @@ const DProjects = () => {
 
         {/* 9. Call to Action */}
         <div className="text-center bg-black p-10 rounded-xl border-2 border-[#caa193] mb-10">
-          <h2 className="text-2xl font-conthrax text-[#caa193] mb-6 uppercase">9. Call to Action</h2>
+          <h2 className="text-2xl font-conthrax text-[#caa193] mb-6 uppercase"> Call to Action</h2>
           <p className="text-white font-play max-w-3xl mx-auto mb-8">
            Are you on the lookout for the most outstanding <b> office interior design agency in Dubai </b> to give your office space a whole new meaning? <b> WE DO Interior Design & Fitout </b> is your top choice for complete <b> office interior design and fitout services in Dubai </b>, tailored to meet your business needs. Whether you want a complete redesign of your office space, an uplift in your work environment, or a completely new office design, our team is here for you. Contact us now for a consultation and work with one of the most reliable <b> office interior design companies in Dubai</b>.
 </p>

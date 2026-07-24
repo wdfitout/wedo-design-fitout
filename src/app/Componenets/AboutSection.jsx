@@ -22,7 +22,7 @@ const features = [
   {
     title: "TURNKEY SOLUTIONS WITH PRECISION",
     description:
-      "Each project begins by attentively and deeply understanding your brand, goals, and lifestyle. Whether we are designing a residential interior in Palm Jumeirah, implementing a restaurant fitout in Business Bay, or developing a bespoke corporate interior fit-out in Downtown Dubai, we ensure clarity, innovation, and full control over the project. It is this customized attention that makes WE DO one of the top interior design companies in Dubai according to business owners and property developers.",
+      "A single turnkey contract closes the gap where most fit-out budgets get blown: the handoff between designer and contractor. Our in-house team carries every project from 3D concept through MEP engineering, joinery fabrication, and site execution under one point of responsibility, so the drawing you approve is the space you actually get. One contract, one team, from authority approvals to final snagging — no subcontractor blame-shifting, no surprise variations mid-build.",
   },
 ];
 
@@ -44,8 +44,6 @@ const AboutSection = () => {
         <p>
         At WE DO Interior Design & Fit-Out, we deliver award-winning interior design Dubai services that redefine how commercial and residential spaces should feel and function. Popular among the best interior design companies in Dubai, we bring creativity, engineering precision, and site-tested execution to every project—whether it's a luxury villa interior design in Emirates Hills, a smart apartment interior design in Downtown Dubai, or a high-end office fitout in DIFC. With over 15 years of experience in industry, WEDO interior is among the leading interior companies in Dubai, shaping environments that reflect Dubai’s fast-paced, visionary culture.</p>
       </div>
-
-
 
       {/* Wireframe and Content Section */}
       <div className="relative px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-4 md:py-12 bg-no-repeat bg-cover bg-[url('/images/mobile-wire.svg')] lg:bg-[url('/images/desktop-wire.svg')]">

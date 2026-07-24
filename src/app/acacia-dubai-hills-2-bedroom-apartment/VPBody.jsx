@@ -6,52 +6,52 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/acdh (1).png",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+    src: "/images/acacia-dubai-hills-walk-in-wardrobe.png",
+    alt: "Custom walk-in wardrobe with bespoke cabinetry and integrated lighting at Acacia Dubai Hills 2-bedroom apartment, Dubai",
+    title: "Luxury Walk-in Wardrobe Design Acacia Dubai Hills Apartment",
+    description: "Custom walk-in wardrobe featuring floor-to-ceiling cabinetry, integrated lighting, and premium storage solutions for a luxury 2-bedroom apartment at Acacia Dubai Hills."
   },
   {
-    src: "/images/acdh (2).png",
-    alt: "Modern kitchen design with marble countertops",
-    title: "Villa Interior Gallery Image 2",
-    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+    src: "/images/acacia-dubai-hills-dining-room.png",
+    alt: "Modern dining room interior design for a 2-bedroom apartment at Acacia Dubai Hills, Dubai",
+    title: "Modern Dining Room Interior Acacia Dubai Hills Apartment",
+    description: "Elegant dining room with bespoke wooden furniture, pendant lighting, and contemporary finishes designed for a luxury apartment in Acacia Dubai Hills."
   },
   {
-    src: "/images/acdh (3).png",
-    alt: "Luxury bathroom with golden fixtures",
-    title: "Villa Interior Gallery Image 3",
-    description: "Stylish bathroom with gold fixtures and large mirrors"
+    src: "/images/acacia-dubai-hills-balcony.png",
+    alt: "Luxury balcony seating area with panoramic Dubai skyline view at Acacia Dubai Hills 2-bedroom apartment",
+    title: "Luxury balcony seating area Acacia Dubai Hills",
+    description: "Contemporary outdoor balcony with premium seating, timber decking, and panoramic views of the Dubai skyline."
   },
   {
-    src: "/images/acdh (4).png",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/acacia-dubai-hills-bathroom.png",
+    alt: "Luxury bathroom interior with marble walls, floating vanity, and premium fixtures at Acacia Dubai Hills apartment",
+    title: "Luxury Bathroom Interior Acacia Dubai Hills Apartment",
+    description: "Premium bathroom featuring marble finishes, floating vanity, backlit mirrors, and modern fixtures for a sophisticated apartment interior."
   },
   {
-    src: "/images/acdh (5).png",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/acacia-dubai-hills-master-bedroom-modern.png",
+    alt: "Modern master bedroom interior featuring bespoke joinery at Acacia Dubai Hills 2-bedroom apartment, Dubai",
+    title: "Modern Master Bedroom Design Acacia Dubai Hills Apartment",
+    description: "Contemporary master bedroom with bespoke headboard, ambient lighting, custom joinery, and elegant neutral finishes."
   },
   {
-    src: "/images/acdh (6).png",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
+    src: "/images/acacia-dubai-hills-master-bedroom-luxury.png",
+    alt: "Luxury master bedroom interior design for a 2-bedroom apartment at Acacia Dubai Hills, Dubai",
+    title: "Luxury Master Bedroom Interior | Acacia Dubai Hills Apartment",
+    description: "Elegant master bedroom with decorative wall panels, statement chandelier, ambient lighting, and custom furnishings."
   },
     {
-    src: "/images/acdh (7).png",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/acacia-dubai-hills-kitchen.png",
+    alt: "Modern open-plan kitchen with marble island and bespoke cabinetry at Acacia Dubai Hills apartment, Dubai",
+    title: "Contemporary Kitchen Design | Acacia Dubai Hills Apartment",
+    description: "Open-plan kitchen with marble island, custom cabinetry, integrated appliances, and luxury finishes overlooking the Dubai skyline."
   },
   {
-    src: "/images/acdh (8).png",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/acacia-dubai-hills-living-room.png",
+    alt: "Luxury living room interior with custom furniture and panoramic city views at Acacia Dubai Hills apartment",
+    title: "Luxury Living Room Interior | Acacia Dubai Hills Apartment",
+    description: "Spacious living room featuring custom furniture, panoramic windows, premium finishes, and contemporary interior styling."
   },
 ];
 

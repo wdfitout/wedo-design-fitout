@@ -60,7 +60,7 @@ const VPBody = () => {
           {/* Simple Static Text */}
           <div className="w-full lg:w-1/2 space-y-4 text-sm leading-6 text-white/90 font-play">
             <p>
-              We Do design is a top-notch company that was established in 2015 by Hamza Jamal Alatta. The company manufactures and delivers the best services of interior designing products. We offer the <b className="text-[#caa193]"
+              We Do design is a top-notch company that was established in 2011 by Hamza Jamal Alatta. The company manufactures and delivers the best services of interior designing products. We offer the <b className="text-[#caa193]"
               ><a href="https://wedointerior.ae/#services">best interior designing services</a></b> throughout the UAE.
             </p>
             <p>

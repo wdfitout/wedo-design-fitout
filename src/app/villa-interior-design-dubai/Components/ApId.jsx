@@ -37,7 +37,7 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
-              Get Best Villa Interior Design and FIt out in Dubai
+              Get Best Villa Interior Design and Fit out in Dubai
             </h2>
 
           
