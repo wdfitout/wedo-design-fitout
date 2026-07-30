@@ -1,35 +1,32 @@
-'use client';
-import { FaPhoneAlt } from 'react-icons/fa';
+"use client";
+
+import { FaPhoneAlt } from "react-icons/fa";
 
 const CallButton = () => {
-  const phoneNumber = '+971588075603';
+  const phoneNumber = "+971588075603";
 
   const handleClick = () => {
-    // Fire Google Ads conversion for Call Button click
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'conversion', {
-        send_to: 'AW-11361089409/wchnCMOb_OsZEIHvsakq',
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-11361089409/wchnCMOb_OsZEIHvsakq",
       });
     }
-
-    // Initiate the call
-    const formattedPhoneNumber = `tel:${phoneNumber}`;
-    window.location.href = formattedPhoneNumber;
   };
 
   return (
-    <button
+    <a
+      href={`tel:${phoneNumber}`}
       onClick={handleClick}
-      className="bg-[#c38d90] text-white font-bold py-6 px-6 rounded-full flex items-center space-x-2 sm:py-4 sm:px-4 animate-pulse md:hidden"
-      style={{
-        position: 'fixed',
-        bottom: '60px',
-        right: '40px',
-        zIndex: '9999', // Ensure the button is on top of other elements
-      }}
+      aria-label="Call WE DO at +971 58 807 5603"
+      title="Call WE DO"
+      className="fixed bottom-[60px] right-10 z-[9999] flex items-center justify-center rounded-full bg-[#c38d90] px-6 py-6 font-bold text-white animate-pulse sm:px-4 sm:py-4 md:hidden"
     >
-      <FaPhoneAlt className="text-2xl" />
-    </button>
+      <FaPhoneAlt
+        aria-hidden="true"
+        focusable="false"
+        className="text-2xl"
+      />
+    </a>
   );
 };
 
