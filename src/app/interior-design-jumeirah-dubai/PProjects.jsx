@@ -45,6 +45,11 @@ const services = [
     bgImage: "/images/retail (2).jpeg",
     link: "/retail-interior-design-jumeirah",
   },
+  {
+    title: "Villa Interior Design in Jumeirah Dubai",
+    bgImage: "/images/VillaInterior.jpeg",
+    link: "/villa-interior-design-jumeirah-dubai",
+  },
 ];
 
 const jumeirahProjects = [
