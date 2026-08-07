@@ -559,66 +559,71 @@ const ApId = () => {
           ))}
         </div>
 
-        {/* BEFORE & AFTER */}
+       {/* BEFORE & AFTER */}
+<section className="mt-16">
+  <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3 text-center">
+    Before &amp; After
+  </p>
 
-        <section className="mt-16">
-          <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3 text-center">
-            Before & After
-          </p>
+  <h2 className="text-white text-center text-2xl lg:text-3xl font-conthrax mb-8">
+    From Developer Handover to Bespoke Fit-Out
+  </h2>
 
-          <h2 className="text-white text-center text-2xl lg:text-3xl font-conthrax mb-8">
-            From Developer Handover to Bespoke Fit-Out
-          </h2>
+  <div className="w-full max-w-[900px] mx-auto bg-[#151515] border border-[#caa193]/10 p-5">
+    <div
+      className="relative overflow-hidden aspect-[16/9] bg-black border border-[#caa193]/10 cursor-ew-resize select-none"
+      onMouseMove={(e) => e.buttons === 1 && handleMove(e)}
+      onClick={handleMove}
+      onTouchMove={handleMove}
+    >
+      {/* AFTER IMAGE */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/SereniaA.jpeg"
+          alt="After furnishing"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
 
-          <div className="w-full max-w-[900px] mx-auto bg-[#151515] border border-[#caa193]/10 p-5">
-            <div
-              className="relative overflow-hidden aspect-[16/9] bg-black border border-[#caa193]/10 cursor-ew-resize select-none"
-              onMouseMove={(e) => e.buttons === 1 && handleMove(e)}
-              onClick={handleMove}
-              onTouchMove={handleMove}
-            >
-              <div className="absolute inset-0">
-                <Image
-                  src="/images/SereniaA.jpeg"
-                  alt="After furnishing"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+      {/* BEFORE IMAGE */}
+      <div
+        className="absolute inset-0"
+        style={{
+          clipPath: `inset(0 ${100 - slider}% 0 0)`,
+        }}
+      >
+        <Image
+          src="/images/SS.jpeg"
+          alt="Before furnishing"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
 
-              <div
-                className="absolute inset-0"
-                style={{
-                  clipPath: `inset(0 ${100 - slider}% 0 0)`,
-                }}
-              >
-                <Image
-                  src="/images/SereniaB.jpeg"
-                  alt="Before furnishing"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+      {/* SLIDER HANDLE */}
+      <div
+        className="absolute top-0 h-full w-[2px] bg-white z-10"
+        style={{ left: `${slider}%` }}
+      >
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#111] border border-[#caa193] flex items-center justify-center text-[#caa193]">
+          ↔
+        </div>
+      </div>
 
-              <div
-                className="absolute top-0 h-full w-[2px] bg-white"
-                style={{ left: `${slider}%` }}
-              >
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#111] border border-[#caa193] flex items-center justify-center text-[#caa193]">
-                  ↔
-                </div>
-              </div>
+      {/* BADGES */}
+      <div className="absolute left-5 bottom-5 bg-[#caa193] text-black px-4 py-2 rounded-full text-xs font-conthrax z-20 pointer-events-none">
+        Before
+      </div>
 
-              <div className="absolute left-5 bottom-5 bg-[#caa193] text-black px-4 py-2 rounded-full text-xs">
-                Before
-              </div>
-
-              <div className="absolute right-5 bottom-5 bg-black/50 text-white px-4 py-2 rounded-full text-xs">
-                After
-              </div>
-            </div>
-          </div>
-        </section>
+      <div className="absolute right-5 bottom-5 bg-black/50 text-white px-4 py-2 rounded-full text-xs font-conthrax z-20 pointer-events-none">
+        After
+      </div>
+    </div>
+  </div>
+</section>
 
        {/* ROOM-BY-ROOM INTERIOR DESIGN & CUSTOM JOINERY (SINGLE BOX - NO DIVIDERS) */}
 <section className="mt-16">
