@@ -31,6 +31,13 @@ const projects = [
     alt: "Luxury villa renovation and premium interior styling in Jumeirah.",
     title: "INTERIOR DESIGN JUMEIRAH DUBAI",
     href: "/interior-design-jumeirah-dubai",
+  },
+
+  {
+    img: "/images/Jumeirah.jpeg",
+    alt: "Jumeirah",
+    title: "INTERIOR DESIGN COMPANIES IN PALM JUMEIRAH DUBAI ",
+    href: "/interior-design-companies-palm-jumeirah-dubai",
   }
   
 

@@ -6,21 +6,22 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Apartment Interior Design Palm Jumeirah",
-    description: "Tailored luxury apartment interiors designed for Palm Jumeirah beachfront living.",
-    bgImage: "/images/pjapt (5).webp",
-    
-  },
+  title: "Serenia Living Interior Design & Fit-Out",
+  description: "Full interior design, custom furniture, and in-house joinery fit-out for Serenia Living, Palm Jumeirah, one team, design to installation. Get a quote.",
+  bgImage: "/images/SereniaH.jpeg",
+  link: "/serenia-living-interior-design",
+},
   {
     title: "Penthouse Interior Design Palm Jumeirah",
     description: "Exclusive penthouse fit-outs showcasing stunning Arabian Gulf vistas.",
     bgImage: "/images/6w-residence (5).webp",
     
+    
   },
   {
-    title: "Barber Shop Palm Jumeirah ",
-    description: "Bespoke luxury barber shop interiors engineered for premium grooming experiences.",
-    bgImage: "/images/peakyblinders (2).webp",
+    title: "Apartment Interior Design Palm Jumeirah",
+    description: "Tailored luxury apartment interiors designed for Palm Jumeirah beachfront living.",
+    bgImage: "/images/pjapt (5).webp",
     
   },
   {
@@ -190,42 +191,46 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
           </div>
         </section>
 
-        {/* ================= SERVICES GRID SECTION (1 LINE OF 6 CARDS) ================= */}
-        <section className="space-y-8">
-          <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-[#b98877] text-2xl sm:text-3xl font-conthrax mb-3 leading-tight">
-              Our Interior Services in Palm Jumeirah
-            </h2>
-            <p className="text-gray-300 text-sm sm:text-base">
-              Comprehensive interior design, renovation, and bespoke fit-out services tailored for high-end properties.
+       {/* ================= SERVICES GRID SECTION (1 LINE OF 6 CARDS) ================= */}
+<section className="space-y-8">
+  <div className="text-center max-w-3xl mx-auto">
+    <h2 className="text-[#b98877] text-2xl sm:text-3xl font-conthrax mb-3 leading-tight">
+      Our Interior Services in Serenia Living
+    </h2>
+    <p className="text-gray-300 text-sm sm:text-base">
+      Comprehensive interior design, renovation, and bespoke fit-out services tailored for Serenia Living properties.
+    </p>
+  </div>
+
+  {/* 6 Grid columns for large screens */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 sm:gap-6">
+    {services.map((service, idx) => (
+      <Link 
+        key={idx} 
+        href={service.link || "#"} 
+        className="block group cursor-pointer"
+      >
+        <div className="relative h-[260px] sm:h-[280px] rounded-2xl overflow-hidden shadow-lg border border-gray-800 transition duration-300 group-hover:border-[#b98877]">
+          <Image
+            src={service.bgImage}
+            alt={service.title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+          <div className="absolute inset-0 z-10 flex flex-col justify-end p-4 sm:p-5 text-white space-y-2">
+            <h3 className="text-xs sm:text-sm font-conthrax text-[#caa193] group-hover:text-white transition leading-snug">
+              {service.title}
+            </h3>
+            <p className="text-[11px] sm:text-xs text-gray-300 leading-relaxed line-clamp-3">
+              {service.description}
             </p>
           </div>
-
-          {/* 6 Grid columns for large screens */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 sm:gap-6">
-            {services.map((service, idx) => (
-              <div key={idx} className="block group">
-                <div className="relative h-[260px] sm:h-[280px] rounded-2xl overflow-hidden shadow-lg border border-gray-800 transition duration-300 group-hover:border-[#b98877]">
-                  <Image
-                    src={service.bgImage}
-                    alt={service.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-                  <div className="absolute inset-0 z-10 flex flex-col justify-end p-4 sm:p-5 text-white space-y-2">
-                    <h3 className="text-xs sm:text-sm font-conthrax text-[#caa193] group-hover:text-white transition leading-snug">
-                      {service.title}
-                    </h3>
-                    <p className="text-[11px] sm:text-xs text-gray-300 leading-relaxed line-clamp-3">
-                      {service.description}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        </div>
+      </Link>
+    ))}
+  </div>
+</section>
 
         {/* ================= RESIDENTIAL DETAILS SECTION ================= */}
         <section className="space-y-8">
