@@ -195,10 +195,10 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
 <section className="space-y-8">
   <div className="text-center max-w-3xl mx-auto">
     <h2 className="text-[#b98877] text-2xl sm:text-3xl font-conthrax mb-3 leading-tight">
-      Our Interior Services in Serenia Living
+      Our Interior Services in Palm Jumeirah, Dubai
     </h2>
     <p className="text-gray-300 text-sm sm:text-base">
-      Comprehensive interior design, renovation, and bespoke fit-out services tailored for Serenia Living properties.
+      Comprehensive interior design, renovation, and bespoke fit-out services tailored for Palm Jumeirah properties.
     </p>
   </div>
 
