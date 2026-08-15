@@ -91,7 +91,7 @@ const navLinks = [
           },
           {
             title: "APARTMENT RENOVATION",
-            path: "/apartment-interior-design-dubai",
+            path: "/apartment-renovation-dubai",
           },
           {
             title: "OFFICE RENOVATION",
@@ -103,7 +103,7 @@ const navLinks = [
           },
           {
             title: "KITCHEN RENOVATION",
-            path: "/apartment-interior-design-dubai",
+            path: "/kitchen-renovation-dubai",
           },
           {
             title: "BATHROOM RENOVATION",

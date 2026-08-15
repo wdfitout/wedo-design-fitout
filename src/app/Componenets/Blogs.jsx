@@ -7,7 +7,14 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
-  
+  {
+    title: "How Much Does a Cafe Fit-Out Cost in Dubai",
+    date: "Published: 15.08.2026",
+    excerpt:
+      "What does a cafe fit-out cost in Dubai? AED 2,000-8,000 per sqm across three tiers. See the full breakdown, approvals and hidden costs.",
+    image: "/images/modern-coffee-shop-interior-dubai.webp",
+    link: "/cafe-fit-out-cost-dubai",
+  },
 
    {
     title: "Best Interior Design Companies in Downtown Dubai",
@@ -26,14 +33,7 @@ const blogPosts = [
     link: "/creek-harbour-apartment-design",
   },
   
-  {
-    title: "Dubai Creek Harbour Waterfront Apartment Design",
-    date: "Published: 25.05.2026",
-    excerpt:
-      "Discover the ultimate guide to Waterfront Apartment Design in Dubai Creek Harbour. Learn expert tips, trends, and ideas from WE DO interiors.",
-    image: "/images/Modern waterfront apartment living room in Dubai Creek Harbour.png",
-    link: "/creek-harbour-waterfront-apartment-design",
-  },
+  
  
  
  
