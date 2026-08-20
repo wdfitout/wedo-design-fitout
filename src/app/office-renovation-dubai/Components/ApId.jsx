@@ -16,23 +16,17 @@ const ApId = () => {
           
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col">
-            <div>
+           <div>
   <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] mt-4 sm:mt-12 mb-6">
-    Kitchen Renovation Dubai
+    Office Renovation Dubai
   </h2>
   <p className="text-sm sm:text-base leading-7 mb-8 sm:mb-10 font-play text-justify">
-    Not every kitchen needs new cabinets.{' '}
-    <b className="text-[#caa193]">
-      <a href="https://wedointerior.ae/">
-        WE DO Interior Design & Fit-Out
-      </a>
-    </b>{' '}
-    scopes every kitchen renovation Dubai project into one of three
-    levels: a vinyl wrap, a refacing, or a full replacement, priced
-    separately, so you're never quoted for more than your kitchen
-    actually needs. From modular kitchen installations in Dubai to full
-    custom remodels, our in-house team handles design, cabinetry, and
-    installation under one contract for apartments across the city.
+   Office renovation, often known as office refurbishment, elevates the workspace you already have: flooring, partitions, ceilings, lighting, joinery, and MEP, without relocating or rebuilding from a bare shell. {' '}
+                <b className="text-[#caa193]">
+                  <a href="https://wedointerior.ae/">
+                    WE DO Interior Design & Fit-Out
+                  </a>
+                </b>{' '} is a DED-registered contractor offering office renovation in Dubai for corporate offices, SMEs, startups, and coworking operators across Business Bay, DIFC, JLT, Dubai Marina, Downtown Dubai, and Dubai Media City.
   </p>
 </div>
 
@@ -54,7 +48,7 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-4">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200 py-2 mt-4">
-              Get Best Kitchen Renovation Dubai
+              Get Best Office Renovation Dubai
             </h2>
 
             {/* Video / Image Container */}
@@ -64,9 +58,9 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
                 <Image
-                  src="/images/kitchen-renovation-craftsmanship-dubai.webp"
-                alt="Kitchen renovation craftsmanship Dubai"
-                title="Kitchen Renovation Craftsmanship Dubai"
+                  src="/images/sns (8).webp"
+                  alt="sns (8)"
+                 
                   width={1280}
                   height={720}
                   className="object-cover w-full h-full"
@@ -82,7 +76,7 @@ const ApId = () => {
                 <iframe
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/yNeCQLpYvww"
-                  title="WE DO Kitchen Renovation Dubai Video"
+                  title="WE DO Office Renovation Dubai Video"
                   style={{ border: 0 }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
