@@ -44,8 +44,8 @@ const socialLinks = [
 ];
 
 const navLinks = [
-  { title: "Home", path: "/" },
-  { title: "Services", path: "/services" },
+  { title: "Home", path: "#herosection" },
+  { title: "Services", path: "#services" },
   { title: "Gallery", path: "/gallery" },
   { title: "Blogs", path: "/blogs" },
   { title: "About Us", path: "/about-us" },
