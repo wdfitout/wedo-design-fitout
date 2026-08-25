@@ -7,7 +7,14 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
- 
+ {
+    title: "Traditional vs Modern Interior Design for Jumeirah Villas",
+    date: "Published: 25.08.2026",
+    excerpt:
+      "Comparing traditional and modern interior design for Jumeirah villas: features, real AED costs, and tips to choose or blend both styles for your home.",
+    image: "/images/traditional-architecture-modern-jumeirah-villa-interior.webp",
+    link: "/traditional-vs-modern-jumeirah-villa-design",
+  },
  {
     title: "How Much Does a Cafe Fit-Out Cost in Dubai",
     date: "Published: 15.08.2026",

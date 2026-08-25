@@ -10,7 +10,7 @@ const ApId = () => {
 
   return (
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <p>August 21, 2026</p>
+      <p>August 25, 2026</p>
       <div className="lg:max-w-[98%] mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 lg:items-start">
           

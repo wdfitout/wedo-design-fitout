@@ -7,6 +7,16 @@ import Link from "next/link";
 
 // Blog data with links to separate pages for each blog
 const blogPosts = [ 
+  
+  {
+    title: "Traditional vs Modern Interior Design for Jumeirah Villas",
+    date: "Published: 25.08.2026",
+    excerpt:
+      "Comparing traditional and modern interior design for Jumeirah villas: features, real AED costs, and tips to choose or blend both styles for your home.",
+    image: "/images/traditional-architecture-modern-jumeirah-villa-interior.webp",
+    link: "/traditional-vs-modern-jumeirah-villa-design",
+  },
+  
   {
     title: "How Much Does a Cafe Fit-Out Cost in Dubai",
     date: "Published: 15.08.2026",
@@ -24,14 +34,7 @@ const blogPosts = [
     image: "/images/interior-design-company-down-town-dubaii.png",
     link: "/interior-design-companies-downtown-dubai",
   },
-  {
-    title: "How to Design Apartment in Dubai Creek Harbour",
-    date: "Published: 04.06.2026",
-    excerpt:
-      "Explore the art of designing your dream apartment in Dubai Creek Harbour via WE DO Interior. Explore luxurious apartment interior designs in Dubai.",
-    image: "/images/luxury high-rise apartment in Dubai Creek Harbour.png",
-    link: "/creek-harbour-apartment-design",
-  },
+  
   
   
  
