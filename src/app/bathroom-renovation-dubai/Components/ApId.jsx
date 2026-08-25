@@ -10,23 +10,28 @@ const ApId = () => {
 
   return (
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <p>August 15, 2026</p>
+      <p>August 21, 2026</p>
       <div className="lg:max-w-[98%] mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 lg:items-start">
           
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col">
-            <div>
-              <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] mt-4 sm:mt-12 mb-6">
-                Apartment Renovation Dubai
-              </h2>
-             
-              <p className="text-sm sm:text-base leading-7 mb-8 sm:mb-10 font-play text-justify">
+           <div>
+  <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] mt-4 sm:mt-12 mb-6">
+    Bathroom Renovation Dubai
+  </h2>
+  <p className="text-sm sm:text-base font-medium text-[#caa193] font-play">
+    Waterproofing, Tiling & Fit-Out Specialists for Dubai Bathrooms
+  </p>
+  <p className="text-sm sm:text-base leading-7 mb-8 sm:mb-10 font-play ">
+   Your bathroom handles more daily work than any other room in the house, and shows its age faster than any of them too. Grout dulls, fixtures date, and a space that's supposed to be the calmest part of your day starts feeling like the one needing the most patience. Bathroom renovation rebuilds it properly: waterproofing, tiling, vanity, plumbing, electrical, and sanitaryware, redone to actually hold up in Dubai's climate, not just look good on handover day. {' '}
                 <b className="text-[#caa193]">
-                  <a href="https://wedointerior.ae/">WE DO Interior Design &amp; Fit-Out</a>
-                </b> provides complete apartment renovation services in Dubai, including kitchen and bathroom remodeling, flooring, electrical and plumbing works (MEP), and custom joinery for studios, 1-bedroom, 2-bedroom and 3-bedroom apartments. With 15+ years of experience in the construction industry and 250+ completed projects, our team manages renovation work from planning and approvals through construction and handover across areas such as Business Bay, Dubai Marina and Palm Jumeirah.
-              </p>
-            </div>
+                  <a href="https://wedointerior.ae/">
+                    WE DO Interior Design & Fit-Out
+                  </a>
+                </b>{' '} handles this for apartment and villa owners across Business Bay, DIFC, Dubai Marina, Palm Jumeirah, Downtown Dubai, and Dubai Hills, as a DED-registered contractor, priced and scheduled per bathroom, not per square foot of your whole unit.
+  </p>
+</div>
 
             {/* Highlight Box & Button Grouped Together */}
             <div className="flex flex-wrap items-center gap-4 mt-2">
@@ -46,7 +51,7 @@ const ApId = () => {
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-4">
             <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200 py-2 mt-10">
-              Get Best Apartment Renovation Dubai
+              Get Best Bathroom Renovation Dubai
             </h2>
 
             {/* Video / Image Container */}
@@ -56,9 +61,9 @@ const ApId = () => {
                 onClick={() => setVideoLoaded(true)}
               >
                 <Image
-                  src="/images/apartment-renovation-company-dubai.webp"
-                  alt="Apartment renovation company in Dubai completing a luxury residential interior"
-                  title="Apartment Renovation Company Dubai"
+                  src="/images/minimalistic bathroom design trends in Dubai Creek Harbour.png"
+                  alt="minimalistic bathroom design trends in Dubai Creek Harbour"
+                 title="minimalistic bathroom design trends in Dubai Creek Harbour"
                   width={1280}
                   height={720}
                   className="object-cover w-full h-full"
@@ -74,7 +79,7 @@ const ApId = () => {
                 <iframe
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/yNeCQLpYvww"
-                  title="WE DO Apartment Renovation Dubai Video"
+                  title="WE DO Bathroom Renovation Dubai Video"
                   style={{ border: 0 }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

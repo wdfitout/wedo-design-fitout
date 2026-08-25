@@ -107,7 +107,7 @@ const navLinks = [
           },
           {
             title: "BATHROOM RENOVATION",
-            path: "/apartment-interior-design-dubai",
+            path: "/bathroom-renovation-dubai",
           },
         ],
       },

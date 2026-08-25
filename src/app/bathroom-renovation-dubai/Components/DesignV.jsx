@@ -7,19 +7,19 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/images/emaar-address-harbour-point-living-dining-interior-design-dubai-creek-harbour.png',
-    alt: 'Emaar Address Harbour Point living dining interior design in Dubai Creek Harbour',
-    title: 'Address Harbour Point Living & Dining Interior Design'
+    src: '/images/Luxury Bathroom Design Trends in Dubai Creek Harbour Homes.png',
+    alt: 'Luxury Bathroom Design Trends in Dubai Creek Harbour Homes',
+    title: 'Luxury Bathroom Design Trends in Dubai Creek Harbour Homes',
   },
   {
-    src: '/images/address-harbour-point-dining-area-interior-design-dubai.png',
-    alt: 'Address Harbour Point dining area interior design in Dubai',
-    title: 'Address Harbour Point Dining Area Design'
+    src: '/images/High-end bathrooms using chandelier lighting.png',
+    alt: 'High-end bathrooms using chandelier lighting',
+    title: 'High-end bathrooms using chandelier lighting',
   },
   {
-    src: '/images/address-harbour-point-kids-bedroom-design-dubai.png',
-    alt: 'Address Harbour Point kids bedroom interior design in Dubai',
-    title: 'Address Harbour Point Kids Bedroom Design'
+    src: '/images/Luxury bathroom interior in Dubai apartment featuring bold accent design.png',
+    alt: 'Luxury bathroom interior in Dubai apartment featuring bold accent design',
+    title: 'Luxury bathroom interior in Dubai apartment featuring bold accent design',
   },
 ];
 
@@ -40,8 +40,8 @@ const DesignV = () => {
 
   return (
     <section className="py-10 px-6 bg-black-200">
-      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
-        Apartment Renovation Dubai Services We Provide
+      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase ">
+        Bathroom Renovation Dubai Services We Provide
       </h2>
 
       {/* Desktop Grid */}
@@ -93,13 +93,13 @@ const DesignV = () => {
         </div>
       )}
 
-      {/* CTA Section - Full Width */}
+      {/* CTA Section 1 - Full Width */}
       <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
         <h3 className="text-lg sm:text-2xl font-conthrax uppercase text-black">
           Get In Touch With Us
         </h3>
         <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
-          Ready to plan your Apartment renovation? Contact WE DO for a free site visit and itemized quote.
+          Ready to plan your Bathroom renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <a

@@ -79,10 +79,10 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="px-6 py-10 bg-black-200">
+    <section className="bg-black-200 w-full py-12 px-[2in]">
 
       {/* Top Content Block */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-16">
         <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Why Dubai Apartment Owners Choose WE DO
         </h2>
@@ -138,11 +138,9 @@ const DProjects = () => {
                   src={galleryImages[1].src}
                   alt={galleryImages[1].alt}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500 opacity-70"
+                  className="object-cover "
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end p-3">
-                  <p className="text-xs font-conthrax text-[#caa193]">Tailored Solutions For Every Property Owner</p>
-                </div>
+                
               </div>
 
             </div>
@@ -152,7 +150,7 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[70%] mx-auto flex flex-col lg:flex-row items-center gap-6 mb-12"> 
+      <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-6 mb-16"> 
         {/* Text Column - 50% Width */}
         <div className="w-full lg:w-1/2 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
@@ -179,21 +177,15 @@ const DProjects = () => {
               alt={textImage.title}
               width={700}
               height={550}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
+              className="w-full "
             />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {textImage.title}
-              </p>
-            </div>
+            
           </a>
         </div>
       </div>
 
-      
-
       {/* Bottom CTA Section */}
-      <div className="bg-[#f5ede5] py-10 text-center space-y-4 mb-16">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black mb-16">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase">
           Get In Touch With Us
         </h3>
@@ -219,7 +211,7 @@ const DProjects = () => {
       </div>
 
       {/* Section: Do You Need Approval */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Do You Need Approval to Renovate Your Apartment in Dubai?
         </h2>
@@ -250,16 +242,16 @@ const DProjects = () => {
       </div>
 
       {/* What's Included Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] mb-2">
             What&apos;s Included in a Full Apartment Renovation in Dubai
           </h2>
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote.
+            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote[cite: 20].
           </p>
           <p className="font-play text-sm sm:text-base text-white text-start py-1">
-            Looking for furniture, decor, and styling only, with no construction work? See our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design service</a></b> instead.
+            Looking for furniture, decor, and styling only, with no construction work? See our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design service</a></b> instead[cite: 20].
           </p>
         </div>
 
@@ -273,7 +265,7 @@ const DProjects = () => {
                 Kitchen renovation Dubai includes things like installing new cabinets or refinishing them, improving countertops and backsplashes, appliance arrangement, and repositioning of the sink, cooker, and electrical points when the kitchen layout has to be altered.
               </p>
               <p className="font-play text-sm sm:text-base text-[#caa193]">
-                Full detail: <b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-renovation-dubai">kitchen renovation in Dubai</a></b>
+                Full detail: <b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-renovation-dubai">kitchen renovation in Dubai</a></b>[cite: 20]
               </p>
             </div>
             <div className="relative h-48 w-full rounded-lg overflow-hidden border border-[#caa193]/30">
@@ -389,7 +381,7 @@ const DProjects = () => {
       </div>
 
       {/* Apartment Renovation Cost Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
             Apartment Renovation Cost in Dubai
@@ -434,7 +426,7 @@ const DProjects = () => {
       </div>
 
       {/* Registered Fit-Out Company vs Hiring Separate Tradespeople Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Registered Fit-Out Company vs. Hiring Separate Tradespeople Yourself
         </h2>
@@ -521,7 +513,7 @@ const DProjects = () => {
       </div>
 
       {/* Five Mistakes Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Five Mistakes Apartment Owners Make Before Renovating
         </h2>
@@ -550,7 +542,7 @@ const DProjects = () => {
       </div>
 
       {/* Apartment Renovation Trends Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 text-justify">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
             Apartment Renovation Trends in Dubai
@@ -634,7 +626,7 @@ const DProjects = () => {
       </div>
 
       {/* Apartment Renovation Process Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Our Apartment Renovation Process, From Site Visit to Handover
         </h2>
@@ -729,7 +721,7 @@ const DProjects = () => {
       </div>
 
       {/* Cosmetic Renovation vs. Full Renovation */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16">
         <h3 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Cosmetic Renovation vs. Full Renovation: Which Do You Need?
         </h3>
@@ -778,7 +770,7 @@ const DProjects = () => {
 
       {/* Auto-Play Testimonials Carousel with Pause-on-Hover */}
       <div
-        className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 relative overflow-hidden text-justify"
+        className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-16 relative overflow-hidden text-justify"
         onMouseEnter={() => setIsPlaying(false)}
         onMouseLeave={() => setIsPlaying(true)}
       >
@@ -806,7 +798,7 @@ const DProjects = () => {
       </div>
 
       {/* CTA & Visit Us Section */}
-      <div className="bg-[#f5ede5] py-10 text-center space-y-4 mb-12">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black mb-16">
         <h2 className="text-xl sm:text-2xl font-conthrax uppercase">
           Visit Us
         </h2>
@@ -841,7 +833,7 @@ const DProjects = () => {
       </div>
 
       {/* Map Section */}
-      <div className="w-full rounded-lg overflow-hidden my-12 shadow-lg" style={{ height: "450px" }}>
+      <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800 mb-16" style={{ height: "450px" }}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.292133776448!2d55.1259375!3d24.990187499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6954f6d82d69%3A0x12891350d5165c12!2sInterior%20Design%20Company%20Dubai%20-%20WeDo%20Interior%20Design%20%26%20Fit%20out!5e0!3m2!1sen!2sae!4v1783940352669!5m2!1sen!2sae"
           width="100%"
@@ -855,7 +847,7 @@ const DProjects = () => {
       </div>
 
       {/* FAQs Section */}
-      <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 text-justify">
+      <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 text-justify">
         <h2 className="text-xl sm:text-2xl font-conthrax text-[#caa193] text-center">
           Frequently Asked Questions
         </h2>
