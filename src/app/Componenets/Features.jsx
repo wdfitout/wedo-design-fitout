@@ -13,7 +13,7 @@ const cardData = [
   },
   {
     title: "APARTMENT INTERIOR DESIGN",
-    img: "/images/primo-sitting.jpg",
+    img: "/images/dubai-interior-design-companies-apartment-sitting-area.webp",
     desc: "Smart, elegant, and space-optimized apartment interior design and fit-out crafted for modern Dubai living.",
     link: "/apartment-interior-design-dubai",
   },

@@ -99,7 +99,7 @@ const navLinks = [
           },
           {
             title: "RETAIL RENOVATION",
-            path: "/apartment-interior-design-dubai",
+            path: "/retail-renovation-dubai",
           },
           {
             title: "KITCHEN RENOVATION",
