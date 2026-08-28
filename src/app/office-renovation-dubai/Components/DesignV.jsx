@@ -23,7 +23,6 @@ const images = [
     src: '/images/bespoke-and-boutique-style-office-interiors-in-business-bay.png',
     alt: 'bespoke-and-boutique-style-office-interiors-in-business-bay',
     title: 'Bespoke And Boutique Style Office Interiors In Business Bay',
-    
   },
 ];
 
@@ -43,8 +42,8 @@ const DesignV = () => {
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
 
   return (
-    <section className="py-10 px-6 bg-black-200">
-      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase ">
+    <section className="py-10 px-4 sm:px-6 bg-black-200 overflow-hidden">
+      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
         Office Renovation Dubai Services We Provide
       </h2>
 
@@ -106,25 +105,25 @@ const DesignV = () => {
       )}
 
       {/* CTA Section 1 - Full Width */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-8 sm:py-10 px-4 sm:px-12 text-center space-y-4 text-black">
         <h3 className="text-lg sm:text-2xl font-conthrax uppercase text-black">
           Get In Touch With Us
         </h3>
         <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
           Ready to plan your Office renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mt-6">
           <a
             href="https://wa.me/971588075603"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+            className="w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
           >
             ✅ Request availability by WhatsApp
           </a>
           <a
             href="mailto:info@wedointerior.ae"
-            className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+            className="w-full sm:w-auto px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
           >
             ✉️ Request availability by E-mail
           </a>

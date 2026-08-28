@@ -39,7 +39,7 @@ const DesignV = () => {
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
 
   return (
-    <section className="py-10 px-6 bg-black-200">
+    <section className="py-10 px-6 bg-black-200 overflow-x-hidden">
       <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase ">
         Bathroom Renovation Dubai Services We Provide
       </h2>
@@ -93,8 +93,8 @@ const DesignV = () => {
         </div>
       )}
 
-      {/* CTA Section 1 - Full Width */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+      {/* CTA Section 1 - Full Width Responsive */}
+      <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
         <h3 className="text-lg sm:text-2xl font-conthrax uppercase text-black">
           Get In Touch With Us
         </h3>

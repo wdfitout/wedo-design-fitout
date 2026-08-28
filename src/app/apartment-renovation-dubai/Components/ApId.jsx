@@ -9,10 +9,10 @@ const ApId = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
-    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <p>August 25, 2026</p>
-      <div className="lg:max-w-[98%] mx-auto">
-        <div className="flex flex-col lg:flex-row gap-12 lg:items-start">
+    <section className="bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 xl:px-40 py-10 font-sans overflow-x-hidden">
+      <p>August 28, 2026</p>
+      <div className="w-full lg:max-w-[98%] mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 lg:items-start">
           
           {/* Text Column */}
           <div className="w-full lg:w-1/2 flex flex-col">
@@ -45,7 +45,7 @@ const ApId = () => {
 
           {/* Video Column */}
           <div className="w-full lg:w-1/2 flex flex-col space-y-4">
-            <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200 py-2 mt-10">
+            <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200 py-2 mt-4 lg:mt-10">
               Get Best Apartment Renovation Dubai
             </h2>
 

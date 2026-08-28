@@ -39,14 +39,13 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="px-6 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section className="px-4 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-8 sm:py-12 bg-black-200 max-w-full overflow-hidden">
+      <div className="max-w-6xl mx-auto space-y-8 sm:space-y-12">
 
        {/* Top Content Block / Hero */}
-{/* Top Content Block / Hero */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-8 font-play text-sm sm:text-base text-white">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-6 sm:space-y-8 font-play text-sm sm:text-base text-white">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
     Is Office Renovation Right for You?
   </h2>
   
@@ -64,7 +63,7 @@ const DProjects = () => {
     
     {/* Left Side: Key Facts Only */}
     <div className="space-y-4">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
         Key Facts
       </h3>
       <ul className="list-disc pl-5 space-y-2 leading-relaxed">
@@ -78,7 +77,7 @@ const DProjects = () => {
     </div>
 
     {/* Right Side: Image (Height strictly aligned with Key Facts list) */}
-    <div className="relative w-full min-h-[280px] h-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
+    <div className="relative w-full min-h-[220px] sm:min-h-[280px] h-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
       <Image
         src="/images/dubai-office-renovation-project.webp"
         alt="Dubai office renovation project"
@@ -105,11 +104,11 @@ const DProjects = () => {
 </div>
 
        {/* Office Renovation vs Fit-Out Decision Block */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
 
           {/* Section Header & Intro */}
           <div className="space-y-3">
-            <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
               Office Renovation vs. Office Fit-Out: What&apos;s the Difference?
             </h2>
             <p className="text-sm sm:text-base text-white font-play leading-relaxed">
@@ -123,7 +122,7 @@ const DProjects = () => {
           </div>
 
           {/* Single Medium Image */}
-          <div className="relative h-64 sm:h-80 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black mx-auto max-w-2xl">
+          <div className="relative h-48 sm:h-80 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black mx-auto max-w-2xl w-full">
             <Image
               src="/images/office-renovation-vs-fitout-dubai.webp"
               alt="Office renovation vs fit-out in Dubai"
@@ -135,44 +134,44 @@ const DProjects = () => {
 
           {/* Comparison Table */}
           <div className="overflow-x-auto rounded-xl border border-gray-800 bg-[#111]">
-            <table className="w-full text-left text-sm sm:text-base font-play text-white border-collapse">
+            <table className="w-full text-left text-sm sm:text-base font-play text-white border-collapse min-w-[600px]">
               <thead>
                 <tr className="bg-black border-b border-gray-800 text-[#caa193] font-conthrax text-xs sm:text-sm">
-                  <th className="p-4"></th>
-                  <th className="p-4">Office Renovation</th>
-                  <th className="p-4">Office Fit-Out</th>
+                  <th className="p-3 sm:p-4"></th>
+                  <th className="p-3 sm:p-4">Office Renovation</th>
+                  <th className="p-3 sm:p-4">Office Fit-Out</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800">
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">Starting point</td>
-                  <td className="p-4">Existing, occupied office</td>
-                  <td className="p-4">Bare shell or fully reconfigured space</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Starting point</td>
+                  <td className="p-3 sm:p-4">Existing, occupied office</td>
+                  <td className="p-3 sm:p-4">Bare shell or fully reconfigured space</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">Structural/partition changes</td>
-                  <td className="p-4">Minimal, works within the current layout</td>
-                  <td className="p-4">Extensive, new partitions throughout</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Structural/partition changes</td>
+                  <td className="p-3 sm:p-4">Minimal, works within the current layout</td>
+                  <td className="p-3 sm:p-4">Extensive, new partitions throughout</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">MEP scope</td>
-                  <td className="p-4">Targeted upgrades (lighting, AC, data)</td>
-                  <td className="p-4">Full new installation</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">MEP scope</td>
+                  <td className="p-3 sm:p-4">Targeted upgrades (lighting, AC, data)</td>
+                  <td className="p-3 sm:p-4">Full new installation</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">Average cost</td>
-                  <td className="p-4">AED 80–800+ per sq ft</td>
-                  <td className="p-4">AED 350–1,500+ per sq ft</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Average cost</td>
+                  <td className="p-3 sm:p-4">AED 80–800+ per sq ft</td>
+                  <td className="p-3 sm:p-4">AED 350–1,500+ per sq ft</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">Typical timeline</td>
-                  <td className="p-4">4–12 weeks</td>
-                  <td className="p-4">8–16+ weeks</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Typical timeline</td>
+                  <td className="p-3 sm:p-4">4–12 weeks</td>
+                  <td className="p-3 sm:p-4">8–16+ weeks</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold text-[#caa193]">Best for</td>
-                  <td className="p-4">A layout that still works but looks or performs poorly</td>
-                  <td className="p-4">A new lease, relocation, or a business that has outgrown its space</td>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Best for</td>
+                  <td className="p-3 sm:p-4">A layout that still works but looks or performs poorly</td>
+                  <td className="p-3 sm:p-4">A new lease, relocation, or a business that has outgrown its space</td>
                 </tr>
               </tbody>
             </table>
@@ -181,25 +180,25 @@ const DProjects = () => {
         </div>
 
         {/* CTA Section 1 - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
-          <h3 className="text-lg sm:text-2xl font-conthrax  text-black">
+        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-8 sm:py-10 px-4 sm:px-12 text-center space-y-4 text-black">
+          <h3 className="text-lg sm:text-2xl font-conthrax text-black">
             Get In Touch With Us
           </h3>
           <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
             Ready to plan your Office renovation? Contact WE DO for a free site visit and itemized quote.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mt-6">
             <a
               href="https://wa.me/971588075603"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+              className="w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
             >
               ✅ Request availability by WhatsApp
             </a>
             <a
               href="mailto:info@wedointerior.ae"
-              className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+              className="w-full sm:w-auto px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
             >
               ✉️ Request availability by E-mail
             </a>
@@ -207,9 +206,9 @@ const DProjects = () => {
         </div>
 
         {/* Section: Signs It's Time to Renovate Your Office */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
     Signs It&apos;s Time to Renovate Your Office
   </h2>
 
@@ -234,7 +233,7 @@ const DProjects = () => {
     </div>
 
     {/* Image: Office Renovation Signs (Right Side) */}
-    <div className="lg:col-span-6 relative h-80 sm:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+    <div className="lg:col-span-6 relative h-64 sm:h-80 lg:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
       <Image
         src="/images/signs-office-needs-renovation-dubai.webp"
         alt="Signs your Dubai office needs renovation"
@@ -249,16 +248,16 @@ const DProjects = () => {
 </div>
 
        {/* Section: Benefits of Office Renovation in Dubai */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
     Benefits of Office Renovation in Dubai
   </h2>
 
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
     
     {/* Image: Office Renovation Benefits (Left Side) */}
-    <div className="lg:col-span-6 relative h-80 sm:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+    <div className="lg:col-span-6 relative h-64 sm:h-80 lg:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
       <Image
         src="/images/benefits-office-renovation-dubai.webp"
         alt="Benefits of office renovation in Dubai"
@@ -291,9 +290,9 @@ const DProjects = () => {
 </div>
 
         {/* Section: What We Renovate: A Space-by-Space Breakdown */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
           
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
             What We Renovate: A Space-by-Space Breakdown
           </h2>
 
@@ -302,16 +301,16 @@ const DProjects = () => {
           </p>
 
           {/* Reception & Front-of-House */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Reception &amp; Front-of-House
               </h3>
               <p>
                 First impression work: a feature wall refresh, a reception area renovation, flooring, and lighting that is planned for the room as opposed to just being put into it. If your brand has grown or changed since the building of your office, this is often the best place to begin.
               </p>
             </div>
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
               <Image
                 src="/images/office-reception-renovation-dubai.webp"
                 alt="Renovated office reception in Dubai"
@@ -323,8 +322,8 @@ const DProjects = () => {
           </div>
 
           {/* Open Plan Workstations & Collaboration Spaces */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
               <Image
                 src="/images/open-plan-office-renovation-dubai.webp"
                 alt="Open-plan office renovation in Dubai"
@@ -334,7 +333,7 @@ const DProjects = () => {
               />
             </div>
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2 order-1 lg:order-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Open Plan Workstations &amp; Collaboration Spaces
               </h3>
               <p>
@@ -344,16 +343,16 @@ const DProjects = () => {
           </div>
 
           {/* Meeting Rooms & Boardrooms */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Meeting Rooms &amp; Boardrooms
               </h3>
               <p>
                 The focus of meeting room renovation includes sound treatment through fabric wall panels, acoustic ceiling tiles, or timber baffles, integration of AV &amp; video-conferencing, and renovation of glass or acoustic glass partition where both vision and sound separation are required.
               </p>
             </div>
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
               <Image
                 src="/images/meeting-room-renovation-dubai.webp"
                 alt="Meeting room renovation in Dubai"
@@ -365,8 +364,8 @@ const DProjects = () => {
           </div>
 
           {/* Private Offices & Executive Cabins */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
               <Image
                 src="/images/executive-office-renovation-dubai.jpeg"
                 alt="Executive office renovation in Dubai"
@@ -376,7 +375,7 @@ const DProjects = () => {
               />
             </div>
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2 order-1 lg:order-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Private Offices &amp; Executive Cabins
               </h3>
               <p>
@@ -386,16 +385,16 @@ const DProjects = () => {
           </div>
 
           {/* Pantry, Breakout & Wellness Areas */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Pantry, Breakout &amp; Wellness Areas
               </h3>
               <p>
                 Plumbing and cabinetry upgrades in pantries, plus the informal lounge, breakout, or quiet-room spaces more Dubai offices are adding as hybrid-work patterns change how the floor gets used.
               </p>
             </div>
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
               <Image
                 src="/images/office-pantry-breakout-renovation-dubai.webp"
                 alt="Office pantry and breakout area renovation in Dubai"
@@ -407,8 +406,8 @@ const DProjects = () => {
           </div>
 
           {/* Lighting, Power & MEP */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
               <Image
                 src="/images/office-lighting-mep-renovation-dubai.webp"
                 alt="Office lighting and MEP renovation in Dubai"
@@ -418,7 +417,7 @@ const DProjects = () => {
               />
             </div>
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2 order-1 lg:order-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Lighting, Power &amp; MEP
               </h3>
               <p>
@@ -430,9 +429,9 @@ const DProjects = () => {
         </div>
 
         {/* Section: Materials & Finishes We Work With */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
           
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
             Materials &amp; Finishes We Work With
           </h2>
 
@@ -441,16 +440,16 @@ const DProjects = () => {
           </p>
 
           {/* Flooring */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Flooring
               </h3>
               <p>
                 Oak or walnut herringbone parquet floors for the reception and boardroom area; large-size natural stone or porcelain floors for high-traffic areas; and microcement or luxury carpet floors for the open office floor space.
               </p>
             </div>
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
               <Image
                 src="/images/office-herringbone-flooring-dubai.webp"
                 alt="Herringbone flooring in a Dubai office renovation"
@@ -462,8 +461,8 @@ const DProjects = () => {
           </div>
 
           {/* Partitions & Glass */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#111] p-6 rounded-xl border border-gray-800">
-            <div className="lg:col-span-5 relative h-56 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black order-2 lg:order-1">
               <Image
                 src="/images/glass-partitions-office-renovation-dubai.webp"
                 alt="Glass parti"
@@ -473,7 +472,7 @@ const DProjects = () => {
               />
             </div>
             <div className="lg:col-span-7 text-sm sm:text-base font-play text-white leading-relaxed space-y-2 order-1 lg:order-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Partitions &amp; Glass
               </h3>
               <p>
@@ -483,8 +482,8 @@ const DProjects = () => {
           </div>
 
           {/* Wall Treatments */}
-          <div className="bg-[#111] p-5 rounded-lg border border-gray-800 space-y-1">
-            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+          <div className="bg-[#111] p-4 sm:p-5 rounded-lg border border-gray-800 space-y-1">
+            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
               Wall Treatments
             </h3>
             <p className="font-play text-sm sm:text-base text-white leading-relaxed">
@@ -493,8 +492,8 @@ const DProjects = () => {
           </div>
 
           {/* Joinery & Storage */}
-          <div className="bg-[#111] p-5 rounded-lg border border-gray-800 space-y-1">
-            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+          <div className="bg-[#111] p-4 sm:p-5 rounded-lg border border-gray-800 space-y-1">
+            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
               Joinery &amp; Storage
             </h3>
             <p className="font-play text-sm sm:text-base text-white leading-relaxed">
@@ -508,8 +507,8 @@ const DProjects = () => {
           </div>
 
           {/* Lighting & Ceilings */}
-          <div className="bg-[#111] p-5 rounded-lg border border-gray-800 space-y-1">
-            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+          <div className="bg-[#111] p-4 sm:p-5 rounded-lg border border-gray-800 space-y-1">
+            <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
               Lighting &amp; Ceilings
             </h3>
             <p className="font-play text-sm sm:text-base text-white leading-relaxed">
@@ -520,14 +519,14 @@ const DProjects = () => {
         </div>
 
       {/* Section: Why Choose WE DO & Office Renovation Trends */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left ">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
   
   {/* Top Row: Why Choose WE DO (Left Text, Right Image) */}
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
     
     {/* Left Text */}
     <div className="lg:col-span-7 space-y-4">
-      <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+      <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
         Why Choose WE DO for Your Office Renovation
       </h2>
       <div className="font-play text-sm sm:text-base text-white">
@@ -548,7 +547,6 @@ const DProjects = () => {
       <Image
         src="/images/dubai-office-interiors-in-business-bay.png"
         alt="dubai-office-interiors-in-business-bay"
-        
         fill
         sizes="(max-width: 1024px) 100vw, 40vw"
         className="object-cover"
@@ -559,7 +557,7 @@ const DProjects = () => {
 
   {/* Bottom Row: Office Renovation Trends (Full Width) */}
   <div className="space-y-4 pt-4 border-t border-gray-800/60">
-    <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+    <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
       Office Renovation Trends in Dubai
     </h2>
     <div className="font-play text-sm sm:text-base text-white">
@@ -572,9 +570,9 @@ const DProjects = () => {
 </div>
 
        {/* Section: Our Office Renovation Process */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 text-left">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
     Our Office Renovation Process
   </h2>
 
@@ -619,7 +617,6 @@ const DProjects = () => {
       <Image
         src="/images/office-fit-out-consultants-in-dubai.png"
         alt="office-fit-out-consultants-in-dubai"
-        
         fill
         sizes="(max-width: 1024px) 100vw, 40vw"
         className="object-cover"
@@ -648,11 +645,11 @@ const DProjects = () => {
 </div>
 
        {/* Section: Office Renovation Cost & Timeline in Dubai */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 text-left">
   
   {/* Top Full Width Header & Intro */}
   <div className="space-y-4">
-    <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+    <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
       Office Renovation Cost &amp; Timeline in Dubai
     </h2>
 
@@ -665,11 +662,10 @@ const DProjects = () => {
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
     
     {/* Left Side: Square Image matching Table height */}
-    <div className="lg:col-span-4 relative w-full min-h-[250px] rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+    <div className="lg:col-span-4 relative w-full min-h-[220px] sm:min-h-[250px] rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
       <Image
         src="/images/modern-office-interior- Dubai-skyline.png"
         alt="modern-office-interior-Dubai-skyline"
-        
         fill
         sizes="(max-width: 1024px) 100vw, 35vw"
         className="object-cover"
@@ -678,55 +674,55 @@ const DProjects = () => {
 
     {/* Right Side: Table */}
     <div className="lg:col-span-8 overflow-x-auto rounded-xl border border-[#caa193]">
-      <table className="w-full text-left text-white font-play text-sm sm:text-base border-collapse">
+      <table className="w-full text-left text-white font-play text-sm sm:text-base border-collapse min-w-[500px]">
         <thead>
           <tr className="text-[#caa193] bg-neutral-900">
-            <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm ">Scope</th>
-            <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm ">What&apos;s Included</th>
-            <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm ">Average Cost (AED/sq ft)</th>
-            <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm ">Typical Timeline</th>
+            <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Scope</th>
+            <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">What&apos;s Included</th>
+            <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Average Cost (AED/sq ft)</th>
+            <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Typical Timeline</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-800">
           <tr>
-            <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
+            <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
               Cosmetic Refresh
             </td>
-            <td className="p-4 border border-[#caa193]">
+            <td className="p-3 sm:p-4 border border-[#caa193]">
               Paint, flooring, lighting
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               80 – 200
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               3–5 weeks
             </td>
           </tr>
           <tr>
-            <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
+            <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
               Standard Renovation
             </td>
-            <td className="p-4 border border-[#caa193]">
+            <td className="p-3 sm:p-4 border border-[#caa193]">
               + Partitions, ceilings, joinery
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               200 – 450
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               5–8 weeks
             </td>
           </tr>
           <tr>
-            <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
+            <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
               Full Renovation with MEP
             </td>
-            <td className="p-4 border border-[#caa193]">
+            <td className="p-3 sm:p-4 border border-[#caa193]">
               + Electrical, HVAC, plumbing upgrades
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               450 – 800+
             </td>
-            <td className="p-4 border border-[#caa193] whitespace-nowrap">
+            <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
               8–12 weeks
             </td>
           </tr>
@@ -745,15 +741,15 @@ const DProjects = () => {
 
         {/* Auto-Play Testimonials Carousel */}
         <div
-          className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
+          className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
           onMouseEnter={() => setIsPlaying(false)}
           onMouseLeave={() => setIsPlaying(true)}
         >
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
             Testimonials
           </h2>
 
-          <div className="relative min-h-[160px] sm:min-h-[120px] flex items-center justify-center">
+          <div className="relative min-h-[220px] sm:min-h-[160px] md:min-h-[120px] flex items-center justify-center">
             {testimonials.map((item, index) => (
               <div
                 key={index}
@@ -763,7 +759,7 @@ const DProjects = () => {
                     : 'opacity-0 pointer-events-none translate-x-8'
                 }`}
               >
-                <blockquote className="font-play text-sm sm:text-base text-white italic border-l-4 border-[#caa193] pl-4">
+                <blockquote className="font-play text-sm sm:text-base text-white italic border-l-4 border-[#caa193] pl-3 sm:pl-4">
                   {item.quote}
                   <footer className="text-[#caa193] not-italic mt-2 text-sm sm:text-base">{item.author}</footer>
                 </blockquote>
@@ -773,8 +769,8 @@ const DProjects = () => {
         </div>
 
        {/* Section: Visit Us & CTA - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
-          <h2 className="text-xl sm:text-2xl font-conthrax  text-[#111] uppercase">
+        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-8 sm:py-10 px-4 sm:px-12 text-center space-y-4 text-black">
+          <h2 className="text-xl sm:text-2xl font-conthrax text-[#111] uppercase">
             Visit Us
           </h2>
 
@@ -790,18 +786,18 @@ const DProjects = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mt-6">
             <a
               href="https://wa.me/971588075603"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+              className="w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
             >
               ✅ Request availability by WhatsApp
             </a>
             <a
               href="mailto:info@wedointerior.ae"
-              className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+              className="w-full sm:w-auto px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
             >
               ✉️ Request availability by E-mail
             </a>
@@ -825,14 +821,14 @@ const DProjects = () => {
         </div>
 
         {/* FAQs Section - Single Wrapper Div */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 sm:space-y-8 text-left">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 sm:mb-6 uppercase text-[#caa193]">
             Frequently Asked Questions
           </h2>
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Office Renovation vs Office Fit-out – What is the difference?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -841,7 +837,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Cost of Office Renovation in Dubai – How much will it cost me?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -850,7 +846,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 How much time does office renovation take in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -859,7 +855,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Do I need to get approval for office renovation in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -868,7 +864,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Can we continue our operations during the office renovation?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -877,7 +873,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Is office renovation more economical than moving to another place?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -886,7 +882,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 What are the services included in an office renovation?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -895,7 +891,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 What guarantee do you give on your office renovation services?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -904,7 +900,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Which is the best office renovation company in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">

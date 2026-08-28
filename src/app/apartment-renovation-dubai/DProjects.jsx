@@ -79,7 +79,7 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="bg-black-200 w-full py-12 px-[2in]">
+    <section className="bg-black-200 w-full py-12 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[2in] overflow-x-hidden">
 
       {/* Top Content Block */}
       <div className="w-full mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-16">
@@ -185,14 +185,14 @@ const DProjects = () => {
       </div>
 
       {/* Bottom CTA Section */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black mb-16">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black mb-16">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase">
           Get In Touch With Us
         </h3>
         <p className="text-sm sm:text-base font-play">
           Ready to plan your Apartment renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4 max-w-xl mx-auto">
           <a
             href="https://wa.me/971588075603"
             target="_blank"
@@ -248,10 +248,10 @@ const DProjects = () => {
             What&apos;s Included in a Full Apartment Renovation in Dubai
           </h2>
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote[cite: 20].
+            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote.
           </p>
           <p className="font-play text-sm sm:text-base text-white text-start py-1">
-            Looking for furniture, decor, and styling only, with no construction work? See our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design service</a></b> instead[cite: 20].
+            Looking for furniture, decor, and styling only, with no construction work? See our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design service</a></b> instead.
           </p>
         </div>
 
@@ -265,7 +265,7 @@ const DProjects = () => {
                 Kitchen renovation Dubai includes things like installing new cabinets or refinishing them, improving countertops and backsplashes, appliance arrangement, and repositioning of the sink, cooker, and electrical points when the kitchen layout has to be altered.
               </p>
               <p className="font-play text-sm sm:text-base text-[#caa193]">
-                Full detail: <b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-renovation-dubai">kitchen renovation in Dubai</a></b>[cite: 20]
+                Full detail: <b className="text-[#caa193]"><a href="https://wedointerior.ae/kitchen-renovation-dubai">kitchen renovation in Dubai</a></b>
               </p>
             </div>
             <div className="relative h-48 w-full rounded-lg overflow-hidden border border-[#caa193]/30">
@@ -778,7 +778,7 @@ const DProjects = () => {
           Testimonials
         </h2>
 
-        <div className="relative min-h-[160px] sm:min-h-[120px] flex items-center justify-center">
+        <div className="relative min-h-[220px] sm:min-h-[160px] md:min-h-[120px] flex items-center justify-center">
           {testimonials.map((item, index) => (
             <div
               key={index}
@@ -798,7 +798,7 @@ const DProjects = () => {
       </div>
 
       {/* CTA & Visit Us Section */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black mb-16">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black mb-16">
         <h2 className="text-xl sm:text-2xl font-conthrax uppercase">
           Visit Us
         </h2>
@@ -814,7 +814,7 @@ const DProjects = () => {
           Ready to plan your apartment renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4 max-w-xl mx-auto">
           <a
             href="https://wa.me/971588075603"
             target="_blank"
@@ -832,8 +832,8 @@ const DProjects = () => {
         </div>
       </div>
 
-      {/* Map Section */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800 mb-16" style={{ height: "450px" }}>
+      {/* Map Section - Full Width */}
+      <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800 mb-16 h-[300px] sm:h-[400px] md:h-[450px]">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.292133776448!2d55.1259375!3d24.990187499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6954f6d82d69%3A0x12891350d5165c12!2sInterior%20Design%20Company%20Dubai%20-%20WeDo%20Interior%20Design%20%26%20Fit%20out!5e0!3m2!1sen!2sae!4v1783940352669!5m2!1sen!2sae"
           width="100%"

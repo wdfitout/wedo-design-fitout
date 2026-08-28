@@ -86,14 +86,13 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="px-6 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200">
+    <section className="px-4 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200 overflow-x-hidden">
       <div className="max-w-6xl mx-auto space-y-12">
 
        {/* Top Content Block / Hero */}
-{/* Top Content Block / Hero */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-8 font-play text-sm sm:text-base text-white">
+       <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-8 font-play text-sm sm:text-base text-white">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     Is This the Right Fit for Your Store?
   </h2>
   
@@ -112,11 +111,11 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
     
     {/* Left Side: Key Facts Only */}
     <div className="space-y-4">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
         Key Facts
       </h3>
       <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-        <li>Service:  shopfront, flooring, joinery, lighting, and MEP upgrades to an existing retail unit, not a from-shell fit-out</li>
+        <li>Service: shopfront, flooring, joinery, lighting, and MEP upgrades to an existing retail unit, not a from-shell fit-out</li>
         <li>Cost: typically around AED 100–800+ per sq ft on average, depending on scope</li>
         <li>Timeline: typically 2–14 weeks, depending on scope; mall units add approval time, see below</li>
         <li>Approvals: Dubai Municipality and DCD for standalone units; a mall fit-out NOC for units inside a shopping centre</li>
@@ -135,12 +134,11 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
       </ul>
     </div>
 
-    {/* Right Side: Image (Height strictly aligned with Key Facts list) */}
-    <div className="relative w-full min-h-[280px] h-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
+    {/* Right Side: Image */}
+    <div className="relative w-full min-h-[220px] sm:min-h-[280px] h-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
       <Image
         src="/images/classyym (13).webp"
         alt="classyym (13)"
-        
         fill
         sizes="(max-width: 1024px) 100vw, 50vw"
         className="object-cover"
@@ -153,7 +151,7 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   <div className="pt-6 border-t border-gray-800">
     <a
       href="https://wedointerior.ae/contact-us"
-      className="inline-flex items-center gap-2 text-[#caa193] hover:text-white font-conthrax text-sm sm:text-base transition-colors duration-200 group"
+      className="inline-flex items-center gap-2 text-[#caa193] hover:text-white font-conthrax text-xs sm:text-base transition-colors duration-200 group"
     >
       Get in Touch to Start Your Retail Renovation
       <span className="transform transition-transform duration-200 group-hover:translate-x-1">→</span>
@@ -162,7 +160,7 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
 
 </div>
 
-       <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+       <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   {/* Section Header & Intro */}
   <div className="space-y-3">
     <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
@@ -174,11 +172,10 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   </div>
 
   {/* Single Medium Image */}
-  <div className="relative h-64 sm:h-80 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black mx-auto max-w-2xl">
+  <div className="relative h-48 sm:h-80 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black mx-auto max-w-2xl">
     <Image
       src="/images/classyym (10).webp"
       alt="classyym (10)"
-     
       fill
       className="object-cover"
     />
@@ -186,33 +183,33 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
 
   {/* Pricing Table */}
   <div className="overflow-x-auto rounded-xl border border-gray-800 bg-[#111]">
-    <table className="w-full text-left text-sm sm:text-base font-play text-white border-collapse">
+    <table className="w-full text-left text-xs sm:text-base font-play text-white border-collapse min-w-[500px]">
       <thead>
-        <tr className="bg-black border-b border-gray-800 text-[#caa193] font-conthrax text-xs sm:text-sm">
-          <th className="p-4 border-r border-gray-800">Tier</th>
-          <th className="p-4 border-r border-gray-800">What's Included</th>
-          <th className="p-4 border-r border-gray-800">Average Cost (AED/sq ft)</th>
-          <th className="p-4">Typical Timeline</th>
+        <tr className="bg-black border-b border-gray-800 text-[#caa193] font-conthrax text-[10px] sm:text-sm">
+          <th className="p-3 sm:p-4 border-r border-gray-800">Tier</th>
+          <th className="p-3 sm:p-4 border-r border-gray-800">What's Included</th>
+          <th className="p-3 sm:p-4 border-r border-gray-800">Average Cost (AED/sq ft)</th>
+          <th className="p-3 sm:p-4">Typical Timeline</th>
         </tr>
       </thead>
       <tbody className="divide-y divide-gray-800">
         <tr>
-          <td className="p-4 font-semibold text-[#caa193] border-r border-gray-800">Cosmetic Refresh</td>
-          <td className="p-4 border-r border-gray-800">Shopfront refresh, flooring, lighting</td>
-          <td className="p-4 border-r border-gray-800">100 – 250</td>
-          <td className="p-4">2–4 weeks</td>
+          <td className="p-3 sm:p-4 font-semibold text-[#caa193] border-r border-gray-800">Cosmetic Refresh</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">Shopfront refresh, flooring, lighting</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">100 – 250</td>
+          <td className="p-3 sm:p-4">2–4 weeks</td>
         </tr>
         <tr>
-          <td className="p-4 font-semibold text-[#caa193] border-r border-gray-800">Standard Renovation</td>
-          <td className="p-4 border-r border-gray-800">+ Joinery, ceilings, some MEP</td>
-          <td className="p-4 border-r border-gray-800">250 – 450</td>
-          <td className="p-4">4–8 weeks</td>
+          <td className="p-3 sm:p-4 font-semibold text-[#caa193] border-r border-gray-800">Standard Renovation</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">+ Joinery, ceilings, some MEP</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">250 – 450</td>
+          <td className="p-3 sm:p-4">4–8 weeks</td>
         </tr>
         <tr>
-          <td className="p-4 font-semibold text-[#caa193] border-r border-gray-800">Full Renovation with MEP</td>
-          <td className="p-4 border-r border-gray-800">+ Electrical, HVAC, layout changes</td>
-          <td className="p-4 border-r border-gray-800">450 – 800+</td>
-          <td className="p-4">8–14 weeks</td>
+          <td className="p-3 sm:p-4 font-semibold text-[#caa193] border-r border-gray-800">Full Renovation with MEP</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">+ Electrical, HVAC, layout changes</td>
+          <td className="p-3 sm:p-4 border-r border-gray-800">450 – 800+</td>
+          <td className="p-3 sm:p-4">8–14 weeks</td>
         </tr>
       </tbody>
     </table>
@@ -226,32 +223,32 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
 
   
         {/* CTA Section 1 - Full Width */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black">
         <h3 className="text-lg sm:text-2xl font-conthrax uppercase text-black">
           Get In Touch With Us
         </h3>
-        <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
+        <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto px-2">
           Ready to plan your Retail renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 max-w-xl mx-auto">
           <a
             href="https://wa.me/971588075603"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+            className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors block w-full sm:w-auto"
           >
             ✅ Request availability by WhatsApp
           </a>
           <a
             href="mailto:info@wedointerior.ae"
-            className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+            className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors block w-full sm:w-auto"
           >
             ✉️ Request availability by E-mail
           </a>
         </div>
       </div>
 
-       <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+       <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     The Real Benefits of Renovating Your Retail Store
   </h2>
@@ -283,11 +280,10 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
     </div>
 
     {/* Image (Right Side) */}
-    <div className="lg:col-span-6 relative h-80 sm:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+    <div className="lg:col-span-6 relative h-64 sm:h-80 lg:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
       <Image
         src="/images/retail.jpeg"
         alt="retail"
-        
         fill
         className="object-cover"
       />
@@ -295,7 +291,7 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   </div>
 </div>
 
-      <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+      <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   
   {/* Section Header */}
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
@@ -305,12 +301,11 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   {/* Top Grid: Image Left, Bullets Right */}
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
     
-    {/* Image: Auto Height Matches Text (Left Side) */}
-    <div className="lg:col-span-6 relative w-full min-h-[250px] rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+    {/* Image (Left Side) */}
+    <div className="lg:col-span-6 relative w-full min-h-[220px] sm:min-h-[250px] rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
       <Image
         src="/images/retail (7).jpeg"
         alt="retail (7)"
-       
         fill
         sizes="(max-width: 1024px) 100vw, 50vw"
         className="object-cover"
@@ -353,12 +348,12 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
 
 </div>
 
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 text-left">
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 uppercase text-[#caa193]">
     What's Included: Every Stage of a Retail Renovation
   </h2>
 
-  {/* Grid Layout: Mobile me 1 column, Tablet me 2, Desktop me 3/4 columns */}
+  {/* Grid Layout */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full pt-4">
     {stagesData.map((stage) => (
       <div
@@ -397,7 +392,7 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   {/* Modal for Details */}
   {activeStage && (
     <div
-      className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 overflow-y-auto"
+      className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto"
       onClick={() => setActiveStage(null)}
     >
       <div
@@ -406,11 +401,11 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
       >
         <button
           onClick={() => setActiveStage(null)}
-          className="absolute top-4 right-4 z-10 bg-black/60 hover:bg-[#caa193] text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors text-sm"
+          className="absolute top-3 right-3 z-10 bg-black/60 hover:bg-[#caa193] text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors text-sm"
         >
           ✕
         </button>
-        <div className="relative h-48 sm:h-80 md:h-96 w-full shrink-0 bg-black">
+        <div className="relative h-44 sm:h-80 md:h-96 w-full shrink-0 bg-black">
           <Image
             src={activeStage.imageSrc}
             alt={activeStage.imageAlt}
@@ -419,8 +414,8 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
             className="object-cover"
           />
         </div>
-        <div className="p-6 sm:p-8 space-y-4 overflow-y-auto">
-          <h3 className="font-conthrax text-xl sm:text-2xl text-white font-medium border-b border-gray-800 pb-3">
+        <div className="p-4 sm:p-8 space-y-4 overflow-y-auto">
+          <h3 className="font-conthrax text-lg sm:text-2xl text-white font-medium border-b border-gray-800 pb-3">
             {activeStage.title}
           </h3>
           <div className="text-xs sm:text-sm text-white leading-relaxed space-y-3 font-light">
@@ -432,9 +427,9 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
   )}
 </div>
 
-      <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+      <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   
-  {/* Top Row: Renovating While You Stay Open (Left Text, Right Image) */}
+  {/* Top Row: Renovating While You Stay Open */}
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
     
     {/* Left Text */}
@@ -454,7 +449,6 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
       <Image
         src="/images/retail (3).jpeg"
         alt="retail (3)"
-        
         fill
         sizes="(max-width: 1024px) 100vw, 40vw"
         className="object-cover"
@@ -463,7 +457,7 @@ Opening a new store or boutique from an empty unit instead? Our {' '}
 
   </div>
 
-  {/* Bottom Row: Mall vs. Street-Facing (Full Width) */}
+  {/* Bottom Row: Mall vs. Street-Facing */}
   <div className="space-y-4 pt-6 border-t border-gray-800/60">
     <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
       Mall vs. Street-Facing Retail Renovation in Dubai
@@ -488,13 +482,13 @@ Creek Harbour              </a>
 
 </div>
 
-     <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 text-left space-y-6">
+     <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 action-left space-y-6">
   
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest uppercase text-[#caa193]">
     Our Retail Renovation Process 
   </h2>
 
-  {/* Top Row: Steps 1, 2, 3 (Left Text, Right Image) */}
+  {/* Top Row: Steps 1, 2, 3 */}
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch pt-4">
     
     {/* Left Text */}
@@ -526,7 +520,6 @@ Creek Harbour              </a>
       <Image
         src="/images/retail (5).jpeg"
         alt="retail (5)"
-       
         fill
         sizes="(max-width: 1024px) 100vw, 40vw"
         className="object-cover"
@@ -561,9 +554,9 @@ Creek Harbour              </a>
 
 </div>
 
-      <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+      <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
       
-  {/* 1. Header & Text Intro */}
+  {/* Header & Text Intro */}
   <div className="space-y-3">
     <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
       Retail Renovation Mistakes to Avoid in Dubai
@@ -573,9 +566,9 @@ Creek Harbour              </a>
     </p>
   </div>
 
-  {/* 2. Mistakes Table */}
+  {/* Mistakes Table */}
   <div className="overflow-x-auto rounded-xl border border-gray-800 bg-[#111]">
-    <table className="w-full text-left text-xs sm:text-sm font-play text-white border-collapse">
+    <table className="w-full text-left text-xs sm:text-sm font-play text-white border-collapse min-w-[500px]">
       <thead>
         <tr className="bg-black border-b border-gray-800 text-[#caa193] font-conthrax text-[10px] sm:text-xs">
           <th className="p-2 sm:p-3 border-r border-gray-800">Mistake</th>
@@ -645,7 +638,7 @@ Creek Harbour              </a>
 
 </div>
 
- <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+ <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   
   {/* Header & Intro Section */}
   <div className="space-y-3">
@@ -657,7 +650,7 @@ Creek Harbour              </a>
     </p>
   </div>
 
-  {/* 4-Column / 2-Column Grid for Finishes */}
+  {/* Grid for Finishes */}
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     {/* 1. Flooring & Surfaces */}
@@ -708,9 +701,9 @@ own joinery factory                </a>
 
 </div>
 
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
       
-  {/* Top Row: Why Choose WE DO (Left Text, Right Image) */}
+  {/* Top Row: Why Choose WE DO */}
   <div className="space-y-6">
     <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
       Why Choose WE DO for Your Retail Renovation 
@@ -762,9 +755,9 @@ leading interior design company Dubai               </a>
 
 </div>
 
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
-{/* 3. Retail Renovation vs. Retail Fit-Out Section */}
-  <div className="space-y-6 ">
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+{/* Retail Renovation vs. Retail Fit-Out Section */}
+  <div className="space-y-6">
     <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-4 uppercase text-[#caa193]">
       Retail Renovation vs. Retail Fit-Out: What's the Difference?
     </h2>
@@ -774,7 +767,7 @@ leading interior design company Dubai               </a>
 
     {/* Comparison Table */}
     <div className="overflow-x-auto rounded-xl border border-gray-800 bg-[#111]">
-      <table className="w-full text-left font-play text-xs sm:text-sm text-white border-collapse">
+      <table className="w-full text-left font-play text-xs sm:text-sm text-white border-collapse min-w-[500px]">
         <thead>
           <tr className="bg-black border-b border-gray-800 text-[#caa193] font-conthrax text-[10px] sm:text-xs">
             <th className="p-3 sm:p-4 border-r border-gray-800"></th>
@@ -827,28 +820,27 @@ retail interior design services in Dubai                  </a>
   </div>
 </div>
 
-   <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+   <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   
   {/* Header Section */}
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     Retail Renovation Trends in Dubai
   </h2>
 
-  {/* Top Grid: Half Text next to Image */}
+  {/* Top Grid */}
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
     
-    {/* Image (Choti height - Left Side) */}
+    {/* Image */}
     <div className="lg:col-span-5 relative h-48 sm:h-64 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
       <Image
         src="/images/retail (4).jpeg"
         alt="retail (4)"
-        
         fill
         className="object-cover"
       />
     </div>
 
-    {/* Text Content (Upper Half - Right Side) */}
+    {/* Text Content */}
     <div className="lg:col-span-7 font-play text-sm sm:text-base text-white space-y-4 leading-relaxed">
       <p className="pb-1">
         A few shifts are showing up in almost every retail renovation brief we're seeing right now.
@@ -863,7 +855,7 @@ retail interior design services in Dubai                  </a>
 
   </div>
 
-  {/* Lower Text Content: Image ke nichay Full Width */}
+  {/* Lower Text Content */}
   <div className="font-play text-sm sm:text-base text-white space-y-4 leading-relaxed pt-2">
     <p>
       <strong className="text-[#caa193] font-semibold">Smart renovation, retail technology.</strong> Digital displays, app-based lighting control, and increasingly contactless checkout integration are moving from flagship-only features to standard requests across smart retail renovation briefs.
@@ -879,15 +871,15 @@ retail interior design services in Dubai                  </a>
 </div>
         {/* Auto-Play Testimonials Carousel */}
         <div
-          className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
+          className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
           onMouseEnter={() => setIsPlaying(false)}
           onMouseLeave={() => setIsPlaying(true)}
         >
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
             Testimonials
           </h2>
 
-          <div className="relative min-h-[160px] sm:min-h-[120px] flex items-center justify-center">
+          <div className="relative min-h-[180px] sm:min-h-[120px] flex items-center justify-center">
             {testimonials.map((item, index) => (
               <div
                 key={index}
@@ -907,12 +899,12 @@ retail interior design services in Dubai                  </a>
         </div>
 
      {/* Section: Visit Us & CTA - Full Width */}
-<div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+<div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black">
   <h3 className="text-xl sm:text-2xl font-conthrax text-[#111] uppercase">
     Ready to Renovate Your Store?
   </h3>
 
-  <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed">
+  <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed px-2">
     Whether it's a boutique that's due for a refresh or a mall unit that needs to clear approvals fast, tell us about your space, and we'll walk you through what it'll take, no pressure, no obligation to move forward.{" "}
     <a
       href="https://wedointerior.ae/contact-us"
@@ -931,18 +923,18 @@ retail interior design services in Dubai                  </a>
   </p>
 
   {/* CTA Buttons */}
-  <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+  <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 max-w-xl mx-auto">
     <a
       href="https://wa.me/971588075603"
       target="_blank"
       rel="noopener noreferrer"
-      className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+      className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors block w-full sm:w-auto"
     >
       ✅ Request availability by WhatsApp
     </a>
     <a
       href="mailto:info@wedointerior.ae"
-      className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+      className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors block w-full sm:w-auto"
     >
       ✉️ Request availability by E-mail
     </a>
@@ -965,8 +957,8 @@ retail interior design services in Dubai                  </a>
           ></iframe>
         </div>
 
-      {/* FAQs Section - Single Wrapper Div */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+      {/* FAQs Section */}
+<div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     Frequently Asked Questions 
   </h2>

@@ -54,14 +54,13 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="px-6 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200">
+    <section className="px-6 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200 overflow-x-hidden">
       <div className="max-w-6xl mx-auto space-y-12">
 
        {/* Top Content Block / Hero */}
-{/* Top Content Block / Hero */}
 <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-8 font-play text-sm sm:text-base text-white">
   
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+  <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     Is Bathroom Renovation Right for You?
   </h2>
   
@@ -85,7 +84,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
                 </b>{' '} for more details.
   </p>
 
-  {/* Grid: Key Facts (Left) & Image (Right) - Image ends at border line */}
+  {/* Grid: Key Facts (Left) & Image (Right) */}
   <div className="pt-6 border-t border-gray-800 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
     
     {/* Left Side: Key Facts Only */}
@@ -103,7 +102,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
       </ul>
     </div>
 
-    {/* Right Side: Image (Height strictly aligned with Key Facts list) */}
+    {/* Right Side: Image */}
     <div className="relative w-full min-h-[280px] h-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
       <Image
         src="/images/modern-apartment-bathroom-renovation-dubai.webp"
@@ -117,7 +116,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
   </div>
 
-  {/* CTA Link / Button - Placed below the border line */}
+  {/* CTA Link / Button */}
   <div className="pt-6 border-t border-gray-800">
     <a
       href="https://wedointerior.ae/contact-us"
@@ -198,9 +197,9 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
       </p>
     </div>
 
-        {/* CTA Section 1 - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
-          <h3 className="text-lg sm:text-2xl font-conthrax  text-black">
+        {/* CTA Section 1 - Full Width Responsive */}
+        <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+          <h3 className="text-lg sm:text-2xl font-conthrax text-black">
             Get In Touch With Us
           </h3>
           <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
@@ -230,7 +229,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-        {/* Text Content (Left Side) */}
+        {/* Text Content */}
         <div className="lg:col-span-6 text-sm sm:text-base font-play text-white leading-relaxed space-y-4">
           <p>
             Not every dated bathroom requires full renovation, and not every problem is urgent, but a few signs are worth taking seriously rather than living with for another year.
@@ -243,7 +242,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </p>
         </div>
 
-        {/* Image (Right Side) */}
+        {/* Image */}
         <div className="lg:col-span-6 relative h-80 sm:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
           <Image
             src="/images/signs-bathroom-needs-renovation-dubai.webp"
@@ -262,23 +261,22 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         Where Bathroom Design Is Heading in Dubai
       </h2>
 
-      {/* Top Grid: Image Left, Bullets Right */}
+      {/* Top Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         
-        {/* Image: Bathroom Design Trends (Left Side) */}
+        {/* Image */}
         <div className="lg:col-span-6 relative h-80 sm:h-[28rem] w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
           <Image
             src="/images/Luxury Bathroom Design in Dubai.png"
             alt="Luxury Bathroom Design in Dubai"
             title="Luxury Bathroom Design in Dubai"
-            
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"
           />
         </div>
 
-        {/* Bullet List (Right Side) */}
+        {/* Bullet List */}
         <div className="lg:col-span-6 text-sm sm:text-base font-play text-white leading-relaxed">
           <ul className="list-disc pl-5 space-y-3">
             <li>
@@ -301,7 +299,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       </div>
 
-      {/* Full Width Paragraph (Below Image and Bullets) */}
+      {/* Full Width Paragraph */}
       <div className="w-full text-sm sm:text-base font-play text-white leading-relaxed pt-2">
         <p>
           If you live in Dubai Creek Harbour and want to explore the latest luxury bathroom design trends specifically for homes in the area, read our guide to {' '}
@@ -324,7 +322,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
     A bathroom touches more trades per square foot than almost any other room. If you want a full contemporary renovation or just the replacement of a few dated fixtures, here's what's typically covered.
   </p>
 
-  {/* Grid Layout: Mobile me 1 column, Tablet me 2, Desktop me 4 columns */}
+  {/* Grid Layout */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full pt-4">
     {stagesData.map((stage) => (
       <div
@@ -360,7 +358,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
     ))}
   </div>
 
-  {/* Modal for Details */}
+  {/* Modal */}
   {activeStage && (
     <div
       className="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 overflow-y-auto"
@@ -400,7 +398,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
       
-      {/* Top Row: Waterproofing (Left Text, Right Image) */}
+      {/* Waterproofing */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
         
         {/* Left Text */}
@@ -415,7 +413,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </div>
         </div>
 
-        {/* Right Image (Text ki height ke sath align) */}
+        {/* Right Image */}
         <div className="lg:col-span-5 relative w-full h-full min-h-[220px] rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
           <Image
             src="/images/bathroom-waterproofing-flood-test-dubai.webp"
@@ -429,7 +427,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       </div>
 
-      {/* Bottom Row: Renovate Without Moving Plumbing (Full Width) */}
+      {/* Renovate Without Moving Plumbing */}
       <div className="space-y-4 pt-4 border-t border-gray-800/60">
         <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
           Can You Renovate a Bathroom Without Moving the Plumbing?
@@ -449,7 +447,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         Materials That Hold Up in Dubai's Humidity
       </h2>
 
-      {/* Top Row: H3 Sections 1, 2, 3 (Left Text, Right Image) */}
+      {/* Top Row */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
         
         {/* Left Text */}
@@ -476,7 +474,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </p>
         </div>
 
-        {/* Right Image (Text height ke sath strictly fit) */}
+        {/* Right Image */}
         <div className="lg:col-span-5 relative w-full h-full min-h-[220px] rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
           <Image
             src="/images/luxury bathroom interior showcasing premium natural materials in Dubai Creek Harbour residence.png"
@@ -490,7 +488,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       </div>
 
-      {/* Bottom Row: H3 Section 4 (Same spacing, no border line) */}
+      {/* Bottom Row */}
       <div className="font-play text-sm sm:text-base text-white leading-relaxed mt-4">
         <p>
           <b className="text-[#caa193] font-conthrax block text-base sm:text-lg mb-1">
@@ -504,7 +502,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
       
-      {/* 1. Header & Text Intro */}
+      {/* Header & Text Intro */}
       <div className="space-y-3">
         <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
           Bathroom Renovation Mistakes to Avoid in Dubai
@@ -519,9 +517,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         </p>
       </div>
 
-      
-
-      {/* 3. Mistakes Table */}
+      {/* Mistakes Table */}
       <div className="overflow-x-auto rounded-xl border border-gray-800 bg-[#111]">
         <table className="w-full text-left text-xs sm:text-sm font-play text-white border-collapse">
           <thead>
@@ -614,7 +610,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
     {/* 1. Master & Ensuite Bathrooms */}
     <div className="relative h-[280px] sm:h-[300px] rounded-xl overflow-hidden group border border-gray-800 hover:border-[#caa193]/60 transition-all duration-300 shadow-lg cursor-pointer">
-      {/* Background Image */}
       <Image
         src="/images/luxury-master-ensuite-bathroom-dubai.webp"
         alt="Spacious Dubai villa master ensuite with double vanity, freestanding bathtub, walk-in shower and elegant brass detailing."
@@ -622,7 +617,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         fill
         className="object-cover"
       />
-      {/* Dark Overlay & Text Content (Fades out on Hover) */}
       <div className="absolute inset-0 bg-black/75 group-hover:opacity-0 transition-opacity duration-500 p-4 sm:p-5 flex flex-col justify-end space-y-2 overflow-y-auto custom-scrollbar">
         <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider shrink-0">
           Master &amp; Ensuite Bathrooms
@@ -715,7 +709,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
 <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
       
-      {/* Top Row: Why Choose WE DO (Left Text, Right Image) */}
+      {/* Why Choose WE DO */}
       <div className="space-y-6">
         <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
           Why Choose WE DO for Your Bathroom Renovation
@@ -738,7 +732,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </p>
           </div>
 
-          {/* Right Image (matched to intro text height only) */}
+          {/* Right Image */}
           <div className="lg:col-span-5 relative w-full h-64 sm:h-full min-h-[220px] rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
             <Image
               src="/images/dubai-bathroom-renovation-approvals.webp"
@@ -751,9 +745,8 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </div>
         </div>
 
-        {/* Bullets: Full Width */}
+        {/* Bullets */}
         <div className="font-play text-sm sm:text-base text-white space-y-4">
-          
           <ul className="list-disc pl-5 space-y-2 leading-relaxed text-gray-200 w-full">
             <li>
               <span className="text-[#caa193] font-semibold">One contract, one team.</span> Design, approvals, and construction sit under a single accountable contract, not coordinating between separate trades yourself.
@@ -768,7 +761,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         </div>
       </div>
 
-      {/* Bottom Row: Approvals for Bathroom Renovation (Full Width) */}
+      {/* Approvals */}
       <div className="space-y-4 pt-4 border-t border-gray-800/60">
         <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
           Approvals for Bathroom Renovation in Dubai
@@ -803,7 +796,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
       
       {/* Step 1 */}
       <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex-1 flex flex-col justify-center">
-        
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2 pr-20">
           Site Assessment &amp; Measurement
         </h3>
@@ -814,7 +806,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
       {/* Step 2 */}
       <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex-1 flex flex-col justify-center">
-        
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2 pr-20">
           Scope, Material Selection &amp; Fixed-Price Proposal
         </h3>
@@ -840,15 +831,12 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
   </div>
 
-  {/* Remaining Steps 3 to 6 Grid (2 Columns) */}
+  {/* Steps 3 to 6 Grid */}
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     {/* Step 3 */}
     <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex flex-col justify-between">
       <div>
-        <div className="flex justify-between items-center mb-3">
-          
-        </div>
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2">
           Stripping Back to the Structure
         </h3>
@@ -861,9 +849,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
     {/* Step 4 */}
     <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex flex-col justify-between">
       <div>
-        <div className="flex justify-between items-center mb-3">
-          
-        </div>
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2">
           Plumbing, Drainage &amp; Waterproofing
         </h3>
@@ -876,9 +861,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
     {/* Step 5 */}
     <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex flex-col justify-between">
       <div>
-        <div className="flex justify-between items-center mb-3">
-          
-        </div>
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2">
           Tiling, Vanity &amp; Fixture Installation
         </h3>
@@ -891,9 +873,6 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
     {/* Step 6 */}
     <div className="bg-[#111] border border-gray-800 p-6 rounded-xl relative group hover:border-[#caa193]/60 transition-all duration-300 flex flex-col justify-between">
       <div>
-        <div className="flex justify-between items-center mb-3">
-          
-        </div>
         <h3 className="text-[#caa193] font-conthrax text-sm sm:text-base tracking-wider uppercase mb-2">
           Final Inspection &amp; Sign-Off
         </h3>
@@ -907,13 +886,13 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
 
 </div>
     
-        {/* Auto-Play Testimonials Carousel */}
+        {/* Testimonials */}
         <div
           className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
           onMouseEnter={() => setIsPlaying(false)}
           onMouseLeave={() => setIsPlaying(true)}
         >
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
             Testimonials
           </h2>
 
@@ -936,48 +915,48 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           </div>
         </div>
 
-      {/* Section: Visit Us & CTA - Full Width */}
-<div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
-  <h3 className="text-xl sm:text-2xl font-conthrax text-[#111] uppercase">
-    Visit Us
-  </h3>
+      {/* Section: Visit Us & CTA - Full Width Responsive */}
+      <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+        <h3 className="text-xl sm:text-2xl font-conthrax text-[#111] uppercase">
+          Visit Us
+        </h3>
 
-  <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed">
-    Have a bathroom that's ready for an update?{" "}
-    <a
-      href="https://wedointerior.ae/contact-us"
-      className="text-[#caa193] font-semibold hover:underline"
-    >
-      Get in Touch to Start Your Bathroom Renovation →
-    </a>{" "}
-    Office – WH-05 A, Jebel Ali Industrial 1, Dubai, UAE. Phone or WhatsApp +971 58 807 5603, Email{" "}
-    <a
-      href="mailto:info@wedointerior.ae"
-      className="text-[#caa193] font-semibold hover:underline"
-    >
-      info@wedointerior.ae
-    </a>
-    .
-  </p>
+        <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed">
+          Have a bathroom that's ready for an update?{" "}
+          <a
+            href="https://wedointerior.ae/contact-us"
+            className="text-[#caa193] font-semibold hover:underline"
+          >
+            Get in Touch to Start Your Bathroom Renovation →
+          </a>{" "}
+          Office – WH-05 A, Jebel Ali Industrial 1, Dubai, UAE. Phone or WhatsApp +971 58 807 5603, Email{" "}
+          <a
+            href="mailto:info@wedointerior.ae"
+            className="text-[#caa193] font-semibold hover:underline"
+          >
+            info@wedointerior.ae
+          </a>
+          .
+        </p>
 
-  {/* CTA Buttons */}
-  <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
-    <a
-      href="https://wa.me/971588075603"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
-    >
-      ✅ Request availability by WhatsApp
-    </a>
-    <a
-      href="mailto:info@wedointerior.ae"
-      className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
-    >
-      ✉️ Request availability by E-mail
-    </a>
-  </div>
-</div>
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+          <a
+            href="https://wa.me/971588075603"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+          >
+            ✅ Request availability by WhatsApp
+          </a>
+          <a
+            href="mailto:info@wedointerior.ae"
+            className="px-6 py-3 bg-[#caa193] hover:bg-[#b88f81] text-white font-play text-sm sm:text-base rounded-lg shadow-md text-center transition-colors"
+          >
+            ✉️ Request availability by E-mail
+          </a>
+        </div>
+      </div>
 
       {/* Districts We Serve Section */}
       <div className="lg:max-w-[70%] mx-auto bg-black p-6 sm:p-10 rounded-xl border border-gray-800 shadow text-center space-y-6 mb-12">
@@ -1019,8 +998,8 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         </div>
       </div>
 
-        {/* Map Section - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800" style={{ height: "450px" }}>
+        {/* Map Section - Full Width Responsive */}
+        <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] shadow-2xl border-t border-b border-gray-800" style={{ height: "450px" }}>
           <iframe
             src="https://maps.google.com/maps?q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&output=embed"
             width="100%"
@@ -1033,7 +1012,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           ></iframe>
         </div>
 
-       {/* FAQs Section - Single Wrapper Div */}
+       {/* FAQs Section */}
 <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
   <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
     Frequently Asked Questions

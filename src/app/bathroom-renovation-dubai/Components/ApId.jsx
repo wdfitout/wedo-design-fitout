@@ -9,8 +9,8 @@ const ApId = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
-    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <p>August 25, 2026</p>
+    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans overflow-x-hidden">
+      <p>August 28, 2026</p>
       <div className="lg:max-w-[98%] mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 lg:items-start">
           

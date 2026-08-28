@@ -39,15 +39,13 @@ const DProjects = () => {
   }, [currentSlide, isPlaying]);
 
   return (
-    <section className="px-6 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-12 bg-black-200">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section className="px-4 sm:px-12 md:px-20 lg:px-28 xl:px-36 py-8 sm:py-12 bg-black-200 overflow-x-hidden">
+      <div className="max-w-6xl mx-auto space-y-8 sm:space-y-12">
 
         {/* Top Content Block / Hero */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-8">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 shadow-xl text-left space-y-6 sm:space-y-8">
           
-         
-
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
             The WE DO Difference for Your Kitchen
           </h2>
           
@@ -58,7 +56,7 @@ const DProjects = () => {
 
             {/* Certifications & Track Record Section */}
             <div className="space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 Certifications & Track Record
               </h3>
               <p className="leading-relaxed">
@@ -68,7 +66,7 @@ const DProjects = () => {
 
             {/* One Team, One Kitchen, One Contract Section */}
             <div className="space-y-2">
-              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                 One Team, One Kitchen, One Contract
               </h3>
               <p className="leading-relaxed">
@@ -80,8 +78,8 @@ const DProjects = () => {
             <div className="pt-6 border-t border-gray-800 grid grid-cols-1 lg:grid-cols-2 gap-8 text-left">
               
               {/* Key Facts Section */}
-              <div className="bg-[#111] p-6 rounded-xl border border-gray-800 space-y-4">
-                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider ">
+              <div className="bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800 space-y-4">
+                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider">
                   Key Facts
                 </h3>
                 <ul className="list-disc pl-5 space-y-2 text-white text-left text-sm sm:text-base leading-relaxed">
@@ -96,9 +94,9 @@ const DProjects = () => {
               </div>
 
               {/* Who This Page Is For Section + Image 2 */}
-              <div className="bg-[#111] p-6 rounded-xl border border-gray-800 flex flex-col justify-between space-y-6">
+              <div className="bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800 flex flex-col justify-between space-y-6">
                 <div>
-                  <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider  mb-3">
+                  <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider mb-3">
                     Who This Page Is For
                   </h3>
                   <ul className="list-disc pl-5 space-y-2 text-white text-left text-sm sm:text-base leading-relaxed">
@@ -110,7 +108,7 @@ const DProjects = () => {
                 </div>
 
                 {/* Image 2: L-Shaped Kitchen Image */}
-                <div className="relative h-64 sm:h-72 w-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
+                <div className="relative h-48 sm:h-64 lg:h-72 w-full rounded-lg overflow-hidden border border-[#caa193]/40 bg-black">
                   <Image
                     src="/images/small-kitchen-renovation-dubai.webp"
                     alt="Small kitchen renovation Dubai apartment"
@@ -126,138 +124,138 @@ const DProjects = () => {
         </div>
 
         {/* Kitchen Decision Block */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  {/* Section Header & Intro */}
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    Start Here: Vinyl Wrap, Refacing, or Full Replacement?
-  </h2>
-  
-  <p className="leading-relaxed">
-    This is the first real decision in any kitchen remodeling project in Dubai, and it comes before color, style, or cabinet brand: how much of the existing kitchen is actually worth keeping. There are three levels, not two, and WE DO scopes and prices each one separately rather than defaulting you to the most expensive option.
-  </p>
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          {/* Section Header & Intro */}
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            Start Here: Vinyl Wrap, Refacing, or Full Replacement?
+          </h2>
+          
+          <p className="leading-relaxed">
+            This is the first real decision in any kitchen remodeling project in Dubai, and it comes before color, style, or cabinet brand: how much of the existing kitchen is actually worth keeping. There are three levels, not two, and WE DO scopes and prices each one separately rather than defaulting you to the most expensive option.
+          </p>
 
-  {/* 3 Images Grid: Image 3, 4, 5 */}
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
-    <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/vinyl-wrapped-kitchen-cabinets-dubai.webp"
-        alt="Vinyl wrapped kitchen cabinets Dubai"
-        title="Vinyl Wrapped Kitchen Cabinets"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/kitchen-cabinet-refacing-dubai.webp"
-        alt="Kitchen cabinet refacing in Dubai"
-        title="Kitchen Cabinet Refacing Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/dual-kitchen-show-working-dubai.webp"
-        alt="Dual show and working kitchen Dubai"
-        title="Dual Show and Working Kitchen Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+          {/* 3 Images Grid: Image 3, 4, 5 */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
+            <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/vinyl-wrapped-kitchen-cabinets-dubai.webp"
+                alt="Vinyl wrapped kitchen cabinets Dubai"
+                title="Vinyl Wrapped Kitchen Cabinets"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/kitchen-cabinet-refacing-dubai.webp"
+                alt="Kitchen cabinet refacing in Dubai"
+                title="Kitchen Cabinet Refacing Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/dual-kitchen-show-working-dubai.webp"
+                alt="Dual show and working kitchen Dubai"
+                title="Dual Show and Working Kitchen Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
- {/* Comparison Table */}
-<div className="overflow-x-auto rounded-xl border border-gray-800">
-  <table className="w-full text-left text-xs sm:text-sm font-play text-white border-collapse">
-    <thead>
-      <tr className="bg-neutral-900 border-b border-gray-800 text-[#caa193] font-conthrax text-[11px] sm:text-xs uppercase tracking-wider">
-        <th className="p-2.5 sm:p-3 min-w-[120px]">Factor</th>
-        <th className="p-2.5 sm:p-3">Vinyl Wrapping</th>
-        <th className="p-2.5 sm:p-3">Kitchen Refacing</th>
-        <th className="p-2.5 sm:p-3">Kitchen Replacement</th>
-      </tr>
-    </thead>
-    <tbody className="divide-y divide-gray-800 leading-snug">
-      <tr>
-        <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">What changes</td>
-        <td className="p-2.5 sm:p-3">Vinyl film applied over existing cabinet doors</td>
-        <td className="p-2.5 sm:p-3">Doors, drawer fronts, hardware, countertop</td>
-        <td className="p-2.5 sm:p-3">Entire cabinet boxes, configuration, countertop</td>
-      </tr>
-      <tr>
-        <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Layout changes</td>
-        <td className="p-2.5 sm:p-3">Not possible</td>
-        <td className="p-2.5 sm:p-3">Not possible; sink and appliance positions stay fixed</td>
-        <td className="p-2.5 sm:p-3">Possible, full redesign</td>
-      </tr>
-      <tr>
-        <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Typical timeline</td>
-        <td className="p-2.5 sm:p-3">1-3 days</td>
-        <td className="p-2.5 sm:p-3">Days to about a week</td>
-        <td className="p-2.5 sm:p-3">2-4 weeks</td>
-      </tr>
-      <tr>
-        <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Relative cost</td>
-        <td className="p-2.5 sm:p-3">Lowest</td>
-        <td className="p-2.5 sm:p-3">Lower</td>
-        <td className="p-2.5 sm:p-3">Higher</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+          {/* Comparison Table */}
+          <div className="overflow-x-auto rounded-xl border border-gray-800 max-w-full">
+            <table className="w-full text-left text-xs sm:text-sm font-play text-white border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-neutral-900 border-b border-gray-800 text-[#caa193] font-conthrax text-[11px] sm:text-xs uppercase tracking-wider">
+                  <th className="p-2.5 sm:p-3 min-w-[120px]">Factor</th>
+                  <th className="p-2.5 sm:p-3">Vinyl Wrapping</th>
+                  <th className="p-2.5 sm:p-3">Kitchen Refacing</th>
+                  <th className="p-2.5 sm:p-3">Kitchen Replacement</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800 leading-snug">
+                <tr>
+                  <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">What changes</td>
+                  <td className="p-2.5 sm:p-3">Vinyl film applied over existing cabinet doors</td>
+                  <td className="p-2.5 sm:p-3">Doors, drawer fronts, hardware, countertop</td>
+                  <td className="p-2.5 sm:p-3">Entire cabinet boxes, configuration, countertop</td>
+                </tr>
+                <tr>
+                  <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Layout changes</td>
+                  <td className="p-2.5 sm:p-3">Not possible</td>
+                  <td className="p-2.5 sm:p-3">Not possible; sink and appliance positions stay fixed</td>
+                  <td className="p-2.5 sm:p-3">Possible, full redesign</td>
+                </tr>
+                <tr>
+                  <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Typical timeline</td>
+                  <td className="p-2.5 sm:p-3">1-3 days</td>
+                  <td className="p-2.5 sm:p-3">Days to about a week</td>
+                  <td className="p-2.5 sm:p-3">2-4 weeks</td>
+                </tr>
+                <tr>
+                  <td className="p-2.5 sm:p-3 font-semibold text-[#caa193]">Relative cost</td>
+                  <td className="p-2.5 sm:p-3">Lowest</td>
+                  <td className="p-2.5 sm:p-3">Lower</td>
+                  <td className="p-2.5 sm:p-3">Higher</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-  {/* Guidelines + Image 6 (Small Kitchen) */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-    
-    <div className="lg:col-span-7 space-y-4">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        How to tell which one you need:
-      </h3>
-      <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-        <li>
-          Cabinet boxes and doors in good condition, just want a fast color or finish change → <span className="text-[#caa193] font-semibold">Vinyl Wrapping</span>.
-        </li>
-        <li>
-          Cabinet boxes dry, square, and structurally sound, and the layout already works, but doors and hardware are dated → <span className="text-[#caa193] font-semibold">Refacing</span>.
-        </li>
-        <li>
-          Boxes swollen, water-damaged, or you want to change where the sink or hob sits → <span className="text-[#caa193] font-semibold">Replacement</span>.
-        </li>
-        <li>
-          Converting between an open and closed layout → <span className="text-[#caa193] font-semibold">Replacement</span>, since plumbing and walls move with it.
-        </li>
-      </ul>
-      <p className="pt-2 italic border-t border-gray-800">
-        A site visit settles this in minutes; wrapping or refacing a box that&apos;s warped from a slow leak under the sink just delays the real fix by a year.
-      </p>
-    </div>
+          {/* Guidelines + Image 6 (Small Kitchen) */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+            
+            <div className="lg:col-span-7 space-y-4">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                How to tell which one you need:
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 leading-relaxed">
+                <li>
+                  Cabinet boxes and doors in good condition, just want a fast color or finish change → <span className="text-[#caa193] font-semibold">Vinyl Wrapping</span>.
+                </li>
+                <li>
+                  Cabinet boxes dry, square, and structurally sound, and the layout already works, but doors and hardware are dated → <span className="text-[#caa193] font-semibold">Refacing</span>.
+                </li>
+                <li>
+                  Boxes swollen, water-damaged, or you want to change where the sink or hob sits → <span className="text-[#caa193] font-semibold">Replacement</span>.
+                </li>
+                <li>
+                  Converting between an open and closed layout → <span className="text-[#caa193] font-semibold">Replacement</span>, since plumbing and walls move with it.
+                </li>
+              </ul>
+              <p className="pt-2 italic border-t border-gray-800">
+                A site visit settles this in minutes; wrapping or refacing a box that&apos;s warped from a slow leak under the sink just delays the real fix by a year.
+              </p>
+            </div>
 
-    {/* Image 6: Small Kitchen Renovation */}
-    <div className="lg:col-span-5 relative min-h-[280px] h-full rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/galley-kitchen-renovation-dubai.webp"
-        alt="Galley kitchen renovation for Dubai apartment"
-        title="Galley Kitchen Renovation Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
+            {/* Image 6: Small Kitchen Renovation */}
+            <div className="lg:col-span-5 relative min-h-[220px] sm:min-h-[280px] h-full rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/galley-kitchen-renovation-dubai.webp"
+                alt="Galley kitchen renovation for Dubai apartment"
+                title="Galley Kitchen Renovation Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-  </div>
+          </div>
 
-</div>
+        </div>
 
         {/* CTA Section 1 - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
-          <h3 className="text-lg sm:text-2xl font-conthrax  text-black">
+        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black">
+          <h3 className="text-lg sm:text-2xl font-conthrax text-black">
             Get In Touch With Us
           </h3>
-          <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto">
+          <p className="text-sm sm:text-base font-play text-gray-800 max-w-3xl mx-auto px-2">
             Ready to plan your Kitchen renovation? Contact WE DO for a free site visit and itemized quote.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-4 mt-6 max-w-md sm:max-w-none mx-auto px-2">
             <a
               href="https://wa.me/971588075603"
               target="_blank"
@@ -276,627 +274,627 @@ const DProjects = () => {
         </div>
 
         {/* Section: Choosing Your Kitchen Layout */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    Choosing Your Kitchen Layout
-  </h2>
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            Choosing Your Kitchen Layout
+          </h2>
 
-  {/* Content + Image 7 Grid */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-7 leading-relaxed space-y-4">
-      <p>
-        Open kitchen vs closed kitchen is the biggest configuration call after the wrap-reface-replace decision, and it&apos;s as much cultural as architectural. Older buildings across areas like Bur Dubai, Karama, and Al Qusais were typically built with closed, walled-off kitchens that better contain smell and noise, still preferred by households that cook daily with strong spices.
-      </p>
-      <p>
-        Newer developments, especially in JVC and JLT, lean toward open-plan kitchens that blend into the living space, making smaller units feel larger. As a <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=2lMq&sca_esv=7e07767bf3a02bf7&hl=en-US&cs=1&sxsrf=APpeQntHxeIx8-P0-gLZlow3YhlNMTysCw:1785601304835&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/4&kgs=3b09368701ef2f3b&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/4" className="hover:underline"> luxury interior design company in Dubai </a></b>, WE DO scope this decision at the first site visit, since it changes the electrical and plumbing plan before anything else is designed.
-      </p>
-      <p>
-        Neither is objectively better. A semi-open arrangement, a glass or sliding partition, open during light use and closed during heavy cooking, comes up often as a middle ground between the two.
-      </p>
-    </div>
+          {/* Content + Image 7 Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 leading-relaxed space-y-4">
+              <p>
+                Open kitchen vs closed kitchen is the biggest configuration call after the wrap-reface-replace decision, and it&apos;s as much cultural as architectural. Older buildings across areas like Bur Dubai, Karama, and Al Qusais were typically built with closed, walled-off kitchens that better contain smell and noise, still preferred by households that cook daily with strong spices.
+              </p>
+              <p>
+                Newer developments, especially in JVC and JLT, lean toward open-plan kitchens that blend into the living space, making smaller units feel larger. As a <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=2lMq&sca_esv=7e07767bf3a02bf7&hl=en-US&cs=1&sxsrf=APpeQntHxeIx8-P0-gLZlow3YhlNMTysCw:1785601304835&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/4&kgs=3b09368701ef2f3b&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/4" className="hover:underline"> luxury interior design company in Dubai </a></b>, WE DO scope this decision at the first site visit, since it changes the electrical and plumbing plan before anything else is designed.
+              </p>
+              <p>
+                Neither is objectively better. A semi-open arrangement, a glass or sliding partition, open during light use and closed during heavy cooking, comes up often as a middle ground between the two.
+              </p>
+            </div>
 
-    {/* Image 7: Studio Kitchen Renovation */}
-    <div className="lg:col-span-5 relative h-64 sm:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/studio-kitchen-renovation-dubai.webp"
-        alt="Studio kitchen renovation Dubai"
-        title="Studio Kitchen Renovation Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+            {/* Image 7: Studio Kitchen Renovation */}
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/studio-kitchen-renovation-dubai.webp"
+                alt="Studio kitchen renovation Dubai"
+                title="Studio Kitchen Renovation Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  {/* Table */}
-  <div className="overflow-x-auto rounded-xl border border-gray-800">
-    <table className="w-full text-left font-play text-white border-collapse">
-      <thead>
-        <tr className="bg-neutral-900 border-b border-gray-800 text-[#caa193] font-conthrax text-xs sm:text-sm">
-          <th className="p-4">Factor</th>
-          <th className="p-4">Closed Kitchen</th>
-          <th className="p-4">Open Kitchen</th>
-        </tr>
-      </thead>
-      <tbody className="divide-y divide-gray-800">
-        <tr>
-          <td className="p-4 font-semibold text-[#caa193]">Smell &amp; noise control</td>
-          <td className="p-4">Contained</td>
-          <td className="p-4">Spreads to living areas</td>
-        </tr>
-        <tr>
-          <td className="p-4 font-semibold text-[#caa193]">Feels larger in small units</td>
-          <td className="p-4">No</td>
-          <td className="p-4">Yes</td>
-        </tr>
-        <tr>
-          <td className="p-4 font-semibold text-[#caa193]">Natural light reach</td>
-          <td className="p-4">Limited</td>
-          <td className="p-4">Better</td>
-        </tr>
-        <tr>
-          <td className="p-4 font-semibold text-[#caa193]">Wall storage</td>
-          <td className="p-4">More</td>
-          <td className="p-4">Less</td>
-        </tr>
-        <tr>
-          <td className="p-4 font-semibold text-[#caa193]">Structural work to convert</td>
-          <td className="p-4">—</td>
-          <td className="p-4">Removing a wall needs NOC</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+          {/* Table */}
+          <div className="overflow-x-auto rounded-xl border border-gray-800 max-w-full">
+            <table className="w-full text-left font-play text-white border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-neutral-900 border-b border-gray-800 text-[#caa193] font-conthrax text-xs sm:text-sm">
+                  <th className="p-3 sm:p-4">Factor</th>
+                  <th className="p-3 sm:p-4">Closed Kitchen</th>
+                  <th className="p-3 sm:p-4">Open Kitchen</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800 text-xs sm:text-sm">
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Smell &amp; noise control</td>
+                  <td className="p-3 sm:p-4">Contained</td>
+                  <td className="p-3 sm:p-4">Spreads to living areas</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Feels larger in small units</td>
+                  <td className="p-3 sm:p-4">No</td>
+                  <td className="p-3 sm:p-4">Yes</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Natural light reach</td>
+                  <td className="p-3 sm:p-4">Limited</td>
+                  <td className="p-3 sm:p-4">Better</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Wall storage</td>
+                  <td className="p-3 sm:p-4">More</td>
+                  <td className="p-3 sm:p-4">Less</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-[#caa193]">Structural work to convert</td>
+                  <td className="p-3 sm:p-4">—</td>
+                  <td className="p-3 sm:p-4">Removing a wall needs NOC</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-  {/* Image 8 & Image 9 Grid */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/closed-kitchen-design-dubai.webp"
-        alt="Closed kitchen design Dubai apartment"
-        title="Closed Kitchen Design Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/open-plan-kitchen-renovation-dubai.webp"
-        alt="Open plan kitchen renovation Dubai"
-        title="Open Plan Kitchen Renovation Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+          {/* Image 8 & Image 9 Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/closed-kitchen-design-dubai.webp"
+                alt="Closed kitchen design Dubai apartment"
+                title="Closed Kitchen Design Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/open-plan-kitchen-renovation-dubai.webp"
+                alt="Open plan kitchen renovation Dubai"
+                title="Open Plan Kitchen Renovation Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  {/* Kitchen Details Sections */}
-  <div className="space-y-6">
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Kitchen Shape: L-Shape, U-Shape, Galley &amp; Island
-      </h3>
-      <p className="leading-relaxed">
-        L-shape kitchen Dubai layout is ideal for small and medium-sized kitchens and maintains an optimal work triangle. The U-shape kitchen Dubai layout is best suited for large kitchens since it makes use of the maximum possible counter and storage spaces. Single wall or galley kitchen layout is the most space-saving design suitable for studio and 1-bedroom apartments.
-      </p>
-    </div>
+          {/* Kitchen Details Sections */}
+          <div className="space-y-6">
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Kitchen Shape: L-Shape, U-Shape, Galley &amp; Island
+              </h3>
+              <p className="leading-relaxed">
+                L-shape kitchen Dubai layout is ideal for small and medium-sized kitchens and maintains an optimal work triangle. The U-shape kitchen Dubai layout is best suited for large kitchens since it makes use of the maximum possible counter and storage spaces. Single wall or galley kitchen layout is the most space-saving design suitable for studio and 1-bedroom apartments.
+              </p>
+            </div>
 
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Small &amp; Studio Kitchens
-      </h3>
-      <p className="leading-relaxed">
-        The small kitchen renovation Dubai and the studio kitchen renovation Dubai are projects that work best when they follow the galley kitchen layout or the single wall kitchen layout, and where appliances used are slimline with vertical storage as opposed to the use of wide base cabinets. The addition of an extension of the countertop can also help in increasing the amount of space while maintaining it as a temporary feature.
-      </p>
-    </div>
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Small &amp; Studio Kitchens
+              </h3>
+              <p className="leading-relaxed">
+                The small kitchen renovation Dubai and the studio kitchen renovation Dubai are projects that work best when they follow the galley kitchen layout or the single wall kitchen layout, and where appliances used are slimline with vertical storage as opposed to the use of wide base cabinets. The addition of an extension of the countertop can also help in increasing the amount of space while maintaining it as a temporary feature.
+              </p>
+            </div>
 
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Dual Kitchens
-      </h3>
-      <p className="leading-relaxed">
-        Larger apartments and penthouses sometimes include a &quot;show kitchen&quot;, open, for light use and guests, paired with a separate working kitchen behind it for heavier cooking. It&apos;s a real option, but only where the unit has the floor area to support two kitchen zones. For a standard 1-3 bedroom apartment, one well-planned kitchen almost always serves better.
-      </p>
-    </div>
-  </div>
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Dual Kitchens
+              </h3>
+              <p className="leading-relaxed">
+                Larger apartments and penthouses sometimes include a &quot;show kitchen&quot;, open, for light use and guests, paired with a separate working kitchen behind it for heavier cooking. It&apos;s a real option, but only where the unit has the floor area to support two kitchen zones. For a standard 1-3 bedroom apartment, one well-planned kitchen almost always serves better.
+              </p>
+            </div>
+          </div>
 
-</div>
+        </div>
 
         {/* Section: Designing the Details */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    Designing the Details
-  </h2>
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            Designing the Details
+          </h2>
 
-  {/* Image 10 + Cabinets & Storage Block */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    
-    <div className="lg:col-span-5 relative h-64 sm:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/custom-kitchen-cabinets-dubai.webp"
-        alt="Custom kitchen cabinets Dubai"
-        title="Custom Kitchen Cabinets Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
+          {/* Image 10 + Cabinets & Storage Block */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/custom-kitchen-cabinets-dubai.webp"
+                alt="Custom kitchen cabinets Dubai"
+                title="Custom Kitchen Cabinets Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-    <div className="lg:col-span-7 leading-relaxed space-y-6">
-      <div className="space-y-2">
-        <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-          Cabinets
-        </h3>
-        <p>
-          Kitchen cabinets Dubai use MDF material covered in laminate or acrylic, or solid-wood veneers for a more upscale appearance. Regarding design, the most popular choices are a handle-free, minimalistic German kitchen Dubai design, an Italian kitchen style Dubai, or a completely customized design, regardless of whether it is available at any particular showroom brand name.
-        </p>
-      </div>
+            <div className="lg:col-span-7 leading-relaxed space-y-6">
+              <div className="space-y-2">
+                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                  Cabinets
+                </h3>
+                <p>
+                  Kitchen cabinets Dubai use MDF material covered in laminate or acrylic, or solid-wood veneers for a more upscale appearance. Regarding design, the most popular choices are a handle-free, minimalistic German kitchen Dubai design, an Italian kitchen style Dubai, or a completely customized design, regardless of whether it is available at any particular showroom brand name.
+                </p>
+              </div>
 
-      <div className="space-y-2">
-        <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-          Storage
-        </h3>
-        <p>
-          Prioritizing kitchen storage solutions Dubai includes pull-out pantry cabinets, carousel corner shelves, and soft-closing drawer organizers. These will have much more impact on usability than the number of cabinets you have.
-        </p>
-      </div>
-    </div>
+              <div className="space-y-2">
+                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                  Storage
+                </h3>
+                <p>
+                  Prioritizing kitchen storage solutions Dubai includes pull-out pantry cabinets, carousel corner shelves, and soft-closing drawer organizers. These will have much more impact on usability than the number of cabinets you have.
+                </p>
+              </div>
+            </div>
 
-  </div>
+          </div>
 
-  {/* 4 Images Grid: Image 11, 12, 13, 14 */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-6">
-    <div className="relative h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/handleless-kitchen-cabinets-dubai.webp"
-        alt="Handleless kitchen cabinets Dubai"
-        title="Handleless Kitchen Cabinets Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/kitchen-storage-solutions-dubai.webp"
-        alt="Kitchen storage solutions Dubai"
-        title="Kitchen Storage Solutions Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/kitchen-corner-storage-dubai.webp"
-        alt="Kitchen corner storage solution Dubai"
-        title="Kitchen Corner Storage Solution"
-        fill
-        className="object-cover"
-      />
-    </div>
-    <div className="relative h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-      <Image
-        src="/images/quartz-kitchen-countertop-backsplash-dubai.webp"
-        alt="Quartz kitchen countertop and backsplash Dubai"
-        title="Quartz Kitchen Countertop and Backsplash"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+          {/* 4 Images Grid: Image 11, 12, 13, 14 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-6">
+            <div className="relative h-48 sm:h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/handleless-kitchen-cabinets-dubai.webp"
+                alt="Handleless kitchen cabinets Dubai"
+                title="Handleless Kitchen Cabinets Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/kitchen-storage-solutions-dubai.webp"
+                alt="Kitchen storage solutions Dubai"
+                title="Kitchen Storage Solutions Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/kitchen-corner-storage-dubai.webp"
+                alt="Kitchen corner storage solution Dubai"
+                title="Kitchen Corner Storage Solution"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-48 sm:h-56 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+              <Image
+                src="/images/quartz-kitchen-countertop-backsplash-dubai.webp"
+                alt="Quartz kitchen countertop and backsplash Dubai"
+                title="Quartz Kitchen Countertop and Backsplash"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  {/* Countertops & Appliances Sections */}
-  <div className="space-y-6">
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Countertops &amp; Backsplash
-      </h3>
-      <p className="leading-relaxed">
-        Granite or quartz is the default countertop material, while the backsplash will usually be tiled with ceramic, glass, or porcelain tiles.
-      </p>
-    </div>
+          {/* Countertops & Appliances Sections */}
+          <div className="space-y-6">
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Countertops &amp; Backsplash
+              </h3>
+              <p className="leading-relaxed">
+                Granite or quartz is the default countertop material, while the backsplash will usually be tiled with ceramic, glass, or porcelain tiles.
+              </p>
+            </div>
 
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Appliances
-      </h3>
-      <p className="leading-relaxed">
-        Most Dubai apartments use electric or induction hobs for cooking rather than gas, which affects the electrical load calculation before cabinetry is ordered. Appliance selection should happen before the cabinetry design is finalized, not after; reversing that order is one of the most common causes of rework.
-      </p>
-    </div>
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Appliances
+              </h3>
+              <p className="leading-relaxed">
+                Most Dubai apartments use electric or induction hobs for cooking rather than gas, which affects the electrical load calculation before cabinetry is ordered. Appliance selection should happen before the cabinetry design is finalized, not after; reversing that order is one of the most common causes of rework.
+              </p>
+            </div>
 
-    {/* Images Grid: Image 15, 16, 17 */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
-      <div className="relative h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-        <Image
-          src="/images/integrated-kitchen-appliances-dubai.webp"
-          alt="Integrated kitchen appliances Dubai"
-          title="Integrated Kitchen Appliances Dubai"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="relative h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-        <Image
-          src="/images/kitchen-lighting-design-dubai.webp"
-          alt="Kitchen lighting design Dubai"
-          title="Kitchen Lighting Design Dubai"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="relative h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-        <Image
-          src="/images/kitchen-extractor-hood-dubai.webp"
-          alt="Kitchen extractor hood ventilation Dubai"
-          title="Kitchen Extractor Hood Dubai"
-          fill
-          className="object-cover"
-        />
-      </div>
-    </div>
+            {/* Images Grid: Image 15, 16, 17 */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
+              <div className="relative h-48 sm:h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+                <Image
+                  src="/images/integrated-kitchen-appliances-dubai.webp"
+                  alt="Integrated kitchen appliances Dubai"
+                  title="Integrated Kitchen Appliances Dubai"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative h-48 sm:h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+                <Image
+                  src="/images/kitchen-lighting-design-dubai.webp"
+                  alt="Kitchen lighting design Dubai"
+                  title="Kitchen Lighting Design Dubai"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative h-48 sm:h-60 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+                <Image
+                  src="/images/kitchen-extractor-hood-dubai.webp"
+                  alt="Kitchen extractor hood ventilation Dubai"
+                  title="Kitchen Extractor Hood Dubai"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
 
-    {/* Lighting & Ventilation Sections */}
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Lighting
-      </h3>
-      <p className="leading-relaxed">
-        Good kitchen lighting uses three layers: under-cabinet task lighting for the countertop, a pendant or two over an island or breakfast bar, and ambient ceiling lighting for the rest of the room. Task lighting is the one most kitchens skip, and then regret.
-      </p>
-    </div>
+            {/* Lighting & Ventilation Sections */}
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Lighting
+              </h3>
+              <p className="leading-relaxed">
+                Good kitchen lighting uses three layers: under-cabinet task lighting for the countertop, a pendant or two over an island or breakfast bar, and ambient ceiling lighting for the rest of the room. Task lighting is the one most kitchens skip, and then regret.
+              </p>
+            </div>
 
-    <div className="space-y-2">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Ventilation
-      </h3>
-      <p className="leading-relaxed">
-        Kitchen ventilation in Dubai means an extractor hood matched to the kitchen&apos;s size and layout, non-negotiable in a closed kitchen, where cooking heat and smell have nowhere else to go. Ducted extraction performs better than recirculating filters for regular, daily cooking.
-      </p>
-    </div>
-  </div>
+            <div className="space-y-2">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Ventilation
+              </h3>
+              <p className="leading-relaxed">
+                Kitchen ventilation in Dubai means an extractor hood matched to the kitchen&apos;s size and layout, non-negotiable in a closed kitchen, where cooking heat and smell have nowhere else to go. Ducted extraction performs better than recirculating filters for regular, daily cooking.
+              </p>
+            </div>
+          </div>
 
-</div>
+        </div>
 
-       {/* Section: What's Shaping Dubai Kitchens Right Now */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    What&apos;s Shaping Dubai Kitchens Right Now
-  </h2>
+        {/* Section: What's Shaping Dubai Kitchens Right Now */}
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            What&apos;s Shaping Dubai Kitchens Right Now
+          </h2>
 
-  {/* Header Text + Image 18 Grid */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-7 leading-relaxed space-y-4">
-      <p>
-        A few kitchen renovation trends keep showing up across current Dubai kitchen briefs, beyond the standard cabinet-and-countertop choices covered above.
-      </p>
+          {/* Header Text + Image 18 Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 leading-relaxed space-y-4">
+              <p>
+                A few kitchen renovation trends keep showing up across current Dubai kitchen briefs, beyond the standard cabinet-and-countertop choices covered above.
+              </p>
 
-      <div className="space-y-1">
-        <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-          Handle-Less, Minimalist Fronts
-        </h3>
-        <p>
-          Push-to-open or integrated-channel handles now come up more often than visible hardware. The line reads cleaner, and it&apos;s easier to keep free of grease marks.
-        </p>
-      </div>
+              <div className="space-y-1">
+                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                  Handle-Less, Minimalist Fronts
+                </h3>
+                <p>
+                  Push-to-open or integrated-channel handles now come up more often than visible hardware. The line reads cleaner, and it&apos;s easier to keep free of grease marks.
+                </p>
+              </div>
 
-      <div className="space-y-1">
-        <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-          Two-Tone Cabinetry
-        </h3>
-        <p>
-          Upper and lower cabinets in two different finishes, often a lighter upper and darker lower, is a popular way to add visual interest without the cost of a fully custom design.
-        </p>
-      </div>
-    </div>
+              <div className="space-y-1">
+                <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                  Two-Tone Cabinetry
+                </h3>
+                <p>
+                  Upper and lower cabinets in two different finishes, often a lighter upper and darker lower, is a popular way to add visual interest without the cost of a fully custom design.
+                </p>
+              </div>
+            </div>
 
-    {/* Image 18: Two-Tone Kitchen Cabinets */}
-    <div className="lg:col-span-5 relative h-64 sm:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/Two-Tone Kitchen Cabinets Dubai.webp"
-        alt="Two tone kitchen cabinets Dubai"
-        title="Two-Tone Kitchen Cabinets Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+            {/* Image 18: Two-Tone Kitchen Cabinets */}
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-80 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/Two-Tone Kitchen Cabinets Dubai.webp"
+                alt="Two tone kitchen cabinets Dubai"
+                title="Two-Tone Kitchen Cabinets Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  {/* Remaining Trend Details */}
-  <div className="space-y-6">
-    <div className="space-y-1">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Mixed-Material Islands
-      </h3>
-      <p className="leading-relaxed">
-        Pairing a stone or quartz countertop with a contrasting wood-finish island base is a consistent request, adding warmth to what&apos;s otherwise a hard-surface-heavy room.
-      </p>
-    </div>
+          {/* Remaining Trend Details */}
+          <div className="space-y-6">
+            <div className="space-y-1">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Mixed-Material Islands
+              </h3>
+              <p className="leading-relaxed">
+                Pairing a stone or quartz countertop with a contrasting wood-finish island base is a consistent request, adding warmth to what&apos;s otherwise a hard-surface-heavy room.
+              </p>
+            </div>
 
-    <div className="space-y-1">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Integrated, Panel-Ready Appliances
-      </h3>
-      <p className="leading-relaxed">
-        Refrigerators and dishwashers finished with a matching cabinet panel, rather than visible stainless steel, are a common request at the design stage now. Adding one later usually means replacing the whole appliance rather than fitting a panel to it.
-      </p>
-    </div>
+            <div className="space-y-1">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Integrated, Panel-Ready Appliances
+              </h3>
+              <p className="leading-relaxed">
+                Refrigerators and dishwashers finished with a matching cabinet panel, rather than visible stainless steel, are a common request at the design stage now. Adding one later usually means replacing the whole appliance rather than fitting a panel to it.
+              </p>
+            </div>
 
-    <div className="space-y-1">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Touchless &amp; Smart Fixtures
-      </h3>
-      <p className="leading-relaxed">
-        The incorporation of touchless faucets and sensor ovens, along with the installation of smart home wiring, is often discussed in the design process since retrofitting them later is more expensive than installing them from the beginning.
-      </p>
-    </div>
+            <div className="space-y-1">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Touchless &amp; Smart Fixtures
+              </h3>
+              <p className="leading-relaxed">
+                The incorporation of touchless faucets and sensor ovens, along with the installation of smart home wiring, is often discussed in the design process since retrofitting them later is more expensive than installing them from the beginning.
+              </p>
+            </div>
 
-    <div className="space-y-1">
-      <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
-        Sustainable, Low-VOC Materials
-      </h3>
-      <p className="leading-relaxed">
-        Using low-VOC finishes and local products, especially in cabinetry and countertops, has become an initiative that is brought up by the clients without us suggesting it.
-      </p>
-    </div>
+            <div className="space-y-1">
+              <h3 className="font-conthrax text-[#caa193] text-sm sm:text-base tracking-wider uppercase">
+                Sustainable, Low-VOC Materials
+              </h3>
+              <p className="leading-relaxed">
+                Using low-VOC finishes and local products, especially in cabinetry and countertops, has become an initiative that is brought up by the clients without us suggesting it.
+              </p>
+            </div>
 
-    {/* Image 19 & Image 20 Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-      <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-        <Image
-          src="/images/mixed-material-kitchen-island-dubai.webp"
-          alt="Mixed material kitchen island Dubai"
-          title="Mixed-Material Kitchen Island"
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="relative h-60 sm:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-        <Image
-          src="/images/touchless-kitchen-faucet-dubai.webp"
-          alt="Touchless kitchen faucet Dubai"
-          title="Touchless Kitchen Faucet"
-          fill
-          className="object-cover"
-        />
-      </div>
-    </div>
-  </div>
+            {/* Image 19 & Image 20 Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+              <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+                <Image
+                  src="/images/mixed-material-kitchen-island-dubai.webp"
+                  alt="Mixed material kitchen island Dubai"
+                  title="Mixed-Material Kitchen Island"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative h-48 sm:h-60 lg:h-72 rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+                <Image
+                  src="/images/touchless-kitchen-faucet-dubai.webp"
+                  alt="Touchless kitchen faucet Dubai"
+                  title="Touchless Kitchen Faucet"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
 
-</div>
+        </div>
 
         {/* Section: Kitchen Renovation Cost in Dubai */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    Kitchen Renovation Cost in Dubai
-  </h2>
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            Kitchen Renovation Cost in Dubai
+          </h2>
 
-  {/* Image 21: Cost Comparison Graphic */}
-  <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
-    <Image
-      src="/images/kitchen-renovation-options-dubai.webp"
-      alt="Kitchen renovation options from wrapping to replacement"
-      title="Kitchen Renovation Options Dubai"
-      fill
-      className="object-cover"
-    />
-  </div>
+          {/* Image 21: Cost Comparison Graphic */}
+          <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 w-full rounded-xl overflow-hidden border border-[#caa193]/40 bg-black">
+            <Image
+              src="/images/kitchen-renovation-options-dubai.webp"
+              alt="Kitchen renovation options from wrapping to replacement"
+              title="Kitchen Renovation Options Dubai"
+              fill
+              className="object-cover"
+            />
+          </div>
 
-  <p className="leading-relaxed">
-    Kitchen renovation cost Dubai depends on cabinetry extent, countertop material, appliance integration, and whether the configuration changes, rather than kitchen size alone. These figures are approximate market ranges, not a fixed quote for any specific kitchen:
-  </p>
+          <p className="leading-relaxed">
+            Kitchen renovation cost Dubai depends on cabinetry extent, countertop material, appliance integration, and whether the configuration changes, rather than kitchen size alone. These figures are approximate market ranges, not a fixed quote for any specific kitchen:
+          </p>
 
-  {/* Cost Table */}
-  <div className="overflow-x-auto rounded-xl border border-[#caa193]">
-    <table className="w-full text-left text-white border-collapse">
-      <thead>
-        <tr className="text-[#caa193] bg-neutral-900">
-          <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Scope</th>
-          <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">What&apos;s Included</th>
-          <th className="p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Approximate Cost (AED)</th>
-        </tr>
-      </thead>
-      <tbody className="divide-y divide-gray-800">
-        <tr>
-          <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
-            Budget Kitchen Renovation Dubai
-          </td>
-          <td className="p-4 border border-[#caa193]">
-            Cabinet refacing, new countertop, same configuration
-          </td>
-          <td className="p-4 border border-[#caa193] whitespace-nowrap">
-            around 15,000 – 35,000
-          </td>
-        </tr>
-        <tr>
-          <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
-            Mid-Range Remodel
-          </td>
-          <td className="p-4 border border-[#caa193]">
-            New cabinetry, countertops, backsplash, appliances, same configuration
-          </td>
-          <td className="p-4 border border-[#caa193] whitespace-nowrap">
-            around 40,000 – 80,000
-          </td>
-        </tr>
-        <tr>
-          <td className="p-4 border border-[#caa193] text-[#caa193] font-semibold">
-            Luxury Kitchen Renovation Dubai
-          </td>
-          <td className="p-4 border border-[#caa193]">
-            Configuration change, premium materials, island, full electrical &amp; plumbing
-          </td>
-          <td className="p-4 border border-[#caa193] whitespace-nowrap">
-            around 90,000 – 180,000+
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+          {/* Cost Table */}
+          <div className="overflow-x-auto rounded-xl border border-[#caa193] max-w-full">
+            <table className="w-full text-left text-white border-collapse min-w-[500px]">
+              <thead>
+                <tr className="text-[#caa193] bg-neutral-900">
+                  <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Scope</th>
+                  <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">What&apos;s Included</th>
+                  <th className="p-3 sm:p-4 border border-[#caa193] font-conthrax text-xs sm:text-sm">Approximate Cost (AED)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800 text-xs sm:text-sm">
+                <tr>
+                  <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
+                    Budget Kitchen Renovation Dubai
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193]">
+                    Cabinet refacing, new countertop, same configuration
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
+                    around 15,000 – 35,000
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
+                    Mid-Range Remodel
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193]">
+                    New cabinetry, countertops, backsplash, appliances, same configuration
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
+                    around 40,000 – 80,000
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 border border-[#caa193] text-[#caa193] font-semibold">
+                    Luxury Kitchen Renovation Dubai
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193]">
+                    Configuration change, premium materials, island, full electrical &amp; plumbing
+                  </td>
+                  <td className="p-3 sm:p-4 border border-[#caa193] whitespace-nowrap">
+                    around 90,000 – 180,000+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-  <p className="leading-relaxed">
-    Kitchens typically account for a disproportionate share of a <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-renovation-dubai" className="hover:underline"> full apartment renovation </a></b> budget relative to their floor area, since cabinetry, plumbing, and appliances are all concentrated in one room.
-  </p>
+          <p className="leading-relaxed">
+            Kitchens typically account for a disproportionate share of a <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-renovation-dubai" className="hover:underline"> full apartment renovation </a></b> budget relative to their floor area, since cabinetry, plumbing, and appliances are all concentrated in one room.
+          </p>
 
-</div>
+        </div>
 
         {/* Section: How the Renovation Happens */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  {/* Section Header */}
-  <div className="space-y-2">
-    <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-      How the Renovation Happens
-    </h2>
-    <p className="text-gray-300">
-      Every kitchen renovation process engagement with WE DO runs through three structured phases.
-    </p>
-  </div>
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          {/* Section Header */}
+          <div className="space-y-2">
+            <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+              How the Renovation Happens
+            </h2>
+            <p className="text-gray-300">
+              Every kitchen renovation process engagement with WE DO runs through three structured phases.
+            </p>
+          </div>
 
-  {/* Step 1: Image 22 (Left), Content Right */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-5 relative h-64 sm:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/kitchen-renovation-in-progress-dubai.webp"
-        alt="Kitchen renovation in progress Dubai"
-        title="Kitchen Renovation in Progress Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
+          {/* Step 1: Image 22 (Left), Content Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/kitchen-renovation-in-progress-dubai.webp"
+                alt="Kitchen renovation in progress Dubai"
+                title="Kitchen Renovation in Progress Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-    <div className="lg:col-span-7 space-y-3">
-      <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
-        Planning &amp; Design
-      </h3>
-      <p className="leading-relaxed text-gray-200">
-        It starts with a site visit, measurements, a layout assessment, and the refacing-vs-replacement decision, worked through with you on the spot. The visit itself carries no upfront charge, and the cost is waived entirely once you confirm you&apos;re moving ahead with WE DO. From there, cabinetry layout, materials, and appliance placement are finalized and visualized before anything is ordered; appliance selection happens at this stage specifically, since it determines the electrical load the cabinetry design has to work around. Where the layout changes or a wall is affected, we prepare and submit the building management NOC in parallel with design work, rather than after it.
-      </p>
-    </div>
-  </div>
+            <div className="lg:col-span-7 space-y-3">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
+                Planning &amp; Design
+              </h3>
+              <p className="leading-relaxed text-gray-200">
+                It starts with a site visit, measurements, a layout assessment, and the refacing-vs-replacement decision, worked through with you on the spot. The visit itself carries no upfront charge, and the cost is waived entirely once you confirm you&apos;re moving ahead with WE DO. From there, cabinetry layout, materials, and appliance placement are finalized and visualized before anything is ordered; appliance selection happens at this stage specifically, since it determines the electrical load the cabinetry design has to work around. Where the layout changes or a wall is affected, we prepare and submit the building management NOC in parallel with design work, rather than after it.
+              </p>
+            </div>
+          </div>
 
-  {/* Step 2: Content Left, Image 23 (Right) */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-7 space-y-3 order-2 lg:order-1">
-      <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
-        Construction
-      </h3>
-      <p className="leading-relaxed text-gray-200">
-        Old cabinetry and fixtures come out first, with plumbing and electrical points capped safely, worth doing properly, since water and power lines run close together in a kitchen. New circuits and water points go in to match the finalized layout before any cabinetry is installed, since rerouting either one afterward means undoing finished work rather than adding to it. Units, countertops, and backsplash are fitted once electrical and plumbing work is complete and inspected.
-      </p>
-    </div>
+          {/* Step 2: Content Left, Image 23 (Right) */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-3 order-2 lg:order-1">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
+                Construction
+              </h3>
+              <p className="leading-relaxed text-gray-200">
+                Old cabinetry and fixtures come out first, with plumbing and electrical points capped safely, worth doing properly, since water and power lines run close together in a kitchen. New circuits and water points go in to match the finalized layout before any cabinetry is installed, since rerouting either one afterward means undoing finished work rather than adding to it. Units, countertops, and backsplash are fitted once electrical and plumbing work is complete and inspected.
+              </p>
+            </div>
 
-    <div className="lg:col-span-5 relative h-64 sm:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg order-1 lg:order-2 bg-black">
-      <Image
-        src="/images/Kitchen Cabinet Installation Dubai.webp"
-        alt="Kitchen cabinet installation Dubai"
-        title="Kitchen Cabinet Installation Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg order-1 lg:order-2 bg-black">
+              <Image
+                src="/images/Kitchen Cabinet Installation Dubai.webp"
+                alt="Kitchen cabinet installation Dubai"
+                title="Kitchen Cabinet Installation Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  {/* Step 3: Image 24 (Left), Content Right */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-5 relative h-64 sm:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/completed-kitchen-renovation-dubai.webp"
-        alt="Completed kitchen renovation Dubai"
-        title="Completed Kitchen Renovation Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
+          {/* Step 3: Image 24 (Left), Content Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-5 relative h-48 sm:h-64 lg:h-72 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/completed-kitchen-renovation-dubai.webp"
+                alt="Completed kitchen renovation Dubai"
+                title="Completed Kitchen Renovation Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-    <div className="lg:col-span-7 space-y-3">
-      <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
-        Handover
-      </h3>
-      <p className="leading-relaxed text-gray-200">
-        Every appliance is tested, a snagging check covers the full kitchen, and your workmanship warranty begins from this date. A basic refresh typically takes under 2 weeks from start to finish; a full custom kitchen with a layout change runs 4-6 weeks, longer if imported materials are involved. This kitchen renovation timeline Dubai guide is a starting point, confirmed exactly once your scope is locked in.
-      </p>
-    </div>
-  </div>
+            <div className="lg:col-span-7 space-y-3">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider uppercase">
+                Handover
+              </h3>
+              <p className="leading-relaxed text-gray-200">
+                Every appliance is tested, a snagging check covers the full kitchen, and your workmanship warranty begins from this date. A basic refresh typically takes under 2 weeks from start to finish; a full custom kitchen with a layout change runs 4-6 weeks, longer if imported materials are involved. This kitchen renovation timeline Dubai guide is a starting point, confirmed exactly once your scope is locked in.
+              </p>
+            </div>
+          </div>
 
-</div>
+        </div>
 
-       {/* Section: Five Kitchen Renovation Mistakes to Avoid */}
-<div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
-  
-  <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
-    Five Kitchen Renovation Mistakes to Avoid
-  </h2>
+        {/* Section: Five Kitchen Renovation Mistakes to Avoid */}
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left font-play text-sm sm:text-base text-white">
+          
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+            Five Kitchen Renovation Mistakes to Avoid
+          </h2>
 
-  {/* Content + Image Grid */}
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-    <div className="lg:col-span-7 space-y-4 leading-relaxed">
-      <p>
-        <b className="text-[#caa193] block text-base mb-1 font-semibold">
-          1. Ordering cabinetry before confirming appliance dimensions.
-        </b>
-        Appliances and cabinetry need to be sized together; ordering boxes first often means a fridge or oven that doesn&apos;t actually fit the gap left for it.
-      </p>
+          {/* Content + Image Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-4 leading-relaxed">
+              <p>
+                <b className="text-[#caa193] block text-base mb-1 font-semibold">
+                  1. Ordering cabinetry before confirming appliance dimensions.
+                </b>
+                Appliances and cabinetry need to be sized together; ordering boxes first often means a fridge or oven that doesn&apos;t actually fit the gap left for it.
+              </p>
 
-      <p>
-        <b className="text-[#caa193] block text-base mb-1 font-semibold">
-          2. Not checking electrical load capacity before finalizing the design.
-        </b>
-        Electric and induction cooking draw more power than gas; confirm the circuit can handle it before the kitchen is built around it.
-      </p>
+              <p>
+                <b className="text-[#caa193] block text-base mb-1 font-semibold">
+                  2. Not checking electrical load capacity before finalizing the design.
+                </b>
+                Electric and induction cooking draw more power than gas; confirm the circuit can handle it before the kitchen is built around it.
+              </p>
 
-      <p>
-        <b className="text-[#caa193] block text-base mb-1 font-semibold">
-          3. Refacing a cabinet box that&apos;s actually water-damaged.
-        </b>
-        New doors on a swollen or rotting box look fine for a few months, then fail. If there&apos;s been a leak, replacement is the only real fix.
-      </p>
+              <p>
+                <b className="text-[#caa193] block text-base mb-1 font-semibold">
+                  3. Refacing a cabinet box that&apos;s actually water-damaged.
+                </b>
+                New doors on a swollen or rotting box look fine for a few months, then fail. If there&apos;s been a leak, replacement is the only real fix.
+              </p>
 
-      <p>
-        <b className="text-[#caa193] block text-base mb-1 font-semibold">
-          4. Removing a kitchen wall without confirming it isn&apos;t load-bearing.
-        </b>
-        Opening up a closed kitchen needs a structural check and a building management NOC; skip this and the wall, or the approval, can become a real problem.
-      </p>
+              <p>
+                <b className="text-[#caa193] block text-base mb-1 font-semibold">
+                  4. Removing a kitchen wall without confirming it isn&apos;t load-bearing.
+                </b>
+                Opening up a closed kitchen needs a structural check and a building management NOC; skip this and the wall, or the approval, can become a real problem.
+              </p>
 
-      <p>
-        <b className="text-[#caa193] block text-base mb-1 font-semibold">
-          5. Underestimating ventilation, especially in a closed kitchen.
-        </b>
-        Poor extraction means grease buildup, lingering smell, and extra strain on the AC trying to clear the heat; cheaper to size the hood correctly the first time.
-      </p>
-    </div>
+              <p>
+                <b className="text-[#caa193] block text-base mb-1 font-semibold">
+                  5. Underestimating ventilation, especially in a closed kitchen.
+                </b>
+                Poor extraction means grease buildup, lingering smell, and extra strain on the AC trying to clear the heat; cheaper to size the hood correctly the first time.
+              </p>
+            </div>
 
-    {/* Image 25: Craftsmanship */}
-    <div className="lg:col-span-5 relative h-72 sm:h-96 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
-      <Image
-        src="/images/full-kitchen-replacement-dubai.webp"
-        alt="Full kitchen replacement in Dubai"
-        title="Full Kitchen Replacement Dubai"
-        fill
-        className="object-cover"
-      />
-    </div>
-  </div>
+            {/* Image 25: Craftsmanship */}
+            <div className="lg:col-span-5 relative h-64 sm:h-72 lg:h-96 w-full rounded-xl overflow-hidden border border-[#caa193]/40 shadow-lg bg-black">
+              <Image
+                src="/images/full-kitchen-replacement-dubai.webp"
+                alt="Full kitchen replacement in Dubai"
+                title="Full Kitchen Replacement Dubai"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-  <p className="italic leading-relaxed">
-    WE DO&apos;s process is built to catch all five before construction starts: appliance selection and electrical load confirmed at the design stage, structural checks before any wall comes down, and ventilation sized to the actual kitchen, not a generic default.
-  </p>
+          <p className="italic leading-relaxed">
+            WE DO&apos;s process is built to catch all five before construction starts: appliance selection and electrical load confirmed at the design stage, structural checks before any wall comes down, and ventilation sized to the actual kitchen, not a generic default.
+          </p>
 
-</div>
+        </div>
 
         {/* Auto-Play Testimonials Carousel */}
         <div
-          className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
+          className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-6 relative overflow-hidden text-left"
           onMouseEnter={() => setIsPlaying(false)}
           onMouseLeave={() => setIsPlaying(true)}
         >
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
             Testimonials
           </h2>
 
-          <div className="relative min-h-[160px] sm:min-h-[120px] flex items-center justify-center">
+          <div className="relative min-h-[180px] sm:min-h-[120px] flex items-center justify-center">
             {testimonials.map((item, index) => (
               <div
                 key={index}
@@ -916,12 +914,12 @@ const DProjects = () => {
         </div>
 
         {/* Section: Visit Us & CTA - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-6 sm:px-12 text-center space-y-4 text-black">
+        <div className="w-screen relative left-1/2 -translate-x-1/2 bg-[#f5ede5] py-10 px-4 sm:px-12 text-center space-y-4 text-black">
           <h2 className="text-xl sm:text-2xl font-conthrax uppercase text-[#111]">
             Visit Us
           </h2>
 
-          <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed px-2">
             <strong>WE DO Interior Design &amp; Fit-Out</strong>
             <br />
             WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
@@ -933,14 +931,14 @@ const DProjects = () => {
               href="https://wedointerior.ae/contact-us"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#caa193] font-semibold hover:underline"
+              className="text-[#caa193] font-semibold hover:underline break-all sm:break-normal"
             >
               https://wedointerior.ae/contact-us
             </a>
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-4 mt-6 max-w-md sm:max-w-none mx-auto px-2">
             <a
               href="https://wa.me/971588075603"
               target="_blank"
@@ -959,7 +957,7 @@ const DProjects = () => {
         </div>
 
         {/* Map Section - Full Width */}
-        <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800" style={{ height: "450px" }}>
+        <div className="w-screen relative left-1/2 -translate-x-1/2 shadow-2xl border-t border-b border-gray-800 h-[300px] sm:h-[450px]">
           <iframe
             src="https://maps.google.com/maps?q=X4RG%2B39W+Jebel+Ali+Industrial+1+Dubai&output=embed"
             width="100%"
@@ -973,14 +971,14 @@ const DProjects = () => {
         </div> 
 
         {/* FAQs Section - Single Wrapper Div */}
-        <div className="bg-black p-6 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
-          <h2 className="text-center  text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193] text-center">
+        <div className="bg-black p-4 sm:p-10 rounded-xl border border-gray-800 space-y-8 text-left">
+          <h2 className="text-center text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase text-[#caa193]">
             Frequently Asked Questions
           </h2>
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 How much will remodeling your kitchen cost in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -989,7 +987,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Which is the best kitchen remodeling company in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -998,7 +996,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Is it worth renovating the kitchen when planning to lease out an apartment in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1007,7 +1005,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 What type of kitchen should I go for in my Dubai apartment? Open or closed?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1016,7 +1014,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Kitchen refacing or remodeling, which one should I go for?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1025,7 +1023,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Which is the most common mistake made during kitchen renovation in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1034,7 +1032,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 How long does it take to remodel a kitchen?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1043,7 +1041,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Do I need approval to renovate my kitchen in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1052,7 +1050,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Can I convert my closed kitchen to an open layout?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1061,7 +1059,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 What is a modular kitchen?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
@@ -1070,7 +1068,7 @@ const DProjects = () => {
             </div>
 
             <div>
-              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider ">
+              <h3 className="text-[#caa193] font-conthrax text-base sm:text-lg tracking-wider">
                 Do I need a dual (show + working) kitchen for my small apartment?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
