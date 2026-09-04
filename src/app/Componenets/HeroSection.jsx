@@ -51,6 +51,7 @@ const HeroSection = () => {
             fill
             priority={index === 0}
             sizes="100vw"
+            quality={70}  // ← reduce quality slightly (saves 15-20%)
             className="object-cover"
           />
         </div>
@@ -66,7 +67,8 @@ const HeroSection = () => {
           alt="Luxury Lifestyle Awards Winner 2026"
           width={180}
           height={240}
-          priority
+          priority={false}  // ← remove priority; it loads after hero anyway
+          quality={75}
           className="h-auto w-[68px] drop-shadow-[0_8px_22px_rgba(0,0,0,0.45)] sm:w-[82px] md:w-[105px] lg:w-[125px] xl:w-[140px]"
         />
       </div>

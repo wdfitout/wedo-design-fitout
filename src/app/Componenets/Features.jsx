@@ -113,8 +113,10 @@ const Features = () => {
                     src={card.img}
                     alt={card.title}
                     title={card.title}
-                    width={500}
-                    height={300}
+                    width={600}
+                    height={360}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    quality={70}
                     className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
