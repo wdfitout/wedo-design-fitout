@@ -13,10 +13,25 @@ import LocationMap from "./Componenets/LocationMap";
 import Footer from "./Componenets/Footer";
 
 
-
 export default function Home() {
   return (
     <>
+      {/* Preload the AboutSection background — it's the LCP element on mobile */}
+      <link
+        rel="preload"
+        as="image"
+        href="/images/bg-sec-3-mobile.webp"
+        media="(max-width: 639px)"
+        fetchPriority="high"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="/images/bg-sec-3.webp"
+        media="(min-width: 640px)"
+        fetchPriority="high"
+      />
+
     <main className="relative flex flex-col min-h-screen bg-[#121212]">
         <Navbar className="absolute top-0 z-10 w-screen" />
         <CallButton />
