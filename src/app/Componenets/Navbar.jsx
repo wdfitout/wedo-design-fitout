@@ -53,7 +53,7 @@ const navLinks = [
       },
       {
         title: "RESIDENTIAL",
-        path: "/villa-interior-design-dubai",
+        path: "/home-interior-design-dubai",
         children: [
           {
             title: "VILLA",
@@ -83,7 +83,7 @@ const navLinks = [
       },
       {
         title: "RENOVATION",
-        path: "/apartment-interior-design-dubai",
+        path: "#",
         children: [
           {
             title: "VILLA RENOVATION",

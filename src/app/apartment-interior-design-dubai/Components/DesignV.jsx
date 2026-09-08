@@ -95,7 +95,7 @@ const DesignV = () => {
             ✅ Request availability by WhatsApp
           </a>
           <a
-            href="mailto:info@example.com"
+            href="mailto:info@wedointerior.ae"
             className="px-6 py-3 bg-[#caa193] text-white font-play text-sm rounded w-full sm:w-auto text-center"
           >
             ✉️ Request availability by E-mail

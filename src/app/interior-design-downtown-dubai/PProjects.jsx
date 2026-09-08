@@ -54,13 +54,7 @@ const services = [
     bgImage: "/images/xaima (5).webp",
     link: "/restaurant-interior-design-downtown-dubai",
   },
- {
-    title: "Retail Interior Design Downtown Dubai",
-    description:
-      "Looking for expert retail interior design in Downtown Dubai Dubai? WE DO deliver premium retail fitout Downtown Dubai, boutiques etc. Contact Today!",
-    bgImage: "/images/bespoke-and-boutique-style-office-interiors-in-business-bay.png",
-    link: "/retail-interior-design-business-bay",
-  },
+ 
 ];
 
 const downtownProjects = [

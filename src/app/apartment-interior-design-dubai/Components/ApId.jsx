@@ -18,7 +18,7 @@ const ApId = () => {
               Apartment Interior Design Dubai by Experts Who Know Style and Space
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             <strong> <a href="https://wedointerior.ae/apartment-projects">Apartment interior design Dubai</a></strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
+             <strong> <a href="https://wedointerior.ae/apartment-projects">Apartment interior design Dubai</a></strong> is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design & Fit out,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 15 years of hands-on experience transforming Dubai apartments into exceptional, livable art.
            </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
             We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to <b className="text-[#caa193]"> <a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">luxurious penthouses in Palm Jumeirah</a></b>. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.

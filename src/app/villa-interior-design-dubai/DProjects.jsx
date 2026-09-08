@@ -12,10 +12,8 @@ const textImage = {
 const galleryImages = [
   { src: '/images/district-1-mbr-city-contemporary-villa-interior-design.png', link: '/district-1-mbr-city-contemporary-villa', title: 'DISTRICT 1 MBR CITY VILLA' },
   { src: '/images/district-one-contemporary-villa.png', link: '/district-one-contemporary-villa', title: 'DISTRICT 1 CONTEMPORARY VILLA' },
-  { src: '/images/madinat-jumeirah-living-asayel-apartment.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
   { src: '/images/majanvilla (2).webp', link: '/majan-villa-design', title: 'MAJAN VILLA DESIGN' },
   { src: '/images/manara villa (33).webp', link: '/al-manara-luxury-villa', title: 'AL MANARA LUXURY VILLA' },
-  { src: '/images/palm-jumeirah-apartment-interior-design.png', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
  
 ];
 
@@ -31,12 +29,12 @@ const DProjects = () => {
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
   <p>
      We know that choosing the right interior design and fitout company for your villa interior design dubai is very important
-     and at WEDO we work by combining innovation with quality and style with a customer -focused approach. Our team of luxury
+     and at WE DO Interior Design & Fit out we work by combining innovation with quality and style with a customer-focused approach. Our team of luxury
      interior designers pay detailed attention to understand the way of your living and your vision.
  </p>
 
   <p>
-    As one of the best villa interior fitout companies in Dubai, WEDO offers complete in-house services which includes concept design,
+    As one of the best villa interior fitout companies in Dubai, WE DO Interior Design & Fit out offers complete in-house services which includes concept design,
     planning, project execution, and delivery. Our use of VR/AR design previews, smart home technologies, and sustainable materials
     keeps us ahead of the curve and adds value beyond what typical firms offer.
   </p>
@@ -58,11 +56,11 @@ const DProjects = () => {
           <p className="text-sm sm:text-base text-white font-play">
            Luxury villa interior design in modern style is achieved by minimal clutter, clean lines, functional 
            spaces and aesthetics. In Dubai, luxury modern house design is so high in demand, so we ensure that
-           every project by WEDO interiors must be focused on spaciousness,natural light and elegant materials like marble, wood, and glass.
+           every project by WE DO Interior Design & Fit out must be focused on spaciousness, natural light and elegant materials like marble, wood, and glass.
           </p>
           <p className="text-sm sm:text-base text-white font-play">
             Our Work is mostly focused on the location like we design Arabic
-            style villas in Emirates Hills which reflects cultural richness while embracing the best of modern design in Dubai.From
+            style villas in Emirates Hills which reflects cultural richness while embracing the best of modern design in Dubai. From
             expansive living areas to opulent bedrooms and serene outdoor landscapes, we bring balance, style, and comfort to your
             villa.
           </p>
@@ -212,8 +210,8 @@ const DProjects = () => {
               Residential Interior Design Dubai Trends in 2026 
             </h2>
             <p>
-             As one of the emerging  villa interior design companies in Dubai,we stand at the forefront of residential interior 
-             design trends in 2026 in Dubai.The future of villa interiors revolves around sustainability,wellness and intelligent
+             As one of the emerging villa interior design companies in Dubai, we stand at the forefront of residential interior 
+             design trends in 2026 in Dubai. The future of villa interiors revolves around sustainability, wellness and intelligent
               living. Key trends include the integration of home offices, biophilic design (bringing nature indoors), and the use 
               of eco-friendly materials to reduce environmental impact while enhancing luxury.</p>
             <p>

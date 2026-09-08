@@ -10,9 +10,9 @@ const textImage = {
 };
 
 const galleryImages = [
-  { src: '/images/acacia-dubai-hills-2-bedroom-apartment.png', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
+  { src: '/images/acacia-dubai-hills-2-bedroom-apartment.png', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACACIA DUBAI HILLS APARTMENT' },
   { src: '/images/dubai-marina-luxury-apartment.png', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APRTMENT' },
+  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APARTMENT' },
   { src: '/images/marina-gate-2-luxury-apartment.png', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
   { src: '/images/palm-jumeirah-apartment-interior-design.png', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
   { src: '/images/madinat-jumeirah-living-asayel-apartment.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
@@ -31,7 +31,7 @@ const DProjects = () => {
   <p>
     Creating a Modern apartment interior in Dubai isn’t just about looks — it’s about functionality 
     in limited space, comfort in rental settings, and optimizing every detail for modern city life.
-     At WE DO Interior Design and Fitout, we specialize in designing small and mid-sized apartments 
+     At WE DO Interior Design & Fit out, we specialize in designing small and mid-sized apartments 
      that feel spacious, stylish, and truly personal — even if it’s a studio or <b className="text-[#caa193]"> <a href="https://wedointerior.ae/royal-atlantis-2-bedroom-apartment">2-bedroom apartment 
      in Atlantis The Royal</a></b> or Downtown.
 
@@ -64,7 +64,7 @@ const DProjects = () => {
           <p className="text-sm sm:text-base text-white font-play">
            As apartment layouts in Dubai evolve toward open-plan living, 
            loft-inspired interiors have become a favorite for homeowners 
-           seeking modern minimalism with character. At WE DO, we integrate 
+           seeking modern minimalism with character. At WE DO Interior Design & Fit out, we integrate 
            industrial-chic elements — like exposed metal frames, rustic oak textures, 
            and matte black accents — to create interiors that are bold yet cozy.
           </p>
@@ -155,7 +155,7 @@ const DProjects = () => {
               Luxury Apartment Interior Fitout in Dubai 
             </h2>
             <p>
-            At WE DO, we believe luxury should be personal, practical, and seamless. That’s why we offer
+            At WE DO Interior Design & Fit out, we believe luxury should be personal, practical, and seamless. That’s why we offer
              complete turnkey apartment interior solutions that include not just design, but procurement, 
              documentation, execution, and supervision — all under one roof.
             </p>
@@ -217,10 +217,10 @@ const DProjects = () => {
 
           <div className="space-y-6 text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193] mb-4">
-              The Best Interior Design In The Apartment Is Simple And Cost-Effective
+            Simple, Cost-Effective Apartment Interior Design in Dubai
             </h2>
             <p>
-              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO interior design and fitout</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
+              Your home should be a perfect combination of your personal style and thoughtful design. At <a href="https://wedointerior.ae/">WE DO Interior Design & Fit out</a>, our professional designers help you create apartment interiors that are elegant, efficient, and personalized — no matter your budget.
             </p>
             <p>
               With our modern online design collaboration process, working with our team is smooth, engaging, and fully transparent — from bedroom concepts to lounge furniture selection.
@@ -238,7 +238,7 @@ const DProjects = () => {
           </h2>
           
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-          Choosing the right furniture for apartment interior design in Dubai is about more than just style — it’s about fitting function into form. At WE DO, we understand the challenges of urban living: tight corners, open layouts, awkward niches, and the need for maximum storage in minimal space.
+          Choosing the right furniture for apartment interior design in Dubai is about more than just style — it’s about fitting function into form. At WE DO Interior Design & Fit out, we understand the challenges of urban living: tight corners, open layouts, awkward niches, and the need for maximum storage in minimal space.
           </p>
            <p className="font-play text-sm sm:text-base text-white text-start py-2">
           That’s why we curate and source multi-functional furniture that’s not only beautiful but also custom-fit for your apartment’s layout. Whether it’s a slimline console that fits between walls, floating shelves that maximize vertical space, or extendable dining tables that double as workstations — our solutions are always tailored, durable, and spatially smart.

@@ -13,7 +13,7 @@ const HOME_TITLE =
   'Interior Design Dubai | Luxury Designers | We Do Interior';
 
 const HOME_DESCRIPTION =
-  'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 500+ projects. Get a free consultation today.';
+  'Interior design Dubai & turnkey fit-out for villas, apartments & offices. 15+ years, 200+ projects. Get a free consultation today.';
 
 /* ==========================================================================
    Metadata
