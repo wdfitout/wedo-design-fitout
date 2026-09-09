@@ -33,7 +33,7 @@ const socialLinks = [
   },
   {
     icon: <FaFacebook />,
-    href: "https://www.facebook.com/wedofitout",
+    href: "https://www.facebook.com/wedointerior/",
     label: "Facebook",
   },
   {
@@ -157,7 +157,7 @@ const Footer = () => {
                 <IoLocationSharp className="mt-0.5 shrink-0 text-sm text-black/70" />
 
                 <span>
-                  Office – WH-05 A, Jebel Ali Industrial 1,
+                X4RG+39W Jabel Ali, Jabel Ali Industrial 1,
                   <br className="hidden sm:block" />
                   Dubai, UAE
                 </span>
