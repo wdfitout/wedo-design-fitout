@@ -9,6 +9,15 @@ import Link from "next/link";
 const blogPosts = [ 
   
   {
+    title: "Best Color Palettes for Beachfront Villas in Jumeirah",
+    date: "Published: 10.09.2026",
+    excerpt:
+      "Best 6 color palettes for beachfront villas interiors in Jumeirah, plus room-by-room ideas and coastal-rated paint that holds up to salt air and sun.",
+    image: "/images/sea-glass-blue-ivory-jumeirah-villa-interior.webp",
+    link: "/best-color-palettes-beachfront-villas-jumeirah",
+  },
+
+  {
     title: "Traditional vs Modern Interior Design for Jumeirah Villas",
     date: "Published: 25.08.2026",
     excerpt:
@@ -26,15 +35,7 @@ const blogPosts = [
     link: "/cafe-fit-out-cost-dubai",
   },
 
-   {
-    title: "Best Interior Design Companies in Downtown Dubai",
-    date: "Published: 10.07.2026",
-    excerpt:
-      "Comparing interior design companies in Downtown Dubai? Learn how to choose the right firm for luxury fit-outs, Emaar approvals, and expert design.",
-    image: "/images/interior-design-company-down-town-dubaii.png",
-    link: "/interior-design-companies-downtown-dubai",
-  },
-  
+ 
   
   
  

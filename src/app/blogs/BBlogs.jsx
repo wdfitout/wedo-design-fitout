@@ -7,11 +7,20 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaWhatsapp, FaLink } from "reac
 
 // Blog Data
 const blogPosts = [
- {
+  {
+    title: "Best Color Palettes for Beachfront Villas in Jumeirah",
+    date: "Published: 10.09.2026",
+    excerpt:
+      "6 color palettes for beachfront villas in Jumeirah, plus room-by-room ideas and coastal-rated paint that holds up to salt air and sun.",
+    image: "/images/sea-glass-blue-ivory-jumeirah-villa-interior.webp",
+    link: "/best-color-palettes-beachfront-villas-jumeirah",
+  },
+  
+  {
     title: "Traditional vs Modern Interior Design for Jumeirah Villas",
     date: "Published: 25.08.2026",
     excerpt:
-      "Comparing traditional and modern interior design for Jumeirah villas: features, real AED costs, and tips to choose or blend both styles for your home.",
+      "Comparing traditional and modern interior design for Jumeirah villas: features, real AED costs, and tips for your home.",
     image: "/images/traditional-architecture-modern-jumeirah-villa-interior.webp",
     link: "/traditional-vs-modern-jumeirah-villa-design",
   },
