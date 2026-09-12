@@ -10,7 +10,7 @@ const images = [
   "/images/living-room-bronze-screens-dusk-city-view.webp",
   "/images/kitchen-green-marble-waterfall-island-bar-stools.webp",
   "/images/bedroom-faceted-wall-panelling-bronze-mirror-detail.webp",
-  "/images/living-room-green-velvet-arm-chair-marble.webp",
+  "/images/living-room-green-velvet-arm-chair-marble-floor.webp",
   "/images/living-room-curved-sofa-bronze-screens-skyline.webp",
   "/images/kitchen-marble-waterfall-island-sculptural-pendant.webp",
   "/images/bedroom-fluted-woodpanel-dubai-skyline-view.webp",
