@@ -7,27 +7,27 @@ import React from "react";
 const areas = [
   {
     title: "Interior Design Dubai Creek Harbour",
-    description: "Waterfront apartment design and contemporary lifestyle interiors in Dubai Creek.",
+    description: "Waterfront apartment interiors across Emaar's Creek towers.",
     bgImage: "/images/dbckapt (5).png",
     link: "/interior-design-dubai-creek-harbour",
   },
   {
     
     title: "Interior Design Business Bay",
-    description: "Modern office fit-out and workspace planning in Business Bay",
+    description: "Premium apartment interiors and office fit-outs.",
     bgImage: "/images/adbr (9).png",
     link: "/interior-design-company-business-bay",
   },
   {
     
     title: "Interior Design Downtown Dubai",
-    description: "Elite Restaurant design and high-end apartment fit-out in Downtown",
+    description: "High-end apartments and restaurants in the Burj Khalifa district.",
     bgImage: "/images/dtrest (2).webp",
     link: "/interior-design-downtown-dubai",
   },
   {
     title: "Interior Design Jumeirah Dubai",
-    description: "Luxury villa renovation and premium interior styling in Jumeirah.",
+    description: "Luxury villa interiors on Jumeirah's residential streets",
     bgImage: "/images/pjapt (5).webp",
     link: "/interior-design-jumeirah-dubai",
   },
@@ -35,7 +35,7 @@ const areas = [
 
 const AreasWeServe = () => {
   return (
-    <section className="bg-black py-16">
+    <section className="bg-black ">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
             {/* Arrow image */}
                 <div className="mt-20 md:mt-10 flex justify-center">
@@ -49,9 +49,12 @@ const AreasWeServe = () => {
                 </div>
 
         <div className="text-center mb-12">
-          <h2 className="text-white mt-10 mb-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
+          <h2 className="text-white mt-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
             Areas We Serve
           </h2>
+            <p className="max-w-6xl mx-auto mt-5 text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-3 font-play">Every Dubai
+community has its own developer rules, service-lift bookings and approval route. Our
+base in Dubai keeps Business Bay, <br />Downtown Dubai, Palm Jumeriah, Dubai Design District, Muhammaad Bin Rashid City (MBR), Jumeirah Golf Estates, Jumeirah Park <br />and Emirates Hills within easy reach, and we work across the city. </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

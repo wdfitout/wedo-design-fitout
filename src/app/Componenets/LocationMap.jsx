@@ -30,24 +30,37 @@ const LocationMap = () => {
 
           {/* Content */}
           <div className="relative z-10 max-w-xl">
-            <h2 className="font-penrise text-black text-3xl sm:text-2xl lg:text-4xl leading-tight tracking-wide mb-6">
+            <p className="font-penrise text-black text-3xl sm:text-2xl lg:text-4xl leading-tight tracking-wide mb-6">
               Vision <br /> At Work
-            </h2>
+            </p>
+            <h2 className="text-black mt-10 text-sm sm:text-xl tracking-widest font-conthrax ">Ready to Start Your Interior Design Project?</h2>
 
-            <p className="font-conthrax text-black text-sm sm:text-base leading-relaxed mb-6">
-              Ready to take your Dubai interiors to the next level with the
-              best
-              <br className="hidden sm:block" />
-              interior designing company Dubai? <br />
-              Transform your space now.
+            <p className="font-play mt-5 text-black text-sm sm:text-base mb-6">
+             Share your floor plan and we will come back with a design direction, an indicative
+             cost range and a realistic timeline that includes approvals. 
             </p>
 
             <p className="font-play text-black text-sm sm:text-base leading-relaxed">
-              Contact Us Today! <br />
-              The first step is your vision—and explore how we can transform
-              your space into a
-              <br className="hidden sm:block" />
-              masterpiece.
+         <b>
+  <a
+    href="https://wedointerior.ae/contact-us"
+    style={{ textDecoration: "none" }}
+    onMouseOver={(e) => (e.currentTarget.style.color = "#a0624d")}
+    onMouseOut={(e) => (e.currentTarget.style.color = "")}
+  >
+    Book a Design Consultation →
+  </a>
+</b>  <br />
+ <b>
+  <a
+    href="https://wa.me/971588075603"
+    style={{ textDecoration: "none" }}
+    onMouseOver={(e) => (e.currentTarget.style.color = "#a0624d")}
+    onMouseOut={(e) => (e.currentTarget.style.color = "")}
+  >
+   WhatsApp Us →
+  </a>
+</b>
             </p>
           </div>
         </div>

@@ -5,24 +5,24 @@ import React from "react";
 
 const features = [
   {
-    title: "INDUSTRY-LEADING EXPERTISE",
+    title: "ONE ROOF, ALL SOLUTIONS",
     description:
-      "Our team of expert engineers and interior designers in Dubai has delivered large-scale commercial fit-out and residential interiors across major districts like DIFC, Business Bay, and Palm Jumeirah. From smart office interior to luxury villa renovations in Emirates Hills, we ensure compliance, speed, and style.Our award-winning renovation at Primo Tower covered selective demolition, MEP upgrades, custom joinery, luxury parquet flooring and complete fit-out across the entrance corridor, living areas, four bedrooms, walk-in closets and kitchen.",
+      "Interior design, architectural design, landscape design, smart home automation, joinery and fit-out are all delivered by our own teams. That means one bill of quantities instead of four, and no variation order because two firms read the same drawing differently.",
   },
   {
-    title: "CREATIVE & INNOVATIVE DESIGN",
+    title: "OWN DESIGNERS AND FACTORY",
     description:
-      "WE DO doesn’t follow trends—we lead them. From bold retail interior design in Downtown to visionary corporate fitouts in DIFC, we deliver environments that are beautiful, brand-aligned, and adaptive. Every project is visualised in 3D before construction starts, so you approve a picture rather than a description. Changes at that stage cost nothing. Changes on site cost weeks. Whether it’s restaurant interior design Dubai or F&B fitout in DFC, we transform spaces into unforgettable experiences",
+      "Our Own Designers and Factory Our interior designers produce your layouts, 3D visuals and a VR walkthrough, so you can stand inside the design before anything is built. Kitchens, wardrobes and wall panelling are then made in our own joinery factory from those approved drawings, with quality checked during production rather than after delivery.",
   },
   {
-    title: "CLIENT-CENTRIC APPROACH",
+    title: "APPROVALS HANDLED FOR YOU",
     description:
-      "Each project begins by attentively and deeply understanding your brand, goals, and lifestyle. Whether we are designing a residential interior in Palm Jumeirah, implementing a restaurant fitout in Business Bay, or developing a bespoke corporate interior fit-out in Downtown Dubai, we ensure clarity, innovation, and full control over the project. You deal with one project manager from the first site visit to handover. Fixed-scope quote, staged payments against milestones, and a written workmanship warranty starting at handover.",
+      "Our approvals team prepares and submits packages to Dubai Civil Defence, Dubai Municipality and developers such as Emaar and Damac. Approval delays are one of the most common reasons Dubai projects miss handover, and chasing them is never your job.",
   },
   {
-    title: "TURNKEY SOLUTIONS WITH PRECISION",
+    title: "CERTIFIED AND AWARD-WINNING",
     description:
-      "A single turnkey contract closes the gap where most fit-out budgets get blown: the handoff between designer and contractor. Our in-house team carries every project from 3D concept through MEP engineering, joinery fabrication, and site execution under one point of responsibility, so the drawing you approve is the space you actually get. One contract, one team, from authority approvals to final snagging — no subcontractor blame-shifting, no surprise variations mid-build.",
+      "We hold ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018, each externally audited rather than self-declared. Our Primo Tower apartment won Best Luxury Residential Renovation Interior Design at the Luxury Lifestyle Awards",
   },
 ];
 
@@ -42,8 +42,8 @@ const AboutSection = () => {
       {/* Top Intro Text */}
       <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 pt-6 text-center text-[12px] sm:text-base max-w-6xl mx-auto text-gray-300 font-play">
         <p>
-       WE DO Interior Design & Fit-Out delivers turnkey interior design, renovation and fit-out services for residential and commercial spaces in dubai. Design, MEP, joinery and site execution under one contract. In 2026 we won Best Luxury Residential Renovation Interior Design, Dubai UAE at the Luxury Lifestyle Awards, for a four-bedroom renovation at Primo Tower by Emaar in Downtown Dubai. Our recent work includes apartments at Marina Gate 2, Business Bay, Atlantis The Royal, Emaar Beach Front and Acacia in Dubai Hills, and villas in District One and Al Manara. 
-</p>
+       Good interior design should look the same on handover day as it did in the render. At WE DO Interior Design & Fit out, the interior designers who plan your space work alongside our own joinery factory, fit-out crews and approvals team, so nothing gets lost between the drawing and the build. Since 2015 we have delivered 250+ homes and commercial spaces across Dubai, from villas and apartments to offices, clinics and restaurants.
+        </p>
       </div>
 
       {/* Wireframe and Content Section */}
@@ -61,12 +61,16 @@ const AboutSection = () => {
         </div>
 
         {/* Why Choose WEDO */}
-        <div className="text-center mb-0 md:mb-8">
+        <div className="text-center mb-0 md:mb-5">
           <h2 className="text-[12px] sm:text-xl text-white tracking-widest font-conthrax py-0 md:py-5">
-            WHY CHOOSE WEDO INTERIOR?
+            WHY CHOOSE WEDO INTERIOR INTERIOR COMPANY?
           </h2>
-          <p className="max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-gray-300 py-2 md:py-6 font-play">
-          In a landscape filled with fit out companies in Dubai, WE DO Interior Design & Fit-Out stands apart through consistency, design excellence, and reliability. Whether it's a corporate HQ in Business Bay, a boutique in Palm Jumeirah, or a flagship venue in Dubai Festival City (DFC), we treat every space as an opportunity to innovate.One contract covers design, approvals, construction and joinery. Our own team handles every stage, so there's no gap between the designer who drew it and the contractor who builds it. DED-registered and certified to ISO 9001 (quality), ISO 14001 (environmental) and ISO 45001 (health and safety). Developer NOCs, DEWA submissions and Dubai Municipality approvals are prepared and filed by us.
+          <p className="max-w-6xl mx-auto mt-0 text-[12px] sm:text-base text-gray-300 py-2 md:py-6 font-play">
+         There is no shortage of interior design companies in Dubai. When a project slips
+past its budget or its handover date, the cause is usually the gap between the company
+that drew the design and the contractor who built it. We built WE DO to close that gap.
+Design, joinery, fit-out and approvals all sit inside one company, under one project
+manager, so there is never a question about who owns the result.
           </p>
         </div>
 

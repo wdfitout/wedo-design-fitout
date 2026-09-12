@@ -4,19 +4,19 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/images/Bleu-17.webp",
-  "/images/Bleu-27.webp",
-  "/images/hm3.webp",
-  "/images/hm1.webp",
-  "/images/hm2.webp",
-  "/images/hm4.webp",
-  "/images/hm5.webp",
-  "/images/hm6.webp",
-  "/images/hm7.webp",
-  "/images/hm8.webp",
-  "/images/hm9.webp",
+  "/images/kitchen-dining-green-marble-island-foliage-chandelier.webp",
+  "/images/bedroom-marble-feature-wall-teal-bedwater-view.webp",
+  "/images/living-room-tv-joinery-wall-green-marble-ledge.webp",
+  "/images/living-room-bronze-screens-dusk-city-view.webp",
+  "/images/kitchen-green-marble-waterfall-island-bar-stools.webp",
+  "/images/bedroom-faceted-wall-panelling-bronze-mirror-detail.webp",
+  "/images/living-room-green-velvet-arm-chair-marble.webp",
+  "/images/living-room-curved-sofa-bronze-screens-skyline.webp",
+  "/images/kitchen-marble-waterfall-island-sculptural-pendant.webp",
+  "/images/bedroom-fluted-woodpanel-dubai-skyline-view.webp",
+  "/images/bedroom-curved-upholstered-wall-panelling-city-view.webp",
   "/images/dubai-interior-design-companies-apartment-sitting-area.webp",
-  "/images/dubai-atlantis-the-royal-luxury-apartment.webp",
+  "/images/open-plan-living-dining-room-black-marble-table.webp",
   "/images/palm-jumeirah-luxury-apartment-living-room-interior-design-dubai.webp",
   "/images/luxury-apartment-dinning-experience.webp",
   "/images/best-retaurant-interior-design-dubai.webp",
@@ -63,8 +63,8 @@ const HeroSection = () => {
       {/* Luxury Lifestyle Awards badge */}
       <div className="absolute right-4 top-16 z-30 sm:right-6 sm:top-20 md:right-8 md:top-24 lg:right-12 lg:top-24 xl:right-16">
         <Image
-          src="/images/luxury-v.webp"
-          alt="Luxury Lifestyle Awards Winner 2026"
+          src="/images/luxury-lifestyle-awards-winner-2026.webp"
+          alt=" Luxury Lifestyle Awards Winner 2026"
           width={180}
           height={240}
           priority={false}  // ← remove priority; it loads after hero anyway
@@ -80,7 +80,7 @@ const HeroSection = () => {
         </p>
 
         <h1 className="mt-2 font-play text-sm tracking-wider sm:text-lg md:text-2xl lg:text-3xl">
-          Luxury Interior Design &amp; Fit-Out Company in Dubai
+         Interior Design in Dubai, From First Sketch to Final Handover
         </h1>
       </div>
     </section>

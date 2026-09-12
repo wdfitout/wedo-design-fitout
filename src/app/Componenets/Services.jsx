@@ -10,28 +10,28 @@ const services = [
     icon: "/images/ico1.svg",
     title: "DESIGN & BUILD",
     desc:
-      "Elevating spaces to artistry as a top Design and Build service provider in Dubai. We turn your vision into an inspiring reality through architectural excellence and interior finesse.",
+      "One contract for design, approvals, construction and fit-out, with faster pricing, no tender gap and single-point liability.",
   },
   {
     href: "/villa-construction-dubai",
     icon: "/images/ico2.svg",
     title: "VILLA CONSTRUCTION",
     desc:
-      "We are among the best villa construction companies in Dubai—building bespoke residences with quality materials, expert engineering, and elegant finishing.",
+      "Ground-up villa construction with structure, services and interiors coordinated from the same drawings, so the interior is designed in rather than fitted afterwards.",
   },
   {
     href: "/fit-out-company-dubai",
     icon: "/images/ico3.svg",
     title: "FITOUT",
     desc:
-      "One of the most trusted fit-out companies in Dubai, we offer turnkey interior fitout solutions—combining design, MEP, and precision execution for luxurious environments.",
+      "Turnkey interior fit-out for villas, apartments, offices, restaurants and retail, delivered by our own crews rather than subcontracted out.",
   },
   {
     href: "/joinery-company-dubai",
     icon: "/images/ico4.svg",
     title: "JOINERY & MANUFACTURING",
     desc:
-      "Custom-made joinery and woodwork crafted by expert artisans. From luxury wardrobes to reception counters, we manufacture premium fittings for every space.",
+      "Wardrobes, kitchens, panelling and furniture made in our own Dubai factory to your drawings, not adapted from a catalogue.",
   },
 ];
 
@@ -58,10 +58,10 @@ const Services = () => {
         </div>
 
         {/* Section Heading */}
-        <h2 className="text-white mt-10 mb-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
-          SERVICES WE PROVIDE
+        <h2 className="text-white mt-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
+         Design, Build and Interior Fit-Out in Dubai
         </h2>
-
+    <p className="max-w-6xl mx-auto mt-0 text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-6 font-play">Design is only half the job. Our own fit-out crews turn approved drawings into finished spaces: partitions, ceilings, flooring, <br /> joinery and decoration, coordinated with MEP works and authority approvals. That makes us a designer and a fit-out <br />contractor in one, so what you approve in 3D is what you get on handover day. </p>
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (

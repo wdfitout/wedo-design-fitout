@@ -88,7 +88,7 @@ const Blogs = () => {
 
   return (
     <section id="blogs" 
-    className="bg-black py-20
+    className="bg-black py-10
     bg-[url('/images/ftrs-bg-m.webp')] 
     sm:bg-[url('/images/bg-dt-d.webp')] 
     bg-cover 
@@ -109,9 +109,10 @@ const Blogs = () => {
         </div>
 
         {/* Section Heading */}
-        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-          OUR BLOGS
+        <h2 className="text-white mt-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+           INTERIOR DESIGN GUIDES AND COASTS
         </h2>
+         <p className="max-w-6xl mx-auto mb-5  text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-3 font-play"> Costs, approvals and design decisions for Dubai homes and businesses, written in plain language <br /> by the people who run the projects. </p>
 
         {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

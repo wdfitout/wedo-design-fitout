@@ -66,7 +66,7 @@ const Testimonials = () => {
   );
 
   return (
-    <section id="testimonials" className="bg-black py-20
+    <section id="testimonials" className="bg-black py-10
      bg-[url('/images/testi-bg-m.webp')] 
     sm:bg-[url('/images/')] 
     bg-cover 
@@ -76,7 +76,7 @@ const Testimonials = () => {
     overflow-hidden">
       <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
         {/* Section Heading */}
-        <div className="flex flex-col items-center mb-10">
+        <div className="flex flex-col items-center ">
           <Image
           src="/images/sec-dvd.webp"
          alt="Scroll down arrow"
@@ -85,7 +85,7 @@ const Testimonials = () => {
         className="h-auto w-48 sm:w-64"
           />
           <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-            TESTIMONIALS
+          WHAT OUR CLIENTS SAY
           </h2>
         </div>
 

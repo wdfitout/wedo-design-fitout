@@ -64,6 +64,8 @@ const ContactUs = () => {
         <h2 className="mt-10 mb-6 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           CONTACT US
         </h2>
+         <p className="max-w-6xl mx-auto mt-5 text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-3 font-play">Tell us about your project. Send a floor plan, a few photos or just the address,
+and someone who can actually scope the job will call you back</p>
       </div>
     
       {/* Contact Form */}

@@ -23,6 +23,7 @@ const VHeroSection = () => {
         <h1 className="text-xl sm:text-xl md:text-4xl lg:text-5xl font-penrise">
           Contact Us
         </h1>
+        
       </div>
     </div>
   );
