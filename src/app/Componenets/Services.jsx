@@ -35,16 +35,32 @@ const services = [
   },
 ];
 
+const processSteps = [
+  "Consultation",
+  "Mood Board",
+  "3D & VR",
+  "Drawings & BOQ",
+  "Approvals",
+  "Joinery & Fit-Out",
+  "Snagging & Handover",
+];
+
 const Services = () => {
   return (
-    <section id="services" className="bg-black py-4 md:py-10
-        bg-[url('/images/bg-svc-m.webp')] 
-    sm:bg-[url('/images/bg-svc-d.webp')] 
-    bg-cover 
-    bg-center 
-    bg-no-repeat 
-    text-white 
-    overflow-hidden">
+    <section
+      id="services"
+      className="
+        bg-black
+        py-4 md:py-5
+        bg-[url('/images/bg-svc-m.webp')]
+        sm:bg-[url('/images/bg-svc-d.webp')]
+        bg-cover
+        bg-center
+        bg-no-repeat
+        text-white
+        overflow-hidden
+      "
+    >
       <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[80%] mx-auto mb-10">
         {/* Arrow image */}
         <div className="mt-20 md:mt-10 flex justify-center">
@@ -58,15 +74,65 @@ const Services = () => {
         </div>
 
         {/* Section Heading */}
-        <h2 className="text-white mt-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
-         Design, Build and Interior Fit-Out in Dubai
+        <h2
+          className="
+            text-white
+            mt-10
+            text-[12px]
+            sm:text-xl
+            tracking-widest
+            font-conthrax
+            text-center
+          "
+        >
+          Design, Build and Interior Fit-Out in Dubai
         </h2>
-    <p className="max-w-6xl mx-auto mt-0 text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-6 font-play">Design is only half the job. Our own fit-out crews turn approved drawings into finished spaces: partitions, ceilings, flooring, <br /> joinery and decoration, coordinated with MEP works and authority approvals. That makes us a designer and a fit-out <br />contractor in one, so what you approve in 3D is what you get on handover day. </p>
+
+        <p
+          className="
+            max-w-6xl
+            mx-auto
+            mt-0
+            text-[12px]
+            text-center
+            sm:text-base
+            text-gray-300
+            py-2
+            md:py-6
+            font-play
+          "
+        >
+          Design is only half the job. Our own fit-out crews turn approved
+          drawings into finished spaces: partitions, ceilings, flooring,
+          <br className="hidden md:block" />
+          joinery and decoration, coordinated with MEP works and authority
+          approvals. That makes us a designer and a fit-out
+          <br className="hidden md:block" />
+          contractor in one, so what you approve in 3D is what you get on
+          handover day.
+        </p>
+
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <Link href={service.href} key={index}>
-              <div className="group p-4 h-full flex flex-col items-center text-center hover:bg-[#1a1a1a] transition duration-300 rounded-xl cursor-pointer shadow-lg">
+              <div
+                className="
+                  group
+                  p-4
+                  h-full
+                  flex
+                  flex-col
+                  items-center
+                  text-center
+                  hover:bg-[#1a1a1a]
+                  transition
+                  duration-300
+                  rounded-xl
+                  cursor-pointer
+                  shadow-lg
+                "
+              >
                 {/* Icon */}
                 <Image
                   src={service.icon}
@@ -77,8 +143,19 @@ const Services = () => {
                 />
 
                 {/* Title */}
-                <h3 className="text-xs font-conthrax uppercase mb-3 text-white tracking-wide">
-                  <span className="text-[#daa796]">{service.title}</span>
+                <h3
+                  className="
+                    text-xs
+                    font-conthrax
+                    uppercase
+                    mb-3
+                    text-white
+                    tracking-wide
+                  "
+                >
+                  <span className="text-[#daa796]">
+                    {service.title}
+                  </span>
                 </h3>
 
                 {/* Description */}
@@ -88,6 +165,132 @@ const Services = () => {
               </div>
             </Link>
           ))}
+        </div>
+
+        {/* Process Strip */}
+        <div className="mt-14 md:mt-10">
+           <h2
+          className="
+            text-white
+            mt-5
+            mb-5
+            text-[12px]
+            sm:text-xl
+            tracking-widest
+            font-conthrax
+            text-center
+          "
+        >
+   Our Process        </h2>
+
+          {/* Desktop Process */}
+          <div className="hidden lg:flex items-stretch w-full border-y border-white/10">
+            {processSteps.map((step, index) => (
+              <div
+                key={step}
+                className={`
+                  relative
+                  flex-1
+                  min-h-[90px]
+                  flex
+                  flex-col
+                  items-center
+                  justify-center
+                  px-3
+                  text-center
+                  ${
+                    index !== processSteps.length - 1
+                      ? "border-r border-white/10"
+                      : ""
+                  }
+                `}
+              >
+                <span
+                  className="
+                    text-[9px]
+                    text-[#caa193]
+                    font-conthrax
+                    tracking-wider
+                    mb-2
+                  "
+                >
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <span
+                  className="
+                    text-[9px]
+                    xl:text-[10px]
+                    uppercase
+                    tracking-[0.08em]
+                    text-white/80
+                    font-conthrax
+                    leading-relaxed
+                  "
+                >
+                  {step}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {/* Tablet / Mobile Process */}
+          <div
+            className="
+              lg:hidden
+              grid
+              grid-cols-2
+              sm:grid-cols-4
+              border-y
+              border-white/10
+            "
+          >
+            {processSteps.map((step, index) => (
+              <div
+                key={step}
+                className="
+                  min-h-[80px]
+                  flex
+                  flex-col
+                  items-center
+                  justify-center
+                  text-center
+                  px-3
+                  py-4
+                  border-b
+                  border-white/10
+                  sm:border-r
+                  last:border-r-0
+                "
+              >
+                <span
+                  className="
+                    text-[9px]
+                    text-[#caa193]
+                    font-conthrax
+                    tracking-wider
+                    mb-1.5
+                  "
+                >
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <span
+                  className="
+                    text-[8px]
+                    sm:text-[9px]
+                    uppercase
+                    tracking-[0.08em]
+                    text-white/80
+                    font-conthrax
+                    leading-relaxed
+                  "
+                >
+                  {step}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
