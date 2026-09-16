@@ -80,11 +80,11 @@ const AboutSection = () => {
               the businesses in designing a modern and productive space. For commercial businesses, our 
               services of commercial interior design Business Bay, such as retail outlets, restaurants, 
               and hotels, ensure that every project is visually attractive and functional.
-              <br /><br />
-               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
+              <br /><br /> </p>
+               <h3 className="text-left text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                 COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
              </h3>
-              For our residential clients, our <b className="text-[#caa193]"
+             <p className="text-justify text-white text-base sm:text font-play mb-6 leading-relaxed">  For our residential clients, our <b className="text-[#caa193]"
               ><a href="https://wedointerior.ae/business-bay-apartment">apartment interior design Business Bay</a></b> services helps in 
               designing homes that are comfortable, stylish and modern. We combine custom furniture and 
               luxurious materials to suit the lifestyle of our clients. Our renovation services in 
@@ -120,9 +120,7 @@ const AboutSection = () => {
             The commercial towers in Business Bay have the most splendid offices, startups, and multinational companies in Dubai. Our <b className="text-[#caa193]"
             ><a href="https://wedointerior.ae/office-interior-design-trends-in-business-bay">office interior design Business Bay services</a></b> are based on delivering spaces that are functional,motivating and matching with the standard corporate environment in Dubai.
           </p>
-         <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
-                COMPREHENSIVE SOLUTIONS FOR HOMES AND BUSINESSES
-             </h3>
+        
           <p className="text-white text-sm sm:text-base mb-4 font-play">
             We oversee all the details involved in office fit-outs Dubai, such as space planning, furniture, lighting design, and technology. As professional offices fit out contractors in Dubai, we also handle DCD approvals and authority approvals Dubai to ensure that everything goes smoothly. 
             Other than  Business Bay, our <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-projects">office interior design projects</a></b> also cover the nearby areas of DIFC and Downtown Dubai, which means that all businesses in the main commercial areas of Dubai get to enjoy our expertise. 
@@ -373,30 +371,30 @@ const AboutSection = () => {
         </div>
           <div className=" text-sm leading-relaxed font-play text-white">
           
-            <h2 class="text-[#a366b9887752] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#a366b9887752] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
               1-  How long does an office fit-out in Business Bay take?
             </h3>
             <p>
             Office fit-outs usually take six to twelve weeks, depending on the size and complexity of the project. Our team takes care of all approvals from DCD and approvals from the authority in Dubai.
             </p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              2-  Do you provide turnkey fit-out services?
             </h3>
             <p>
             Yes, our turnkey fit out services in Business Bay include all aspects, from design and approval to completion and delivery to our clients. </p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              3- Can you design luxury apartments in Business Bay?
             </h3>
             <p>
              Yes, we can. At WEDO, we are experts in apartment interior design in Business Bay and luxury residential projects, designing homes that are both beautiful and functional.
             </p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              4- Are you among the best interior design companies in Business Bay?
             </h3>
             <p>
