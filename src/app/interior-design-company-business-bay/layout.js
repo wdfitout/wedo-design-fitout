@@ -1,243 +1,383 @@
-import '../globals.css';
+import "../globals.css";
+
+const siteUrl = "https://wedointerior.ae";
+const pageUrl = `${siteUrl}/interior-design-company-business-bay`;
 
 export const metadata = {
-  title: "Best Interior Design Company in Business Bay, Dubai - WE DO interiors",
+  metadataBase: new URL(siteUrl),
+
+  title: "Interior Design Company in Business Bay, Dubai | WE DO",
+
   description:
-    "Luxury interior design company in Business Bay delivering office, apartment & turnkey fit-outs. Schedule your free consultation today.",
-  keywords:[
+    "WE DO is a luxury interior design and fit-out company serving Business Bay, Dubai, with bespoke apartment, office, commercial and turnkey interior solutions.",
+
+  keywords: [
     "interior design company Business Bay",
     "interior design company in Business Bay Dubai",
+    "interior designer Business Bay",
     "office interior design Business Bay",
     "apartment interior design Business Bay",
+    "commercial interior design Business Bay",
     "interior fit out company Business Bay",
     "turnkey fit out Business Bay",
-    "commercial interior design Business Bay",
-    "luxury interior design Dubai",
-    "renovation services Business Bay",
-    "design and build company Dubai"
+    "luxury interior design Business Bay",
+    "interior design Dubai",
   ],
-  metadataBase: new URL('https://wedointerior.ae/'),
+
+  alternates: {
+    canonical: "/interior-design-company-business-bay",
+  },
+
   openGraph: {
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    title: "Interior Design Company in Business Bay, Dubai | WE DO",
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/interior-design-company-business-bay',
-    siteName: 'WE DO Interior Design & Fitout',
+      "Luxury interior design and fit-out services in Business Bay, Dubai, covering apartments, offices, commercial spaces and turnkey projects.",
+    url: pageUrl,
+    siteName: "WE DO Interior Design & Fitout",
     images: [
       {
-        url: '/og-image.jpg',
+        url: `${siteUrl}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Interior Design Project Banner',
+        alt: "WE DO Interior Design & Fitout Business Bay",
       },
     ],
-    type: 'website',
+    locale: "en_AE",
+    type: "website",
   },
+
   twitter: {
-    card: 'summary_large_image',
-    title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
+    card: "summary_large_image",
+    title: "Interior Design Company in Business Bay, Dubai | WE DO",
     description:
-      'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    images: ['/og-image.jpg'],
+      "Luxury interior design and fit-out services in Business Bay, Dubai, by WE DO Interior Design & Fitout.",
+    images: [`${siteUrl}/og-image.jpg`],
   },
-  alternates: {
-    canonical: '/interior-design-company-business-bay',
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 };
 
 export default function RootLayout({ children }) {
+  /*
+   * Keep the Organization entity consistent across the website.
+   * IMPORTANT:
+   * Replace the address below with the exact official WE DO
+   * business address used on the website and Google Business Profile.
+   */
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    name: "WE DO Interior Design & Fitout",
+    url: siteUrl,
+    logo: {
+      "@type": "ImageObject",
+      "@id": `${siteUrl}/#logo`,
+      url: `${siteUrl}/logo-s-Black.png`,
+      contentUrl: `${siteUrl}/logo-s-Black.png`,
+    },
+
+    sameAs: [
+      "https://www.instagram.com/we.do.uae",
+      "https://www.facebook.com/wedointerior",
+    ],
+
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+971 58 807 5603",
+      contactType: "customer service",
+      areaServed: "AE",
+      availableLanguage: ["English", "Arabic"],
+    },
+  };
+
+  /*
+   * WebPage schema for this specific Business Bay landing page.
+   */
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${pageUrl}/#webpage`,
+    url: pageUrl,
+    name: "Interior Design Company in Business Bay, Dubai",
+    description:
+      "Luxury interior design and fit-out services in Business Bay, Dubai, including apartment, office and commercial interior design.",
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "WE DO Interior Design & Fitout",
+    },
+    about: {
+      "@id": `${siteUrl}/#organization`,
+    },
+    inLanguage: "en-AE",
+  };
+
+  /*
+   * Breadcrumb schema.
+   */
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${pageUrl}/#breadcrumb`,
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: siteUrl,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Interior Design",
+      item: `${siteUrl}/interior-design-dubai`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Business Bay",
+      item: pageUrl,
+    },
+  ],
+};
+
+  /*
+   * Business entity.
+   *
+   * Business Bay is treated as an area served, NOT as the company's
+   * physical street address.
+   *
+   * Add the real WE DO address here if you want a LocalBusiness entity.
+   */
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${siteUrl}/#business`,
+    name: "WE DO Interior Design & Fitout",
+    url: siteUrl,
+    image: `${siteUrl}/og-image.jpg`,
+    telephone: "+971 58 807 5603",
+    priceRange: "$$$",
+
+    parentOrganization: {
+      "@id": `${siteUrl}/#organization`,
+    },
+
+    areaServed: [
+      {
+        "@type": "Place",
+        name: "Business Bay",
+      },
+      {
+        "@type": "Place",
+        name: "Downtown Dubai",
+      },
+      {
+        "@type": "Place",
+        name: "DIFC",
+      },
+      {
+        "@type": "Place",
+        name: "Dubai Marina",
+      },
+      {
+        "@type": "Place",
+        name: "Palm Jumeirah",
+      },
+    ],
+
+    serviceOffered: [
+      {
+        "@type": "Service",
+        name: "Interior Design in Business Bay",
+        serviceType: "Interior Design",
+        areaServed: {
+          "@type": "Place",
+          name: "Business Bay, Dubai",
+        },
+      },
+      {
+        "@type": "Service",
+        name: "Apartment Interior Design in Business Bay",
+        serviceType: "Apartment Interior Design",
+        areaServed: {
+          "@type": "Place",
+          name: "Business Bay, Dubai",
+        },
+      },
+      {
+        "@type": "Service",
+        name: "Office Interior Design in Business Bay",
+        serviceType: "Office Interior Design",
+        areaServed: {
+          "@type": "Place",
+          name: "Business Bay, Dubai",
+        },
+      },
+      {
+        "@type": "Service",
+        name: "Commercial Interior Design in Business Bay",
+        serviceType: "Commercial Interior Design",
+        areaServed: {
+          "@type": "Place",
+          name: "Business Bay, Dubai",
+        },
+      },
+      {
+        "@type": "Service",
+        name: "Interior Fit-Out in Business Bay",
+        serviceType: "Interior Fit-Out",
+        areaServed: {
+          "@type": "Place",
+          name: "Business Bay, Dubai",
+        },
+      },
+    ],
+  };
+
+  /*
+   * FAQ schema.
+   *
+   * Only keep these questions if the same questions and answers
+   * are visibly present on the page.
+   */
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${pageUrl}/#faq`,
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "How long does an office fit-out in Business Bay take?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Office fit-outs typically take six to twelve weeks depending on the project size, scope and complexity. Required authority approvals are coordinated as part of the project process.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you provide turnkey fit-out services in Business Bay?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Yes. WE DO provides turnkey interior design and fit-out services covering design, approvals, execution and final handover.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you design luxury apartments in Business Bay?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Yes. WE DO provides bespoke apartment interior design for residences in Business Bay, with design and fit-out services tailored to the space and client's requirements.",
+        },
+      },
+    ],
+  };
+
+  /*
+   * Business Bay project collection.
+   *
+   * Only include URLs that actually exist and are visibly connected
+   * to this Business Bay project collection on the page.
+   */
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${pageUrl}/#projects`,
+    name: "Business Bay Interior Design Projects",
+    url: pageUrl,
+    description:
+      "Selected interior design and fit-out projects in Business Bay, Dubai by WE DO Interior Design & Fitout.",
+
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Business Bay Apartment Interior Design",
+          url: `${siteUrl}/business-bay-apartment`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Business Bay Office Fit-Out",
+          url: `${siteUrl}/business-bay-office-fit-out`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Business Bay Cafe Interior Design",
+          url: `${siteUrl}/business-bay-cafe-interior`,
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Business Bay Restaurant Interior Design",
+          url: `${siteUrl}/business-bay-restaurant`,
+        },
+        {
+          "@type": "ListItem",
+          position: 5,
+          name: "Business Bay Travel Agency Interior Design",
+          url: `${siteUrl}/business-bay-travel-agency`,
+        },
+      ],
+    },
+  };
+
+  /*
+   * Combine schemas into one JSON-LD graph.
+   *
+   * This is cleaner than having multiple independent JSON-LD
+   * script blocks and makes entity relationships easier to understand.
+   */
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      organizationSchema,
+      webPageSchema,
+      breadcrumbSchema,
+      localBusinessSchema,
+      faqSchema,
+      collectionSchema,
+    ],
+  };
+
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+
         <link rel="icon" href="/favicon.ico" />
 
-        {/* Organization Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "WE DO Interior Design & Fitout",
-              "url": "https://wedointerior.ae/",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://wedointerior.ae/logo-s-Black.png"
-              },
-              "sameAs": [
-                "https://www.instagram.com/we.do.uae",
-                "https://www.facebook.com/wedointerior"
-              ],
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+971 058 807 5603",
-                "contactType": "Customer Service",
-                "areaServed": "AE",
-                "availableLanguage": ["English", "Arabic"]
-              },
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
-                "addressLocality": "Dubai",
-                "postalCode": "00000",
-                "addressCountry": "AE"
-              }
-            })
+            __html: JSON.stringify(jsonLd),
           }}
         />
-
-        {/* WebPage Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "Interior Design Company in Business Bay",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "Luxury interior design services in Business Bay Dubai including offices, apartments, cafes, restaurants, and travel agencies."
-            })
-          }}
-        />
-
-        {/* LocalBusiness Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "@id": "https://wedointerior.ae/interior-design-company-business-bay",
-              "name": "WE DO Interior Design & Fitout",
-              "image": "https://wedointerior.ae/og-image.jpg",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "telephone": "+971 058 807 5603",
-              "priceRange": "$$$",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Business Bay",
-                "addressLocality": "Dubai",
-                "addressRegion": "Dubai",
-                "postalCode": "00000",
-                "addressCountry": "AE"
-              },
-              "areaServed": [
-                "Business Bay",
-                "Downtown Dubai",
-                "DIFC",
-                "Dubai Mall",
-                "Burj Khalifa",
-                "Dubai Canal",
-                "Al Wasl",
-                "Sheikh Zayed Road"
-              ],
-              "serviceOffered": [
-                {"@type": "Service","name": "Office Interior Design in Business Bay"},
-                {"@type": "Service","name": "Apartment Interior Design in Business Bay"},
-                {"@type": "Service","name": "Villa Interior Design In Business Bay"},
-                {"@type": "Service","name": "Restaurant Interior Design In Business Bay"}
-              ]
-            })
-          }}
-        />
-
-        {/* FAQ Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "How long does an office fit-out in Business Bay take?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Office fit-outs typically take six to twelve weeks depending on the project size and complexity. All required DCD and authority approvals are managed by our team."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide turnkey fit-out services in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we provide complete turnkey fit-out services including design, approvals, execution, and final handover."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you design luxury apartments in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we specialize in apartment interior design and luxury residential interiors in Business Bay, creating elegant and functional spaces."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are you a leading interior design company in Business Bay?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "WE DO Interior Design & Fitout is recognized for delivering high-quality residential and commercial interior design and fit-out projects in Business Bay."
-                  }
-                }
-              ]
-            })
-          }}
-        />
-
-        {/* CollectionPage Schema with Business Bay Projects */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "CollectionPage",
-              "name": "Business Bay Interior Design Projects",
-              "url": "https://wedointerior.ae/interior-design-company-business-bay",
-              "description": "A curated collection of luxury interior design and fit-out projects in Business Bay by WE DO Interior Design & Fitout.",
-              "mainEntity": {
-                "@type": "ItemList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Business Bay Apartment Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-apartment"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Business Bay Office Fit-Out",
-                    "url": "https://wedointerior.ae/business-bay-office-fit-out"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "Business Bay Cafe Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-cafe-interior"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "name": "Business Bay Restaurant Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-restaurant"
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "name": "Business Bay Travel Agency Interior Design",
-                    "url": "https://wedointerior.ae/business-bay-travel-agency"
-                  }
-                ]
-              }
-            })
-          }}
-        />
-
       </head>
+
       <body>{children}</body>
     </html>
   );
 }
+

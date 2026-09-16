@@ -133,7 +133,7 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-white text-sm sm:text-base font-play mb-4">
-           We are listed among the best interior design companies in Dubai due to its specialization in managing contemporary apartment layouts and offering full personalized services. Our professionals have knowledge about the unique needs of Dubai Creek Harbour residential apartment spaces, making sure each space is optimized for practicality and elegance. <br /><br />
+          WE DO specializes in contemporary apartment layouts and personalized interior design services for Dubai Creek Harbour properties. Our professionals have knowledge about the unique needs of Dubai Creek Harbour residential apartment spaces, making sure each space is optimized for practicality and elegance. <br /><br />
           We offer fast-track completion for new handovers, placing us the top choice for investors and clients. If you are looking for an interior designer Dubai, a trusted fit out company Dubai Creek Harbour, or one of the top interior fit out companies in Dubai, our experienced craftsmen offer the best quality with specific solutions.
           </p>
     
@@ -168,11 +168,12 @@ const AboutSection = () => {
     <Link key={idx} href={service.link} className="block group">
          <div className="relative h-[250px] rounded-2xl overflow-hidden shadow-lg cursor-pointer">
         <Image
-          src={service.bgImage}
-          alt={service.title}
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
-        />
+  src={service.bgImage}
+  alt={service.title}
+  fill
+  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 16.67vw"
+  className="object-cover transition-transform duration-700 group-hover:scale-110"
+/>
 
         <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition" />
 
@@ -222,7 +223,7 @@ const AboutSection = () => {
         </div>
         
        <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">4- <b><a href="custom-furniture-joinery-dubai-creek-harbour">Furniture Packages & Airbnb Setup</a></b> </h3>
+          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">4- <b><a href="/custom-furniture-joinery-dubai-creek-harbour">Furniture Packages & Airbnb Setup</a></b> </h3>
               <p className="text-white text-sm sm:text-base mb-4 font-play">WE DO offers client-focused solutions covering flexible furniture packages, Airbnb furnishing setups, and planning designed for rental optimization. We offer the best service that is iconic for owners specifically for short-term rental income in modern residences in Dubai Creek Harbour, making sure faster occupancy and profitable returns.</p>
               <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">5- Dubai Creek Harbour Apartment Renovation</h3>
               <p className="text-white text-sm sm:text-base mb-4 font-play">We provide full Dubai Creek Harbour Apartment Renovation solutions that cover layout elevates, interior modernization, and value enhancement. Our interior design and renovation concept gives attention to improving both elegance and ROI, creating older units competitive and valuable in the market.</p> 
@@ -252,7 +253,7 @@ const AboutSection = () => {
                         <h2 className="text-lg text-[#b98877] font-conthrax uppercase">
                           Types of Properties We Design
                         </h2>
-                        <p className="text-[15px]  leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all duration-300 ease-in-out">
+                      <div className="text-[15px] leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all"> 
                        Each Dubai Creek Harbour residential apartment is customized based on client needs.We design all property types, including: <br />
                          <ul className="list-disc pl-5 text-[15px] leading-relaxed text-gray-300 font-play overflow-hidden max-h-30 md:max-h-none transition-all duration-300 ease-in-out">
                           <li>Studio Apartments</li>
@@ -263,9 +264,10 @@ const AboutSection = () => {
                             <li>Serviced Apartments</li>
                             <li>Short-Term Rental Units</li>
                           </ul>
-                           
+                          
 
-                        </p>
+                     
+                         </div>
                       </div>
                     </div>
                   
@@ -296,11 +298,12 @@ const AboutSection = () => {
 
         <div className="relative h-[320px]">
           <Image
-            src={project.image}
-            alt={project.title}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
+  src={project.image}
+  alt={project.title}
+  fill
+  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+  className="object-cover transition-transform duration-700 group-hover:scale-110"
+/>
           <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
         </div>
 
@@ -444,15 +447,16 @@ const AboutSection = () => {
       </div>
 
       {/* RIGHT SIDE IMAGE */}
-      <div className="w-full lg:w-1/2">
-        <Image
-          src="/images/dubai-creek.png" // 🔁 replace with your actual image
-          alt="Interior Design Dubai Creek Harbour"
-          width={800}
-          height={600}
-          className="w-full h-[600px] object-cover rounded-lg shadow-md"
-        />
-      </div>
+        <div className="w-full lg:w-1/2">
+  <Image
+    src="/images/dubai-creek.png"
+    alt="Interior Design Dubai Creek Harbour"
+    width={800}
+    height={600}
+    priority
+    className="w-full h-auto rounded-lg shadow-md"
+  />
+</div>
 
     </div>
   </div>
@@ -474,48 +478,48 @@ const AboutSection = () => {
   
           <div className=" text-sm leading-relaxed font-play text-white">
           
-            <h2 class="text-[#a366b9887752] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#a366b9887752] text-2xl font-conthrax leading-tight py-5">
               Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
               1-  Do you provide interior design for Creek Palace and Creek Waters?
             </h3>
             <p>
             Yes, WE DO provides full design and fit-out solutions for all major projects in Creek Harbour.
             </p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              2-  Do you offer turnkey fit-out services in Dubai Creek Harbour?
             </h3>
             <p>
             Yes, WE DO is reputed as one of the <b className="text-[#caa193]"><a href="https://share.google/qnDtZzrMsxMSB6llH">top interior design and fit out companies in Dubai</a></b> delivering turnkey services.</p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              3- Can you furnish my apartment for Airbnb?
             </h3>
             <p>
              Yes, we provide full furnishing and interior renovation packages in apartment for Airbnd.
             </p>
 
-            <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              4- Do you handle complete design and execution?
             </h3>
             <p>
             Yes, from consultation to completion, everything is managed in-house by We DO interior design & Fit-out.
             </p>
-             <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              5- Can you customize the interior design according to my style?
             </h3>
             <p>
              Absolutely, all of our designs are client-centric  we listen your requirements and deliver fully customized projects.
             </p>
-             <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              6- How much does interior design cost in Dubai Creek Harbour?
             </h3>
             <p>
              The interior design cost in Dubai Creek Harbour varies depending on apartment size, material selection, customization level, <br />scope of work. We are one of the best interior design companies in Dubai, delivering transparent and competitive pricing.
             </p>
-             <h3 class="text-[#b98877] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#b98877] text-md font-conthrax leading-tight py-5">
              7- How long does an interior design project take?
             </h3>
             <p>
