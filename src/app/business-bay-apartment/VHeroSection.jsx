@@ -9,7 +9,7 @@ const VHeroSection = () => {
   {/* Background Image */}
   <Image
     src="/images/bba (2).jpg"
-    alt="interior design"
+    alt="business bay apartment living with dining area"
     width={1920}
     height={1080}
     priority

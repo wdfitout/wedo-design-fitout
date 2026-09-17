@@ -43,7 +43,7 @@ const VHeroSection = () => {
           </h1>
          <div className=" text-sm leading-relaxed font-play">
              <p> Business Bay is reputed as one of Dubai’s most elegant design and workspace districts, an exclusive hub of elegant 
-             apartments, aesthetic offices. As the city continues to set benchmarks, <b className="text-[#caa193]"><a href="https://wedointerior.ae/">interior design in Business Bay</a></b>  has become 
+             apartments, aesthetic offices. As the city continues to set benchmarks, <b className="text-[#caa193]"><a href="https://wedointerior.ae/interior-design-company-business-bay/">interior design in Business Bay</a></b>  has become 
              a synonym of its contemporary identity. If it's an innovative apartment overlooking the Dubai Canal or an elegant 
              office with bespoke design features, each space here speaks a genuine story of dedication and premium style.</p> <br />
           </div>

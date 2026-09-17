@@ -110,7 +110,7 @@ const Blogs = () => {
 
         {/* Section Heading */}
         <h2 className="text-white mt-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-           INTERIOR DESIGN GUIDES AND COASTS
+           INTERIOR DESIGN GUIDES AND COSTS
         </h2>
          <p className="max-w-6xl mx-auto mb-5  text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-3 font-play"> Costs, approvals and design decisions for Dubai homes and businesses, written in plain language <br /> by the people who run the projects. </p>
 

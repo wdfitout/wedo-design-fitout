@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/carnistore (1).webp"
-        alt="interior design"
+        alt="carnistore commercial kitchen interior design"
         fill
         priority
         className="object-cover"

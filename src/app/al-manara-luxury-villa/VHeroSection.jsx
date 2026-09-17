@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/manara villa (1).webp"
-        alt="interior design"
+        alt="manara villa exterior landscap design in dubai"
         fill
         priority
         className="object-cover"

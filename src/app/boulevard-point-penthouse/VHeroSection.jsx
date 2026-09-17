@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/blpph (10).png"
-        alt="interior design"
+        alt="high rise apartment living room interior design"
         fill
         priority
         className="object-cover"

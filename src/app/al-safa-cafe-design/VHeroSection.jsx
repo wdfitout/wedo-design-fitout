@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/karakna (1).webp"
-        alt="interior design"
+        alt="karakna Cafe exterior design in Al Kifaf , Dubai"
         fill
         priority
         className="object-cover"

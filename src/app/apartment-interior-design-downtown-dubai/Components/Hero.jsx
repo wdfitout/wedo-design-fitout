@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/mgapt-2 (5).jpg"
-        alt="interior design"
+        alt="marina gate apartment living room with open kitchen interior design"
         width={1920}
         height={1080}
         priority

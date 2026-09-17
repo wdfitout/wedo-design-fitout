@@ -15,7 +15,7 @@ const HOME_TITLE =
   'Interior Design Dubai | Luxury Designers | WE DO Interior';
 
 const HOME_DESCRIPTION =
-  'Luxury interior design and turnkey fit-out in Dubai for villas, apartments and offices. 15+ years of experience and 250+ residential and commercial projects.';
+  'Interior design in Dubai by WE DO, Luxury Lifestyle Awards Winner 2026. In-house designers, joinery factory & fit-out teams. ISO certified, 250+ projects.';
 
 /* ==========================================================================
    Metadata

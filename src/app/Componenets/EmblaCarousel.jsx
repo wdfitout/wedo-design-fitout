@@ -21,7 +21,7 @@ export function EmblaCarousel() {
     <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/xaima (13).webp"
-          alt="interior design"
+          alt="xaima restaurant interior dining table with 4 chairs"
           layout="responsive"
           width={1600}
           height={600}
@@ -32,7 +32,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/luxury-apartment-design-dubai-marina.jpg"
-          alt="interior design"
+          alt="luxury apartment interior design in Dubai Marina"
           layout="responsive"
           width={1600}
           height={600}
@@ -43,7 +43,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/vogue (7).webp"
-          alt="interior design"
+          alt="vogue cafe interior design in Dubai"
           layout="responsive"
           width={1600}
           height={600}
@@ -54,7 +54,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/pjapt (1).webp"
-          alt="interior design"
+          alt="palm jumeirah apartment living room interior design top view"
           layout="responsive"
           width={1600}
           height={600}
@@ -65,7 +65,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/dmapt (31).webp"
-          alt="interior design"
+          alt="Dubai marina apartment large size living room interior design"
           layout="responsive"
           width={1600}
           height={600}
@@ -76,7 +76,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/carnistore (6).webp"
-          alt="interior design"
+          alt="carnistore dining area interior design"
           layout="responsive"
           width={1600}
           height={600}
@@ -87,7 +87,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/ATRD (26).webp"
-          alt="interior design"
+          alt="atlantis the royal living room interior design with open kitchen and dining"
           layout="responsive"
           width={1600}
           height={600}
@@ -98,7 +98,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/nestfinder (12).webp"
-          alt="interior design"
+          alt="nest finder working area interior design in Al Safa"
           layout="responsive"
           width={1600}
           height={600}
@@ -109,7 +109,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/code8 (19).webp"
-          alt="interior design"
+          alt="code8 cafe dining interior design in barsha heights"
           layout="responsive"
           width={1600}
           height={600}
@@ -120,7 +120,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/alwasl (8).webp"
-          alt="interior design"
+          alt="al wasl apartment sofa sitting"
           layout="responsive"
           width={1600}
           height={600}
@@ -131,7 +131,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/jumeirahvilla (9).webp"
-          alt="interior design"
+          alt="jumeirah villa living room interior design"
           layout="responsive"
           width={1600}
           height={600}
@@ -142,7 +142,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/majanvilla (2).webp"
-          alt="interior design"
+          alt="Majan Villa Sofa sitting with dining area"
           layout="responsive"
           width={1600}
           height={600}
@@ -153,7 +153,7 @@ export function EmblaCarousel() {
       <div className="embla__slide flex items-center justify-center">
         <Image
           src="/images/manalajaj (12).webp"
-          alt="interior design"
+          alt="manal ajaj boutique interior design in Umm Suqeim First "
           layout="responsive"
           width={1600}
           height={600}

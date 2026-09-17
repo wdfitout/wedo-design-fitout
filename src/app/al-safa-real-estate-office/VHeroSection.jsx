@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/nestfinder (2).webp"
-        alt="interior design"
+        alt="nest finder real estate office Receiption interior"
         fill
         priority
         className="object-cover"

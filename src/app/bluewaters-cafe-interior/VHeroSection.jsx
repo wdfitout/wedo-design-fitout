@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/undimanche (2).webp"
-        alt="interior design"
+        alt="un dimanche cafe interior design Dubai Festival City "
         fill
         priority
         className="object-cover"

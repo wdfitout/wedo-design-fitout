@@ -23,7 +23,7 @@
 // Villa-specific count, used on /villa-renovation-dubai only.
 // NOTE: this currently exceeds the company-wide confirmed total of 250+,
 // which cannot both be true. One of the two has to change.
-export const VILLA_PROJECTS = '400+ villa renovations';
+export const VILLA_PROJECTS = '100+ villa renovations';
 
 // Company-wide count. Use this on the homepage and non-villa pages.
 export const TOTAL_PROJECTS = '250+ projects';

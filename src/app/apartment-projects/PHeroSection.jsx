@@ -9,7 +9,7 @@ const PHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/atlantis (7).webp"
-        alt="interior design"
+        alt="royal atlantis apartment interior with living room and dining area"
         fill
         priority
         className="object-cover"

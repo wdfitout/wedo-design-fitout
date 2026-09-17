@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/karakna (1).webp"
-        alt="interior design"
+        alt="karakna cafe exterior"
         width={1920}
         height={1080}
         priority

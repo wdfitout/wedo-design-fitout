@@ -9,7 +9,7 @@ const VHeroSection = () => {
       {/* Background Image */}
       <Image
         src="/images/adskv (1).png"
-        alt="interior design"
+        alt="bathroom mirror basin area white theme"
         fill
         priority
         className="object-cover"

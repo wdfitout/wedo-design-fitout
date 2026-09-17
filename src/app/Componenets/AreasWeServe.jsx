@@ -54,7 +54,7 @@ const AreasWeServe = () => {
           </h2>
             <p className="max-w-6xl mx-auto mt-5 text-[12px] text-center sm:text-base text-gray-300 py-2 md:py-3 font-play">Every Dubai
 community has its own developer rules, service-lift bookings and approval route. Our
-base in Dubai keeps Business Bay, <br />Downtown Dubai, Palm Jumeriah, Dubai Design District, Muhammaad Bin Rashid City (MBR), Jumeirah Golf Estates, Jumeirah Park <br />and Emirates Hills within easy reach, and we work across the city. </p>
+base in Dubai keeps Business Bay, <br />Downtown Dubai, Palm Jumeirah, Dubai Design District, Mohammed Bin Rashid City (MBR City), Jumeirah Golf Estates, Jumeirah Park <br />and Emirates Hills within easy reach, and we work across the city. </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

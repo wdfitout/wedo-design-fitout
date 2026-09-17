@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/hospitality.jpeg"
-        alt="interior design"
+        alt="hospitality interior design near Jumeirah beach"
         width={1920}
         height={1080}
         priority

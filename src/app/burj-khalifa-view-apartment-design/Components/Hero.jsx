@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/ctwkapt (1).png"
-        alt="interior design"
+        alt="city walk apartment bedroom interior design"
         width={1920}
         height={1080}
         priority

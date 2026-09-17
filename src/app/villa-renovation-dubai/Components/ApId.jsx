@@ -175,32 +175,3 @@ const ApId = () => {
 
 export default ApId;
 
-/* ====================================================================
- * WHAT CHANGED
- *
- * 1. Bare "July 13, 2026" → labelled "Last updated …" with <time dateTime>,
- *    sourced from brand-facts so it matches dateModified in the schema.
- * 2. Removed the empty <div> that was adding a phantom flex child.
- * 3. "across Dubai  from Emirates Hills" → em dash, double space gone.
- * 4. "DED-registered<b>" missing space fixed.
- * 5. Removed the Google SERP outbound link (see the long comment above).
- * 6. Removed text-justify.
- * 7. Hyphens → en dashes in the "10–25 years" range.
- * 8. H2 no longer duplicates the H1.
- * 9. Video facade: <div onClick> → <button>, keyboard accessible, aria-label,
- *    youtube-nocookie with autoplay so one click plays.
- * 10. Video thumbnail alt now describes the image (MEP work), not the button.
- * 11. Dropped the unused useEffect import.
- * 12. Project count and years import from brand-facts.
- * 13. Badge background #caa193 → #a0624d for WCAG AA contrast on white text.
- *
- * ⚠️ ONE THING I DID NOT FIX
- *    The paragraph still says "{VILLA_PROJECTS} completed and
- *    {EXPERIENCE_YEARS} in the Dubai market". Those values are correct
- *    *relative to brand-facts.js*, but the underlying claims still need the
- *    client decision — 400+ villa renovations against a company-wide
- *    confirmed total of 250+ projects cannot both be right, and "15+ years in
- *    the Dubai market" against a 2015 founding is checkable against the trade
- *    licence. Change the values in brand-facts.js once and both the copy and
- *    the schema follow.
- * ==================================================================== */

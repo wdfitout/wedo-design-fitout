@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/beachfront (25).webp"
-        alt="interior design"
+        alt="beachfront apartment TV Wall interior design, Jumeirah"
         width={1920}
         height={1080}
         priority

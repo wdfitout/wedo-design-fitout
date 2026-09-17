@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <Image
         src="/images/dubai-interior-design-companies-apartment-sitting-area.webp"
-        alt="interior design"
+        alt="apartment living room interior design sitting area, dubai"
         width={1920}
         height={1080}
         priority
