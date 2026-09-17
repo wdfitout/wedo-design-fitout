@@ -10,20 +10,6 @@ export const metadata = {
   description:
     "Luxury interior design and turnkey fit-out services in Dubai Creek Harbour for apartments, offices, restaurants and commercial spaces. WE DO delivers bespoke interiors with in-house design and fit-out teams.",
 
-  keywords: [
-    "interior design company Dubai Creek Harbour",
-    "interior design company in Creek Harbour",
-    "interior designers Dubai Creek Harbour",
-    "office interior design Dubai Creek Harbour",
-    "apartment interior design Dubai Creek Harbour",
-    "commercial interior design Dubai Creek Harbour",
-    "interior fit out company Dubai Creek Harbour",
-    "turnkey fit out Dubai Creek Harbour",
-    "luxury interior design Dubai Creek Harbour",
-    "renovation services Dubai Creek Harbour",
-    "design and build company Dubai",
-  ],
-
   metadataBase: new URL(`${siteUrl}/`),
 
   openGraph: {
@@ -116,7 +102,7 @@ export default function RootLayout({ children }) {
     contactPoint: {
       "@type": "ContactPoint",
 
-      telephone: "+971 58 807 5603",
+      telephone: "+9+971588075603",
 
       contactType: "customer service",
 
@@ -157,7 +143,7 @@ export default function RootLayout({ children }) {
 
     image: `${siteUrl}/og-image.jpg`,
 
-    telephone: "+971 58 807 5603",
+    telephone: "+971588075603",
 
     email: "info@wedointerior.ae",
 

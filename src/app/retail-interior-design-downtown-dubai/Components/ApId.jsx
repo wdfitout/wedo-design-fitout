@@ -20,7 +20,7 @@ const ApId = () => {
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               The challenge of opening a retail store in Downtown Dubai is unique. You are not competing with small independents, but with big names with well-designed stores. The customers who frequent your store have been doing this for a long time and understand the difference between a properly designed store and a poorly planned space. <b className="text-[#caa193]"><a href="/boutique-interior-design-dubai">Retail interior design in Downtown Dubai</a></b> operates inside that reality.             </p>
              <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              As a leading <b className="text-[#caa193]"><a href="/fit-out-company-dubai">retail fitout company Dubai</a></b>, our retail spaces integrate both brand identity and commercial success to create an experience for the consumer. Our design and build services include fashion boutiques, jewelry shops, lifestyle centers, showrooms, and specialty retail spaces in Downtown Dubai and beyond.
+              As a leading <b className="text-[#caa193]"><a href="/fit-out-company-dubai">retail fitout company in Dubai</a></b>, our retail spaces integrate both brand identity and commercial success to create an experience for the consumer. Our design and build services include fashion boutiques, jewelry shops, lifestyle centers, showrooms, and specialty retail spaces in Downtown Dubai and beyond.
                 </p>
             
 

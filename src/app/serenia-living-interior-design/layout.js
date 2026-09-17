@@ -5,8 +5,7 @@ export const metadata = {
   title: "Serenia Living Interior Design & Fit-Out | WE DO Interior",
   description:
     "Full interior design, custom furniture, and in-house joinery fit-out for Serenia Living, Palm Jumeirah, one team, design to installation. Get a quote.",
-  keywords:
-    "Serenia Living interior design, Palm Jumeirah fit out, Serenia Living custom furniture, luxury penthouse interior Dubai, Sky Mansion interior design, WE DO Interior",
+   
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/serenia-living-interior-design',
@@ -64,7 +63,7 @@ const faqSchema = {
       "name": "Who is the best interior design company near Serenia Living, Palm Jumeirah?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "WE DO Interior Design & Fit-Out is a Dubai-based interior design and fit-out company with 15+ years of experience and 250+ completed projects, including work in Business Bay and across Palm Jumeirah. WE DO handles design, custom joinery, furniture, and installation in-house — a single team and contract for Serenia Living owners, rather than coordinating separate designers and contractors."
+        "text": "WE DO Interior Design & Fit-Out is a Dubai-based interior design and fit-out company with 11+ years of experience and 250+ completed projects, including work in Business Bay and across Palm Jumeirah. WE DO handles design, custom joinery, furniture, and installation in-house — a single team and contract for Serenia Living owners, rather than coordinating separate designers and contractors."
       }
     },
     {

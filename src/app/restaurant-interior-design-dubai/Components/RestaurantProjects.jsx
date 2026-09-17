@@ -90,7 +90,7 @@ const RestaurantProjects = () => {
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
     <p>WE DO Interior Design & Fitout, a leading interior design 
-      company Dubai, helped a restaurant in Dubai, to create their dream 
+      company in Dubai, helped a restaurant in Dubai, to create their dream 
       central kitchen, Carnistore. We designed the space easy to 
       use, with plenty of room for preparing food and keeping everything 
       organized. This makes working in the kitchen a breeze for the 
@@ -213,7 +213,7 @@ const RestaurantProjects = () => {
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
     <p>WE DO Interior Design & Fitout, a top interior 
-      design company Dubai, is proud to showcase their 
+      design company in Dubai, is proud to showcase their 
       work at the new Karakna Cafe. Forget your average 
       coffee shop! WE DO transformed the space into a 
       stylish hangout perfect for catching up with friends
@@ -246,7 +246,7 @@ const RestaurantProjects = () => {
     <p>Looking for a relaxing coffee break in Dubai? Look 
       no further than Piadera Cafe, designed by WE DO
        Interior Design & Fitout, a leading interior 
-       design company Dubai. The clever design makes
+       design company in Dubai. The clever design makes
         the most of the space, creating a comfortable
          and inviting atmosphere. Piadera Cafe is
           your new favorite spot to relax and recharge..</p>
@@ -274,7 +274,7 @@ const RestaurantProjects = () => {
   </Link>
   <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
     <p>WE DO Interior Design and Fitout, 
-      a top interior design company Dubai, 
+      a top interior design company in Dubai, 
       knows how to make a restaurant sizzle! 
       In Our latest project, Sah El-Nom Express 
       we designed a space that's as fast-paced 

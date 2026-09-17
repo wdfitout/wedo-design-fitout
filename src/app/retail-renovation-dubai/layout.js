@@ -4,16 +4,7 @@ export const metadata = {
   title: "Retail Renovation in Dubai | Shop & Store Remodeling | WE DO",
   description:
     "Retail renovation in Dubai: Shopfront, joinery, MEP under one contract. DED-registered, 250+ projects. Get in touch to start.",
-  keywords: [
-    'Retail Renovation Dubai',
-    'Shop Renovation Dubai',
-    'Store Remodeling Dubai',
-    'Retail Fit Out Dubai',
-    'Shopfront Renovation Dubai',
-    'Mall Unit Renovation Dubai',
-    'Retail Renovation Cost Dubai',
-    'Retail Joinery Dubai',
-  ],
+   
   publisher: ['WEDO Interior Design and Fit out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
@@ -120,7 +111,7 @@ const retailRenovationSchema = {
           "name": "Who is the best retail renovation company in Dubai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for DED registration, ISO certification, a fixed-price written contract, and in-house joinery capability specifically. WE DO Interior Design & Fit-Out meets all four, with 250+ completed projects and 15+ years in the Dubai market."
+            "text": "Look for DED registration, ISO certification, a fixed-price written contract, and in-house joinery capability specifically. WE DO Interior Design & Fit-Out meets all four, with 250+ completed projects and 11+ years in the Dubai market."
           }
         }
       ]

@@ -3,23 +3,12 @@ import '../globals.css';
 export const metadata = {
   title: "Luxury Jumeirah Villa Interior Design, Dubai | WE DO",
   description:
-    "Villa interior design across Jumeirah, Dubai — established and new-build homes. ISO-certified, one-roof team, 15+ years. Book a walkthrough today.",
+    "Villa interior design across Jumeirah, Dubai — established and new-build homes. ISO-certified, one-roof team, 11+ years. Book a walkthrough today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/villa-interior-design-jumeirah-dubai',
   },
-  keywords: [
-    "villa interior design jumeirah dubai",
-    "luxury villa design jumeirah",
-    "villa fit out company dubai",
-    "villa interior designer jumeirah",
-    "we do interior design dubai",
-    "luxury villa renovation jumeirah",
-    "custom villa interior fit out dubai",
-    "residential interior design jumeirah",
-    "villa space planning dubai",
-    "premium villa fit out jumeirah"
-  ],
+  
   other: {
     publisher: "WE DO Interior Design & Fitout",
   }

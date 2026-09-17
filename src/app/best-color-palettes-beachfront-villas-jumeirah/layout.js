@@ -2,13 +2,7 @@ export const metadata = {
   title: "Best Beachfront Villa Color Palettes in Jumeirah | WE DO Interior",
   description:
     "6 color palettes for beachfront villas in Jumeirah, plus room-by-room ideas and coastal-rated paint that holds up to salt air and sun.",
-  keywords: [
-    "beachfront villa color palettes",
-    "Jumeirah villa colors",
-    "coastal paint Dubai",
-    "villa exterior colors Dubai",
-    "2026 color trends Dubai"
-  ],
+  
   publisher: ['WEDO Interior Design and Fit out'],
   alternates: {
     canonical:

@@ -28,12 +28,12 @@ export const VILLA_PROJECTS = '100+ villa renovations';
 // Company-wide count. Use this on the homepage and non-villa pages.
 export const TOTAL_PROJECTS = '250+ projects';
 
-// ⚠️ The company was founded in 2015. "15+ years in the Dubai market" reads as
+// ⚠️ The company was founded in 2015. "11+ years in the Dubai market" reads as
 // company age and does not survive a trade-licence check. If the 15 years is
 // founder or team experience, use EXPERIENCE_TEAM instead and say so in copy.
-export const EXPERIENCE_YEARS = '15+ years';
-export const EXPERIENCE_TEAM = '15+ years of team experience';
-export const EXPERIENCE_BADGE = '15 Years of Experience';
+export const EXPERIENCE_YEARS = '11+ years';
+export const EXPERIENCE_TEAM = '11+ years of team experience';
+export const EXPERIENCE_BADGE = '11 Years of Experience';
 
 /* ------------------------------------------------------------------ *
  * Page freshness — replaces the bare "July 13, 2026" that was floating
@@ -50,7 +50,7 @@ export const PAGE_UPDATED_LABEL = '15 September 2026';
  * ------------------------------------------------------------------ */
 
 export const PHONE_E164 = '+971588075603';
-export const PHONE_DISPLAY = '+971 58 807 5603';
+export const PHONE_DISPLAY = '+971588075603';
 export const WHATSAPP_URL = 'https://wa.me/971588075603';
 export const EMAIL = 'info@wedointerior.ae';
 

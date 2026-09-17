@@ -17,7 +17,7 @@ const galleryImages = [
 const TestimonialCarousel = () => {
   const testimonials = [
     {
-      quote: "Choosing WE DO as our Fitout company Dubai made the process significantly easier. Communication stayed organised and the finished quality matched expectations.",
+      quote: "Choosing WE DO as our Fitout company in Dubai made the process significantly easier. Communication stayed organised and the finished quality matched expectations.",
       author: "Faraz R. — Villa Owner, Jumeirah ⭐⭐⭐⭐⭐",
     },
     {
@@ -25,7 +25,7 @@ const TestimonialCarousel = () => {
       author: "Laraib M. — Retail Business Owner, Downtown Dubai ⭐⭐⭐⭐⭐",
     },
     {
-      quote: "Their approach felt more structured than previous experiences. Working with one Professional fitout company Dubai team removed a lot of complexity.",
+      quote: "Their approach felt more structured than previous experiences. Working with one Professional fitout company in Dubai team removed a lot of complexity.",
       author: "Affan K. — Hospitality Operator, Business Bay ⭐⭐⭐⭐⭐",
     },
   ];
@@ -133,7 +133,7 @@ const DProjects = () => {
           <p className="text-justify">
            
            
-            These answers often reveal more than the quotation itself. Clients should also pay attention to warning signs. Extremely vague proposals, unrealistic schedules, limited local experience, and no clear approval strategy usually create complications later. The Best fitout company Dubai is rarely the one promising the fastest completion. It is usually the one creating the strongest process.
+            These answers often reveal more than the quotation itself. Clients should also pay attention to warning signs. Extremely vague proposals, unrealistic schedules, limited local experience, and no clear approval strategy usually create complications later. The Best fitout company in Dubai is rarely the one promising the fastest completion. It is usually the one creating the strongest process.
           </p>
         </div>
       </div>
@@ -148,7 +148,7 @@ const DProjects = () => {
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
               At WE DO, our approach starts with one belief:
-              Great interiors are created when design and delivery remain connected. We operate as a fully integrated <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Fitout and interior design company Dubai</a></b>, bringing planning, approvals, execution, and coordination together from day one. This system eliminates many of the challenges faced by our clients with respect to conventional forms of project execution.
+              Great interiors are created when design and delivery remain connected. We operate as a fully integrated <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Fitout and interior design company in Dubai</a></b>, bringing planning, approvals, execution, and coordination together from day one. This system eliminates many of the challenges faced by our clients with respect to conventional forms of project execution.
             </p>
             <p className="text-justify">
               Instead of working with numerous consultants and contractors, our client deals with only one team who is accountable for the entire process. The scope of approvals includes items such as Dubai Municipality, Civil Defense, DEWA Coordination, Landlord Approvals, and Project Compliance.
@@ -158,7 +158,7 @@ const DProjects = () => {
             <p className="text-justify">
               Having more than 15 years of experience and completing more than 200 projects, we have experience working in different conditions, both residential, commercial, retail, and hospitality, in Dubai. Our delivery philosophy focuses on preparation. When projects are planned properly, execution becomes easier. That approach has helped us maintain a strong delivery record while continuing support after completion.
             
-              For many clients, this is why WE DO becomes more than an Interior fitout company Dubai. We become the team that protects the final outcome.
+              For many clients, this is why WE DO becomes more than an Interior fitout company in Dubai. We become the team that protects the final outcome.
             </p>
           </div>
 
@@ -188,7 +188,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className=" text-[#caa193]">Commercial Fitout — Offices, Retail, Showrooms</b><br />
-              Commercial interiors directly influence performance. Customers respond to environments. Teams work differently depending on layout. Brands become stronger through physical experience. Our Commercial fitout company Dubai services support offices, retail environments, showrooms, and customer-facing spaces designed around both operations and experience.
+              Commercial interiors directly influence performance. Customers respond to environments. Teams work differently depending on layout. Brands become stronger through physical experience. Our Commercial fitout company in Dubai services support offices, retail environments, showrooms, and customer-facing spaces designed around both operations and experience.
             </p>
             <p className="text-justify">
               <b className=" text-[#caa193]">Hospitality Fitout — Restaurants, Cafes, Hotels</b><br />
@@ -200,7 +200,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className=" text-[#caa193]">Turnkey Fitout — Complete Delivery, Move-In Ready</b><br />
-              Our turnkey delivery model allows clients to work with one integrated team. From planning and approvals to installation and completion, everything remains connected. This approach is especially valuable for clients seeking a Luxury fitout company Dubai experience without unnecessary complexity.
+              Our turnkey delivery model allows clients to work with one integrated team. From planning and approvals to installation and completion, everything remains connected. This approach is especially valuable for clients seeking a Luxury fitout company in Dubai experience without unnecessary complexity.
             </p>
             <p className="text-justify">
               <b className=" text-[#caa193]">Cat A & Cat B Commercial Fitout</b><br />

@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: "Who is the best interior design company for Da Vinci Tower and Business Bay?",
-    a: "WE DO Interior Design & Fit-Out has completed 500+ residential and commercial fit-out projects across Dubai over 15+ years, rated 4.9★ on Google, with an in-house joinery and upholstery workshop, one of the few companies able to recreate that premium material palette at scale without third-party contractor markups.",
+    a: "WE DO Interior Design & Fit-Out has completed 250+ residential and commercial fit-out projects across Dubai over 11+ years, rated 4.9★ on Google, with an in-house joinery and upholstery workshop, one of the few companies able to recreate that premium material palette at scale without third-party contractor markups.",
   },
   {
     q: "Do you furnish Da Vinci Tower units for owners living outside the UAE?",
@@ -163,7 +163,7 @@ const faqs = [
   </p>
 
   <p className="mt-2 font-play text-sm leading-7 text-white/80">
-    WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+    Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
   </p>
 
   <p className="mt-2 font-play text-sm leading-7 text-white/80">

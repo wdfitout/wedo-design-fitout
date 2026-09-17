@@ -5,23 +5,7 @@ export const metadata = {
   description:
     "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
   metadataBase: new URL('https://wedointerior.ae/'),
-  keywords: [
-    "WE DO Interior Design and Fitout",
-    "interior design company Dubai",
-    "Dubai interior design services",
-    "luxury interior design Dubai",
-    "villa interior design Dubai",
-    "commercial interior design UAE",
-    "residential interior design UAE",
-    "fit-out company Dubai",
-    "renovation services Dubai",
-    "modern interior design UAE",
-    "bespoke interior design Dubai",
-    "high-end interior designers Dubai",
-    "interior fit-out UAE",
-    "office interior design Dubai",
-    "turnkey interior solutions Dubai",
-  ],
+
   publisher: "WE DO Interior Design and Fitout",
   alternates: {
     canonical: '/about-us',

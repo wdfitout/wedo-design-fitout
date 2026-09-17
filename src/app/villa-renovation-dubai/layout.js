@@ -353,7 +353,7 @@ export default function VillaRenovationLayout({ children }) {
  *        (Sarah A., Ahmed K.) that do not match the reviewers displayed on
  *        the page. This is the only real policy risk on the site.
  *      - A second WebPage node, @id "…/#webpage", url "…/", described as
- *        "15+ years, 500+ projects" — contradicting this page's own metadata.
+ *        "11+ years, 500+ projects" — contradicting this page's own metadata.
  *      - A second BreadcrumbList (Home only).
  *      - A second Service node, "#interior-design-fit-out-service".
  *

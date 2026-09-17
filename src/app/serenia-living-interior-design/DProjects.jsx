@@ -174,7 +174,7 @@ const faqs = [
   </p>
 
   <p className="mt-2 font-play text-sm leading-7 text-white/80">
-    WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+    Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
   </p>
 
   <p className="mt-2 font-play text-sm leading-7 text-white/80">

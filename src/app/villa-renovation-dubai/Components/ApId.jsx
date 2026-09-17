@@ -64,7 +64,7 @@ const ApId = () => {
                   creates rivers of whitespace and measurably hurts
                   readability; it was applied to every long paragraph on
                   the page.
-                - Hardcoded "400+" and "15+ years" now come from brand-facts.
+                - Hardcoded "400+" and "11+ years" now come from brand-facts.
             */}
             <p className="mb-4 font-play text-sm leading-7 sm:text-base">
               <Link href="/" className="font-bold text-[#caa193]">

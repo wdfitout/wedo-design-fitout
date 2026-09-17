@@ -12,21 +12,7 @@ export const metadata = {
   description:
     "Luxury interior design and turnkey fit-out for Palm Jumeirah villas, apartments and penthouses. In-house designers, joinery and fit-out teams by WE DO.",
 
-  keywords: [
-    "interior design company Palm Jumeirah",
-    "interior design company in Palm Jumeirah",
-    "interior designer Palm Jumeirah",
-    "villa interior design Palm Jumeirah",
-    "apartment interior design Palm Jumeirah",
-    "penthouse interior design Palm Jumeirah",
-    "interior fit out company Palm Jumeirah",
-    "turnkey fit out Palm Jumeirah",
-    "commercial interior design Palm Jumeirah",
-    "luxury interior design Palm Jumeirah",
-    "villa renovation Palm Jumeirah",
-    "restaurant interior design Palm Jumeirah",
-    "interior design Dubai",
-  ],
+
 
   alternates: {
     canonical: pagePath,
@@ -115,7 +101,7 @@ export default function RootLayout({ children }) {
 
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+971 58 807 5603",
+      telephone: "+971588075603",
       contactType: "customer service",
       areaServed: "AE",
       availableLanguage: ["English", "Arabic"],
@@ -149,7 +135,7 @@ export default function RootLayout({ children }) {
 
     image: `${siteUrl}/og-image.jpg`,
 
-    telephone: "+971 58 807 5603",
+    telephone: "+971588075603",
 
     email: "info@wedointerior.ae",
 

@@ -32,7 +32,7 @@ const ApId = () => {
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-gray-200">
                 <li className="flex items-start gap-2">
                   <span className="text-[#caa193] font-bold">•</span>
-                  <span>15+ years and 250+ completed interior design and fit-out projects across residential and commercial categories in Dubai</span>
+                  <span>11+ years and 250+ completed interior design and fit-out projects across residential and commercial categories in Dubai</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#caa193] font-bold">•</span>

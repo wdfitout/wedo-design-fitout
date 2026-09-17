@@ -25,7 +25,7 @@ const TestimonialCarousel = () => {
       author: "Omar H., Concept Retail Founder, City Walk ⭐⭐⭐⭐⭐",
     },
     {
-      quote: "Working with a Retail fitout company Dubai that understood boutique retail made a huge difference. Every detail felt intentional.",
+      quote: "Working with a Retail fitout company in Dubai that understood boutique retail made a huge difference. Every detail felt intentional.",
       author: "Sarah M., Lifestyle Store Owner, Dubai ⭐⭐⭐⭐⭐",
     },
   ];
@@ -122,7 +122,7 @@ const DProjects = () => {
             They expect more than functionality. They expect interiors with personality. That expectation has changed how retail environments are designed. Customers now compare boutiques not only against nearby competitors but also against social media content, international brands, and destination shopping experiences. That creates pressure, but also opportunity.
           </p>
           <p className="text-justify">
-            A thoughtfully designed boutique can outperform larger stores simply by creating stronger customer connections. Generic retail solutions rarely achieve that. A successful Boutique interior design company Dubai understands that every decision inside a boutique becomes more visible. And more visibility means every detail matters.
+            A thoughtfully designed boutique can outperform larger stores simply by creating stronger customer connections. Generic retail solutions rarely achieve that. A successful Boutique interior design company in Dubai understands that every decision inside a boutique becomes more visible. And more visibility means every detail matters.
           </p>
           
           <div className="pt-4 space-y-4">

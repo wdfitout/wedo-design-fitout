@@ -4,16 +4,7 @@ export const metadata = {
   title: " Villa Interior Design Projects In Dubai - WEDO Interior",
   description:
 "  Explore villa interior design projects in Dubai by WE DO Interior. We provide villa construction, villa interior design, and villa renovation services",
-  keywords: [
-  'Villa Interior Design Dubai',
-  'Villa Construction in Dubai',
-  'Villa Renovation in Dubai',
-  'Luxury Villa Interior Projects UAE',
-  'Villa interior Design Company in dubai',
-  'villa design and build services in dubai',
-  'We Do Villa Interior Projects',
-  'Dubai Villa Interior Portfolio',
-],
+ 
 publisher: ['WEDO Interior Design and Fit out'],
 
   metadataBase: new URL('https://wedointerior.ae/'),
@@ -68,7 +59,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],
@@ -107,7 +98,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'CollectionPage',
               name: 'Interior Design Projects',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'A curated collection of luxury Residential interior design and fit-out projects completed by We Do Interior Design in Dubai.',
               mainEntity: {

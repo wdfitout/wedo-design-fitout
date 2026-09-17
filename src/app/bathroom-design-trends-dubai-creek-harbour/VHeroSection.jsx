@@ -115,7 +115,7 @@ const VHeroSection = () => {
              The concept of lighting has not only gone beyond its primary purpose but has become a fundamental component in the designing process as well. High-end bathrooms use chandelier lighting, hanging lights, and even LED mirror lighting.            </p>
             <Image src="/images/High-end bathrooms using chandelier lighting.png" alt="Luxury Dubai living room with dramatic chandelier centerpiece" width={800} height={600} className="rounded-md w-full object-cover my-6" />
             <p>
-            This doesn’t just enhance the beauty of your bathroom; it brings out the best parts of your bathroom. WE DO is the best Bathroom Interior Design Company Dubai Creek Harbour, designing bathrooms for our clients in Dubai Creek Harbour, we emphasize layered lighting designs.            </p>
+            This doesn’t just enhance the beauty of your bathroom; it brings out the best parts of your bathroom. WE DO is the best Bathroom Interior Design company in Dubai Creek Harbour, designing bathrooms for our clients in Dubai Creek Harbour, we emphasize layered lighting designs.            </p>
             <h3 className="text-[#caa193] text-xl font-bold mb-2">Custom Storage Solutions</h3>
             <p>
              Storage is vital when trying to maintain elegance within a bathroom setting. Contemporary designs incorporate concealed storage options, wall cabinets, and compact vanity units that make the room neat and tidy.

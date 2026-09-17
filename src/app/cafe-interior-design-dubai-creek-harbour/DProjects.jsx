@@ -146,7 +146,7 @@ const DProjects = () => {
             End-to-End Fit-Out & Execution
           </h3>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-            As a leading <b className="text-[#caa193]"><a href="https://www.google.com/search?sca_esv=6afea18307ffceea&hl=en&authuser=0&sxsrf=ANbL-n7PCeFW3jmwssK0gqH1R6Ug_GuIiQ:1780486440628&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit out&shem=rimspwouohc&shndl=30&source=sh/x/loc/uni/m1/1&kgs=0f5ea5edb4f6550b&utm_source=rimspwouohc,sh/x/loc/uni/m1/1">cafe fit out company Dubai</a></b>, we manage the full fit-out process  civil works, MEP coordination, joinery installation, furniture placement, and final styling. You get a single point of accountability and a turnkey space delivered on time and within budget.
+            As a leading <b className="text-[#caa193]"><a href="https://www.google.com/search?sca_esv=6afea18307ffceea&hl=en&authuser=0&sxsrf=ANbL-n7PCeFW3jmwssK0gqH1R6Ug_GuIiQ:1780486440628&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit out&shem=rimspwouohc&shndl=30&source=sh/x/loc/uni/m1/1&kgs=0f5ea5edb4f6550b&utm_source=rimspwouohc,sh/x/loc/uni/m1/1">cafe fit out company in Dubai</a></b>, we manage the full fit-out process  civil works, MEP coordination, joinery installation, furniture placement, and final styling. You get a single point of accountability and a turnkey space delivered on time and within budget.
           </p>
         </div>
 

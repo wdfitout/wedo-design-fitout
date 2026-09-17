@@ -10,20 +10,6 @@ export const metadata = {
   description:
     "Luxury interior design and turnkey fit-out services in Jumeirah Dubai for villas, apartments, offices and commercial spaces. WE DO delivers bespoke interiors with in-house design and fit-out teams.",
 
-  keywords: [
-    "interior design company Jumeirah",
-    "interior design company in Jumeirah Dubai",
-    "interior designers Jumeirah Dubai",
-    "villa interior design Jumeirah",
-    "apartment interior design Jumeirah",
-    "office interior design Jumeirah",
-    "interior fit out company Jumeirah",
-    "turnkey fit out Jumeirah",
-    "commercial interior design Jumeirah",
-    "luxury interior design Jumeirah",
-    "renovation services Jumeirah",
-    "design and build company Dubai",
-  ],
 
   metadataBase: new URL(`${siteUrl}/`),
 
@@ -112,7 +98,7 @@ export default function RootLayout({ children }) {
 
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+971 58 807 5603",
+      telephone: "+971588075603",
       contactType: "customer service",
       areaServed: "AE",
       availableLanguage: ["English", "Arabic"],
@@ -144,7 +130,7 @@ export default function RootLayout({ children }) {
 
     image: `${siteUrl}/og-image.jpg`,
 
-    telephone: "+971 58 807 5603",
+    telephone: "+971588075603",
 
     email: "info@wedointerior.ae",
 

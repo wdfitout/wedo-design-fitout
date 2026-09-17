@@ -84,7 +84,7 @@ const AboutSection = () => {
           </h3>
           <ul className="list-disc pl-5 space-y-3 text-gray-300 text-sm sm:text-base text-left leading-relaxed">
             <li>
-              <strong className="text-white">15+ Years of Excellence:</strong> Delivering premier interior design & fit-out solutions across Dubai, including Palm Jumeirah villas, apartments, and commercial spaces.
+              <strong className="text-white">11+ Years of Excellence:</strong> Delivering premier interior design & fit-out solutions across Dubai, including Palm Jumeirah villas, apartments, and commercial spaces.
             </li>
             <li>
               <strong className="text-white">250+ Successful Projects:</strong> Completed residential and commercial fit-out projects delivered across high-profile developments in Dubai.
@@ -446,7 +446,7 @@ Hospitality fit-out on the Palm typically runs on tighter operational timelines 
             </h3>
             <p className="text-gray-300 text-sm sm:text-base">
              <b className= "text-[#caa193]"
-          ><a href="https://wedointerior.ae/">WE DO Interior Design & Fit-Out</a></b> WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+          ><a href="https://wedointerior.ae/">WE DO Interior Design & Fit-Out</a></b> Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
             </p>
             <p className="text-gray-400 text-sm mt-2 space-x-2">
               <a href="tel:+971588075603" className="hover:text-[#b98877] transition">
@@ -485,7 +485,7 @@ Hospitality fit-out on the Palm typically runs on tighter operational timelines 
                 1- Who is the best interior design company in Palm Jumeirah?
               </h3>
               <p className="leading-relaxed">
-                WE DO Interior Design & Fit-Out has delivered 250+ residential and commercial projects across Dubai over 15+ years, including villas, apartments, and penthouses on Palm Jumeirah. Our in-house design, civil works, and joinery teams, plus ISO 9001, 14001, and 45001 certification, give clients one accountable team rather than several separate vendors.
+                WE DO Interior Design & Fit-Out has delivered 250+ residential and commercial projects across Dubai over 11+ years, including villas, apartments, and penthouses on Palm Jumeirah. Our in-house design, civil works, and joinery teams, plus ISO 9001, 14001, and 45001 certification, give clients one accountable team rather than several separate vendors.
               </p>
             </div>
 

@@ -4,18 +4,7 @@ export const metadata = {
   title: "Penthouse Projects In Dubai - We Do Interior Design & Fit-Out",
   description:
     "Penthouse projects in Dubai by WE DO. We specialize in luxury penthouse interior design and penthouse renovation services. Browse our projects.",
-  keywords: [
-  'Penthouse Projects Dubai',
-  'Penthouse Interior Design Dubai',
-  'Penthouse Interior Dubai',
-  'Penthouse Renovation Dubai',
-  'Penthouse Fit-Out Dubai',
-  'Luxury Penthouse Interior Design UAE',
-  'Penthouse Interior Design Company Dubai',
-  'Penthouse Interior Design Services Dubai',
-  'High-End Penthouse Design Dubai',
-  'We Do Penthouse Interior Projects'
-],
+ 
 
 publisher: [
   'WEDO Interior Design & Fit-Out'],
@@ -73,7 +62,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],
@@ -97,7 +86,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'WebPage',
               name: 'Interior Design Projects in Dubai',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
             }),

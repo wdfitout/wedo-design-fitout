@@ -373,11 +373,11 @@ const ApId = () => {
           <div className="border border-[#caa193]/10 bg-[#111] p-6">
             <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">
               WE DO Interior Design & Fit-Out has worked across Business Bay,
-              Downtown Dubai, and Dubai Marina apartments for 15+ years,
+              Downtown Dubai, and Dubai Marina apartments for 11+ years,
               completing{' '}
               <b className="text-[#caa193]">
                 <a href="https://wedointerior.ae/gallery">
-                  500+ residential and commercial fit-out projects
+                  250+ residential and commercial fit-out projects
                 </a>
               </b>
               . For Da Vinci Tower owners, we run a dedicated process: source

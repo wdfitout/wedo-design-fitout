@@ -11,19 +11,6 @@ export const metadata = {
   description:
     "WE DO is a luxury interior design and fit-out company serving Business Bay, Dubai, with bespoke apartment, office, commercial and turnkey interior solutions.",
 
-  keywords: [
-    "interior design company Business Bay",
-    "interior design company in Business Bay Dubai",
-    "interior designer Business Bay",
-    "office interior design Business Bay",
-    "apartment interior design Business Bay",
-    "commercial interior design Business Bay",
-    "interior fit out company Business Bay",
-    "turnkey fit out Business Bay",
-    "luxury interior design Business Bay",
-    "interior design Dubai",
-  ],
-
   alternates: {
     canonical: "/interior-design-company-business-bay",
   },
@@ -94,7 +81,7 @@ export default function RootLayout({ children }) {
 
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+971 58 807 5603",
+      telephone: "+971588075603",
       contactType: "customer service",
       areaServed: "AE",
       availableLanguage: ["English", "Arabic"],
@@ -168,7 +155,7 @@ export default function RootLayout({ children }) {
     name: "WE DO Interior Design & Fitout",
     url: siteUrl,
     image: `${siteUrl}/og-image.jpg`,
-    telephone: "+971 58 807 5603",
+    telephone: "+971588075603",
     priceRange: "$$$",
 
     parentOrganization: {

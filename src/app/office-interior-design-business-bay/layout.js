@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       office fit out business bay dubai, 
       office interior design dubai, 
       commercial interior design dubai, 
-      office fit out company dubai, 
+      office fit out company in Dubai, 
       office interior fit out dubai,
        business bay office interior design, office design commercial fit out dubai, interior design company business bay dubai, office renovation business bay, workspace interior design dubai"></meta>
       <meta name="publisher" content="WE DO Interior Design & Fitout">

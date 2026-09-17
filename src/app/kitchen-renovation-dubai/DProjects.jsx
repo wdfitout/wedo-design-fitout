@@ -51,7 +51,7 @@ const DProjects = () => {
           
           <div className="space-y-6 text-sm sm:text-base font-play text-white text-left">
             <p className="leading-relaxed">
-              A kitchen renovation touches plumbing, electrical, cabinetry, and appliances all in one room; more can go wrong here than in almost any other part of an apartment, which is exactly the gap this kitchen renovation company Dubai owners keep running into when comparing quotes.
+              A kitchen renovation touches plumbing, electrical, cabinetry, and appliances all in one room; more can go wrong here than in almost any other part of an apartment, which is exactly the gap this kitchen renovation company in Dubai owners keep running into when comparing quotes.
             </p>
 
             {/* Certifications & Track Record Section */}
@@ -83,7 +83,7 @@ const DProjects = () => {
                   Key Facts
                 </h3>
                 <ul className="list-disc pl-5 space-y-2 text-white text-left text-sm sm:text-base leading-relaxed">
-                  <li>15+ years of hands-on industry experience, <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery" className="hover:underline"> 250+ completed projects </a></b> across residential and commercial categories in Dubai</li>
+                  <li>11+ years of hands-on industry experience, <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery" className="hover:underline"> 250+ completed projects </a></b> across residential and commercial categories in Dubai</li>
                   <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Style Awards 2026 winner</li>
                   <li>DED-registered interior fit-out contractor</li>
                   <li>Kitchen renovations completed as part of full apartment projects in Business Bay, Dubai Marina, and Palm Jumeirah</li>
@@ -922,9 +922,9 @@ const DProjects = () => {
           <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed px-2">
             <strong>WE DO Interior Design &amp; Fit-Out</strong>
             <br />
-            WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+            Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
             <br />
-            Phone/WhatsApp: +971 58 807 5603 | Email: info@wedointerior.ae
+            Phone/WhatsApp: +971588075603 | Email: info@wedointerior.ae
             <br />
             Book Your Consultation Online:{" "}
             <a
@@ -966,7 +966,7 @@ const DProjects = () => {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+            title="Interior Design company in Dubai - WeDo Interior Design & Fit out Location"
           ></iframe>
         </div> 
 

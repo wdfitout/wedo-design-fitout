@@ -2,16 +2,7 @@ export const metadata = {
   title: " How Much Does a Cafe Fit-Out Cost in Dubai? | WE DO",
   description:
     "What does a cafe fit-out cost in Dubai? AED 2,000-8,000 per sqm across three tiers. See the full breakdown, approvals and hidden costs.",
-  keywords: [
-    "cafe fit out cost in Dubai",
-    "cafe fit out Dubai",
-    "cafe fitout cost Dubai",
-    "cafe interior design Dubai",
-    "coffee shop design Dubai",
-    "commercial cafe fit out Dubai",
-    "WEDO Interior Design and Fit out",
-    "cafe fitout pricing Dubai"
-  ],
+ 
   publisher: ['WEDO Interior Design and Fit out'],
   alternates: {
     canonical:

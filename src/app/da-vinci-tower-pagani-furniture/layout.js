@@ -5,8 +5,7 @@ export const metadata = {
   title: "Pagani-Inspired Furniture for Da Vinci Tower | WE DO Interior",
   description:
     "Pagani-inspired furniture for Da Vinci Tower, Business Bay — sofa, dining, bed sets from AED 500K vs AED 2-3M developer pricing. WE DO Interior.",
-  keywords:
-    "Da Vinci Tower furniture, Pagani inspired furniture Dubai, Da Vinci Tower Business Bay, Pagani Arte furniture alternative, luxury furniture Business Bay, Da Vinci Tower interior design, custom furniture Business Bay, Pagani furniture Dubai, Da Vinci Tower fit out, luxury apartment furniture Dubai",
+
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/da-vinci-tower-pagani-furniture',
@@ -86,7 +85,7 @@ const faqSchema = {
       "name": "Who is the best interior design company for Da Vinci Tower and Business Bay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "WE DO Interior Design & Fit-Out has completed 500+ residential and commercial fit-out projects across Dubai over 15+ years, rated 4.9 stars on Google, with an in-house joinery and upholstery workshop — one of the few companies able to recreate that premium material palette at scale without third-party contractor markups."
+        "text": "WE DO Interior Design & Fit-Out has completed 250+ residential and commercial fit-out projects across Dubai over 11+ years, rated 4.9 stars on Google, with an in-house joinery and upholstery workshop — one of the few companies able to recreate that premium material palette at scale without third-party contractor markups."
       }
     },
     {

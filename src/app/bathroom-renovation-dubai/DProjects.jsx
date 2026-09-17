@@ -929,7 +929,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
           >
             Get in Touch to Start Your Bathroom Renovation →
           </a>{" "}
-          Office – WH-05 A, Jebel Ali Industrial 1, Dubai, UAE. Phone or WhatsApp +971 58 807 5603, Email{" "}
+          Office – Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai. Phone or WhatsApp +971588075603, Email{" "}
           <a
             href="mailto:info@wedointerior.ae"
             className="text-[#caa193] font-semibold hover:underline"
@@ -1008,7 +1008,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+            title="Interior Design company in Dubai - WeDo Interior Design & Fit out Location"
           ></iframe>
         </div>
 
@@ -1096,7 +1096,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
         Who is the best bathroom renovation company in Dubai?
       </h3>
       <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
-        The right choice depends on your priorities, but look for DED registration, ISO certification, a fixed-price written contract, and a contractor who shows you the waterproofing before it's tiled over. WE DO Interior Design &amp; Fit-Out meets all four, with 250+ completed projects and 15+ years in the Dubai market.
+        The right choice depends on your priorities, but look for DED registration, ISO certification, a fixed-price written contract, and a contractor who shows you the waterproofing before it's tiled over. WE DO Interior Design &amp; Fit-Out meets all four, with 250+ completed projects and 11+ years in the Dubai market.
       </p>
     </div>
   </div>

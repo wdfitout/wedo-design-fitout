@@ -88,7 +88,7 @@ const DProjects = () => {
         </h2>
         <div className="space-y-4 text-sm sm:text-base font-play text-white text-justify">
           <p>
-            Plenty of contractors can quote a price. Fewer put it all under one roof, in writing, backed by a track record you can actually check; that&apos;s the gap this apartment renovation company Dubai owners keep running into when they compare quotes.
+            Plenty of contractors can quote a price. Fewer put it all under one roof, in writing, backed by a track record you can actually check; that&apos;s the gap this apartment renovation company in Dubai owners keep running into when they compare quotes.
           </p>
 
           <ul className="list-disc pl-5 space-y-2 text-white-300 text-justify">
@@ -108,7 +108,7 @@ const DProjects = () => {
                 Key Facts
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-white text-justify text-xs sm:text-sm">
-                <li>15+ years of hands-on industry experience, 250+ completed projects across residential and commercial categories in Dubai</li>
+                <li>11+ years of hands-on industry experience, 250+ completed projects across residential and commercial categories in Dubai</li>
                 <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Style Awards 2026 winner</li>
                 <li>Completed apartment renovations in Business Bay, Dubai Marina, Dubai Hills, Palm Jumeirah, and Madinat Jumeirah Living</li>
                 <li>In-house team handles design, approvals, and construction under one contract, no subcontractor handoffs</li>
@@ -248,7 +248,7 @@ const DProjects = () => {
             What&apos;s Included in a Full Apartment Renovation in Dubai
           </h2>
           <p className="font-play text-sm sm:text-base text-white text-start py-2">
-            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote.
+            Apartment renovation Dubai-wide is construction-level work, changing what a space is physically made of, not just how it looks. That&apos;s different from styling or furniture placement, which doesn&apos;t touch walls, floors, or systems. WE DO is the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=wh1&sca_esv=d95100246291a85d&sxsrf=APpeQnv4B1LkTKMJKefmLem8TFA9V8R3UQ:1785509026181&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=0cce9bb78d14dbf6&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company in Dubai</a></b>, scoping every renovation into four categories, priced and scheduled separately, so nothing gets bundled into a vague &quot;full renovation&quot; quote.
           </p>
           <p className="font-play text-sm sm:text-base text-white text-start py-1">
             Looking for furniture, decor, and styling only, with no construction work? See our <b className="text-[#caa193]"><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design service</a></b> instead.
@@ -432,7 +432,7 @@ const DProjects = () => {
         </h2>
         
         <p className="font-play text-sm sm:text-base text-white">
-          Both types of renovation process operate in Dubai: either through one registered company that handles everything, or by the owner hiring the painter, electrician, and carpenter individually to reduce the cost of markup. Hiring separate trades can sometimes reduce the initial contractor markup, but it also means you are responsible for coordinating schedules, quality and different warranties. This is the core question behind how to choose an apartment renovation company Dubai owners keep coming back to.
+          Both types of renovation process operate in Dubai: either through one registered company that handles everything, or by the owner hiring the painter, electrician, and carpenter individually to reduce the cost of markup. Hiring separate trades can sometimes reduce the initial contractor markup, but it also means you are responsible for coordinating schedules, quality and different warranties. This is the core question behind how to choose an apartment renovation company in Dubai owners keep coming back to.
         </p>
 
         <div className="overflow-x-auto">
@@ -809,8 +809,8 @@ const DProjects = () => {
 
         <p className="text-sm sm:text-base font-play max-w-3xl mx-auto px-4">
           <strong>WE DO Interior Design &amp; Fit-Out</strong><br />
-          WH-05 A, Jebel Ali Industrial 1, Dubai, UAE<br />
-          Phone/WhatsApp: +971 58 807 5603 | Email: info@wedointerior.ae<br />
+          Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai<br />
+          Phone/WhatsApp: +971588075603 | Email: info@wedointerior.ae<br />
           Ready to plan your apartment renovation? Contact WE DO for a free site visit and itemized quote.
         </p>
 
@@ -842,7 +842,7 @@ const DProjects = () => {
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="strict-origin-when-cross-origin"
-          title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+          title="Interior Design company in Dubai - WeDo Interior Design & Fit out Location"
         ></iframe>
       </div>
 

@@ -3,7 +3,7 @@ import '../globals.css';
 export const metadata = {
   title: "Retail Interior Design Dubai Creek Harbour | WE DO",
   description:
-    "Retail interior design & turnkey fit-out in Dubai Creek Harbour. Boutiques, showrooms & flagship stores. 15+ years, in-house joinery. Get a quote today.",
+    "Retail interior design & turnkey fit-out in Dubai Creek Harbour. Boutiques, showrooms & flagship stores. 11+ years, in-house joinery. Get a quote today.",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
     canonical: '/retail-interior-design-dubai-creek-harbour',

@@ -919,7 +919,7 @@ const DProjects = () => {
 
       <CtaBlock heading="Get Your Free Villa Renovation Quote">
         {/* FIXED: the NAP line ran together with no punctuation —
-            "…Fit-Out WH-05 A, Jebel Ali Industrial 1, Dubai, UAE Phone/WhatsApp:
+            "…Fit-Out Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai Phone/WhatsApp:
             +971 58 807 5603 Email: info@wedointerior.ae". Now structured, and
             the phone and email are real links.
 
@@ -930,7 +930,7 @@ const DProjects = () => {
         <address className="not-italic">
           WE DO Interior Design &amp; Fit-Out
           <br />
-          WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+          Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
           <br />
           Phone and WhatsApp:{' '}
           <a href={`tel:${PHONE_E164}`} className="underline">

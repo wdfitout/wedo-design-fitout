@@ -4,19 +4,12 @@ export const metadata = {
   title: "Our Gallery | We Do Interior Design & Fit-Out",
   description:
     "Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio. Call Now!",
-  keywords: [
-    'Interior Design Projects Dubai',
-    'Fit-Out Portfolio Dubai',
-    'Luxury Interior Projects UAE',
-    'We Do Interior Design Projects',
-    'Dubai Interior Design Portfolio',
-  ],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
     title: 'Interior Design Projects Dubai | We Do Interior Design & Fit-Out',
     description:
       'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
-    url: 'https://wedointerior.ae/projects',
+    url: 'https://wedointerior.ae/gallery',
     siteName: 'we do interior design & fit out',
     images: [
       {
@@ -63,7 +56,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],
@@ -87,7 +80,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'WebPage',
               name: 'Interior Design Projects in Dubai',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
             }),
@@ -102,7 +95,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'CollectionPage',
               name: 'Interior Design Projects',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'A curated collection of luxury interior design and fit-out projects completed by We Do Interior Design in Dubai.',
               mainEntity: {

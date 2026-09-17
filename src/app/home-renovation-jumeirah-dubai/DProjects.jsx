@@ -25,7 +25,7 @@ const TestimonialCarousel = () => {
       author: "R. Forsythe, Villa Owner, Jumeirah 3 ⭐⭐⭐⭐⭐",
     },
     {
-      quote: "We renovated to prepare the villa for rental and the difference in interest from tenants afterwards was immediate. The team understood exactly what mattered for that purpose without over-spending on things that wouldn't add value. Genuinely the best renovation company Dubai could have sent us.",
+      quote: "We renovated to prepare the villa for rental and the difference in interest from tenants afterwards was immediate. The team understood exactly what mattered for that purpose without over-spending on things that wouldn't add value. Genuinely the best renovation company in Dubai could have sent us.",
       author: "M. Devereux, Investment Property Owner, Umm Suqeim ⭐⭐⭐⭐⭐",
     },
   ];

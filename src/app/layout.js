@@ -108,7 +108,7 @@ const organizationSchema = {
 
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+971 58 807 5603',
+    telephone: '+971588075603',
     contactType: 'customer service',
     areaServed: 'AE',
     availableLanguage: ['English', 'Arabic'],

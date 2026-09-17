@@ -4,16 +4,6 @@ export const metadata = {
   title: "Bathroom Renovation Dubai | Cost & Waterproofing | WE DO",
   description:
     "Bathroom renovation in Dubai: waterproofing, tiling, vanity & plumbing under one fixed-price contract. DED-registered, 250+ projects.Call Now",
-  keywords: [
-    'Bathroom Renovation Dubai',
-    'Bathroom Renovation Cost Dubai',
-    'Bathroom Waterproofing Dubai',
-    'Bathroom Renovation Company Dubai',
-    'Walk-In Shower Conversion Dubai',
-    'Bathroom Tiling Dubai',
-    'Luxury Bathroom Renovation Dubai',
-    'Bathroom Vanity Dubai',
-  ],
   publisher: ['WEDO Interior Design and Fit out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
@@ -120,7 +110,7 @@ const bathroomRenovationSchema = {
           "name": "Who is the best bathroom renovation company in Dubai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for DED registration, ISO certification, a fixed-price written contract, and a contractor who shows you the waterproofing before it's tiled over. WE DO Interior Design & Fit-Out meets all four, with 250+ completed projects and 15+ years in the Dubai market."
+            "text": "Look for DED registration, ISO certification, a fixed-price written contract, and a contractor who shows you the waterproofing before it's tiled over. WE DO Interior Design & Fit-Out meets all four, with 250+ completed projects and 11+ years in the Dubai market."
           }
         }
       ]

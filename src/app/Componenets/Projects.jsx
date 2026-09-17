@@ -32,7 +32,7 @@ const projects = [
     size: "[FILL-04] SQ FT",
     location: "BUSINESS BAY",
     outcome: "[FILL-04]",
-    slug: "/projects/business-bay-apartment",
+    slug: "/business-bay-apartment",
   },
   {
     img: "/images/dtrest (8).webp",

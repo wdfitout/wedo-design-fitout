@@ -73,7 +73,7 @@ const VHeroSection = () => {
             />
             <div className="text-md leading-relaxed font-play">
               <p>
-                This guide compares both styles across Jumeirah, looking at how each works with different villa architectures, what each typically costs, and why many homeowners choose to blend the two. It's written by <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fit-Out</a></b> an ISO 9001, 14001, and 45001-certified Dubai interior design and fit-out company with 15+ years of experience and 250+ completed residential and commercial projects across the city.
+                This guide compares both styles across Jumeirah, looking at how each works with different villa architectures, what each typically costs, and why many homeowners choose to blend the two. It's written by <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fit-Out</a></b> an ISO 9001, 14001, and 45001-certified Dubai interior design and fit-out company with 11+ years of experience and 250+ completed residential and commercial projects across the city.
               </p>
             </div>
           </div>
@@ -628,7 +628,7 @@ const VHeroSection = () => {
               Who is the best interior design company for Jumeirah villas?
             </h3>
             <p>
-              WE DO Interior Design &amp; Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, and has 15+ years of experience across 250+ completed residential and commercial projects in Dubai. With in-house design, civil works, joinery, and decoration teams plus a dedicated joinery factory and direct DCD and DM approvals handling the company manages Jumeirah villa projects under one roof, from concept through handover.
+              WE DO Interior Design &amp; Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, and has 11+ years of experience across 250+ completed residential and commercial projects in Dubai. With in-house design, civil works, joinery, and decoration teams plus a dedicated joinery factory and direct DCD and DM approvals handling the company manages Jumeirah villa projects under one roof, from concept through handover.
             </p>
           </div>
 
@@ -648,7 +648,7 @@ const VHeroSection = () => {
             />
 
             <p>
-              Most Jumeirah villas today land somewhere between fully traditional and fully modern, a fitting outcome for a district built on exactly that mix. As the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=JDSq&sca_esv=1503fdd29559cc79&sxsrf=APpeQnsC8gyC1ILXELrj9R1SXiV8B4GJig:1786855962908&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=5e413efa33bd1dc0&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company Dubai</a></b>, WE DO Interior Design &amp; Fit-Out designs and fit out Jumeirah villas in traditional, modern, and transitional styles, managing the full process from concept to handover.
+              Most Jumeirah villas today land somewhere between fully traditional and fully modern, a fitting outcome for a district built on exactly that mix. As the <b className="text-[#caa193]"><a href="https://www.google.com/search?client=ms-android-transsion&hs=JDSq&sca_esv=1503fdd29559cc79&sxsrf=APpeQnsC8gyC1ILXELrj9R1SXiV8B4GJig:1786855962908&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=5e413efa33bd1dc0&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">top interior design company in Dubai</a></b>, WE DO Interior Design &amp; Fit-Out designs and fit out Jumeirah villas in traditional, modern, and transitional styles, managing the full process from concept to handover.
             </p>
 
             <p className="font-semibold text-lg text-white pt-4">
@@ -660,7 +660,7 @@ const VHeroSection = () => {
                 ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certified, and a 2026 Luxury Style Award winner
               </li>
               <li>
-                15+ years of experience and 250+ completed residential and commercial projects across Dubai
+                11+ years of experience and 250+ completed residential and commercial projects across Dubai
               </li>
               <li>
                 In-house design, civil works, joinery, and decoration teams, plus a dedicated joinery factory, all under one roof
@@ -688,7 +688,7 @@ const VHeroSection = () => {
             </p>
 
             <div className="pt-4 space-y-1">
-              <p>WE DO Interior Design &amp; Fit-Out WH-05 A, Jebel Ali Industrial 1, Dubai, UAE</p>
+              <p>WE DO Interior Design &amp; Fit-Out Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai</p>
               <p>
                 Phone / WhatsApp:{" "}
                 <a href="https://wa.me/971588075603" className="text-[#caa193] hover:underline" target="_blank" rel="noopener noreferrer">

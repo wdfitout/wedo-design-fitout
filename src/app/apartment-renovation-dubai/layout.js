@@ -4,16 +4,6 @@ export const metadata = {
   title: "Apartment Renovation Dubai | Cost, NOC & Timeline | WE DO",
   description:
     "Apartment renovation in Dubai: kitchen, bathroom & full-flat fit-out under one contract.NOC handled, 250+ projects. Book a free site visit.",
-  keywords: [
-    'Apartment Renovation Dubai',
-    'Apartment Renovation Company Dubai',
-    'Kitchen Renovation Dubai',
-    'Bathroom Renovation Apartment Dubai',
-    'Apartment Renovation Cost Dubai',
-    'Apartment Renovation NOC Dubai',
-    'Apartment Renovation Timeline Dubai',
-    'Flat Renovation Dubai',
-  ],
   publisher: ['WEDO Interior Design and Fit out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {

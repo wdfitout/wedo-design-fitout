@@ -4,16 +4,7 @@ export const metadata = {
   title: "Office Renovation Dubai | DED-Registered Contractor | WE DO",
   description:
     "Office renovation in Dubai: flooring, partitions, MEP & approvals under one fixed-price contract. DED-registered, 250+ projects. Get in touch to start.",
-  keywords: [
-    'Office Renovation Dubai',
-    'Office Fit Out Dubai',
-    'Office Partition Renovation Dubai',
-    'Office Renovation Company Dubai',
-    'Commercial Renovation Dubai',
-    'Office MEP Upgrade Dubai',
-    'Office Flooring Dubai',
-    'Office Renovation Cost Dubai',
-  ],
+ 
   publisher: ['WEDO Interior Design and Fit out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {

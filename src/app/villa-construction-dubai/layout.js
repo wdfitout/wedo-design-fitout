@@ -8,25 +8,7 @@ export const metadata = {
   alternates: {
     canonical: '/villa-construction-dubai',
   },
-  keywords: [
-  "villa construction dubai",
-  "villa construction company dubai",
-  "villa builders dubai",
-  "custom villa design and build dubai",
-  "new villa construction dubai",
-  "luxury villa construction dubai",
-  "villa renovation and rebuild dubai",
-  "villa extension dubai",
-  "villa structural works dubai",
-  "villa MEP services dubai",
-  "villa project management dubai",
-  "dubai municipality villa approvals",
-  "villa construction dubai hills",
-  "villa construction arabian ranches",
-  "villa construction palm jumeirah",
-  "villa construction cost dubai",
-  "villa construction timeline dubai"
-],
+ 
   other: {
     publisher: "WE DO Interior Design & Fitout",
   }

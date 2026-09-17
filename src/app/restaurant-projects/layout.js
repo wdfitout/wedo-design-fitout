@@ -4,18 +4,7 @@ export const metadata = {
   title: "Cafe & Restaurant Projects in Dubai - We Do Interior ",
   description:
     "Cafe & Restaurant projects in Dubai by WE DO. We offer restaurant interior design, fit-out, & renovation services. Browse our portfolio!",
-  keywords: [
-  'Restaurant Projects Dubai',
-  'Restaurant Interior Design Dubai',
-  'Restaurant Fit-Out Dubai',
-  'Cafe Interior Design Dubai',
-  'Restaurants & Café Interior Designers in Dubai',
-  'Restaurant Design Companies Dubai',
-  'Restaurant Fit Out Companies Dubai',
-  'Modern Restaurant Interiors UAE',
-  'Hospitality Interior Design Dubai',
-  'We Do Restaurant Interior Projects'
-],
+ 
 publisher: [
   'WEDO interior design & fit out'],
 
@@ -71,7 +60,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],

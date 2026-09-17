@@ -6,23 +6,6 @@ export const metadata = {
   description:
     "Premium Interior Design Downtown Dubai for homes & offices. WE DO delivers luxury fit-out, modern interiors & turnkey solutions. Call now!",
 
-  keywords: [
-    'Interior Design Downtown Dubai',
-    'interior design company in Downtown Dubai',
-    'interior designers Downtown Dubai',
-    'interior fit-out companies in Dubai',
-    'interior design companies in Dubai',
-    'luxury interior design Downtown Dubai',
-    'residential interior design Downtown Dubai',
-    'commercial interior design Dubai',
-    'office interior design Dubai',
-    'restaurant interior design Dubai',
-    'fit-out company Downtown Dubai',
-    'interior design and fit out companies in Dubai',
-    'best interior designers in Dubai',
-    'turnkey interior solutions Dubai',
-    'renovation and remodeling Dubai'
-  ],
 
   metadataBase: new URL('https://wedointerior.ae/'),
 
@@ -82,7 +65,7 @@ export default function RootLayout({ children }) {
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+971 058 807 5603",
+      "telephone": "+971588075603",
       "contactType": "Customer Service",
       "areaServed": "AE",
       "availableLanguage": ["English", "Arabic"]
@@ -112,7 +95,7 @@ export default function RootLayout({ children }) {
     "name": "WE DO Interior Design & Fitout",
     "image": "https://wedointerior.ae/og-image.jpg",
     "url": "https://wedointerior.ae/interior-design-downtown-dubai",
-    "telephone": "+971 058 807 5603",
+    "telephone": "+971588075603",
     "priceRange": "$$$",
     "address": {
       "@type": "PostalAddress",

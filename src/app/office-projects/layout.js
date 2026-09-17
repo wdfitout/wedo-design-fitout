@@ -4,18 +4,7 @@ export const metadata = {
   title: "Office Projects in Dubai - WEDO Interior",
   description:
     "Corporate Office, interior design and fit-out projects in Dubai by We Do Interior. Discover our commercial portfolio.",
-  keywords: [
-  'Office Projects Dubai',
-  'Office Interior Design Dubai',
-  'Office Fit-Out Company Dubai',
-  'Corporate Interiors Dubai',
-  'Corporate Office Interior Design Dubai',
-  'Office Interior Design Companies in Dubai',
-  'Commercial Office Design UAE',
-  'Modern Office Interiors Dubai',
-  'Workplace Fit-Out Dubai',
-  'We Do Office Interior Projects'
-],
+  
 publisher: ['WEDO Interior Design and Fit-out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   openGraph: {
@@ -69,7 +58,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],

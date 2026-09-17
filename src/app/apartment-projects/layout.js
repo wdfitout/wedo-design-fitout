@@ -4,18 +4,7 @@ export const metadata = {
   title: "Apartment Projects in Dubai | Interior Design, Renovation & Fit-Out",
   description:
     "Explore apartment projects in Dubai by WE DO Interior Design & Fitout. We provide complete apartment interior design, renovation, and fit-out services.",
- keywords: [
-  'Apartment Projects Dubai',
-  'Apartment Interior Design Dubai',
-  'Apartment Renovation Dubai',
-  'Apartment Fit-Out Dubai',
-  'Apartment Interior Design Company Dubai',
-  'Residential Apartment Projects UAE',
-  'Modern Apartment Interiors Dubai',
-  'Luxury Apartment Design Dubai',
-  'We Do Interior Design Apartment Projects',
-  'Dubai Apartment Interior Design Services',
-],
+
  publisher: [
   'WEDO Interior Design & Fitout',
  ],
@@ -71,7 +60,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],
@@ -95,7 +84,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'WebPage',
               name: 'Interior Design Projects in Dubai',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'Explore luxury interior design and fit-out projects in Dubai by We Do Interior. Discover our residential, commercial, and hospitality portfolio.',
             }),
@@ -110,7 +99,7 @@ export default function RootLayout({ children }) {
               '@context': 'https://schema.org',
               '@type': 'CollectionPage',
               name: 'Interior Design Projects',
-              url: 'https://wedointerior.ae/projects',
+              url: 'https://wedointerior.ae/gallery',
               description:
                 'A curated collection of luxury interior design and fit-out projects completed by We Do Interior Design in Dubai.',
               mainEntity: {

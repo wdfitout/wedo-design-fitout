@@ -716,8 +716,8 @@ own joinery factory                </a>
           WE DO Interior Design &amp; Fit-Out is the {' '}
                 <b className="text-[#caa193]">
                   <a href="https://www.google.com/search?client=ms-android-transsion&hs=ABAB&biw=360&bih=680&sca_esv=f60e7a9ce4fdb122&sxsrf=APpeQnvYe0F56r81dHf4aT_6ncUqTGstUw:1787462837397&kgmid=/g/11pyc3sd1k&q=Interior+Design+Company+Dubai+-+WeDo+Interior+Design+%26+Fit+out&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/2&kgs=f463156c24e93964&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/2">
-leading interior design company Dubai               </a>
-                </b>{''}, has completed 250+ projects across Dubai's residential and commercial sectors, with 15+ years in the market, DED-registered, certified to ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018, and a 2026 Luxury Lifestyle Awards win.
+leading interior design company in Dubai               </a>
+                </b>{''}, has completed 250+ projects across Dubai's residential and commercial sectors, with 11+ years in the market, DED-registered, certified to ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018, and a 2026 Luxury Lifestyle Awards win.
         </p>
         <p className="leading-relaxed text-white">
           For retail specifically, that means an in-house joinery factory building your display units and shopfront joinery to measure rather than fitting a stock piece, and an approvals team that already knows the difference between a mall's design-review process and a standalone Dubai Municipality submission, not learning it on your project. Our approvals relationships extend to Dubai Civil Defence, Dubai Municipality, and private developers, including Emaar and Damac.
@@ -912,7 +912,7 @@ retail interior design services in Dubai                  </a>
     >
       Get in Touch to Start Your Retail Renovation →
     </a>{" "}
-    Office – WH-05 A, Jebel Ali Industrial 1, Dubai, UAE. Phone or WhatsApp +971 58 807 5603, Email{" "}
+    Office – Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai. Phone or WhatsApp +971588075603, Email{" "}
     <a
       href="mailto:info@wedointerior.ae"
       className="text-[#caa193] font-semibold hover:underline"
@@ -953,7 +953,7 @@ retail interior design services in Dubai                  </a>
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+            title="Interior Design company in Dubai - WeDo Interior Design & Fit out Location"
           ></iframe>
         </div>
 
@@ -1041,7 +1041,7 @@ retail interior design services in Dubai                  </a>
         Who is the best retail renovation company in Dubai?
       </h3>
       <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
-        Look for DED registration, ISO certification, a fixed-price written contract, and in-house joinery capability specifically, since joinery is usually the largest and highest-risk line item in a retail renovation. WE DO Interior Design &amp; Fit-Out meets all four, with 250+ completed projects and 15+ years in the Dubai market.
+        Look for DED registration, ISO certification, a fixed-price written contract, and in-house joinery capability specifically, since joinery is usually the largest and highest-risk line item in a retail renovation. WE DO Interior Design &amp; Fit-Out meets all four, with 250+ completed projects and 11+ years in the Dubai market.
       </p>
     </div>
   </div>

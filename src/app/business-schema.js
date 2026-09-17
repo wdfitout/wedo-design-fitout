@@ -16,7 +16,7 @@ export const WEDO_BUSINESS = {
 
   url: SITE_URL,
 
-  telephone: '+971 58 807 5603',
+  telephone: '+971588075603',
 
   email: 'info@wedointerior.ae',
 

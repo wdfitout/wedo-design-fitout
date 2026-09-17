@@ -2,16 +2,7 @@ export const metadata = {
   title: "Traditional vs Modern Jumeirah Villa Design | WE DO",
   description:
     "Comparing traditional and modern interior design for Jumeirah villas: features, real AED costs, and tips to choose or blend both styles for your home.",
-  keywords: [
-    "traditional vs modern interior design Dubai",
-    "Jumeirah villa interior design",
-    "traditional interior design Dubai",
-    "modern interior design Dubai",
-    "Jumeirah villa fit out",
-    "majlis interior design",
-    "luxury villa interior design Dubai",
-    "WEDO Interior Design and Fit out"
-  ],
+  
   publisher: ['WEDO Interior Design and Fit out'],
   alternates: {
     canonical:
@@ -246,7 +237,7 @@ const graphSchema = {
           "name": "Who is the best interior design company for Jumeirah villas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "WE DO Interior Design & Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, with 15+ years of experience across 250+ completed residential and commercial projects in Dubai. In-house design, civil works, joinery, and decoration teams, plus direct DCD and DM approvals handling, let the company manage Jumeirah villa projects under one roof."
+            "text": "WE DO Interior Design & Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, with 11+ years of experience across 250+ completed residential and commercial projects in Dubai. In-house design, civil works, joinery, and decoration teams, plus direct DCD and DM approvals handling, let the company manage Jumeirah villa projects under one roof."
           }
         }
       ]

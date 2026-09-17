@@ -114,7 +114,7 @@ const DProjects = () => {
             A designer develops concepts. Technical drawings move elsewhere. Contractor interprets the information later. Site decisions begin changing the original vision. Eventually the homeowner becomes responsible for coordinating everyone. This approach often creates unnecessary complexity.
           </p>
           <p className="text-justify">
-            As a specialist Villa construction company Dubai, our process connects every stage under one delivery structure. Design teams understand construction realities. Execution teams understand design priorities. Approvals remain aligned. Communication becomes simpler. Clients receive one clear process instead of multiple disconnected conversations. For anyone planning to build a villa in Dubai, integration is often the difference between a stressful experience and a successful one.
+            As a specialist Villa construction company in Dubai, our process connects every stage under one delivery structure. Design teams understand construction realities. Execution teams understand design priorities. Approvals remain aligned. Communication becomes simpler. Clients receive one clear process instead of multiple disconnected conversations. For anyone planning to build a villa in Dubai, integration is often the difference between a stressful experience and a successful one.
           </p>
         </div>
       </div>

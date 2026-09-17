@@ -174,14 +174,6 @@ const blogSchema = {
 
   inLanguage: "en-AE",
 
-  keywords: [
-    "Interior Design Companies Downtown Dubai",
-    "Downtown Dubai Interior Design",
-    "Luxury Interior Design Dubai",
-    "Interior Fit Out Dubai",
-    "Commercial Interior Design Dubai",
-  ],
-
   articleSection: "Interior Design",
 };
 

@@ -18,7 +18,7 @@ const ApId = () => {
               Beauty Salon Interior Design in Dubai – Luxury, Functionality & Brand Identity
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-              At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b> , we are dedicated to creating best Beauty Salon Design Dubai. A well-designed salon is not just about looks, it directly affects the way the clients feel, the duration for which they remain, and the frequency of their visits. With 15+ years of experience in beauty salon interior design, our aim is to design salons in Dubai that are impressive from the moment you step in. By incorporating well-thought-out salon interior design and decoration in Dubai, we create experiences that
+              At <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b> , we are dedicated to creating best Beauty Salon Design Dubai. A well-designed salon is not just about looks, it directly affects the way the clients feel, the duration for which they remain, and the frequency of their visits. With 11+ years of experience in beauty salon interior design, our aim is to design salons in Dubai that are impressive from the moment you step in. By incorporating well-thought-out salon interior design and decoration in Dubai, we create experiences that
               mirror your brand's identity and professionalism. 
              </p>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play">

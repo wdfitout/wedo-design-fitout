@@ -9,7 +9,7 @@ const cardData = [
     title: "RESIDENTIAL",
     img: "/images/primo-sitting.jpg",
     alt: "Luxury villa and penthouse living room interior design in Dubai",
-    desc: "Luxury residential interior design services in Dubai for villas, apartments, penthouses and tonwhouses etc.",
+    desc: "Luxury residential interior design services in Dubai for villas, apartments, penthouses and townhouses etc.",
     link: "/villa-interior-design-dubai",
   },
   {

@@ -11,24 +11,7 @@ export const metadata = {
   description:
     "Interior design and fit-out services in Dubai by WE DO. Luxury residential and commercial interiors across Business Bay, Downtown Dubai, Palm Jumeirah, Dubai Creek Harbour and other Dubai areas.",
 
-  keywords: [
-    "interior design Dubai",
-    "interior design services in Dubai",
-    "interior design company in Dubai",
-    "interior designers in Dubai",
-    "interior design and fit out Dubai",
-    "interior fit out Dubai",
-    "luxury interior design Dubai",
-    "residential interior design Dubai",
-    "commercial interior design Dubai",
-    "Business Bay interior design",
-    "Downtown Dubai interior design",
-    "Palm Jumeirah interior design",
-    "Dubai Creek Harbour interior design",
-    "Jumeirah interior design",
-    "Dubai Hills interior design",
-    "Emirates Hills interior design",
-  ],
+
 
   metadataBase: new URL(`${siteUrl}/`),
 
@@ -122,7 +105,7 @@ export default function InteriorDesignDubaiLayout({ children }) {
     contactPoint: {
       "@type": "ContactPoint",
 
-      telephone: "+971 58 807 5603",
+      telephone: "+971588075603",
 
       contactType: "customer service",
 
@@ -163,7 +146,7 @@ export default function InteriorDesignDubaiLayout({ children }) {
 
     image: `${siteUrl}/og-image.jpg`,
 
-    telephone: "+971 58 807 5603",
+    telephone: "+971588075603",
 
     email: "info@wedointerior.ae",
 

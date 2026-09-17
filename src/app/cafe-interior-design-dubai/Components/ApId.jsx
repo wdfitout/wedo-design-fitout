@@ -27,7 +27,7 @@ const ApId = () => {
               identity.
             </p>
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            Among the leading interior companies in Dubai, we have 15+ years of experience in designing both hospitality interior 
+            Among the leading interior companies in Dubai, we have 11+ years of experience in designing both hospitality interior 
             design projects and commercial interior design projects, making us the most well known café interior designers in UAE.
             From conceptual layouts to complete execution, we deliver high end customized <b className="text-[#caa193]"><a href="https://wedointerior.ae/cafe-interior-design-dubai">café interior design services</a></b> according 
             to your vision.

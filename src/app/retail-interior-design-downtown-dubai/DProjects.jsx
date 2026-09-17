@@ -148,7 +148,7 @@ const DProjects = () => {
         {/* Section 1: Text Left, Image Right */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <p className=" text-justify">WE DO provides complete retail fitout services in Downtown Dubai including concept design, authority approvals, custom joinery, lighting design, shopfront development, construction, merchandising support, and final styling. As an experienced <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> retail fitout company Dubai</a></b> and provide the best commercial interior design Dubai, businesses rely on, we deliver turnkey retail environments designed to improve customer experience, strengthen brand presence, and support long-term commercial performance.</p>
+            <p className=" text-justify">WE DO provides complete retail fitout services in Downtown Dubai including concept design, authority approvals, custom joinery, lighting design, shopfront development, construction, merchandising support, and final styling. As an experienced <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> retail fitout company in Dubai</a></b> and provide the best commercial interior design Dubai, businesses rely on, we deliver turnkey retail environments designed to improve customer experience, strengthen brand presence, and support long-term commercial performance.</p>
             <ul className="list-decimal pl-5 space-y-4 text-[#caa193]">
               <li>
                 <h3 className="font-play font-bold text-base text-justify">High-End Fashion & Luxury Boutiques</h3>
@@ -191,7 +191,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
-              Choosing a fitout partner for a retail space in Downtown Dubai is a decision that affects your store's performance for the entire life of the fit out, not just the opening week. As the leading retail design company Dubai, we think commercially before we think creatively. We build the commercial logic into the design from the first meeting, not after the fact. Concept design, joinery specification, construction management, lighting design, and final styling all run through the same team.
+              Choosing a fitout partner for a retail space in Downtown Dubai is a decision that affects your store's performance for the entire life of the fit out, not just the opening week. As the leading retail design company in Dubai, we think commercially before we think creatively. We build the commercial logic into the design from the first meeting, not after the fact. Concept design, joinery specification, construction management, lighting design, and final styling all run through the same team.
             </p>
             <p className="text-justify">
               We select finishes, fixtures, and flooring that look genuinely premium and survive years of daily commercial use without constant repair. Delays in retail fitouts often come from poor approval management, poor construction sequencing, or poor coordination between trades. All three are within our control and all three are areas where we apply consistent processes across every project.

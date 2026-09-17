@@ -4,16 +4,7 @@ export const metadata = {
   title: "Kitchen Renovation Dubai - Cost, Layouts & Refacing - WEDO",
   description:
     "Kitchen renovation Dubai with in-house design, cabinetry & installation. Compare costs, layouts, refacing and full replacement options with WE DO",
-  keywords: [
-    'Kitchen Renovation Dubai',
-    'Kitchen Remodeling Dubai',
-    'Kitchen Refacing Dubai',
-    'Modular Kitchen Dubai',
-    'Kitchen Renovation Cost Dubai',
-    'Kitchen Cabinets Dubai',
-    'Open Kitchen Design Dubai',
-    'Kitchen Renovation Company Dubai',
-  ],
+ 
   publisher: ['WEDO Interior Design and Fit out'],
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {

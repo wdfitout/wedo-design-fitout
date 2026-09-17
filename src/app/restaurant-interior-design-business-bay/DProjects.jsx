@@ -416,7 +416,7 @@ const DProjects = () => {
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
               Business Bay has extraordinary restaurants. The ones that succeed long-term are the ones that invested in design with the same seriousness they invested in their chef, their menu, and their team.
-WE DO Interior Design & Fitout is the commercial fitout company Dubai restaurant operators trust when the stakes are high and the standard is non-negotiable. From your first consultation to your opening night, we are the single point of accountability for a restaurant fitout that performs in one of the world's most competitive dining markets.
+WE DO Interior Design & Fitout is the commercial fitout company in Dubai restaurant operators trust when the stakes are high and the standard is non-negotiable. From your first consultation to your opening night, we are the single point of accountability for a restaurant fitout that performs in one of the world's most competitive dining markets.
 Contact WE DO today for your free consultation and fully transparent project estimate.
             </p>
           </div>

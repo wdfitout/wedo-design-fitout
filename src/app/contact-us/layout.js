@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="keywords" content="contact interior design company Dubai, WE DO Interior Design contact, interior design consultation Dubai, fit-out company contact UAE, Dubai interior designers contact, villa interior design inquiry Dubai, commercial fit-out contact Dubai, renovation company contact UAE, interior design services enquiry Dubai, best interior design company Dubai contact"></meta>
+      <meta name="keywords" content="contact interior design company in Dubai, WE DO Interior Design contact, interior design consultation Dubai, fit-out company contact UAE, Dubai interior designers contact, villa interior design inquiry Dubai, commercial fit-out contact Dubai, renovation company contact UAE, interior design services enquiry Dubai, best interior design company in Dubai contact"></meta>
 
 <meta name="publisher" content="WE DO Interior Design and Fitout"></meta>
       <body>{children}</body>

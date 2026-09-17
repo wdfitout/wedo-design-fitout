@@ -134,7 +134,7 @@ const AboutSection = () => {
 
           <p className="text-white text-sm sm:text-base font-play mb-4">
           WE DO specializes in contemporary apartment layouts and personalized interior design services for Dubai Creek Harbour properties. Our professionals have knowledge about the unique needs of Dubai Creek Harbour residential apartment spaces, making sure each space is optimized for practicality and elegance. <br /><br />
-          We offer fast-track completion for new handovers, placing us the top choice for investors and clients. If you are looking for an interior designer Dubai, a trusted fit out company Dubai Creek Harbour, or one of the top interior fit out companies in Dubai, our experienced craftsmen offer the best quality with specific solutions.
+          We offer fast-track completion for new handovers, placing us the top choice for investors and clients. If you are looking for an interior designer Dubai, a trusted fit out company in Dubai Creek Harbour, or one of the top interior fit out companies in Dubai, our experienced craftsmen offer the best quality with specific solutions.
           </p>
     
 

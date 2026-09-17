@@ -90,7 +90,7 @@ const AboutSection = () => {
               luxurious materials to suit the lifestyle of our clients. Our renovation services in 
               Business Bay upgrade or renovate the existing spaces with minimal disturbance.
               With our creative and technical skills, we are known as one of the best interior fit 
-              out contractors Business Bay and <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-in-business-bay-dubai">fit-out company in Business Bay Dubai</a></b>, with 
+              out contractors in Business Bay and <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-in-business-bay-dubai">fit-out company in Business Bay, Dubai</a></b>, with 
               projects that reflect quality, style, and attention to detail.
             </p>
              
@@ -100,7 +100,7 @@ const AboutSection = () => {
                 <div className="w-full lg:w-1/2">
                  <Image
                     src="/images/startech (3).webp"
-                    alt="Office Interior Design in Business Bay Dubai"
+                    alt="Office Interior Design in Business Bay, Dubai"
                     width={800}
                     height={600}
                     className="w-full h-100 rounded-lg shadow-md"
@@ -184,7 +184,7 @@ const AboutSection = () => {
           </h2>
           <p className=" text-center max-w-6xl mx-auto mt-0 md:mt-4 text-[12px] sm:text-base text-white py-2 md:py-6 font-play">
           At <b className="text-[#caa193]"
-         ><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we offer full-service turnkey fit out Business Bay services for our clients who are looking for all in one experience. As a reputable design and build company Dubai, we oversee all aspects of the process, from the first consultation and design concept to the approvals from the authorities Dubai, through to completion and delivery. Our end-to-end process ensures a smooth, efficient, and high-quality experience at all times. Our clients can take advantage of our knowledge in interior design and fit out companies in Dubai.
+         ><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>, we offer full-service turnkey fit out Business Bay services for our clients who are looking for all in one experience. As a reputable design and build company in Dubai, we oversee all aspects of the process, from the first consultation and design concept to the approvals from the authorities Dubai, through to completion and delivery. Our end-to-end process ensures a smooth, efficient, and high-quality experience at all times. Our clients can take advantage of our knowledge in interior design and fit out companies in Dubai.
 
             </p>
         </div>
@@ -205,12 +205,12 @@ const AboutSection = () => {
 
           <p className="text-white text-sm sm:text-base font-play mb-4">
             Business Bay is known for its luxury residential properties, and our <b className="text-[#caa193]"
-            ><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design in Business Bay Dubai</a></b> services are designed to provide you with luxurious, comfortable, and contemporary living spaces. We are experts in luxury interior design Dubai and provide homes that are a perfect blend of beauty and functionality</p>
+            ><a href="https://wedointerior.ae/apartment-interior-design-dubai">apartment interior design in Business Bay, Dubai</a></b> services are designed to provide you with luxurious, comfortable, and contemporary living spaces. We are experts in luxury interior design Dubai and provide homes that are a perfect blend of beauty and functionality</p>
          <h3 className="text-[#b98877] text-md font-conthrax mb-4 leading-tight">
                ELEGANT RESIDENTIAL SPACES TAILORED TO YOUR LIFESTYLE
              </h3>
           <p className="text-white text-sm sm:text-base mb-4 font-play">
-           We also undertake projects in other nearby locations like  Executive Towers and the Vision Tower in Business Bay. Whether it is a small apartment or a waterfront penthouse, our interior design in Business Bay Dubai is a perfect blend of elegance, innovation, and functionality.</p>
+           We also undertake projects in other nearby locations like  Executive Towers and the Vision Tower in Business Bay. Whether it is a small apartment or a waterfront penthouse, our interior design in Business Bay, Dubai is a perfect blend of elegance, innovation, and functionality.</p>
 
 
            {/* Buttons */}
@@ -233,7 +233,7 @@ const AboutSection = () => {
         <div className="w-full lg:w-1/2">
           <Image
             src="/images/bba.png"
-            alt="Office Interior Design in Business Bay Dubai"
+            alt="Office Interior Design in Business Bay, Dubai"
             width={800}
             height={600}
             className="w-full h-100 rounded-lg shadow-md"

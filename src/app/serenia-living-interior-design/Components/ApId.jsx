@@ -119,7 +119,7 @@ const ApId = () => {
               <a href="https://wedointerior.ae/interior-design-companies-palm-jumeirah-dubai">
                 Serenia Living residences in Palm Jumeirah
               </a>
-            </b>{' '}, with the entire process including interior design and 3D visualization to custom joinery, furniture, and turnkey installation. If you own a 2-, 3-, or 4-bedroom apartment, penthouse, Reserve residence, or Sky Mansion, our in-house team creates the interior around the residence itself, its proportions, sea views, natural light, handover condition, and the way you want to live in it. With 15+ years of experience, 250+ completed projects, and in-house design, joinery, and fit-out teams, WE DO gives Serenia Living owners one team and one contract from ideation through move-in.
+            </b>{' '}, with the entire process including interior design and 3D visualization to custom joinery, furniture, and turnkey installation. If you own a 2-, 3-, or 4-bedroom apartment, penthouse, Reserve residence, or Sky Mansion, our in-house team creates the interior around the residence itself, its proportions, sea views, natural light, handover condition, and the way you want to live in it. With 11+ years of experience, 250+ completed projects, and in-house design, joinery, and fit-out teams, WE DO gives Serenia Living owners one team and one contract from ideation through move-in.
           </p>
         </div>
 
@@ -140,7 +140,7 @@ const ApId = () => {
     </li>
 
     <li>
-      WE DO: <strong>15+ years</strong>, <strong>250+ completed projects</strong>, in-house design, joinery, and fit-out under one team and one contract.
+      WE DO: <strong>11+ years</strong>, <strong>250+ completed projects</strong>, in-house design, joinery, and fit-out under one team and one contract.
     </li>
 
     <li>

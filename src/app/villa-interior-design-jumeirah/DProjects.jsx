@@ -135,7 +135,7 @@ const DProjects = () => {
         </li>
         <li>
           <h3 className="font-play font-bold text-base text-justify">Villa Design and Build</h3>
-          <p className="text-white font-play text-sm sm:text-base text-justify">For older villas that require more than a simple refresh, our <b className="text-[#caa193]"><a href="/design-build-services-in-dubai">villa design and build in Dubai</a></b> service covers the project from layout planning through to interiors, so the architecture and the interior design are planned together rather than as separate steps. As an experienced villa design company Dubai, we ensure both architecture and interiors work together seamlessly.</p>
+          <p className="text-white font-play text-sm sm:text-base text-justify">For older villas that require more than a simple refresh, our <b className="text-[#caa193]"><a href="/design-build-services-in-dubai">villa design and build in Dubai</a></b> service covers the project from layout planning through to interiors, so the architecture and the interior design are planned together rather than as separate steps. As an experienced villa design company in Dubai, we ensure both architecture and interiors work together seamlessly.</p>
         </li>
       </ul>
 

@@ -536,7 +536,7 @@ const DProjects = () => {
             <a href="https://wedointerior.ae/commercial-interior-design-dubai">
               commercial sectors
             </a>
-          </b>{' '}, with 15+ years of experience in the market. We&apos;re DED-registered and certified to ISO 9001:2015 (quality), ISO 14001:2015 (environmental), and ISO 45001:2018 (health and safety), and we won the Luxury Lifestyle Awards in 2026.
+          </b>{' '}, with 11+ years of experience in the market. We&apos;re DED-registered and certified to ISO 9001:2015 (quality), ISO 14001:2015 (environmental), and ISO 45001:2018 (health and safety), and we won the Luxury Lifestyle Awards in 2026.
           What sets the process apart is that almost nothing gets subcontracted out. Design, civil works, decoration, and joinery all sit with our own in-house teams, including our own state-of-the-art joinery factory, one roof, every stage, one point of accountability. Our approvals team works directly with Dubai Civil Defence (DCD) and Dubai Municipality (DM), and holds established relationships with major private developers including Emaar and Damac, alongside the free-zone authorities.
         </p>
       </div>
@@ -775,7 +775,7 @@ const DProjects = () => {
           </h2>
 
           <p className="text-sm sm:text-base font-play max-w-3xl mx-auto leading-relaxed">
-            Office – WH-05 A, Jebel Ali Industrial 1, Dubai, UAE. Phone or WhatsApp +971 58 807 5603, or email{" "}
+            Office – Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai. Phone or WhatsApp +971588075603, or email{" "}
             <a
               href="mailto:info@wedointerior.ae"
               className="text-[#caa193] font-semibold hover:underline"
@@ -816,7 +816,7 @@ const DProjects = () => {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Interior Design Company Dubai - WeDo Interior Design & Fit out Location"
+            title="Interior Design company in Dubai - WeDo Interior Design & Fit out Location"
           ></iframe>
         </div>
 
@@ -909,7 +909,7 @@ const DProjects = () => {
                   <a href="https://wedointerior.ae/gallery">
                     250+ completed projects
                   </a>
-                </b>{' '}, 15+ years of experience in the Dubai market, and Luxury Lifestyle Awards 2026.
+                </b>{' '}, 11+ years of experience in the Dubai market, and Luxury Lifestyle Awards 2026.
               </p>
             </div>
           </div>

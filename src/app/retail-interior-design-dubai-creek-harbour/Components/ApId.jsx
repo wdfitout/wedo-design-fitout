@@ -22,7 +22,7 @@ const ApId = () => {
   
     Bespoke retail design and fit-out for boutiques, showrooms, and flagship stores along Dubai's new waterfront downtown. WE DO Interior Design & Fit-Out, delivering <b className='text-[#caa193]'><a href="https://wedointerior.ae/boutique-interior-design-dubai">retail interior design</a></b>  Dubai Creek Harbour brands trust to translate identity into space. From boutique storefronts along Creek Marina to flagship podium retail at The Address Grand Creek Harbour and Vida Creek Harbour, we design and build interiors that pull footfall, hold attention, and convert visitors into customers.
  
-  With 15+ years shaping interiors of retail centers in Dubai and in-house design, MEP, and joinery teams under one roof we handle every retail project end-to-end without subcontracting the parts that matter most.
+  With 11+ years shaping interiors of retail centers in Dubai and in-house design, MEP, and joinery teams under one roof we handle every retail project end-to-end without subcontracting the parts that matter most.
 </p>
 
 

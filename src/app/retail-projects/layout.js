@@ -4,18 +4,7 @@ export const metadata = {
   title: "Retail Projects In Dubai - We Do Interior",
   description:
     "Explore retail projects in Dubai by WE DO Interior Design & Fitout. Luxury retail interior design, boutique design & fit-out services. Contact us today.",
-  keywords: [
-  'Retail Projects Dubai',
-  'Retail Interior Design Dubai',
-  'Luxury Retail Interior Design Dubai',
-  'Boutique Interior Design Dubai',
-  'Retail Fit-Out Company Dubai',
-  'Retail Interior Design Company Dubai',
-  'Interior Design & Fit-Out Company Dubai',
-  'Commercial Retail Design UAE',
-  'Shop Interior Design Dubai',
-  'We Do Retail Interior Projects'
-],
+ 
 
 publisher:['WEDO Interior Design & Fit-out'],
   metadataBase: new URL('https://wedointerior.ae/'),
@@ -70,7 +59,7 @@ export default function RootLayout({ children }) {
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+971-50-123-4567',
+                telephone: '+971588075603',
                 contactType: 'Customer Service',
                 areaServed: 'AE',
                 availableLanguage: ['English', 'Arabic'],

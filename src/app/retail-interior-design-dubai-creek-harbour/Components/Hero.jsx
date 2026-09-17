@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
           Retail Interior Design Dubai Creek Harbour </h1>
           <h2 className="text-sm md:text-xl lg:text-2xl font-play mb-3">  
-           15+ Years | In-House Joinery | Emaar & DDA Approvals Handled
+           11+ Years | In-House Joinery | Emaar & DDA Approvals Handled
 
             </h2>
         

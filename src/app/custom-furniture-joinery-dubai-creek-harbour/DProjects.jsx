@@ -115,7 +115,7 @@ const DProjects = () => {
             Doors, Frames & Architectural Joinery
           </h3>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-            We do complete architectural joinery for full fit-out projects — internal doors, frames, skirting boards, architraves, and decorative timber elements. Our full-service joinery company Dubai Creek Harbour handles your entire joinery needs under one contract. It's all managed by one team with just one person to contact, making things easier for you.
+            We do complete architectural joinery for full fit-out projects — internal doors, frames, skirting boards, architraves, and decorative timber elements. Our full-service joinery company in Dubai Creek Harbour handles your entire joinery needs under one contract. It's all managed by one team with just one person to contact, making things easier for you.
           </p>
         </div>
 
@@ -445,7 +445,7 @@ We are actively delivering
                 </tr>
                 <tr>
                   <td className="border border-[#caa193]/40 px-4 py-2">
-                    <b className="text-[#caa193]">15+ Years Experience</b>
+                    <b className="text-[#caa193]">11+ Years Experience</b>
                   </td>
                   <td className="border border-[#caa193]/40 px-4 py-2">
                     Residential and commercial joinery across all Dubai communities
@@ -634,7 +634,7 @@ We are actively delivering
           </h3>
           <p className="text-sm sm:text-base text-white text-justify font-play">
             Yes. We are one of the few
-           joinery company Dubai Creek Harbour
+           joinery company in Dubai Creek Harbour
             specialists who serve both residential and commercial clients with equal
             depth. From apartments and penthouses to cafes, restaurants, and retail
             shops — we cover it all.

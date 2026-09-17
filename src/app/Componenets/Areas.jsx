@@ -48,7 +48,7 @@ const Areas = () => {
     <Image
       src="/images/atlantis-the-royal-luxury-living-room-interior-design.webp"
       alt="Modern luxury bedroom interior Deign in Dubai Hills: showcasing Design skills of Interior Design comapny Dubai"
-      title="Premium Interior DEsign Company Dubai: Luxurious Bedrooms in Dubai Hills"
+      title="Premium Interior DEsign company in Dubai: Luxurious Bedrooms in Dubai Hills"
       width={700}
       height={300}
       className="w-full lg:rounded-tr-3xl md:rounded-tr-3xl hover:transform hover:-translate-y-2 transition-transform duration-500 opacity-50"/> 
@@ -107,7 +107,7 @@ const Areas = () => {
 <Link href={"/fit-out-company-in-business-bay-dubai"}>
     <Image
        src="/images/best-restaurant-interior-design-business-bay-dubai.webp"
-       alt="Luxury villa interior Design in Emirates Hills Dubai featuring luxurious Design by Dnterior Design company Dubai"
+       alt="Luxury villa interior Design in Emirates Hills Dubai featuring luxurious Design by Dnterior Design company in Dubai"
        title="Experience Unmatched Luxury: Spacious Villa Disign in Emirates Hills Dubai from one of the Best Interior Design companies in Dubai"
        width={700}
        height={300}

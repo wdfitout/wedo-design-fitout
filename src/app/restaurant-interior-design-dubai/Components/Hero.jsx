@@ -17,7 +17,7 @@ const Hero = () => {
           RESTAURANT INTERIOR DESIGN DUBAI
           </h1>
           <p className="text-sm lg:text-xl xl-text-2xl text-left">
-          Ready to take your Dubai bar or restaurant to the next level with the best interior designing company Dubai? Transform your Restaurant & Bar Interior Design Dubai. Contact We Do Interiors today! We are The Let's discuss your vision and explore how we can transform your space into a masterpiece.
+          Ready to take your Dubai bar or restaurant to the next level with the best interior designing company in Dubai? Transform your Restaurant & Bar Interior Design Dubai. Contact We Do Interiors today! We are The Let's discuss your vision and explore how we can transform your space into a masterpiece.
           </p>
         </div>
       </div>

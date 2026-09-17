@@ -375,7 +375,7 @@ const DProjects = () => {
               Book Your Free Consultation
             </h2>
             <p className="text-sm sm:text-base text-white text-justify font-play">
-              If your Jumeirah apartment needs a refresh, a complete <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">apartment fit out company Dubai</a></b> solution, or a full interior renovation, <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us">Schedule a free consultation today</a></b> and discover how your apartment can be transformed into a more functional, comfortable, and personalised living space.<br/>
+              If your Jumeirah apartment needs a refresh, a complete <b className="text-[#caa193]"><a href="https://wedointerior.ae/fit-out-company-dubai">apartment fit out company in Dubai</a></b> solution, or a full interior renovation, <b className="text-[#caa193]"><a href="https://wedointerior.ae/contact-us">Schedule a free consultation today</a></b> and discover how your apartment can be transformed into a more functional, comfortable, and personalised living space.<br/>
               WE DO visit your apartment, listen to what is and is not working, and put together honest, practical suggestions along with a clear estimate. No pressure, and no assumption that bigger or more expensive is automatically better, just a straightforward conversation about how to make your home work properly for you.
             </p>
           </div>

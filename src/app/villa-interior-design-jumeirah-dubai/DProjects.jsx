@@ -142,7 +142,7 @@ const DProjects = () => {
           <tr>
             <td className="p-3 border border-gray-800 font-semibold text-[#caa193]">Best fit</td>
             <td className="p-3 border border-gray-800 text-gray-300">New-build or recently refreshed villas</td>
-            <td className="p-3 border border-gray-800 text-gray-300">Established villas (15+ years) with outdated systems or layouts</td>
+            <td className="p-3 border border-gray-800 text-gray-300">Established villas (11+ years) with outdated systems or layouts</td>
           </tr>
           <tr>
             <td className="p-3 border border-gray-800 font-semibold text-[#caa193]">Garden & outdoor work</td>
@@ -766,7 +766,7 @@ const DProjects = () => {
       <div className="space-y-1">
         <p className="font-semibold text-[#caa193]">Office & Workshop Address:</p>
         <p className="text-gray-300">
-          WE DO Interior Design & Fit-Out — WH-05 A, Jebel Ali Industrial 1, Dubai, UAE
+          WE DO Interior Design & Fit-Out — Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai
         </p>
       </div>
 
