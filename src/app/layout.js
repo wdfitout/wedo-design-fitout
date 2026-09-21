@@ -151,11 +151,18 @@ const businessSchema = {
    * are visibly displayed on the homepage.
    */
   review: WEDO_REVIEWS,
-};
 
-/* ==========================================================================
-   WebSite Schema
-   ========================================================================== */
+  /*
+   * Add only real company profile URLs.
+   *
+   * sameAs: [
+   *   'https://www.instagram.com/your-profile',
+   *   'https://www.facebook.com/your-profile',
+   *   'https://www.linkedin.com/company/your-profile',
+   *   'https://www.houzz.com/pro/your-profile',
+   * ],
+   */
+};
 
 const websiteSchema = {
   '@type': 'WebSite',
@@ -163,9 +170,7 @@ const websiteSchema = {
   '@id': `${SITE_URL}#website`,
 
   url: SITE_URL,
-
-  name: 'WE DO Interior Design & Fitout',
-
+  name: 'WE DO Interior Design',
   publisher: {
     '@id': WEDO_ORGANIZATION_ID,
   },
@@ -355,7 +360,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google Ads and Google Analytics */}
-
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
@@ -377,21 +381,58 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-      </head>
 
-      <body>
-        {children}
+        {/* LocalBusiness Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema),
+          }}
+        />
 
-        {/* Combined JSON-LD */}
+        {/* WebSite Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
 
+        {/* WebPage Schema */}
         <script
           id="wedo-root-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd),
+            __html: JSON.stringify(webPageSchema),
           }}
         />
-      </body>
+
+        {/* Site Navigation Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(siteNavigationSchema),
+          }}
+        />
+
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbSchema),
+          }}
+        />
+
+        {/* Service Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(serviceSchema),
+          }}
+        />
+      </head>
+
+      <body>{children}</body>
     </html>
   );
 }
