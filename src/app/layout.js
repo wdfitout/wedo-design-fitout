@@ -34,13 +34,9 @@ export const metadata = {
 
   openGraph: {
     title: HOME_TITLE,
-
     description: HOME_DESCRIPTION,
-
     url: HOME_URL,
-
     siteName: 'WE DO Interior Design & Fitout',
-
     type: 'website',
 
     images: [
@@ -55,11 +51,8 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-
     title: HOME_TITLE,
-
     description: HOME_DESCRIPTION,
-
     images: ['/og-image.jpg'],
   },
 
@@ -116,7 +109,8 @@ const organizationSchema = {
 
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai',
+    streetAddress:
+      'Dubai - X4RG+39W Jabel Ali, Jabel Ali Industrial 1 - Dubai',
     addressLocality: 'Dubai',
     addressRegion: 'Dubai',
     postalCode: '00000',
@@ -147,22 +141,15 @@ const businessSchema = {
   aggregateRating: WEDO_AGGREGATE_RATING,
 
   /*
-   * Keep review markup only when these same reviews
-   * are visibly displayed on the homepage.
+   * Keep review markup only when these reviews
+   * are visibly displayed on the website.
    */
   review: WEDO_REVIEWS,
-
-  /*
-   * Add only real company profile URLs.
-   *
-   * sameAs: [
-   *   'https://www.instagram.com/your-profile',
-   *   'https://www.facebook.com/your-profile',
-   *   'https://www.linkedin.com/company/your-profile',
-   *   'https://www.houzz.com/pro/your-profile',
-   * ],
-   */
 };
+
+/* ==========================================================================
+   Website Schema
+   ========================================================================== */
 
 const websiteSchema = {
   '@type': 'WebSite',
@@ -170,7 +157,9 @@ const websiteSchema = {
   '@id': `${SITE_URL}#website`,
 
   url: SITE_URL,
-  name: 'WE DO Interior Design',
+
+  name: 'WE DO Interior Design & Fitout',
+
   publisher: {
     '@id': WEDO_ORGANIZATION_ID,
   },
@@ -179,7 +168,7 @@ const websiteSchema = {
 };
 
 /* ==========================================================================
-   WebPage Schema
+   Homepage WebPage Schema
    ========================================================================== */
 
 const webPageSchema = {
@@ -278,7 +267,7 @@ const siteNavigationSchema = {
 };
 
 /* ==========================================================================
-   Breadcrumb Schema
+   Homepage Breadcrumb Schema
    ========================================================================== */
 
 const breadcrumbSchema = {
@@ -289,11 +278,8 @@ const breadcrumbSchema = {
   itemListElement: [
     {
       '@type': 'ListItem',
-
       position: 1,
-
       name: 'Home',
-
       item: HOME_URL,
     },
   ],
@@ -359,7 +345,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Ads and Google Analytics */}
+        {/* ================================================================
+            Google Ads + Google Analytics 4
+            ================================================================ */}
+
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
@@ -381,58 +370,33 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+      </head>
 
-        {/* LocalBusiness Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(localBusinessSchema),
-          }}
-        />
+      <body>
+        {children}
 
-        {/* WebSite Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(websiteSchema),
-          }}
-        />
+        {/* ================================================================
+            WE DO Structured Data
+            ================================================================ */}
 
-        {/* WebPage Schema */}
         <script
           id="wedo-root-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(webPageSchema),
+            __html: JSON.stringify(jsonLd),
           }}
         />
 
-        {/* Site Navigation Schema */}
+        {/* ================================================================
+            Zoho CRM Google Ads / GCLID Tracking
+            Keep near the end of body
+            ================================================================ */}
+
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(siteNavigationSchema),
-          }}
-        />
-
-        {/* Breadcrumb Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(breadcrumbSchema),
-          }}
-        />
-
-        {/* Service Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(serviceSchema),
-          }}
-        />
-      </head>
-
-      <body>{children}</body>
+          type="text/javascript"
+          src="https://crm.zoho.com/crm/javascript/zcga.js"
+        ></script>
+      </body>
     </html>
   );
 }
