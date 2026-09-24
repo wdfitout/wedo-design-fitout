@@ -1,41 +1,75 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Hero = () => {
-  return (
-    <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src="/images/acdh (8).png"
-        alt="interior design"
-        width={1920}
-        height={1080}
-        priority
-        className="object-cover"
-      />
+const images = [
+  "/images/majanvilla (3).webp",
+  "/images/majanvilla (8).webp",
+  "/images/majanvilla (12).webp",
+  "/images/majanvilla (2).webp",
+  "/images/majanvilla (5).webp",
+];
 
-      {/* Overlay Content Box */}
-      <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
-        <h1 className="text-md md:text-2xl lg:           text-4xl font-conthrax mb-2">
-          Villa Interior Design Dubai </h1>
-          <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-          Best Luxury Villa Designers in Dubai </h2>
-        
+const Hero = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) =>
+        prev === images.length - 1 ? 0 : prev + 1
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="relative w-full h-[600px] sm:h-[550px] md:h-[550px] lg:h-[400px] xl:h-[600px] overflow-hidden">
+      
+      {/* Background Image Slider */}
+      {images.map((src, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-opacity duration-[3000ms] ease-in-out ${
+            index === currentIndex ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <Image
+            src={src}
+            alt="Villa interior design company in dubai"
+            fill
+            priority={index === 0}
+            className="object-cover"
+          />
+        </div>
+      ))}
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/30 z-[1]" />
+
+      {/* Overlay Content */}
+      <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg text-white max-w-[700px]">
+        <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
+          Villa Interior Design Dubai 
+        </h1>
+
+        <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">
+         Luxury Villa Interior Design Company in Dubai, <br />in-house from concept to handover.
+        </p>
 
         <div className="flex gap-4 flex-wrap">
           <Link
             href="/contact-us"
-            className="bg-[#caa193] text-black px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition-all duration-200"
+            className="bg-[#caa193] text-black px-3 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition"
           >
             Send an Inquiry
           </Link>
 
           <Link
             href="/gallery"
-            className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
+            className="border border-[#caa193] px-3 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition"
           >
             Our Projects
           </Link>
@@ -46,5 +80,3 @@ const Hero = () => {
 };
 
 export default Hero;
- 
-
