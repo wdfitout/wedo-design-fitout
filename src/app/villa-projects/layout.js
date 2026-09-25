@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
               },
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Jebel Ali Industrial 1',
+                streetAddress: 'Jabel Ali Industrial 1',
                 addressLocality: 'Dubai',
                 postalCode: '00000',
                 addressCountry: 'AE',

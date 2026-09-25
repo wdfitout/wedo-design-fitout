@@ -152,7 +152,7 @@ const ApId = () => {
     </li>
 
     <li>
-      DED-registered Dubai interior design and fit-out company, HQ in Jebel Ali Industrial 1.
+      DED-registered Dubai interior design and fit-out company, HQ in Jabel Ali Industrial 1.
     </li>
 
     <p>Ready to hire an interior designer for your Serenia Living residence? Call or WhatsApp WE DO at

@@ -203,7 +203,7 @@ const faqs = [
     height="350"
     style={{ border: 0 }}
     loading="lazy"
-    title="WE DO Interior Design & Fit-Out — Jebel Ali, Dubai"
+    title="WE DO Interior Design & Fit-Out — Jabel Ali, Dubai"
   />
 </div>
       {/* FAQ + Map Section */}
@@ -253,7 +253,7 @@ const faqs = [
   </h2>
 
   <p className="font-play text-[15px] text-white/80 leading-7 max-w-3xl mx-auto">
-    Send us your floor plan for a free quote and 3D render. Call or WhatsApp +971 58 807 5603, or email info@wedointerior.ae. WE DO Interior Design &amp; Fit-Out, WH-05 A, Jebel Ali Industrial 1, Dubai.
+    Send us your floor plan for a free quote and 3D render. Call or WhatsApp +971 58 807 5603, or email info@wedointerior.ae. WE DO Interior Design &amp; Fit-Out, X4RG+39W Jabel Ali, Jabel Ali Industrial 1, Dubai.
   </p>
 
   <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">

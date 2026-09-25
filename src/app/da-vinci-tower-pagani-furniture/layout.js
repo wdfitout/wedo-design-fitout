@@ -124,7 +124,7 @@ const localBusinessSchema = {
   "email": "info@wedointerior.ae",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "WH-05 A, Jebel Ali Industrial 1",
+    "streetAddress": "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
     "addressLocality": "Dubai",
     "addressCountry": "AE"
   },

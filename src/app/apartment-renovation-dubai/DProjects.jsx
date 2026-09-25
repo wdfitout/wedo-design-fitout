@@ -114,7 +114,7 @@ const DProjects = () => {
                 <li>In-house team handles design, approvals, and construction under one contract, no subcontractor handoffs</li>
                 <li>DED-registered interior fit-out contractor</li>
                 <li>Comprehensive fit-outs average around AED 80-150 per sq ft, or approximately AED 40,000-300,000+ overall; these are approximate market ranges, not fixed prices</li>
-                <li>Based in Jebel Ali Industrial, Dubai, serving communities across the city</li>
+                <li>Based in Jabel Ali Industrial, Dubai, serving communities across the city</li>
               </ul>
             </div>
 

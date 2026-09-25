@@ -132,15 +132,15 @@ const FAQ = () => {
             </p>
           </div>
 
-          <h2
+         <h2
             className="
-              mt-2
-              text-xl
-              sm:text-2xl
-              md:text-3xl
-              tracking-wide
+              text-[12px]
+              sm:text-xl
+              text-white
+              tracking-widest
               font-conthrax
-              uppercase
+              py-0
+              md:py-5
             "
           >
             INTERIOR DESIGN QUESTIONS, ANSWERED

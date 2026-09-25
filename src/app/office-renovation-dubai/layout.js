@@ -178,7 +178,7 @@ const officeRenovationSchema = {
       "email": "info@wedointerior.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "WH-05 A, Jebel Ali Industrial 1",
+        "streetAddress": "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
         "addressLocality": "Dubai",
         "addressCountry": "AE"
       },
@@ -189,9 +189,9 @@ const officeRenovationSchema = {
       "award": "Luxury Lifestyle Awards Winner 2026",
       "sameAs": [
         "https://www.instagram.com/we.do.uae/",
-        "https://www.linkedin.com/company/wedointeriors/",
+        "https://www.linkedin.com/company/wedointerior/",
         "https://www.pinterest.com/wedo_interior/",
-        "https://www.facebook.com/wedofitout",
+        "https://www.facebook.com/wedointerior",
         "https://www.tiktok.com/@wedo_interior"
       ]
     },

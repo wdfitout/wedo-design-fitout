@@ -192,7 +192,7 @@ const faqs = [
     height="350"
     style={{ border: 0 }}
     loading="lazy"
-    title="WE DO Interior Design & Fit-Out — Jebel Ali, Dubai"
+    title="WE DO Interior Design & Fit-Out — Jabel Ali, Dubai"
   />
 </div>
       {/* FAQ + Map Section */}

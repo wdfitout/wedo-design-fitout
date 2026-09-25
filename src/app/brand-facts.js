@@ -6,9 +6,7 @@
 // Right now wedointerior.ae publishes FOUR different project counts:
 //   "200+ projects"  — homepage OG description
 //   "250+ projects"  — the figure confirmed by the client
-//   "400+ villas"    — /villa-renovation-dubai
-//   "500+ projects"  — root layout WebPage schema + /retail-interior-design-downtown-dubai
-//
+//   "400+ villas"    — /villa-renovation-dubai//
 // A single URL currently serves two of them about 2KB apart. Search engines and
 // LLMs both penalise internal contradictions, and it is a plain E-E-A-T problem.
 //

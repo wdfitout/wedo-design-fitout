@@ -11,7 +11,7 @@ const DProjects = () => {
 
   const testimonials = [
     {
-      quote: '"WE DO transformed our boutique store concept into reality at Creek Marina. Their flawless management of Emaar\'s strict manuals and DDA permits saved us weeks of delays. The custom joinery work built in Jebel Ali is exceptional."',
+      quote: '"WE DO transformed our boutique store concept into reality at Creek Marina. Their flawless management of Emaar\'s strict manuals and DDA permits saved us weeks of delays. The custom joinery work built in Jabel Ali is exceptional."',
       author: 'Luxury Fashion Brand',
       role: 'Store Manager, Dubai Creek Harbour'
     },
@@ -287,7 +287,7 @@ const DProjects = () => {
           <p className="text-sm sm:text-base text-white text-justify font-play leading-relaxed">
            <b className="text-[#caa193]"><a href="https://wedointerior.ae/" className="hover:underline">Retailers choose WE DO</a></b> due to our over 15 years of experience in high-end commercial design services for all of Dubai's exclusive areas such as DIFC, <b className='text-[#caa193]'><a href="/retail-interior-design-downtown-dubai">Downtown</a></b> , <b className='text-[#caa193]'><a href="/interior-design-company-business-bay">Business Bay</a></b>, Palm Jumeirah, and most recently, Dubai Creek Harbour. Designing a retail space is our forte, where we create a concept around your brand identity and design it in such a way that suits the customer base your retail outlet caters to. We pride ourselves on being turn-key designers for your projects, meaning that designing, MEP, joinery, fit-outs, and even approvals happen under one roof, which removes the finger-pointing between subcontractors and gives you one point of accountability from kickoff to handover. 
             <br /><br />
-            Working within Creek Harbour requires extensive local knowledge about Emaar buildings. The reason behind this is that we are already familiar with Emaar's criteria for fit-outs of their tenants, property management, and approval procedures because we have worked through them many times before. Every construction project relies on our in-house joinery facility located in Jebel Ali, which manufactures display units, storefronts, counters, and feature walls ourselves. This results in a shorter lead time, better quality assurance, and a 12-month warranty on all of our joinery pieces. 
+            Working within Creek Harbour requires extensive local knowledge about Emaar buildings. The reason behind this is that we are already familiar with Emaar's criteria for fit-outs of their tenants, property management, and approval procedures because we have worked through them many times before. Every construction project relies on our in-house joinery facility located in Jabel Ali, which manufactures display units, storefronts, counters, and feature walls ourselves. This results in a shorter lead time, better quality assurance, and a 12-month warranty on all of our joinery pieces. 
          
             Businesses looking for <b className='text-[#caa193]'><a href="interior-design-dubai-creek-harbour">interior design companies in Dubai Creek Harbour</a></b>  select WE DO Interior Design & Fitout because of our experiences, dedication, and personalized solutions.
           </p>
@@ -464,7 +464,7 @@ const DProjects = () => {
               Are you looking for a retail interior designer near me in Dubai Creek Harbour?
             </h3>
             <p className="text-sm sm:text-base text-white text-justify font-play leading-relaxed">
-              If you are looking for a retail interior designer near me, our Dubai-based studio provides service to Dubai Creek Harbour, Downtown, Business Bay, and <b className='text-[#caa193]'><a href="https://wedointerior.ae//retail-interior-design-jumeirah">Jumeirah</a></b> from our Jebel Ali base. Our site visits for Dubai Creek Harbour happen within 48 hours of inquiry.
+              If you are looking for a retail interior designer near me, our Dubai-based studio provides service to Dubai Creek Harbour, Downtown, Business Bay, and <b className='text-[#caa193]'><a href="https://wedointerior.ae//retail-interior-design-jumeirah">Jumeirah</a></b> from our Jabel Ali base. Our site visits for Dubai Creek Harbour happen within 48 hours of inquiry.
             </p>
 
             <h3 className="text-base md:text-sm font-conthrax text-[#caa193] text-left">

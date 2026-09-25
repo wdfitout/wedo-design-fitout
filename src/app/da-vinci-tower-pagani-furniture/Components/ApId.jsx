@@ -419,7 +419,7 @@ const ApId = () => {
                         joinery and upholstery workshops
                       </a>
                     </b>{' '}
-                    in Jebel Ali means no third-party contractor margin.
+                    in Jabel Ali means no third-party contractor margin.
                   </li>
                   <li>
                     <strong className="text-white">Project-specific scope:</strong>{' '}

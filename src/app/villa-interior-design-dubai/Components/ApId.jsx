@@ -619,7 +619,7 @@ const ApId = () => {
 
           
             <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">
-            WE DO is the best interior design company, runs a turnkey villa interior design process in three stages, from first conversation to final handover.
+            WE DO is an interior design company, runs a turnkey villa interior design process in three stages, from first conversation to final handover.
             </p>
 
            
@@ -965,7 +965,7 @@ const ApId = () => {
           </p>
 
           <h2 className="text-white text-center text-xl sm:text-3xl font-conthrax mb-5">
-            Furnished Residences Across Dubai
+           Villa Interior Design Projects Across Dubai
           </h2>
         </div>
 
@@ -979,7 +979,7 @@ const ApId = () => {
               <div className="relative aspect-square">
                 <Image
   src={item.image}
-  alt={`${item.project} furnished apartment interior in Dubai by WE DO`}
+  alt={`${item.project} villa interior projects in Dubai by WE DO`}
   fill
   sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
   className="object-cover transition duration-700 group-hover:scale-[1.04]"
@@ -1009,7 +1009,7 @@ const ApId = () => {
           </p>
 
           <h2 className="text-white text-center text-2xl lg:text-3xl font-conthrax mb-8">
-            From Bare Handover to Fully Furnished
+            From Bare Handover to Fully Designed
           </h2>
 
           <div className="w-full max-w-[900px] mx-auto bg-[#151515] border border-[#caa193]/10 p-5">
@@ -1021,8 +1021,8 @@ const ApId = () => {
             >
               <div className="absolute inset-0">
                <Image
-  src="/images/manara-after.jpg"
-  alt="manara villa after"
+  src="/images/majan-after.jpg"
+  alt="majan villa after"
   fill
   sizes="(max-width: 768px) 100vw, 50vw"
   className="object-cover"

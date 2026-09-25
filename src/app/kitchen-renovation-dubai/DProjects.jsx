@@ -89,7 +89,7 @@ const DProjects = () => {
                   <li>Kitchen renovations completed as part of full apartment projects in Business Bay, Dubai Marina, and Palm Jumeirah</li>
                   <li>In-house team handles design, cabinetry, and installation under one contract</li>
                   <li>Kitchen renovation packages average around AED 15,000-180,000+ depending on scope, an approximate market range, not a fixed price</li>
-                  <li>Based in Jebel Ali Industrial, Dubai, serving communities across the city</li>
+                  <li>Based in Jabel Ali Industrial, Dubai, serving communities across the city</li>
                 </ul>
               </div>
 

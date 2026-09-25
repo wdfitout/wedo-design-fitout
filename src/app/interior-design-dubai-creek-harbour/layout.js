@@ -114,7 +114,7 @@ export default function RootLayout({ children }) {
     address: {
       "@type": "PostalAddress",
 
-      streetAddress: "WH-05 A, Jebel Ali Industrial 1",
+      streetAddress: "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
 
       addressLocality: "Dubai",
 
@@ -156,7 +156,7 @@ export default function RootLayout({ children }) {
     address: {
       "@type": "PostalAddress",
 
-      streetAddress: "WH-05 A, Jebel Ali Industrial 1",
+      streetAddress: "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
 
       addressLocality: "Dubai",
 

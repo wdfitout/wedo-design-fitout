@@ -23,7 +23,7 @@ const socialLinks = [
   },
   {
     icon: <FaLinkedin />,
-    href: "https://www.linkedin.com/company/wedointeriors/",
+    href: "https://www.linkedin.com/company/wedointerior/",
     label: "LinkedIn",
   },
   {

@@ -958,7 +958,7 @@ const DProjects = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="strict-origin-when-cross-origin"
-          title="WE DO Interior Design & Fit-Out location in Jebel Ali, Dubai"
+          title="WE DO Interior Design & Fit-Out location in Jabel Ali, Dubai"
         />
       </div>
 

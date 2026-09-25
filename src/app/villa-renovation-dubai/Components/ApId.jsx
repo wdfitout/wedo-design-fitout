@@ -74,7 +74,7 @@ const ApId = () => {
               Emirates Hills to Green Community — covering MEP upgrades, cosmetic
               layout refreshes, and interior fit-out under one project team. WE DO
               is a DED-registered interior design and fit-out company based in
-              Jebel Ali, serving villa owners, landlords, and property managers
+              Jabel Ali, serving villa owners, landlords, and property managers
               across the UAE. With {VILLA_PROJECTS} completed and {EXPERIENCE_YEARS}{' '}
               in the Dubai market, we manage everything from Dubai Municipality
               approvals to final styling. Most renovation projects involve villas
@@ -85,7 +85,7 @@ const ApId = () => {
 
             {/*
               ⚠️ REMOVED: the "interior design and fit-out company based in
-              Jebel Ali" text was linked to a Google local-search URL stuffed
+              Jabel Ali" text was linked to a Google local-search URL stuffed
               with session parameters (sca_esv, sxsrf, kgs, utm_source…).
 
               Linking out to a Google SERP does nothing for you: it passes no

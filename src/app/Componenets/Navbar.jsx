@@ -144,7 +144,7 @@ const socialLinks = [
   },
   {
     icon: FaLinkedin,
-    href: "https://www.linkedin.com/company/wedointeriors/",
+    href: "https://www.linkedin.com/company/wedointerior/",
     label: "LinkedIn",
     hoverColor: "hover:text-blue-600",
   },
@@ -156,7 +156,7 @@ const socialLinks = [
   },
   {
     icon: FaFacebook,
-    href: "https://www.facebook.com/wedofitout",
+    href: "https://www.facebook.com/wedointerior",
     label: "Facebook",
     hoverColor: "hover:text-blue-500",
   },

@@ -9,7 +9,7 @@ const TestimonialCarousel = () => {
   const testimonials = [
   {
     quote:
-      "We Do Interior Design & Fitout is a good choice for villa interior design in Dubai, especially in Emirates Hills. Their design team is highly professional and knows how to make your place stylish and comfortable. They created my luxury villa dream into a reality. I love their work! Highly recommended for interior design and fit-out projects in Emirates Hills.",
+      "We Do Interior Design & Fitout is a good choice for villa interior design in Dubai. Their design team is highly professional and knows how to make your place stylish and comfortable. They created my luxury villa dream into a reality. I love their work! Highly recommended for interior design and fit-out projects in Emirates Hills.",
     author: " Amelia Parker, Emirates Hills",
   },
   {
@@ -187,7 +187,7 @@ const faqs = [
     height="350"
     style={{ border: 0 }}
     loading="lazy"
-    title="WE DO Interior Design & Fit-Out — Jebel Ali, Dubai"
+    title="WE DO Interior Design & Fit-Out — Jabel Ali, Dubai"
   />
 </div>
       {/* FAQ + Map Section */}
