@@ -117,7 +117,7 @@ const ApId = () => {
 
         {/* KEY FACTS */}
 
-        <div className="mt-10 border border-[#caa193]/10 bg-[#111] p-8">
+        <div className="mt-10 border border-[#caa193]/10 bg-[#111] p-2">
           <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-4">
             Key Facts
           </p>
@@ -203,7 +203,7 @@ const ApId = () => {
 
         {/* Is This the Right Villa Interior Design Service for You?  */}
 
-        <div className="mt-5 border border-[#caa193]/10 bg-[#111] p-8">
+        <div className="mt-5 border border-[#caa193]/10 bg-[#111] p-2">
           <h2 className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3">
           Is This the Right Villa Interior Design Service for You? 
           </h2>
@@ -269,17 +269,17 @@ const ApId = () => {
             <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">
              Villa interior design and villa renovation or construction are related but different services. If you're not sure which one your villa needs, this is the fastest way to tell:
             </p>
-                 <div className="border border-[#caa193]/10 bg-[#111] p-4 sm:p-5 overflow-x-auto">
+                 <div className="border border-[#caa193]/10 bg-[#111] p-2 sm:p-2 overflow-x-auto">
                    <table className="w-full min-w-[600px] border-collapse text-left">
                      <thead>
                        <tr className="border-b border-[#caa193]/10">
-                         <th className="px-3 py-3 text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
+                         <th className="p-2 text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
                            Comparison
                          </th>
-                         <th className="px-3 py-3 text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
+                         <th className="p-2  text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
                            Villa Interior Design
                          </th>
-                         <th className="px-3 py-3 text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
+                         <th className="p-2  text-[#caa193] text-[10px] tracking-[1.5px] uppercase font-conthrax">
                            Villa Renovation &amp; Construction
                          </th>
                        </tr>
@@ -287,38 +287,38 @@ const ApId = () => {
 
                      <tbody className="font-play text-xs sm:text-sm text-white/80">
                         <tr className="border-b border-[#caa193]/10">
-                         <td className="px-3 py-3 text-white font-semibold align-top">
+                         <td className="p-2 text-white font-semibold align-top">
                            Focus
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2 leading-6 align-top">
                            Space planning, styling, furniture, joinery, and finishes
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2  leading-6 align-top">
                            New builds, extensions, demolish-and-rebuild, structural/civil
                            works, and municipality approvals
                          </td>
                        </tr>
 
                        <tr className="border-b border-[#caa193]/10">
-                         <td className="px-3 py-3 text-white font-semibold align-top">
+                         <td className="p-2  text-white font-semibold align-top">
                            Typical client
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2  leading-6 align-top">
                            Villa shell exists or is move-in ready
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2 leading-6 align-top">
                            Empty plot, structural changes required, or a full rebuild
                          </td>
                        </tr>
 
                        <tr>
-                         <td className="px-3 py-3 text-white font-semibold align-top">
+                         <td className="p-2 text-white font-semibold align-top">
                            Typical output
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2  leading-6 align-top">
                            A fully furnished, styled, move-in-ready interior
                          </td>
-                         <td className="px-3 py-3 leading-6 align-top">
+                         <td className="p-2  leading-6 align-top">
                            A completed structure, ready for interior design and fit-out
                          </td>
                        </tr>
@@ -623,7 +623,7 @@ const ApId = () => {
             </p>
 
            
-              <div className="border border-[#caa193]/10 bg-[#111] p-6">
+              <div className="border border-[#caa193]/10 bg-[#111] p-2">
                 <ol className="space-y-2 font-play text-white/80 text-sm list-decimal list-inside">
                   <li>
                     <strong className="text-white">Consultation & Site Visit:</strong>{' '}
@@ -836,7 +836,7 @@ const ApId = () => {
   })()}
 </section>
  <h3 className="text-xl text-white lg:text-md font-conthrax mt-5 mb-5">Materials & Finishes</h3>
-  <div className="rounded-lg border border-[#caa193]/10 bg-[#111] p-6">
+  <div className="rounded-lg border border-[#caa193]/10 bg-[#111] p-2">
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   
   {/* Flooring & Stone */}
@@ -910,10 +910,10 @@ const ApId = () => {
               <thead className="bg-[#181818]">
                 <tr>
                   
-                  <th className="border border-[#caa193]/10 px-4 py-3 text-left font-conthrax text-[12px] text-[#caa193]">
+                  <th className="border border-[#caa193]/10 p-2 text-left font-conthrax text-[12px] text-[#caa193]">
                     Scope
                   </th>
-                  <th className="border border-[#caa193]/10 px-4 py-3 text-left font-conthrax text-[12px] text-[#caa193]">
+                  <th className="border border-[#caa193]/10 p-2 text-left font-conthrax text-[12px] text-[#caa193]">
                    Approx. range (AED)
 
                   </th>
@@ -922,30 +922,30 @@ const ApId = () => {
 
               <tbody className="bg-[#111] font-play text-[14px] text-white/80">
                 <tr>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                  Partial villa interior design (select rooms)
                   </td>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                   80,000 – 150,000
                   </td>
                  
                 </tr>
 
                 <tr>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                    Full design & fit-out, 3-5 bedroom villa
                   </td>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                    250,000 – 1,000,000+
                   </td>
                  
                 </tr>
 
                 <tr>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                   Bespoke ultra-luxury fit-out (e.g. Emirates Hills, Palm Jumeirah-tier finishes)
                   </td>
-                  <td className="border border-[#caa193]/10 px-4 py-3">
+                  <td className="border border-[#caa193]/10 p-2">
                    3,000,000+
                   </td>
                  
@@ -987,7 +987,7 @@ const ApId = () => {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
-                <div className="absolute inset-x-0 bottom-0 p-6">
+                <div className="absolute inset-x-0 bottom-0 p-2">
                   <h3 className="font-conthrax text-[13px] text-white uppercase leading-6">
                     {item.project}
                   </h3>
@@ -1075,7 +1075,7 @@ const ApId = () => {
             Why Choose WE DO for Your Villa Interior Design 
           </h2>
 
-          <div className="rounded-lg border border-[#caa193]/10 bg-[#111] p-6">
+          <div className="rounded-lg border border-[#caa193]/10 bg-[#111] p-2">
             <p className="text-sm leading-8 mb-4 font-play text-white/85">
             Design and fit-out under one contract. WE DO combines villa interior design and fit-out under one contract, giving you a single team and point of contact from design through execution. 
             Real certifications, not just marketing claims. ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification, DED registration, plus a 2026 Luxury Lifestyle Award, credentials you can verify, not just brand copy. 

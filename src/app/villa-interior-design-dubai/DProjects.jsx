@@ -151,7 +151,7 @@ const faqs = [
 </h2>
 <p className="font-play text-sm leading-7 text-white/85">WE DO Interior Design & Fit-Out handles villa interior design and fit-out in Dubai <br />under one contract, from the first site visit to final handover, no separate designer <br /> and contractor to coordinate yourself.
 </p>
-<div className="border border-[#caa193]/10 bg-black/30 p-6">
+<div className="border border-[#caa193]/10 bg-black/30 p-2">
 
   <p className="font-play text-sm leading-7 text-white/85">
     <strong className="text-white">WE DO Interior Design &amp; Fit-Out</strong>
@@ -224,43 +224,7 @@ const faqs = [
   ))}
 
 </div>
-         {/* CTA */}
 
-<div className="mt-12  border border-[#caa193]/20 bg-[#111] p-8 text-center">
-
-  <p className="text-[#caa193] text-xs tracking-[3px] uppercase font-conthrax mb-3">
-    Get a Free Quote
-  </p>
-
-  <h2 className="text-xl text-white lg:text-2xl font-conthrax mb-5">
-   Ready to Start Your Villa Project?
-  </h2>
-
-  <p className="font-play text-[15px] text-white/80 leading-7 max-w-3xl mx-auto">
-   Send us your floor plan for a free consultation and a tailored project proposal. WhatsApp +971 58 807 5603 or email info@wedointerior.ae.
-  </p>
-
-  <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-
-    <a
-      href="https://wa.me/971588075603"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-7 py-3 rounded-md bg-[#caa193] text-black font-conthrax text-xs uppercase tracking-wider hover:bg-[#d8b2a5] transition-colors"
-    >
-      WhatsApp Us
-    </a>
-
-    <a
-      href="mailto:info@wedointerior.ae"
-      className="px-7 py-3 rounded-md border border-[#caa193] text-[#caa193] font-conthrax text-xs uppercase tracking-wider hover:bg-[#caa193] hover:text-black transition-colors"
-    >
-      Email Us
-    </a>
-
-  </div>
-
-</div>
 
         </div>
       </div>

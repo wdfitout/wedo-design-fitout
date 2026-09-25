@@ -9,7 +9,7 @@ export const metadata = {
   title: 'Luxury Villa Interior Design in Dubai | WE DO Interior',
 
   description:
-    'Villa interior design in Dubai by WE DO, from concept to handover. 15 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
+    'Villa interior design in Dubai by WE DO, from concept to handover. 11 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
 
   metadataBase: new URL('https://wedointerior.ae/'),
 
@@ -21,7 +21,7 @@ export const metadata = {
     title: 'Luxury Villa Interior Design in Dubai | WE DO Interior',
 
     description:
-      'Villa interior design in Dubai by WE DO, from concept to handover. 15 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
+      'Villa interior design in Dubai by WE DO, from concept to handover. 11 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
 
     url: PAGE_URL,
 
@@ -46,7 +46,7 @@ export const metadata = {
     title: 'Luxury Villa Interior Design in Dubai | WE DO Interior',
 
     description:
-      'Villa interior design in Dubai by WE DO, from concept to handover. 15 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
+      'Villa interior design in Dubai by WE DO, from concept to handover. 11 years, 250+ projects, ISO certified and in-house design, joinery and fit-out teams.',
 
     images: [OG_IMAGE],
   },
