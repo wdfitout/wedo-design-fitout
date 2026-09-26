@@ -1,5 +1,3 @@
-import '../globals.css';
-
 const PAGE_URL = 'https://wedointerior.ae/villa-interior-design-dubai';
 
 const OG_IMAGE =
@@ -36,7 +34,7 @@ export const metadata = {
       },
     ],
 
-    locale: 'en_US',
+    locale: 'en_AE',
     type: 'website',
   },
 
@@ -53,75 +51,14 @@ export const metadata = {
 };
 
 /* -------------------------------------------------------------------------- */
-/* Local Business Schema                                                      */
-/* -------------------------------------------------------------------------- */
-
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HomeAndConstructionBusiness',
-
-  '@id': 'https://wedointerior.ae/#business',
-
-  name: 'WE DO Interior Design & Fit-Out',
-
-  url: 'https://wedointerior.ae/',
-
-  image: OG_IMAGE,
-
-  telephone: '+971588075603',
-
-  email: 'info@wedointerior.ae',
-
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'X4RG+39W Jabel Ali, Jabel Ali Industrial 1',
-    addressLocality: 'Dubai',
-    addressCountry: 'AE',
-  },
-
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 24.9901875,
-    longitude: 55.1259375,
-  },
-
-  hasMap: 'https://maps.google.com/?cid=1335620002385386514',
-
-  priceRange: 'AED',
-
-  award: 'Luxury Lifestyle Awards Winner 2026',
-
-  hasCredential: [
-    {
-      '@type': 'EducationalOccupationalCredential',
-      name: 'ISO 9001:2015 (Quality Management)',
-    },
-    {
-      '@type': 'EducationalOccupationalCredential',
-      name: 'ISO 14001:2015 (Environmental Management)',
-    },
-    {
-      '@type': 'EducationalOccupationalCredential',
-      name: 'ISO 45001:2018 (Occupational Health & Safety)',
-    },
-  ],
-
-  sameAs: [
-    'https://www.instagram.com/we.do.uae/',
-    'https://www.linkedin.com/company/wedointerior/',
-    'https://www.pinterest.com/wedo_interior/',
-    'https://www.facebook.com/wedointerior',
-    'https://www.tiktok.com/@wedo_interior',
-  ],
-};
-
-/* -------------------------------------------------------------------------- */
 /* Breadcrumb Schema                                                          */
 /* -------------------------------------------------------------------------- */
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
+
+  '@id': `${PAGE_URL}#breadcrumb`,
 
   itemListElement: [
     {
@@ -312,9 +249,21 @@ const webPageSchema = {
 
   name: 'Luxury Villa Interior Design in Dubai | WE DO Interior',
 
-  inLanguage: 'en',
+  inLanguage: 'en-AE',
 
   dateModified: '2026-09-24',
+
+  isPartOf: {
+    '@id': 'https://wedointerior.ae/#website',
+  },
+
+  breadcrumb: {
+    '@id': `${PAGE_URL}#breadcrumb`,
+  },
+
+  mainEntity: {
+    '@id': `${PAGE_URL}#service`,
+  },
 
   about: {
     '@id': `${PAGE_URL}#service`,
@@ -345,13 +294,6 @@ const webPageSchema = {
 export default function VillaInteriorDesignLayout({ children }) {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema),
-        }}
-      />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
