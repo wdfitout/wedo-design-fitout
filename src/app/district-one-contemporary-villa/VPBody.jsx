@@ -157,10 +157,10 @@ const VPBody = () => {
         {/* Headings */}
         <div className="mb-6">
           <p className="text-xs sm:text-base font-conthrax tracking-wide uppercase text-white">
-            TRANSFORMING LUXURY LIVING:
+          3-Bedroom Villa
           </p>
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            DISTRICT ONE CONTEMPORARY VILLA
+          District One  Contemporary Villa, <br /> MBR City 
           </h1>
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
@@ -175,26 +175,17 @@ const VPBody = () => {
               style={{ scrollbarWidth: "none" }}
             >
            <p>
-            At WE DO Interior Design & Fitout, we recently completed a stunning District One villa interior design in Dubai, 
-            our team transformed this <b className="text-[#caa193]"><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District 1 contemporary villa, MBR City</a></b> into a most modern and comfortable space. Our 
-            vision for this District 1 community of Mohammed Bin Rashid was to design the interiors that blend comfort, 
-            functionality and elegance while reflecting the uniqueness and identity of Homeowners.
+           WE DO Interior Design & Fit-Out created and implemented this 3-bedroom contemporary villa in District One, Mohammed Bin Rashid City (MBR City). The color combination used is dark walnut, honed travertine, charcoal and brushed bronze, along with sand linen and olive accents.
             </p>
 
             <p>
-              As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">leading provider of bespoke villa interior design in Dubai</a></b>, 
-              we specialize in offering complete villa interior design services that cover every detail of the villas in MBR.
-              This project puts light on our expertise in providing luxury interior design solutions for MBR City, featuring premium 
-              materials, open layouts, seamless integration of modern technology and custom-made furniture.
+              The double-height living area is centered around the travertine fireplace wall and floating walnut staircase with glass walls opening to the pool. The majlis, walnut dining and kitchen with a travertine island form the rest of the reception areas.
             </p>
 
             <p>
-              As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-construction-dubai">trusted interior fitout & villa construction company in Dubai</a></b>, UAE,  we also provide comprehensive fit-out and 
-              villa construction services while ensuring the accuracy and quality in every step from initial to final. Known as 
-              the best villa interior design company in Dubai, our skilled residential interior designers in Dubai continue to set 
-              new standards in design excellence. Whether it’s working on MBR City District 1 villas or other villa interiors in 
-              Dubai, our mission is to create timeless homes that perfectly combine luxury and lifestyle. Explore the full project 
-              below:
+             The master bedroom contains a wall with a walnut headboard, a walk-in closet and a bathroom that is finished with travertine and includes a bathtub. The second Bedroom consists of a built-in desk. The third Bedroom is a children’s bedroom and has two twin beds. Outside, there is a shaded pool terrace. <br /> <br />
+             All joinery was produced in <b className='text-[#caa193]'><a href="https://wedointerior.ae/joinery-company-dubai">WE DO's in-house joinery factory</a></b>. See more <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interior design in Dubai</a></b>, or compare with our <b className='text-[#caa193]'><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District One 2-bedroom contemporary villa</a></b>.
+
             </p>
             </div>
           </div>

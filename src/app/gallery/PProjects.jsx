@@ -178,7 +178,7 @@ const projects = [
     {
     img: "/images/district-one-3-bedroom-contemporary-villa-living-room.webp",
     alt: "Contemporary three-bedroom villa exterior in District One Dubai",
-    title: "DISTRICT ONE CONTEMPORARY VILLA",
+    title: "DISTRICT ONE 3-BEDROOM CONTEMPORARY VILLA",
     href: "/district-one-contemporary-villa",
   },
   {
@@ -196,7 +196,7 @@ const projects = [
     {
     img: "/images/district-one-villa-master-bedroom-wall-panelling.png",
     alt: "Master bedroom with upholstered beige wall panelling and cove lighting, District One villa, MBR City",
-    title: "DISTRICT 1 MBR CITY CONTEMPORARY VILLA",
+    title: "DISTRICT ONE 2-BEDROOM CONTEMPORARY VILLA",
     href: "/district-1-mbr-city-contemporary-villa",
   },
   {
