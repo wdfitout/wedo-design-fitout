@@ -6,60 +6,91 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/d1villa (1).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+    src: "/images/district-one-3-bedroom-contemporary-villa-exterior.webp",
+    alt: "Contemporary three-bedroom villa exterior in District One Dubai",
+    title: "District One 3-Bedroom Contemporary Villa Exterior",
+    description:
+      "Contemporary two-storey villa exterior in District One with a travertine facade, private infinity pool and landscaped garden",
   },
   {
-    src: "/images/d1villa (2).webp",
-    alt: "Modern kitchen design with marble countertops",
-    title: "Villa Interior Gallery Image 2",
-    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+    src: "/images/district-one-3-bedroom-contemporary-villa-living-room.webp",
+    alt: "Contemporary living room in a three-bedroom District One villa",
+    title: "District One Contemporary Villa Living Room",
+    description:
+      "Double-height living room featuring a travertine feature wall, linear fireplace, walnut staircase and views toward the pool",
   },
   {
-    src: "/images/d1villa (3).webp",
-    alt: "Luxury bathroom with golden fixtures",
-    title: "Villa Interior Gallery Image 3",
-    description: "Stylish bathroom with gold fixtures and large mirrors"
+    src: "/images/district-one-3-bedroom-contemporary-villa-majlis.webp",
+    alt: "Contemporary majlis in a District One villa",
+    title: "District One Contemporary Villa Majlis",
+    description:
+      "Contemporary majlis with sand-colored seating, walnut wall panels, bronze detailing and a symmetrical reception layout",
   },
   {
-    src: "/images/d1villa (4).webp",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/district-one-3-bedroom-contemporary-villa-dining-room.webp",
+    alt: "Contemporary dining room in a District One villa",
+    title: "District One Contemporary Villa Dining Room",
+    description:
+      "Elegant dining area with a solid walnut table, olive bouclé chairs, bronze pendant lighting and a travertine-topped sideboard",
   },
   {
-    src: "/images/d1villa (5).webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/district-one-3-bedroom-contemporary-villa-kitchen.webp",
+    alt: "Contemporary luxury kitchen in a District One villa",
+    title: "District One Contemporary Villa Kitchen",
+    description:
+      "Contemporary villa kitchen with dark walnut cabinetry, a monolithic travertine island and integrated appliances",
   },
   {
-    src: "/images/d1villa (6).webp",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
-  },
-    {
-    src: "/images/d1villa (7).webp",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/district-one-3-bedroom-contemporary-villa-master-bedroom.webp",
+    alt: "Contemporary master bedroom in a District One villa",
+    title: "District One Contemporary Villa Master Bedroom",
+    description:
+      "Luxury master bedroom with a full-width walnut headboard wall, sand linen bedding and views over the landscaped garden",
   },
   {
-    src: "/images/d1villa (8).webp",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/district-one-3-bedroom-contemporary-villa-second-bedroom.webp",
+    alt: "Contemporary second bedroom in a District One villa",
+    title: "District One Contemporary Villa Second Bedroom",
+    description:
+      "Refined guest bedroom with a charcoal upholstered headboard, travertine bedside tables, walnut desk and bronze lighting",
   },
   {
-    src: "/images/d1villa (9).webp",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
-  }
+    src: "/images/district-one-3-bedroom-contemporary-villa-third-bedroom.webp",
+    alt: "Contemporary third bedroom in a District One villa",
+    title: "District One Contemporary Villa Third Bedroom",
+    description:
+      "Contemporary children's bedroom with twin beds, custom walnut storage, a reading nook and muted olive and sand textiles",
+  },
+  {
+    src: "/images/district-one-3-bedroom-contemporary-villa-master-bathroom.webp",
+    alt: "Contemporary master bathroom in a District One villa",
+    title: "District One Contemporary Villa Master Bathroom",
+    description:
+      "Luxury master bathroom featuring warm travertine surfaces, a freestanding stone bathtub, walnut vanity and brushed bronze fittings",
+  },
+  {
+    src: "/images/district-one-3-bedroom-contemporary-villa-walk-in-wardrobe.webp",
+    alt: "Contemporary walk-in wardrobe in a District One villa",
+    title: "District One Contemporary Villa Walk-In Wardrobe",
+    description:
+      "Bespoke walk-in wardrobe with walnut cabinetry, bronze-framed glass doors, integrated LED lighting and a central travertine island",
+  },
+  {
+    src: "/images/district-one-3-bedroom-contemporary-villa-entrance-foyer.webp",
+    alt: "Double-height entrance foyer in a District One villa",
+    title: "District One Contemporary Villa Entrance Foyer",
+    description:
+      "Double-height villa entrance with a dark walnut pivot door, travertine flooring, sculptural bronze console and skylight",
+  },
+  {
+    src: "/images/district-one-3-bedroom-contemporary-villa-outdoor-terrace.webp",
+    alt: "Contemporary outdoor terrace at a District One villa",
+    title: "District One Contemporary Villa Outdoor Terrace",
+    description:
+      "Luxury pool terrace with a travertine deck, built-in outdoor seating, walnut-tone pergola and outdoor kitchen",
+  },
 ];
+
 
 const VPBody = () => {
   const scrollRef = useRef(null);
@@ -171,16 +202,16 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/d1villa (10).webp"
-              alt="Luxury villa interior with white marble flooring and gold accents"
-              title="Modern Villa Interior Design in Dubai"
+              src="/images/district-one-3-bedroom-contemporary-villa-kitchen.webp"
+              alt="Contemporary luxury kitchen in a District One villa"
+              title="District One Contemporary Villa Kitchen"
               width={800}
               height={500}
               loading="lazy"
               className="w-full h-auto object-cover"
             />
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+             Contemporary villa kitchen with dark walnut cabinetry, a monolithic travertine island and integrated appliances.
             </figcaption>
           </figure>
         </div>

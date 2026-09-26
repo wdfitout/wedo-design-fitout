@@ -38,7 +38,17 @@ const TestimonialCarousel = () => {
 
   return (
     <div className="bg-black-300 p-6 rounded-lg border-l-4 border-[#caa193] my-6 font-play text-white">
-      <h2 className="text-lg font-conthrax text-[#caa193] uppercase tracking-wider mb-3 text-justify">
+       <h2
+            className="
+              text-[12px]
+              sm:text-xl
+              text-white
+              tracking-widest
+              font-conthrax
+              py-0
+              md:py-5
+            "
+          >
         What Clients Say
       </h2>
 
@@ -145,7 +155,17 @@ const faqs = [
       </div>
 {/* VISIT US */}
 
-<h2 className="mt-10 text-lg lg:text-xl font-conthrax text-[#caa193] mb-5">
+  <h2
+            className="
+              text-[12px]
+              sm:text-xl
+              text-white
+              tracking-widest
+              font-conthrax
+              py-0
+              md:py-5
+            "
+          >
  Ready to Start Your Villa Project?
 
 </h2>
@@ -200,7 +220,17 @@ const faqs = [
     FAQs
   </p>
 
-  <h2 className="text-xl text-white lg:text-2xl font-conthrax mb-8">
+    <h2
+            className="
+              text-[12px]
+              sm:text-xl
+              text-white
+              tracking-widest
+              font-conthrax
+              py-0
+              md:py-5
+            "
+          >
     Frequently Asked Questions
   </h2>
 

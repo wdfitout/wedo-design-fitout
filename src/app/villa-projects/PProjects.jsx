@@ -14,16 +14,16 @@ const projects = [
   },
 
     {
-    img: "/images/d1villa (1).webp",
-    alt: "Home Interior Design",
+    img: "/images/district-one-3-bedroom-contemporary-villa-dining-room.webp",
+    alt: "Contemporary dining room in a District One villa",
     title: "DISTRICT ONE CONTEMPORARY VILLA",
     href: "/district-one-contemporary-villa",
   },
 
     {
-    img: "/images/d1mbr (1).png",
-    alt: "Home Interior Design",
-    title: "DISTRICT 1 MBR CITY CONTEMPORARY VILLA",
+    img: "/images/district-one-villa-kitchen-stone-island.png",
+    alt: "Contemporary kitchen with stone-clad island, bar seating and handleless cabinetry, District One villa",
+    title: "DISTRICT One, 2 BEDROOM MBR CITY CONTEMPORARY VILLA",
     href: "/district-1-mbr-city-contemporary-villa",
   },
 

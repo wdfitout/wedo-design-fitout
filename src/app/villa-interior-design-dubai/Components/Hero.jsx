@@ -51,7 +51,7 @@ const Hero = () => {
 
       {/* Overlay Content */}
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg text-white max-w-[700px]">
-        <h1 className="text-3xl md:text-2xl lg:text-4xl font-conthrax mb-2">
+        <h1 className="mt-2 font-play text-sm tracking-wider sm:text-lg md:text-2xl lg:text-3xl">
           Villa Interior Design Dubai 
         </h1>
 

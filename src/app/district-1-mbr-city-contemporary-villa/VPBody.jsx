@@ -6,58 +6,58 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/d1mbr (2).png",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
+    src: "/images/district-one-villa-home-office-green-wall.png",
+    alt: "Home office with built-in oak shelving and LED lighting facing a green wall, District One villa, MBR City",
+    title: "Home Office with Green Wall View, District One Villa",
+    description: "Home office with built-in oak shelving and LED strip lighting, looking onto a green wall through full-height glazing"
   },
   {
-    src: "/images/d1mbr (3).png",
-    alt: "Modern kitchen design with marble countertops",
-    title: "Villa Interior Gallery Image 2",
-    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+    src: "/images/district-one-villa-utility-room-fitted-joinery.png",
+    alt: "Laundry room with full-height fitted joinery and stacked washer-dryer, District One contemporary villa",
+    title: "Laundry Room with Fitted Joinery, District One Villa",
+    description: "Laundry area with full-height handleless joinery made in WE DO's in-house joinery factory"
   },
   {
-    src: "/images/d1mbr (4).png",
-    alt: "Luxury bathroom with golden fixtures",
-    title: "Villa Interior Gallery Image 3",
-    description: "Stylish bathroom with gold fixtures and large mirrors"
+    src: "/images/district-one-villa-master-bedroom-wall-panelling.png",
+    alt: "Master bedroom with upholstered beige wall panelling and cove lighting, District One villa, MBR City",
+    title: "Master Bedroom with Wall Panelling, District One Villa",
+    description: "Master bedroom with upholstered wall panelling, cove lighting, a lounge chair and layered soft fabrics"
   },
   {
-    src: "/images/d1mbr (5).png",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/district-one-villa-second-bedroom-tray-ceiling.png",
+    alt: "Second bedroom with tray ceiling, cove lighting and garden view, District One contemporary villa",
+    title: "Second Bedroom with Tray Ceiling, District One Villa",
+    description: "Second bedroom with a tray ceiling, soft neutral tones and floor-to-ceiling windows onto the garden"
   },
   {
-    src: "/images/d1mbr (6).png",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/district-one-villa-dining-pendant-lights.png",
+    alt: "Dining area with glass table and cluster of pendant lights, District One contemporary villa, MBR City",
+    title: "Dining Area with Pendant Lights, District One Villa",
+    description: "Dining area beside the living room, with a glass dining table under a sculptural cluster of pendant lights"
   },
   {
-    src: "/images/d1mbr (7).png",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
-  },
-    {
-    src: "/images/d1mbr (8).png",
-    alt: "Bedroom with neutral tones and wall paneling",
-    title: "Villa Interior Gallery Image 4",
-    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+    src: "/images/district-one-villa-double-height-living-glass-staircase.png",
+    alt: "Double-height living room with glass staircase and low sectional sofa, District One villa, MBR City",
+    title: "Double-Height Living Room with Glass Staircase, District One Villa",
+    description: "Double-height living room with a glass staircase keeping the garden view open, a low sectional sofa and round coffee table"
   },
   {
-    src: "/images/d1mbr (9).png",
-    alt: "Villa staircase with chandelier and marble steps",
-    title: "Villa Interior Gallery Image 5",
-    description: "Architectural staircase design with high ceiling chandelier"
+    src: "/images/district-one-villa-skylit-entrance-corridor.png",
+    alt: "Skylit entrance corridor with marble-look flooring and statement artwork, District One villa",
+    title: "Skylit Entrance Corridor, District One Villa",
+    description: "Entrance corridor lit by a skylight, with marble-look flooring and a single statement artwork leading to the foyer"
   },
   {
-    src: "/images/d1mbr (10).png",
-    alt: "Private lounge with artistic wall décor and leather seating",
-    title: "Villa Interior Gallery Image 6",
-    description: "Bespoke lounge area with leather furniture and curated art pieces"
+    src: "/images/district-one-villa-foyer-timber-slat-wall.png",
+    alt: "Villa foyer with vertical timber slat wall and live-edge console table, District One, MBR City",
+    title: "Foyer with Timber Slat Wall, District One Villa",
+    description: "Foyer with a vertical timber slat wall, live-edge console and a sculptural pendant light"
+  },
+  {
+    src: "/images/district-one-villa-kitchen-stone-island.png",
+    alt: "Contemporary kitchen with stone-clad island, bar seating and handleless cabinetry, District One villa",
+    title: "Kitchen with Stone-Clad Island, District One Villa",
+    description: "Kitchen with a stone-clad island and integrated seating facing full-height handleless cabinetry"
   }
 ];
 
@@ -81,7 +81,9 @@ const VPBody = () => {
   };
 
   const prevImage = () => {
-    setCurrent((prev) => (prev - 1 + galleryImages.length) % galleryImages.length);
+    setCurrent(
+      (prev) => (prev - 1 + galleryImages.length) % galleryImages.length
+    );
   };
 
   // 🔄 Ensure scroll starts at top
@@ -99,6 +101,7 @@ const VPBody = () => {
       if (e.key === "ArrowLeft") prevImage();
       if (e.key === "Escape") closeImage();
     };
+
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
   }, [isOpen]);
@@ -107,17 +110,19 @@ const VPBody = () => {
     <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-20 font-sans">
       {/* Breadcrumb */}
       <p className="text-xs text-[#caa193] uppercase tracking-widest mb-4 font-conthrax">
-        HOME &gt; PROJECTS &gt; DISTRICT 1 MBR CITY CONTEMPORARY VILLA 
+        HOME &gt; PROJECTS &gt; DISTRICT 1 MBR CITY CONTEMPORARY VILLA
       </p>
 
       {/* Heading + Paragraph + Image */}
       <div className="relative pl-4 sm:pl-6 mb-20">
         {/* Scroll line */}
         <div className="absolute top-0 left-0 h-full w-[1px] bg-gray-400 z-0 hidden lg:block" />
+
         <motion.div
           className="absolute left-[-4px] top-[104px] w-2 h-2 rounded-full bg-[#caa193] z-10 hidden lg:block"
           style={{ y: dotY }}
         />
+
         <div
           className="absolute top-0 left-0 w-[1px] bg-gray-400 z-0 block lg:hidden"
           style={{ height: "calc(104px + 360px)" }}
@@ -126,11 +131,13 @@ const VPBody = () => {
         {/* Headings */}
         <div className="mb-6">
           <p className="text-xs sm:text-base font-conthrax tracking-wide uppercase text-white">
-            TRANSFORMING LUXURY LIVING:
+            2-Bedrooms Villa
           </p>
+
           <h1 className="text-sm sm:text-2xl md:text-3xl font-conthrax tracking-widest text-white mt-1">
-            DISTRICT 1 MBR CITY CONTEMPORARY VILLA 
+           District One Contemporary Villa, <br /> MBR City
           </h1>
+
           <div className="w-30 sm:w-96 h-[2px] bg-[#caa193] mt-2" />
         </div>
 
@@ -143,29 +150,51 @@ const VPBody = () => {
               className="max-h-[360px] overflow-y-auto scroll-smooth text-sm leading-6 text-white/90 space-y-4 pr-2 font-play"
               style={{ scrollbarWidth: "none" }}
             >
-           <p>At WE DO Interior Design & Fitout, our team provides luxury design solutions for MBR City, Dubai. Our skills in <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">villa 
-            interior design and fit out services in Dubai</a></b> means that every detail of our design reflects comfort, uniqueness and 
-            sophistication.</p>
+              <p>
+                WE DO Interior Design & Fit-Out created the interior design of this District One villa in Mohammed Bin Rashid City (MBR City) based on one concept: calm, warm minimalism that allows the architecture and the light to do the work. We have chosen a palette of light oak, soft beige and pale stone, so each room showcases as part of one theme rather than a bundle of various coloured spaces.
+              </p>
 
-            <p>Our latest district 1 MBR city contemporary villa  Interior design project shows our skills in  contemporary villa 
-              interior which is designed by precision and creativity. This MBR City villa interior design project is a blend of 
-              innovation and elegance and completing this project was setting a new benchmark for luxurious modern villa designs 
-              in MBR City.
-            </p>
-            <p>Whether it’s <b className="text-[#caa193]"><a href="https://wedointerior.ae/district-one-contemporary-villa">District One villa interior renovation</a></b>or complete design and build, our team provides tailored 
-              solutions that meet the aspirations of homeowners. Well known for providing the best villa interior design in 
-              Mohammed Bin Rashid City, we specialize in creating bespoke designs that equalize aesthetics and practicality.</p>
-            
-            <p>As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">trusted interior fit-out & villa construction company in Dubai</a></b>, UAE, WE DO ensures seamless project execution 
-              from concept to completion. With a focus on detail, innovation, and craftsmanship, our MBR City villa project stands 
-              as a true expression of premium living.</p>
+              <p>
+               This double-story living room acts as the focal point of this villa. With a glass stairwell, there is an uninterrupted view to the garden while keeping the seating low through a low-level sectional and a round table to keep the furniture grounded even with such a high ceiling. On the other side of the living room is the dining area which houses a glass table under pendant lights.
+              </p>
+
+              <p>
+                The entrance is a skylit hallway with marble-like floors leading to the foyer. In the kitchen, a stone clad kitchen island with seating area is facing the handle-less cabinetry.
+              </p>
+
+              <p>
+                The private rooms follow the same principle. Both bedrooms have upholstery wall panels, cove lighting, and layered textiles. The home office has access to the green wall with its tall windows and has in-built oak shelving and LED strip lighting. Even the laundry area has full-height fitted joinery.
+              </p>
+
+              <p>
+                We manufactured all cabinetry, wall panelling, and shelving in
+                WE DO&apos;s{" "}
+                <b className="text-[#caa193]">
+                  <a href="https://wedointerior.ae/joinery-company-dubai">
+                    in-house joinery factory
+                  </a>
+                </b>
+                . For more of our villa work, see our{" "}
+                <b className="text-[#caa193]">
+                  <a href="https://wedointerior.ae/villa-interior-design-dubai">
+                    villa interior design services in Dubai
+                  </a>
+                </b>
+                , or compare this project with our{" "}
+                <b className="text-[#caa193]">
+                  <a href="https://wedointerior.ae/district-one-contemporary-villa">
+                    District One 3-bedroom contemporary villa
+                  </a>
+                </b>
+                .
+              </p>
             </div>
           </div>
 
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/d1mbr (1).png"
+              src="/images/district-one-contemporary-villa-exterior-pool.png"
               alt="Luxury villa interior with white marble flooring and gold accents"
               title="Modern Villa Interior Design in Dubai"
               width={800}
@@ -173,8 +202,10 @@ const VPBody = () => {
               loading="lazy"
               className="w-full h-auto object-cover"
             />
+
             <figcaption className="sr-only">
-              A spacious modern villa interior designed with elegant gold accents, large windows, and premium finishes.
+              A spacious modern villa interior designed with elegant gold
+              accents, large windows, and premium finishes.
             </figcaption>
           </figure>
         </div>
@@ -182,25 +213,28 @@ const VPBody = () => {
 
       {/* Gallery Section */}
       <div className="mt-10">
-           {/* Arrow image */}
-                <div className="mt-10 flex justify-center">
-                  <Image
-                    src="/images/sec-dvd.webp"
-                    alt="Scroll down arrow"
-                    width={320}
-                    height={80}
-                    className="h-auto w-48 sm:w-64"
-                  /> 
-                </div>
-        
-                {/* Section Heading */}
-                <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-         DISTRICT 1 MBR CITY CONTEMPORARY VILLA GALLERY
+        {/* Arrow image */}
+        <div className="mt-10 flex justify-center">
+          <Image
+            src="/images/sec-dvd.webp"
+            alt="Scroll down arrow"
+            width={320}
+            height={80}
+            className="h-auto w-48 sm:w-64"
+          />
+        </div>
+
+        {/* Section Heading */}
+        <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
+          DISTRICT 1 MBR CITY CONTEMPORARY VILLA GALLERY
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((img, idx) => (
-            <figure key={idx} className="cursor-pointer overflow-hidden rounded-md">
+            <figure
+              key={idx}
+              className="cursor-pointer overflow-hidden rounded-md"
+            >
               <Image
                 src={img.src}
                 alt={img.alt}
@@ -211,7 +245,10 @@ const VPBody = () => {
                 className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 onClick={() => openImage(idx)}
               />
-              <figcaption className="sr-only">{img.description}</figcaption>
+
+              <figcaption className="sr-only">
+                {img.description}
+              </figcaption>
             </figure>
           ))}
         </div>
@@ -226,12 +263,14 @@ const VPBody = () => {
           >
             &times;
           </button>
+
           <button
             onClick={prevImage}
             className="absolute left-4 text-white text-4xl"
           >
             &#8592;
           </button>
+
           <Image
             src={galleryImages[current].src}
             alt={galleryImages[current].alt}
@@ -241,6 +280,7 @@ const VPBody = () => {
             loading="lazy"
             className="rounded-md object-contain max-h-[90vh] max-w-[90vw]"
           />
+
           <button
             onClick={nextImage}
             className="absolute right-4 text-white text-4xl"

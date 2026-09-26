@@ -176,8 +176,8 @@ const projects = [
     href: "/business-bay-office-fit-out",
   },
     {
-    img: "/images/d1villa (1).webp",
-    alt: "Home Interior Design",
+    img: "/images/district-one-3-bedroom-contemporary-villa-living-room.webp",
+    alt: "Contemporary three-bedroom villa exterior in District One Dubai",
     title: "DISTRICT ONE CONTEMPORARY VILLA",
     href: "/district-one-contemporary-villa",
   },
@@ -194,8 +194,8 @@ const projects = [
     href: "/business-bay-restaurant",
   },
     {
-    img: "/images/d1mbr (1).png",
-    alt: "Home Interior Design",
+    img: "/images/district-one-villa-master-bedroom-wall-panelling.png",
+    alt: "Master bedroom with upholstered beige wall panelling and cove lighting, District One villa, MBR City",
     title: "DISTRICT 1 MBR CITY CONTEMPORARY VILLA",
     href: "/district-1-mbr-city-contemporary-villa",
   },
