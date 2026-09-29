@@ -224,7 +224,7 @@ const ApId = () => {
           </p>
           <ul className="space-y-1 text-sm font-play text-white/80 leading-8 list-disc list-inside">
             <li>
-              You live in an apartment or townhouse rather than a villa, <b className={linkClass}><a href={`${SITE}/home-interior-design-dubai`}>see Residential Interior Design Dubai</a></b> instead.
+              You live in an apartment or townhouse rather than a villa, <b className={linkClass}><a href={`${SITE}/apartment-interior-design-dubai`}>see Residential Interior Design Dubai</a></b> instead.
             </li>
             <li>Your villa needs structural work before any design can start, see the comparison below.</li>
             <li>

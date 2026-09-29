@@ -19,7 +19,7 @@ const ApId = () => {
             </h2>
                        <p className="text-sm sm:text-base leading-7 mb-4 font-play">
            Turnkey Restaurant interiors and fitouts for F&B concepts around The Creek from fine dining to café promenade.<br/>
-           Over 15 years · Over 500 projects completed · Trakheesi, Dubai Municipality and Civil Defence approvals in house
+           Over 11+ Years · Over 250+ projects completed · Trakheesi, Dubai Municipality and Civil Defence approvals in house
             </p>
            
 <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
@@ -35,7 +35,7 @@ const ApId = () => {
               </div>
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
-              15 Years of Experience
+              11+ Years of Experience
             </div>
           </div>
 

@@ -28,7 +28,7 @@ In Jumeirah, this matters even more. Villas here are elegant, families entertain
 
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit text-justify">
-              15 Years of Experience
+              11+ Years of Experience
             </div>
           </div>
 

@@ -317,7 +317,7 @@ const DProjects = () => {
             How We Deliver Your Custom Furniture in Dubai Creek Harbour
           </h2>
           <p className="text-sm sm:text-base text-white text-justify font-play">
-            Our proven process has been refined over 15 years of delivering
+            Our proven process has been refined over 11+ Years of delivering
             custom joinery Dubai projects across the
             city. This is how it works:
           </p>
@@ -417,7 +417,7 @@ We are actively delivering
           </h2>
           <p className="text-sm sm:text-base text-white text-justify font-play">
             As a leading furniture and interior in Dubai
-            company with over 15 years of experience, WE DO Interior Design & Fitout
+            company with over 11+ Years of experience, WE DO Interior Design & Fitout
             brings a level of capability and reliability that sets us apart:
           </p>
 

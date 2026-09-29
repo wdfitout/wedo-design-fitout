@@ -44,7 +44,7 @@ const ApId = () => {
            <p className="text-sm sm:text-base leading-7 mb-4 font-play">Lighting design is crucial in Modern Apartment Interior Fit-Out in Business Bay. Layered lighting upgrades depth, also balcony and waterfront layout enhancements maximize canal views. Through well-planned styling and attention to process, even compact apartments can be turned into sophisticated, contemporary interiors that align with the iconics of Business Bay.</p>
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
-              15 Years of Experience
+             11+ Years of Experience
             </div>
           </div>
 

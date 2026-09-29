@@ -28,7 +28,7 @@ That gap is exactly what <b className="text-[#caa193]"><a href="https://wedointe
 
             {/* Highlight Box */}
             <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit text-justify">
-              15 Years of Experience
+              11+ Years of Experience
             </div>
           </div>
 

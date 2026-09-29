@@ -148,7 +148,7 @@ const VPBody = () => {
             project is customized according to one's brand identity and taste, while offering a premium dining atmosphere.
           </p>
 
-          <p>With 15 years of experience as a provider of professional restaurant design services in Dubai, WEDO delivers complete 
+          <p>With 11+ Years of experience as a provider of professional restaurant design services in Dubai, WEDO delivers complete 
             <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-projects">interior design solutions for restaurants, cafés, and F&B spaces</a></b>. Among the most trusted Restaurants & Café Interior 
             Designers in UAE, our team has transformed several spaces into stylish and inviting environments.
           </p>

@@ -353,7 +353,7 @@ const DProjects = () => {
           </h2>
 
           <p className="text-sm sm:text-base text-white text-justify font-play">
-            As a trusted interior decoration company in Dubai with over 15 years of experience in commercial and hospitality design, WE DO Interior brings a level of depth and reliability that most boutique studios cannot match:
+            As a trusted interior decoration company in Dubai with over 11+ Years of experience in commercial and hospitality design, WE DO Interior brings a level of depth and reliability that most boutique studios cannot match:
           </p>
 
           <ul className="list-disc pl-5 space-y-3 mt-4 text-justify">

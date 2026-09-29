@@ -148,7 +148,7 @@ const VPBody = () => {
               and attract more visitors.
            </p>
 
-           <p>As a most reliable café interior design & fit-out contractor in Dubai with 15 years of experience, we provide all 
+           <p>As a most reliable café interior design & fit-out contractor in Dubai with 11+ Years of experience, we provide all 
             services from consultation to execution and then finishing.Our work in <b className="text-[#caa193]"><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interiors in Dubai & UAE</a></b> emphasizes 
             creativity, efficiency, and a unique brand identity.</p>
 

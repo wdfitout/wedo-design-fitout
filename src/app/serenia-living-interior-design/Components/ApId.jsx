@@ -277,7 +277,7 @@ const ApId = () => {
 
   <div className="border border-[#caa193]/10 bg-[#111] p-6">
     <p className="text-sm sm:text-base leading-8 font-play text-white/85">
-      Designing a luxury residence at Serenia Living requires more than creative ideas. It takes a team that can manage design, approvals, custom manufacturing, and on-site execution under one roof. In addition to having over 15 years of experience and delivering over 250+ residential and commercial projects in Dubai, WE DO ensures that all stages of your project are taken care of by one team with one contract.
+      Designing a luxury residence at Serenia Living requires more than creative ideas. It takes a team that can manage design, approvals, custom manufacturing, and on-site execution under one roof. In addition to having over 11+ Years of experience and delivering over 250+ residential and commercial projects in Dubai, WE DO ensures that all stages of your project are taken care of by one team with one contract.
     </p>
 
     <p className="text-sm sm:text-base leading-8 mt-4 font-play text-white/85">

@@ -97,7 +97,7 @@ const faqs = [
   q: "Who is the best interior design company near Serenia Living, Palm Jumeirah?",
   a: (
     <>
-      WE DO Interior Design &amp; Fit-Out is a UAE-based interior design &amp; fit-out company with over 15 years of experience and 250+ completed projects in{" "}
+      WE DO Interior Design &amp; Fit-Out is a UAE-based interior design &amp; fit-out company with over 11+ Years of experience and 250+ completed projects in{" "}
       <a 
         href="https://wedointerior.ae/interior-design-company-business-bay" 
         className="text-[#caa193] font-bold hover:underline"

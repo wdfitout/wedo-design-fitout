@@ -42,23 +42,6 @@ const faqs = [
           At WE DO, the answers are yes, in-house, our own team, and ISO 9001,
           14001 and 45001.
         </p>
-
-        <p className="mt-3">
-          When the guide is live, see our{" "}
-          <Link
-            href="/interior-designcompanies-dubai"
-            className="
-              text-[#caa193]
-              underline
-              underline-offset-2
-              hover:text-white
-              transition-colors
-            "
-          >
-            interior design companies in Dubai
-          </Link>{" "}
-          guide.
-        </p>
       </>
     ),
   },

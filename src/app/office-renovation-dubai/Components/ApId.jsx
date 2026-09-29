@@ -33,7 +33,7 @@ const ApId = () => {
             {/* Highlight Box & Button Grouped Together */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-2">
               <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-4 sm:px-6 py-3 sm:py-4 w-fit">
-                15 Years of Experience
+                11+ Years of Experience
               </div>
 
               <Link

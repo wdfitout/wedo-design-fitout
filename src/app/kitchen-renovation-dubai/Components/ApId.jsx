@@ -39,7 +39,7 @@ const ApId = () => {
             {/* Highlight Box & Button Grouped Together */}
             <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-4 mt-2">
               <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 w-full sm:w-fit text-center">
-                15 Years of Experience
+                11+ Years of Experience
               </div>
 
               <Link

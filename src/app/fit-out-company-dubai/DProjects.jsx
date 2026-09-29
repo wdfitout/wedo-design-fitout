@@ -156,7 +156,7 @@ const DProjects = () => {
               As the process of approval affects the schedules in ways not expected by many people, its integration will make the process much easier.
             </p>
             <p className="text-justify">
-              Having more than 15 years of experience and completing more than 200 projects, we have experience working in different conditions, both residential, commercial, retail, and hospitality, in Dubai. Our delivery philosophy focuses on preparation. When projects are planned properly, execution becomes easier. That approach has helped us maintain a strong delivery record while continuing support after completion.
+              Having more than 11+ Years of experience and completing more than 200 projects, we have experience working in different conditions, both residential, commercial, retail, and hospitality, in Dubai. Our delivery philosophy focuses on preparation. When projects are planned properly, execution becomes easier. That approach has helped us maintain a strong delivery record while continuing support after completion.
             
               For many clients, this is why WE DO becomes more than an Interior fitout company in Dubai. We become the team that protects the final outcome.
             </p>

@@ -144,7 +144,8 @@ const DProjects = () => {
       </div>
 
             <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-3xl font-conthrax text-white py-12">
+        <h2 className="text-center text-3xl font-conthrax 
+        text-white py-12">
           Luxury Dubai Interiors, Seamless Execution
         </h2>
 
@@ -194,7 +195,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/primo-sitting.jpg"
+              src="/images/pentv3.webp"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
