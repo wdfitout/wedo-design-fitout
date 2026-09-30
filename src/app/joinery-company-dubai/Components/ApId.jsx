@@ -18,15 +18,13 @@ const ApId = () => {
              Joinery Services in Dubai
             </h2>
             <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              People usually notice interiors as a whole. But what they remember is often something smaller. The wardrobe that closes perfectly. The kitchen cabinetry that feels effortless to use. The reception desk that instantly elevates the room. The built-in storage that makes the entire space feel organised. That level of detail rarely happens by accident.
-                          </p>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
-              It happens through joinery. Joinery is one of the most critical yet often ignored aspects of any interior because it stands at the junction between interior design and its real-life application.
+              People usually notice interiors as a whole. But what they remember is often something smaller. The wardrobe that closes perfectly. The kitchen cabinetry that feels effortless to use. The reception desk that instantly elevates the room. The built-in storage that makes the entire space feel organised. That level of detail rarely happens by accident. It happens through joinery. Joinery is one of the most critical yet often ignored aspects of any interior because it stands at the junction between interior design and its real-life application.
 WE DO provides <b className="text-[#caa193]"><a href="https://wedointerior.ae/joinery-company-dubai"> premium joinery services Dubai </a></b> for residential projects, retail spaces, hospitality spaces, and commercial interiors with customized fabrication and impeccable installation.
                           </p>
 
                           <p className="text-sm sm:text-base leading-7 mb-4 font-play text-justify">
               While the approach adopted by others is to fit the space according to ready-made furniture, WE DO provides solutions which have been created for that particular space only. Custom Wardrobes, Kitchens, Feature Walls, Retail Displays, Reception Counters, Storage Systems and Bespoke Furniture are some of the products we provide. Because great interiors are never put together.
+              Our joinery solutions are also an integral part of our <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">bespoke villa interior design in Dubai</a></b>, where custom wardrobes, kitchens, wall paneling, doors, TV units and other bespoke elements are designed to complement the architecture and overall interior concept of each residence.
                    </p>
             
 

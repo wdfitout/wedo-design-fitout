@@ -28,8 +28,8 @@ const SITE_ID = `${SITE_URL}/#website`;
 
 const PAGE_TITLE = 'Villa Renovation Dubai | Cost, Timeline & Free Quote | WE DO';
 const PAGE_DESCRIPTION =
-  `Villa renovation in Dubai — MEP upgrades, kitchen, bathroom and majlis refits ` +
-  `under one team. ${VILLA_PROJECTS}, ${EXPERIENCE_YEARS}. Free site visit and itemized quote.`;
+  `Villa renovation in Dubai. MEP, kitchen, bathroom and majlis refits ` +
+  `under one team. ${VILLA_PROJECTS}, ${EXPERIENCE_YEARS}. Free consultation.`;
 
 // ⚠️ VERIFY THIS ASSET EXISTS and is genuinely 1200x630.
 // No other component on the page references this filename, so it may never have

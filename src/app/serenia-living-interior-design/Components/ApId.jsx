@@ -281,7 +281,7 @@ const ApId = () => {
     </p>
 
     <p className="text-sm sm:text-base leading-8 mt-4 font-play text-white/85">
-      Being an ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 company and winner of Luxury Style Awards 2026, WE DO utilizes in-house interior designers, a joinery factory, civil works, a decoration team, and approval experts for DM, DCD, Emaar, DAMAC, Nakheel, and private developers of Dubai. Our portfolio includes prime waterfront and luxury residences across {' '}
+      Being an ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 company and winner of Luxury Lifestyle Awards 2026, WE DO utilizes in-house interior designers, a joinery factory, civil works, a decoration team, and approval experts for DM, DCD, Emaar, DAMAC, Nakheel, and private developers of Dubai. Our portfolio includes prime waterfront and luxury residences across {' '}
             <b className="text-[#caa193]">
               <a href="https://wedointerior.ae/royal-atlantis-dubai-interior-design-company">
                 Atlantis The Royal

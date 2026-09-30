@@ -184,7 +184,7 @@ const DProjects = () => {
           <div className="space-y-6 text-white font-play">
             <p className="text-justify">
               <b className=" text-[#caa193]">Residential Fitout — Villas, Apartments, Penthouses</b><br />
-              Residences need to have a personal feel. The Residential fitouts Dubai solutions that our company offers concentrate on designing living spaces that can facilitate comfortable and convenient lifestyles. From villa transformations to the completion of penthouses and the upgrade of apartments, we integrate planning with implementation. Each one of these projects is based on the way people really live within their homes.
+              Residences need to have a personal feel. The Residential fitouts Dubai solutions that our company offers concentrate on designing living spaces that can facilitate comfortable and convenient lifestyles. From <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa transformations</a></b> to the completion of penthouses and the upgrade of apartments, we integrate planning with implementation. Each one of these projects is based on the way people really live within their homes.
             </p>
             <p className="text-justify">
               <b className=" text-[#caa193]">Commercial Fitout — Offices, Retail, Showrooms</b><br />

@@ -49,7 +49,7 @@ const DProjects = () => {
     <p>
    WeDo interior Landscapes beautiful garden spaces in Dubai by combining lush softscape design with 
    sophisticated hardscape design in Dubai to create dramatic and functional alfresco retreats perfect
-    for villas landscape in Dubai as well as residences. 
+    for villas landscape in Dubai as well as residences. For homeowners planning a complete villa transformation, our <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interior design in Dubai</a></b> service connects the indoor and outdoor experience through coordinated layouts, materials, lighting, custom joinery and overall design direction.
     </p>
     <h3 className=" tracking-widest font-conthrax text-[#caa193]">
             Stylish Structures & Cozy Corners for Your Garden

@@ -32,7 +32,7 @@ const VHeroSection = () => {
         {/* Blog Content */}
         <div>
           <div className="text-sm mb-4 text-[#caa193]">
-            <p>Sep 23, 2025 • No Comments</p>
+            <p>Last updated: Sep 30, 2026</p>
           </div>
 
           <h1 className="text-[#caa193] text-3xl font-conthrax leading-tight py-10">
@@ -164,6 +164,9 @@ const VHeroSection = () => {
             <br />
             <p>
               From cozy living rooms to minimalist kitchens, every piece is intentional—balancing warmth with simplicity for modern Dubai homes.
+            </p> <br />
+            <p>
+              These design styles can be adapted to different residential settings across Dubai, <b><a href="https://wedointerior.ae/apartment-interior-design-dubai">from apartments </a></b>and penthouses to <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">luxury villa interiors</a></b>. The right approach depends on the property's architecture, layout, lifestyle and desired atmosphere, with each element coordinated from the initial concept through to the finished interior.
             </p>
             <br />
           </div>

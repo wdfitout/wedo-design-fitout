@@ -237,7 +237,7 @@ const graphSchema = {
           "name": "Who is the best interior design company for Jumeirah villas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "WE DO Interior Design & Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, with 11+ years of experience across 250+ completed residential and commercial projects in Dubai. In-house design, civil works, joinery, and decoration teams, plus direct DCD and DM approvals handling, let the company manage Jumeirah villa projects under one roof."
+            "text": "WE DO Interior Design & Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Lifestyle Award winner, with 11+ years of experience across 250+ completed residential and commercial projects in Dubai. In-house design, civil works, joinery, and decoration teams, plus direct DCD and DM approvals handling, let the company manage Jumeirah villa projects under one roof."
           }
         }
       ]

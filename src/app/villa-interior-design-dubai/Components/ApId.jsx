@@ -224,7 +224,7 @@ const ApId = () => {
           </p>
           <ul className="space-y-1 text-sm font-play text-white/80 leading-8 list-disc list-inside">
             <li>
-              You live in an apartment or townhouse rather than a villa, <b className={linkClass}><a href={`${SITE}/apartment-interior-design-dubai`}>see Residential Interior Design Dubai</a></b> instead.
+              You live in an apartment rather than a villa, <b className={linkClass}><a href={`${SITE}/apartment-interior-design-dubai`}>see Apartment Interior Design Dubai</a></b> instead.
             </li>
             <li>Your villa needs structural work before any design can start, see the comparison below.</li>
             <li>
@@ -291,7 +291,7 @@ const ApId = () => {
             </table>
           </div>
           <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">
-            If your villa needs both, structural work runs first; our team coordinates the handover between the two internally rather than asking you to manage two separate villa renovation companies in Dubai. See our <b className={linkClass}><a href={`${SITE}/villa-renovation-dubai`}>villa renovation page</a></b> for renovation-specific pricing and process.
+            If your villa needs both, structural work runs first; our team coordinates the handover between the two internally rather than asking you to manage two separate villa renovation companies in Dubai. See our <b className={linkClass}><a href={`${SITE}/villa-renovation-dubai`}>villa renovation page</a></b> for renovation-specific pricing and process. Need design and construction under one contract? See our <b className='text-[#caa193]'><a href="https://wedointerior.ae/design-build-services-in-dubai">design and build services</a></b>.
           </p>
         </section>
 
@@ -319,7 +319,7 @@ const ApId = () => {
               <div className="pt-5">
                 <h3 className={h3Class}>Living Room & Majlis</h3>
                 <p className="text-white/70 text-sm font-play">
-                  The majlis interior design, the formal seating room for receiving guests, is designed separately from the family living room, usually with higher, more formal seating, richer textiles, and a distinct entrance sequence. For a contemporary take on the majlis, see the low linear seating and walnut panelling in our <b className={linkClass}><a href={D1_3BR}>District One 3-bedroom villa</a></b>.
+                  The majlis interior is designed separately from the family living room, usually with higher, more formal seating and a distinct entrance sequence. For a contemporary take on the majlis, see the low linear seating and walnut panelling in our <b className={linkClass}><a href={D1_3BR}>District One 3-bedroom villa</a></b>For how the two approaches compare, read our guide to <b className='text-[#caa193]'><a href="https://wedointerior.ae/traditional-vs-modern-jumeirah-villa-design">traditional vs modern villa design</a></b>.
                 </p>
               </div>
             </div>
@@ -452,7 +452,7 @@ const ApId = () => {
               <div className="pt-5">
                 <h3 className={h3Class}>Twin Villa Layouts</h3>
                 <p className="text-white/70 text-sm font-play">
-                  Twin villas share one common wall with a neighbouring unit; townhouse-style layouts share walls on two sides across a row. Both need more deliberate acoustic and privacy planning between the shared wall and adjacent bedrooms, and layouts that make the most of a narrower footprint.
+                  Twin villas share one common wall with a neighbouring unit; townhouse-style layouts share walls on two sides across a row. Both need more deliberate acoustic and privacy planning between the shared wall and adjacent bedrooms, and layouts that make the most of a narrower footprint. See our <b className='text-[#caa193]'><a href="https://wedointerior.ae/arabella-2-bedroom-townhouse">Arabella 2-bedroom townhouse</a></b> and <b className='text-[#caa193]'><a href="https://wedointerior.ae/damac-hills-3-bedroom-townhouse">Damac Hills 3-bedroom townhouse</a></b>  projects.
                 </p>
               </div>
             </div>
@@ -478,7 +478,7 @@ const ApId = () => {
           </div>
 
           <p className="text-white/70 text-sm font-play mt-5">
-           We also take on villa interior design projects across other well-established Dubai communities on request, including Dubai Hills Estate, Arabian Ranches, Palm Jumeirah, <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-jumeirah-dubai">Jumeirah</a></b> and Al Barsha; see our full list of <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-dubai">areas we serve across Dubai</a></b>.
+           We also take on villa interior design projects across other well-established Dubai communities on request, including <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-companies-near-dubai-hills">Dubai Hills Estate</a></b>, Arabian Ranches, <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-companies-palm-jumeirah-dubai">Palm Jumeirah</a></b> , <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-jumeirah-dubai">Jumeirah</a></b> and Al Barsha; see our full list of <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-dubai">areas we serve across Dubai</a></b>.
           </p>
         </section>
 
@@ -524,7 +524,7 @@ const ApId = () => {
               </li>
               <li>
                 <strong className="text-white">Execution & Handover:</strong>{' '}
-                (timeline confirmed at quote stage, based on villa size and scope) Our in-house teams manage construction, joinery and final styling through to a complete handover. For villa owners handling a post-handover fit-out on an off-plan property from a developer like Emaar or Damac, our direct developer approval relationships apply here too.
+                (timeline confirmed at quote stage, based on villa size and scope) Our <b className='text-[#caa193]'><a href="https://wedointerior.ae/fit-out-company-dubai">in-house fit-out teams</a></b> manage construction, joinery and final styling through to a complete handover. For villa owners handling a post-handover fit-out on an off-plan property from a developer like Emaar or Damac, our direct developer approval relationships apply here too.
               </li>
             </ol>
           </div>
@@ -537,7 +537,7 @@ const ApId = () => {
           <h2 className={h2Class}>Villa Interior Design Styles, Materials & Finishes</h2>
 
           <p className="text-sm sm:text-base leading-8 mb-8 font-play text-white/85">
-            Bespoke villa interior design in Dubai generally falls into four style directions, though most real projects blend two of them rather than following one purely.
+            Bespoke villa interior design in Dubai generally falls into four style directions, though most real projects blend two of them rather than following one purely. See our overview of <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-styles-dubai-2025">interior design styles in Dubai</a></b>.
           </p>
 
           {(() => {

@@ -95,7 +95,7 @@ const DProjects = () => {
             <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified, formal safety, environmental, and quality management systems, not just a claim</li>
             <li>DED-registered, with 250+ completed projects across residential and commercial categories in Dubai</li>
             <li>Design, approvals, and construction under one contract, no subcontractor handoffs to manage yourself</li>
-            <li>Luxury Style Awards 2026 winner</li>
+            <li>Luxury Lifestyle Awards 2026 winner</li>
             <li>Fixed-price, written contracts with staged payments, never full payment upfront</li>
           </ul>
         
@@ -109,7 +109,7 @@ const DProjects = () => {
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-white text-justify text-xs sm:text-sm">
                 <li>11+ years of hands-on industry experience, 250+ completed projects across residential and commercial categories in Dubai</li>
-                <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Style Awards 2026 winner</li>
+                <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Lifestyle Awards 2026 winner</li>
                 <li>Completed apartment renovations in Business Bay, Dubai Marina, Dubai Hills, Palm Jumeirah, and Madinat Jumeirah Living</li>
                 <li>In-house team handles design, approvals, and construction under one contract, no subcontractor handoffs</li>
                 <li>DED-registered interior fit-out contractor</li>

@@ -60,7 +60,7 @@ const DProjects = () => {
                 Certifications & Track Record
               </h3>
               <p className="leading-relaxed">
-                We are ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified formal systems for safety, environment, and quality management, which can be checked together with winning the Luxury Style Awards 2026. All of it comes along with our DED registration and more than 250 successfully finished projects both for residential and commercial areas in Dubai, something one could actually check.
+                We are ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified formal systems for safety, environment, and quality management, which can be checked together with winning the Luxury Lifestyle Awards 2026. All of it comes along with our DED registration and more than 250 successfully finished projects both for residential and commercial areas in Dubai, something one could actually check.
               </p>
             </div>
 
@@ -84,7 +84,7 @@ const DProjects = () => {
                 </h3>
                 <ul className="list-disc pl-5 space-y-2 text-white text-left text-sm sm:text-base leading-relaxed">
                   <li>11+ years of hands-on industry experience, <b className="text-[#caa193]"><a href="https://wedointerior.ae/gallery" className="hover:underline"> 250+ completed projects </a></b> across residential and commercial categories in Dubai</li>
-                  <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Style Awards 2026 winner</li>
+                  <li>ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified; Luxury Lifestyle Awards 2026 winner</li>
                   <li>DED-registered interior fit-out contractor</li>
                   <li>Kitchen renovations completed as part of full apartment projects in Business Bay, Dubai Marina, and Palm Jumeirah</li>
                   <li>In-house team handles design, cabinetry, and installation under one contract</li>

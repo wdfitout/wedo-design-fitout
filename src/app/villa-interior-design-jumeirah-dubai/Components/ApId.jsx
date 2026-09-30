@@ -40,7 +40,7 @@ const ApId = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#caa193] font-bold">•</span>
-                  <span>Luxury Style Awards 2026 winner</span>
+                  <span>Luxury Lifestyle Awards 2026 winner</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#caa193] font-bold">•</span>

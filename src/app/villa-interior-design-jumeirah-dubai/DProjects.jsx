@@ -691,7 +691,7 @@ const DProjects = () => {
           Certifications & Recognition
         </h3>
         <p className="text-sm sm:text-base text-justify leading-relaxed">
-          ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified, formal health & safety, environmental, and quality management systems, not just a claim, plus a Luxury Style Awards 2026 win.
+          ISO 45001:2018, ISO 14001:2015, and ISO 9001:2015 certified, formal health & safety, environmental, and quality management systems, not just a claim, plus a Luxury Lifestyle Awards 2026 win.
         </p>
       </div>
 
@@ -827,7 +827,7 @@ const DProjects = () => {
         Who is the best villa interior design company in Jumeirah?
       </h3>
       <p className="text-justify text-gray-300 text-sm sm:text-base leading-relaxed">
-        That depends on what matters most to you. As a villa interior design company Jumeirah owners increasingly compare against separate vendor setups, WE DO Interior Design & Fit-Out stands out for being ISO 45001, 14001, and 9001 certified, a Luxury Style Awards 2026 winner, and running design, civil works, decoration, and joinery entirely in-house, which suits owners who want one accountable team rather than several separate vendors.
+        That depends on what matters most to you. As a villa interior design company Jumeirah owners increasingly compare against separate vendor setups, WE DO Interior Design & Fit-Out stands out for being ISO 45001, 14001, and 9001 certified, a Luxury Lifestyle Awards 2026 winner, and running design, civil works, decoration, and joinery entirely in-house, which suits owners who want one accountable team rather than several separate vendors.
       </p>
     </div>
 

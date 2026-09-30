@@ -184,7 +184,7 @@ const DProjects = () => {
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Residential Design and Build</b><br />
-              Our Residential design and build Dubai services support villas, apartments, penthouses, extensions, and complete renovations. We create homes that balance aesthetics, usability, and long-term quality. From layouts and finishes to technical execution and final styling, everything remains connected.
+              Our residential design and build services cover villas, apartments, penthouses and complete renovations. For homeowners seeking a cohesive residential concept, we also create bespoke <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interiors </a></b>with integrated space planning, material selection, custom joinery, lighting and fit-out.
             </p>
             <p className="text-justify">
               <b className="text-[#caa193]">Commercial Design and Build</b><br />

@@ -250,7 +250,7 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
                   1- Villa Interior Design & Renovation
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                  We design and renovate villa interiors across Palm Jumeirah's Fronds, including Signature Villas, Garden Homes, and Canal Cove Villas. Work covers living rooms, bedrooms, kitchens, and bathrooms alongside landscaping, gardens, and pool design, so indoor and outdoor spaces are planned as one project rather than handed to separate contractors. Custom joinery wardrobes, kitchen cabinetry, and built-in storage are produced at our own factory rather than outsourced to a third party.
+                  We design and renovate <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interiors</a></b> across Palm Jumeirah's Fronds, including Signature Villas, Garden Homes, and Canal Cove Villas. Work covers living rooms, bedrooms, kitchens, and bathrooms alongside landscaping, gardens, and pool design, so indoor and outdoor spaces are planned as one project rather than handed to separate contractors. Custom joinery wardrobes, kitchen cabinetry, and built-in storage are produced at our own factory rather than outsourced to a third party.
                 </p>
               </div>
 

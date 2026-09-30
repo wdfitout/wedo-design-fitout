@@ -14,15 +14,13 @@ const Hero = () => {
         <div className="text-center text-white">
           <h1 className="text-2xl md:text-2xl lg:text-5xl xl:text-6xl font-bold mb-4 mt-16">
           
-            HOME INTERIOR DESIGN
+            HOME INTERIOR DESIGN IN DUBAI
           </h1>
-          <p className="text-sm lg:text-xl xl-text-2xl text-left">
+          <p className="text-sm lg:text-lg xl-text-2xl font-play text-left">
           Elevate your Home interior Design with Best Interior Designing Company 
           in Dubai.Our company has transformed numerous residences in iconic 
           locations such as manara tower, penthouse, jumeirah beach residence, 
-          and Atlantis the Royal. We specialize in creating bespoke Interior designs. 
-          Ready to elevate your home into modern house design?
-           Schedule a complimentary consultation with our design experts today.							
+          and Atlantis the Royal. We specialize in creating bespoke interiors for apartments, penthouses and villas across Dubai. For homeowners planning a complete villa project, explore our <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interior design in Dubai services</a></b>, covering space planning, custom joinery, material selection, lighting, furniture and fit-out from concept to handover. Schedule a complimentary consultation with our design experts today.							
           </p>
         </div>
       </div>

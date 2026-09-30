@@ -185,7 +185,7 @@ const VHeroSection = () => {
               Modern Interior Design: Key Features and Characteristics
             </h2>
             <p>
-              Modern interior design focuses on clean lines, natural light, and high-quality materials. In Dubai, villa interiors in 2026 are shifting towards warm neutrals rather than stark white.
+              Modern interior design focuses on clean lines, natural light, and high-quality materials. In Dubai,<b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interior designs</a></b>  in 2026 are shifting towards warm neutrals rather than stark white.
             </p>
 
             {/* Image 6: Modern Features */}
@@ -628,7 +628,7 @@ const VHeroSection = () => {
               Who is the best interior design company for Jumeirah villas?
             </h3>
             <p>
-              WE DO Interior Design &amp; Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Style Award winner, and has 11+ years of experience across 250+ completed residential and commercial projects in Dubai. With in-house design, civil works, joinery, and decoration teams plus a dedicated joinery factory and direct DCD and DM approvals handling the company manages Jumeirah villa projects under one roof, from concept through handover.
+              WE DO Interior Design &amp; Fit-Out is ISO 9001, 14001, and 45001 certified, a 2026 Luxury Lifestyle Awards winner, and has 11+ years of experience across 250+ completed residential and commercial projects in Dubai. With in-house design, civil works, joinery, and decoration teams plus a dedicated joinery factory and direct DCD and DM approvals handling the company manages Jumeirah villa projects under one roof, from concept through handover.
             </p>
           </div>
 
@@ -657,7 +657,7 @@ const VHeroSection = () => {
 
             <ul className="list-disc pl-5 space-y-2 pt-2">
               <li>
-                ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certified, and a 2026 Luxury Style Award winner
+                ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certified, and a 2026 Luxury Lifestyle Awards winner
               </li>
               <li>
                 11+ years of experience and 250+ completed residential and commercial projects across Dubai

@@ -3,6 +3,35 @@ import Link from "next/link";
 import Image from "next/image";
 
 const projects = [
+  
+  {
+    href: "home-interior-design-dubai/luxury-interior-design-in-emaar-beachfront",
+    src: "/images/Residential (2).webp",
+    alt: "Emaar Beachfront Interior",
+    title: "LUXURY INTERIOR DESIGN IN EMAAR BEACHFRONT",
+    description: "Our team of Interior Designers transformed a residence into a beachfront haven. The design embraces the iconic ocean views, creating a flawless flow. With luxurious furniture, it strikes a perfect balance between relaxation and elegance.",
+  },
+  {
+    href: "home-interior-design-dubai/royal-villa-interior-design-in-al-manara-dubai",
+    src: "/images/Residential (3).webp",
+    alt: "Royal Villa Al Manara",
+    title: "ROYAL VILLA INTERIOR DESIGN IN AL MANARA DUBAI",
+    description: "Experience modern luxury at the Manara Villa, Dubai. We transformed this residence, crafting a bespoke interior that reflects the owner's unique style. Maximise your space with our expert designers.",
+  },
+  {
+    href: "home-interior-design-dubai/luxury-penthouse-interior-design-in-dafza-2w-dubai",
+    src: "/images/Residential (4).webp",
+    alt: "Luxury Penthouse DAFZA 2W",
+    title: "LUXURY PENTHOUSE INTERIOR DESIGN IN DAFZA 2W DUBAI",
+    description: "Soar above Dubai in ultimate style at the 2W Residence Penthouse. We created a sophisticated and inviting space that blends style and elegance with breathtaking views.",
+  },
+  {
+    href: "home-interior-design-dubai/classic-villa-interior-design-in-jumeirah-beach-residence",
+    src: "/images/Residential (5).webp",
+    alt: "Villa Jumeirah Beach Residence",
+    title: "MODERN VILLA INTERIOR DESIGN IN JUMEIRAH BEACH RESIDENCE",
+    description: "Live an ideal life in your Jumeirah oasis. Our experts crafted a space where sophistication meets functionality. Discover the art of effortless luxury living.",
+  },
   {
     href: "home-interior-design-dubai/luxury-apartment-interior-design-in-palm-jumeirah",
     src: "/images/luxury-apartment-design-dubai-marina.jpg",
@@ -33,34 +62,6 @@ const projects = [
     description: "We Do Interior Design & Fitout was excited to be part of the amazing Atlantis The Royal project in Dubai! Our skilled home interior designers created beautiful interiors that feel both luxurious and lavish. Atlantis The Royal demonstrates our exceptional expertise.",
   },
   {
-    href: "home-interior-design-dubai/luxury-interior-design-in-emaar-beachfront",
-    src: "/images/Residential (2).webp",
-    alt: "Emaar Beachfront Interior",
-    title: "LUXURY INTERIOR DESIGN IN EMAAR BEACHFRONT",
-    description: "Our professional team of Interior Designers transformed a residence into a beachfront haven. The design embraces the iconic ocean views, creating a flawless flow between the interior and exterior scenes. With luxurious furniture, it strikes a perfect balance between relaxation and elegance.",
-  },
-  {
-    href: "home-interior-design-dubai/royal-villa-interior-design-in-al-manara-dubai",
-    src: "/images/Residential (3).webp",
-    alt: "Royal Villa Al Manara",
-    title: "ROYAL VILLA INTERIOR DESIGN IN AL MANARA DUBAI",
-    description: "Experience modern luxury at the Manara Villa, Dubai. We transformed this residence, crafting a bespoke interior that reflects the owner's unique style. Maximise your space with our expert designers.",
-  },
-  {
-    href: "home-interior-design-dubai/luxury-penthouse-interior-design-in-dafza-2w-dubai",
-    src: "/images/Residential (4).webp",
-    alt: "Luxury Penthouse DAFZA 2W",
-    title: "LUXURY PENTHOUSE INTERIOR DESIGN IN DAFZA 2W DUBAI",
-    description: "Soar above Dubai in ultimate style at the 2W Residence Penthouse. We created a sophisticated and inviting space that blends style and elegance with breathtaking views.",
-  },
-  {
-    href: "home-interior-design-dubai/classic-villa-interior-design-in-jumeirah-beach-residence",
-    src: "/images/Residential (5).webp",
-    alt: "Villa Jumeirah Beach Residence",
-    title: "MODERN VILLA INTERIOR DESIGN IN JUMEIRAH BEACH RESIDENCE",
-    description: "Live an ideal life in your Jumeirah oasis. Our experts crafted a space where sophistication meets functionality. Discover the art of effortless luxury living.",
-  },
-  {
     href: "home-interior-design-dubai/modern-penthouse-interior-design-in-dafza-6w-dubai",
     src: "/images/Residential (6).webp",
     alt: "Modern Penthouse DAFZA 6W",
@@ -87,7 +88,7 @@ const projects = [
 const ResidentialProjects = () => {
   return (
     <section id="projects" className="projects w-full mt-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid p-10 grid-cols-1 sm:grid-cols-4 gap-4">
         {projects.map((project, index) => (
           <div key={index} className="relative px-2">
             <Link href={project.href}>
@@ -101,13 +102,13 @@ const ResidentialProjects = () => {
               />
               <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
                 <div className="flex-grow mb-20 px-2">
-                  <h2 className="text-[#121212] text-lg lg:text-lg font-semibold text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
+                  <h2 className="text-[#121212] text-lg lg:text-lg font-play text-center bg-gray-200 bg-opacity-50 py-1.5 hover:text-[#c38d90]">
                     {project.title}
                   </h2>
                 </div>
               </div>
             </Link>
-            <div className="text-white text-sm mt-2 mb-4 sm:mb-0 relative">
+            <div className="text-white text-sm mt-2 font-play mb-4 sm:mb-0 relative">
               <p>{project.description}</p>
             </div>
           </div>
