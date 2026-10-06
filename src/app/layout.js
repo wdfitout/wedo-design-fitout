@@ -367,6 +367,7 @@ export default function RootLayout({ children }) {
 
               gtag('config', 'AW-11361089409');
               gtag('config', 'G-1DX7X8GKN2');
+              gtag('config', 'G-QZYPDFMSPH');
             `,
           }}
         />
