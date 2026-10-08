@@ -475,7 +475,7 @@ Downtown Dubai,                 </a>
 Creek Harbour              </a>
                 </b>{' ,'} the building, landlord, and retail environment can also influence the renovation process.<br /><br />
         A mall retail renovation runs under that mall's own fit-out guide, a document prescribing approved materials, ceiling heights, signage rules, and in some cases a list of pre-approved contractors, published separately by each major developer (Emaar, Majid Al Futtaim, Nakheel, and others each maintain their own). Mall renovations typically carry a 15–25% cost premium over an equivalent street-facing shop, largely from guide-compliant materials and the mall fit-out NOC process itself, which can add 4–8 weeks before construction even starts. A street-facing retail renovation answers to Dubai Municipality and Dubai Civil Defence directly, with no separate mall design-review layer, generally the faster, more flexible path if your lease allows either location.
-        WE DO is an expert renovation company in Dubai that manages both processes and can help you weigh the trade-off if you're choosing between a mall unit and a street-facing space.
+        WE DO is an expert <b  className="text-[#caa193]"><a href="/renovation-dubai">renovation company in Dubai</a></b> that manages both processes and can help you weigh the trade-off if you're choosing between a mall unit and a street-facing space.
       </p>
     </div>
   </div>

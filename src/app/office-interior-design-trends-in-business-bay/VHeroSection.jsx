@@ -62,7 +62,7 @@ const VHeroSection = () => {
             <p>
              
             </p>
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Flexible and Modular Office Layouts
             </h2>
             <p> Among the most prominent office interior design trends in 2026 is the transition towards 
@@ -81,7 +81,7 @@ const VHeroSection = () => {
           </div>
         <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Biophilic Design and Organic Office Interiors
             </h2>
             <p> 
@@ -105,7 +105,7 @@ const VHeroSection = () => {
         
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Contemporary and Modern Office Interior Design
             </h2>
             <p>In Business Bay, modern aesthetic remains a prominent aspect of contemporary office spaces. 
@@ -124,7 +124,7 @@ const VHeroSection = () => {
            
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Wellness Focused Office Interiors
             </h2>
             <p>Employee wellness has developed as a major concern in office design. In 2026, office 
@@ -145,7 +145,7 @@ const VHeroSection = () => {
           </div>
            <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Smart Technology Integration
             </h2>
             <p> Technology is fully integrated into luxury office interior design in 2026. Smart office design 
@@ -167,7 +167,7 @@ const VHeroSection = () => {
           
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Sustainable Office Interior Design Materials
             </h2>
             <p> Sustainability is one of the most essential concerns in luxury office interior design, and 
@@ -188,7 +188,7 @@ const VHeroSection = () => {
 
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Bespoke and Boutique Style Office Interiors
             </h2>
             <p>Bespoke interior design is gaining popularity among companies looking for a unique 
@@ -207,7 +207,7 @@ const VHeroSection = () => {
           </div>
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Turnkey Fit-Out Solutions in Business Bay
             </h2>
             <p>Many organizations find turnkey office fit-out services engaging for their office projects. 
@@ -227,7 +227,7 @@ const VHeroSection = () => {
           </div>
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Brand Identity Through Office Design
             </h2>
             <p>Office interiors have become an extension of brand identity. Various interiors such as the 
@@ -247,7 +247,7 @@ const VHeroSection = () => {
           </div>
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Summing Up Office Interior Design Trends in Business Bay
             </h2>
             <p>
@@ -263,10 +263,10 @@ const VHeroSection = () => {
           </div>
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1-  What are the best office interior design firms in Dubai?
             </h3>
             <p>
@@ -276,7 +276,7 @@ const VHeroSection = () => {
             and office technology in their designs.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2-  How much does it cost to set up an office in Dubai?
             </h3>
             <p>
@@ -286,7 +286,7 @@ const VHeroSection = () => {
             sustainable finishes. A luxury office interior, as well as office fit-out, may require a high level of investment.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- How to find an office interior designer in Dubai?
             </h3>
             <p>
@@ -296,7 +296,7 @@ const VHeroSection = () => {
              flexible, and wellness-focused office spaces.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              4- What is the cost of a small office fit-out in Dubai?
             </h3>
             <p>

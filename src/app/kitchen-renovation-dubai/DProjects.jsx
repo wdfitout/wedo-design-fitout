@@ -51,7 +51,7 @@ const DProjects = () => {
           
           <div className="space-y-6 text-sm sm:text-base font-play text-white text-left">
             <p className="leading-relaxed">
-              A kitchen renovation touches plumbing, electrical, cabinetry, and appliances all in one room; more can go wrong here than in almost any other part of an apartment, which is exactly the gap this kitchen renovation company in Dubai owners keep running into when comparing quotes.
+           A kitchen renovation touches plumbing, electrical, cabinetry, and appliances all in one room; more can go wrong here than in almost any other part of an apartment, which is exactly the gap this kitchen <b  className="text-[#caa193]"><a href="/renovation-dubai">renovation company in Dubai</a></b> owners keep running into when comparing quotes.
             </p>
 
             {/* Certifications & Track Record Section */}

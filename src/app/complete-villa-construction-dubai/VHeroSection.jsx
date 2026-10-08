@@ -64,7 +64,7 @@ const VHeroSection = () => {
              provides comprehensive villa construction solutions encompassing architecture design, 
             <b className="text-[#caa193]"><a href="https://wedointerior.ae/luxury-villa-interior-design-in-dubai">luxury villa interior design</a></b> , and its successful execution in Dubai and the UAE.
             </p>
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
             Understanding Villa Construction in Dubai</h2>
             <p>Villa construction in Dubai is a process of developing a residential unit from start 
               to finish, including construction planning and execution with a focus on villas, from 
@@ -80,7 +80,7 @@ const VHeroSection = () => {
           </div>
         <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Villa Project Planning and Architectural Design
             </h2>
             <p>Villa construction in Dubai needs to be done in a very strategic way that involves planning with 
@@ -97,7 +97,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight py-5">
               Dubai Villa Project Planning
             </h3>
             <p>Effective villa construction begins with strategic villa project planning Dubai. This phase includes 
@@ -106,7 +106,7 @@ const VHeroSection = () => {
               construction companies in Business Bay, Dubai, proper planning ensures uninterrupted progress 
               and controlled execution.</p>
 
-              <h3 class="text-[#caa193] text-lg font-conthrax leading-tight py-5">
+              <h3 className="text-[#caa193] text-lg font-conthrax leading-tight py-5">
               Villa Architectural Design Dubai
             </h3>
             <p>Villa architectural design Dubai defines the identity and spatial flow of the residence. Luxury villa 
@@ -117,7 +117,7 @@ const VHeroSection = () => {
         
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Integrated Design & Build Process for Villas
             </h2>
             <p>Today, a modern villa construction in Dubai requires a unified process where there are 
@@ -132,14 +132,14 @@ const VHeroSection = () => {
               className="rounded-md w-full object-cover"
             />
 
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight py-5">
               Villa Architectural Design Dubai
             </h3>
             <p>The <b className="text-[#caa193]"><a href="https://wedointerior.ae/design-build-services-in-dubai">design & build process for villas</a></b> involves bringing together the designs of architecture, interior designs, 
               as well as construction techniques in one integrated process. This approach minimizes fragmentation and thus 
               maintains the initial designs.</p>
 
-              <h4 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+              <h4 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               Role of an Integrated Design and Construction Team
             </h4>
             <p>Having an integrated design and construction team ensures a smooth coordination process involving architects, 
@@ -150,7 +150,7 @@ const VHeroSection = () => {
            
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Construction Execution and Project Management
             </h2>
             <p> To ensure the success of villa construction in Dubai, it is necessary to manage the entire process very 
@@ -163,14 +163,14 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-             <h3 class="text-[#caa193] text-lg font-conthrax leading-tight py-5">
+             <h3 className="text-[#caa193] text-lg font-conthrax leading-tight py-5">
               Complete Construction Execution in Dubai
             </h3>
             <p>Complete construction execution in Dubai involves structural works, MEP systems, technical coordination, 
               and site supervision. Top villa construction companies in UAE focus on quality control, skilled craftsmanship, 
               and precise execution to meet luxury residential standards.</p>
             
-            <h4 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h4 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               Quality Villa Finishes and Materials
             </h4>
             <p>High-end villa construction demands careful selection of quality villa finishes and materials. 
@@ -180,7 +180,7 @@ const VHeroSection = () => {
           </div>
            <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Luxury Villa Interior Design and Bespoke Execution
             </h2>
             <p> Every aspect of luxury villa construction UAE is enhanced when interior design is carefully 
@@ -192,13 +192,13 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               Luxury Villa Interior Design Integration
             </h3>
             <p><b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">Luxury villa interior design in Dubai</a></b> is incorporated in the construction process to see that everything goes smoothly. 
               The designing of the rooms, the material used for the interior, and the detailing go in conjunction with the 
               architectural part of the villa.</p>
-            <h4 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h4 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               Villa Interior Details and Bespoke Furnishings
             </h4>
             <p>Villa interior details and bespoke furnishings elevate the living experience. Experienced villa contractors 
@@ -208,7 +208,7 @@ const VHeroSection = () => {
           
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Smart Home Villa Construction and Modern Technology
             </h2>
             <p>In modern villa construction in Dubai, the infusion of smart home technology into the construction phase will 
@@ -220,7 +220,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               Smart Home Systems and Technology
             </h3>
             <p> Smart home villa construction involves the incorporation of automation systems during the course of 
@@ -229,7 +229,7 @@ const VHeroSection = () => {
           </div>
 
           <div className=" text-sm leading-relaxed font-play">
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Exterior Works and Landscaping Services for Villas
             </h2>
             <p>Exterior construction and landscaping services for villas play a vital role in defining the property’s 
@@ -242,7 +242,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-             <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+             <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Choosing the Right Villa Design and Construction Partner
             </h2>
             <p>Choosing the right villa design partner ensures project success. The best villa contractor Dubai offers strategic 
@@ -252,7 +252,7 @@ const VHeroSection = () => {
               construction services that emphasize accountability, coordination, and execution excellence.</p>
           </div>
           <div className=" text-sm leading-relaxed font-play">
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Villa Construction Services by WE DO Interior Design & Fitout
             </h2>
             <p>WE DO Interior Design & Fitout is a villa construction company in Dubai delivering residential construction 
@@ -271,10 +271,10 @@ const VHeroSection = () => {
           </div>
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1- What is complete construction execution in Dubai for villas?
             </h3>
             <p>
@@ -283,7 +283,7 @@ const VHeroSection = () => {
             and final delivery.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2- Why choose a design & build villa construction company in Dubai?
             </h3>
             <p>
@@ -292,7 +292,7 @@ const VHeroSection = () => {
             throughout the project.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- Can I build my own villa in Dubai?
             </h3>
             <p>

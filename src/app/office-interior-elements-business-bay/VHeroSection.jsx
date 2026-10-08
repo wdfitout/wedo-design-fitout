@@ -60,7 +60,7 @@ const VHeroSection = () => {
            
             <div className=" text-md leading-relaxed font-play">
             
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Why Office Interior Design in Dubai Is Important</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Why Office Interior Design in Dubai Is Important</h2>
             <p>
              Businesses in corporate hubs such as Business Bay are especially focused on creating inspiring office interior design in Dubai for the development and betterment of their businesses. Upcoming businesses understand that employees spend most of the time of a day in the office. If the office fit out design is uncomfortable or poorly designed, it can affect productivity and developments. <br /> <br /> A well-designed office fit-out Dubai, elevates individual teamwork, improves attention, and removes workplace stress. Many businesses hire an <b className="text-[#caa193]"><a href="https://share.google/QhyxVi8XV7NNmeqd1">expert Interior Design Company in Dubai</a></b> to make sure that their office interior design supports their business goals and everyday operations. 
             </p>
@@ -72,12 +72,12 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight "> Strengthening Corporate Identity Through Design</h3>
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight "> Strengthening Corporate Identity Through Design</h3>
           <p  className=" text-md leading-relaxed font-play">Office interior design is also a reflection of brand vision. When clients visit your workstations, the interior design of your office showcases professionalism and elegance. WE DO Interior Design & Fitout is the leading business bay interior design companies focus on integrating brand colors, logos, and corporate themes into office interiors. This creates trust between the company’s visual identity and its physical ambiance.</p>
           </div>
         <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Smart Space Planning in Office Interior Design Dubai</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Smart Space Planning in Office Interior Design Dubai</h2>
             <p> Smart space planning is one of the most crucial office interior elements in Business Bay. The smart layout of an office elevates how employees work, communicate, and complete their tasks. Modern <b className="text-[#caa193]"><a href="https://wedointerior.ae/office-interior-design-dubai">Office Interior Design in Dubai</a></b> usually blends open areas for collaboration with peaceful zones for focused work. Workers need both environments to do different types of tasks the whole day.</p> <br />
              <Image
               src="/images/smart-space-planning-in-office-interior-design-dubai.png"
@@ -86,13 +86,13 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight "> Designing Functional Layouts</h3>
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight "> Designing Functional Layouts</h3>
             <p className="py-5">A good office fit out design layout ensures that each area of the workspace is used effectively. This may cover open workstations, meeting rooms, private offices, and collaborative spaces where teams can brainstorm ideas. WE DO Interior Design & Fitout is an experienced and professional designers and fit out consultants dubai first study the company’s workflow and team structure before designing a layout.</p>
           </div>
         
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Modern Office Interior Design Trends in Business Bay
             </h2>
             <p> A modern office interior design can create a big difference in how workers feel at work. Offices that seem contemporary and comfortable often appreciate employees to think creatively and give ideas more confidently. Business Bay is one of Dubai’s top  marketable areas, and <b className="text-[#caa193]"
@@ -104,14 +104,14 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight ">Following Global Workplace Trends</h3> <br />
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight ">Following Global Workplace Trends</h3> <br />
             <p>Currently <b className="text-[#caa193]"
            ><a href="https://wedointerior.ae/office-interior-design-trends-in-business-bay">office interior design trends in Business Bay</a></b> cover well- designed layouts, high- end accoutrements , ergonomic  cabinetwork, and technology- integrated practical spaces. These trends only give attention to minimalism, practicality, and  flawless  complication. Businesses working with Top Interior design companies in Business Bay, designing contemporary office interiors that match with global functionality. </p>
           </div>
            
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               The Importance of Lighting in Corporate Interior Design Firms
             </h2>
             <p>Lightning is one of the essential office interior elements in Business Bay that enhances the work space and  surroundings for the workers to do better and better day by day. </p> <br />
@@ -122,14 +122,14 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight ">Natural Light Improves Productivity</h3> <br />
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight ">Natural Light Improves Productivity</h3> <br />
             <p>Lighting plays an important part in how comfortable and productive workers feel in the workspace. Top  commercial interior design  companies constantly prioritize natural light in office interior design. Big open windows, glass partitions, and well- planned open layouts help natural light spread to the whole workspace. Natural lighting can increase energy situations and design a more sophisticated working space.</p> <br />
-            <h4 class="text-[#caa193] text-md font-conthrax leading-tight ">Balanced Artificial Lighting </h4> <br />
+            <h4 className="text-[#caa193] text-md font-conthrax leading-tight ">Balanced Artificial Lighting </h4> <br />
             <p>With natural light, artificial lighting is also pivotal. Workstations need task lighting for focused work, while participating and comfortable areas need softer lighting to produce a peaceful atmosphere.</p>
           </div>
            <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Ergonomic Furniture for Comfortable Workspaces
             </h2>
             <p> WE DO Interior Design & Fitout offer interior design services dubai focus on selecting ergonomic furniture that blends comfort with contemporary design. Furniture plays a crucial role in office fitout in business bay, because employees spend a lot of hours sitting at their desks. Cheap Cabinetwork choices can lead to discomfort and health problems. </p> <br />
@@ -140,13 +140,13 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight ">Flexible Furniture for Modern services</h3> <br />
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight ">Flexible Furniture for Modern services</h3> <br />
             <p>Currently office interior design also needs flexible cabinetwork results. Modular desks, cooperative seating areas, and portable partitions allow  workers to adopt their workspace according to their conditions. These services are often used by commercial interior design companies when creating contemporary offices.</p>
           </div>
           
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Office Renovation Dubai for Modern Business Growth
             </h2>
             <p> Not each business needs a completely new office. Many businesses select Office Renovation Dubai services to modernize their current office. Many businesses operate in workspaces that were created years ago. Over time, these office interiors may become outdated or old. Instead of changing the whole office location, businesses often choose Office Renovation Dubai to create trendy offices in their existing workspaces. </p> <br />
@@ -164,7 +164,7 @@ const VHeroSection = () => {
 
            <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              The Role of Fit Out Consultants Dubai
             </h2>
             <p> <b className="text-[#caa193]"
@@ -176,13 +176,13 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-             <h3 class="text-[#caa193] text-lg font-conthrax leading-tight ">Working with Office Fit Out Companies in Dubai</h3> <br />
+             <h3 className="text-[#caa193] text-lg font-conthrax leading-tight ">Working with Office Fit Out Companies in Dubai</h3> <br />
             <p> Businesses also work with reliable office fit out companies in Dubai to integrate the well-planned design and complete the workspace makeovers. These specialists handle construction work, furniture installation, and completion details, making sure that the final office matches the organic design vision. </p>
           </div> 
 
            <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
             Designing Offices in Major Business Districts
             </h2>
             <p> Business Bay is one of the most  pivotal  marketable areas in Dubai, home to  numerous commercial  services and international companies. Businesses in this area frequently work with Interior Design Companies in Business Bay Dubai to design professional and ultramodern <b className="text-[#caa193]"
@@ -194,7 +194,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             /> <br />
-            <h3 class="text-[#caa193] text-lg font-conthrax leading-tight ">Choosing The Right Design Partner</h3> <br />
+            <h3 className="text-[#caa193] text-lg font-conthrax leading-tight ">Choosing The Right Design Partner</h3> <br />
             <p> A trusted <b className="text-[#caa193]"
             ><a href="https://wedointerior.ae/interior-design-company-business-bay">Interior Design Company in Business Bay </a></b>, Dubai  ensures that construction and completion work are completed directly and efficiently. Interior Design Companies Dubai similar as WE DO Interior Design & Fitout offer comprehensive workspace services, blending creativity with technical specialization.  </p>
           </div>
@@ -203,31 +203,31 @@ const VHeroSection = () => {
 
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1- What are the essential office interior elements in Business Bay Dubai?
             </h3>
             <p>
             The important office interior elements cover well-planned designing, natural and additional lighting, comfortable furniture, branding, and practical layouts created by professional corporate interior design firms and commercial interior design companies.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2- Why should businesses invest in office interior design?
             </h3>
             <p>
             A well-structured office enhances employee productivity, elevates office comfort, and leaves a strong impression for clients and visitors.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- How long does an office interior design project take?
             </h3>
             <p>
              The timeline based on the size and need of the project. Smaller projects may take a few weeks, while larger Office Renovation Dubai or full office fit-out works may take several months.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              4- What is the role of fit-out consultants in office design?
             </h3>
             <p>

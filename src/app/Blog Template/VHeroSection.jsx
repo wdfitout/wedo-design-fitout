@@ -54,7 +54,7 @@ const VHeroSection = () => {
             <p>
              
             </p>
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Optimizing Space and Natural Light</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Optimizing Space and Natural Light</h2>
             <p> for paragraph  </p>
           </div>
             <Image
@@ -67,7 +67,7 @@ const VHeroSection = () => {
           </div>
         <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Luxury Through Materials and Colors</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Luxury Through Materials and Colors</h2>
             <p> for paragraph  </p>
              <Image
               src="/images/high-end-dubai-apartment-interior-design-in-dubai.png"
@@ -80,7 +80,7 @@ const VHeroSection = () => {
         
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Contrasting Contemporary and Traditional Styles
             </h2>
             <p> for paragraph  </p>
@@ -95,7 +95,7 @@ const VHeroSection = () => {
            
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Integrating Smart Home Features In Apartment
             </h2>
             <p> for paragraph  </p>
@@ -109,7 +109,7 @@ const VHeroSection = () => {
           </div>
            <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Highlighting Stunning Views and Statement Pieces
             </h2>
             <p> for paragraph  </p>
@@ -124,7 +124,7 @@ const VHeroSection = () => {
           
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Design that Reflects Dubai Living
             </h2>
             <p> for paragraph  </p>
@@ -139,10 +139,10 @@ const VHeroSection = () => {
           </div>
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1- How do I maximize space in a small Dubai apartment?
             </h3>
             <p>
@@ -150,7 +150,7 @@ const VHeroSection = () => {
             and use glass and mirrors to reflect space. 
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2- What are the trending colours for apartments in Dubai?
             </h3>
             <p>
@@ -158,7 +158,7 @@ const VHeroSection = () => {
             pastels - Making it great for the luxe apartment style with a modern twist.
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- Can I mix traditional and modern styles in a Dubai apartment?
             </h3>
             <p>
@@ -166,7 +166,7 @@ const VHeroSection = () => {
              with local textures, accents, and you make it possible! 
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              4- What smart home features are ideal for apartments?
             </h3>
             <p>
@@ -174,7 +174,7 @@ const VHeroSection = () => {
              interior realization and very handy. 
             </p>
 
-             <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              5- How can I furnish my apartment balcony?
             </h3>
             <p>

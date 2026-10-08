@@ -850,7 +850,7 @@ const DProjects = () => {
                 How much time does office renovation take in Dubai?
               </h3>
               <p className="font-play text-sm sm:text-base text-white pt-2 leading-relaxed">
-                In most cases, office renovation in Dubai takes between 4 to 12 weeks from the scope signed until handover. The fastest projects are cosmetic renovations, which take 3-5 weeks. Projects which involve MEP modifications or any government approvals take 8-12 weeks due to additional time required to obtain permits and perform inspections on top of construction.
+                In most cases, office <b className="text-[#caa193]"><a href="/renovation-dubai"> renovation in Dubai</a></b> takes between 4 to 12 weeks from the scope signed until handover. The fastest projects are cosmetic renovations, which take 3-5 weeks. Projects which involve MEP modifications or any government approvals take 8-12 weeks due to additional time required to obtain permits and perform inspections on top of construction.
               </p>
             </div>
 

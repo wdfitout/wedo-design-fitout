@@ -21,10 +21,10 @@ const ApId = () => {
                 Apartment Renovation Dubai
               </h2>
              
-              <p className="text-sm sm:text-base leading-7 mb-8 sm:mb-10 font-play text-justify">
+              <p className="text-sm sm:text-base leading-7 mb-8 sm:mb-10 font-play ">
                 <b className="text-[#caa193]">
                   <a href="https://wedointerior.ae/">WE DO Interior Design &amp; Fit-Out</a>
-                </b> provides complete apartment renovation services in Dubai, including kitchen and bathroom remodeling, flooring, electrical and plumbing works (MEP), and custom joinery for studios, 1-bedroom, 2-bedroom and 3-bedroom apartments. With 11+ years of experience in the construction industry and 250+ completed projects, our team manages renovation work from planning and approvals through construction and handover across areas such as Business Bay, Dubai Marina and Palm Jumeirah.
+                </b> provides complete apartment <b><a href="/renovation-dubai">renovation services in Dubai</a></b>, including kitchen and bathroom remodeling, flooring, electrical and plumbing works (MEP), and custom joinery for studios, 1-bedroom, 2-bedroom and 3-bedroom apartments. With 11+ years of experience in the construction industry and 250+ completed projects, our team manages renovation work from planning and approvals through construction and handover across areas such as Business Bay, Dubai Marina and Palm Jumeirah.
               </p>
             </div>
 

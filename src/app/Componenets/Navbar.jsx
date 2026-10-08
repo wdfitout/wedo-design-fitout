@@ -83,7 +83,7 @@ const navLinks = [
       },
       {
         title: "RENOVATION",
-        path: "#",
+        path: "/renovation-dubai",
         children: [
           {
             title: "VILLA RENOVATION",

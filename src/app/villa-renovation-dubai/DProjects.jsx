@@ -19,7 +19,7 @@ import {
   --------------------------------
   `textImage` was destructured as { src, title } but rendered with
   href={textImage.link}. There is no `link` key on the object, so React
-  received href={undefined} and emitted <a class="block"> with no href.
+  received href={undefined} and emitted <a className="block"> with no href.
 
   Same bug in the gallery: .map(({ src, link, title })) destructures a `link`
   that none of the six objects define.

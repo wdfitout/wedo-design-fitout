@@ -170,7 +170,7 @@ Remodeling your entire apartment, not just the bathroom? Our {' '}
               <td className="p-4">7–10 working days</td>
             </tr>
             <tr>
-              <td className="p-4 font-semibold text-[#caa193] border-r border-gray-800">Standard Full Renovation</td>
+              <td className="p-4 font-semibold text-[#caa193] border-r border-gray-800"><b><a href="/renovation-dubai">Standard Full Renovation</a></b></td>
               <td className="p-4 border-r border-gray-800">Full strip-out, waterproofing, tiling, vanity, WC, shower, ceiling & lighting</td>
               <td className="p-4 border-r border-gray-800">30,000 – 50,000</td>
               <td className="p-4">10–14 working days</td>

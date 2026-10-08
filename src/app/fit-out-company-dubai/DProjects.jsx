@@ -110,16 +110,16 @@ const DProjects = () => {
         </h2>
         
         <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-          <p className="text-justify">
+          <p>
             Dubai offers many fitout providers. On paper, several may appear similar. But once projects begin, the differences become obvious. The first thing to understand is that a fitout company and an interior design company are not always the same thing. Interior designers often focus on concept creation, layouts, aesthetics, and presentation.
           </p>
-          <p className="text-justify">
+          <p>
             Fitout delivery transforms those ideas into physical environments. When those two parts remain disconnected, projects often become more difficult than expected. A designer creates the vision. A contractor interprets it. The client becomes responsible for aligning both. That is why more clients today prefer working with a Fitout company in Dubai that combines design thinking with delivery capability.
           </p>
-          <p className="text-justify">
+          <p>
             The second factor is accountability. A reliable Fitout contractor Dubai should have a structured process, clear communication, realistic timelines, and practical experience handling approvals and execution. Many problems appear when companies underestimate coordination. Projects begin with optimism but become delayed because responsibilities are unclear.
           </p>
-          <p className="text-justify">
+          <p>
             There are several questions worth asking before appointing a fitout team. 
            
                       </p>
@@ -130,7 +130,7 @@ const DProjects = () => {
     <li>Who controls quality?</li>
     <li>What happens after handover?</li>
   </ul>
-          <p className="text-justify">
+          <p>
            
            
             These answers often reveal more than the quotation itself. Clients should also pay attention to warning signs. Extremely vague proposals, unrealistic schedules, limited local experience, and no clear approval strategy usually create complications later. The Best fitout company in Dubai is rarely the one promising the fastest completion. It is usually the one creating the strongest process.
@@ -146,16 +146,16 @@ const DProjects = () => {
         
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <p className="text-justify">
+            <p>
               At WE DO, our approach starts with one belief:
               Great interiors are created when design and delivery remain connected. We operate as a fully integrated <b className="text-[#caa193]"><a href="https://wedointerior.ae/"> Fitout and interior design company in Dubai</a></b>, bringing planning, approvals, execution, and coordination together from day one. This system eliminates many of the challenges faced by our clients with respect to conventional forms of project execution.
             </p>
-            <p className="text-justify">
+            <p>
               Instead of working with numerous consultants and contractors, our client deals with only one team who is accountable for the entire process. The scope of approvals includes items such as Dubai Municipality, Civil Defense, DEWA Coordination, Landlord Approvals, and Project Compliance.
             
               As the process of approval affects the schedules in ways not expected by many people, its integration will make the process much easier.
             </p>
-            <p className="text-justify">
+            <p>
               Having more than 11+ Years of experience and completing more than 200 projects, we have experience working in different conditions, both residential, commercial, retail, and hospitality, in Dubai. Our delivery philosophy focuses on preparation. When projects are planned properly, execution becomes easier. That approach has helped us maintain a strong delivery record while continuing support after completion.
             
               For many clients, this is why WE DO becomes more than an Interior fitout company in Dubai. We become the team that protects the final outcome.
@@ -182,35 +182,35 @@ const DProjects = () => {
 
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="space-y-6 text-white font-play">
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Residential Fitout — Villas, Apartments, Penthouses</b><br />
               Residences need to have a personal feel. The Residential fitouts Dubai solutions that our company offers concentrate on designing living spaces that can facilitate comfortable and convenient lifestyles. From <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa transformations</a></b> to the completion of penthouses and the upgrade of apartments, we integrate planning with implementation. Each one of these projects is based on the way people really live within their homes.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Commercial Fitout — Offices, Retail, Showrooms</b><br />
               Commercial interiors directly influence performance. Customers respond to environments. Teams work differently depending on layout. Brands become stronger through physical experience. Our Commercial fitout company in Dubai services support offices, retail environments, showrooms, and customer-facing spaces designed around both operations and experience.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Hospitality Fitout — Restaurants, Cafes, Hotels</b><br />
               Hospitality projects require balance. Spaces must feel inviting while operating efficiently. Front-of-house experience and back-of-house functionality need equal attention. Our hospitality fitout process focuses on atmosphere, flow, and long-term durability.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Renovation Fitout — Existing Spaces, New Vision</b><br />
-              Existing spaces often hold untapped potential. Rather than relocating, many clients choose renovation to improve how environments perform. We manage upgrades, transformations, and repositioning projects with minimal disruption.
+              Existing spaces often hold untapped potential. Rather than relocating, many clients <b  className="text-[#caa193]"><a href="/renovation-dubai">choose renovation</a></b> to improve how environments perform. We manage upgrades, transformations, and repositioning projects with minimal disruption.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Turnkey Fitout — Complete Delivery, Move-In Ready</b><br />
               Our turnkey delivery model allows clients to work with one integrated team. From planning and approvals to installation and completion, everything remains connected. This approach is especially valuable for clients seeking a Luxury fitout company in Dubai experience without unnecessary complexity.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Cat A & Cat B Commercial Fitout</b><br />
               Commercial environments often require different levels of completion. We support both foundational fitout requirements and fully customised workplace delivery.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">FF&E Procurement & Installation</b><br />
               Furniture and finishing selections strongly influence final quality. Our team coordinates procurement and installation to maintain consistency.
             </p>
-            <p className="text-justify">
+            <p>
               <b className=" text-[#caa193]">Dubai Municipality Approvals & Compliance</b><br />
               Approvals are built into our workflow rather than treated as a separate stage. This creates better coordination and smoother progress.
             </p>
@@ -258,7 +258,7 @@ const DProjects = () => {
       <div className="lg:max-w-[90%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12">
         <h2 className="text-center text-3xl font-conthrax text-white uppercase">Why Dubai Clients Choose WE DO as Their Fitout Company</h2>
         <div className="space-y-6 text-white font-play">
-          <p className="text-justify">
+          <p>
             Why us? Clients pick WE DO due to the fact that fitout services call for more than construction skills. It calls for planning, know-how regarding permissions, co-ordination of engineering aspects, delivery and the ability to sustain high quality right throughout the process. The integration process at WE DO eliminates the extra steps and adds order to the whole process for clients all over Dubai. Communication, execution, delivery and support after delivery is what we believe in, since good spaces are not just about aesthetics.
           </p>
         </div>
@@ -288,10 +288,10 @@ const DProjects = () => {
               </h2>
               
               <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-                <p className="text-justify">
+                <p>
                   Every project starts with understanding. During the initial consultation stage, we define objectives, timelines, priorities, and expectations. Once direction is clear, design concepts and visuals translate ideas into practical environments. Detailed planning follows. Materials, technical coordination, and execution requirements are developed to reduce unnecessary surprises during construction. Approvals management then supports compliance and project progression. After approvals move forward, construction and fitout begin under structured supervision. Throughout delivery, quality inspections remain active.
                 </p>
-                <p className="text-justify">
+                <p>
                   The objective is not simply completion. It is consistent. The final stage focuses on handover and aftercare. Because handing over the keys should not mean ending support. Timeline expectations depend on project type. Residential projects, hospitality spaces, commercial environments, and turnkey fitouts each require different levels of coordination. We focus on controlled delivery rather than rushed completion.
                 </p>
               </div>
@@ -304,10 +304,10 @@ const DProjects = () => {
               </h2>
               
               <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
-                <p className="text-justify">
+                <p>
                   We are relied upon by homeowners to provide fitouts for villas and apartments according to their lifestyle and functionality. Businesses opt for our services to create a commercial space that enhances the customer experience and operational efficiency. 
                 </p>
-                <p className="text-justify">
+                <p>
                   The restaurant and café operators partner with us in creating spaces that offer efficiency and ambiance. Developers choose turnkey delivery to simplify execution across multiple units and project phases. Because every project may look different, but the need for reliable delivery stays the same.
                 </p>
               </div>

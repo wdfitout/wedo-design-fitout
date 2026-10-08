@@ -11,6 +11,7 @@ const projects = [
     title: "PRIMO TOWER PENTHOUSE",
     type: "PENTHOUSE",
     location: "BURJ KHALIFA",
+    size: "480 SQM",
     slug: "/ii-primo-penthouse",
   },
   {
@@ -19,6 +20,7 @@ const projects = [
     title: "MAJAN VILLA",
     type: "VILLA",
     location: "MAJAN",
+    size: "780 SQM",
     slug: "/majan-villa-design",
   },
   {
@@ -27,7 +29,7 @@ const projects = [
     title: "BUSINESS BAY APARTMENT",
     type: "APARTMENT",
     location: "BUSINESS BAY",
-    outcome: "[FILL-04]",
+    size: "110 SQM",
     slug: "/business-bay-apartment",
   },
   {
@@ -36,7 +38,7 @@ const projects = [
     title: "DOWNTOWN RESTAURANT",
     type: "RESTAURANT",
     location: "DOWNTOWN DUBAI",
-    outcome: "[FILL-04]",
+    size: "460 SQM",
     slug: "/downtown-dubai-restaurant",
   },
 ];

@@ -138,7 +138,7 @@ const VHeroSection = () => {
           </div>
         <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Verifying Fit-Out Licensing and Insurance</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Verifying Fit-Out Licensing and Insurance</h2>
             <p>The UAE interior market is highly competitive, but physical building modifications require strict legal compliance. Before shortlisting any <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-downtown-dubai">interior design company in Downtown Dubai</a></b>, you must explicitly verify two core operational credentials, standards that WE DO strictly uphold.
            </p> <br />
              <Image
@@ -148,16 +148,16 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-              <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5"> Trade License Verification</h3>
+              <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5"> Trade License Verification</h3>
               <p>Always request a direct copy of the firm’s active DED Trade License. If the licensing activities do not explicitly include interior implementation or contracting, the firm cannot legally pull engineering permits or make structural modifications. WE DO Interior Design & Fitout is fully licensed to complete major interior alterations and interior framing safely.</p>
-              <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5">Corporate Insurance Standards</h3>
+              <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5">Corporate Insurance Standards</h3>
               <p>Verify that the contractor carries robust Third-Party Liability and Workmen’s Compensation insurance. In high-density residential towers, an accidental plumbing burst can cause catastrophic damage to surrounding units. We carry comprehensive, high-value corporate liability insurance for every single job site, shifting all financial risk away from you as the property owner. When searching for the best interior designers in Dubai to execute a high-end residential renovation UAE, verifying these legal safeguards protects your equity from day one.
 </p>
           </div>
         
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
            Is Their Downtown Dubai Portfolio Real?
             </h2>
             <p> Not every interior design company has hands-on experience in Downtown Dubai. Before making a decision, ask to see completed projects specifically from this district instead of a general Dubai portfolio. This helps you assess the company's design quality, execution standards, and familiarity with local approval requirements.
@@ -174,7 +174,7 @@ const VHeroSection = () => {
            
              <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Turnkey Contracting vs. Split Sub-Contracting
             </h2>
             <p> Many owners try to reduce costs on the front end by hiring a standalone boutique designer for 3D designs, in hopes that they can pass this concept to a cheaper builder at a later stage. In the luxury fit-out sector, this type of approach is fraught with risks.</p> <br />
@@ -186,12 +186,12 @@ const VHeroSection = () => {
               className="rounded-md w-full object-cover"
             /> <br />
             <p>Standalone designers tend to produce visually stunning designs without taking into consideration any real-life MEP routing, structural loading, or building regulations. The moment the independent contractor arrives at the location and finds out that the design cannot be realized as per the drawing, the blame game begins. The designer blames the contractor’s execution, while the contractor blames the designer's drawings, leaving you to foot the bill for delays</p>
-               <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5">The Unified WE DO Turnkey Advantage</h3>
+               <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5">The Unified WE DO Turnkey Advantage</h3>
                <p>A unified turnkey partner manages everything under a single point of responsibility. The interior designers of our team collaborate with the in-house MEP engineers, joiners, and site managers right from the time the first drawing is made. Each and every concept is based on accurate space planning and drafting such that the outcome of the 3D rendering matches exactly what goes on at the site. If you are seeking a reliable turnkey interior design and build Dubai solution, our integrated method eliminates budget overruns.</p>
           </div>
            <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              What a Professionally Itemized Quote Must Include
             </h2>
             <p> A vague, lump-sum estimate stating a single figure like "Total Fit-Out Package: AED 500,000" is a major warning sign. It almost always signals hidden variations and surprise bills midway through construction. WE DO believes in total transparency, providing a fully itemized, line-by-line cost breakdown.
@@ -268,14 +268,14 @@ const VHeroSection = () => {
     </tbody>
   </table>
 </div>
- <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5">Factoring in Contingency</h3>
+ <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5">Factoring in Contingency</h3>
  <p>A professional quote must explicitly feature a dedicated contingency buffer of 5% to 10%. In high-rise renovations, removing old walls or ceilings often exposes legacy plumbing faults or wiring issues from previous builds that require mandatory rectification. We factor these realities into the initial scope, which is essential when budgeting for luxury interior design Downtown Dubai projects.
 </p>
           </div>
           
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
            Materials, Modern Textures, and Joinery Standards
             </h2>
             <p> The key feature of custom residential interior design is the texture of the materials used. We value high-quality natural materials and unique craftsmanship rather than off-the-shelf furniture and cheap laminate products.
@@ -287,7 +287,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-            <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5">Organic Textures and Wall Finishes</h3>
+            <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5">Organic Textures and Wall Finishes</h3>
             <p> Contemporary interior design has shifted decisively toward natural, understated surfaces. Across our residential interior design services dubai, we introduce depth through contemporary artisan finishes:</p>
             <ul className="list-disc pl-6 space-y-3 font-play text-gray-300 leading-relaxed my-5">
   <li>
@@ -307,10 +307,10 @@ const VHeroSection = () => {
    </div>
    <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">  Commercial Fit-Outs and Enterprise Execution </h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">  Commercial Fit-Outs and Enterprise Execution </h2>
             <p>Downtown Dubai is an iconic global business and elite culinary hub. Crafting commercial properties requires a completely separate strategy from residential projects, adding durability, high foot traffic optimization, and corporate identity at the forefront.
           </p>
-            <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5"> Modern Office Fit-Outs </h3>
+            <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5"> Modern Office Fit-Outs </h3>
              <p> As one of the <b className='text-[#caa193]'><a href="https://wedointerior.ae/commercial-interior-design-dubai">leading commercial interior designers</a></b>, modern commercial tenants opt for highly flexible and forward-looking designs. In view of Downtown commercial property renting high rates, effective use of your floor space will influence your efficiency and profitability directly. We Do is an expert on workplace design and office remodeling, using acoustic ceiling tiles and glass partitions.
             </p> <br />
             <Image
@@ -320,7 +320,7 @@ const VHeroSection = () => {
               height={600}
               className="rounded-md w-full object-cover"
             />
-              <h3 class="text-[#caa193] text-xl font-conthrax leading-tight py-5">High-End Hospitality & F&B Styling</h3>
+              <h3 className="text-[#caa193] text-xl font-conthrax leading-tight py-5">High-End Hospitality & F&B Styling</h3>
              
                <p> For the hospitality sector, launching an outlet along the boulevard or Souk Al Bahar requires an experienced <b className='text-[#caa193]'><a href="https://wedointerior.ae/restaurant-interior-design">restaurant interior designer dubai</a></b>. The WE DO commercial teams build custom layouts that optimize seating capacity and kitchen workflows while ensuring the property strictly satisfies all Dubai Municipality health and safety regulations. 
                 </p><br />
@@ -335,7 +335,7 @@ const VHeroSection = () => {
 
               <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5"> Comprehensive Turnkey Solutions: The WE DO Execution Model
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5"> Comprehensive Turnkey Solutions: The WE DO Execution Model
            </h2>
             <p>Managing a complex Downtown Dubai apartment renovation or retail build can become overwhelming if you are juggling independent vendors. To keep your experience stress-free, WE DO utilizes an integrated turnkey execution model:
          </p> <br />
@@ -382,10 +382,10 @@ const VHeroSection = () => {
 
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Frequently asked questions (FAQs)
             </h2>
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
               1- What should I check in an interior design firm in Downtown Dubai?
             </h3>
             <p>
@@ -393,14 +393,14 @@ const VHeroSection = () => {
 
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              2- What is the price charged by interior design firms in Downtown Dubai?
             </h3>
             <p>
             In case you want a structurally solid space, the structural and cosmetic changes can cost somewhere between AED 400 to AED 850+. It all depends on your material choices and the complexity involved in the process of changing the structure.
 </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              3- Is it more beneficial to choose a company or a freelance interior designer?
             </h3>
             <p>
@@ -408,7 +408,7 @@ const VHeroSection = () => {
 
             </p>
 
-            <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+            <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              4- How long does a Downtown Dubai fit-out usually last?
 
             </h3>
@@ -417,7 +417,7 @@ const VHeroSection = () => {
 
             </p>
 
-             <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              5- Who is the best interior design company in Downtown Dubai?
 
             </h3>
@@ -426,7 +426,7 @@ const VHeroSection = () => {
             </p>
 
 
-             <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              6- Do I need special approval to renovate an Emaar-managed Downtown Dubai building?
 
             </h3>
@@ -436,7 +436,7 @@ const VHeroSection = () => {
            </p>  
              
 
-             <h3 class="text-[#caa193] text-md font-conthrax leading-tight py-5">
+             <h3 className="text-[#caa193] text-md font-conthrax leading-tight py-5">
              7- What is the distinction between a turnkey firm and a design firm?
             </h3>
             <p>A design-only firm only offers designs, concepts, mood boards, and 3D drawings, while the management and coordination with individual contractors and permit authority remain your responsibility. Turnkey firms take complete charge of the whole process from design through manufacture up to the actual construction on site.
@@ -447,7 +447,7 @@ const VHeroSection = () => {
           
           <div className=" text-md leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5"> Ready to Transform Your Downtown Space?  </h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5"> Ready to Transform Your Downtown Space?  </h2>
             <p> The level of quality in your luxury residence or commercial venture requires the highest standard of execution. If you are serious about turning your place into a state-of-the-art interior that will meet all your expectations, the expert engineers and designers from WE DO can help you.
   </p> <br />
             <Image

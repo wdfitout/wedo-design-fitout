@@ -58,7 +58,7 @@ const VHeroSection = () => {
               If you are interested in Villa vs Apartment Interior Design or are considering Villas vs Apartments in Dubai. <b className="text-[#caa193]"><a href="https://wedointerior.ae/">WE DO Interior Design & Fitout</a></b>  offers customized solutions that cater to your preferences. Our skills include designing interiors for villas in Dubai creating luxury apartment designs in Dubai and managing comprehensive residential fit-out projects in Dubai.
 
             </p>
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Space & Layout Planning</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Space & Layout Planning</h2>
             <p> Villas in Dubai, especially in areas like Dubai Hills Estate and Palm Jumeirah, come with wide layouts, high ceilings, generous living rooms, multiple bedrooms, private gardens and dedicated leisure spaces. As a <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-interior-design-dubai">leading villa interior design company</a></b> and a trusted interior contractor in Dubai, WE DO shapes these homes with smooth, well-planned layouts that make the most of the space and match the way residents live.  </p>
           </div>
             <Image
@@ -75,7 +75,7 @@ const VHeroSection = () => {
            </div>
         <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Material Selection & Finishes</h2>
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">Material Selection & Finishes</h2>
             <p> Villas provide the opportunity for the use of top-quality materials and upscale finishes that enhance luxury living. WE DO frequently integrates natural stone, custom carpentry, designer lighting and additional refined features in <b className="text-[#caa193]"><a href="https://wedointerior.ae/villa-projects">interior design projects for Dubai villas</a></b> resulting in a timeless sense of elegance. Developments such as Splendour Villas and Palm Jumeirah villas greatly benefit from this methodology. </p>
            <br/>  <Image
               src="/images/Villa_vs_Apartment_Interior_Design_Dubai.png"
@@ -92,7 +92,7 @@ const VHeroSection = () => {
             </div>
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Design Style & Personalization
             </h2>
             <p> Villa interiors in Dubai provide the opportunity for distinctively tailored environments. From a uniquely styled lounge to an impressive entryway or a connected garden view, each villa can showcase the preferences of its owner. WE DO focuses on <b className="text-[#caa193]"><a href="https://wedointerior.ae/luxury-villa-interior-design-in-dubai">villa interior design in Dubai</a></b> that highlights personalization, ensuring that every villa undertaking is exceptional and opulent. </p> <br />
@@ -109,7 +109,7 @@ const VHeroSection = () => {
            </div>
              <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Smart Home Integration
             </h2>
             <p> Villas often come with Large scale automation systems, such as for lighting, climate management, security and entertainment solutions, which are commonly incorporated into villas. Our villa fit-out companies in Dubai ensure that smart technology seamlessly integrates into the villa interior to enhance convenience and sophistication. </p>
@@ -126,7 +126,7 @@ const VHeroSection = () => {
           </div>
            <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
               Fit-Out Requirements
             </h2>
             <p> Villas necessitate thorough planning and extended timeframes for completion because of their scale and upscale finishes. These projects typically include several rooms, complex joinery and tailored spaces. WE DO recognized as one of the top interior fit-out companies in Dubai, handles villa fit-outs meticulously, guaranteeing quality, timely delivery and a hassle free process. </p> <br />
@@ -143,7 +143,7 @@ const VHeroSection = () => {
           
           <div className=" text-sm leading-relaxed font-play">
           
-            <h2 class="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
+            <h2 className="text-[#caa193] text-2xl font-conthrax leading-tight py-5">
              Summing Up
             </h2>
             <p> The primary distinctions in the design of villas and apartments in Dubai involve their configurations, construction materials, options for customization, integration of technology and the intricacy of furnishings. Regardless of whether you want  high end villa interior design in Dubai or luxurious apartment remodeling in Dubai, WE DO Interior Design & Fitout provides customized solutions that reflect your way of living and the specific characteristics of your property. Reach out to WE DO Interior Design & Fitout now for a customized interior design consultation in Dubai. </p> <br />
