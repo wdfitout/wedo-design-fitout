@@ -28,7 +28,7 @@ const DesignV = () => {
 
   return (
     <section className="py-10 px-6 bg-black-200">
-      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax tracking-widest mb-6 uppercase">
+      <h2 className="text-center text-white text-xs sm:text-xl md:text-xl font-conthrax  mb-6 uppercase">
         We Do Apartment Design Related Services
       </h2>
 
@@ -102,6 +102,7 @@ const DesignV = () => {
           </a>
         </div>
       </div>
+      
     </section>
   );
 };

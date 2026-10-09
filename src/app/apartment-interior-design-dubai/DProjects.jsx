@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 
 const textImage = {
@@ -23,8 +23,8 @@ const DProjects = () => {
     <section className="px-6 py-10 bg-black-200">
       
       {/* Top Content Block */}
-      <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow text-center space-y-6 mb-12">
-        <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+      <div className="lg:max-w-[80%] mx-auto bg-black p-2 sm:p-10 rounded shadow text-center space-y-6 mb-12">
+        <h2 className="text-sm sm:text-xl md:text-xl  font-conthrax text-[#caa193]">
           Smart Apartment Interior Design in Dubai for Urban Living
         </h2>
  <div className="space-y-4 text-sm sm:text-base font-play text-white text-left">
@@ -56,9 +56,9 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
+      <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
-          <h3 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
+          <h3 className="text-sm sm:text-xl md:text-xl font-conthrax text-[#caa193]">
           Complete Your Apartment Interior Design in Dubai With Bold Loft-Inspired Concepts
           </h3>
           <p className="text-sm sm:text-base text-white font-play">
@@ -68,13 +68,13 @@ const DProjects = () => {
            industrial-chic elements — like exposed metal frames, rustic oak textures, 
            and matte black accents — to create interiors that are bold yet cozy.
           </p>
-          <p className="text-sm sm:text-base text-white">
+          <p className="text-sm sm:text-base font-play text-white">
           Whether you're designing a <b className="text-[#caa193]"><a href="https://wedointerior.ae/acacia-dubai-hills-2-bedroom-apartment">2-bedroom apartment in Dubai Hills </a></b>or a studio in 
           Business Bay, our design philosophy blends vintage aesthetics with Dubai’s 
           modern urban vibe. These curated touches, paired with custom lighting and smart 
           layouts, give your space a striking identity without sacrificing comfort.
           </p>
-          <p className="text-sm sm:text-base text-white">
+          <p className="text-sm sm:text-base font-play text-white">
           <strong>Browse below to explore some of our most recent apartment transformations that 
           embrace this timeless loft appeal.</strong></p>
         </div>
@@ -166,23 +166,23 @@ const DProjects = () => {
             <ul className="list-decimal pl-5 space-y-2 text-[#caa193]">
             
             <li>
-            <h3 className='font-play'>Material & Furniture Curation</h3>
+            <h3 className='font-play'>Concept Development</h3>
              <p className='text-white font-play'> Style discovery, space analysis, and mood boards
                tailored to your vision.</p>
             </li>
 
              <li>
-            <h3 className='font-'>Project Documentation</h3>
+            <h3 className='font-play'>Material & Furniture Curation</h3>
              <p className='text-white font-play'> We collaborate with Dubai’s top suppliers to handpick furnishings, fabrics, and décor that align with your taste and lifestyle.</p>
             </li>
 
              <li>
-            <h3 className='font-play'>On-Site Supervision & Execution</h3>
+            <h3 className='font-play'>Project Documentation</h3>
              <p className='text-white font-play'> Every layout, lighting plan, and color specification is documented for accuracy and transparency.</p>
             </li>
 
              <li>
-            <h3 className='font-play'>Personalized Design Development</h3>
+            <h3 className='font-play'>On-Site Supervision & Execution</h3>
              <p className='text-white font-play'> Our project managers oversee every phase of implementation — from painting to furnishing — ensuring flawless results.</p>
             </li>
             </ul>
@@ -231,7 +231,7 @@ const DProjects = () => {
       </div>
 
            {/* last paragraph */}
-           <div className="lg:max-w-[60%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
+           <div className="lg:max-w-[80%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12">
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-conthrax text-[#caa193] mb-2">
@@ -277,7 +277,154 @@ const DProjects = () => {
           </p>
         </div>
       </div>
+      
+{/* Premium Apartment Interior Design FAQs */}
+<section
+  id="apartment-faqs"
+  className="bg-black py-8 sm:py-10 px-5 sm:px-8"
+>
+  <div className="max-w-5xl mx-auto">
+
+    {/* FAQ Heading */}
+    <div className="text-center mb-6 sm:mb-8">
+      <span className="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-[#caa193] font-play">
+        Frequently Asked Questions
+      </span>
+
+      <h2 className="text-lg sm:text-2xl font-conthrax text-white mt-2">
+        Apartment Interior Design Dubai
+      </h2>
+
+      <p className="text-xs sm:text-sm text-white/55 font-play mt-2">
+        Find answers about apartment design costs, fit-out timelines,
+        approvals and our interior design services in Dubai.
+      </p>
+    </div>
+
+    {/* All FAQs Visible */}
+    <div className="border-t border-[#caa193]/25">
+      {[
+        {
+          question: 'How much does apartment interior design cost in Dubai?',
+          answer: (
+            <>
+              Apartment interior design and fit-out in Dubai typically costs around AED 80–150 per sq ft, from about AED 40,000 for a studio to AED 300,000+ for a 3-bedroom or larger apartment, with penthouses quoted on scope. The price depends on size, scope (design-only or turnkey), materials, custom joinery and approvals. WE DO provides a detailed quotation after an on-site meeting, with mood boards and 3D visualisation.
+            </>
+          ),
+        },
+        {
+          question: 'How long does an apartment interior design and fit-out take in Dubai?',
+          answer: (
+            <>
+              A turnkey apartment fit-out in Dubai typically takes 3–5 weeks for a studio, 6–9 weeks for a 1-bedroom, 8–12 weeks for a 2-bedroom and 10–16 weeks for a 3-bedroom or larger apartment, with design and building approvals adding time before work starts. Penthouses with bespoke joinery or imported materials can take longer. Our in-house joinery factory keeps production on schedule.
+            </>
+          ),
+        },
+        {
+          question: 'Do I need approvals to renovate or fit out my apartment in Dubai?',
+          answer: (
+            <>
+              Yes, most apartment fit-outs in Dubai need approval before work starts. This usually means a building NOC from building management and, depending on the scope, developer approval (such as Emaar or Damac) and authority approvals from Dubai Municipality or Dubai Civil Defence. WE DO’s dedicated approvals team prepares and submits these for you.
+            </>
+          ),
+        },
+        {
+          question: 'Should I hire one company for both design and fit-out?',
+          answer: (
+            <>
+              For most apartments, yes. One company handling both design and fit-out gives you a single point of responsibility, a design that is costed and buildable from day one, and no handovers between contractors. WE DO delivers both under one roof, with in-house designers, civil works and decoration teams, and its own joinery factory.
+            </>
+          ),
+        },
+        {
+          question: 'What types of apartments do you design?',
+          answer: (
+            <>
+              WE DO designs and fits out studios, 1–3 bedroom apartments and penthouses across Dubai. Recent apartment projects include Atlantis The Royal, Marina Gate 2, Acacia Dubai Hills, Emaar Beachfront Marina Vista and a Palm Jumeirah penthouse, ranging from compact city apartments to fully bespoke luxury residences.
+            </>
+          ),
+        },
+        {
+          question: 'Which Dubai buildings and communities have you worked in?',
+          answer: (
+            <>
+              WE DO has completed apartment interiors at Atlantis The Royal, Marina Gate 2, Emaar Beachfront Marina Vista, Acacia Dubai Hills, Madinat Jumeirah Living, Palm Jumeirah and Business Bay. Our Primo Tower apartment by Emaar won the Luxury Lifestyle Awards 2026 for Best Luxury Residential Renovation Interior Design. We work across Downtown Dubai, Business Bay, Dubai Marina, Palm Jumeirah, Dubai Hills Estate and DIFC.
+            </>
+          ),
+        },
+        {
+          question: 'What’s included in a turnkey apartment package, and can it be move-in ready?',
+          answer: (
+            <>
+              A turnkey package covers everything from concept to handover: space planning, mood boards, 3D visualisation and VR/AR walkthroughs, building approvals, civil and decoration works, custom joinery from our own factory, furniture and décor sourcing, on-site supervision and final styling. Yes, the apartment is handed over furnished and ready to move into.
+            </>
+          ),
+        },
+        {
+          question: 'Can I stay in my apartment during the works?',
+          answer: (
+            <>
+              It depends on the scope. For lighter works such as furnishing, styling or joinery installation, you can usually stay in the apartment while working. For full fit-outs involving flooring, kitchens, bathrooms, or MEP works, we recommend that our clients move out, as dust, noise, and building working-hour rules make living there impractical.
+            </>
+          ),
+        },
+        {
+          question: 'Can you renovate an apartment that’s rented out or between tenants?',
+          answer: (
+            <>
+              Yes. Most of our clients in Dubai are investors, and they are upgrading apartments to increase rental value. The best time is between tenancies, when works can run without disruption. If the apartment is occupied, we coordinate access with the tenant and building management, and schedule works to keep disruption to a minimum.
+            </>
+          ),
+        },
+      ].map((faq, index) => (
+        <div
+          key={faq.question}
+          className="py-3 sm:py-4 border-b  border-[#caa193]/15"
+        >
+          <h3 className="flex items-start gap-3 text-xs sm:text-sm font-conthrax text-white leading-6">
+            <span className="text-[10px] sm:text-xs text-[#caa193] font-play shrink-0 pt-1">
+              {String(index + 1).padStart(2, '0')}
+            </span>
+
+            <span>{faq.question}</span>
+          </h3>
+
+          <div className="mt-2 ml-7 text-xs sm:text-sm leading-6 font-play text-white/65">
+            {faq.answer}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Contact CTA */}
+    <div className="mt-6 text-center">
+      <p className="text-xs sm:text-sm text-white/60 font-play mb-3">
+        Have a specific apartment project in mind?
+      </p>
+
+      <div className="flex flex-wrap justify-center gap-3">
+        <a
+          href="https://wa.me/971588075603"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-2.5 bg-[#caa193] text-black text-[10px] sm:text-xs font-semibold tracking-wider uppercase hover:bg-[#d8b5a8] transition-colors duration-300"
+        >
+          Discuss Your Project
+        </a>
+
+        <a
+          href="mailto:info@wedointerior.ae"
+          className="px-5 py-2.5 border border-[#caa193]/50 text-[#caa193] text-[10px] sm:text-xs font-semibold tracking-wider uppercase hover:bg-[#caa193]/10 transition-colors duration-300"
+        >
+          Email Our Team
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
     </section>
+    
   );
 };
 

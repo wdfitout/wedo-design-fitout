@@ -1,87 +1,103 @@
+
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
-import { FaPlay } from 'react-icons/fa';
 
 const ApId = () => {
-  const [videoLoaded, setVideoLoaded] = useState(false);
+  const facts = [
+    ['Service', 'Turnkey apartment design & fit-out'],
+    
+    ['Apartment types', <>Studios, 1–3 bedroom apartments, <a href="/penthouse-projects" className="text-[#caa193] underline hover:opacity-80">penthouses</a></>],
+    ['Experience', 'Since 2015 · 250+ projects'],
+    ['In-house delivery', <>Designers, civil works, decoration & <a href="/joinery-company-dubai" className="text-[#caa193] underline hover:opacity-80">own joinery factory</a></>],
+    ['Design deliverables', 'Mood boards, 3D visualisation, VR/AR walkthroughs'],
+    ['Approvals', 'Building NOCs, developer & authority approvals, as applicable'],
+    ['Certifications', 'ISO 9001, ISO 14001 & ISO 45001'],
+    ['Award', <a href="/ii-primo-penthouse" className="text-[#caa193] underline hover:opacity-80">Luxury Lifestyle Awards 2026</a>],
+    [
+      'Featured projects',
+      'Royal Atlantis, Marina Gate 2, Acacia Dubai Hills, Marina Vista, Palm Jumeirah & Business Bay',
+    ],
+    
+[
+  'Areas served',
+  <>
+    <a href="/apartment-interior-design-downtown-dubai" className="text-[#caa193] underline hover:opacity-80">Downtown Dubai</a>,{' '}
+    <a href="/apartment-interior-design-business-bay" className="text-[#caa193] underline hover:opacity-80">Business Bay</a>,{' '}
+    <a href="/best-interior-design-company-in-dubai-marina" className="text-[#caa193] underline hover:opacity-80">Dubai Marina</a>,{' '}
+    <a href="/interior-design-companies-palm-jumeirah-dubai" className="text-[#caa193] underline hover:opacity-80">Palm Jumeirah</a> &{' '}
+    <a href="/interior-design-companies-near-dubai-hills" className="text-[#caa193] underline hover:opacity-80">Dubai Hills Estate</a>
+  </>,
+],
+  ];
 
   return (
-    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 sm:py-10 font-sans">
-      <div className="lg:max-w-[80%] mx-auto">
-        <div className="flex flex-col lg:flex-row gap-12">
-          {/* Text Column */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-start">
-            <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
-              Apartment Interior Design Dubai by Experts Who Know Style and Space
-            </h2>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-             Apartment interior design Dubai is not just about aesthetics — it’s about creating smart, functional, and emotionally resonant spaces that reflect how people truly live in this city. <strong>At WE DO Interior Design & Fit out,</strong> our team of seasoned interior architects, designers, and fit-out specialists bring over 11+ years of hands-on experience transforming Dubai apartments into exceptional, livable art. 
+    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-40 py-10 font-sans">
+      <div className="mx-auto w-full">
+        {/* Existing Text Section */}
+        <div className="w-full">
+          <h2 className="text-sm sm:text-xl md:text-xl font-conthrax text-[#caa193] py-2">
+            Apartment Interior Design Dubai by Experts Who Know Style and Space
+          </h2>
 
-           </p>
-           <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            We understand the unique structural layouts, lighting limitations, and lifestyle expectations that come with Dubai apartments — from compact studios in JVC to <b className="text-[#caa193]"> <a href="https://wedointerior.ae/palm-jumeirah-2-bedroom-penthouse">luxurious penthouses in Palm Jumeirah</a></b>. Every design we create is guided by local experience, design certifications, sustainable practices, and our commitment to delivering timeless value.
-            </p>
-            <p className="text-sm sm:text-base leading-7 mb-4 font-play">
-            Whether you're upgrading for personal comfort or increasing rental value, our end-to-end service ensures your apartment becomes a reflection of elegance, efficiency, and Dubai’s modern lifestyle. <b className="text-[#caa193]"><Link href="/apartment-projects"> See our completed apartment projects in Dubai</Link></b> 
-            </p>
+          <p className="text-sm sm:text-base leading-7 mb-4 font-play">
+            Apartment interior design Dubai is not just about aesthetics — it’s
+            about creating smart, functional, and emotionally resonant spaces
+            that reflect how people truly live in this city.{' '}
+            <strong>At WE DO Interior Design & Fit Out,</strong> our team of
+            interior architects, designers, and fit-out specialists brings
+            extensive experience transforming Dubai apartments into exceptional,
+            livable spaces. We understand the unique structural layouts,
+            lighting limitations, and lifestyle expectations of Dubai apartments
+            — from compact studios in JVC to{' '}
+            <Link
+              href="/palm-jumeirah-2-bedroom-penthouse"
+              className="text-[#caa193] font-semibold hover:underline"
+            >
+              luxurious penthouses in Palm Jumeirah
+            </Link>
+            . Every design reflects our commitment to thoughtful planning,
+            quality execution, and timeless value.
+          </p>
 
-            {/* Highlight Box */}
-            <div className="bg-[#caa193] text-white text-xs sm:text-base font-play rounded px-6 py-4 mt-6 w-fit">
-              11+ Years of Experience
-            </div>
+          <p className="text-sm sm:text-base leading-7 mb-4 font-play">
+            Whether you are upgrading for personal comfort or increasing rental
+            value, our end-to-end service helps make your apartment a reflection
+            of elegance, efficiency, and Dubai’s modern lifestyle.{' '}
+            <Link
+              href="/apartment-projects"
+              className="text-[#caa193] font-semibold hover:underline"
+            >
+              See our completed apartment projects in Dubai
+            </Link>
+            .
+          </p>
+
+          <div className="bg-[#caa193] text-white text-xs sm:text-sm font-play rounded px-4 py-3 mt-5 w-fit">
+            11+ Years of Experience
           </div>
+        </div>
 
-          {/* Video Column */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
-            <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
-              Get Best Apartment Design Dubai
-            </h2>
+        {/* Compact Key Facts Table */}
+        <div className="mt-8">
+          <h3 className="text-lg sm:text-xl font-conthrax text-[#caa193] mb-4">
+            Apartment Interior Design — Key Facts
+          </h3>
 
-          
-
-            {/* Video */}
-            {!videoLoaded ? (
+          <div className="font-play grid grid-cols-1 sm:grid-cols-2 gap-x-8">
+            {facts.map(([label, value]) => (
               <div
-                className="relative w-full aspect-video bg-black cursor-pointer group overflow-hidden rounded-lg border-4 border-[#caa193]"
-                onClick={() => setVideoLoaded(true)}
+                key={label}
+                className="grid grid-cols-[115px_1fr] sm:grid-cols-[125px_1fr] gap-3 py-2.5 border-b border-white/10"
               >
-             <Image
-              src="/images/atlantis (2).webp"
-              alt="Watch our company video"
-              width={1280}
-              height={720}
-              className="object-cover w-full h-full"
-                />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/30 flex items-center justify-center backdrop-blur-sm transition group-hover:scale-110">
-                    <FaPlay className="text-white text-xl sm:text-2xl ml-1" />
-                  </div>
-                </div>
+                <span className="text-xs sm:text-sm font-semibold text-[#caa193]">
+                  {label}
+                </span>
+                <span className="text-xs sm:text-sm text-white/80 leading-5">
+                  {value}
+                </span>
               </div>
-            ) : (
-              <div className="w-full aspect-video border-4 border-[#caa193] rounded-lg overflow-hidden">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/yNeCQLpYvww?autoplay=1&mute=1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            )}
-
-            {/* Optional Highlight or CTA */}
-               <Link
-            href="/contact-us"
-            className="border border-[#caa193] text-xs sm:text-base font-play px-6 py-2 mt-6 w-fit  uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
-          >
-            GET YOUR QUOTE
-          </Link>
-
+            ))}
           </div>
         </div>
       </div>
