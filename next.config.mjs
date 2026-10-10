@@ -14,6 +14,7 @@ const nextConfig = {
       { source: '/home-interior-design-dubai/modern-penthouse-interior-design-in-dafza-6w-dubai', destination: '/palm-jumeirah-6-bedroom-penthouse', permanent: true },
       { source: '/home-interior-design-dubai/apartment-interior-design-near-al-wasl-dubai', destination: '/al-wasl-apartment', permanent: true },
       { source: '/home-interior-design-dubai/modern-villa-interior-design-majan-dubai', destination: '/majan-villa-design', permanent: true },
+      { source: '/luxury-villa-interior-design-in-dubai', destination: '/villa-interior-design-dubai', permanent: true },
        /* restaurant */
       { source: '/restaurant-interior-design-dubai/restaurant-cafe-interior-design-in-downtown-dubai', destination: '/downtown-dubai-restaurant', permanent: true },
       { source: '/restaurant-interior-design-dubai/cafe-interior-design-in-al-quoz-dubai', destination: '/al-quoz-cafe-interior', permanent: true },

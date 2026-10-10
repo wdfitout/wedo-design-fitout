@@ -388,15 +388,8 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        {/* ================================================================
-            Zoho CRM Google Ads / GCLID Tracking
-            Keep near the end of body
-            ================================================================ */}
+        
 
-        <script
-          type="text/javascript"
-          src="https://crm.zoho.com/crm/javascript/zcga.js"
-        ></script>
       </body>
     </html>
   );
