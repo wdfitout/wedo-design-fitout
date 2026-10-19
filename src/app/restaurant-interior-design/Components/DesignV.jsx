@@ -6,9 +6,12 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-  '/images/restaurant (12).webp',
-  '/images/crazymask (39).webp',
-  '/images/fujiya (4).webp',
+   '/images/ht-4.png',
+  '/images/ht-5.png',
+  '/images/ht-6.png',
+  '/images/ht-1.png',
+  '/images/ht-2.png',
+  '/images/ht-3.png',
 ];
 
 const DesignV = () => {

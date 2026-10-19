@@ -172,7 +172,7 @@ const DProjects = () => {
         </div>
       </div>
 
-      {/* Grid Row – Why Dubai Boutique Owners Choose WE DO */}
+      {/* Grid Row – Why Dubai Boutique Owners Choose WE DO 
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-10 items-center mb-16 px-4 lg:px-0">
           <div className="md:col-span-2 space-y-6 text-white font-play">
@@ -204,7 +204,7 @@ const DProjects = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div>*/}
       
       {/* Bottom CTA Section */}
       <div className="bg-[#f5ede5] py-12 text-center space-y-4 my-12 rounded">
@@ -279,7 +279,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/boutique (3).jpeg"
+              src="/images/bt-4.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -292,7 +292,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="rounded-lg overflow-hidden shadow-md order-2 md:order-1">
             <Image
-              src="/images/boutique (2).jpeg"
+              src="/images/bt-3.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

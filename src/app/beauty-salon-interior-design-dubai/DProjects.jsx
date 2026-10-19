@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/Why Businesses Choose WE DO Interior Design & Fitout.png',
+  src: '/images/sl-4.png',
   link: '/commercial-interior-fit-out',
   title: 'Ultimate Guide to Commercial Interior Fit-out'
 };
@@ -196,7 +196,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/dhfs (1).webp"
+              src="/images/sl-3.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -209,7 +209,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/tabs (16).webp"
+              src="/images/sl-8.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

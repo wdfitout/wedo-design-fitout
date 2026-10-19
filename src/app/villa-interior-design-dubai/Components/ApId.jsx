@@ -39,24 +39,24 @@ const galleryProjects = [
 // Scrolling strip: mix of projects, each image with its own alt.
 // TODO: replace the Majan alts with a description of what each photo actually shows.
 const stripImages = [
-  { src: '/images/district-one-3-bedroom-contemporary-villa-exterior.webp', alt: 'Contemporary District One villa exterior with travertine facade and pool, MBR City' },
-  { src: '/images/majanvilla (2).webp', alt: 'Majan villa interior designed and fitted out by WE DO, Dubai' },
-  { src: '/images/district-one-villa-double-height-living-glass-staircase.png', alt: 'Double-height villa living room with glass staircase, District One, MBR City' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-dining-room.webp', alt: 'Villa dining room with walnut table and olive chairs, District One, Dubai' },
-  { src: '/images/majanvilla (12).webp', alt: 'Majan villa living space interior by WE DO, Dubai' },
-  { src: '/images/district-one-villa-kitchen-stone-island.png', alt: 'Villa kitchen with stone-clad island and handleless cabinetry, District One, Dubai' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-master-bedroom.webp', alt: 'Villa master bedroom with walnut headboard wall and pool view, District One, Dubai' },
-  { src: '/images/majanvilla (5).webp', alt: 'Majan villa room interior with custom joinery by WE DO, Dubai' },
+  { src: '/images/vl-1.png' },
+  { src: '/images/nc-5.png' },
+  { src: '/images/vl-4.png' },
+  { src: '/images/md-6.png' },
+  { src: '/images/mv-8.png' },
+  { src: '/images/vl-7.png' },
+  { src: '/images/vl-8.png' },
 ];
 
 // Gallery grid: different images from the strip so the page doesn't repeat itself
 const gridImages = [
-  { src: '/images/district-one-3-bedroom-contemporary-villa-majlis.webp', alt: 'Contemporary villa majlis with walnut panelling and low linear seating, Dubai' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-kitchen.webp', alt: 'Villa kitchen with travertine island and walnut cabinetry, District One, Dubai' },
-  { src: '/images/district-one-villa-master-bedroom-wall-panelling.png', alt: 'Villa master bedroom with upholstered wall panelling and cove lighting, Dubai' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-master-bathroom.webp', alt: 'Travertine villa master bathroom with freestanding stone bathtub, Dubai' },
-  { src: '/images/district-one-villa-home-office-green-wall.png', alt: 'Villa home office with built-in oak shelving and green wall view, Dubai' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-outdoor-terrace.webp', alt: 'Villa pool terrace with slatted pergola and outdoor seating at dusk, Dubai' },
+  { src: '/images/vl-1.png' },
+  { src: '/images/md-11.png' },
+  { src: '/images/district-one-3-bedroom-contemporary-villa-living-room.webp' },
+  { src: '/images/mv-21.png' },
+  { src: '/images/vl-4.png' },
+  { src: '/images/mv-22.png' },
+  
 ];
 
 const linkClass = 'text-[#caa193]';
@@ -200,7 +200,7 @@ const ApId = () => {
                   onClick={() => {
                     if (!isDragging) setSelectedImage(img);
                   }}
-                  className="relative h-[520px] w-[320px] shrink-0 overflow-hidden"
+                  className="relative h-[220px] w-[320px] shrink-0 overflow-hidden"
                 >
                   <Image
                     src={img.src}
@@ -309,7 +309,7 @@ const ApId = () => {
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
-                  src="/images/majanvilla (6).webp"
+                  src="/images/vl-1.png"
                   alt="Luxury villa living room and majlis interior design in Dubai"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -328,7 +328,7 @@ const ApId = () => {
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
-                  src="/images/majanvilla (7).webp"
+                  src="/images/vl-8.png"
                   alt="Luxury villa master bedroom interior design in Dubai"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -347,7 +347,7 @@ const ApId = () => {
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
-                  src="/images/manaravilla (13).png"
+                  src="/images/mv-11.png"
                   alt="Luxury villa kitchen interior design in Dubai"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -366,7 +366,7 @@ const ApId = () => {
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
-                  src="/images/majanvilla (14).png"
+                  src="/images/mv-14.png"
                   alt="Luxury villa bathroom interior design in Dubai"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -385,7 +385,7 @@ const ApId = () => {
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
-                  src="/images/manara villa (34).webp"
+                  src="/images/landscape-3.png"
                   alt="Luxury villa outdoor terrace and pool design in Dubai"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -419,7 +419,7 @@ const ApId = () => {
               </div>
             </div>
 
-            {/* Standalone Villas */}
+            {/* Standalone Villas 
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -436,9 +436,9 @@ const ApId = () => {
                   Fully detached villas with private gardens and pools on all sides give the most design freedom, no shared walls to plan around, and typically the largest floor plates. Most of our featured projects, including Al Manara and Emirates Hills, are standalone villas.
                 </p>
               </div>
-            </div>
+            </div>*/}
 
-            {/* Twin Villas */}
+            {/* Twin Villas 
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -455,9 +455,9 @@ const ApId = () => {
                   Twin villas share one common wall with a neighbouring unit; townhouse-style layouts share walls on two sides across a row. Both need more deliberate acoustic and privacy planning between the shared wall and adjacent bedrooms, and layouts that make the most of a narrower footprint. See our <b className='text-[#caa193]'><a href="https://wedointerior.ae/arabella-2-bedroom-townhouse">Arabella 2-bedroom townhouse</a></b> and <b className='text-[#caa193]'><a href="https://wedointerior.ae/damac-hills-3-bedroom-townhouse">Damac Hills 3-bedroom townhouse</a></b>  projects.
                 </p>
               </div>
-            </div>
+            </div>*/}
 
-            {/* Villa Sizes */}
+            {/* Villa Sizes 
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -474,7 +474,7 @@ const ApId = () => {
                  A 2–4 bedroom villa and a 6–7+ bedroom estate are different design problems: larger villas need clear zoning for family, guest and staff areas, while smaller ones need every room to work harder. Our <b className='text-[#caa193]'><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District One 2-bedroom villa</a></b> adds a home office, and our <b className='text-[#caa193]'><a href="https://wedointerior.ae/district-one-contemporary-villa"> 3-bedroom villa </a></b>includes a children's room with built-in storage.
                 </p>
               </div>
-            </div>
+            </div>*/}
           </div>
 
           <p className="text-white/70 text-sm font-play mt-5">
@@ -726,7 +726,7 @@ const ApId = () => {
           </div>
         </section>
 
-        {/* PROJECTS */}
+        {/* PROJECTS
 
         <div className="mb-10">
           <p className={eyebrowClass}>Gallery</p>
@@ -757,8 +757,9 @@ const ApId = () => {
             </Link>
           ))}
         </div>
+        */}
 
-        {/* BEFORE & AFTER */}
+        {/* BEFORE & AFTER 
 
         <section className="mt-16">
           <p className={eyebrowClass}>Before & After</p>
@@ -802,6 +803,7 @@ const ApId = () => {
             </div>
           </div>
         </section>
+        */}
 
         {/* THE WE DO DIFFERENCE */}
 

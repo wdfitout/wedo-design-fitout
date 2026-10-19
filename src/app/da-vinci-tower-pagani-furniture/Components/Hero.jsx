@@ -52,7 +52,7 @@ const Hero = () => {
       {/* Overlay Content */}
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg text-white max-w-[700px]">
         <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
-          Pagani-Inspired Furniture for Da Vinci Tower, Business Bay
+          Pagani-Inspired Furniture for Da Vinci Tower, Business Bay, Dubai, UAE
         </h1>
 
         <p className="text-sm sm:text-base leading-8 mb-4 font-play text-white/85">

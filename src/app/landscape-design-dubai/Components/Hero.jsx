@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/luxury-villa-landscape-design-dubai.png"
+        src="/images/landscape-2.webp"
         alt="luxury Villa landscape design in Dubai"
         width={1920}
         height={1080}

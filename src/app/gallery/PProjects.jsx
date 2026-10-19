@@ -5,8 +5,56 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
+     {
+    img: "/images/da-vinci-tower-4.webp",
+    alt: "pagani inspired penthouse da vinci tower business bay",
+    title: "PAGANI INSPIRED PENTHOUSE DA VINCI TOWER",
+    href: "/da-vinci-tower-pagani-furniture",
+  },
+     {
+    img: "/images/bt-10.jpg",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "BLEU TOWER PENTHOUSE",
+    href: "/bleu-tower-penthouse",
+  },
 
-  
+  {
+    img: "/images/ma-4.jpg",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "DUBAI MARINA APARTMENT",
+    href: "/dubai-marina-apartment",
+  },
+    {
+    img: "/images/penth19.webp",
+    alt: "Apartment Interior Design",
+    title: "ii PRIMO PENTHOUSE",
+    href: "/ii-primo-penthouse",
+  },  
+    {
+    img: "/images/pt-4.jpg",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "PRINCESS TOWER PENTHOUSE",
+    href: "/princess-tower-penthouse",
+  },  
+     
+  {
+    img: "/images/nc-1.png",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "MBR CITY NEO CLASSIC VILLA",
+    href: "/mbr-city-neo-classic-villa",
+  },  
+    {
+    img: "/images/md-20.png",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "PALM JUMEIRAH 3 BEDROOM VILLA",
+    href: "/palm-jumeirah-3-bedroom-villa",
+  },  
+    {
+    img: "/images/mv-9.png",
+    alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
+    title: "EMIRATES HILLS MINIMALIST VILLA",
+    href: "/emirates-hills-minimalist-villa",
+  },  
   {
     img: "/images/address-harbour-point-master-bedroom-interior-design-dubai-creek-harbour.png",
     alt: "Address Harbour Point Master Bedroom Interior Design Dubai Creek Harbour",
@@ -19,12 +67,7 @@ const projects = [
     title: "DUBAI SILICON OASIS APARTMENT",
     href: "/dubai-silicon-oasis-apartment",
   },
-  {
-    img: "/images/penth19.webp",
-    alt: "Apartment Interior Design",
-    title: "ii PRIMO PENTHOUSE",
-    href: "/ii-primo-penthouse",
-  },
+
   {
     img: "/images/bba (8).webp",
     alt: "Home Interior Design",

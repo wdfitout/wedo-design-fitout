@@ -4,18 +4,18 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/bba (2).jpg',
-  link: '/business-bay-apartment',
-  title: 'Business Bay Apartment'
+  src: '/images/da-vinci-tower-2.webp',
+  link: '/da-vinci-tower-pagani-furniture',
+  title: 'Da Vinci Tower Apartment'
 };
 
 const galleryImages = [
-  { src: '/images/acacia-dubai-hills-2-bedroom-apartment.png', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACACIA DUBAI HILLS APARTMENT' },
-  { src: '/images/dubai-marina-luxury-apartment.png', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
-  { src: '/images/Residential (2).webp', link: '/emaar-beach-front-marina-vista-apartment', title: 'EMAAR BEACH FRONT MARINA VISTA APARTMENT' },
-  { src: '/images/marina-gate-2-luxury-apartment.png', link: '/marina-gate-2-luxury-apartment', title: 'MARINA GATE 2 LUXURY APARTMENT' },
-  { src: '/images/palm-jumeirah-apartment-interior-design.png', link: '/palm-jumeirah-apartment', title: 'PALM JUMEIRAH APARTMENT' },
-  { src: '/images/madinat-jumeirah-living-asayel-apartment.png', link: '/madinat-jumeirah-living-asayel-apartment', title: 'MADINAT JUMEIRAH LIVING ASAYEL APARTMENT' },
+  { src: '/images/da-vinci-tower-4.webp', link: '/da-vinci-tower-pagani-furniture', title: 'DA VINCI TOWER PENTHOUSE' },
+  { src: '/images/bt-10.jpg', link: '/bleu-tower-penthouse', title: 'BLEU TOWER PENTHOUSE' },
+  { src: '/images/ma-4.jpg', link: '/dubai-marina-apartment', title: 'DUBAI MARINA APRTMENT' },
+  { src: '/images/penth19.webp', link: '/ii-primo-penthouse', title: 'PRIMO PENTHOUSE' },
+  { src: '/images/pt-4.jpg', link: '/princess-tower-penthouse', title: 'PRINCESS TOWER APARTMENT' },
+  { src: '/images/bba (8).webp', link: '/business-bay-apartment', title: 'BUSINESS BAY APARTMENT' },
 ];
 
 const DProjects = () => {
@@ -98,25 +98,32 @@ const DProjects = () => {
         </div>
       </div>
 
-      {/* Gallery Grid with Hover Effects */}
-      <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
-        {galleryImages.map(({ src, link, title }, i) => (
-          <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
-            <Image
-              src={src}
-              alt={title}
-              width={400}
-              height={400}
-              className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                {title}
-              </p>
-            </div>
-          </a>
-        ))}
+      
+{/* Gallery Grid with Uniform Images and Hover Effects */}
+<div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10">
+  {galleryImages.map(({ src, link, title }, i) => (
+    <a
+      href={link}
+      key={i}
+      className="group block relative aspect-[4/3] overflow-hidden rounded shadow"
+    >
+      <Image
+        src={src}
+        alt={title}
+        fill
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+      />
+
+      <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <p className="text-white text-sm sm:text-base font-conthrax text-center">
+          {title}
+        </p>
       </div>
+    </a>
+  ))}
+</div>
+
             {/* Bottom CTA Section */}
       <div className="bg-[#f5ede5] py-10 text-center space-y-4">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase">

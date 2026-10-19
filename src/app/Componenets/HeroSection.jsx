@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/images/kitchen-dining-green-marble-island-foliage-chandelier.webp",
-  "/images/bedroom-marble-feature-wall-teal-bedwater-view.webp",
   "/images/living-room-tv-joinery-wall-green-marble-ledge.webp",
   "/images/living-room-bronze-screens-dusk-city-view.webp",
+  "/images/kitchen-dining-green-marble-island-foliage-chandelier.webp",
+  "/images/bedroom-marble-feature-wall-teal-bedwater-view.webp",
   "/images/kitchen-green-marble-waterfall-island-bar-stools.webp",
   "/images/bedroom-faceted-wall-panelling-bronze-mirror-detail.webp",
   "/images/living-room-green-velvet-arm-chair-marble-floor.webp",

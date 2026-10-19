@@ -6,16 +6,15 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src="/images/nestfinder (5).webp"
-        alt="interior design"
-        width={1920}
-        height={1080}
-        priority
-        className="object-cover"
-      />
+       <div className="relative w-full h-[300px] sm:h-[300px] md:h-[3500px] lg:h-[400px] xl:h-[500px] overflow-hidden">
+           {/* Background Image */}
+           <Image
+             src="/images/x.learning (3).webp"
+             alt="interior design"
+             fill
+             priority
+             className="object-cover"
+           />
 
       {/* Overlay Content Box */}
       <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">

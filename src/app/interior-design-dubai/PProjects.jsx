@@ -2,45 +2,23 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const projects = [
-    {
-    img: "/images/dbckapt (5).png",
-    alt: "Waterfront apartment design and contemporary lifestyle interiors in Dubai Creek.",
-    title: "INTERIOR DESIGN DUBAI CREEK HARBOUR",
-    href: "/interior-design-dubai-creek-harbour",
-  },
-
-      {
-    img: "/images/adbr (9).png",     
-    alt: "Modern office fit-out and workspace planning in Business Bay",
-    title: "INTERIOR DESIGN BUSINESS BAY",
-    href: "/interior-design-company-business-bay",
-  },
-
-    {
-    img: "/images/dtrest (2).webp",
-    alt: "Elite Restaurant design and high-end apartment fit-out in Downtown",
-    title: "INTERIOR DESIGN DOWNTOWN DUBAI",
-    href: "/interior-design-downtown-dubai",
-  },
-   
-    {
-    img: "/images/pjapt (5).webp",
-    alt: "Luxury villa renovation and premium interior styling in Jumeirah.",
-    title: "INTERIOR DESIGN JUMEIRAH DUBAI",
-    href: "/interior-design-jumeirah-dubai",
-  },
-
   {
-    img: "/images/Jumeirah.jpeg",
-    alt: "Jumeirah",
-    title: "INTERIOR DESIGN COMPANIES IN PALM JUMEIRAH DUBAI ",
-    href: "/interior-design-companies-palm-jumeirah-dubai",
-  }
-  
-
+    img: "/images/luxury-villa-design-dubai-hills-estate.webp",
+    alt: "Luxury villa interior design in Dubai Hills Estate",
+    title: "DUBAI HILLS ESTATE",
+  },
+  {
+    img: "/images/luxury-panthouse-design-palm-jumeirah.webp",
+    alt: "Luxury penthouse interior design in Palm Jumeirah",
+    title: "INTERIOR DESIGN COMPANIES IN PALM JUMEIRAH DUBAI",
+  },
+  {
+    img: "/images/minimalist-villa-design-emirates-hills.webp",
+    alt: "Minimalist luxury villa interior design in Emirates Hills",
+    title: "EMIRATES HILLS",
+  },
 ];
 
 const PProjects = () => {
@@ -62,33 +40,45 @@ const PProjects = () => {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
+
         {/* Section Title */}
         <div className="relative mb-6 sm:mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
-          AREAS WE SERVICE IN DUBAI
+            AREAS WE SERVICE IN DUBAI
           </h2>
         </div>
 
-        {/* Project Cards */}
+        {/* Project Cards - Non Clickable, Hover Only */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((card, index) => (
-            <Link key={index} href={card.href}>
-              <div className="relative aspect-[4/3] overflow-hidden group cursor-pointer w-full">
-                <Image
-                  src={card.img}
-                  alt={card.alt}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-                <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
-                  <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
-                  <div className="p-2">
-                    <h3 className="text-white text-sm font-paly text-center">{card.title}</h3>
-                  </div>
+            <div
+              key={index}
+              className="relative aspect-[4/3] overflow-hidden group w-full"
+            >
+              {/* Background Image */}
+              <Image
+                src={card.img}
+                alt={card.alt}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+
+              {/* Bottom Title Overlay */}
+              <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
+
+                {/* Gradient Line */}
+                <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
+
+                {/* Card Title */}
+                <div className="p-2">
+                  <h3 className="text-white text-sm font-paly text-center">
+                    {card.title}
+                  </h3>
                 </div>
+
               </div>
-            </Link>
+            </div>
           ))}
         </div>
 
@@ -105,6 +95,7 @@ const PProjects = () => {
             SEND YOUR ENQUIRY NOW
           </a>
         </div>
+
       </div>
     </section>
   );

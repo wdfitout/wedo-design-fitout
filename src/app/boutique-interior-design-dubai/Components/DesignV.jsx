@@ -6,9 +6,9 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const images = [
-   '/images/boutique (7).jpeg',
-  '/images/boutique (6).jpeg',
-  '/images/boutique (5).jpeg',
+   '/images/bt-1.png',
+  '/images/bt-2.png',
+  '/images/bt-3.png',
  
 ];
 

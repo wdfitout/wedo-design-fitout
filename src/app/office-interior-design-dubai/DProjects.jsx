@@ -180,14 +180,14 @@ const DProjects = () => {
             </ul>
           </div>
           <div className="rounded-lg overflow-hidden shadow-md">
-            <Image src="/images/office-interior.png" alt="Office Process" width={600} height={400} className="w-full h-auto object-cover" />
+            <Image src="/images/x.learning (12).webp" alt="Office Process" width={600} height={400} className="w-full h-auto object-cover" />
           </div>
         </div>
 
         {/* 7. Regulations & Why Choose WE DO (Why Choose unchanged as requested) */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="rounded-lg overflow-hidden shadow-md">
-            <Image src="/images/modern-office-interiors.png" alt="Office Regulations" width={600} height={400} className="w-full h-auto object-cover" />
+            <Image src="/images/x.learning (15).webp" alt="Office Regulations" width={600} height={400} className="w-full h-auto object-cover" />
           </div>
           <div className="space-y-6 text-white font-play">
             <h2 className="text-xl font-conthrax text-[#caa193] mb-4 uppercase">Office Fit-Out Regulations in Dubai</h2>

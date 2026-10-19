@@ -6,30 +6,42 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/x.learning (5).webp",
+    src: "/images/x.learning (3).webp",
     alt: "Elegant villa living room with ambient lighting",
     title: "Villa Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/x.learning (6).webp",
+    src: "/images/x.learning (4).webp",
     alt: "Modern kitchen design with marble countertops",
     title: "Villa Interior Gallery Image 2",
     description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
   },
   {
-    src: "/images/x.learning (7).webp",
+    src: "/images/x.learning (5).webp",
     alt: "Luxury bathroom with golden fixtures",
     title: "Villa Interior Gallery Image 3",
     description: "Stylish bathroom with gold fixtures and large mirrors"
   },
   {
-    src: "/images/x.learning (8).webp",
+    src: "/images/x.learning (6).webp",
     alt: "Bedroom with neutral tones and wall paneling",
     title: "Villa Interior Gallery Image 4",
     description: "Master bedroom showcasing custom wood paneling and luxury bedding"
   },
   {
+    src: "/images/x.learning (7).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
+    src: "/images/x.learning (8).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
     src: "/images/x.learning (9).webp",
     alt: "Villa staircase with chandelier and marble steps",
     title: "Villa Interior Gallery Image 5",
@@ -55,6 +67,128 @@ const galleryImages = [
   },
   {
     src: "/images/x.learning (13).webp",
+    alt: "Private lounge with artistic wall décor and leather seating",
+    title: "Villa Interior Gallery Image 6",
+    description: "Bespoke lounge area with leather furniture and curated art pieces"
+  },
+ 
+  {
+    src: "/images/x.learning (14).webp",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+  },
+  {
+    src: "/images/x.learning (15).webp",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
+  },
+  {
+    src: "/images/x.learning (16).webp",
+    alt: "Bedroom with neutral tones and wall paneling",
+    title: "Villa Interior Gallery Image 4",
+    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+  },
+  {
+    src: "/images/x.learning (17).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
+    src: "/images/x.learning (18).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
+    src: "/images/x.learning (19).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+  {
+    src: "/images/x.learning (20).webp",
+    alt: "Private lounge with artistic wall décor and leather seating",
+    title: "Villa Interior Gallery Image 6",
+    description: "Bespoke lounge area with leather furniture and curated art pieces"
+  },
+    {
+    src: "/images/x.learning (21).webp",
+    alt: "Bedroom with neutral tones and wall paneling",
+    title: "Villa Interior Gallery Image 4",
+    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+  },
+  {
+    src: "/images/x.learning (22).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+  {
+    src: "/images/x.learning (23).webp",
+    alt: "Private lounge with artistic wall décor and leather seating",
+    title: "Villa Interior Gallery Image 6",
+    description: "Bespoke lounge area with leather furniture and curated art pieces"
+  },
+
+  {
+    src: "/images/x.learning (24).webp",
+    alt: "Modern kitchen design with marble countertops",
+    title: "Villa Interior Gallery Image 2",
+    description: "Open-plan kitchen featuring sleek white cabinetry and premium marble finishes"
+  },
+  {
+    src: "/images/x.learning (25).webp",
+    alt: "Luxury bathroom with golden fixtures",
+    title: "Villa Interior Gallery Image 3",
+    description: "Stylish bathroom with gold fixtures and large mirrors"
+  },
+  {
+    src: "/images/x.learning (26).webp",
+    alt: "Bedroom with neutral tones and wall paneling",
+    title: "Villa Interior Gallery Image 4",
+    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+  },
+  {
+    src: "/images/x.learning (27).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
+    src: "/images/x.learning (28).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+    {
+    src: "/images/x.learning (29).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+  {
+    src: "/images/x.learning (30).webp",
+    alt: "Private lounge with artistic wall décor and leather seating",
+    title: "Villa Interior Gallery Image 6",
+    description: "Bespoke lounge area with leather furniture and curated art pieces"
+  },
+    {
+    src: "/images/x.learning (31).webp",
+    alt: "Bedroom with neutral tones and wall paneling",
+    title: "Villa Interior Gallery Image 4",
+    description: "Master bedroom showcasing custom wood paneling and luxury bedding"
+  },
+  {
+    src: "/images/x.learning (32).webp",
+    alt: "Villa staircase with chandelier and marble steps",
+    title: "Villa Interior Gallery Image 5",
+    description: "Architectural staircase design with high ceiling chandelier"
+  },
+  {
+    src: "/images/x.learning (33).webp",
     alt: "Private lounge with artistic wall décor and leather seating",
     title: "Villa Interior Gallery Image 6",
     description: "Bespoke lounge area with leather furniture and curated art pieces"

@@ -9,6 +9,7 @@ const textImage = {
   title: ' Our Villa Construction in Dubai'
 };
 
+
 const galleryImages = [
   { src: '/images/luxury-landscape-design.png', link: '/acacia-dubai-hills-2-bedroom-apartment', title: 'ACCACIA DUBAI HILLS APARTMENT' },
   { src: '/images/poolside-landscape-design-dubai-sunken-seating.png', link: '/dubai-marina-luxury-apartment', title: 'DUBAI MARINA LUXURY APARTMENT' },
@@ -74,7 +75,7 @@ const DProjects = () => {
       </div>
 
       {/* Split Row – Text + Top Right Image */}
-      <div className="lg:max-w-[60%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
+      <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
         <div className="w-full lg:w-2/3 space-y-4">
           <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#caa193]">
           Why Choose WEDO Interiors For your Landscape Design Dubai
@@ -113,7 +114,7 @@ const DProjects = () => {
         </div>
       </div>
 
-      {/* Gallery Grid with Hover Effects */}
+      {/* Gallery Grid with Hover Effects 
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
@@ -131,7 +132,7 @@ const DProjects = () => {
             </div>
           </a>
         ))}
-      </div>
+      </div>*/}
             {/* Bottom CTA Section */}
       <div className="bg-[#f5ede5] py-10 text-center space-y-4">
         <h3 className="text-xs sm:text-xl font-conthrax uppercase">

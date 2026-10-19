@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const textImage = {
-  src: '/images/Design Trends Influencing Modern Workspaces.png',
+  src: '/images/nolen-8.webp',
   link: '/commercial-interior-fit-out',
   title: 'Commercial Interior fit-out'
 };
@@ -182,7 +182,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/vogue (2).webp"
+              src="/images/nolen-7.webp"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

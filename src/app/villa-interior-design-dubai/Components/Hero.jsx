@@ -5,11 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/images/majanvilla (3).webp",
-  "/images/majanvilla (8).webp",
-  "/images/majanvilla (12).webp",
-  "/images/majanvilla (2).webp",
-  "/images/majanvilla (5).webp",
+  "/images/vl-2.png",
 ];
 
 const Hero = () => {

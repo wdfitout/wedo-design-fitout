@@ -7,8 +7,8 @@ import Image from 'next/image';
 
 const images = [
   '/images/x.learning (30).webp',
-  '/images/x.learning (6).webp',
-   '/images/x.learning (3).webp',
+  '/images/x.learning (4).webp',
+   '/images/x.learning (11).webp',
 ];
 
 const DesignV = () => {

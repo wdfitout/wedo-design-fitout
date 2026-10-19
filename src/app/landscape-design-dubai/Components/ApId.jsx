@@ -13,7 +13,7 @@ const ApId = () => {
       <div className="lg:max-w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Text Column */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-start">
+          <div className="w-full flex flex-col justify-start">
             <h2 className="text-sm sm:text-xl md:text-xl font-conthrax tracking-widest text-[#caa193] py-2">
               Landscape Design in Dubai by WEDO 
             </h2>
@@ -36,13 +36,13 @@ const ApId = () => {
             </div>
           </div>
 
-          {/* Video Column */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6">
-            <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
+          {/* Video Column
+          <div className="w-full  flex flex-col justify-center items-start space-y-6">
+           {/*  <h2 className="text-xs sm:text-xl md:text-xl font-conthrax tracking-widest text-gray-200">
               Get Best Landscape Design Dubai
-            </h2>
+            </h2>*/}
 
-            {/* Video */}
+            {/* Video 
             {!videoLoaded ? (
               <div
                 className="relative w-full aspect-video bg-black cursor-pointer group overflow-hidden rounded-lg border-4 border-[#caa193]"
@@ -72,9 +72,9 @@ const ApId = () => {
                   allowFullScreen
                 ></iframe>
               </div>
-            )}
+            )}*/}
 
-            {/* Optional Highlight or CTA */}
+            {/* Optional Highlight or CTA 
                <Link
             href="/contact-us"
             className="border border-[#caa193] text-xs sm:text-base font-play px-6 py-2 mt-6 w-fit  uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
@@ -82,7 +82,8 @@ const ApId = () => {
             GET YOUR QUOTE
           </Link>
 
-          </div>
+          </div>*/}
+
         </div>
       </div>
     </section>

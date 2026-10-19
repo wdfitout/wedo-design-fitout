@@ -78,7 +78,7 @@ const DProjects = () => {
  <h2 className="text-sm sm:text-xl text-center md:text-xl tracking-widest font-conthrax text-[#caa193] mb-10">
           Our Hospitality Interior Design Projects in Dubai
           </h2>
-      {/* Gallery Grid with Hover Effects */}
+      {/* Gallery Grid with Hover Effects
       <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10   ">
         {galleryImages.map(({ src, link, title }, i) => (
           <a href={link} key={i} className="group block relative overflow-hidden rounded shadow">
@@ -96,7 +96,7 @@ const DProjects = () => {
             </div>
           </a>
         ))}
-      </div>
+      </div> */}
 
       
             {/* Bottom CTA Section */}

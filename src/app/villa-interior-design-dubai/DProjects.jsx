@@ -136,7 +136,7 @@ const faqs = [
   return (
     <section className="px-6 py-5 bg-black-200">
 
-      {/* Testimonial + Image Section */}
+      {/* Testimonial + Image Section 
       <div className="lg:max-w-[90%] mx-auto bg-black p-6 sm:p-10 rounded shadow space-y-6 mb-12 mt-12">
         <div className="grid md:grid-cols-2 gap-10 items-center">
 

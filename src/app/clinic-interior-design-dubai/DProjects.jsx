@@ -170,7 +170,7 @@ const DProjects = () => {
 
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/skincare-clinic-interiors.png"
+              src="/images/cl-6.png"
               alt="Round luxury bed with fairy lights"
               width={600}
               height={400}
@@ -183,7 +183,7 @@ const DProjects = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/clinic interior designers in Dubai.png"
+              src="/images/cl-7.png"
               alt="Elegant blue bedroom interior"
               width={600}
               height={400}

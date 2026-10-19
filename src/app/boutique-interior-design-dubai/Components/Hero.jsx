@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/boutique.jpeg"
+        src="/images/bt-2.png"
         alt="Modern beauty salon pedicure lounge with soft textures"
         width={1920}
         height={1080}
