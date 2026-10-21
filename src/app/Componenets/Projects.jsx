@@ -35,7 +35,7 @@ const projects = [
     title: "DOWNTOWN PENTHOUSE",
     type: "PENTHOUSE",
     location: "DOWNTOWN DUBAI",
-    slug: "/i-primo-penthouse",
+    slug: "/ii-primo-penthouse",
   },
 ];
 

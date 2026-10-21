@@ -26,37 +26,37 @@ const latestVideos = [
   {
     title: "Business Bay: Da Vinci Tower Penthouse Interior Design & Fit-Out",
     thumbnail: "/images/da-vinci-tower-4.webp",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=qCAlrFPJp5g",
   },
   {
     title: "Emaar Beachfront: Bleu Tower Penthouse Project.",
     thumbnail: "/images/bt-6.jpg",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=qTtNO8R4y7A",
   },
   {
     title: "Dubai Marina: Luxury Apartment Interior Design & Fit-Out",
     thumbnail: "/images/ma-7.jpg",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=qCAlrFPJp5g",
   },
   {
     title: "Downtown Dubai: ii-Primo Penthouse Interior Design",
     thumbnail: "/images/penth19.webp",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=_hQFHko0dl0",
   },
   {
     title: "Dubai Marina: Princess Tower Apartment Interior Design & Fit-Out",
     thumbnail: "/images/pt-4.jpg",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=wT6SIbzdTCk",
   },
     {
     title: "Palm Jumeirah: Atlantis The Royal Duplex Apartment Interior Design",
     thumbnail: "/images/ATRD (28).webp",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=QQ24ddh1fP8",
   },
   {
     title: "Palm Jumeirah: Atlantis the Palm Apartment Project.",
     thumbnail: "/images/Residential (1).webp",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/watch?v=qCAlrFPJp5g",
   },
 ];
 
