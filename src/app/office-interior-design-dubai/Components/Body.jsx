@@ -835,7 +835,7 @@ function TrendsAndProcess() {
         </div>
         <div className="overflow-hidden rounded-lg shadow-md">
           <Image
-            src="/images/x.learning (12).webp"
+            src="/images/7ofc-2.png"
             alt="WE DO office conference room showing completed interior fit-out"
             width={1200}
             height={800}
@@ -857,7 +857,7 @@ function RegulationsAndWhyWeDo() {
       <div className="mx-auto grid max-w-[1800px] grid-cols-1 items-center gap-10 lg:grid-cols-2">
         <div className="overflow-hidden rounded-lg shadow-md">
           <Image
-            src="/images/x.learning (15).webp"
+            src="/images/7ofc-3.png"
             alt="WE DO Dubai office interior showing meeting rooms and fitted partitions"
             width={1200}
             height={800}
