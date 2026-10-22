@@ -6,70 +6,64 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/5ofc-1.png",
     alt: "Dubai Hills Modern Office interior design project, first gallery perspective",
     title: "Dubai Hills Modern Office Interior Design - View 01",
     description: "Gallery view 1 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/5ofc-2.png",
     alt: "Modern commercial office design in Dubai Hills, second project view",
     title: "Dubai Hills Modern Office Interior Design - View 02",
     description: "Gallery view 2 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/5ofc-3.png",
     alt: "Dubai Hills contemporary workspace interior, third gallery perspective",
     title: "Dubai Hills Modern Office Interior Design - View 03",
     description: "Gallery view 3 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/5ofc-4.png",
     alt: "Modern office interior concept in Dubai Hills, fourth project view",
     title: "Dubai Hills Modern Office Interior Design - View 04",
     description: "Gallery view 4 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/5ofc-5.png",
     alt: "Dubai Hills Modern Office commercial interior, fifth gallery perspective",
     title: "Dubai Hills Modern Office Interior Design - View 05",
     description: "Gallery view 5 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/5ofc-6.png",
     alt: "Contemporary workplace design in Dubai Hills, sixth project view",
     title: "Dubai Hills Modern Office Interior Design - View 06",
     description: "Gallery view 6 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/5ofc-7.png",
     alt: "Dubai Hills Modern Office design project, seventh gallery perspective",
     title: "Dubai Hills Modern Office Interior Design - View 07",
     description: "Gallery view 7 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/5ofc-8.png",
     alt: "Professional modern office interior in Dubai Hills, eighth project view",
     title: "Dubai Hills Modern Office Interior Design - View 08",
     description: "Gallery view 8 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/5ofc-9.png",
     alt: "Dubai Hills Modern Office workspace design, ninth gallery perspective",
     title: "Dubai Hills Modern Office Interior Design - View 09",
     description: "Gallery view 9 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-10.png",
+    src: "/images/5ofc-10.png",
     alt: "Contemporary commercial interior design in Dubai Hills, tenth project view",
     title: "Dubai Hills Modern Office Interior Design - View 10",
     description: "Gallery view 10 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Dubai Hills Modern Office interior design gallery, eleventh project view",
-    title: "Dubai Hills Modern Office Interior Design - View 11",
-    description: "Gallery view 11 of 11 for Dubai Hills Modern Office, a contemporary commercial workspace project by WE DO Interior Design & Fitout."
   }
 ];
 
@@ -186,7 +180,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/5ofc-2.png"
               alt="Dubai Hills Modern Office contemporary commercial interior design project"
               title="Dubai Hills Modern Office - Contemporary Workplace Interior Design"
               width={800}

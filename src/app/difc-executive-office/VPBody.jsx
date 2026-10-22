@@ -6,71 +6,66 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/3ofc-1.png",
     alt: "DIFC Executive Office project interior design, opening gallery perspective",
     title: "DIFC Executive Office Interior Design - View 01",
     description: "Gallery perspective 1 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/3ofc-2.png",
     alt: "Executive office interior design concept at DIFC, Dubai, second perspective",
     title: "DIFC Executive Office Interior Design - View 02",
     description: "Gallery perspective 2 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/3ofc-3.png",
     alt: "DIFC Executive Office commercial workspace design, third gallery view",
     title: "DIFC Executive Office Interior Design - View 03",
     description: "Gallery perspective 3 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/3ofc-4.png",
     alt: "Fourth design perspective of the DIFC Executive Office project in Dubai",
     title: "DIFC Executive Office Interior Design - View 04",
     description: "Gallery perspective 4 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/3ofc-5.png",
     alt: "Executive workplace design at Dubai International Financial Centre, fifth view",
     title: "DIFC Executive Office Interior Design - View 05",
     description: "Gallery perspective 5 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/3ofc-6.png",
     alt: "DIFC Executive Office architectural interior design, sixth perspective",
     title: "DIFC Executive Office Interior Design - View 06",
     description: "Gallery perspective 6 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/3ofc-7.png",
     alt: "Seventh gallery perspective of the DIFC Executive Office commercial project",
     title: "DIFC Executive Office Interior Design - View 07",
     description: "Gallery perspective 7 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/3ofc-8.png",
     alt: "Professional executive office design in DIFC, Dubai, eighth gallery view",
     title: "DIFC Executive Office Interior Design - View 08",
     description: "Gallery perspective 8 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/3ofc-9.png",
     alt: "DIFC Executive Office design project, ninth interior perspective",
     title: "DIFC Executive Office Interior Design - View 09",
     description: "Gallery perspective 9 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
   {
-    src: "/images/1ofc-10.png",
+    src: "/images/3ofc-10.png",
     alt: "Tenth view from the DIFC Executive Office commercial interior gallery",
     title: "DIFC Executive Office Interior Design - View 10",
     description: "Gallery perspective 10 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
   },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "DIFC Executive Office workplace design in Dubai, final gallery perspective",
-    title: "DIFC Executive Office Interior Design - View 11",
-    description: "Gallery perspective 11 of 11 for DIFC Executive Office, a commercial executive workspace design project in Dubai International Financial Centre."
-  }
+
 ];
 
 const VPBody = () => {
@@ -186,7 +181,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/3ofc-2.png"
               alt="DIFC Executive Office commercial interior design project in Dubai"
               title="DIFC Executive Office - Executive Workspace Interior Design Dubai"
               width={800}

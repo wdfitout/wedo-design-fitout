@@ -6,71 +6,60 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/7ofc-1.png",
     alt: "Dubai Marina Real Estate Office commercial interior design project, gallery view one",
     title: "Dubai Marina Real Estate Office - Interior Design View 01",
     description: "Project gallery perspective for Dubai Marina Real Estate Office, a client-oriented commercial workplace."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/7ofc-2.png",
     alt: "Real estate workplace interior in Dubai Marina, project gallery view two",
     title: "Dubai Marina Real Estate Office - Interior Design View 02",
     description: "A second visual perspective on the Dubai Marina real estate office design concept."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/7ofc-3.png",
     alt: "Dubai Marina property agency office interior design, gallery view three",
     title: "Dubai Marina Real Estate Office - Interior Design View 03",
     description: "Project image illustrating the professional design direction for a Dubai Marina property office."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/7ofc-4.png",
     alt: "Commercial interior design for Dubai Marina real estate business, gallery view four",
     title: "Dubai Marina Real Estate Office - Interior Design View 04",
     description: "A further gallery image from the commercial real estate workplace project."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/7ofc-5.png",
     alt: "Dubai Marina Real Estate Office interior design, project gallery view five",
     title: "Dubai Marina Real Estate Office - Interior Design View 05",
     description: "Design portfolio view from the Dubai Marina Real Estate Office commercial project."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/7ofc-6.png",
     alt: "Professional property consultancy workplace in Dubai Marina, gallery view six",
     title: "Dubai Marina Real Estate Office - Interior Design View 06",
     description: "Project perspective presenting a workplace intended for real estate professionals and clients."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/7ofc-7.png",
     alt: "Dubai Marina commercial real estate office design, project gallery view seven",
     title: "Dubai Marina Real Estate Office - Interior Design View 07",
     description: "Another view of the Dubai Marina Real Estate Office interior design project."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/7ofc-8.png",
     alt: "Real estate client-facing office interior in Dubai Marina, gallery view eight",
     title: "Dubai Marina Real Estate Office - Interior Design View 08",
     description: "Gallery perspective from a professional property-sector commercial workspace."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/7ofc-9.png",
     alt: "Dubai Marina property office commercial interior, project gallery view nine",
     title: "Dubai Marina Real Estate Office - Interior Design View 09",
     description: "Commercial design portfolio image for the Dubai Marina Real Estate Office project."
-  },
-  {
-    src: "/images/1ofc-10.png",
-    alt: "WE DO real estate office interior design in Dubai Marina, gallery view ten",
-    title: "Dubai Marina Real Estate Office - Interior Design View 10",
-    description: "An additional project perspective from WE DO Interior Design & Fitout."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Dubai Marina Real Estate Office design project, final gallery view eleven",
-    title: "Dubai Marina Real Estate Office - Interior Design View 11",
-    description: "Final portfolio gallery image from the Dubai Marina Real Estate Office project."
   }
+
 ];
 
 const VPBody = () => {
@@ -187,7 +176,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/7ofc-2.png"
               alt="Dubai Marina Real Estate Office commercial interior design project for a property business"
               title="Dubai Marina Real Estate Office - Commercial Workplace Design"
               width={800}

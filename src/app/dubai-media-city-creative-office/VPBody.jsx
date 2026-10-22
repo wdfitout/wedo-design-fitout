@@ -6,71 +6,30 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/8ofc-1.png",
     alt: "Dubai Media City Creative Office interior design project - gallery image 1",
     title: "Dubai Media City Creative Office - Interior Design View 01",
     description: "An overview image from the Dubai Media City Creative Office project gallery."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/8ofc-2.png",
     alt: "Creative workplace interior design in Dubai Media City - gallery image 2",
     title: "Dubai Media City Creative Office - Interior Design View 02",
     description: "A portfolio perspective from a creative commercial office in Dubai Media City."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/8ofc-3.png",
     alt: "Dubai Media City modern creative office design - gallery image 3",
     title: "Dubai Media City Creative Office - Interior Design View 03",
     description: "Project image presenting the creative office interior design direction."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/8ofc-4.png",
     alt: "Commercial creative workspace in Dubai Media City - gallery image 4",
     title: "Dubai Media City Creative Office - Interior Design View 04",
     description: "A further interior portfolio image from the Dubai Media City office project."
   },
-  {
-    src: "/images/1ofc-5.png",
-    alt: "Creative business office interior in Dubai Media City - gallery image 5",
-    title: "Dubai Media City Creative Office - Interior Design View 05",
-    description: "Project gallery view highlighting the creative workplace design theme."
-  },
-  {
-    src: "/images/1ofc-6.png",
-    alt: "Dubai Media City contemporary office interiors - gallery image 6",
-    title: "Dubai Media City Creative Office - Interior Design View 06",
-    description: "An additional perspective from the contemporary creative office design gallery."
-  },
-  {
-    src: "/images/1ofc-7.png",
-    alt: "Dubai Media City Creative Office commercial project - gallery image 7",
-    title: "Dubai Media City Creative Office - Interior Design View 07",
-    description: "Portfolio image from the Dubai Media City commercial interiors project."
-  },
-  {
-    src: "/images/1ofc-8.png",
-    alt: "Creative office environment in Dubai Media City - gallery image 8",
-    title: "Dubai Media City Creative Office - Interior Design View 08",
-    description: "Design gallery perspective showing the creative office project."
-  },
-  {
-    src: "/images/1ofc-9.png",
-    alt: "Dubai Media City office interior design portfolio - gallery image 9",
-    title: "Dubai Media City Creative Office - Interior Design View 09",
-    description: "A project image documenting the Dubai Media City creative workplace concept."
-  },
-  {
-    src: "/images/1ofc-10.png",
-    alt: "WE DO creative office design in Dubai Media City - gallery image 10",
-    title: "Dubai Media City Creative Office - Interior Design View 10",
-    description: "Portfolio perspective for the creative office project by WE DO Interior Design & Fitout."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Dubai Media City Creative Office project gallery - image 11",
-    title: "Dubai Media City Creative Office - Interior Design View 11",
-    description: "The final gallery image from the Dubai Media City Creative Office portfolio."
-  }
+
 ];
 
 const VPBody = () => {
@@ -187,7 +146,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/8ofc-2.png"
               alt="Dubai Media City Creative Office commercial interior design project in Dubai"
               title="Dubai Media City Creative Office - Creative Workplace Design"
               width={800}

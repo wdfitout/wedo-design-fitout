@@ -6,70 +6,64 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/4ofc-1.png",
     alt: "Downtown Dubai Corporate Office interior design project, gallery view one",
     title: "Downtown Dubai Corporate Office Interior Design - View 01",
     description: "View 1 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/4ofc-2.png",
     alt: "Corporate workspace interior design in Downtown Dubai, second gallery perspective",
     title: "Downtown Dubai Corporate Office Interior Design - View 02",
     description: "View 2 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/4ofc-3.png",
     alt: "Downtown Dubai Corporate Office commercial interior project, gallery view three",
     title: "Downtown Dubai Corporate Office Interior Design - View 03",
     description: "View 3 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/4ofc-4.png",
     alt: "Corporate office design concept in Downtown Dubai, fourth interior view",
     title: "Downtown Dubai Corporate Office Interior Design - View 04",
     description: "View 4 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/4ofc-5.png",
     alt: "Downtown Dubai Corporate Office workplace interior, fifth gallery perspective",
     title: "Downtown Dubai Corporate Office Interior Design - View 05",
     description: "View 5 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/4ofc-6.png",
     alt: "Commercial office interior design in Downtown Dubai, gallery view six",
     title: "Downtown Dubai Corporate Office Interior Design - View 06",
     description: "View 6 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/4ofc-7.png",
     alt: "Downtown Dubai Corporate Office project, seventh interior design view",
     title: "Downtown Dubai Corporate Office Interior Design - View 07",
     description: "View 7 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/4ofc-8.png",
     alt: "Corporate workplace design in Downtown Dubai, eighth gallery perspective",
     title: "Downtown Dubai Corporate Office Interior Design - View 08",
     description: "View 8 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/4ofc-9.png",
     alt: "Downtown Dubai Corporate Office commercial project, ninth interior view",
     title: "Downtown Dubai Corporate Office Interior Design - View 09",
     description: "View 9 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   },
   {
-    src: "/images/1ofc-10.png",
+    src: "/images/4ofc-10.png",
     alt: "Professional office interior design in Downtown Dubai, gallery view ten",
     title: "Downtown Dubai Corporate Office Interior Design - View 10",
     description: "View 10 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Downtown Dubai Corporate Office design gallery, eleventh project perspective",
-    title: "Downtown Dubai Corporate Office Interior Design - View 11",
-    description: "View 11 of 11 from the Downtown Dubai Corporate Office commercial interior design gallery by WE DO Interior Design & Fitout."
   }
 ];
 
@@ -185,7 +179,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/4ofc-2.png"
               alt="Downtown Dubai Corporate Office commercial interior design project"
               title="Downtown Dubai Corporate Office - Commercial Workplace Design"
               width={800}

@@ -6,70 +6,58 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/6ofc-1.png",
     alt: "Dubai Internet City Tech Office interior design, contemporary workspace project",
     title: "Dubai Internet City Tech Office - Interior Design View 01",
     description: "Overview of the Dubai Internet City Tech Office project, focused on contemporary commercial workplace design."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/6ofc-2.png",
     alt: "Technology office interior in Dubai Internet City, commercial design perspective",
     title: "Dubai Internet City Tech Office - Interior Design View 02",
     description: "Additional perspective on the technology-focused office interior concept in Dubai Internet City."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/6ofc-3.png",
     alt: "Dubai Internet City modern tech workspace, office interior design project",
     title: "Dubai Internet City Tech Office - Interior Design View 03",
     description: "Modern commercial workplace design for Dubai Internet City Tech Office, viewed from another angle."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/6ofc-4.png",
     alt: "Tech company office design in Dubai Internet City, project gallery image",
     title: "Dubai Internet City Tech Office - Interior Design View 04",
     description: "Project gallery image illustrating the design direction for a technology-sector office in Dubai."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/6ofc-5.png",
     alt: "Contemporary commercial office interiors in Dubai Internet City, tech workspace",
     title: "Dubai Internet City Tech Office - Interior Design View 05",
     description: "Commercial interior design view from the Dubai Internet City Tech Office project."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/6ofc-6.png",
     alt: "Dubai Internet City Tech Office, professional workplace interior perspective",
     title: "Dubai Internet City Tech Office - Interior Design View 06",
     description: "A project perspective highlighting the overall workplace character of Dubai Internet City Tech Office."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/6ofc-7.png",
     alt: "Workplace interior design for technology teams in Dubai Internet City",
     title: "Dubai Internet City Tech Office - Interior Design View 07",
     description: "Visual documentation of the commercial workspace design approach for a technology-focused office."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/6ofc-8.png",
     alt: "Dubai Internet City office project, modern technology workplace design",
     title: "Dubai Internet City Tech Office - Interior Design View 08",
     description: "Another gallery perspective from the contemporary Dubai Internet City Tech Office project."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/6ofc-9.png",
     alt: "Commercial office interior design at Dubai Internet City, technology workplace",
     title: "Dubai Internet City Tech Office - Interior Design View 09",
     description: "Gallery image from the Dubai Internet City technology workplace interior design project."
-  },
-  {
-    src: "/images/1ofc-10.png",
-    alt: "Dubai Internet City Tech Office, modern commercial interior design view",
-    title: "Dubai Internet City Tech Office - Interior Design View 10",
-    description: "A further view of the design concept for the Dubai Internet City Tech Office workspace."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Tech office interior design project in Dubai Internet City, final gallery view",
-    title: "Dubai Internet City Tech Office - Interior Design View 11",
-    description: "Final gallery perspective from Dubai Internet City Tech Office, a commercial workplace project in Dubai."
   }
 ];
 
@@ -187,7 +175,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/6ofc-2.png"
               alt="Dubai Internet City Tech Office contemporary commercial workplace interior design"
               title="Dubai Internet City Tech Office - Technology Workplace Design"
               width={800}

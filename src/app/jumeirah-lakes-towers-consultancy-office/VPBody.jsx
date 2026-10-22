@@ -6,70 +6,64 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/9ofc-1.png",
     alt: "Jumeirah Lake Towers consultancy office interior design project, image 1",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 01",
     description: "First portfolio view of the Jumeirah Lake Towers consultancy office project in Dubai."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/9ofc-2.png",
     alt: "Consultancy workplace interior at Jumeirah Lakes Towers Dubai, image 2",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 02",
     description: "Another perspective from the client-facing consultancy workplace project gallery."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/9ofc-3.png",
     alt: "Commercial consultancy office design in JLT Dubai, image 3",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 03",
     description: "Project gallery view documenting the consultancy office interior design concept."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/9ofc-4.png",
     alt: "Jumeirah Lake Towers professional office interior project, image 4",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 04",
     description: "Additional interior view from the consultancy office project in Jumeirah Lakes Towers."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/9ofc-5.png",
     alt: "Consultancy business workplace design in Jumeirah Lakes Towers, image 5",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 05",
     description: "Portfolio image relating to the professional setting of the consultancy workspace."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/9ofc-6.png",
     alt: "JLT Dubai consultancy office interior design portfolio, image 6",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 06",
     description: "Further design perspective from the Jumeirah Lake Towers consultancy office gallery."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/9ofc-7.png",
     alt: "Dubai consultancy office commercial interior project, image 7",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 07",
     description: "Gallery image presenting another perspective on the consultancy office project."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/9ofc-8.png",
     alt: "Professional consulting workplace interior in JLT Dubai, image 8",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 08",
     description: "Commercial office portfolio view featuring the Jumeirah Lake Towers project."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/9ofc-9.png",
     alt: "Jumeirah Lake Towers consultancy office design gallery, image 9",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 09",
     description: "Interior project image for the JLT consultancy workplace design concept."
   },
   {
-    src: "/images/1ofc-10.png",
+    src: "/images/9ofc-10.png",
     alt: "WE DO consultancy office design Jumeirah Lakes Towers, image 10",
     title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 10",
     description: "Design portfolio view from the consultancy office project by WE DO Interior Design & Fitout."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Jumeirah Lake Towers consultancy office project in Dubai, image 11",
-    title: "Jumeirah Lake Towers Consultancy Office - Interior Design View 11",
-    description: "Final gallery view documenting the professional consultancy office design project."
   }
 ];
 
@@ -185,7 +179,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/9ofc-2.png"
               alt="Jumeirah Lake Towers Consultancy Office commercial interior design project in JLT Dubai"
               title="Jumeirah Lake Towers Consultancy Office - Professional Workplace Design"
               width={800}

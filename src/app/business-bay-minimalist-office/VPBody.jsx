@@ -6,70 +6,64 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/1ofc-1.png",
+    src: "/images/2ofc-1.png",
     alt: "Business Bay Minimalist Office interior design gallery, view one",
     title: "Business Bay Minimalist Office Interior Design — View 01",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 1 of 11."
   },
   {
-    src: "/images/1ofc-2.png",
+    src: "/images/2ofc-2.png",
     alt: "Minimalist commercial workspace project in Business Bay, Dubai, view two",
     title: "Business Bay Minimalist Office Interior Design — View 02",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 2 of 11."
   },
   {
-    src: "/images/1ofc-3.png",
+    src: "/images/2ofc-3.png",
     alt: "Third interior design perspective from Business Bay Minimalist Office",
     title: "Business Bay Minimalist Office Interior Design — View 03",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 3 of 11."
   },
   {
-    src: "/images/1ofc-4.png",
+    src: "/images/2ofc-4.png",
     alt: "Business Bay Minimalist Office project gallery, fourth perspective",
     title: "Business Bay Minimalist Office Interior Design — View 04",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 4 of 11."
   },
   {
-    src: "/images/1ofc-5.png",
+    src: "/images/2ofc-5.png",
     alt: "Fifth view of the minimalist office design project in Business Bay",
     title: "Business Bay Minimalist Office Interior Design — View 05",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 5 of 11."
   },
   {
-    src: "/images/1ofc-6.png",
+    src: "/images/2ofc-6.png",
     alt: "Business Bay Minimalist Office commercial interior, view six",
     title: "Business Bay Minimalist Office Interior Design — View 06",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 6 of 11."
   },
   {
-    src: "/images/1ofc-7.png",
+    src: "/images/2ofc-7.png",
     alt: "Seventh image in the Business Bay Minimalist Office project gallery",
     title: "Business Bay Minimalist Office Interior Design — View 07",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 7 of 11."
   },
   {
-    src: "/images/1ofc-8.png",
+    src: "/images/2ofc-8.png",
     alt: "Minimalist workspace design in Business Bay, Dubai, gallery view eight",
     title: "Business Bay Minimalist Office Interior Design — View 08",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 8 of 11."
   },
   {
-    src: "/images/1ofc-9.png",
+    src: "/images/2ofc-9.png",
     alt: "Ninth project perspective from Business Bay Minimalist Office",
     title: "Business Bay Minimalist Office Interior Design — View 09",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 9 of 11."
   },
   {
-    src: "/images/1ofc-10.png",
+    src: "/images/2ofc-10.png",
     alt: "Business Bay Minimalist Office interior design, tenth gallery image",
     title: "Business Bay Minimalist Office Interior Design — View 10",
     description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 10 of 11."
-  },
-  {
-    src: "/images/1ofc-11.png",
-    alt: "Eleventh view of the Business Bay Minimalist Office project",
-    title: "Business Bay Minimalist Office Interior Design — View 11",
-    description: "Minimalist office interior design project in Business Bay, Dubai; gallery perspective 11 of 11."
   }
 ];
 
@@ -184,7 +178,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/1ofc-2.png"
+              src="/images/2ofc-2.png"
               alt="Minimalist office interior design project at Business Bay, Dubai"
               title="Business Bay Minimalist Office — Commercial Interior Design Dubai"
               width={800}
