@@ -1,51 +1,54 @@
-"use client";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-
-const Hero = () => {
+/**
+ * WE DO - Apartment Interior Design Dubai
+ * Hero section only. All subsequent sections live in Body.jsx.
+ * Font classes font-conthrax and font-play are configured globally.
+ */
+export default function Hero() {
   return (
-    <div className="relative w-full h-[350px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[500px] overflow-hidden">
-      {/* Background Image */}
+    <section
+      aria-labelledby="apartment-hero-title"
+      className="relative h-[300px] w-full overflow-hidden sm:h-[400px] md:h-[500px] lg:h-[600px]"
+    >
       <Image
-        src="/images/dubai-interior-design-companies-apartment-sitting-area.webp"
-        alt="apartment living room interior design sitting area, dubai"
-        width={1920}
-        height={1080}
+        src="/images/living-room-tv-joinery-wall-green-marble-ledge.webp"
+        
+        alt="Contemporary apartment living room and sitting area in Dubai"
+        fill
         priority
+        sizes="100vw"
         className="object-cover"
       />
 
-      {/* Overlay Content Box */}
-      <div className="absolute left-2 sm:left-4 bottom-6 z-10 bg-black/50 p-4 rounded-lg max-w-auto text-white">
-        <h1 className="text-md md:text-2xl lg:text-4xl font-conthrax mb-2">
-          Apartment Interior Design Dubai </h1>
-          <h2 className="text-md md:text-2xl lg:text-4xl font-play mb-2">  
-            Modern Apartment Interior Company In Dubai
-            </h2>
-        
+      <div className="absolute bottom-6 left-2 z-10 max-w-[90%] rounded-lg bg-black/50 p-4 text-white sm:left-4 sm:max-w-[min(92%,1000px)]">
+        <h1
+          id="apartment-hero-title"
+          className="mb-2 font-conthrax text-lg leading-tight sm:text-2xl lg:text-4xl"
+        >
+          Apartment Interior Design Dubai
+        </h1>
 
-        <div className="flex gap-4 flex-wrap">
+        <p className="mb-3 font-play text-base leading-snug sm:text-xl lg:text-3xl">
+          Modern Apartment Interior Company in Dubai
+        </p>
+
+        <div className="flex flex-wrap gap-3 sm:gap-4">
           <Link
             href="/contact-us"
-            className="bg-[#caa193] text-black px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-gray-200 transition-all duration-200"
+            className="inline-flex min-h-10 items-center justify-center rounded bg-[#caa193] px-3 py-2 text-xs font-semibold uppercase text-black transition-colors duration-200 hover:bg-[#f5ede5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             Send an Inquiry
           </Link>
-
           <Link
-            href="/gallery"
-            className="border border-[#caa193] px-2 py-2 text-xs font-semibold uppercase rounded hover:bg-[#caa193] hover:text-black transition-all duration-200"
+            href="/apartment-projects"
+            className="inline-flex min-h-10 items-center justify-center rounded border border-[#caa193] px-3 py-2 text-xs font-semibold uppercase text-white transition-colors duration-200 hover:bg-[#caa193] hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             Our Projects
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Hero;
- 
-
+}

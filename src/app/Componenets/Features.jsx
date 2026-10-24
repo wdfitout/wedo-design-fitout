@@ -17,12 +17,7 @@ const cardData = [
     desc: "Apartments and penthouses planned around building management rules and service-lift access in Dubai Marina, Business Bay and Downtown.",
     link: "/apartment-interior-design-dubai",
   },
-  {
-    title: "LANDSCAPE DESIGN DUBAI",
-    img: "/images/landscape-2.webp",
-    desc: "Gardens, pool decks and majlis terraces designed inhouse as an extension of the interior, and built to handle a Dubai summer.",
-    link: "/landscape-design-dubai",
-  },
+
   {
     title: "RESTAURANT INTERIOR DESIGN",
     img: "/images/ht-5.png",
@@ -35,35 +30,44 @@ const cardData = [
     desc: "Workspaces in DIFC, Business Bay and Dubai Silicon Oasis, with acoustics, planning and landlord rules resolved before pricing.",
     link: "/office-interior-design-dubai",
   },
+      {
+    title: "HOTEL INTERIOR DESIGN",
+    img: "/images/hl-2.png",
+    desc: "Guest rooms, lobbies and F&B spaces specified for the wear a hotel actually takes.",
+    link: "/hotel-interior-design-dubai",
+  },
+    {
+    title: "CAFE INTERIOR DESIGN",
+    img: "/images/nolen-9.webp",
+    desc: "Designed around your brand and your real footfall, with a counter layout that holds up in the morning rush.",
+    link: "/cafe-interior-design-dubai",
+  },
+
   {
     title: "BEAUTY SALON DESIGNS",
     img: "/images/sl-2.png",
     desc: "Salon and spa interiors planned around wet-service plumbing, ventilation and the journey from reception chair to treatment room.",
     link: "/beauty-salon-interior-design-dubai",
   },
-  {
-    title: "CAFE INTERIOR DESIGN",
-    img: "/images/nolen-9.webp",
-    desc: "Designed around your brand and your real footfall, with a counter layout that holds up in the morning rush.",
-    link: "/cafe-interior-design-dubai",
-  },
+
   {
     title: "CLINICS INTERIOR DESIGN",
     img: "/images/cl-3.png",
     desc: "Medical interiors meeting DHA layout and hygiene requirements, with waiting areas that feel calm rather than clinical.",
     link: "/clinic-interior-design-dubai",
   },
-  {
-    title: "HOTEL INTERIOR DESIGN",
-    img: "/images/hl-2.png",
-    desc: "Guest rooms, lobbies and F&B spaces specified for the wear a hotel actually takes.",
-    link: "/hotel-interior-design-dubai",
-  },
+
   {
     title: "BOUTIQUE DESIGNS",
     img: "/images/bt-2.png",
     desc: "Retail interiors built around sightlines, display density and the fitting-room moment that closes the sale.",
     link: "/boutique-interior-design-dubai",
+  },
+    {
+    title: "LANDSCAPE DESIGN DUBAI",
+    img: "/images/landscape-2.webp",
+    desc: "Gardens, pool decks and majlis terraces designed inhouse as an extension of the interior, and built to handle a Dubai summer.",
+    link: "/landscape-design-dubai",
   },
 ];
 
@@ -135,7 +139,7 @@ const Features = () => {
  {/* CTA beside the final card */}
 <div className="flex items-center justify-center md:justify-start">
   <Link
-    href="/commercial-interior-design-dubai"
+    href="/contact-us"
     className="group relative flex min-h-[260px] w-full max-w-[380px] flex-col justify-between overflow-hidden rounded-lg border border-[#caa193]/60 bg-[#111] p-7 transition-all duration-500 hover:border-[#caa193] hover:bg-[#171717]"
   >
     {/* Decorative corner */}
@@ -143,13 +147,13 @@ const Features = () => {
 
     {/* Small label */}
     <span className="font-conthrax text-[10px] tracking-[0.2em] text-[#caa193]">
-      COMMERCIAL SPACES
+      CONTACT US
     </span>
 
     {/* Main text */}
     <div className="mt-8">
       <span className="block max-w-[280px] font-conthrax text-lg leading-relaxed text-white md:text-xl">
-        See all commercial interior design
+        Let's discuss You Project
       </span>
     </div>
 

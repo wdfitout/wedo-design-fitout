@@ -3,9 +3,7 @@ import Navbar from "../Componenets/Navbar";
 import Hero from "./Components/Hero";
 import WhatsAppButton from "../Componenets/WhatsAppButton";
 import CallButton from "../Componenets/CallButton";
-import ApId from "./Components/ApId";
-import DesignV from "./Components/DesignV";
-import DProjects from "./DProjects";
+import Body from "./Components/Body";
 import Footer from "../Componenets/Footer";
 
 export default function Home() {
@@ -18,9 +16,8 @@ export default function Home() {
         <Hero />
         <WhatsAppButton />
         <CallButton />
-        <ApId />
-        <DesignV />
-        <DProjects />
+        <Body />
+        
         <Footer />
       </div>
     </>

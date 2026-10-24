@@ -2,75 +2,258 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
+import { FaPlay } from 'react-icons/fa';
 
 const SITE = 'https://wedointerior.ae';
 const D1_2BR = `${SITE}/district-1-mbr-city-contemporary-villa`;
 const D1_3BR = `${SITE}/district-one-contemporary-villa`;
 
-// Section 12 — Project cards
-const galleryProjects = [
-  {
-    image: '/images/manara villa (35).webp',
-    project: 'Al Manara Villa',
+// Real WE DO villa project images and links (public/images directory).
+// Four matching project cards, following the office page design.
+const villaProjects = [
+    {
+    image: '/images/1vl-5.png',
+    project: 'DUBAI HILLS ESTATE  LUXURY VILLA',
+    alt: 'Travertine fireplace wall and walnut staircase, District One 3-bedroom contemporary villa, MBR City',
+    link: '/dubai-hills-estate-luxury-villa',
+  },
+   {
+    image: '/images/2vl-4.png',
+    project: 'AL BARARI MODERN VILLA',
     alt: 'Al Manara luxury villa interior in Dubai by WE DO',
-    link: '/al-manara-luxury-villa',
+    link: '/al-barari-modern-villa',
   },
   {
-    image: '/images/majanvilla (3).webp',
-    project: 'Majan Villa Design',
+    image: '/images/3vl-3.png',
+    project: 'JUMEIRAH GOLF ESTATES  VILLA',
     alt: 'Majan villa interior design in Dubai by WE DO',
-    link: '/majan-villa-design',
+    link: '/jumeirah-golf-estates-villa',
+  },
+  {
+    image: '/images/4vl-2.png',
+    project: 'ARABIAN RANCHES MODERN FAMILY VILLA',
+    alt: 'Double-height living room with glass staircase, District One 2-bedroom contemporary villa, MBR City',
+    link: '/arabian-ranches-modern-villa',
+  },
+  {
+    image: '/images/5vl-1.png',
+    project: 'JUMEIRAH ISLANDS  VILLA',
+    alt: 'Travertine fireplace wall and walnut staircase, District One 3-bedroom contemporary villa, MBR City',
+    link: '/jumeirah-islands-villa',
+  },
+  {
+    image: '/images/nc-10.png',
+    project: 'MBR CITY NEOCLASSICAL VILLA',
+    alt: 'Al Manara luxury villa interior in Dubai by WE DO',
+    link: '/mbr-city-neo-classic-villa',
+  },
+  {
+    image: '/images/md-6.png',
+    project: 'PALM JUMEIRAH MODERN VILLA',
+    alt: 'Majan villa interior design in Dubai by WE DO',
+    link: '/palm-jumeirah-3-bedroom-villa',
+  },
+  {
+    image: '/images/mv-9.png',
+    project: 'EMIRATES HILLS MINIMALIST VILLA',
+    alt: 'Double-height living room with glass staircase, District One 2-bedroom contemporary villa, MBR City',
+    link: '/emirates-hills-minimalist-villa',
+  },
+  {
+    image: '/images/manara villa (7).webp',
+    project: 'AL MANARA VILLA LUXURY VILLA',
+    alt: 'Travertine fireplace wall and walnut staircase, District One 3-bedroom contemporary villa, MBR City',
+    link: '/al-manara-luxury-villa',
+  },
+   {
+    image: '/images/district-one-3-bedroom-contemporary-villa-second-bedroom.webp',
+    project: 'District One Contemporary Villa, MBR City',
+    alt: 'Al Manara luxury villa interior in Dubai by WE DO',
+    link: '/district-one-contemporary-villa',
   },
   {
     image: '/images/district-one-villa-double-height-living-glass-staircase.png',
-    project: 'District One 2-Bedroom Contemporary Villa',
-    alt: 'Double-height living room with glass staircase, District One 2-bedroom contemporary villa, MBR City',
+    project: 'DISTRICT ONE 2-BEDROOM CONTEMPORARY VILLA',
+    alt: 'Majan villa interior design in Dubai by WE DO',
     link: '/district-1-mbr-city-contemporary-villa',
   },
   {
-    image: '/images/district-one-3-bedroom-contemporary-villa-living-room.webp',
-    project: 'District One 3-Bedroom Contemporary Villa',
-    alt: 'Travertine fireplace wall and walnut staircase, District One 3-bedroom contemporary villa, MBR City',
-    link: '/district-one-contemporary-villa',
+    image: '/images/majanvilla (6).webp',
+    project: 'MAJAN VILLA DESIGN',
+    alt: 'Double-height living room with glass staircase, District One 2-bedroom contemporary villa, MBR City',
+    link: '/majan-villa-design',
   },
-];
 
-// Scrolling strip: mix of projects, each image with its own alt.
-// TODO: replace the Majan alts with a description of what each photo actually shows.
-const stripImages = [
-  { src: '/images/vl-1.png' },
-  { src: '/images/nc-5.png' },
-  { src: '/images/vl-4.png' },
-  { src: '/images/md-6.png' },
-  { src: '/images/mv-8.png' },
-  { src: '/images/vl-7.png' },
-  { src: '/images/vl-8.png' },
-];
-
-// Gallery grid: different images from the strip so the page doesn't repeat itself
-const gridImages = [
-  { src: '/images/vl-1.png' },
-  { src: '/images/md-11.png' },
-  { src: '/images/district-one-3-bedroom-contemporary-villa-living-room.webp' },
-  { src: '/images/mv-21.png' },
-  { src: '/images/vl-4.png' },
-  { src: '/images/mv-22.png' },
-  
 ];
 
 const linkClass = 'text-[#caa193]';
 
-const ApId = () => {
-  const [slider, setSlider] = useState(50);
-  const [selectedVillaStyle, setSelectedVillaStyle] = useState(0);
+/* ======================================================================
+ * INTRO LAYOUT CONTROLS (same system as the office page)
+ * ====================================================================== */
+const LAYOUT = {
+  intro: {
+    sidePadding: '48px',
+    verticalPadding: '48px',
+    contentWidth: '90%',
+    maxWidth: '1640px',
+    textColumn: '1.28fr',
+    videoColumn: '1fr',
+    columnGap: '60px',
+    rowGap: '40px',
+    ctaTopSpacing: '40px',
+    ctaHeight: '66px',
+    videoAspectRatio: '16 / 9',
+    videoTopSpacing: '28px',
+  },
+};
 
-  const scrollRef = useRef(null);
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [isPaused, setIsPaused] = useState(false);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
+/* ======================================================================
+ * 01 - INTRO TEXT + VIDEO (matches the WE DO office page)
+ * ====================================================================== */
+function IntroVideo() {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  // Same YouTube embed used on the office page.
+  // Replace this ID with a villa-specific YouTube ID when available.
+  const YOUTUBE_VIDEO_ID = 'qCAlrFPJp5g';
+
+  return (
+    <section
+      aria-labelledby="villa-intro-title"
+      className="bg-black px-4 py-[var(--section-padding)] text-white sm:px-6 lg:px-[var(--side-padding)]"
+      style={{
+        '--side-padding': LAYOUT.intro.sidePadding,
+        '--section-padding': LAYOUT.intro.verticalPadding,
+      }}
+    >
+      <div
+        className="mx-auto"
+        style={{
+          width: LAYOUT.intro.contentWidth,
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
+      >
+        <div
+          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
+          style={{
+            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
+            columnGap: LAYOUT.intro.columnGap,
+            rowGap: LAYOUT.intro.rowGap,
+          }}
+        >
+          {/* LEFT COLUMN — VILLA SEO TEXT */}
+          <div className="flex min-w-0 flex-col">
+            <div>
+              <h2
+                id="villa-intro-title"
+                className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
+              >
+                Villa Interior Design &amp; Fit-Out Companies in Dubai
+              </h2>
+
+              <p className="font-play text-base leading-7 text-white [text-align:justify]">
+                <b className={linkClass}>
+                  <a href={`${SITE}/`}>WE DO Interior Design &amp; Fit-Out</a>
+                </b>{' '}
+                provides villa interior design in Dubai from concept to handover, design, joinery, MEP coordination, and final styling, all run through one in-house team instead of five separate contractors. WE DO is a DED-registered interior design and fit-out company that keeps design and construction under one roof: 250+ completed residential and commercial projects over 11+ years, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification, and direct approval relationships with Dubai Civil Defence, Dubai Municipality, and developers including Emaar and Damac.{' '}
+                <b className={linkClass}>
+                  <a href={`${SITE}/gallery`}>See our full project gallery</a>
+                </b>{' '}
+                for completed villa work across Dubai.
+              </p>
+            </div>
+
+            <div
+              className="mt-auto flex justify-start"
+              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+            >
+              <span
+                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+                style={{ height: LAYOUT.intro.ctaHeight }}
+              >
+                11+ Years of Experience
+              </span>
+            </div>
+          </div>
+
+          {/* RIGHT COLUMN — YOUTUBE VIDEO */}
+          <div className="flex min-w-0 flex-col">
+            <div>
+              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
+                Get Best Villa Interior Design in Dubai
+              </h2>
+
+              <div
+                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
+                style={{
+                  aspectRatio: LAYOUT.intro.videoAspectRatio,
+                  marginTop: LAYOUT.intro.videoTopSpacing,
+                }}
+              >
+                {!videoLoaded ? (
+                  <button
+                    type="button"
+                    onClick={() => setVideoLoaded(true)}
+                    aria-label="Play WE DO villa interior design video"
+                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
+                  >
+                    {/* VIDEO THUMBNAIL — update image when villa video is available */}
+                    <Image
+                      src="/images/nestfinder (10).webp"
+                      alt="WE DO interior design and fit-out video preview"
+                      fill
+                      sizes="(min-width: 1024px) 45vw, 90vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+
+                    {/* DARK OVERLAY + PLAY BUTTON */}
+                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
+                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
+                        <FaPlay
+                          aria-hidden="true"
+                          className="ml-1 text-xl text-white sm:text-2xl"
+                        />
+                      </span>
+                    </span>
+                  </button>
+                ) : (
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&playsinline=1&rel=0`}
+                    title="WE DO Villa Interior Design & Fit-Out Dubai"
+                    className="absolute inset-0 h-full w-full"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  />
+                )}
+              </div>
+            </div>
+
+            {/* CTA BUTTON */}
+            <div
+              className="mt-auto flex justify-start"
+              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+            >
+              <Link
+                href="/contact-us"
+                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
+                style={{ height: LAYOUT.intro.ctaHeight }}
+              >
+                Get Your Quote
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+const ApId = () => {
+  const [selectedVillaStyle, setSelectedVillaStyle] = useState(0);
 
   const trustItems = [
     { value: '11+ YEARS', label: 'Villa Design & Fit-Out' },
@@ -78,36 +261,6 @@ const ApId = () => {
     { value: 'ISO CERTIFIED', label: '9001 · 14001 · 45001' },
     { value: 'IN-HOUSE', label: 'Design & Joinery' },
   ];
-
-  useEffect(() => {
-    const container = scrollRef.current;
-    if (!container) return;
-
-    let animationFrame;
-
-    const autoScroll = () => {
-      if (!isPaused && !isDragging) {
-        container.scrollLeft += 0.35;
-
-        if (container.scrollLeft >= container.scrollWidth / 2) {
-          container.scrollLeft = 0;
-        }
-      }
-
-      animationFrame = requestAnimationFrame(autoScroll);
-    };
-
-    animationFrame = requestAnimationFrame(autoScroll);
-
-    return () => cancelAnimationFrame(animationFrame);
-  }, [isPaused, isDragging]);
-
-  const handleMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
-    const percentage = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
-    setSlider(percentage);
-  };
 
   const h2Class = `
     text-[12px]
@@ -131,19 +284,13 @@ const ApId = () => {
   const eyebrowClass = 'text-[#caa193] text-[8px] sm:text-[9px] tracking-[0.22em] font-conthrax uppercase';
 
   return (
-    <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-55 font-sans py-10">
-      <div className="lg:max-w-[90%] mx-auto">
-        {/* INTRO */}
-
-        <div>
-          <p className="text-sm sm:text-base leading-8 font-play text-white/85">
-            <b className={linkClass}><a href={`${SITE}/`}>WE DO Interior Design & Fit-Out</a></b> provides villa interior design in Dubai from concept to handover, design, joinery, MEP coordination, and final styling, all run through one in-house team instead of five separate contractors. WE DO is a DED-registered interior design and fit-out company that keeps design and construction under one roof: 250+ completed residential and commercial projects over 11+ years, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification, and direct approval relationships with Dubai Civil Defence, Dubai Municipality, and developers including Emaar and Damac. <b className={linkClass}><a href={`${SITE}/gallery`}>See our full project gallery</a></b> for completed villa work across Dubai.
-          </p>
-        </div>
-
+    <>
+      <IntroVideo />
+      <section className="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-28 xl:px-55 font-sans py-2">
+        <div className="lg:max-w-[90%] mx-auto">
         {/* KEY FACTS */}
 
-        <div className="mt-10 border border-[#caa193]/10 bg-[#111] p-2">
+        <div className=" border border-[#caa193]/10 bg-[#111] p-2">
           <p className={`p-2 ${eyebrowClass}`}>Key Facts</p>
 
           <ul className="space-y-1 text-sm font-play text-white/80 list-disc list-inside">
@@ -163,55 +310,47 @@ const ApId = () => {
           </ul>
         </div>
 
-        {/* SCROLLING IMAGE STRIP */}
+        {/* FEATURED VILLA PROJECTS — replaces the old scrolling image gallery */}
 
-        <section className="mt-5 overflow-hidden border border-[#caa193]/10 bg-[#111] py-5">
-          <div
-            ref={scrollRef}
-            className="flex gap-5 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing select-none"
-            onMouseEnter={() => setIsPaused(true)}
-            onMouseLeave={() => {
-              setIsPaused(false);
-              setIsDragging(false);
-            }}
-            onMouseDown={(e) => {
-              setIsDragging(true);
-              setStartX(e.pageX);
-              setScrollLeft(scrollRef.current.scrollLeft);
-            }}
-            onMouseMove={(e) => {
-              if (!isDragging) return;
-              e.preventDefault();
-              const walk = (e.pageX - startX) * 1.5;
-              scrollRef.current.scrollLeft = scrollLeft - walk;
-            }}
-            onMouseUp={() => setIsDragging(false)}
+        <section
+          className="relative left-1/2 mt-12 w-screen -translate-x-1/2 px-4 sm:px-6 lg:px-4"
+          aria-labelledby="villa-projects-heading"
+        >
+          {/* Same centered Conthrax heading style as the office projects section */}
+          <h2
+            id="villa-projects-heading"
+            className="mx-auto mb-12 max-w-[1450px] text-center font-conthrax text-[18px] uppercase leading-[1.4] tracking-[0.045em] text-[#caa193] sm:text-xl lg:mb-16 lg:text-2xl 2xl:text-3xl"
           >
-            {[...stripImages, ...stripImages].map((img, index) => {
-              // The second copy only exists for the infinite-scroll loop,
-              // so hide it from screen readers and search engines.
-              const isLoopCopy = index >= stripImages.length;
-              return (
-                <button
-                  key={index}
-                  type="button"
-                  aria-hidden={isLoopCopy || undefined}
-                  tabIndex={isLoopCopy ? -1 : 0}
-                  onClick={() => {
-                    if (!isDragging) setSelectedImage(img);
-                  }}
-                  className="relative h-[220px] w-[320px] shrink-0 overflow-hidden"
-                >
-                  <Image
-                    src={img.src}
-                    alt={isLoopCopy ? '' : img.alt}
-                    fill
-                    sizes="320px"
-                    className="object-cover transition-transform duration-700 hover:scale-105"
-                  />
-                </button>
-              );
-            })}
+            Our Villa Interior Design &amp; Fit-Out
+            <span className="block">Projects in Dubai</span>
+          </h2>
+
+          {/* One row of 4 equal 4:3 images on desktop; 2 tablet, 1 mobile.
+              No permanent overlay, caption, or slider. */}
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+            {villaProjects.map((item) => (
+              <Link
+                key={item.link}
+                href={item.link}
+                aria-label={`View ${item.project} project`}
+                className="group relative block aspect-[4/3] overflow-hidden rounded-[3px] bg-[#111] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#caa193]"
+              >
+                <Image
+                  src={item.image}
+                  alt={item.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] group-focus-visible:scale-[1.04]"
+                />
+
+                {/* On hover: darken the image and reveal only the project title. */}
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 px-4 text-center transition-colors duration-500 group-hover:bg-black/60 group-focus-visible:bg-black/60">
+                  <h3 className="font-conthrax text-[13px] uppercase leading-[1.6] tracking-[0.02em] text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-focus-visible:opacity-100 sm:text-sm xl:text-base 2xl:text-xl">
+                    {item.project}
+                  </h3>
+                </div>
+              </Link>
+            ))}
           </div>
         </section>
 
@@ -419,7 +558,7 @@ const ApId = () => {
               </div>
             </div>
 
-            {/* Standalone Villas 
+            {/* Standalone Villas */} 
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -436,9 +575,9 @@ const ApId = () => {
                   Fully detached villas with private gardens and pools on all sides give the most design freedom, no shared walls to plan around, and typically the largest floor plates. Most of our featured projects, including Al Manara and Emirates Hills, are standalone villas.
                 </p>
               </div>
-            </div>*/}
+            </div>
 
-            {/* Twin Villas 
+            {/* Twin Villas */}
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -455,9 +594,9 @@ const ApId = () => {
                   Twin villas share one common wall with a neighbouring unit; townhouse-style layouts share walls on two sides across a row. Both need more deliberate acoustic and privacy planning between the shared wall and adjacent bedrooms, and layouts that make the most of a narrower footprint. See our <b className='text-[#caa193]'><a href="https://wedointerior.ae/arabella-2-bedroom-townhouse">Arabella 2-bedroom townhouse</a></b> and <b className='text-[#caa193]'><a href="https://wedointerior.ae/damac-hills-3-bedroom-townhouse">Damac Hills 3-bedroom townhouse</a></b>  projects.
                 </p>
               </div>
-            </div>*/}
+            </div>
 
-            {/* Villa Sizes 
+            {/* Villa Sizes */}
             <div className="group overflow-hidden">
               <div className="relative h-[230px] overflow-hidden">
                 <Image
@@ -474,32 +613,12 @@ const ApId = () => {
                  A 2–4 bedroom villa and a 6–7+ bedroom estate are different design problems: larger villas need clear zoning for family, guest and staff areas, while smaller ones need every room to work harder. Our <b className='text-[#caa193]'><a href="https://wedointerior.ae/district-1-mbr-city-contemporary-villa">District One 2-bedroom villa</a></b> adds a home office, and our <b className='text-[#caa193]'><a href="https://wedointerior.ae/district-one-contemporary-villa"> 3-bedroom villa </a></b>includes a children's room with built-in storage.
                 </p>
               </div>
-            </div>*/}
+            </div>
           </div>
 
           <p className="text-white/70 text-sm font-play mt-5">
            We also take on villa interior design projects across other well-established Dubai communities on request, including <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-companies-near-dubai-hills">Dubai Hills Estate</a></b>, Arabian Ranches, <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-companies-palm-jumeirah-dubai">Palm Jumeirah</a></b> , <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-jumeirah-dubai">Jumeirah</a></b> and Al Barsha; see our full list of <b className='text-[#caa193]'><a href="https://wedointerior.ae/interior-design-dubai">areas we serve across Dubai</a></b>.
           </p>
-        </section>
-
-        {/* VILLA INTERIOR IMAGE GALLERY */}
-
-        <section className="mt-10">
-          <h2 className={h2Class}>Villa Interior Design Gallery in Dubai</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {gridImages.map((img, index) => (
-              <div key={index} className="relative aspect-square overflow-hidden">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-700 hover:scale-105"
-                />
-              </div>
-            ))}
-          </div>
         </section>
 
         {/* PROCESS */}
@@ -726,39 +845,6 @@ const ApId = () => {
           </div>
         </section>
 
-        {/* PROJECTS
-
-        <div className="mb-10">
-          <p className={eyebrowClass}>Gallery</p>
-          <h2 className={h2Class}>Villa Interior Design Projects Across Dubai</h2>
-        </div>
-
-        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-5">
-          {galleryProjects.map((item, index) => (
-            <Link
-              key={index}
-              href={item.link}
-              className="group block rounded-2xl overflow-hidden border border-[#caa193]/10 bg-[#111] hover:border-[#caa193]/25 transition"
-            >
-              <div className="relative aspect-square">
-                <Image
-                  src={item.image}
-                  alt={item.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
-                  className="object-cover transition duration-700 group-hover:scale-[1.04]"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-2">
-                  <h3 className="font-conthrax text-[13px] text-white uppercase leading-6">{item.project}</h3>
-                  <div className="mt-4 text-[#caa193] text-[11px] uppercase tracking-[2px] font-conthrax">View Project →</div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-        */}
-
         {/* BEFORE & AFTER 
 
         <section className="mt-16">
@@ -840,28 +926,9 @@ const ApId = () => {
           </div>
         </section>
 
-        {/* IMAGE MODAL */}
-
-        {selectedImage && (
-          <div
-            className="fixed inset-0 z-[9999] bg-black/90 flex items-center justify-center p-4"
-            onClick={() => setSelectedImage(null)}
-          >
-            <button
-              type="button"
-              aria-label="Close image"
-              className="absolute top-5 right-5 text-white text-xl z-10"
-              onClick={() => setSelectedImage(null)}
-            >
-              ×
-            </button>
-            <div className="relative w-full max-w-5xl aspect-[16/10]" onClick={(e) => e.stopPropagation()}>
-              <Image src={selectedImage.src} alt={selectedImage.alt} fill sizes="90vw" className="object-contain" />
-            </div>
-          </div>
-        )}
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   );
 };
 
