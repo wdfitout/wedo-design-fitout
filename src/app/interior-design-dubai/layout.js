@@ -1,25 +1,27 @@
+
 import "../globals.css";
 
 const siteUrl = "https://wedointerior.ae";
 const pagePath = "/interior-design-dubai";
 const pageUrl = `${siteUrl}${pagePath}`;
 
+/*
+ * PAGE METADATA
+ */
+
 export const metadata = {
-  title:
-    "Interior Design Dubai | Areas We Serve – Business Bay, Downtown & More",
+  title: "Areas We Serve in Dubai | Interior Design & Fit-Out | WE DO",
 
   description:
-    "Interior design and fit-out services in Dubai by WE DO. Luxury residential and commercial interiors across Business Bay, Downtown Dubai, Palm Jumeirah, Dubai Creek Harbour and other Dubai areas.",
-
-
+    "Award-winning interior design & fit-out company in Dubai. ISO certified, 250+ projects across Business Bay, Downtown, Palm Jumeirah, Marina & more.",
 
   metadataBase: new URL(`${siteUrl}/`),
 
   openGraph: {
-    title: "Interior Design Dubai | WE DO Interior Design & Fitout",
+    title: "Dubai Areas We Serve | WE DO Interior",
 
     description:
-      "Luxury residential and commercial interior design and fit-out services across Dubai, including Business Bay, Downtown Dubai, Palm Jumeirah and Dubai Creek Harbour.",
+      "Explore the Dubai communities served by WE DO Interior Design & Fit-Out, including Business Bay, Downtown Dubai, Dubai Creek Harbour, Jumeirah and more.",
 
     url: pageUrl,
 
@@ -41,10 +43,10 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Interior Design Dubai | WE DO Interior Design & Fitout",
+    title: "Dubai Areas We Serve | WE DO Interior",
 
     description:
-      "Luxury residential and commercial interior design and fit-out services across Dubai.",
+      "Explore the Dubai communities served by WE DO Interior Design & Fit-Out, including Business Bay, Downtown Dubai, Palm Jumeirah and Dubai Marina.",
 
     images: [`${siteUrl}/og-image.jpg`],
   },
@@ -71,277 +73,51 @@ export const metadata = {
   },
 };
 
+/*
+ * AREAS SHOWN ON THE PAGE
+ *
+ * Keep these URLs synchronized with the actual location cards.
+ */
+
+const areas = [
+  {
+    name: "Business Bay Interior Design",
+    path: "/interior-design-company-business-bay",
+  },
+  {
+    name: "Downtown Dubai Interior Design",
+    path: "/interior-design-downtown-dubai",
+  },
+  {
+    name: "Dubai Creek Harbour Interior Design",
+    path: "/interior-design-dubai-creek-harbour",
+  },
+  {
+    name: "Jumeirah Interior Design",
+    path: "/interior-design-jumeirah-dubai",
+  },
+  {
+    name: "Dubai Hills Interior Design",
+    path: "/interior-design-companies-near-dubai-hills",
+  },
+  {
+    name: "Palm Jumeirah Interior Design",
+    path: "/interior-design-companies-palm-jumeirah-dubai",
+  },
+  {
+    name: "Dubai Marina Interior Design",
+    path: "/best-interior-design-company-in-dubai-marina",
+  },
+  {
+    name: "Royal Atlantis Interior Design",
+    path: "/royal-atlantis-dubai-interior-design-company",
+  },
+];
+
 export default function InteriorDesignDubaiLayout({ children }) {
   /*
-   * =========================================================
-   * ORGANIZATION
-   * =========================================================
-   */
-
-  const organizationSchema = {
-    "@type": "Organization",
-
-    "@id": `${siteUrl}/#organization`,
-
-    name: "WE DO Interior Design & Fitout",
-
-    url: siteUrl,
-
-    logo: {
-      "@type": "ImageObject",
-
-      "@id": `${siteUrl}/#logo`,
-
-      url: `${siteUrl}/logo-s-Black.png`,
-
-      contentUrl: `${siteUrl}/logo-s-Black.png`,
-    },
-
-    sameAs: [
-      "https://www.instagram.com/we.do.uae",
-      "https://www.facebook.com/wedointerior",
-    ],
-
-    contactPoint: {
-      "@type": "ContactPoint",
-
-      telephone: "+971588075603",
-
-      contactType: "customer service",
-
-      areaServed: "AE",
-
-      availableLanguage: ["English", "Arabic"],
-    },
-
-    address: {
-      "@type": "PostalAddress",
-
-      streetAddress: "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
-
-      addressLocality: "Dubai",
-
-      addressRegion: "Dubai",
-
-      postalCode: "00000",
-
-      addressCountry: "AE",
-    },
-  };
-
-  /*
-   * =========================================================
-   * MAIN BUSINESS ENTITY
-   * =========================================================
-   */
-
-  const businessSchema = {
-    "@type": "ProfessionalService",
-
-    "@id": `${siteUrl}/#business`,
-
-    name: "WE DO Interior Design & Fitout",
-
-    url: siteUrl,
-
-    image: `${siteUrl}/og-image.jpg`,
-
-    telephone: "+971588075603",
-
-    email: "info@wedointerior.ae",
-
-    priceRange: "$$$",
-
-    parentOrganization: {
-      "@id": `${siteUrl}/#organization`,
-    },
-
-    address: {
-      "@type": "PostalAddress",
-
-      streetAddress: "X4RG+39W Jabel Ali, Jabel Ali Industrial 1",
-
-      addressLocality: "Dubai",
-
-      addressRegion: "Dubai",
-
-      postalCode: "00000",
-
-      addressCountry: "AE",
-    },
-
-    areaServed: [
-      {
-        "@type": "Place",
-        name: "Dubai",
-      },
-
-      {
-        "@type": "Place",
-        name: "Business Bay",
-      },
-
-      {
-        "@type": "Place",
-        name: "Downtown Dubai",
-      },
-
-      {
-        "@type": "Place",
-        name: "Palm Jumeirah",
-      },
-
-      {
-        "@type": "Place",
-        name: "Dubai Creek Harbour",
-      },
-
-      {
-        "@type": "Place",
-        name: "Dubai Marina",
-      },
-
-      {
-        "@type": "Place",
-        name: "Dubai Hills Estate",
-      },
-
-      {
-        "@type": "Place",
-        name: "Jumeirah",
-      },
-
-      {
-        "@type": "Place",
-        name: "Emirates Hills",
-      },
-
-      {
-        "@type": "Place",
-        name: "DIFC",
-      },
-    ],
-
-    serviceOffered: [
-      {
-        "@type": "Service",
-
-        name: "Residential Interior Design in Dubai",
-
-        serviceType: "Residential Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Commercial Interior Design in Dubai",
-
-        serviceType: "Commercial Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Interior Fit-Out in Dubai",
-
-        serviceType: "Interior Fit-Out",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Villa Interior Design in Dubai",
-
-        serviceType: "Villa Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Apartment Interior Design in Dubai",
-
-        serviceType: "Apartment Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Office Interior Design in Dubai",
-
-        serviceType: "Office Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-
-      {
-        "@type": "Service",
-
-        name: "Restaurant Interior Design in Dubai",
-
-        serviceType: "Restaurant Interior Design",
-
-        areaServed: {
-          "@type": "Place",
-          name: "Dubai",
-        },
-      },
-    ],
-  };
-
-  /*
-   * =========================================================
-   * WEBSITE
-   * =========================================================
-   */
-
-  const websiteSchema = {
-    "@type": "WebSite",
-
-    "@id": `${siteUrl}/#website`,
-
-    url: siteUrl,
-
-    name: "WE DO Interior Design & Fitout",
-
-    publisher: {
-      "@id": `${siteUrl}/#organization`,
-    },
-
-    inLanguage: "en-AE",
-  };
-
-  /*
-   * =========================================================
-   * MAIN WEBPAGE
-   * =========================================================
+   * This nested layout references the Organization,
+   * business and WebSite entities defined in the root layout.
    */
 
   const webPageSchema = {
@@ -351,10 +127,10 @@ export default function InteriorDesignDubaiLayout({ children }) {
 
     url: pageUrl,
 
-    name: "Interior Design Dubai",
+    name: "Interior Design Dubai Areas We Serve",
 
     description:
-      "Interior design and fit-out services across Dubai by WE DO Interior Design & Fitout, serving residential and commercial properties across major Dubai areas.",
+      "Explore the Dubai communities served by WE DO Interior Design & Fit-Out and find location-specific interior design and fit-out services.",
 
     isPartOf: {
       "@id": `${siteUrl}/#website`,
@@ -372,17 +148,15 @@ export default function InteriorDesignDubaiLayout({ children }) {
       "@id": `${pageUrl}#breadcrumb`,
     },
 
-    inLanguage: "en-AE",
-
     mainEntity: {
-      "@id": `${pageUrl}#service`,
+      "@id": `${pageUrl}#areas`,
     },
+
+    inLanguage: "en-AE",
   };
 
   /*
-   * =========================================================
    * BREADCRUMB
-   * =========================================================
    */
 
   const breadcrumbSchema = {
@@ -393,65 +167,21 @@ export default function InteriorDesignDubaiLayout({ children }) {
     itemListElement: [
       {
         "@type": "ListItem",
-
         position: 1,
-
         name: "Home",
-
         item: siteUrl,
       },
-
       {
         "@type": "ListItem",
-
         position: 2,
-
-        name: "Interior Design Dubai",
-
+        name: "Interior Design Dubai Areas We Serve",
         item: pageUrl,
       },
     ],
   };
 
   /*
-   * =========================================================
-   * MAIN DUBAI SERVICE
-   * =========================================================
-   */
-
-  const serviceSchema = {
-    "@type": "Service",
-
-    "@id": `${pageUrl}#service`,
-
-    name: "Interior Design & Fit-Out Services in Dubai",
-
-    serviceType: "Interior Design & Fit-Out",
-
-    provider: {
-      "@id": `${siteUrl}/#business`,
-    },
-
-    areaServed: {
-      "@type": "City",
-
-      name: "Dubai",
-
-      containedInPlace: {
-        "@type": "Country",
-
-        name: "United Arab Emirates",
-      },
-    },
-
-    description:
-      "Luxury residential and commercial interior design and turnkey fit-out services across Dubai, including villas, apartments, offices, restaurants and other commercial spaces.",
-  };
-
-  /*
-   * =========================================================
    * AREAS SERVED COLLECTION
-   * =========================================================
    */
 
   const areasCollectionSchema = {
@@ -459,15 +189,15 @@ export default function InteriorDesignDubaiLayout({ children }) {
 
     "@id": `${pageUrl}#areas`,
 
-    name: "Areas We Serve in Dubai",
+    name: "Interior Design Dubai Areas We Serve",
 
     url: pageUrl,
 
     description:
-      "WE DO provides interior design and fit-out services across major residential and commercial areas of Dubai.",
+      "Explore the Dubai communities served by WE DO Interior Design & Fit-Out, with links to location-specific interior design and fit-out services.",
 
     isPartOf: {
-      "@id": `${pageUrl}#webpage`,
+      "@id": `${siteUrl}/#website`,
     },
 
     about: {
@@ -481,112 +211,37 @@ export default function InteriorDesignDubaiLayout({ children }) {
 
       name: "WE DO Interior Design Areas We Serve",
 
-      itemListOrder: "https://schema.org/ItemListOrderAscending",
+      itemListOrder: "https://schema.org/ItemListUnordered",
 
-      numberOfItems: 7,
+      numberOfItems: areas.length,
 
-      itemListElement: [
-        {
-          "@type": "ListItem",
-
-          position: 1,
-
-          name: "Business Bay Interior Design",
-
-          url: `${siteUrl}/interior-design-company-business-bay`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 2,
-
-          name: "Downtown Dubai Interior Design",
-
-          url: `${siteUrl}/interior-design-downtown-dubai`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 3,
-
-          name: "Palm Jumeirah Interior Design",
-
-          url: `${siteUrl}/interior-design-palm-jumeirah`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 4,
-
-          name: "Dubai Creek Harbour Interior Design",
-
-          url: `${siteUrl}/interior-design-dubai-creek-harbour`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 5,
-
-          name: "Dubai Marina Interior Design",
-
-          url: `${siteUrl}/interior-design-dubai-marina`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 6,
-
-          name: "Dubai Hills Interior Design",
-
-          url: `${siteUrl}/interior-design-dubai-hills`,
-        },
-
-        {
-          "@type": "ListItem",
-
-          position: 7,
-
-          name: "Jumeirah Interior Design",
-
-          url: `${siteUrl}/interior-design-jumeirah`,
-        },
-      ],
+      itemListElement: areas.map((area, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: area.name,
+        url: `${siteUrl}${area.path}`,
+      })),
     },
   };
 
   /*
-   * =========================================================
    * COMPLETE JSON-LD GRAPH
-   * =========================================================
    */
 
   const jsonLd = {
     "@context": "https://schema.org",
 
     "@graph": [
-      organizationSchema,
-      businessSchema,
-      websiteSchema,
       webPageSchema,
       breadcrumbSchema,
-      serviceSchema,
       areasCollectionSchema,
     ],
   };
 
   /*
-   * =========================================================
    * NESTED LAYOUT
    *
-   * IMPORTANT:
-   * Do NOT add <html> or <body> here.
-   * The root app/layout.js already owns them.
-   * =========================================================
+   * The root app/layout.js owns <html> and <body>.
    */
 
   return (

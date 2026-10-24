@@ -24,7 +24,7 @@ const PHeroSection = () => {
       Interior Design Dubai – Areas We Serve
     </h1>
     <p className="text-[12px] sm:text-base md:text-lg mt-2 font-play px-0 sm:px-16">
-   WE DO Interior Design & Fitout is one of the leading Interior Design Companies in Dubai, UAE, providing quality interior design services in Dubai, while focusing on functionality and style. We offer you comprehensive interior design & fit-out services ranging from residential interior designs to commercial fit-out. We serve in all major locations of Dubai, such as Creek Harbour, Downtown Dubai, Business Bay, and Jumeirah </p>
+   WE DO Interior Design & Fit-Out serves homeowners, property investors and businesses across Dubai's established residential and commercial communities. Explore our location-specific pages for Business Bay, Downtown Dubai, Dubai Creek Harbour, Jumeirah, Palm Jumeirah and other areas to learn more about our interior design and fit-out services in your neighbourhood.</p>
   </div>
     </div>
   );

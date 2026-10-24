@@ -1,23 +1,58 @@
+
 "use client";
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
   {
-    img: "/images/luxury-villa-design-dubai-hills-estate.webp",
-    alt: "Luxury villa interior design in Dubai Hills Estate",
-    title: "DUBAI HILLS ESTATE",
+    title: "Interior Design Business Bay",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/da-vinci-tower-dining-area-furniture-business-bay.webp",
+    link: "/interior-design-company-business-bay",
   },
   {
-    img: "/images/luxury-panthouse-design-palm-jumeirah.webp",
-    alt: "Luxury penthouse interior design in Palm Jumeirah",
-    title: "INTERIOR DESIGN COMPANIES IN PALM JUMEIRAH DUBAI",
+    title: "Interior Design Downtown Dubai",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/downtown-restaurant.png",
+    link: "/interior-design-downtown-dubai",
   },
   {
-    img: "/images/minimalist-villa-design-emirates-hills.webp",
-    alt: "Minimalist luxury villa interior design in Emirates Hills",
-    title: "EMIRATES HILLS",
+    title: "Interior Design Dubai Creek Harbour",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/Modern waterfront apartment living room in Dubai Creek Harbour.png",
+    link: "/interior-design-dubai-creek-harbour",
+  },
+  {
+    title: "Interior Design Jumeirah",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/Jumeirah.jpeg",
+    link: "/interior-design-jumeirah-dubai",
+  },
+  {
+    title: "Interior Design Dubai Hills",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/dubai-hills-modern-luxury-peaceful-bedroom.webp",
+    link: "/interior-design-companies-near-dubai-hills",
+  },
+  {
+    title: "Interior Design Palm Jumeirah",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/palm-jumeirah-apartment-interior-design.png",
+    link: "/interior-design-companies-palm-jumeirah-dubai",
+  },
+  {
+    title: "Interior Design Dubai Marina",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/dmapt (29).webp",
+    link: "/best-interior-design-company-in-dubai-marina",
+  },
+  {
+    title: "Interior Design Royal Atlantis",
+    description: "Premium apartment interiors and office fit-outs.",
+    bgImage: "/images/atlantis (7).webp",
+    link: "/royal-atlantis-dubai-interior-design-company",
   },
 ];
 
@@ -27,7 +62,6 @@ const PProjects = () => {
       id="projects"
       className="bg-[url('/images/p-bg.webp')] bg-cover bg-center bg-no-repeat text-white"
     >
-      {/* Arrow image */}
       <div className="mt-10 sm:mt-16 flex justify-center">
         <Image
           src="/images/sec-dvd.webp"
@@ -40,49 +74,41 @@ const PProjects = () => {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
-
-        {/* Section Title */}
         <div className="relative mb-6 sm:mb-12">
           <h2 className="text-lg sm:text-xl font-conthrax tracking-wider text-center">
             AREAS WE SERVICE IN DUBAI
           </h2>
         </div>
 
-        {/* Project Cards - Non Clickable, Hover Only */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((card, index) => (
-            <div
+            <Link
               key={index}
-              className="relative aspect-[4/3] overflow-hidden group w-full"
+              href={card.link}
+              className="relative aspect-[4/3] overflow-hidden group w-full block"
             >
-              {/* Background Image */}
               <Image
-                src={card.img}
-                alt={card.alt}
+                src={card.bgImage}
+                alt={card.title}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
 
-              {/* Bottom Title Overlay */}
               <div className="absolute bottom-0 left-0 w-full bg-black/80 z-10">
-
-                {/* Gradient Line */}
                 <div className="w-full h-[3px] bg-gradient-to-r from-[#caa193] to-[#a0624d]" />
 
-                {/* Card Title */}
                 <div className="p-2">
                   <h3 className="text-white text-sm font-paly text-center">
                     {card.title}
                   </h3>
                 </div>
-
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
-        {/* CTA Button */}
         <div className="mt-12 flex justify-center">
           <a
             href="mailto:info@wedointerior.ae"
@@ -95,7 +121,6 @@ const PProjects = () => {
             SEND YOUR ENQUIRY NOW
           </a>
         </div>
-
       </div>
     </section>
   );
