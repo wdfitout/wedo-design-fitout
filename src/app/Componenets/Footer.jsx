@@ -125,7 +125,7 @@ const VideoCard = ({ video, onPlay }) => {
         </span>
       </button>
 
-      <h3 className="mt-5 pr-2 text-[16px] font-normal leading-relaxed text-[#4b4845] sm:text-[18px]">
+      <h3 className="mt-5 pr-2 text-[16px] font-play leading-relaxed text-[#4b4845] sm:text-[18px]">
         {video.title}
       </h3>
     </article>

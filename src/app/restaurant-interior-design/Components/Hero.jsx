@@ -13,7 +13,7 @@ export default function Hero() {
       className="relative h-[300px] w-full overflow-hidden sm:h-[400px] md:h-[500px] lg:h-[600px]"
     >
       <Image
-        src="/images/ht-1.png"
+        src="/images/5rs-2.png"
         alt="Restaurant interior design and fit-out in Dubai by WE DO"
         fill
         priority

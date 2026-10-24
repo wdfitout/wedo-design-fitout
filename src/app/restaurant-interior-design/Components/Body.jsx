@@ -79,6 +79,39 @@ const RESTAURANT_INSTAGRAM_EMBED =
   'https://www.instagram.com/p/DI_9Xf5ucyP/embed/';
 
 const RESTAURANT_PROJECTS = [
+ 
+{
+  image: '/images/1rs-2.png',
+  title: 'DIFC LUXURY RESTAURANT',
+  link: '/difc-luxury-restaurant',
+},
+{
+  image: '/images/2rs-2.png',
+  title: 'DOWNTOWN DUBAI LUXURY RESTAURANT',
+  link: '/downtown-dubai-luxury-restaurant',
+},
+{
+  image: '/images/3rs-2.png',
+  title: 'PALM JUMEIRAH BEACHFRONT RESTAURANT',
+  link: '/palm-jumeirah-beachfront-restaurant',
+},
+
+{
+  image: '/images/4rs-2.png',
+  title: 'DUBAI MARINA WATERFRONT RESTAURANT',
+  link: '/dubai-marina-waterfront-restaurant',
+},
+{
+  image: '/images/5rs-2.png',
+  title: 'BUSINESS BAY MODERN RESTAURANT',
+  link: '/business-bay-modern-restaurant',
+},
+{
+  image: '/images/6rs-2.png',
+  title: 'CITY WALK RESTAURANT',
+  link: '/city-walk-restaurant',
+},
+
   {
     image: '/images/crazymask (7).webp',
     title: 'JBR Restaurant Interior',
