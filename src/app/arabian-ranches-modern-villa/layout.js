@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Bleu Tower Penthouse Interior Design | WE DO Interior Design Dubai",
+  title: "Arabian Ranches Modern Villa",
   description:
-    "Bleu Tower Penthouse Interior Design by WE DO Interior Design Dubai. Explore our portfolio of luxurious interior design projects.",
+    "Arabian Ranches Modern Villa",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/bleu-tower-penthouse',
+    canonical: '/arabian-ranches-modern-villa',
   },
 };
 

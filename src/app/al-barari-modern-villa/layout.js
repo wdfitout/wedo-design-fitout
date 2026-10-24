@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Bleu Tower Penthouse Interior Design | WE DO Interior Design Dubai",
+  title: "Al Barari Modern Villa",
   description:
-    "Bleu Tower Penthouse Interior Design by WE DO Interior Design Dubai. Explore our portfolio of luxurious interior design projects.",
+    "Al Barari modern villa",
   metadataBase: new URL('https://wedointerior.ae/'),
   alternates: {
-    canonical: '/bleu-tower-penthouse',
+    canonical: '/al-barari-modern-villa',
   },
 };
 

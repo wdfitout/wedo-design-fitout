@@ -108,6 +108,37 @@ const APARTMENT_PROJECTS = [
     title: 'Business Bay Apartment',
     link: '/business-bay-apartment',
   },
+
+    {
+    image: '/images/address-harbour-point-master-bedroom-design-dubai.png',
+    title: 'EMAAR HARBOUR POINT APARTMENT',
+    link: '/emaar-harbour-point-apartment-dubai',
+  },   
+  {
+    image: '/images/apartment-dining-area-interior-design-dubai-silicon-oasis.png',
+    title: 'DUBAI SILICON OASIS APARTMENT',
+    link: '/dubai-silicon-oasis-apartment',
+  },
+    {
+    image: '/images/mg2-(1).webp',
+    title: 'MARINA GATE 2 LUXURY APARTMENT',
+    link: '/marina-gate-2-luxury-apartment',
+  },
+  {
+    image: '/images/adh (7).webp',
+    title: 'ACCACIA DUBAI HILLS 2 BEDROOM APARTMENT',
+    link: '/acacia-dubai-hills-2-bedroom-apartment',
+  },
+    {
+    image: '/images/pjapt (5).webp',
+    title: 'PALM JUMEIRAH APARTMEN',
+    link: '/palm-jumeirah-apartmen',
+  },
+    {
+    image: '/images/ATRD (14.1).webp',
+    title: 'ROYAL ATLANTIS 2 BEDROOM APARTMENT',
+    link: '/royal-atlantis-2-bedroom-apartment',
+  },
 ];
 
 const APARTMENT_AREAS = [
