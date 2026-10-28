@@ -9,8 +9,8 @@ const PHeroSection = () => {
       
       {/* Background Image */}
       <Image
-        src="/images/Jumeirah.jpeg"
-        alt="Luxury Interior Design Dubai"
+        src="/images/palm-jumeirah-apartment-living-room-travertine-wall.jpeg"
+        alt="Luxury Palm Jumeirah apartment living room with travertine feature wall, tan leather sectional and skyline view at dusk"
         fill
         priority
         className="object-cover"
@@ -27,7 +27,7 @@ const PHeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-3xl sm:text-5xl md:text-4xl font-conthrax leading-tight">
-           Interior Design Companies in <br />Palm Jumeirah, Dubai 
+           Interior Design Company in <br />Palm Jumeirah, Dubai 
           </h1>
 
           {/* Subheading */}
@@ -39,7 +39,7 @@ const PHeroSection = () => {
           {/* CTA Button */}
           <div className="mt-8">
             <button className="bg-[#b98877] hover:bg-[#b88f83] text-black font-conthrax px-6 py-3 rounded-md transition duration-300">
-             <a href="https://wedointerior.ae/gallery">Our Creek Harbour Projects</a> 
+             <a href="https://wedointerior.ae/gallery">See Our Projects</a> 
             </button>
           </div>
 

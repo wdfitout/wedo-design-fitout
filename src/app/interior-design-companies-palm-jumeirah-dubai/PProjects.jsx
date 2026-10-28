@@ -3,54 +3,73 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-
 const services = [
   {
-  title: "Serenia Living Interior Design & Fit-Out",
-  description: "Full interior design, custom furniture, and in-house joinery fit-out for Serenia Living, Palm Jumeirah, one team, design to installation. Get a quote.",
-  bgImage: "/images/SereniaH.jpeg",
-  link: "/serenia-living-interior-design",
-},
-  {
-    title: "Penthouse Interior Design Palm Jumeirah",
-    description: "Exclusive penthouse fit-outs showcasing stunning Arabian Gulf vistas.",
-    bgImage: "/images/6w-residence (5).webp",
-    
-    
+    title: "Serenia Living Interior Design",
+    description:
+      "Full interior design, custom furniture and in-house joinery for Serenia Living on Palm Jumeirah's West Crescent, from developer handover to move-in, with one team.",
+    bgImage: "/images/SereniaH.jpeg",
+    link: "/serenia-living-interior-design",
   },
   {
-    title: "Apartment Interior Design Palm Jumeirah",
-    description: "Tailored luxury apartment interiors designed for Palm Jumeirah beachfront living.",
+    title: "Apartment Interior Design",
+    description:
+      "Apartment and penthouse interiors for Palm Jumeirah's beachfront towers, planned around sea views, glare from floor-to-ceiling glazing and building rules.",
     bgImage: "/images/pjapt (5).webp",
-    
+    link: "/apartment-interior-design-dubai",
   },
   {
-    title: "Restaurant Interior Design Palm Jumeirah",
-    description: "Bespoke dining and F&B concepts built to operational standards.",
+    title: "Restaurant Interior Design",
+    description:
+      "Restaurant interiors for Palm Jumeirah's waterfront dining, with kitchen layout, extraction and approvals coordinated alongside the design.",
     bgImage: "/images/restaurant (4).webp",
-    
+    link: "/restaurant-interior-design",
   },
   {
-    title: "Cafe Interior Design Palm Jumeirah",
-    description: "Inviting cafe layouts balancing aesthetic charm with high-volume flow.",
+    title: "Café Interior Design",
+    description:
+      "Café fit-outs on the Palm, from casual neighbourhood spots to beachfront terraces, with counters and seating planned for high-volume service.",
     bgImage: "/images/karakna (9).webp",
-   
+    link: "/cafe-interior-design-dubai",
   },
   {
-    title: "Custom Furniture In Palm Jumeirah",
-    description: "Factory-direct CNC joinery and bespoke furniture pieces.",
-    bgImage: "/images/joinery-furniture.webp",
-    
+    title: "Hotel Interior Design",
+    description:
+      "Guest rooms, lobbies and F&B spaces for Palm Jumeirah hotels and serviced residences, phased around an operating property.",
+    bgImage: "/images/hl-3.png",
+    link: "/hotel-interior-design-dubai",
+  },
+  {
+    title: "Landscape Design",
+    description:
+      "Gardens, pool decks and majlis terraces for Palm Jumeirah villas, designed in-house with the interior and built for sun, heat and sea air.",
+    bgImage: "/images/landscape-2.webp",
+    link: "/landscape-design-dubai",
   },
 ];
 
 const creekProjects = [
+  {
+    title: "Palm Jumeirah 3 Bedroom Villa",
+    category: "Villa Interior - Palm Jumeirah",
+    image: "/images/md-11.png",
+    link: "/palm-jumeirah-3-bedroom-villa",
+  },
+
   {
     title: "Palm Jumeirah Apartment Bedroom",
     category: "Apartment Interior - Palm Jumeirah",
     image: "/images/pjapt (5).webp",
     link: "/palm-jumeirah-apartment",
   },
+
+  {
+    title: "Palm Jumeirah 3 Bedroom Villa",
+    category: "Villa Interior - Palm Jumeirah",
+    image: "/images/2wresidence (2).webp",
+    link: "/palm-jumeirah-2-bedroom-penthouse",
+  },
+
   {
     title: "Palm Jumeirah F&B Restaurant",
     category: "Restaurant Interior Design - Palm Jumeirah",
@@ -124,7 +143,7 @@ const AboutSection = () => {
                 Smart Home Technology for Beachfront Residences
               </h3>
               <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                FFor beachfront apartments and penthouses, we integrate smart home systems covering lighting, air conditioning, curtains, audio-visual, and security into the interior design from the planning stage, rather than retrofitting them after finishes are installed. The goal is a waterfront home that reads calm and uncluttered while giving owners full control from a single interface.
+                For beachfront apartments and penthouses, we integrate smart home systems covering lighting, air conditioning, curtains, audio-visual, and security into the interior design from the planning stage, rather than retrofitting them after finishes are installed. The goal is a waterfront home that reads calm and uncluttered while giving owners full control from a single interface.
               </p>
             
 
@@ -146,8 +165,8 @@ const AboutSection = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative h-[300px] sm:h-[400px] w-full rounded-2xl overflow-hidden shadow-xl border border-gray-800">
               <Image
-                src="/images/Jumeirah (3).jpeg"
-                alt="Commercial Interior Design Palm Jumeirah"
+                src="/images/palm-jumeirah-cafe-interior-terrazzo-counter-terracotta-seating.jpeg"
+                alt="Palm Jumeirah café interior with terrazzo counter, terracotta velvet seating and brass pendant lights facing a sea-view terrace"
                 fill
                 className="object-cover"
               />
@@ -247,7 +266,7 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
             <div className="bg-[#111111]/40 p-6 sm:p-8 rounded-2xl border border-gray-800 space-y-6">
               <div className="space-y-2">
                 <h3 className="text-[#b98877] text-base sm:text-lg font-conthrax">
-                  1- Villa Interior Design & Renovation
+                 ➙ Villa Interior Design & Renovation
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                   We design and renovate <b className='text-[#caa193]'><a href="https://wedointerior.ae/villa-interior-design-dubai">villa interiors</a></b> across Palm Jumeirah's Fronds, including Signature Villas, Garden Homes, and Canal Cove Villas. Work covers living rooms, bedrooms, kitchens, and bathrooms alongside landscaping, gardens, and pool design, so indoor and outdoor spaces are planned as one project rather than handed to separate contractors. Custom joinery wardrobes, kitchen cabinetry, and built-in storage are produced at our own factory rather than outsourced to a third party.
@@ -256,7 +275,7 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
 
               <div className="space-y-2">
                 <h3 className="text-[#b98877] text-base sm:text-lg font-conthrax">
-                  2- Majlis Design for Palm Jumeirah Villas
+                  ➙ Majlis Design for Palm Jumeirah Villas
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                  We design majlis spaces that pair traditional Arabic layout and seating with contemporary materials and lighting, built for both daily family use and formal gatherings. Joinery, upholstery, and lighting are produced and installed in-house, so the majlis matches the rest of the villa's material palette instead of being sourced as a one-off.
@@ -267,7 +286,7 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
             <div className="bg-[#111111]/40 p-6 sm:p-8 rounded-2xl border border-gray-800 space-y-6">
               <div className="space-y-2">
                 <h3 className="text-[#b98877] text-base sm:text-lg font-conthrax">
-                  3- Apartment & Penthouse Interior Design
+                 ➙ Apartment & Penthouse Interior Design
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                   Beyond villas, we design apartment and penthouse interiors across Palm Jumeirah's Crescent developments, working within the layout and structural constraints specific to high-rise waterfront buildings. Projects range from single-room upgrades to full-unit interior design covering every room, finish, and piece of built-in storage.
@@ -276,10 +295,11 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
 
               <div className="space-y-2">
                 <h3 className="text-[#b98877] text-base sm:text-lg font-conthrax">
-                  4- Apartment Fit-Out in Palm Jumeirah
+                 ➙ Apartment Fit-Out in Palm Jumeirah
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                  Our apartment fit-out service takes a unit from developer handover condition to a fully finished, styled home. Using CNC-produced custom joinery for kitchens, wardrobes, and media walls, we manage the full sequence design, approvals, civil and MEP work, joinery installation, and styling so owners aren't coordinating separate designers, contractors, and joinery suppliers themselves.
+                  Our apartment <b  class="text-[#caa193]"
+                ><a href="/fit-out-company-dubai">fit-out service</a></b>  takes a unit from developer handover condition to a fully finished, styled home. Using CNC-produced custom joinery for kitchens, wardrobes, and media walls, we manage the full sequence design, approvals, civil and MEP work, joinery installation, and styling so owners aren't coordinating separate designers, contractors, and joinery suppliers themselves.
                 </p>
               </div>
             </div>
@@ -299,10 +319,10 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {creekProjects.map((project, index) => (
               <Link key={index} href={project.link} className="block group">
-                <div className="relative h-[300px] rounded-2xl overflow-hidden shadow-lg border border-gray-800 transition duration-300 group-hover:border-[#b98877]">
+                <div className="relative h-[300px]  overflow-hidden shadow-lg border border-gray-800 transition duration-300 group-hover:border-[#b98877]">
                   <Image
                     src={project.image}
                     alt={project.title}
@@ -396,7 +416,7 @@ Commercial F&B fit-out on the Palm carries its own approval process on top of st
               </h2>
               <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                 For hotels, serviced residences, and boutique retail on Palm Jumeirah, we design guest rooms, lobbies, and public areas alongside retail concept design and shopfitting. Projects are managed under the same in-house design, civil works, and joinery structure used on residential work, giving hospitality and retail clients a single point of contact through fit-out and handover.<br/>
-Hospitality fit-out on the Palm typically runs on tighter operational timelines than residential work, since public areas and guest rooms often need to be phased around an operating property. Our in-house joinery production gives us more control over that schedule than relying on third-party suppliers with their own lead times.
+                 Hospitality fit-out on the Palm typically runs on tighter operational timelines than residential work, since public areas and guest rooms often need to be phased around an operating property. Our <b><a href="/joinery-company-dubai">in-house joinery </a></b>production gives us more control over that schedule than relying on third-party suppliers with their own lead times.
 
               </p>
             </div>
@@ -429,8 +449,8 @@ Hospitality fit-out on the Palm typically runs on tighter operational timelines 
           <div className="w-full lg:w-1/2">
             <div className="relative h-[350px] sm:h-[450px] w-full rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
               <Image
-                src="/images/Jumeirah (2).jpeg"
-                alt="Palm Jumeirah Process and Fitout"
+                src="/images/palm-jumeirah-restaurant-interior-backlit-bar-green-banquettes.jpeg"
+                alt="Palm Jumeirah sea-view restaurant interior with backlit stone bar, green velvet banquettes and glass chandeliers"
                 fill
                 className="object-cover"
               />
@@ -522,7 +542,7 @@ Hospitality fit-out on the Palm typically runs on tighter operational timelines 
                 5- Do you design for Palm Jumeirah apartments and penthouses, not just villas?
               </h3>
               <p className="leading-relaxed">
-               Yes. Alongside villa work on the Fronds, we design and fit out apartments and penthouses in Crescent developments, including recently handed-over buildings like Serenia Living.
+               Yes. Alongside villa work on the Fronds, we design and fit-out apartments and penthouses in Crescent developments, including recently handed-over buildings like Serenia Living.
               </p>
             </div>
 
