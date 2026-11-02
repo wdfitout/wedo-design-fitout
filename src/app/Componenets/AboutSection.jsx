@@ -53,15 +53,16 @@ const AboutSection = () => {
   return (
     <section
       id="about-us"
-      className="
-        bg-[url('/images/bg-sec-3-mobile.webp')]
-        sm:bg-[url('/images/bg-sec-3.webp')]
-        bg-cover
-        bg-center
-        bg-no-repeat
-        text-white
-        overflow-hidden
-      "
+     className="
+  bg-black
+  bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/bg-sec-3-mobile.png')]
+  sm:bg-[url('/images/bg-sec-3.webp')]
+  bg-cover
+  bg-center
+  bg-no-repeat
+  text-white
+  overflow-hidden
+"
     >
       {/* Top Intro Text */}
       <div

@@ -89,7 +89,7 @@ const Blogs = () => {
   return (
     <section id="blogs" 
     className="bg-black py-10
-    bg-[url('/images/ftrs-bg-m.webp')] 
+    bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/ftrs-bg-m.png')] 
     sm:bg-[url('/images/bg-dt-d.webp')] 
     bg-cover 
     bg-center 

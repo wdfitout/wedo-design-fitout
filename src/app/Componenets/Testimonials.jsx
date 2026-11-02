@@ -77,7 +77,7 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="bg-black py-10
-     bg-[url('/images/testi-bg-m.webp')] 
+     bg-[url('/images/bg-f-m.png')] 
     sm:bg-[url('/images/')] 
     bg-cover 
     bg-center 

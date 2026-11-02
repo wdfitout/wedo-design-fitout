@@ -52,7 +52,7 @@ const Services = () => {
       className="
         bg-black
         py-4 md:py-5
-        bg-[url('/images/bg-svc-m.webp')]
+        bg-[url('/images/bg-f-m.png')]
         sm:bg-[url('/images/bg-svc-d.webp')]
         bg-cover
         bg-center

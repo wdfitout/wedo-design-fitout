@@ -74,7 +74,7 @@ const cardData = [
 const Features = () => {
   return (
     <section id="features" className="bg-black py-0 md:py-4
-     bg-[url('/images/bg-f-m.webp')] 
+     bg-[url('/images/bg-f-m.png')] 
     sm:bg-[url('/images/bg-f-d.webp')] 
     bg-cover 
     bg-center 
