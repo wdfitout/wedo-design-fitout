@@ -56,7 +56,7 @@ const AboutSection = () => {
      className="
   bg-black
   bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/bg-sec-3-mobile.png')]
-  bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/images/bg-sec-3.webp')]
+  sm:bg-[url('/images/bg-sec-3.webp')]
   bg-cover
   bg-center
   bg-no-repeat
