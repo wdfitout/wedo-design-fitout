@@ -301,11 +301,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + CLICK-TO-LOAD VIDEO
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       aria-labelledby="restaurant-intro-heading"
@@ -316,133 +314,67 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2
-                id="restaurant-intro-heading"
-                className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
-              >
-                Restaurant Interior Design &amp; Fit-Out Services in Dubai
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                <strong>WE DO Interior Design &amp; Fitout</strong> provides bespoke{' '}
-                <Link
-                  href="/restaurant-projects"
-                  className="font-semibold text-[#caa193] hover:underline"
-                >
-                  restaurant interior design
-                </Link>{' '}
-                and fit-out services for Dubai&apos;s food and beverage industry.
-                From chic cafes in Jumeirah Beach Residence to fine-dining
-                venues in Downtown Dubai and contemporary lounges overlooking
-                Dubai Marina, we create distinctive dining environments for
-                each concept. Our restaurant fit-out services bring together
-                brand identity, guest comfort and operational needs, whether
-                you are planning a venue in JBR, Palm Jumeirah, Business Bay
-                or another part of Dubai.
-              </p>
-            </div>
-
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+        {/* FULL WIDTH — RESTAURANT SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2
+              id="restaurant-intro-heading"
+              className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
             >
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
+              Restaurant Interior Design &amp; Fit-Out Services in Dubai
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              <strong>WE DO Interior Design &amp; Fitout</strong> provides bespoke{' '}
+              <Link
+                href="/restaurant-projects"
+                className="font-semibold text-[#caa193] hover:underline"
               >
-                11+ Years of Experience
-              </span>
-            </div>
+                restaurant interior design
+              </Link>{' '}
+              and fit-out services for Dubai&apos;s food and beverage industry.
+              From chic cafes in Jumeirah Beach Residence to fine-dining
+              venues in Downtown Dubai and contemporary lounges overlooking
+              Dubai Marina, we create distinctive dining environments for
+              each concept. Our restaurant fit-out services bring together
+              brand identity, guest comfort and operational needs, whether
+              you are planning a venue in JBR, Palm Jumeirah, Business Bay
+              or another part of Dubai.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Get Best Restaurant Design Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Load WE DO restaurant interior design Instagram video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    <Image
-                      src="/images/xaima (8).webp"
-                      alt="WE DO restaurant interior design video preview"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={RESTAURANT_INSTAGRAM_EMBED}
-                    title="WE DO restaurant interior design video on Instagram"
-                    className="absolute inset-0 h-full w-full bg-white"
-                    loading="lazy"
-                    allow="autoplay; encrypted-media; picture-in-picture"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-              <p className="mt-2 font-play text-xs text-white/70">
-                Video not displaying?{' '}
-                <a
-                  href="https://www.instagram.com/p/DI_9Xf5ucyP/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#caa193] underline underline-offset-2 hover:text-[#f5ede5]"
-                >
-                  View it on Instagram
-                </a>
-                .
-              </p>
-            </div>
-
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
             >
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore Instagram video and two-column layout
+            when the new restaurant video is ready.
+        */}
       </div>
     </section>
   );
 }
+
 
 /* ======================================================================
  * 02 - RESTAURANT PROJECTS: FOUR CARDS PER ROW ON DESKTOP, NO SLIDER

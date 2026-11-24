@@ -84,14 +84,42 @@ const HOTEL_VIDEO_THUMBNAIL = '/images/Hotel relaxing area Interior Design Dubai
 // An empty `link` is intentional: the card is prepared for navigation,
 // but its click does not redirect until an actual project URL is provided.
 const HOTEL_SHOWCASE = [
-  { image: '/images/hl-1.png', title: 'Hotel Interior Design - Gallery 01', link: '' },
-  { image: '/images/hl-3.png', title: 'Hotel Interior Design - Gallery 02', link: '' },
-  { image: '/images/hl-5.png', title: 'Hotel Interior Design - Gallery 03', link: '' },
-  { image: '/images/hl-6.png', title: 'Hotel Interior Design - Gallery 04', link: '' },
-  { image: '/images/hl-10.png', title: 'Hotel Interior Design - Gallery 05', link: '' },
-  { image: '/images/hl-11.png', title: 'Hotel Interior Design - Gallery 06', link: '' },
-  { image: '/images/hl-12.png', title: 'Hotel Interior Design - Gallery 07', link: '' },
-  { image: '/images/hospitality-dubai-interiors.png', title: 'Hotel Interior Design - Gallery 08', link: '' },
+  { src: '/images/1hl-2.png', 
+    link: '/dubai-creek-harbour-hotel', 
+    title: 'DUBAI CREEK HARBOUR HOTEL' 
+  },
+  { src: '/images/2hl-8.png', 
+    link: '/jumeirah-beachfront-luxury-hotel', 
+    title: 'JUMEIRAH BEACHFRONT LUXURY HOTEL ' 
+  },
+  { src: '/images/3hl-7.png', 
+    link: '/bluewaters-luxury-resort-hotel', 
+    title: 'BLUEWATERS LUXURY RESORT HOTEL' 
+  },
+    { src: '/images/4hl-6.png', 
+    link: '/business-bay-business-hotel', 
+    title: 'BUSINESS BAY BUSINESS HOTEL' 
+  },
+  { src: '/images/5hl-5.png', 
+    link: '/difc-boutique-hotel', 
+    title: 'DIFC BOUTIQUE HOTEL' 
+  },
+  { src: '/images/6hl-4.png', 
+    link: '/jbr-dubai-luxury-hotel', 
+    title: 'JBR DUBAI LUXURY HOTEL' 
+  },
+    { src: '/images/7hl-3.png', 
+    link: '/dubai-marina-waterfront-hotel', 
+    title: 'DUBAI MARINA WATERFRONT HOTEL' 
+  },
+  { src: '/images/8hl-2.png', 
+    link: '/downtown-dubai-five-star-hotel', 
+    title: 'DOWNTOWN DUBAI FIVE STAR HOTEL' 
+  },
+  { src: '/images/9hl-1.png', 
+    link: '/palm-jumeirah-luxury-hotel', 
+    title: 'PALM JUMEIRAH LUXURY HOTEL' 
+  },
 ];
 
 const HOTEL_AREAS = [
@@ -274,11 +302,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + VIDEO
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       className="bg-black px-4 py-[var(--section-padding)] text-white sm:px-6 lg:px-[var(--side-padding)]"
@@ -288,108 +314,64 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
-                Hotel Interior Design &amp; Fit-Out Services in Dubai
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                At <strong>WE DO Interior Design &amp; Fitout</strong>, we create
-                tailored hospitality environments for hotels and resorts in
-                Dubai. From luxury hotel interiors and boutique properties to
-                business hotels and guest accommodation, our design approach
-                balances brand identity, guest comfort and operational needs.
-                We combine creative concepts, thoughtful space planning and
-                technical coordination to shape distinctive interiors that
-                feel welcoming and function efficiently.
-              </p>
-              <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
-                Our work can cover lobby and reception spaces, guest rooms,
-                restaurants, wellness areas and complete hotel fit-out.
-                Each solution is tailored to the project brief and the
-                standards expected of contemporary hospitality spaces in Dubai.
-              </p>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                11+ Years of Experience
-              </span>
-            </div>
+        {/* FULL WIDTH — HOTEL SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
+              Hotel Interior Design &amp; Fit-Out Services in Dubai
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              At <strong>WE DO Interior Design &amp; Fitout</strong>, we create
+              tailored hospitality environments for hotels and resorts in
+              Dubai. From luxury hotel interiors and boutique properties to
+              business hotels and guest accommodation, our design approach
+              balances brand identity, guest comfort and operational needs.
+              We combine creative concepts, thoughtful space planning and
+              technical coordination to shape distinctive interiors that
+              feel welcoming and function efficiently.
+            </p>
+
+            <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
+              Our work can cover lobby and reception spaces, guest rooms,
+              restaurants, wellness areas and complete hotel fit-out.
+              Each solution is tailored to the project brief and the
+              standards expected of contemporary hospitality spaces in Dubai.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Explore Hotel Interior Design in Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Play WE DO hotel interior design video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    <Image
-                      src={HOTEL_VIDEO_THUMBNAIL}
-                      alt="Hotel interior design video preview from WE DO"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${HOTEL_YOUTUBE_VIDEO_ID}?autoplay=1&playsinline=1&rel=0`}
-                    title="WE DO Hotel Interior Design & Fitout Dubai"
-                    className="absolute inset-0 h-full w-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
+            >
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the hotel YouTube video is ready.
+        */}
       </div>
     </section>
   );
 }
+
 
 /* ======================================================================
  * 02 - CLICKABLE HOTEL PROJECT GRID - FOUR ACROSS DESKTOP, NO SLIDER
@@ -419,7 +401,7 @@ function ProjectGrid() {
         >
           {HOTEL_SHOWCASE.map((item) => (
             <Link
-              key={item.image}
+              key={item.link}
               href={item.link || '#'}
               onClick={(event) => {
                 // Don't jump to the top of the page while the URL is pending.
@@ -431,7 +413,7 @@ function ProjectGrid() {
               style={{ aspectRatio: LAYOUT.projects.aspectRatio }}
             >
               <Image
-                src={item.image}
+                src={item.src}
                 alt={item.title}
                 fill
                 sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"

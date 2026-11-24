@@ -13,7 +13,7 @@ export default function Hero() {
       className="relative h-[300px] w-full overflow-hidden sm:h-[400px] md:h-[500px] lg:h-[600px]"
     >
       <Image
-        src="/images/nolen-1.webp"
+        src="/images/nl-1.png"
         alt="Cafe interior design on Bluewaters Island Dubai by WE DO"
         fill
         priority

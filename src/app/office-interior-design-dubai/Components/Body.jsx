@@ -333,7 +333,7 @@ function IntroVideo() {
   // Replace with your actual YouTube video ID
   // Example: https://www.youtube.com/watch?v=ABC123xyz
   // Video ID: ABC123xyz
-  const YOUTUBE_VIDEO_ID = 'qCAlrFPJp5g';
+  const YOUTUBE_VIDEO_ID = 'RNNgkJHgeFU';
 
   return (
     <section
@@ -417,7 +417,7 @@ function IntroVideo() {
                   >
                     {/* VIDEO THUMBNAIL */}
                     <Image
-                      src="/images/nestfinder (10).webp"
+                      src="/images/x.learning (3).webp"
                       alt="WE DO office interior design and fitout video preview"
                       fill
                       sizes="(min-width: 1024px) 45vw, 90vw"

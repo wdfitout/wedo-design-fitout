@@ -7,7 +7,7 @@ import Link from "next/link";
 const cardData = [
   {
     title: "VILLA INTERIOR DESIGN",
-    img: "/images/vl-1.png",
+    img: "/images/3vl-3.png",
     desc: "Layout, joinery, lighting and landscape planned as one scheme for villas in Emirates Hills, Al Barari and Arabian Ranches.",
     link: "/villa-interior-design-dubai",
   },
@@ -17,6 +17,12 @@ const cardData = [
     desc: "Apartments and penthouses planned around building management rules and service-lift access in Dubai Marina, Business Bay and Downtown.",
     link: "/apartment-interior-design-dubai",
   },
+    {
+    title: "OFFICE INTERIOR DESIGN",
+    img: "/images/x.learning-26.webp",
+    desc: "Workspaces in DIFC, Business Bay and Dubai Silicon Oasis, with acoustics, planning and landlord rules resolved before pricing.",
+    link: "/office-interior-design-dubai",
+  },
 
   {
     title: "RESTAURANT INTERIOR DESIGN",
@@ -24,12 +30,7 @@ const cardData = [
     desc: "Front-of-house atmosphere and a kitchen that still works on a busy night, with food-safety layout and approvals built into the drawings.",
     link: "/restaurant-interior-design",
   },
-  {
-    title: "OFFICE INTERIOR DESIGN",
-    img: "/images/x.learning-26.webp",
-    desc: "Workspaces in DIFC, Business Bay and Dubai Silicon Oasis, with acoustics, planning and landlord rules resolved before pricing.",
-    link: "/office-interior-design-dubai",
-  },
+
       {
     title: "HOTEL INTERIOR DESIGN",
     img: "/images/hl-2.png",
@@ -38,7 +39,7 @@ const cardData = [
   },
     {
     title: "CAFE INTERIOR DESIGN",
-    img: "/images/nolen-9.webp",
+    img: "/images/nl-2.png",
     desc: "Designed around your brand and your real footfall, with a counter layout that holds up in the morning rush.",
     link: "/cafe-interior-design-dubai",
   },

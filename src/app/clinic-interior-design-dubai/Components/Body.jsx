@@ -84,12 +84,39 @@ const CLINIC_VIDEO_THUMBNAIL = '/images/modern clinic design in Dubai.png';
 const CLINIC_SHOWCASE = [
   // TODO: Replace each empty `link` with the verified clinic project URL.
   // These images are a showcase, not confirmed completed-project case studies.
-  { image: '/images/cl-1.png', title: 'Clinic Interior Design - Gallery 01', link: '' },
-  { image: '/images/cl-2.png', title: 'Clinic Interior Design - Gallery 02', link: '' },
-  { image: '/images/cl-3.png', title: 'Clinic Interior Design - Gallery 03', link: '' },
-  { image: '/images/cl-4.png', title: 'Clinic Interior Design - Gallery 04', link: '' },
-  { image: '/images/cl-6.png', title: 'Clinic Interior Design - Gallery 05', link: '' },
-  { image: '/images/cl-7.png', title: 'Clinic Interior Design - Gallery 06', link: '' },
+  { image: '/images/1cl-1.png',
+    title: 'Business Bay Dubai Healthcare Clinic', 
+    link: 'business-bay-dubai-healthcare-clinic' 
+  },
+  { image: '/images/2cl-3.png',
+    title: 'City Walk Dubai Cosmetic Clinic', 
+    link: 'city-walk-dubai-cosmetic-clinic' 
+  },
+  { image: '/images/3cl-4.png',
+    title: 'DIFC Dubai Dermatology Clinic', 
+    link: 'difc-dubai-dermatology-clinic' 
+  },
+  { image: '/images/4cl-3.png',
+    title: 'Downtown Dubai Medical Clinic', 
+    link: 'downtown-dubai-medical-clinic' 
+  },
+  { image: '/images/5cl-5.png',
+    title: 'Dubai Hills Estate Wellness Clinic', 
+    link: 'dubai-hills-estate-wellness-clinic' 
+  },
+  { image: '/images/6cl-6.png',
+    title: 'Dubai Marina Family Clinic', 
+    link: 'dubai-marina-family-clinic' 
+  },
+  { image: '/images/7cl-7.png',
+    title: 'Jumeirah Dubai Clinic', 
+    link: 'jumeirah-dubai-clinic' 
+  },
+  { image: '/images/8cl-5.png',
+    title: 'Palm Jumeirah Luxury Clinic', 
+    link: 'palm-jumeirah-luxury-clinic' 
+  },
+
 ];
 
 const CLINIC_AREAS = [
@@ -277,11 +304,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + VIDEO
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       className="bg-black px-4 py-[var(--section-padding)] text-white sm:px-6 lg:px-[var(--side-padding)]"
@@ -291,105 +316,66 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
-                Clinic Interior Design &amp; Healthcare Fit-Out Services in Dubai
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                At <strong>WE DO Interior Design &amp; Fitout</strong>, we plan
-                welcoming and functional clinic interiors for private medical
-                practices, specialist clinics and healthcare centres in Dubai.
-                Our approach combines patient comfort, practical staff workflows,
-                thoughtful lighting and durable materials suited to the purpose
-                of each space. From the reception to consultation and treatment
-                rooms, we design interiors around the facility&apos;s operational
-                needs and brand identity.
-              </p>
-              <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
-                Our clinic design and <Link href="/fit-out-company-dubai" className="font-semibold text-[#caa193] hover:underline">fit-out services</Link> can
-                cover layouts, visualisation, interior finishes, bespoke storage
-                and construction coordination. Planning also considers applicable
-                building and healthcare requirements, with approvals addressed
-                according to the location and agreed scope.
-              </p>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
+        {/* FULL WIDTH — CLINIC SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
+              Clinic Interior Design &amp; Healthcare Fit-Out Services in Dubai
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              At <strong>WE DO Interior Design &amp; Fitout</strong>, we plan
+              welcoming and functional clinic interiors for private medical
+              practices, specialist clinics and healthcare centres in Dubai.
+              Our approach combines patient comfort, practical staff workflows,
+              thoughtful lighting and durable materials suited to the purpose
+              of each space. From the reception to consultation and treatment
+              rooms, we design interiors around the facility&apos;s operational
+              needs and brand identity.
+            </p>
+
+            <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
+              Our clinic design and{' '}
+              <Link
+                href="/fit-out-company-dubai"
+                className="font-semibold text-[#caa193] hover:underline"
               >
-                11+ Years of Experience
-              </span>
-            </div>
+                fit-out services
+              </Link>{' '}
+              can cover layouts, visualisation, interior finishes, bespoke storage
+              and construction coordination. Planning also considers applicable
+              building and healthcare requirements, with approvals addressed
+              according to the location and agreed scope.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Explore Clinic Interior Design in Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Play WE DO clinic interior design video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    <Image
-                      src={CLINIC_VIDEO_THUMBNAIL}
-                      alt="Clinic interior design video preview from WE DO"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${CLINIC_YOUTUBE_VIDEO_ID}?autoplay=1&playsinline=1&rel=0`}
-                    title="WE DO Clinic Interior Design & Fitout Dubai"
-                    className="absolute inset-0 h-full w-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
+            >
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the clinic YouTube video is ready.
+        */}
       </div>
     </section>
   );

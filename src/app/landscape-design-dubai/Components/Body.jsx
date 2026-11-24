@@ -271,11 +271,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + VIDEO-READY LANDSCAPE VISUAL
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       className="bg-black px-4 py-[var(--section-padding)] text-white sm:px-6 lg:px-[var(--side-padding)]"
@@ -285,129 +283,66 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
-                Landscape Design &amp; Construction Services in Dubai
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                At <strong>WE DO Interior Design &amp; Fitout</strong>, we create
-                outdoor environments that connect architecture, nature and
-                everyday living. Our <strong>landscape design in Dubai</strong>{' '}
-                combines bespoke gardens, thoughtful space planning and
-                landscape construction for villas, homes and commercial
-                properties. From planting and hardscape to outdoor seating
-                and water features, we aim to make every exterior feel
-                welcoming, practical and visually cohesive.
-              </p>
-              <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
-                Our team plans gardens, pools, pergolas, landscape lighting
-                and irrigation around the needs of each site and the
-                Dubai climate. For a larger home transformation, our{' '}
-                <Link href="/complete-villa-construction-dubai" className="font-semibold text-[#caa193] hover:underline">
-                  villa construction services
-                </Link>{' '}
-                can help connect the outdoor concept with the broader
-                property design and construction brief.
-              </p>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
+        {/* FULL WIDTH — LANDSCAPE SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2 className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl">
+              Landscape Design &amp; Construction Services in Dubai
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              At <strong>WE DO Interior Design &amp; Fitout</strong>, we create
+              outdoor environments that connect architecture, nature and
+              everyday living. Our <strong>landscape design in Dubai</strong>{' '}
+              combines bespoke gardens, thoughtful space planning and
+              landscape construction for villas, homes and commercial
+              properties. From planting and hardscape to outdoor seating
+              and water features, we aim to make every exterior feel
+              welcoming, practical and visually cohesive.
+            </p>
+
+            <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
+              Our team plans gardens, pools, pergolas, landscape lighting
+              and irrigation around the needs of each site and the
+              Dubai climate. For a larger home transformation, our{' '}
+              <Link
+                href="/complete-villa-construction-dubai"
+                className="font-semibold text-[#caa193] hover:underline"
               >
-                11+ Years of Experience
-              </span>
-            </div>
+                villa construction services
+              </Link>{' '}
+              can help connect the outdoor concept with the broader
+              property design and construction brief.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Explore Landscape Design in Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {LANDSCAPE_YOUTUBE_VIDEO_ID ? (
-                  !videoLoaded ? (
-                    <button
-                      type="button"
-                      onClick={() => setVideoLoaded(true)}
-                      aria-label="Play WE DO landscape design video"
-                      className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                    >
-                      <Image
-                        src={LANDSCAPE_VIDEO_THUMBNAIL}
-                        alt="WE DO landscape design video preview"
-                        fill
-                        sizes="(min-width: 1024px) 45vw, 90vw"
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                        <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                          <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                        </span>
-                      </span>
-                    </button>
-                  ) : (
-                    <iframe
-                      src={`https://www.youtube-nocookie.com/embed/${LANDSCAPE_YOUTUBE_VIDEO_ID}?autoplay=1&playsinline=1&rel=0`}
-                      title="WE DO Landscape Design & Construction Dubai"
-                      className="absolute inset-0 h-full w-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    />
-                  )
-                ) : (
-                  <Link
-                    href="/gallery"
-                    aria-label="Browse WE DO interior design gallery"
-                    className="group relative block h-full w-full overflow-hidden"
-                  >
-                    <Image
-                      src={LANDSCAPE_VIDEO_THUMBNAIL}
-                      alt="Dubai luxury villa landscape design visual"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="rounded border border-[#caa193] bg-black/60 px-5 py-3 font-play text-sm uppercase text-white transition-colors group-hover:bg-[#caa193] group-hover:text-black">
-                        View Our Gallery
-                      </span>
-                    </span>
-                  </Link>
-                )}
-              </div>
-            </div>
-            <div className="mt-auto flex justify-start" style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}>
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
+            >
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO / GALLERY TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the landscape YouTube video is ready.
+        */}
       </div>
     </section>
   );

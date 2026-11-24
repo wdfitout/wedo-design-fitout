@@ -80,6 +80,23 @@ const CAFE_VIDEO_THUMBNAIL = '/images/nolen-6.webp';
 // Five distinct cafe projects were supplied; do not create fictitious entries
 // simply to fill a four-column row.
 const CAFE_PROJECTS = [
+
+    {
+    image: '/images/nl-12.png',
+    title: 'Jumeirah Minimal Cafe Interior',
+    link: '/jumeirah-minimal-cafe-nolen',
+  },
+
+  {
+    image: '/images/1cf-9.png',
+    title: 'Business Bay Minimal Cafe',
+    link: '/business-bay-minimal-cafe',
+  },
+    {
+    image: '/images/2cf-2.png',
+    title: 'Palm Jumeirah Modern Cafe',
+    link: '/palm-jumeirah-modern-cafe',
+  },  
   {
     image: '/images/lila-milano (2).webp',
     title: 'Lila Milano Al Quoz Cafe Interior',
@@ -294,11 +311,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + CLICK-TO-PLAY VIDEO
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       aria-labelledby="cafe-intro-heading"
@@ -309,118 +324,70 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2
-                id="cafe-intro-heading"
-                className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
-              >
-                Café Interior Design in Dubai – Expert Fit-Out &amp; Design Services
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                Designing a cafe interior in Dubai is about more than style. It
-                combines comfort, functionality and ambience to create a welcoming
-                experience for customers. At{' '}
-                <strong>WE DO Interior Design &amp; Fitout</strong>, we provide
-                complete cafe design and fit-out services for independent coffee
-                shops, contemporary cafes and other commercial spaces. Whether
-                you have a minimalist concept, a customised coffee shop or a
-                combined{' '}
-                <Link href="/restaurant-interior-design" className="font-semibold text-[#caa193] hover:underline">
-                  cafe and restaurant design
-                </Link>
-                , we plan interiors that reflect your brand identity.
-              </p>
-              <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
-                With more than 11 years of experience across hospitality and
-                commercial projects, our approach spans concept development,
-                layout planning and fit-out execution. We coordinate materials,
-                seating, lighting and practical service areas to create a cafe
-                environment that balances appearance with daily operations.
-              </p>
-            </div>
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+        {/* FULL WIDTH — CAFÉ SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2
+              id="cafe-intro-heading"
+              className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
             >
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
+              Café Interior Design in Dubai – Expert Fit-Out &amp; Design Services
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              Designing a cafe interior in Dubai is about more than style. It
+              combines comfort, functionality and ambience to create a welcoming
+              experience for customers. At{' '}
+              <strong>WE DO Interior Design &amp; Fitout</strong>, we provide
+              complete cafe design and fit-out services for independent coffee
+              shops, contemporary cafes and other commercial spaces. Whether
+              you have a minimalist concept, a customised coffee shop or a
+              combined{' '}
+              <Link
+                href="/restaurant-interior-design"
+                className="font-semibold text-[#caa193] hover:underline"
               >
-                11+ Years of Experience
-              </span>
-            </div>
+                cafe and restaurant design
+              </Link>
+              , we plan interiors that reflect your brand identity.
+            </p>
+
+            <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
+              With more than 11 years of experience across hospitality and
+              commercial projects, our approach spans concept development,
+              layout planning and fit-out execution. We coordinate materials,
+              seating, lighting and practical service areas to create a cafe
+              environment that balances appearance with daily operations.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Get Best Cafe Interior Design Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Play WE DO cafe interior design video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    <Image
-                      src={CAFE_VIDEO_THUMBNAIL}
-                      alt="WE DO cafe interior design video preview"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${CAFE_YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&playsinline=1&rel=0`}
-                    title="WE DO Cafe Interior Design and Fit-Out Dubai"
-                    className="absolute inset-0 h-full w-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-            </div>
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
             >
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the café YouTube video is ready.
+        */}
       </div>
     </section>
   );

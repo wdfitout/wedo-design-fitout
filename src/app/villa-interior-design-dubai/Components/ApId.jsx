@@ -109,16 +109,11 @@ const LAYOUT = {
   },
 };
 
+
 /* ======================================================================
- * 01 - INTRO TEXT + VIDEO (matches the WE DO office page)
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
-  // Same YouTube embed used on the office page.
-  // Replace this ID with a villa-specific YouTube ID when available.
-  const YOUTUBE_VIDEO_ID = 'qCAlrFPJp5g';
-
   return (
     <section
       aria-labelledby="villa-intro-title"
@@ -129,128 +124,72 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
+        className="mx-auto w-full"
         style={{
-          width: LAYOUT.intro.contentWidth,
           maxWidth: LAYOUT.intro.maxWidth,
         }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          {/* LEFT COLUMN — VILLA SEO TEXT */}
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2
-                id="villa-intro-title"
-                className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
-              >
-                Villa Interior Design &amp; Fit-Out Companies in Dubai
-              </h2>
-
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                <b className={linkClass}>
-                  <a href={`${SITE}/`}>WE DO Interior Design &amp; Fit-Out</a>
-                </b>{' '}
-                provides villa interior design in Dubai from concept to handover, design, joinery, MEP coordination, and final styling, all run through one in-house team instead of five separate contractors. WE DO is a DED-registered interior design and fit-out company that keeps design and construction under one roof: 250+ completed residential and commercial projects over 11+ years, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification, and direct approval relationships with Dubai Civil Defence, Dubai Municipality, and developers including Emaar and Damac.{' '}
-                <b className={linkClass}>
-                  <a href={`${SITE}/gallery`}>See our full project gallery</a>
-                </b>{' '}
-                for completed villa work across Dubai.
-              </p>
-            </div>
-
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+        {/* FULL WIDTH — VILLA SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2
+              id="villa-intro-title"
+              className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
             >
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                11+ Years of Experience
-              </span>
-            </div>
+              Villa Interior Design &amp; Fit-Out Companies in Dubai
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              <b className={linkClass}>
+                <a href={`${SITE}/`}>
+                  WE DO Interior Design &amp; Fit-Out
+                </a>
+              </b>{' '}
+              provides villa interior design in Dubai from concept to handover,
+              design, joinery, MEP coordination, and final styling, all run
+              through one in-house team instead of five separate contractors.
+              WE DO is a DED-registered interior design and fit-out company
+              that keeps design and construction under one roof: 250+
+              completed residential and commercial projects over 11+ years,
+              ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification,
+              and direct approval relationships with Dubai Civil Defence,
+              Dubai Municipality, and developers including Emaar and Damac.{' '}
+              <b className={linkClass}>
+                <a href={`${SITE}/gallery`}>
+                  See our full project gallery
+                </a>
+              </b>{' '}
+              for completed villa work across Dubai.
+            </p>
           </div>
 
-          {/* RIGHT COLUMN — YOUTUBE VIDEO */}
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Get Best Villa Interior Design in Dubai
-              </h2>
-
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Play WE DO villa interior design video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    {/* VIDEO THUMBNAIL — update image when villa video is available */}
-                    <Image
-                      src="/images/nestfinder (10).webp"
-                      alt="WE DO interior design and fit-out video preview"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-
-                    {/* DARK OVERLAY + PLAY BUTTON */}
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay
-                          aria-hidden="true"
-                          className="ml-1 text-xl text-white sm:text-2xl"
-                        />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&playsinline=1&rel=0`}
-                    title="WE DO Villa Interior Design & Fit-Out Dubai"
-                    className="absolute inset-0 h-full w-full"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-            </div>
-
-            {/* CTA BUTTON */}
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+          {/* EXPERIENCE CTA */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
             >
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the villa YouTube video is ready.
+        */}
       </div>
     </section>
   );
 }
+
 
 const ApId = () => {
   const [selectedVillaStyle, setSelectedVillaStyle] = useState(0);

@@ -149,7 +149,7 @@ const APARTMENT_AREAS = [
       'We plan comfortable and welcoming living rooms with practical furniture arrangements, refined finishes and lighting suited to everyday apartment living.',
   },
   {
-    image: '/images/bba (6).jpg',
+    image: '/images/penth14.webp',
     title: 'Bedrooms & Master Suites',
     description:
       'Our bedroom interiors combine calm colour palettes, carefully selected furnishings and integrated storage for personal comfort and functionality.',
@@ -486,7 +486,7 @@ function IntroVideo() {
                     className="group relative block h-full w-full cursor-pointer overflow-hidden"
                   >
                     <Image
-                      src="/images/dubai-interior-design-companies-apartment-sitting-area.webp"
+                      src="/images/ATRD (25).webp"
                       alt="WE DO apartment interior design video preview"
                       fill
                       sizes="(min-width: 1024px) 45vw, 90vw"

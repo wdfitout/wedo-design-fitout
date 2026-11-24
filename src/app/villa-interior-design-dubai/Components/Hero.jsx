@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/images/vl-2.png",
+  "/images/5vl-1.png",
 ];
 
 const Hero = () => {

@@ -81,6 +81,46 @@ const SALON_VIDEO_THUMBNAIL = '/images/sl-1.png';
 // Only TWO beauty-salon project entries were provided. Do not invent others.
 const SALON_PROJECTS = [
   {
+    image: '/images/1sl-8.png',
+    title: 'Dubai Hills Mall Facial Studio',
+    link: '/bluewaters-island-spa-salon',
+  },
+  {
+    image: '/images/2sl-7.png',
+    title: 'Jumeirah 1 Beauty Salon',
+    link: '/city-walk-nail-salon',
+  },
+    {
+    image: '/images/3sl-6.png',
+    title: 'Dubai Hills Mall Facial Studio',
+    link: '/difc-dubai-beauty-lounge',
+  },
+  {
+    image: '/images/4sl-5.png',
+    title: 'Jumeirah 1 Beauty Salon',
+    link: '/downtown-dubai-luxury-hair-salon',
+  },
+    {
+    image: '/images/5sl-4.png',
+    title: 'Dubai Hills Mall Facial Studio',
+    link: '/dubai-hills-estate-beauty-salon',
+  },
+  {
+    image: '/images/6sl-3.png',
+    title: 'Jumeirah 1 Beauty Salon',
+    link: '/dubai-marina-ladies-beauty-salon',
+  },
+    {
+    image: '/images/7sl-2.png',
+    title: 'Dubai Hills Mall Facial Studio',
+    link: '/jumeirah-dubai-nail-lash-studio',
+  },
+  {
+    image: '/images/8sl-1.png',
+    title: 'Jumeirah 1 Beauty Salon',
+    link: '/palm-jumeirah-luxury-beauty-salon',
+  },
+    {
     image: '/images/dhfs (1).webp',
     title: 'Dubai Hills Mall Facial Studio',
     link: '/dubai-hills-mall-facial-studio',
@@ -272,11 +312,9 @@ function ContactStrip() {
 }
 
 /* ======================================================================
- * 01 - INTRO TEXT + CLICK-TO-PLAY VIDEO
+ * 01 - INTRO TEXT (FULL WIDTH — VIDEO TEMPORARILY HIDDEN)
  * ====================================================================== */
 function IntroVideo() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-
   return (
     <section
       aria-labelledby="salon-intro-heading"
@@ -287,127 +325,86 @@ function IntroVideo() {
       }}
     >
       <div
-        className="mx-auto"
-        style={{ width: LAYOUT.intro.contentWidth, maxWidth: LAYOUT.intro.maxWidth }}
+        className="mx-auto w-full"
+        style={{
+          maxWidth: LAYOUT.intro.maxWidth,
+        }}
       >
-        <div
-          className="grid grid-cols-1 items-stretch lg:grid-cols-[var(--intro-columns)]"
-          style={{
-            '--intro-columns': `minmax(0, ${LAYOUT.intro.textColumn}) minmax(0, ${LAYOUT.intro.videoColumn})`,
-            columnGap: LAYOUT.intro.columnGap,
-            rowGap: LAYOUT.intro.rowGap,
-          }}
-        >
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2
-                id="salon-intro-heading"
-                className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
-              >
-                Beauty Salon Interior Design in Dubai – Luxury, Functionality &amp; Brand Identity
-              </h2>
-              <p className="font-play text-base leading-7 text-white [text-align:justify]">
-                At{' '}
-                <Link href="/" className="font-semibold text-[#caa193] hover:underline">
-                  WE DO Interior Design &amp; Fitout
-                </Link>
-                , we create beauty salon interiors that combine visual appeal,
-                daily functionality and client comfort. A well-designed salon
-                influences how clients feel from the moment they arrive. With
-                11+ years of experience, our approach brings together layouts,
-                lighting, furniture, decoration and brand identity to help
-                create welcoming salon and spa environments in Dubai.
-              </p>
-              <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
-                Whether you are opening a new salon or renovating an existing
-                space, we develop solutions for facial studios, beauty lounges
-                and specialised treatment areas. Our featured work includes{' '}
-                <Link href="/dubai-hills-mall-facial-studio" className="font-semibold text-[#caa193] hover:underline">
-                  a facial studio at Dubai Hills Mall
-                </Link>{' '}
-                and{' '}
-                <Link href="/jumeirah-1-beauty-salon" className="font-semibold text-[#caa193] hover:underline">
-                  a beauty salon in Jumeirah 1
-                </Link>
-                . We also discuss new salon concepts in Downtown Dubai, Palm
-                Jumeirah, Business Bay and other communities.
-              </p>
-            </div>
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+        {/* FULL WIDTH — BEAUTY SALON SEO TEXT */}
+        <div className="flex w-full min-w-0 flex-col">
+          <div>
+            <h2
+              id="salon-intro-heading"
+              className="mb-3 py-2 font-conthrax text-sm tracking-widest text-[#caa193] sm:text-xl"
             >
-              <span
-                className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
+              Beauty Salon Interior Design in Dubai – Luxury, Functionality &amp; Brand Identity
+            </h2>
+
+            <p className="font-play text-base leading-7 text-white [text-align:justify]">
+              At{' '}
+              <Link
+                href="/"
+                className="font-semibold text-[#caa193] hover:underline"
               >
-                11+ Years of Experience
-              </span>
-            </div>
+                WE DO Interior Design &amp; Fitout
+              </Link>
+              , we create beauty salon interiors that combine visual appeal,
+              daily functionality and client comfort. A well-designed salon
+              influences how clients feel from the moment they arrive. With
+              11+ years of experience, our approach brings together layouts,
+              lighting, furniture, decoration and brand identity to help
+              create welcoming salon and spa environments in Dubai.
+            </p>
+
+            <p className="mt-4 font-play text-base leading-7 text-white [text-align:justify]">
+              Whether you are opening a new salon or renovating an existing
+              space, we develop solutions for facial studios, beauty lounges
+              and specialised treatment areas. Our featured work includes{' '}
+              <Link
+                href="/dubai-hills-mall-facial-studio"
+                className="font-semibold text-[#caa193] hover:underline"
+              >
+                a facial studio at Dubai Hills Mall
+              </Link>{' '}
+              and{' '}
+              <Link
+                href="/jumeirah-1-beauty-salon"
+                className="font-semibold text-[#caa193] hover:underline"
+              >
+                a beauty salon in Jumeirah 1
+              </Link>
+              . We also discuss new salon concepts in Downtown Dubai, Palm
+              Jumeirah, Business Bay and other communities.
+            </p>
           </div>
 
-          <div className="flex min-w-0 flex-col">
-            <div>
-              <h2 className="py-2 font-conthrax text-sm tracking-widest text-gray-200 sm:text-xl">
-                Get Best Spa &amp; Beauty Salon Design Dubai
-              </h2>
-              <div
-                className="relative w-full overflow-hidden rounded-lg border-2 border-[#caa193] bg-black"
-                style={{
-                  aspectRatio: LAYOUT.intro.videoAspectRatio,
-                  marginTop: LAYOUT.intro.videoTopSpacing,
-                }}
-              >
-                {!videoLoaded ? (
-                  <button
-                    type="button"
-                    onClick={() => setVideoLoaded(true)}
-                    aria-label="Play WE DO beauty salon interior design video"
-                    className="group relative block h-full w-full cursor-pointer overflow-hidden"
-                  >
-                    <Image
-                      src={SALON_VIDEO_THUMBNAIL}
-                      alt="WE DO beauty salon interior design video preview"
-                      fill
-                      sizes="(min-width: 1024px) 45vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <span className="flex h-16 w-16 items-center justify-center rounded-full border border-[#caa193] bg-black/50 backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-[#caa193] sm:h-20 sm:w-20">
-                        <FaPlay aria-hidden="true" className="ml-1 text-xl text-white sm:text-2xl" />
-                      </span>
-                    </span>
-                  </button>
-                ) : (
-                  <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${SALON_YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&playsinline=1&rel=0`}
-                    title="WE DO Spa and Beauty Salon Interior Design Dubai"
-                    className="absolute inset-0 h-full w-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                )}
-              </div>
-            </div>
-            <div
-              className="mt-auto flex justify-start"
-              style={{ paddingTop: LAYOUT.intro.ctaTopSpacing }}
+          {/* EXPERIENCE BADGE */}
+          <div
+            className="flex justify-start"
+            style={{
+              paddingTop: LAYOUT.intro.ctaTopSpacing,
+            }}
+          >
+            <span
+              className="inline-flex items-center justify-center rounded bg-[#caa193] px-8 font-play text-xs text-white sm:text-base"
+              style={{
+                height: LAYOUT.intro.ctaHeight,
+              }}
             >
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center rounded border border-[#caa193] px-8 font-play text-xs uppercase text-white transition-colors hover:bg-[#caa193] hover:text-black sm:text-base"
-                style={{ height: LAYOUT.intro.ctaHeight }}
-              >
-                Get Your Quote
-              </Link>
-            </div>
+              11+ Years of Experience
+            </span>
           </div>
         </div>
+
+        {/* VIDEO TEMPORARILY DISABLED
+            Restore the video and two-column layout
+            when the beauty salon YouTube video is ready.
+        */}
       </div>
     </section>
   );
 }
+
 
 /* ======================================================================
  * 02 - TWO SUPPLIED SALON PROJECT ENTRIES / FOUR-COLUMN DESKTOP GRID
